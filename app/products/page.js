@@ -3,12 +3,23 @@ import { getAllProducts, getCategoryCounts } from "@/lib/catalog";
 import { companyProfile } from "@/data/companyProfile";
 import Image from "next/image";
 import Link from "next/link";
+import { Suspense } from "react";
 
 export const metadata = {
   title: "Products | Larkosis Pharma",
   description:
     "Browse the Larkosis Pharma product catalog and submit quote requests.",
 };
+
+function CatalogFallback() {
+  return (
+    <div className="mx-auto w-full max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8">
+      <div className="rounded-2xl border border-[#f2d6c4] bg-white p-8 text-center text-sm font-medium text-[#6c4630]">
+        Loading product catalog...
+      </div>
+    </div>
+  );
+}
 
 export default function ProductsPage() {
   const products = getAllProducts();
@@ -167,7 +178,9 @@ export default function ProductsPage() {
 
       {/* Catalog Section with Anchor */}
       <div id="catalog">
-        <CatalogClient products={products} categories={categories} />
+        <Suspense fallback={<CatalogFallback />}>
+          <CatalogClient products={products} categories={categories} />
+        </Suspense>
       </div>
 
       {/* Optional: Add a CTA Section */}
