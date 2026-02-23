@@ -1,0 +1,1279 @@
+{
+  "250": [],
+  "carboplatin": [
+    "41575-94-4"
+  ],
+  "cisplatin": [
+    "15663-27-1"
+  ],
+  "cyclophosphamide": [
+    "50-18-0"
+  ],
+  "doxorubicin hydrochloride": [
+    "25316-40-9"
+  ],
+  "epirubicin hydrochloride": [
+    "56390-09-1"
+  ],
+  "fluorouracil": [
+    "51-21-8",
+    "191047-65-1",
+    "191047-64-0",
+    "191115-88-5",
+    "1004-03-1",
+    "2794-13-0",
+    "001-25-2"
+  ],
+  "docetaxal": [
+    "125354-16-7"
+  ],
+  "ifosfamide": [
+    "3778-73-2",
+    "66849-34-1"
+  ],
+  "liposomal doxorubicin hydrochloride": [
+    "25316-40-9"
+  ],
+  "methotrexate": [
+    "59-05-2",
+    "133073-73-1",
+    "102613-64-9"
+  ],
+  "paclitaxel": [
+    "33069-62-4",
+    "1203669-79-7"
+  ],
+  "tamoxifen": [
+    "10540-29-1"
+  ],
+  "vinblastine sulphate": [
+    "143-67-9",
+    "18556-44-0"
+  ],
+  "amoxicillin": [
+    "26787-78-0"
+  ],
+  "clavulanate potassium": [
+    "61177-45-5"
+  ],
+  "levofloxacin": [
+    "100986-85-4"
+  ],
+  "ornidazole": [
+    "16773-42-5"
+  ],
+  "dicloxacillin": [
+    "3116-76-5"
+  ],
+  "ampicillin": [
+    "69-53-4",
+    "236-21-5"
+  ],
+  "azithromycin despersible": [],
+  "azithromycin": [
+    "83905-01-5"
+  ],
+  "cefpodoxime": [
+    "80210-62-4",
+    "82619-04-3"
+  ],
+  "cefpodoxime proxetil": [
+    "87239-81-4"
+  ],
+  "co-amoxiclav": [
+    "74469-00-4"
+  ],
+  "azithromycin dihydrate": [
+    "117772-70-0"
+  ],
+  "cefepime": [
+    "88040-23-7"
+  ],
+  "cefixime": [
+    "79350-37-1",
+    "001-02-5",
+    "001-11-6"
+  ],
+  "cefixime dispersible": [],
+  "cefalexin": [
+    "15686-71-2",
+    "34632-04-7"
+  ],
+  "cefadroxil": [
+    "50370-12-2"
+  ],
+  "chloroquine phosphatetablets": [],
+  "ciprofloxacin": [
+    "85721-33-1",
+    "93107-08-5"
+  ],
+  "ceftriaxone sodium": [
+    "74578-69-1"
+  ],
+  "cefotaxime sodium": [
+    "64485-93-4"
+  ],
+  "cefazolin sodium": [
+    "27164-46-1"
+  ],
+  "gatifloxacin": [
+    "112811-59-3",
+    "160738-57-8",
+    "001-06-9"
+  ],
+  "gentamicin": [
+    "1403-66-3",
+    "1294497-75-8"
+  ],
+  "ofloxacin": [
+    "82419-36-1",
+    "83380-47-6"
+  ],
+  "ofloxacin releasetablets": [],
+  "norfloxacin": [
+    "70458-96-7"
+  ],
+  "co-trimoxazole": [
+    "8064-90-2",
+    "50808-41-8"
+  ],
+  "erythromycin stearate": [
+    "643-22-1"
+  ],
+  "doxycycline": [
+    "7164-70-7",
+    "564-25-0",
+    "24390-14-5"
+  ],
+  "tetracycline": [
+    "60-54-8"
+  ],
+  "chloramphenicol": [
+    "56-75-7",
+    "125440-98-4",
+    "2787-09-9"
+  ],
+  "ceftazidime": [
+    "72558-82-8"
+  ],
+  "cefpirome": [
+    "84957-29-9"
+  ],
+  "cefpodoxime proxetil 100": [],
+  "cefadroxyl dispersible 125": [],
+  "cefadroxil dispersible 125": [],
+  "cefadroxyl": [],
+  "cephalexin": [
+    "15686-71-2",
+    "34632-04-7"
+  ],
+  "cefoperazone": [
+    "62893-19-0"
+  ],
+  "sulbactam": [
+    "68373-14-8"
+  ],
+  "piperacillin tazobactam": [],
+  "ampicillin sodium": [
+    "69-52-3"
+  ],
+  "ampicillin trihydrate": [
+    "7177-48-2"
+  ],
+  "cloxacillin": [
+    "61-72-3",
+    "236-05-5"
+  ],
+  "clavulanate pot": [],
+  "amoxicillin sodium": [
+    "34642-77-8"
+  ],
+  "amoxicillin dispersible": [],
+  "lactobacillus 125": [],
+  "lactobacillu s": [],
+  "piperacillin": [
+    "61477-96-1"
+  ],
+  "tazobactam": [
+    "89786-04-9",
+    "1246733-29-8",
+    "89785-84-2"
+  ],
+  "alprazolam": [
+    "28981-97-7",
+    "51339-48-1",
+    "001-01-4",
+    "1246182-61-5"
+  ],
+  "albendazole": [
+    "54965-21-8",
+    "001-04-7"
+  ],
+  "ivermectin 5x1x1 levamisol hydrochloride": [],
+  "cetirizine dihydrochloride": [
+    "83881-52-1"
+  ],
+  "levocetrizine dihydrochloride": [],
+  "gliclazide": [
+    "21187-98-4"
+  ],
+  "metformin hydrochloride": [
+    "1115-70-4"
+  ],
+  "metformin sustained": [],
+  "camylofin dihydrochloride": [
+    "5892-41-1"
+  ],
+  "paracetamol": [
+    "103-90-2"
+  ],
+  "dicyclomine hydrochloride": [
+    "67-92-5"
+  ],
+  "oyster shell calcium": [
+    "471-34-1",
+    "13397-26-7",
+    "72608-12-9",
+    "13701-58-1"
+  ],
+  "vitamin d3": [
+    "67-97-0",
+    "2416217-93-9"
+  ],
+  "sodium alendronate": [
+    "121268-17-5"
+  ],
+  "calcitrol": [
+    "32222-06-3",
+    "1000873-74-4",
+    "66772-14-3"
+  ],
+  "calcium citrate": [
+    "813-94-5",
+    "7693-13-2"
+  ],
+  "zinc": [
+    "7440-66-6",
+    "14018-82-7"
+  ],
+  "calcium carb": [],
+  "alfacalcidol": [
+    "41294-56-8"
+  ],
+  "magnesium": [
+    "7439-95-4"
+  ],
+  "calcium citrate maleate ele cal": [],
+  "clotrimoxazole": [],
+  "ambroxol": [
+    "18683-91-5",
+    "107814-37-9",
+    "36557-04-7",
+    "1217679-83-8",
+    "23828-92-4"
+  ],
+  "10x10 gatifloxacin": [],
+  "10x10 ciprofloxacin": [],
+  "tinidazole": [
+    "19387-91-8",
+    "148159-84-6",
+    "001-25-2"
+  ],
+  "metronidazole": [
+    "443-48-1",
+    "56010-45-8"
+  ],
+  "nitazoxanide": [
+    "55981-09-4"
+  ],
+  "ofloxacin 200": [],
+  "ornidazole 200": [],
+  "lomefloxacin": [
+    "98079-51-7",
+    "003-09-8"
+  ],
+  "sparfloxacin": [
+    "110871-86-8"
+  ],
+  "levofloxacin 250": [],
+  "ofloxacin satranidazole": [],
+  "doxapram hcl": [
+    "7081-53-0",
+    "15083-72-4"
+  ],
+  "glycopyrrolate": [
+    "596-51-0"
+  ],
+  "rabeprazole sodium": [
+    "117976-90-6",
+    "171440-19-0"
+  ],
+  "prenoxdiazine hcl": [],
+  "salbutamol sulphate": [
+    "36519-31-0"
+  ],
+  "diclofenac sodium": [
+    "15307-79-6"
+  ],
+  "diclofenac sodium with paracetamol": [],
+  "etoricoxib": [
+    "202409-33-4"
+  ],
+  "tramadol hydrochloride": [
+    "36282-47-0",
+    "148229-78-1",
+    "22204-88-2",
+    "194602-08-9",
+    "53611-16-8"
+  ],
+  "mosapride": [
+    "112885-41-3"
+  ],
+  "nimesulide": [
+    "51803-78-2",
+    "1364966-82-4"
+  ],
+  "chlorzoxazone": [
+    "95-25-0",
+    "001-08-1",
+    "001-17-2"
+  ],
+  "tizanidine": [
+    "51322-75-9"
+  ],
+  "nimesulide b p": [],
+  "diclo": [],
+  "para": [
+    "106-50-3",
+    "25168-37-0"
+  ],
+  "chlor": [
+    "7782-50-5",
+    "81859-29-2"
+  ],
+  "potassium": [
+    "7440-09-7"
+  ],
+  "ibuprofen": [
+    "58560-75-1",
+    "15687-27-1",
+    "1189866-35-0"
+  ],
+  "aceclofenac": [
+    "89796-99-6"
+  ],
+  "rabeprazole": [
+    "117976-89-3",
+    "236-09-9"
+  ],
+  "serratiopeptidase": [
+    "37312-62-2",
+    "70851-98-8",
+    "95077-02-4"
+  ],
+  "amlodipine besilate": [
+    "111470-99-6"
+  ],
+  "lisinopril": [
+    "76547-98-3",
+    "83915-83-7",
+    "001-11-6",
+    "335-03-5"
+  ],
+  "atenolol": [
+    "29122-68-7",
+    "60966-51-0",
+    "001-02-5",
+    "106020-65-9"
+  ],
+  "enalapril maleate": [
+    "76095-16-4"
+  ],
+  "diazepam": [
+    "439-14-5",
+    "11100-37-1"
+  ],
+  "methocarbamol": [
+    "532-03-6",
+    "145841-69-6",
+    "001-05-8",
+    "3967-43-9"
+  ],
+  "methocarbamol, diclofenac potassium": [],
+  "tizanidine hydrochloride": [
+    "64461-82-1",
+    "74113-36-3"
+  ],
+  "prednisolone": [
+    "50-24-8",
+    "8056-11-9"
+  ],
+  "ondansetran hydrochloride dihydrate": [],
+  "dihydrate": [],
+  "meropenem": [
+    "96036-03-2"
+  ],
+  "vancomycin": [
+    "1404-90-6"
+  ],
+  "amikacin sulphate": [
+    "39831-55-5"
+  ],
+  "gentamycin , ,": [],
+  "gentamycin": [
+    "1403-66-3",
+    "1294497-75-8"
+  ],
+  "erythromycin estolate": [
+    "3521-62-8"
+  ],
+  "dexamethasone": [
+    "50-02-2",
+    "23495-06-9",
+    "1050677-47-8"
+  ],
+  "chloramphenicol 0 1": [],
+  "1 ,": [],
+  "satronidazole": [],
+  "trimethoprim": [
+    "738-70-5"
+  ],
+  "sulphamethoxazole": [
+    "723-46-6",
+    "144930-01-8",
+    "001-27-4"
+  ],
+  "cotrimoxazole": [
+    "8064-90-2",
+    "50808-41-8"
+  ],
+  "sulphadoxine": [
+    "2447-57-6",
+    "1173021-35-6"
+  ],
+  "pyrimethamine": [
+    "58-14-0"
+  ],
+  "rifampicin": [
+    "13292-46-1"
+  ],
+  "isoniazid": [
+    "54-85-3"
+  ],
+  "ethambutol": [
+    "74-55-5"
+  ],
+  "pyrazinamide": [
+    "98-96-4"
+  ],
+  "amlodipine 2 5": [],
+  "amlodipine": [
+    "88150-42-9",
+    "074-09-9"
+  ],
+  "enalapril": [
+    "75847-73-3",
+    "76095-16-4"
+  ],
+  "carvedilol 3 125": [],
+  "6 25": [],
+  "12 5": [],
+  "losartan potassium 25": [],
+  "indapamide 50": [],
+  "ramipril 1 25": [],
+  "2 5": [],
+  "ismn": [
+    "16051-77-7"
+  ],
+  "aspirin 30": [],
+  "atenolol 5": [],
+  "atorvastatin": [
+    "134523-00-5",
+    "110862-48-1"
+  ],
+  "pantoprazole": [
+    "102625-70-7",
+    "236-06-6"
+  ],
+  "domperidone": [
+    "57808-66-9"
+  ],
+  "ranitidine": [
+    "66357-35-5",
+    "82530-72-1",
+    "66357-59-3"
+  ],
+  "ml,": [],
+  "cisapride": [
+    "81098-60-4",
+    "86718-70-9",
+    "104860-66-4"
+  ],
+  "dimethicone 10": [],
+  "omeprazole": [
+    "73590-58-6",
+    "326602-80-6",
+    "668985-31-7",
+    "131959-78-9"
+  ],
+  "lansoprazole": [
+    "103577-45-3",
+    "1261394-42-6",
+    "001-26-3"
+  ],
+  "mosapride 2 5": [],
+  "esomeprazole 20": [],
+  "gliclazide 40": [],
+  "metformin 80": [],
+  "glimepiride": [
+    "93479-97-1",
+    "684286-46-2",
+    "261361-60-8"
+  ],
+  "metformin": [
+    "657-24-9",
+    "1115-70-4"
+  ],
+  "pioglitazone": [
+    "111025-46-8",
+    "105355-27-9",
+    "105390-47-4",
+    "003-06-5",
+    "198077-89-3"
+  ],
+  "sildenafil citrate": [
+    "171599-83-0"
+  ],
+  "tadalafil": [
+    "171596-29-5",
+    "1242099-07-5",
+    "171488-03-2"
+  ],
+  "verdanafil": [],
+  "flurbiprofen sod oph sol": [],
+  "chlor,beclo,clot": [],
+  "ligno ear": [],
+  "oflo,beclo,clotri": [],
+  "ofloxacin opth sol": [],
+  "gatifloxacin eye": [],
+  "ketorolac tro oph , eye": [],
+  "ear": [],
+  "polyvinyl al": [],
+  "povidone eye": [],
+  "prednisolone acetate oph sol , eye": [],
+  "ofloxa": [],
+  "pred acetate eye": [],
+  "ofloxacin oph sol": [],
+  "norfloxacin eye": [],
+  "cipro": [
+    "85721-33-1",
+    "93107-08-5"
+  ],
+  "dexa eye": [],
+  "betametha": [],
+  "neomycin e": [
+    "7542-37-2",
+    "134235-09-9",
+    "065-03-2"
+  ],
+  "dexa, boric": [],
+  "neomy e": [],
+  "gentamicin sul eye": [],
+  "norflo": [
+    "70458-96-7"
+  ],
+  "diclofenac sod eye": [],
+  "ciprofloxacin eye": [],
+  "dexa": [
+    "50-02-2",
+    "23495-06-9",
+    "1050677-47-8"
+  ],
+  "chloram eye": [],
+  "genta": [],
+  "naphazoline hcl opth sol": [],
+  "phenylephrine eye": [],
+  "diclofenac sodiom eye": [],
+  "gentamicin sulphate eye": [],
+  "neomycin eye": [],
+  "lubricating eye": [],
+  "timolol maleate eye": [],
+  "prednisolone acetate oph sol": [],
+  "prednisolone acetate": [
+    "52-21-1"
+  ],
+  "ofloxacin eye": [],
+  "dexa , boric acid": [],
+  "betamethasone": [
+    "378-44-9"
+  ],
+  "sulphacetamide sod eye": [],
+  "naphazoline, cpm": [],
+  "methylcellulose e": [],
+  "povidone iodine": [],
+  "cmc,glycerin": [],
+  "n-acetyl caronsine e": [],
+  "boric acid, sod chlo ,napha, zinc": [],
+  "cpm , eye": [],
+  "phen hcl, napha, menthol, camphor, hpmc , eye": [],
+  "sod cmc eye": [],
+  "fluorometholone oph susp": [],
+  "napha , cpm, zinc, boric acid": [],
+  "sod chloride , eye": [],
+  "flurbiprofen sodium": [
+    "56767-76-1"
+  ],
+  "chloramphenicol , eye": [],
+  "boric, phen hcl, napha , menthol": [],
+  "camphor , eye": [],
+  "bimatoprost": [
+    "155206-00-1"
+  ],
+  "cpm,boric acid, sod chloride": [],
+  "tetrahy hcl , eye": [],
+  "flurbiprofen sodium ophthalmic": [],
+  "oflo": [],
+  "dexa sod phos e": [],
+  "cip": [
+    "101385-69-7"
+  ],
+  "dexa e": [],
+  "oflo ,bec ,clot ,ligo ,methy ,propy , ear": [],
+  "naph nit ,chlo ,zinc sul ,boric acid eye": [],
+  "gatifloxacin, dexa phot": [],
+  "bkc eye": [],
+  "naph, hpmc,cpm, zinc sulphate, boric acid , eye": [],
+  "sodium carboxymethylcellulose": [
+    "9004-32-4",
+    "9085-26-1"
+  ],
+  "hydroxypropylmethyl cellulose": [],
+  "dexa sod eye": [],
+  "brimonide tartrate, timolol maleate": [],
+  "ciprofloxacin hcl, hpmc,bkc , eye": [],
+  "latanoprost, bkc , eye": [],
+  "latanprost, timolol maleate": [],
+  "tropicamide, peh, bkc , eye": [],
+  "olopatidine hydrochloride, bkc , eye": [],
+  "brimonidine tartrate, soc , eye": [],
+  "ofloxacin ophthalmic": [
+    "82419-36-1",
+    "83380-47-6"
+  ],
+  "tropicamide eye": [],
+  "sodium chloride eye dops": [],
+  "moxifloxacin eye": [],
+  "dexamethasone sod phos eye": [],
+  "naphazoline hcl, hpmc, borax": [],
+  "sodiumcarboxymethylcellulose": [],
+  "sulphacetamide sodium": [
+    "127-56-0"
+  ],
+  "betamethasone sod phos": [],
+  "chloramphenicol, polymyxin b sulphate,phenylmercuric nitrate": [],
+  "natamycin ophthalmic": [],
+  "naphazoline hydrochloride": [
+    "550-99-2"
+  ],
+  "prednisolone , azithromycin , ketrolac": [],
+  "ofloxacin ,": [],
+  "ketrolac tromethamine": [],
+  "moxifloxacin hcl eye drop , eye": [],
+  "xylometazoline hcl": [
+    "1218-35-5"
+  ],
+  "oxymetazoline hydrochloride nasal ,": [],
+  "camphone": [],
+  "chlorthymol": [
+    "89-68-9"
+  ],
+  "eucalyptol": [
+    "470-82-6",
+    "001-03-6"
+  ],
+  "menthol": [
+    "1490-04-6",
+    "15356-70-4",
+    "89-78-1",
+    "491-01-0",
+    "001-03-6"
+  ],
+  "terpineol": [
+    "98-55-5",
+    "8006-39-1",
+    "68797-63-7",
+    "8000-41-7"
+  ],
+  "diphenydramine hcl 25": [],
+  "elemental calcium 200": [],
+  "calcitrol 0 25": [],
+  "lycopene 6 5000": [],
+  "vitamine e acetate 100": [],
+  "selenium 100": [],
+  "multivitamin w": [],
+  "o ginseng": [],
+  "multivitamin with ginseng": [],
+  "betacarotene 10": [],
+  "zinc sulfate monohydrate 27 5": [],
+  "selenium 70": [
+    "19869-93-3"
+  ],
+  "manganese 2": [],
+  "copper 1": [],
+  "vitamin e 200": [],
+  "vitamin e 400": [],
+  "betacarotene": [
+    "7235-40-7",
+    "116-32-5"
+  ],
+  "lycopene": [
+    "502-65-8"
+  ],
+  "vitamin e acetate": [
+    "58-95-7",
+    "52225-20-4",
+    "54-22-8"
+  ],
+  "atorvastatin calcium": [
+    "134523-03-8",
+    "363599-71-7",
+    "1316891-47-0"
+  ],
+  "omega 3 fatty acid e p a": [],
+  "d h a": [],
+  "lycopene 10": [],
+  "l- argenine": [],
+  "l-arginine hydrochloride": [
+    "1119-34-2",
+    "15595-35-4"
+  ],
+  "glutathione": [
+    "70-18-8",
+    "95687-20-0",
+    "106272-20-2"
+  ],
+  "cholecalciferol": [
+    "67-97-0",
+    "2416217-93-9"
+  ],
+  "iodine": [
+    "7553-56-2",
+    "12190-71-5",
+    "8031-47-8"
+  ],
+  "zinc sulphate h2o": [],
+  "manganese sulphate h2o": [],
+  "magnesium oxide eq to": [],
+  "elemental mg omega - 3 fatty acid equivalent to eicosapentaenoic acid": [],
+  "docosahexaeboic acid": [],
+  "vitamin b 6": [
+    "8059-24-3"
+  ],
+  "vitamin c": [
+    "50-81-7",
+    "6730-29-6",
+    "53262-66-1"
+  ],
+  "vitamin b 12": [
+    "68-19-9"
+  ],
+  "folic acid": [
+    "59-30-3",
+    "112339-08-9",
+    "112339-32-9",
+    "6484-89-5"
+  ],
+  "coenzyme q 10": [
+    "303-98-0"
+  ],
+  "docosahezaenoic acid": [],
+  "ginseng extract": [],
+  "niacinamide": [
+    "98-92-0",
+    "11032-50-1"
+  ],
+  "calcium carbonate": [
+    "471-34-1",
+    "13397-26-7",
+    "72608-12-9",
+    "13701-58-1"
+  ],
+  "calcium ascorbate": [
+    "5743-27-1"
+  ],
+  "ciprofloxacin intravenous": [],
+  "dextrose": [
+    "50-99-7",
+    "2280-44-6",
+    "54-17-1"
+  ],
+  "mannitol": [
+    "69-65-8",
+    "87-78-5",
+    "133-43-7",
+    "85085-15-0"
+  ],
+  "linezolid": [
+    "165800-03-3"
+  ],
+  "ofloxacin influsion i v levofloxacin intravenous": [],
+  "moxifloxacin intravenous": [],
+  "fluconazole": [
+    "86386-73-4",
+    "123631-92-5"
+  ],
+  "paracetamol i v paracetamol": [],
+  "diclofenac": [
+    "15307-86-5",
+    "128402-48-2"
+  ],
+  "amikacin sul": [],
+  "chloroquine phosphate": [
+    "50-63-5"
+  ],
+  "dexa , methyl , propyl paraben": [],
+  "dexamethasone sod phos": [],
+  "dic sodium": [],
+  "diclofenac sod": [
+    "15307-79-6"
+  ],
+  "dicyclomine hcl": [
+    "67-92-5"
+  ],
+  "etamsylate": [
+    "2624-44-4"
+  ],
+  "etofylline": [
+    "519-37-9",
+    "001-23-0"
+  ],
+  "theophylline": [
+    "58-55-9",
+    "75448-53-2",
+    "50857-74-4",
+    "1246816-25-0",
+    "205-02-7",
+    "8061-56-1"
+  ],
+  "frusemide": [
+    "54-31-9",
+    "001-05-8",
+    "001-20-7"
+  ],
+  "genta , methyl , propyl paraben": [],
+  "gentamicin sul": [],
+  "menadione sodium bisulphite": [
+    "130-37-0"
+  ],
+  "methyl pred acetate": [],
+  "methylcobalamin": [
+    "13422-55-4"
+  ],
+  "methylergometrine": [
+    "113-42-8"
+  ],
+  "metroclopramide hydrochloride": [],
+  "metroclopramide hcl": [],
+  "ondansetron": [
+    "99614-02-5",
+    "116002-70-1"
+  ],
+  "ondasetoron hcl": [],
+  "oxytocin": [
+    "50-56-6"
+  ],
+  "pentazocine lactate": [
+    "17146-95-1"
+  ],
+  "quinine dihydrochloride": [
+    "60-93-5"
+  ],
+  "ranitidine hcl": [
+    "66357-59-3",
+    "71130-06-8"
+  ],
+  "ranitidine hydrochloride": [
+    "66357-59-3",
+    "71130-06-8"
+  ],
+  "sodium chloride": [
+    "7647-14-5",
+    "14762-51-7",
+    "32343-72-9"
+  ],
+  "solium bacarbonate": [],
+  "sterile artesunate": [],
+  "sterile water": [
+    "7732-18-5"
+  ],
+  "triamcinolone acetonide": [
+    "76-25-5"
+  ],
+  "velthemide bromide": [],
+  "vitamin b complex": [],
+  "cholestyramine": [],
+  "clonezepam": [],
+  "faropenem sodium": [
+    "122547-49-3"
+  ],
+  "ferrous ascorbate": [
+    "24808-52-4"
+  ],
+  "fexofenadine hcl": [
+    "153439-40-8",
+    "138452-21-8"
+  ],
+  "gabapentin": [
+    "60142-96-3",
+    "1126623-20-8"
+  ],
+  "glibenclamide": [
+    "10238-21-8"
+  ],
+  "metformin hydro": [],
+  "glipizide": [
+    "29094-61-9",
+    "172964-66-8"
+  ],
+  "iron hydroxide polymaltose complex eq elemental iron": [],
+  "levocetirizne": [],
+  "methyl prednisolone": [],
+  "misoprostol": [
+    "59122-46-2",
+    "103601-27-0",
+    "848849-83-2"
+  ],
+  "metoprolol": [
+    "51384-51-1",
+    "37350-58-6",
+    "54163-88-1"
+  ],
+  "amlodepine": [],
+  "olanzapine": [
+    "132539-06-1",
+    "001-16-1"
+  ],
+  "pancreatin": [
+    "1709-88-2",
+    "8049-47-6"
+  ],
+  "bromhexine": [
+    "3572-43-8",
+    "003-02-1"
+  ],
+  "chlorpheniramine maleate": [
+    "113-92-8"
+  ],
+  "phenylephrine": [
+    "59-42-7",
+    "1228015-39-1"
+  ],
+  "guaiphenesin": [
+    "93-14-1",
+    "001-05-8"
+  ],
+  "ephedrine": [
+    "299-42-3"
+  ],
+  "caffeine": [
+    "58-08-2",
+    "95789-13-2",
+    "114303-55-8"
+  ],
+  "paracetamo": [],
+  "phenylpropanolamine": [
+    "14838-15-4",
+    "492-41-1"
+  ],
+  "cetirizine": [
+    "83881-51-0",
+    "774596-22-4",
+    "1219803-84-5"
+  ],
+  "pseudoephdrine": [],
+  "phenylepherine": [],
+  "triprolidine": [
+    "486-12-4"
+  ],
+  "phenylephrine hydrochloride": [
+    "61-76-7"
+  ],
+  "quinine sulphate": [
+    "804-63-7"
+  ],
+  "rabeprazol": [
+    "117976-89-3",
+    "236-09-9"
+  ],
+  "ramipril": [
+    "87333-19-5",
+    "1028843-43-7"
+  ],
+  "serritiopeptidase": [],
+  "diclofenac pottassium": [],
+  "simvastatin": [
+    "79902-63-9",
+    "001-05-8",
+    "001-11-6"
+  ],
+  "artesunate": [
+    "88495-63-0"
+  ],
+  "amodiaquinee": [],
+  "67 5": [],
+  "alpha beta artemether per": [],
+  "amodiaquinee hcl": [],
+  "artemether": [
+    "71963-77-4"
+  ],
+  "lumefantrine": [
+    "82186-77-4",
+    "120583-70-2",
+    "120583-71-3"
+  ],
+  "amodiaquine": [
+    "86-42-0",
+    "1021496-19-4"
+  ],
+  "chloroquine": [
+    "54-05-7",
+    "1246815-14-4",
+    "316-10-9",
+    "117399-83-4"
+  ],
+  "mefloquine": [
+    "53230-10-7",
+    "49752-90-1"
+  ],
+  "mefloquine hcl": [
+    "51773-92-3",
+    "51742-86-0"
+  ],
+  "primaquine phosphate": [
+    "63-45-6"
+  ],
+  "proguanil hcl": [
+    "637-32-1",
+    "1189671-34-8"
+  ],
+  "azithromycin 10x10": [],
+  "cefixime / 10 x 10 s": [],
+  "chloroquine phosphate /": [],
+  "ofloxacin releasetablets 10 x 10 s": [],
+  "cefpodoxime proxetil 100 /": [],
+  "cefadroxil 125/": [],
+  "cefadroxil 125": [],
+  "cefadroxil /": [],
+  "piperacillin + tazobactam +": [],
+  "piperacillin + tazobactam + 0": [],
+  "amoxicillin /": [],
+  "levocetirizine hydrochloride": [
+    "823178-28-5"
+  ],
+  "levocetirizine hydrochloride --- fexofenadine hydrochloride 10 x 10 s": [],
+  "metformin --- --- glimepiride 10 x 10 s uncoated": [],
+  "clotrimazole": [
+    "23593-75-1",
+    "117829-71-7"
+  ],
+  "clotrimazole 1": [],
+  "ofloxacin 200 /": [],
+  "levofloxacin 250/": [],
+  "ofloxacin secnidazole +": [],
+  "ofloxacin secnidazole": [],
+  "prenoxdiazine hydrochloride": [
+    "982-43-4"
+  ],
+  "prenoxdiazine hydrochloride 10 x 10 s": [],
+  "diclofenac sodium with paracetamol + 10 x 10 s": [],
+  "nimesulide b": [],
+  "ondansetran hydrochloride dihydrate --- --- --- ondansetran hydrochloride": [],
+  "dihydrate --- / / --- ---": [],
+  "gentamycin inj / , ,": [],
+  "gentamycin inj": [],
+  ", ,": [],
+  "gentamycin inj / ,": [],
+  "amlodipine /": [],
+  "amlodipine 2": [],
+  "carvedilol /12 5/": [],
+  "carvedilol 3": [],
+  "carvedilol": [
+    "72956-09-3",
+    "107741-96-8"
+  ],
+  "losartan potassium 25/": [],
+  "ramipril /": [],
+  "ramipril 1": [],
+  "mosapride 2 5 /": [],
+  "mosapride 2": [],
+  "esomeprazole 20/": [],
+  "gliclazide 40 /": [],
+  "verdanafil 10x10": [],
+  "flurbiprofen sod": [],
+  "chlor,beclo,clot& ligno ear": [],
+  "oflo,beclo,clotri& ligno ear": [],
+  "ofloxacin opth": [],
+  "ketorolac tro oph , eye/ear": [],
+  "ketorolac tro": [],
+  "ketorolac tro oph ,": [],
+  "polyvinyl al & povidone eye": [],
+  "polyvinyl al & povidone": [],
+  "prednisolone acetate oph sol , eye/ear": [],
+  "prednisolone acetate oph": [],
+  "ofloxa & pred acetate eye": [],
+  "ofloxa & pred": [],
+  "ofloxa & pred acetate": [],
+  "ofloxacin oph": [],
+  "norfloxacin eye/ear": [],
+  "dexa, boric & neomy e/e": [],
+  "dexa, boric & neomy": [],
+  "gentamicin sul eye/ear": [],
+  "diclofenac sod eye/ear": [],
+  "ciprofloxacin eye/ear": [],
+  "genta & dexa eye/ear": [],
+  "naphazoline hydrochloride opth sol": [],
+  "naphazoline hydrochloride opth": [],
+  "diclofenac sodiom eye / ear": [],
+  "diclofenac sodiom eye /": [],
+  "gentamicin sulphate eye/ear": [],
+  "sulphacetamide sod": [],
+  "naphazoline, cpm & methylcellulose e/e": [],
+  "naphazoline": [
+    "835-31-4",
+    "10061-11-7",
+    "550-99-2",
+    "003-15-6"
+  ],
+  "naphazoline, cpm & methylcellulose": [],
+  "cmc,glycerin & n-acetyl caronsine e/e": [],
+  "cmc": [],
+  "cmc,glycerin & n-acetyl caronsine": [],
+  "boric acid, sod chlo ,napha, zinc & cpm , eye/ear": [],
+  "boric acid": [
+    "10043-35-3",
+    "11113-50-1",
+    "1332-77-0"
+  ],
+  "boric acid, sod chlo": [],
+  "phen hydrochloride, napha, menthol, camphor, hpmc , eye/ear": [],
+  "phen": [
+    "66-71-7"
+  ],
+  "phen hydrochloride, napha, menthol, camphor, hpmc , eye": [],
+  "phen hydrochloride, napha, menthol,": [],
+  "sod": [],
+  "fluorometholone oph": [],
+  "napha , cpm, zinc, boric acid & sod chloride , eye/ear": [],
+  "napha": [],
+  "napha , cpm, zinc,": [],
+  "boric, phen hydrochloride, napha , menthol & camphor , eye/ear": [],
+  "boric": [],
+  "boric, phen hydrochloride, napha , menthol": [],
+  "boric, phen hydrochloride, napha": [],
+  "cpm,boric acid, sod chloride & tetrahy hydrochloride , eye/ear": [],
+  "cpm": [
+    "76877-33-3"
+  ],
+  "tetrahy hydrochloride , eye": [],
+  "oflo & dexa sod phos e/e": [],
+  "oflo & dexa sod": [],
+  "oflo ,bec ,clot ,ligo": [],
+  "naph": [],
+  "naph nit ,chlo ,zinc": [],
+  "gatifloxacin, dexa phot & bkc eye": [],
+  "gatifloxacin, dexa phot &": [],
+  "naph, hpmc,cpm, zinc sulphate, boric acid , eye/ear": [],
+  "naph, hpmc,cpm, zinc sulphate,": [],
+  "brimonide tartrate": [],
+  "ciprofloxacin hydrochloride, hpmc,bkc , eye/ear": [],
+  "ciprofloxacin hydrochloride": [
+    "86393-32-0",
+    "128074-72-6"
+  ],
+  "ciprofloxacin hydrochloride, hpmc,bkc , eye": [],
+  "ciprofloxacin hydrochloride, hpmc,bkc ,": [],
+  "latanoprost, bkc , eye/ear": [],
+  "latanoprost": [
+    "130209-82-4",
+    "155551-81-8"
+  ],
+  "latanprost": [],
+  "tropicamide, peh, bkc , eye/ear": [],
+  "tropicamide": [
+    "1508-75-4",
+    "001-05-8",
+    "001-20-7"
+  ],
+  "tropicamide, peh, bkc ,": [],
+  "olopatidine hydrochloride, bkc , eye/ear": [],
+  "olopatidine hydrochloride": [],
+  "olopatidine hydrochloride, bkc ,": [],
+  "brimonidine tartrate, , eye/ear": [],
+  "brimonidine tartrate": [
+    "70359-46-5",
+    "79570-19-7",
+    "109826-56-4"
+  ],
+  "brimonidine tartrate, , eye": [],
+  "naphazoline hydrochloride, hpmc, borax": [],
+  "betamethasone sod": [],
+  "chloramphenicol, polymyxin b sulphate,phenylmercuric": [],
+  "ketrolac tromethamine +moxifloxacin hydrochloride eye , eye/ear": [],
+  "ketrolac tromethamine +moxifloxacin hydrochloride eye": [],
+  "moxifloxacin hydrochloride eye , eye": [],
+  "ketrolac tromethamine +moxifloxacin hydrochloride": [],
+  "oxymetazoline hydrochloride nasal": [],
+  "diphenydramine hydrochloride 25": [],
+  "diphenydramine hydrochloride 25 30x10": [],
+  "elemental calcium 200 + calcitrol 0 25": [],
+  "elemental calcium 200 + calcitrol 0": [],
+  "elemental calcium 200 +": [],
+  "lycopene 6 5000 + vitamine e acetate 100 + selenium 100": [],
+  "lycopene 6 5000 + vitamine e acetate 100 + selenium 100 10x10": [],
+  "lycopene 6 5000 +": [],
+  "multivitamin w/o ginseng": [],
+  "multivitamin w/o ginseng 10x1x10": [],
+  "multivitamin with ginseng 10x1x10": [],
+  "vitamin e 200 10x10": [],
+  "vitamin e 400 10x10": [],
+  "elemental mg omega - 3 fatty acid equivalent to eicosapentaenoic acid & docosahexaeboic acid": [],
+  "elemental mg": [],
+  "elemental mg omega -": [],
+  "docosahezaenoic acid + + + + +": [],
+  "docosahezaenoic acid + + + + + 10x10": [],
+  "docosahezaenoic acid + +": [],
+  "ginseng extract highly concentrated & standardized": [],
+  "ciprofloxacin intravenous i": [],
+  "ofloxacin influsion 0": [],
+  "ofloxacin influsion i v": [],
+  "moxifloxacin intravenous 0": [],
+  "amikacin sul inj": [],
+  "betamethasone sod phos inj": [],
+  "dexa , methyl ,": [],
+  "dexamethasone sod phos inj": [],
+  "dexamethasone sod": [],
+  "dic": [
+    "693-13-0"
+  ],
+  "genta , methyl ,": [],
+  "gentamicin sul inj": [],
+  "gentamicin sul inj / / /": [],
+  "gentamicin sul inj /": [],
+  "methyl pred acetate inj": [],
+  "methyl pred": [],
+  "metroclopramide hydrochloride /": [],
+  "metroclopramide hydrochloride inj": [],
+  "ondasetoron hydrochloride /ml / /": [],
+  "ondasetoron hydrochloride": [],
+  "ondasetoron hydrochloride /ml /": [],
+  "solium bacarbonate /": [],
+  "velthemide bromide /": [],
+  "velthemide bromide / 7": [],
+  "clonezepam 10x10": [],
+  "levocetirizne 20x10": [],
+  "methyl prednisolone 10x10": [],
+  "serritiopeptidase + diclofenac pottassium +": [],
+  "serritiopeptidase + diclofenac pottassium + 20x10": [],
+  "serritiopeptidase + diclofenac pottassium": [],
+  "amodiaquinee /": []
+}

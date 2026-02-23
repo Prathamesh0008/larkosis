@@ -1,0 +1,5472 @@
+[
+  {
+    "id": 1,
+    "slug": "carboplatin-1",
+    "name": "Carboplatin",
+    "category": "Anticancer",
+    "dosageForm": "Injection",
+    "strength": "10 mg",
+    "details": "Carboplatin Injection BP 10 mg/ ml Injection 150 mg/15 ml vial 450 mg/45 ml vial Liquid Injection",
+    "casId": "41575-94-4"
+  },
+  {
+    "id": 2,
+    "slug": "cisplatin-2",
+    "name": "Cisplatin",
+    "category": "Anticancer",
+    "dosageForm": "Injection",
+    "strength": "1 mg",
+    "details": "Cisplatin Injection BP 1 mg/ ml Injection 10 mg/ 10 ml vial, 50 mg/ 50 ml vial Liquid Injection",
+    "casId": "15663-27-1"
+  },
+  {
+    "id": 3,
+    "slug": "cyclophosphamide-for-3",
+    "name": "Cyclophosphamide for",
+    "category": "Anticancer",
+    "dosageForm": "Injection",
+    "strength": "200 mg/ 15 ml, 500 mg",
+    "details": "Cyclophosphamide for Injection BP/USP 200 mg/ 15 ml, 500 mg/ 30 ml, 1000 mg/ 50 ml Injection 200 mg/ 15 ml vial, 500 mg/ 30 ml vial, 1000 mg/ 50 ml vial Dry Powder For Injection",
+    "casId": "50-18-0"
+  },
+  {
+    "id": 4,
+    "slug": "doxorubicin-hydrochloride-4",
+    "name": "Doxorubicin Hydrochloride",
+    "category": "Anticancer",
+    "dosageForm": "Injection",
+    "strength": "10 mg/ 5 ml",
+    "details": "Doxorubicin Hydrochloride Injection USP 10 mg/ 5 ml 50 mg/ 25 ml Injection 10mg/ 5 ml vial 50 mg/ 25 ml vial Liquid Injection",
+    "casId": "25316-40-9"
+  },
+  {
+    "id": 5,
+    "slug": "epirubicin-hydrochloride-5",
+    "name": "Epirubicin Hydrochloride",
+    "category": "Anticancer",
+    "dosageForm": "Injection",
+    "strength": "10 mg",
+    "details": "Epirubicin Hydrochloride Injection INH 10 mg/ vial 50 mg/ vial Injection --- --- Etoposide Injection USP 20 mg/ ml Injection 100 mg/ 5 ml vial Liquid Injection",
+    "casId": "56390-09-1"
+  },
+  {
+    "id": 6,
+    "slug": "fluorouracil-6",
+    "name": "Fluorouracil",
+    "category": "Anticancer",
+    "dosageForm": "Injection",
+    "strength": "50 mg",
+    "details": "Fluorouracil Injection BP 50 mg/ ml Injection 250 mg/ 5 ml vial 500 mg/10 ml vial Liquid Injection",
+    "casId": "51-21-8, 191047-65-1, 191047-64-0"
+  },
+  {
+    "id": 7,
+    "slug": "docetaxal-7",
+    "name": "Docetaxal",
+    "category": "Anticancer",
+    "dosageForm": "Injection",
+    "strength": "40 mg",
+    "details": "Docetaxal Injection --- 40 mg/ ml --- --- --- Gemcitabine Hydrochloride for Injection INH 200 mg/ vial 1gm/ vial Injection --- --- Hydroxyurea Capsules USP 500 mg Capsules 10 x 10's Hard Gelatin Capsules",
+    "casId": "125354-16-7"
+  },
+  {
+    "id": 8,
+    "slug": "ifosfamide-for-8",
+    "name": "Ifosfamide for",
+    "category": "Anticancer",
+    "dosageForm": "Injection",
+    "strength": "1 gm",
+    "details": "Ifosfamide for Injection USP 1 gm/ vial Injection --- --- Irinotecan Hydrochloride Injection INH 20 mg/ ml Injection --- --- Letrozole Tablets USP 2.5 mg Tablets --- Film Coated Tablets",
+    "casId": "3778-73-2, 66849-34-1"
+  },
+  {
+    "id": 9,
+    "slug": "liposomal-doxorubicin-hydrochloride-9",
+    "name": "Liposomal Doxorubicin Hydrochloride",
+    "category": "Anticancer",
+    "dosageForm": "Injection",
+    "strength": "10 mg",
+    "details": "Liposomal Doxorubicin Hydrochloride Injection INH 10 mg 50 mg Injection --- --- Methotrexate Injection BP 25 mg/ml Injection 2.5 mg/ 2 ml vial 50 mg/ 2 ml vial 1000 mg/ 10 ml vial Liquid Injection",
+    "casId": "25316-40-9"
+  },
+  {
+    "id": 10,
+    "slug": "methotrexate-10",
+    "name": "Methotrexate",
+    "category": "Anticancer",
+    "dosageForm": "Tablets",
+    "strength": "2.5 mg",
+    "details": "Methotrexate Tablets BP 2.5 mg Tablets 10 x 10's Uncoated Tablets",
+    "casId": "59-05-2, 133073-73-1, 102613-64-9"
+  },
+  {
+    "id": 11,
+    "slug": "paclitaxel-11",
+    "name": "Paclitaxel",
+    "category": "Anticancer",
+    "dosageForm": "Injection",
+    "strength": "30 mg/5ml",
+    "details": "Paclitaxel Injection USP 30 mg/5ml 100 mg/16.7 ml 260 mg/43.4 ml Injection Vial containing 30mg Vial containing 100mg Vial containing 260 mg Liquid Injection",
+    "casId": "33069-62-4, 1203669-79-7"
+  },
+  {
+    "id": 12,
+    "slug": "tamoxifen-12",
+    "name": "Tamoxifen",
+    "category": "Anticancer",
+    "dosageForm": "Tablets",
+    "strength": "10 mg",
+    "details": "Tamoxifen Tablets BP 10 mg 20 mg Tablets 10 x 10's Uncoated Tablets",
+    "casId": "10540-29-1"
+  },
+  {
+    "id": 13,
+    "slug": "vinblastine-sulphate-13",
+    "name": "Vinblastine Sulphate",
+    "category": "Anticancer",
+    "dosageForm": "Injection",
+    "strength": "1 mg",
+    "details": "Vinblastine Sulphate Injection 1 mg/ ml Injection --- Vincristine Sulphate Injection BP 1 mg/ ml Injection ---",
+    "casId": "143-67-9, 18556-44-0"
+  },
+  {
+    "id": 14,
+    "slug": "amoxicillin-and-clavulanate-potassium-14",
+    "name": "Amoxicillin and Clavulanate Potassium",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "375 mg, 625 mg",
+    "details": "Amoxicillin and Clavulanate Potassium Tablets USP USP 375 mg, 625 mg 1000 mg Tablets 2 x 6's 2 x 6's 1 x 4's Film Coated Tablets",
+    "casId": "26787-78-0, 61177-45-5"
+  },
+  {
+    "id": 15,
+    "slug": "amoxicillin-15",
+    "name": "Amoxicillin",
+    "category": "Antibacterial",
+    "dosageForm": "Capsule",
+    "strength": "250mg",
+    "details": "Amoxicillin BP 250mg 500mg Capsule",
+    "casId": "26787-78-0"
+  },
+  {
+    "id": 16,
+    "slug": "levofloxacin-ornidazole-250mg-500mg-16",
+    "name": "Levofloxacin + Ornidazole 250mg + 500mg",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "250mg + 500mg",
+    "details": "Levofloxacin + Ornidazole 250mg + 500mg Tablets 10X10",
+    "casId": "100986-85-4, 16773-42-5"
+  },
+  {
+    "id": 17,
+    "slug": "amoxycillin-dicloxacillin-125mg-125mg-17",
+    "name": "Amoxycillin + Dicloxacillin 125mg + 125mg",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "125mg + 125mg",
+    "details": "Amoxycillin + Dicloxacillin 125mg + 125mg Tablets 10X10",
+    "casId": "26787-78-0, 3116-76-5"
+  },
+  {
+    "id": 18,
+    "slug": "ampicillin-125mg-18",
+    "name": "Ampicillin 125mg",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "125mg",
+    "details": "Ampicillin 125mg Tablets 20X10",
+    "casId": "69-53-4, 236-21-5"
+  },
+  {
+    "id": 19,
+    "slug": "ampicillin-250mg-19",
+    "name": "Ampicillin 250mg",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "250mg",
+    "details": "Ampicillin 250mg Tablets 10X10",
+    "casId": "69-53-4, 236-21-5"
+  },
+  {
+    "id": 20,
+    "slug": "azithtromycin-despersible-100mg-20",
+    "name": "Azithtromycin Despersible 100mg",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "100mg",
+    "details": "Azithtromycin Despersible 100mg Tablets 10X10",
+    "casId": "83905-01-5"
+  },
+  {
+    "id": 21,
+    "slug": "azithtromycin-100mg-21",
+    "name": "Azithtromycin 100mg",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "100mg",
+    "details": "Azithtromycin 100mg Tablets 10X10",
+    "casId": "83905-01-5"
+  },
+  {
+    "id": 22,
+    "slug": "azithtromycin-250mg-22",
+    "name": "Azithtromycin 250mg",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "250mg",
+    "details": "Azithtromycin 250mg Tablets 10X1X6",
+    "casId": "83905-01-5"
+  },
+  {
+    "id": 23,
+    "slug": "azithtromycin-500mg-23",
+    "name": "Azithtromycin 500mg",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "500mg",
+    "details": "Azithtromycin 500mg Tablets 10X1X3",
+    "casId": "83905-01-5"
+  },
+  {
+    "id": 24,
+    "slug": "cefpodoxime-clavulanate-potassium-200mg-125mg-24",
+    "name": "Cefpodoxime + Clavulanate Potassium 200mg + 125mg",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "200mg + 125mg",
+    "details": "Cefpodoxime + Clavulanate Potassium 200mg + 125mg Tablets 10X1X6",
+    "casId": "80210-62-4, 82619-04-3, 61177-45-5"
+  },
+  {
+    "id": 25,
+    "slug": "cefpodoxime-clavulanate-potassium-100mg-62-5mg-25",
+    "name": "Cefpodoxime + Clavulanate Potassium 100mg + 62.5mg",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "100mg + 62.5mg",
+    "details": "Cefpodoxime + Clavulanate Potassium 100mg + 62.5mg Tablets 6's",
+    "casId": "80210-62-4, 82619-04-3, 61177-45-5"
+  },
+  {
+    "id": 26,
+    "slug": "cefpodoxime-proxetil-50mg-26",
+    "name": "Cefpodoxime Proxetil 50mg",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "50mg",
+    "details": "Cefpodoxime Proxetil 50mg Tablets 10X10",
+    "casId": "87239-81-4"
+  },
+  {
+    "id": 27,
+    "slug": "cefpodoxime-proxetil-clavulanate-potassium-100mg-125mg-27",
+    "name": "Cefpodoxime Proxetil + Clavulanate Potassium 100mg + 125mg",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "100mg + 125mg",
+    "details": "Cefpodoxime Proxetil + Clavulanate Potassium 100mg + 125mg Tablets 3X10",
+    "casId": "87239-81-4, 61177-45-5"
+  },
+  {
+    "id": 28,
+    "slug": "co-amoxiclav-28",
+    "name": "Co-amoxiclav",
+    "category": "Antibacterial",
+    "dosageForm": "Injection",
+    "strength": "600mg /1200mg",
+    "details": "Co-amoxiclav Injection IH 600mg /1200mg Injection",
+    "casId": "74469-00-4"
+  },
+  {
+    "id": 29,
+    "slug": "azithromycin-dihydrate-29",
+    "name": "Azithromycin Dihydrate",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "250 mg/ 500 mg",
+    "details": "Azithromycin Dihydrate Tablets INH 250 mg/ 500 mg. Tablets 20 x10's Film Coated Tablets",
+    "casId": "117772-70-0"
+  },
+  {
+    "id": 30,
+    "slug": "cefepime-for-30",
+    "name": "Cefepime for",
+    "category": "Antibacterial",
+    "dosageForm": "Injection",
+    "strength": "500 mg/1000 mg",
+    "details": "Cefepime for Injection 500 mg/1000 mg Injection --- --- Cefixime Tablets USP 100 mg / 200 mg 400 mg Tablets 10 x 10's Film Coated Tablets",
+    "casId": "88040-23-7"
+  },
+  {
+    "id": 31,
+    "slug": "cefixime-for-oral-31",
+    "name": "Cefixime for Oral",
+    "category": "Antibacterial",
+    "dosageForm": "Suspension",
+    "strength": "50 mg/ 5ml",
+    "details": "Cefixime for Oral Suspension USP 50 mg/ 5ml Suspension Bottle of 30 ml Oral Liquid",
+    "casId": "79350-37-1, 001-02-5, 001-11-6"
+  },
+  {
+    "id": 32,
+    "slug": "cefixime-dispersible-32",
+    "name": "Cefixime Dispersible",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "50 mg / 100 mg",
+    "details": "Cefixime Dispersible Tablets INH 50 mg / 100 mg Tablets 10 x 10's Dispersible Tablets",
+    "casId": "79350-37-1, 001-02-5, 001-11-6"
+  },
+  {
+    "id": 33,
+    "slug": "cefpodoxime-33",
+    "name": "Cefpodoxime",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "100 mg/ 200 mg",
+    "details": "Cefpodoxime Tablets 100 mg/ 200 mg",
+    "casId": "80210-62-4, 82619-04-3"
+  },
+  {
+    "id": 34,
+    "slug": "cefalexin-34",
+    "name": "Cefalexin",
+    "category": "Antibacterial",
+    "dosageForm": "Capsules",
+    "strength": "250 mg / 500 mg",
+    "details": "Cefalexin Capsules BP BP 250 mg / 500 mg Capsules Hard Gelatin Capsules",
+    "casId": "15686-71-2, 34632-04-7"
+  },
+  {
+    "id": 35,
+    "slug": "cefadroxil-35",
+    "name": "Cefadroxil",
+    "category": "Antibacterial",
+    "dosageForm": "Capsules",
+    "strength": "250 mg/ 500 mg",
+    "details": "Cefadroxil Capsules BP BP 250 mg/ 500 mg Capsules Hard Gelatin Capsules",
+    "casId": "50370-12-2"
+  },
+  {
+    "id": 36,
+    "slug": "cefadroxil-oral-36",
+    "name": "Cefadroxil Oral",
+    "category": "Antibacterial",
+    "dosageForm": "Suspension",
+    "strength": "125 mg/ 5ml",
+    "details": "Cefadroxil Oral Suspension BP BP 125 mg/ 5ml Suspension Oral Liquid",
+    "casId": "50370-12-2"
+  },
+  {
+    "id": 37,
+    "slug": "cefadroxil-oral-37",
+    "name": "Cefadroxil Oral",
+    "category": "Antibacterial",
+    "dosageForm": "Suspension",
+    "strength": "250 mg/ 5ml",
+    "details": "Cefadroxil Oral Suspension BP BP 250 mg/ 5ml Suspension Oral Liquid",
+    "casId": "50370-12-2"
+  },
+  {
+    "id": 38,
+    "slug": "chloroquine-phosphatetablets-38",
+    "name": "Chloroquine PhosphateTablets",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "250 mg /500 mg",
+    "details": "Chloroquine PhosphateTablets BP 250 mg /500 mg. Tablets 50 x 10's Film Coated Tablets",
+    "casId": "50-63-5"
+  },
+  {
+    "id": 39,
+    "slug": "ciprofloxacin-39",
+    "name": "Ciprofloxacin",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "250 mg/ 500 mg",
+    "details": "Ciprofloxacin Tablets USP 250 mg/ 500 mg. Tablets 10 x 10's Film Coated Tablets",
+    "casId": "85721-33-1, 93107-08-5"
+  },
+  {
+    "id": 40,
+    "slug": "ceftriaxone-sodium-40",
+    "name": "Ceftriaxone Sodium",
+    "category": "Antibacterial",
+    "dosageForm": "Injection",
+    "strength": "1000mg/2000mg",
+    "details": "Ceftriaxone Sodium Injection BP 1000mg/2000mg Injection",
+    "casId": "74578-69-1"
+  },
+  {
+    "id": 41,
+    "slug": "cefotaxime-sodium-41",
+    "name": "Cefotaxime Sodium",
+    "category": "Antibacterial",
+    "dosageForm": "Injection",
+    "strength": "500mg /1000mg",
+    "details": "Cefotaxime Sodium Injection BP 500mg /1000mg 2000mg Injection",
+    "casId": "64485-93-4"
+  },
+  {
+    "id": 42,
+    "slug": "cefazolin-sodium-42",
+    "name": "Cefazolin Sodium",
+    "category": "Antibacterial",
+    "dosageForm": "Injection",
+    "strength": "1000mg",
+    "details": "Cefazolin Sodium Injection BP 1000mg Injection",
+    "casId": "27164-46-1"
+  },
+  {
+    "id": 43,
+    "slug": "gatifloxacin-43",
+    "name": "Gatifloxacin",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "200 mg/ 400 mg",
+    "details": "Gatifloxacin Tablets INH 200 mg/ 400 mg Tablets 10 x10's Film Coated Tablets",
+    "casId": "112811-59-3, 160738-57-8, 001-06-9"
+  },
+  {
+    "id": 44,
+    "slug": "gentamicin-44",
+    "name": "Gentamicin",
+    "category": "Antibacterial",
+    "dosageForm": "Injection",
+    "strength": "40 mg",
+    "details": "Gentamicin Injection BP 40 mg/ml Injection Vial of 10 ml Vial of 30 ml Liquid Injection",
+    "casId": "1403-66-3, 1294497-75-8"
+  },
+  {
+    "id": 45,
+    "slug": "levofloxacin-45",
+    "name": "Levofloxacin",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "250 mg/ 500 mg",
+    "details": "Levofloxacin Tablets INH 250 mg/ 500 mg Tablets Film Coated Tablets",
+    "casId": "100986-85-4"
+  },
+  {
+    "id": 46,
+    "slug": "ofloxacin-46",
+    "name": "Ofloxacin",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "200 mg/400 mg",
+    "details": "Ofloxacin Tablets INH 200 mg/400 mg Tablets 10 x10's Film Coated Tablets",
+    "casId": "82419-36-1, 83380-47-6"
+  },
+  {
+    "id": 47,
+    "slug": "ofloxacin-extended-releasetablets-47",
+    "name": "Ofloxacin Extended ReleaseTablets",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "400 mg",
+    "details": "Ofloxacin Extended ReleaseTablets INH 400 mg Tablets 10 x 10's Extended Release Film Coated Tablets",
+    "casId": "--"
+  },
+  {
+    "id": 48,
+    "slug": "norfloxacin-48",
+    "name": "Norfloxacin",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "200 mg / 400 mg",
+    "details": "Norfloxacin Tablets USP 200 mg / 400 mg Tablets Film Coated Tablets",
+    "casId": "70458-96-7"
+  },
+  {
+    "id": 49,
+    "slug": "co-trimoxazole-49",
+    "name": "Co-Trimoxazole",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "480 mg/ 960 mg",
+    "details": "Co-Trimoxazole Tablets BP BP 480 mg/ 960 mg Tablets 10x 10's 1000's Uncoated Tablets",
+    "casId": "8064-90-2, 50808-41-8"
+  },
+  {
+    "id": 50,
+    "slug": "co-trimoxazole-oral-50",
+    "name": "Co-Trimoxazole Oral",
+    "category": "Antibacterial",
+    "dosageForm": "Suspension",
+    "strength": "240 mg/ 5 ml",
+    "details": "Co-Trimoxazole Oral Suspension BP 240 mg/ 5 ml BP 240 mg/ 5ml Suspension Oral Liquid",
+    "casId": "8064-90-2, 50808-41-8"
+  },
+  {
+    "id": 51,
+    "slug": "erythromycin-stearate-51",
+    "name": "Erythromycin Stearate",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "250 mg/500 mg",
+    "details": "Erythromycin Stearate Tablets BP BP 250 mg/500 mg Tablets 10x 10's 1000's Film Coated Tablets",
+    "casId": "643-22-1"
+  },
+  {
+    "id": 52,
+    "slug": "doxycycline-52",
+    "name": "Doxycycline",
+    "category": "Antibacterial",
+    "dosageForm": "Capsules",
+    "strength": "100 mg",
+    "details": "Doxycycline Capsules BP BP 100 mg Capsules 10x 10's 1000's Hard Gelatin Capsules",
+    "casId": "7164-70-7, 564-25-0, 24390-14-5"
+  },
+  {
+    "id": 53,
+    "slug": "tetracycline-53",
+    "name": "Tetracycline",
+    "category": "Antibacterial",
+    "dosageForm": "Capsules",
+    "strength": "250 mg/ 500 mg",
+    "details": "Tetracycline Capsules BP BP 250 mg/ 500 mg Capsules 10x 10's 1000's Hard Gelatin Capsules",
+    "casId": "60-54-8"
+  },
+  {
+    "id": 54,
+    "slug": "chloramphenicol-54",
+    "name": "Chloramphenicol",
+    "category": "Antibacterial",
+    "dosageForm": "Capsules",
+    "strength": "250 mg/ 500 mg",
+    "details": "Chloramphenicol Capsules BP BP 250 mg/ 500 mg Capsules 10x 10's 1000's Hard Gelatin Capsules",
+    "casId": "56-75-7, 125440-98-4, 2787-09-9"
+  },
+  {
+    "id": 55,
+    "slug": "azithromycin-55",
+    "name": "Azithromycin",
+    "category": "Antibacterial",
+    "dosageForm": "Capsules",
+    "strength": "250 mg/500 mg",
+    "details": "Azithromycin Capsules USP USP 250 mg/500 mg Capsules 10x 10's 1000's Hard Gelatin Capsules",
+    "casId": "83905-01-5"
+  },
+  {
+    "id": 56,
+    "slug": "azithromycin-for-oral-56",
+    "name": "Azithromycin For Oral",
+    "category": "Antibacterial",
+    "dosageForm": "suspension",
+    "strength": "500 mg/ 5ml",
+    "details": "Azithromycin For Oral suspension USP USP 500 mg/ 5ml Suspension Bottle of 50 ml/ 100 ml Oral Liquid",
+    "casId": "83905-01-5"
+  },
+  {
+    "id": 57,
+    "slug": "ceftazidime-57",
+    "name": "Ceftazidime",
+    "category": "Antibacterial",
+    "dosageForm": "Injection",
+    "strength": "250 mg/500 mg",
+    "details": "Ceftazidime Injection BP 250 mg/500 mg 1000mg/2000 mg Injection --- --- Cefuroxime for Injection BP 750 mg/1500 mg Injection --- --- Cefuroxime Axetil Tablets USP 125 mg/ 250 mg 500 mg Tablets Film Coated Tablets",
+    "casId": "72558-82-8"
+  },
+  {
+    "id": 58,
+    "slug": "cefalexin-58",
+    "name": "Cefalexin",
+    "category": "Antibacterial",
+    "dosageForm": "Capsule",
+    "strength": "250 mg/ 500 mg",
+    "details": "Cefalexin Capsule BP 250 mg/ 500 mg Capsule",
+    "casId": "15686-71-2, 34632-04-7"
+  },
+  {
+    "id": 59,
+    "slug": "cefotaxime-sodium-59",
+    "name": "Cefotaxime Sodium",
+    "category": "Antibacterial",
+    "dosageForm": "Injection",
+    "strength": "500mg/1000 mg",
+    "details": "Cefotaxime Sodium Injection BP 500mg/1000 mg 2000 mg Injection",
+    "casId": "64485-93-4"
+  },
+  {
+    "id": 60,
+    "slug": "cefpirome-inj-1-gm-60",
+    "name": "Cefpirome Inj. 1 gm",
+    "category": "Antibacterial",
+    "dosageForm": "Injection",
+    "strength": "1 gm",
+    "details": "Cefpirome Inj. 1 gm Injection",
+    "casId": "84957-29-9"
+  },
+  {
+    "id": 61,
+    "slug": "cefpodoxime-proxetil-tabs-100-200-mg-61",
+    "name": "Cefpodoxime Proxetil Tabs 100 / 200 mg",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "200 mg",
+    "details": "Cefpodoxime Proxetil Tabs 100 / 200 mg Tablets",
+    "casId": "--"
+  },
+  {
+    "id": 62,
+    "slug": "cefpodoxime-proxetil-dry-62",
+    "name": "Cefpodoxime Proxetil Dry",
+    "category": "Antibacterial",
+    "dosageForm": "Syrup",
+    "strength": "50 mg / 5 ml",
+    "details": "Cefpodoxime Proxetil Dry Syrup 50 mg / 5 ml Suspension",
+    "casId": "87239-81-4"
+  },
+  {
+    "id": 63,
+    "slug": "cefadroxyl-dispersible-tabs-125-250mg-63",
+    "name": "Cefadroxyl Dispersible Tabs 125/250mg",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "250mg",
+    "details": "Cefadroxyl Dispersible Tabs 125/250mg Tablets",
+    "casId": "--"
+  },
+  {
+    "id": 64,
+    "slug": "cefixime-64",
+    "name": "Cefixime",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "200 mg",
+    "details": "Cefixime Usp Tabs 100/200 mg Tablets",
+    "casId": "79350-37-1, 001-02-5, 001-11-6"
+  },
+  {
+    "id": 65,
+    "slug": "cefixime-dry-65",
+    "name": "Cefixime Dry",
+    "category": "Antibacterial",
+    "dosageForm": "Syrup",
+    "strength": "50mg/5ml",
+    "details": "Cefixime Dry Syrup 50mg/5ml Suspension",
+    "casId": "79350-37-1, 001-02-5, 001-11-6"
+  },
+  {
+    "id": 66,
+    "slug": "cefadroxil-dispersible-tabs-125-250-500mg-66",
+    "name": "Cefadroxil Dispersible Tabs 125/250/500mg",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "500mg",
+    "details": "Cefadroxil Dispersible Tabs 125/250/500mg Tablets",
+    "casId": "50370-12-2"
+  },
+  {
+    "id": 67,
+    "slug": "cefadroxyl-dry-67",
+    "name": "Cefadroxyl Dry",
+    "category": "Antibacterial",
+    "dosageForm": "Syrup",
+    "strength": "125mg/5ml",
+    "details": "Cefadroxyl Dry Syrup 125mg/5ml Dry Syrup",
+    "casId": "50370-12-2"
+  },
+  {
+    "id": 68,
+    "slug": "cephalexin-68",
+    "name": "Cephalexin",
+    "category": "Antibacterial",
+    "dosageForm": "Suspension",
+    "strength": "125mg/5ml",
+    "details": "Cephalexin Suspension 125mg/5ml Suspension",
+    "casId": "15686-71-2, 34632-04-7"
+  },
+  {
+    "id": 69,
+    "slug": "cephalexin-69",
+    "name": "Cephalexin",
+    "category": "Antibacterial",
+    "dosageForm": "Capsules",
+    "strength": "250 mg/500 mg",
+    "details": "Cephalexin Bp Capsules 250 mg/500 mg Capsule",
+    "casId": "15686-71-2, 34632-04-7"
+  },
+  {
+    "id": 70,
+    "slug": "cefoperazone-sulbactam-70",
+    "name": "Cefoperazone+Sulbactam",
+    "category": "Antibacterial",
+    "dosageForm": "Vial",
+    "strength": "2 g",
+    "details": "Cefoperazone+Sulbactam Vial 1 / 2 g Injection",
+    "casId": "62893-19-0, 68373-14-8"
+  },
+  {
+    "id": 71,
+    "slug": "cefepime-inj-500-mg-1-g-71",
+    "name": "Cefepime Inj. 500 mg / 1 g",
+    "category": "Antibacterial",
+    "dosageForm": "Injection",
+    "strength": "500 mg / 1 g",
+    "details": "Cefepime Inj. 500 mg / 1 g Injection",
+    "casId": "88040-23-7"
+  },
+  {
+    "id": 72,
+    "slug": "piperacillin-tazobactam-4g-0-5g-72",
+    "name": "Piperacillin=Tazobactam 4g + 0.5g",
+    "category": "Antibacterial",
+    "dosageForm": "Injection",
+    "strength": "4g + 0.5g",
+    "details": "Piperacillin=Tazobactam 4g + 0.5g Injection",
+    "casId": "61477-96-1, 89786-04-9, 1246733-29-8"
+  },
+  {
+    "id": 73,
+    "slug": "ampicillin-sodium-73",
+    "name": "Ampicillin Sodium",
+    "category": "Antibacterial",
+    "dosageForm": "Vial",
+    "strength": "500mg/1g",
+    "details": "Ampicillin Sodium Bp Vial 100/250/500mg/1g Injection",
+    "casId": "69-52-3"
+  },
+  {
+    "id": 74,
+    "slug": "ampicillin-trihydrate-74",
+    "name": "Ampicillin Trihydrate",
+    "category": "Antibacterial",
+    "dosageForm": "Capsule",
+    "strength": "500 mg",
+    "details": "Ampicillin Trihydrate Bp Caps 250 / 500 mg Capsule",
+    "casId": "7177-48-2"
+  },
+  {
+    "id": 75,
+    "slug": "ampicillin-cloxacillin-75",
+    "name": "Ampicillin+ Cloxacillin",
+    "category": "Antibacterial",
+    "dosageForm": "Vial",
+    "strength": "500 mg",
+    "details": "Ampicillin+ Cloxacillin Vial 250/500 mg Injection",
+    "casId": "69-53-4, 236-21-5, 61-72-3"
+  },
+  {
+    "id": 76,
+    "slug": "ampicillin-cloxacillin-76",
+    "name": "Ampicillin + Cloxacillin",
+    "category": "Antibacterial",
+    "dosageForm": "Capsule",
+    "strength": "500 mg",
+    "details": "Ampicillin + Cloxacillin Bp Caps 250 /500 mg Capsule",
+    "casId": "69-53-4, 236-21-5, 61-72-3"
+  },
+  {
+    "id": 77,
+    "slug": "amoxycillin-clavulanate-pot-77",
+    "name": "Amoxycillin + Clavulanate Pot.",
+    "category": "Antibacterial",
+    "dosageForm": "Vial",
+    "strength": "600mg/1.2 g",
+    "details": "Amoxycillin + Clavulanate Pot. Usp Vial 150/300/ 600mg/1.2 gm Injection",
+    "casId": "26787-78-0"
+  },
+  {
+    "id": 78,
+    "slug": "amoxycillin-clavulanate-pot-78",
+    "name": "Amoxycillin + Clavulanate Pot.",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "1000 mg",
+    "details": "Amoxycillin + Clavulanate Pot. Usp Tabs 375/625/1000 mg Tablets",
+    "casId": "26787-78-0"
+  },
+  {
+    "id": 79,
+    "slug": "amoxycillin-clavulanate-pot-79",
+    "name": "Amoxycillin +Clavulanate Pot.",
+    "category": "Antibacterial",
+    "dosageForm": "Suspension",
+    "strength": "31.25mg/5ml",
+    "details": "Amoxycillin +Clavulanate Pot. Usp 125+31.25mg/5ml, Suspension Dry Syrup 200+28.5mg /5ml",
+    "casId": "26787-78-0"
+  },
+  {
+    "id": 80,
+    "slug": "amoxicillin-sodium-80",
+    "name": "Amoxicillin Sodium",
+    "category": "Antibacterial",
+    "dosageForm": "Vial",
+    "strength": "500 mg",
+    "details": "Amoxicillin Sodium Bp Vial 250 / 500 mg Injection",
+    "casId": "34642-77-8"
+  },
+  {
+    "id": 81,
+    "slug": "amoxycillin-dispersible-tabs-125mg-250-mg-81",
+    "name": "Amoxycillin Dispersible Tabs 125mg/250 mg",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "125mg/250 mg",
+    "details": "Amoxycillin Dispersible Tabs 125mg/250 mg Tablets",
+    "casId": "26787-78-0"
+  },
+  {
+    "id": 82,
+    "slug": "cloxacillin-inj-82",
+    "name": "Cloxacillin Inj.",
+    "category": "Antibacterial",
+    "dosageForm": "Injection",
+    "strength": "500 mg/ 1 g",
+    "details": "Cloxacillin Inj. Bp 250 / 500 mg/ 1 gm Injection",
+    "casId": "61-72-3, 236-05-5"
+  },
+  {
+    "id": 83,
+    "slug": "amoxycillin-lactobacillus-tabs-125-250-500-mg-83",
+    "name": "Amoxycillin+Lactobacillus Tabs 125 / 250 / 500 mg",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "500 mg",
+    "details": "Amoxycillin+Lactobacillus Tabs 125 / 250 / 500 mg Tablets",
+    "casId": "26787-78-0"
+  },
+  {
+    "id": 84,
+    "slug": "amoxycillin-cloxacillin-lactobacillu-s-tabs-125-mg-125-mg-84",
+    "name": "Amoxycillin+Cloxacillin+Lactobacillu s Tabs 125 mg + 125 mg",
+    "category": "Antibacterial",
+    "dosageForm": "Tablets",
+    "strength": "125 mg + 125 mg",
+    "details": "Amoxycillin+Cloxacillin+Lactobacillu s Tabs 125 mg + 125 mg Tablets",
+    "casId": "26787-78-0, 61-72-3, 236-05-5"
+  },
+  {
+    "id": 85,
+    "slug": "cloxacillin-85",
+    "name": "Cloxacillin",
+    "category": "Antibacterial",
+    "dosageForm": "Suspension",
+    "strength": "500 mg",
+    "details": "Cloxacillin Bp Caps 250 / 500 mg Suspension",
+    "casId": "61-72-3, 236-05-5"
+  },
+  {
+    "id": 86,
+    "slug": "ampicillin-86",
+    "name": "Ampicillin",
+    "category": "Antibacterial",
+    "dosageForm": "Syrup",
+    "strength": "125mg/5ml, 250 mg",
+    "details": "Ampicillin Usp Dry Syrup 125mg/5ml, 250 mg/5 ml Dry Syrup",
+    "casId": "69-53-4, 236-21-5"
+  },
+  {
+    "id": 87,
+    "slug": "amoxycillin-87",
+    "name": "Amoxycillin",
+    "category": "Antibacterial",
+    "dosageForm": "Syrup",
+    "strength": "125 mg/5 ml, 250 mg",
+    "details": "Amoxycillin Usp Dry Syrup 125 mg/5 ml, 250 mg/5 ml Dry Syrup",
+    "casId": "26787-78-0"
+  },
+  {
+    "id": 88,
+    "slug": "cloxacillin-88",
+    "name": "Cloxacillin",
+    "category": "Antibacterial",
+    "dosageForm": "Syrup",
+    "strength": "125 mg/ 5ml",
+    "details": "Cloxacillin Bp Dry Syrup 125 mg/ 5ml Dry Syrup",
+    "casId": "61-72-3, 236-05-5"
+  },
+  {
+    "id": 89,
+    "slug": "piperacillin-tazobactam-4-g-0-5-g-89",
+    "name": "Piperacillin + Tazobactam 4 g + 0.5 g",
+    "category": "Antibacterial",
+    "dosageForm": "Injection",
+    "strength": "4 g + 0.5 g",
+    "details": "Piperacillin + Tazobactam 4 g + 0.5 g Injection",
+    "casId": "61477-96-1, 89786-04-9, 1246733-29-8"
+  },
+  {
+    "id": 90,
+    "slug": "alprazolam-90",
+    "name": "Alprazolam",
+    "category": "Anti Depressant",
+    "dosageForm": "Tablets",
+    "strength": "0.25 mg / 0.5 mg",
+    "details": "Alprazolam Tablets USP 0.25 mg / 0.5 mg Tablets 10 x 10's 20 x 10's Uncoated Tablets",
+    "casId": "28981-97-7, 51339-48-1, 001-01-4"
+  },
+  {
+    "id": 91,
+    "slug": "alprazolam-sr-5mg-2-5mg-91",
+    "name": "Alprazolam SR 5mg / 2.5mg",
+    "category": "Anti Depressant",
+    "dosageForm": "Tablets",
+    "strength": "5mg / 2.5mg",
+    "details": "Alprazolam SR 5mg / 2.5mg Tablets 5X6X10",
+    "casId": "28981-97-7, 51339-48-1, 001-01-4"
+  },
+  {
+    "id": 92,
+    "slug": "albendazole-92",
+    "name": "Albendazole",
+    "category": "Anti Thelmintic",
+    "dosageForm": "Tablets",
+    "strength": "400mg",
+    "details": "Albendazole Tablets INH 400mg Tablets 10 x 1's Chewable Tablets",
+    "casId": "54965-21-8, 001-04-7"
+  },
+  {
+    "id": 93,
+    "slug": "albendazole-93",
+    "name": "Albendazole",
+    "category": "Anti Thelmintic",
+    "dosageForm": "Suspension",
+    "strength": "200 mg/ 5ml",
+    "details": "Albendazole Suspension INH 200 mg/ 5ml Suspension Bottle of 50 ml/ 100 ml Oral Liquid",
+    "casId": "54965-21-8, 001-04-7"
+  },
+  {
+    "id": 94,
+    "slug": "albendazole-ivermectin-400mg-5x1x1-levamisol-hydrochloride-94",
+    "name": "Albendazole + Ivermectin 400mg 5X1X1 Levamisol Hydrochloride",
+    "category": "Anti Thelmintic",
+    "dosageForm": "Tablets",
+    "strength": "400mg",
+    "details": "Albendazole + Ivermectin 400mg 5X1X1 Levamisol Hydrochloride Tablets USP 50mg 150 mg Tablets 50 x 1's Uncoated Tablets",
+    "casId": "54965-21-8, 001-04-7"
+  },
+  {
+    "id": 95,
+    "slug": "cetirizine-dihydrochloride-95",
+    "name": "Cetirizine Dihydrochloride",
+    "category": "Antihistaminic",
+    "dosageForm": "Tablets",
+    "strength": "10mg",
+    "details": "Cetirizine Dihydrochloride Tablets INH 10mg Tablets 10 x 10's Film Coated Tablets",
+    "casId": "83881-52-1"
+  },
+  {
+    "id": 96,
+    "slug": "levocetrizine-dihydrochloride-96",
+    "name": "Levocetrizine Dihydrochloride",
+    "category": "Antihistaminic",
+    "dosageForm": "Tablets",
+    "strength": "5 mg",
+    "details": "Levocetrizine Dihydrochloride Tablets INH 5 mg Tablets --- Fexofenadine Hydrochloride Tablets INH 60mg 120mg 180mg Tablets 10 x 10's Film Coated Tablets",
+    "casId": "823178-28-5"
+  },
+  {
+    "id": 97,
+    "slug": "gliclazide-97",
+    "name": "Gliclazide",
+    "category": "Antidiabetic",
+    "dosageForm": "Tablets",
+    "strength": "80mg",
+    "details": "Gliclazide Tablets BP 80mg Tablets 10 x 10's Uncoated Tablets",
+    "casId": "21187-98-4"
+  },
+  {
+    "id": 98,
+    "slug": "gliclazide-metformin-hydrochloride-98",
+    "name": "Gliclazide & Metformin Hydrochloride",
+    "category": "Antidiabetic",
+    "dosageForm": "Tablets",
+    "strength": "80mg + 500mg",
+    "details": "Gliclazide & Metformin Hydrochloride Tablets INH 80mg + 500mg Tablets 10 x 10's Uncoated Tablets",
+    "casId": "21187-98-4, 1115-70-4"
+  },
+  {
+    "id": 99,
+    "slug": "metformin-sustained-release-99",
+    "name": "Metformin Sustained Release",
+    "category": "Antidiabetic",
+    "dosageForm": "Tablets",
+    "strength": "500 mg",
+    "details": "Metformin Sustained Release Tablets --- 500 mg 1000 mg Tablets --- Glimepiride Tablets INH 1mg 2 mg Tablets 10 x 10's Uncoated Tablets",
+    "casId": "657-24-9, 1115-70-4"
+  },
+  {
+    "id": 100,
+    "slug": "camylofin-dihydrochloride-100",
+    "name": "Camylofin Dihydrochloride",
+    "category": "Antispasmodic",
+    "dosageForm": "Injection",
+    "strength": "25mg",
+    "details": "Camylofin Dihydrochloride Injection INH 25mg/ ml Injection Ampoule of 2 ml, Vial of 20 ml Liquid Injection",
+    "casId": "5892-41-1"
+  },
+  {
+    "id": 101,
+    "slug": "camylofin-dihydrochloride-and-paracetamol-101",
+    "name": "Camylofin Dihydrochloride and Paracetamol",
+    "category": "Antispasmodic",
+    "dosageForm": "Tablets",
+    "strength": "25mg + 300mg",
+    "details": "Camylofin Dihydrochloride and Paracetamol Tablets INH 25mg + 300mg Tablets 10 x 10's Film Coated Tablets",
+    "casId": "5892-41-1, 103-90-2"
+  },
+  {
+    "id": 102,
+    "slug": "dicyclomine-hydrochloride-102",
+    "name": "Dicyclomine Hydrochloride",
+    "category": "Antispasmodic",
+    "dosageForm": "Tablets",
+    "strength": "10 mg",
+    "details": "Dicyclomine Hydrochloride Tablets 10 mg Tablets --- --- Camylofin Dihydrochloride and Diclofenac Sodium Tablets INH 50 mg + 50 mg Tablets 10 x 10's Film Coated Tablets",
+    "casId": "67-92-5"
+  },
+  {
+    "id": 103,
+    "slug": "oyster-shell-calcium-and-vitamin-d3-103",
+    "name": "Oyster Shell Calcium and Vitamin D3",
+    "category": "Anti-Osteoporotic",
+    "dosageForm": "Tablets",
+    "strength": "250mg",
+    "details": "Oyster Shell Calcium and Vitamin D3 Tablets INH (250mg+125 I.U.), (500mg + 250 I.U.) Tablets 10 x 30's 10 x 15's Film Coated Tablets",
+    "casId": "471-34-1, 13397-26-7, 72608-12-9"
+  },
+  {
+    "id": 104,
+    "slug": "sodium-alendronate-104",
+    "name": "Sodium Alendronate",
+    "category": "Anti-Osteoporotic",
+    "dosageForm": "Tablets",
+    "strength": "10mg",
+    "details": "Sodium Alendronate Tablets INH 10mg Tablets 10 x 10's Uncoated 70mg 10 x 1 x 4's Tablets",
+    "casId": "121268-17-5"
+  },
+  {
+    "id": 105,
+    "slug": "calcitrol-calcium-citrate-zinc-0-25mcg-250mg-7-5mg-105",
+    "name": "Calcitrol + Calcium Citrate + Zinc 0.25mcg + 250mg + 7.5mg",
+    "category": "Anti-Osteoporotic",
+    "dosageForm": "Tablets",
+    "strength": "0.25mcg + 250mg + 7.5mg",
+    "details": "Calcitrol + Calcium Citrate + Zinc 0.25mcg + 250mg + 7.5mg Tablets 10X10",
+    "casId": "32222-06-3, 1000873-74-4, 66772-14-3"
+  },
+  {
+    "id": 106,
+    "slug": "calcium-carb-alfacalcidol-500mg-0-25mg-106",
+    "name": "Calcium Carb + Alfacalcidol 500mg + 0.25mg",
+    "category": "Anti-Osteoporotic",
+    "dosageForm": "Tablets",
+    "strength": "500mg + 0.25mg",
+    "details": "Calcium Carb + Alfacalcidol 500mg + 0.25mg Tablets 10X10",
+    "casId": "41294-56-8"
+  },
+  {
+    "id": 107,
+    "slug": "calcium-citrate-magnesium-zinc-vitamin-d3-1000mg-100mg-4mg-107",
+    "name": "Calcium Citrate + Magnesium + Zinc + vitamin D3 1000mg + 100mg + 4mg",
+    "category": "Anti-Osteoporotic",
+    "dosageForm": "Tablets",
+    "strength": "1000mg + 100mg + 4mg",
+    "details": "Calcium Citrate + Magnesium + Zinc + vitamin D3 1000mg + 100mg + 4mg Tablets 10X10",
+    "casId": "813-94-5, 7693-13-2, 7439-95-4"
+  },
+  {
+    "id": 108,
+    "slug": "calcium-citrate-maleate-ele-cal-vitamin-d3-250mg-200mg-108",
+    "name": "Calcium Citrate Maleate ele Cal + Vitamin D3 250mg + 200mg",
+    "category": "Anti-Osteoporotic",
+    "dosageForm": "Tablets",
+    "strength": "250mg + 200mg",
+    "details": "Calcium Citrate Maleate ele Cal + Vitamin D3 250mg + 200mg Tablets 10X10",
+    "casId": "67-97-0, 2416217-93-9"
+  },
+  {
+    "id": 109,
+    "slug": "clotrimoxazole-109",
+    "name": "Clotrimoxazole",
+    "category": "Antifungal",
+    "dosageForm": "Cream",
+    "strength": "1.0%",
+    "details": "Clotrimoxazole Cream BP BP 1.0% w/w Cream Tube of 10gm Cream",
+    "casId": "23593-75-1, 117829-71-7"
+  },
+  {
+    "id": 110,
+    "slug": "ciprofloxacin-110",
+    "name": "Ciprofloxacin",
+    "category": "Antifungal",
+    "dosageForm": "Tablets",
+    "strength": "750mg",
+    "details": "Ciprofloxacin Usp Tabs 250/500/750mg Tablets",
+    "casId": "85721-33-1, 93107-08-5"
+  },
+  {
+    "id": 111,
+    "slug": "ciprofloxacin-111",
+    "name": "Ciprofloxacin",
+    "category": "Antifungal",
+    "dosageForm": "Infusion",
+    "strength": "200 mg / 100 ml",
+    "details": "Ciprofloxacin Usp Infusion 200 mg / 100 ml Suspension",
+    "casId": "85721-33-1, 93107-08-5"
+  },
+  {
+    "id": 112,
+    "slug": "ciprofloxacin-112",
+    "name": "Ciprofloxacin",
+    "category": "Antifungal",
+    "dosageForm": "Drops",
+    "strength": "10 ml",
+    "details": "Ciprofloxacin Usp Eye/Ear Drops 10 ml Suspension",
+    "casId": "85721-33-1, 93107-08-5"
+  },
+  {
+    "id": 113,
+    "slug": "gatifloxacin-ambroxol-200mg-30mg-10x10-gatifloxacin-ornidazole-200mg-5-113",
+    "name": "Gatifloxacin + Ambroxol 200mg+ 30mg 10X10 Gatifloxacin + Ornidazole 200mg + 500mg 10X10 Ciprofloxacin + Tinidazole Tabs 500 mg + 600 mg",
+    "category": "Antifungal",
+    "dosageForm": "Tablets",
+    "strength": "200mg+ 30mg",
+    "details": "Gatifloxacin + Ambroxol 200mg+ 30mg 10X10 Gatifloxacin + Ornidazole 200mg + 500mg 10X10 Ciprofloxacin + Tinidazole Tabs 500 mg + 600 mg Tablets",
+    "casId": "112811-59-3, 160738-57-8, 001-06-9"
+  },
+  {
+    "id": 114,
+    "slug": "norfloxacin-metronidazole-400mg-500mg-114",
+    "name": "Norfloxacin + Metronidazole 400mg + 500mg",
+    "category": "Antifungal",
+    "dosageForm": "Tablets",
+    "strength": "400mg + 500mg",
+    "details": "Norfloxacin + Metronidazole 400mg + 500mg Tablets 20X10",
+    "casId": "70458-96-7, 443-48-1, 56010-45-8"
+  },
+  {
+    "id": 115,
+    "slug": "norfloxacin-nitazoxanide-400mg-500mg-115",
+    "name": "Norfloxacin + Nitazoxanide 400mg + 500mg",
+    "category": "Antifungal",
+    "dosageForm": "Tablets",
+    "strength": "400mg + 500mg",
+    "details": "Norfloxacin + Nitazoxanide 400mg + 500mg Tablets 20X10",
+    "casId": "70458-96-7, 55981-09-4"
+  },
+  {
+    "id": 116,
+    "slug": "norfloxacin-ornidazole-400mg-500mg-116",
+    "name": "Norfloxacin + Ornidazole 400mg + 500mg",
+    "category": "Antifungal",
+    "dosageForm": "Tablets",
+    "strength": "400mg + 500mg",
+    "details": "Norfloxacin + Ornidazole 400mg + 500mg Tablets 20X10",
+    "casId": "70458-96-7, 16773-42-5"
+  },
+  {
+    "id": 117,
+    "slug": "norfloxacin-tinidazole-400mg-600mg-117",
+    "name": "Norfloxacin + Tinidazole 400mg + 600mg",
+    "category": "Antifungal",
+    "dosageForm": "Tablets",
+    "strength": "400mg + 600mg",
+    "details": "Norfloxacin + Tinidazole 400mg + 600mg Tablets 20X10",
+    "casId": "70458-96-7, 19387-91-8, 148159-84-6"
+  },
+  {
+    "id": 118,
+    "slug": "ofloxacin-tindiazole-200mg-600mg-118",
+    "name": "Ofloxacin + Tindiazole 200mg + 600mg",
+    "category": "Antifungal",
+    "dosageForm": "Tablets",
+    "strength": "200mg + 600mg",
+    "details": "Ofloxacin + Tindiazole 200mg + 600mg Tablets 10X10",
+    "casId": "82419-36-1, 83380-47-6, 19387-91-8"
+  },
+  {
+    "id": 119,
+    "slug": "ofloxacin-119",
+    "name": "Ofloxacin",
+    "category": "Antifungal",
+    "dosageForm": "Infusion",
+    "strength": "200mg/ 100 ml",
+    "details": "Ofloxacin Infusion 200mg/ 100 ml Suspension",
+    "casId": "82419-36-1, 83380-47-6"
+  },
+  {
+    "id": 120,
+    "slug": "ofloxacin-tabs-200-400-mg-120",
+    "name": "Ofloxacin Tabs 200 / 400 mg",
+    "category": "Antifungal",
+    "dosageForm": "Tablets",
+    "strength": "400 mg",
+    "details": "Ofloxacin Tabs 200 / 400 mg Tablets",
+    "casId": "--"
+  },
+  {
+    "id": 121,
+    "slug": "ofloxacin-ornidazole-tabs-200-500-mg-121",
+    "name": "Ofloxacin + Ornidazole Tabs 200 + 500 mg",
+    "category": "Antifungal",
+    "dosageForm": "Tablets",
+    "strength": "500 mg",
+    "details": "Ofloxacin + Ornidazole Tabs 200 + 500 mg Tablets",
+    "casId": "82419-36-1, 83380-47-6"
+  },
+  {
+    "id": 122,
+    "slug": "norfloxacin-122",
+    "name": "Norfloxacin",
+    "category": "Antifungal",
+    "dosageForm": "Tablets",
+    "strength": "400mg",
+    "details": "Norfloxacin Usp Tabs 400mg Tablets",
+    "casId": "70458-96-7"
+  },
+  {
+    "id": 123,
+    "slug": "norfloxacin-123",
+    "name": "Norfloxacin",
+    "category": "Antifungal",
+    "dosageForm": "Drops",
+    "strength": "5 ml",
+    "details": "Norfloxacin Usp Eye/Ear Drops 5 ml Suspension",
+    "casId": "70458-96-7"
+  },
+  {
+    "id": 124,
+    "slug": "lomefloxacin-124",
+    "name": "Lomefloxacin",
+    "category": "Antifungal",
+    "dosageForm": "Tablets",
+    "strength": "400mg",
+    "details": "Lomefloxacin Usp Tabs 400mg Tablets",
+    "casId": "98079-51-7, 003-09-8"
+  },
+  {
+    "id": 125,
+    "slug": "sparfloxacin-tabs-200mg-125",
+    "name": "Sparfloxacin Tabs 200mg",
+    "category": "Antifungal",
+    "dosageForm": "Tablets",
+    "strength": "200mg",
+    "details": "Sparfloxacin Tabs 200mg Tablets",
+    "casId": "110871-86-8"
+  },
+  {
+    "id": 126,
+    "slug": "levofloxacin-tabs-250-500-mg-126",
+    "name": "Levofloxacin Tabs 250/500 mg",
+    "category": "Antifungal",
+    "dosageForm": "Tablets",
+    "strength": "500 mg",
+    "details": "Levofloxacin Tabs 250/500 mg Tablets",
+    "casId": "--"
+  },
+  {
+    "id": 127,
+    "slug": "gatifloxacin-tabs-200-mg-127",
+    "name": "Gatifloxacin Tabs 200 mg",
+    "category": "Antifungal",
+    "dosageForm": "Tablets",
+    "strength": "200 mg",
+    "details": "Gatifloxacin Tabs 200 mg Tablets",
+    "casId": "112811-59-3, 160738-57-8, 001-06-9"
+  },
+  {
+    "id": 128,
+    "slug": "ofloxacin-satranidazole-tabs-200-mg-300-mg-128",
+    "name": "Ofloxacin = Satranidazole Tabs 200 mg + 300 mg",
+    "category": "Antifungal",
+    "dosageForm": "Tablets",
+    "strength": "200 mg + 300 mg",
+    "details": "Ofloxacin = Satranidazole Tabs 200 mg + 300 mg Tablets",
+    "casId": "--"
+  },
+  {
+    "id": 129,
+    "slug": "gatifloxacin-tabs-200-mg-400-mg-129",
+    "name": "Gatifloxacin Tabs 200 mg / 400 mg",
+    "category": "Antifungal",
+    "dosageForm": "Tablets",
+    "strength": "200 mg / 400 mg",
+    "details": "Gatifloxacin Tabs 200 mg / 400 mg Tablets",
+    "casId": "112811-59-3, 160738-57-8, 001-06-9"
+  },
+  {
+    "id": 130,
+    "slug": "doxapram-hcl-130",
+    "name": "Doxapram HCl",
+    "category": "Anaesthetic",
+    "dosageForm": "Injection",
+    "strength": "20mg",
+    "details": "Doxapram HCl Injection. BP 20mg / ml Injection Vial of 5 ml Liquid Injection",
+    "casId": "7081-53-0, 15083-72-4"
+  },
+  {
+    "id": 131,
+    "slug": "glycopyrrolate-131",
+    "name": "Glycopyrrolate",
+    "category": "Anaesthetic",
+    "dosageForm": "Injection",
+    "strength": "0.2 mg",
+    "details": "Glycopyrrolate Injection USP 0.2 mg/ ml Injection Ampoule of 1 ml Liquid Injection",
+    "casId": "596-51-0"
+  },
+  {
+    "id": 132,
+    "slug": "rabeprazole-sodium-132",
+    "name": "Rabeprazole Sodium",
+    "category": "Antiulcerant",
+    "dosageForm": "Tablets",
+    "strength": "10 mg",
+    "details": "Rabeprazole Sodium Tablets INH 10 mg 20 mg Tablets 10 x 10's Enteric Coated Tablets",
+    "casId": "117976-90-6, 171440-19-0"
+  },
+  {
+    "id": 133,
+    "slug": "prenoxdiazine-hcl-133",
+    "name": "Prenoxdiazine HCl",
+    "category": "Antitussive",
+    "dosageForm": "Tablets",
+    "strength": "100 mg",
+    "details": "Prenoxdiazine HCl Tablets INH 100 mg 200 mg Tablets 10 x 10's Film Coated Tablets",
+    "casId": "982-43-4"
+  },
+  {
+    "id": 134,
+    "slug": "salbutamol-sulphate-134",
+    "name": "Salbutamol Sulphate",
+    "category": "Antitussive",
+    "dosageForm": "Tablets",
+    "strength": "2mg",
+    "details": "Salbutamol Sulphate Tablets BP 2mg 4mg Tablets 10 x 10's Uncoated Tablets",
+    "casId": "36519-31-0"
+  },
+  {
+    "id": 135,
+    "slug": "diclofenac-sodium-135",
+    "name": "Diclofenac Sodium",
+    "category": "NSAID",
+    "dosageForm": "Injection",
+    "strength": "25mg",
+    "details": "Diclofenac Sodium Injection INH 25mg/ ml Injection Ampoule of 3ml, Liquid Injection",
+    "casId": "15307-79-6"
+  },
+  {
+    "id": 136,
+    "slug": "diclofenac-sodium-with-paracetamol-136",
+    "name": "Diclofenac Sodium with Paracetamol",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "50mg + 500mg",
+    "details": "Diclofenac Sodium with Paracetamol Tablets INH 50mg + 500mg Tablets 10 x 10's Film Coated Tablets",
+    "casId": "--"
+  },
+  {
+    "id": 137,
+    "slug": "etoricoxib-137",
+    "name": "Etoricoxib",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "60 mg, 90mg",
+    "details": "Etoricoxib Tablets INH 60 mg, 90mg 120mg Tablets --- Tramadol + Para 50mg + 500mg Tablets 20X10",
+    "casId": "202409-33-4"
+  },
+  {
+    "id": 138,
+    "slug": "tramadol-hydrochloride-100mg-138",
+    "name": "Tramadol Hydrochloride 100mg",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "100mg",
+    "details": "Tramadol Hydrochloride 100mg Tablets 20X10",
+    "casId": "36282-47-0, 148229-78-1, 22204-88-2"
+  },
+  {
+    "id": 139,
+    "slug": "tramadol-hydrochloride-50mg-139",
+    "name": "Tramadol Hydrochloride 50mg",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "50mg",
+    "details": "Tramadol Hydrochloride 50mg Tablets 20X10",
+    "casId": "36282-47-0, 148229-78-1, 22204-88-2"
+  },
+  {
+    "id": 140,
+    "slug": "mosapride-5mg-140",
+    "name": "Mosapride 5mg",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "5mg",
+    "details": "Mosapride 5mg Tablets 10X10",
+    "casId": "112885-41-3"
+  },
+  {
+    "id": 141,
+    "slug": "nimesulide-paracetamol-chlorzoxazone-100mg-325mg-375mg-141",
+    "name": "Nimesulide + Paracetamol + Chlorzoxazone 100mg + 325mg + 375mg",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "100mg + 325mg + 375mg",
+    "details": "Nimesulide + Paracetamol + Chlorzoxazone 100mg + 325mg + 375mg Tablets 20X10",
+    "casId": "51803-78-2, 1364966-82-4, 103-90-2"
+  },
+  {
+    "id": 142,
+    "slug": "nimesulide-paracetamol-100mg-500mg-142",
+    "name": "Nimesulide + Paracetamol 100mg + 500mg",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "100mg + 500mg",
+    "details": "Nimesulide + Paracetamol 100mg + 500mg Tablets 10X10",
+    "casId": "51803-78-2, 1364966-82-4, 103-90-2"
+  },
+  {
+    "id": 143,
+    "slug": "nimesulide-paracetamol-chlorzoxazone-100mg-500mg-250mg-143",
+    "name": "Nimesulide + Paracetamol + Chlorzoxazone 100mg + 500mg + 250mg",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "100mg + 500mg + 250mg",
+    "details": "Nimesulide + Paracetamol + Chlorzoxazone 100mg + 500mg + 250mg Tablets 20X10",
+    "casId": "51803-78-2, 1364966-82-4, 103-90-2"
+  },
+  {
+    "id": 144,
+    "slug": "nimesulide-paracetamol-tizanidine-100mg-500mg-2mg-144",
+    "name": "Nimesulide + Paracetamol + Tizanidine 100mg + 500mg + 2mg",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "100mg + 500mg + 2mg",
+    "details": "Nimesulide + Paracetamol + Tizanidine 100mg + 500mg + 2mg Tablets 20X10",
+    "casId": "51803-78-2, 1364966-82-4, 103-90-2"
+  },
+  {
+    "id": 145,
+    "slug": "nimesulide-100mg-145",
+    "name": "Nimesulide 100mg",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "100mg",
+    "details": "Nimesulide 100mg Tablets 10X2X15 / 2X5X10",
+    "casId": "51803-78-2, 1364966-82-4"
+  },
+  {
+    "id": 146,
+    "slug": "nimesulide-paracetamol-goden-pvc-50mg-500mg-146",
+    "name": "Nimesulide + Paracetamol (Goden PVC) 50mg + 500mg",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "50mg + 500mg",
+    "details": "Nimesulide + Paracetamol (Goden PVC) 50mg + 500mg + Tablets 20X10",
+    "casId": "51803-78-2, 1364966-82-4, 103-90-2"
+  },
+  {
+    "id": 147,
+    "slug": "nimesulide-b-p-100mg-147",
+    "name": "Nimesulide B.P. 100mg",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "100mg",
+    "details": "Nimesulide B.P. 100mg Tablets 6X5X10",
+    "casId": "--"
+  },
+  {
+    "id": 148,
+    "slug": "nimesulide-b-p-50mg-148",
+    "name": "Nimesulide B.P. 50mg",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "50mg",
+    "details": "Nimesulide B.P. 50mg Tablets 2X5X10",
+    "casId": "--"
+  },
+  {
+    "id": 149,
+    "slug": "diclo-para-chlor-50mg-325mg-250mg-149",
+    "name": "Diclo + Para + Chlor 50mg + 325mg + 250mg",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "50mg + 325mg + 250mg",
+    "details": "Diclo + Para + Chlor 50mg + 325mg + 250mg Tablets 30X6",
+    "casId": "106-50-3, 25168-37-0, 7782-50-5"
+  },
+  {
+    "id": 150,
+    "slug": "diclofenac-sodium-150",
+    "name": "Diclofenac Sodium",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "50mg + 10mg",
+    "details": "Diclofenac Sodium IP + Serratiopeptidase 50mg + 10mg Tablets 10X10",
+    "casId": "15307-79-6"
+  },
+  {
+    "id": 151,
+    "slug": "diclofenac-sodium-potassium-100mg-151",
+    "name": "Diclofenac Sodium / Potassium 100mg",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "100mg",
+    "details": "Diclofenac Sodium / Potassium 100mg Tablets 25X10",
+    "casId": "15307-79-6, 7440-09-7"
+  },
+  {
+    "id": 152,
+    "slug": "ibuprofen-paracetamol-400mg-500mg-152",
+    "name": "Ibuprofen + Paracetamol 400mg + 500mg",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "400mg + 500mg",
+    "details": "Ibuprofen + Paracetamol 400mg + 500mg Tablets 20X15",
+    "casId": "58560-75-1, 15687-27-1, 1189866-35-0"
+  },
+  {
+    "id": 153,
+    "slug": "aceclofenac-paracetamol-100mg-500mg-153",
+    "name": "Aceclofenac + Paracetamol 100mg + 500mg",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "100mg + 500mg",
+    "details": "Aceclofenac + Paracetamol 100mg + 500mg Tablets 10X10",
+    "casId": "89796-99-6, 103-90-2"
+  },
+  {
+    "id": 154,
+    "slug": "aceclofenac-paracetamol-rabeprazole-100mg-500mg-10mg-154",
+    "name": "Aceclofenac + Paracetamol + Rabeprazole 100mg + 500mg + 10mg",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "100mg + 500mg + 10mg",
+    "details": "Aceclofenac + Paracetamol + Rabeprazole 100mg + 500mg + 10mg Tablets 10X6",
+    "casId": "89796-99-6, 103-90-2, 117976-89-3"
+  },
+  {
+    "id": 155,
+    "slug": "aceclofenac-100mg-155",
+    "name": "Aceclofenac 100mg",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "100mg",
+    "details": "Aceclofenac 100mg Tablets 10X10",
+    "casId": "89796-99-6"
+  },
+  {
+    "id": 156,
+    "slug": "aceclofenac-paracetamol-chlorzoxazone-100mg-325mg-250mg-156",
+    "name": "Aceclofenac + Paracetamol + Chlorzoxazone 100mg + 325mg + 250mg",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "100mg + 325mg + 250mg",
+    "details": "Aceclofenac + Paracetamol + Chlorzoxazone 100mg + 325mg + 250mg Tablets 10X10",
+    "casId": "89796-99-6, 103-90-2, 95-25-0"
+  },
+  {
+    "id": 157,
+    "slug": "aceclofenac-paracetamol-serratiopeptidase-100mg-500mg-15mg-157",
+    "name": "Aceclofenac + Paracetamol + Serratiopeptidase 100mg + 500mg + 15mg",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "100mg + 500mg + 15mg",
+    "details": "Aceclofenac + Paracetamol + Serratiopeptidase 100mg + 500mg + 15mg Tablets 10X10",
+    "casId": "89796-99-6, 103-90-2, 37312-62-2"
+  },
+  {
+    "id": 158,
+    "slug": "aceclofenac-sr-200mg-158",
+    "name": "Aceclofenac SR 200mg",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "200mg",
+    "details": "Aceclofenac SR 200mg Tablets 10X10",
+    "casId": "89796-99-6"
+  },
+  {
+    "id": 159,
+    "slug": "ibuprofen-159",
+    "name": "Ibuprofen",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "200mg",
+    "details": "Ibuprofen Tablets USP/ BP 200mg 400mg Tablets 10 x10's Film Coated Tablets",
+    "casId": "58560-75-1, 15687-27-1, 1189866-35-0"
+  },
+  {
+    "id": 160,
+    "slug": "nimesulide-160",
+    "name": "Nimesulide",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "100mg",
+    "details": "Nimesulide Tablets INH 100mg Tablets 10 x10's Uncoated Tablets",
+    "casId": "51803-78-2, 1364966-82-4"
+  },
+  {
+    "id": 161,
+    "slug": "paracetamol-161",
+    "name": "Paracetamol",
+    "category": "NSAID",
+    "dosageForm": "Tablets",
+    "strength": "500mg",
+    "details": "Paracetamol Tablets BP 500mg Tablets 10 x 10's Uncoated Tablets",
+    "casId": "103-90-2"
+  },
+  {
+    "id": 162,
+    "slug": "amlodipine-besilate-162",
+    "name": "Amlodipine Besilate",
+    "category": "Cardio-Vascular",
+    "dosageForm": "Tablets",
+    "strength": "2.5mg, 5mg",
+    "details": "Amlodipine Besilate Tablets INH 2.5mg, 5mg 10mg Tablets Uncoated Tablets",
+    "casId": "111470-99-6"
+  },
+  {
+    "id": 163,
+    "slug": "amlodipine-besilate-and-lisinopril-163",
+    "name": "Amlodipine Besilate and Lisinopril",
+    "category": "Cardio-Vascular",
+    "dosageForm": "Tablets",
+    "strength": "5mg + 5mg",
+    "details": "Amlodipine Besilate and Lisinopril Tablets INH 5mg + 5mg Tablets Uncoated Tablets",
+    "casId": "111470-99-6, 76547-98-3, 83915-83-7"
+  },
+  {
+    "id": 164,
+    "slug": "atenolol-164",
+    "name": "Atenolol",
+    "category": "Cardio-Vascular",
+    "dosageForm": "Tablets",
+    "strength": "25mg, 50mg",
+    "details": "Atenolol Tablets BP 25mg, 50mg 100mg Tablets 10 x 14's Uncoated Tablets",
+    "casId": "29122-68-7, 60966-51-0, 001-02-5"
+  },
+  {
+    "id": 165,
+    "slug": "amlodipine-besilate-and-atenolol-165",
+    "name": "Amlodipine Besilate and Atenolol",
+    "category": "Cardio-Vascular",
+    "dosageForm": "Tablets",
+    "strength": "5mg + 50mg",
+    "details": "Amlodipine Besilate and Atenolol Tablets INH 5mg + 50mg Tablets 10 x 10's Uncoated Tablets",
+    "casId": "111470-99-6, 29122-68-7, 60966-51-0"
+  },
+  {
+    "id": 166,
+    "slug": "enalapril-maleate-166",
+    "name": "Enalapril Maleate",
+    "category": "Cardio-Vascular",
+    "dosageForm": "Tablets",
+    "strength": "2.5 mg, 5mg, 10mg, 20mg",
+    "details": "Enalapril Maleate Tablets USP 2.5 mg, 5mg, 10mg, 20mg Tablets 10 x 10's Uncoated Tablets",
+    "casId": "76095-16-4"
+  },
+  {
+    "id": 167,
+    "slug": "diazepam-167",
+    "name": "Diazepam",
+    "category": "Anxiolytic",
+    "dosageForm": "Tablets",
+    "strength": "5 mg",
+    "details": "Diazepam Tablets --- 5 mg Tablets --- --- Diazepam injection --- 5 mg/ ml Injection --- ---",
+    "casId": "439-14-5, 11100-37-1"
+  },
+  {
+    "id": 168,
+    "slug": "methocarbamol-168",
+    "name": "Methocarbamol",
+    "category": "Skeletal Muscle Relaxant",
+    "dosageForm": "Injection",
+    "strength": "100mg",
+    "details": "Methocarbamol Injection USP 100mg/ ml Injection Ampoule of 10ml Liquid Injection",
+    "casId": "532-03-6, 145841-69-6, 001-05-8"
+  },
+  {
+    "id": 169,
+    "slug": "methocarbamol-169",
+    "name": "Methocarbamol",
+    "category": "Skeletal Muscle Relaxant",
+    "dosageForm": "Tablets",
+    "strength": "500mg",
+    "details": "Methocarbamol Tablets USP 500mg Tablets 10 x10's Uncoated Tablets",
+    "casId": "532-03-6, 145841-69-6, 001-05-8"
+  },
+  {
+    "id": 170,
+    "slug": "methocarbamol-paracetamol-170",
+    "name": "Methocarbamol & Paracetamol",
+    "category": "Skeletal Muscle Relaxant",
+    "dosageForm": "Tablets",
+    "strength": "350mg + 250mg",
+    "details": "Methocarbamol & Paracetamol Tablets INH 350mg + 250mg Tablets 10x 10's Uncoated Tablets",
+    "casId": "532-03-6, 145841-69-6, 001-05-8"
+  },
+  {
+    "id": 171,
+    "slug": "methocarbamol-diclofenac-potassium-and-paracetamol-171",
+    "name": "Methocarbamol, Diclofenac Potassium and Paracetamol",
+    "category": "Skeletal Muscle Relaxant",
+    "dosageForm": "Tablets",
+    "strength": "500mg + 50mg + 325mg",
+    "details": "Methocarbamol, Diclofenac Potassium and Paracetamol Tablets INH 500mg + 50mg + 325mg Tablets 10 x 10's Film Coated Tablets",
+    "casId": "103-90-2"
+  },
+  {
+    "id": 172,
+    "slug": "methocarbamol-ibuprofen-172",
+    "name": "Methocarbamol & Ibuprofen",
+    "category": "Skeletal Muscle Relaxant",
+    "dosageForm": "Tablets",
+    "strength": "750 mg + 200 mg, 750 mg + 400 mg",
+    "details": "Methocarbamol & Ibuprofen Tablets INH 750 mg + 200 mg, 750 mg + 400 mg Tablets 10 x 10's Uncoated Tablets",
+    "casId": "532-03-6, 145841-69-6, 001-05-8"
+  },
+  {
+    "id": 173,
+    "slug": "methocarbamol-and-nimesulide-173",
+    "name": "Methocarbamol and Nimesulide",
+    "category": "Skeletal Muscle Relaxant",
+    "dosageForm": "Tablets",
+    "strength": "1000 mg + 100 mg",
+    "details": "Methocarbamol and Nimesulide Tablets INH 1000 mg + 100 mg Tablets 10 x 10's Uncoated Tablets",
+    "casId": "532-03-6, 145841-69-6, 001-05-8"
+  },
+  {
+    "id": 174,
+    "slug": "tizanidine-hydrochloride-174",
+    "name": "Tizanidine Hydrochloride",
+    "category": "Skeletal Muscle Relaxant",
+    "dosageForm": "Tablets",
+    "strength": "2 mg",
+    "details": "Tizanidine Hydrochloride Tablets --- 2 mg 4mg Tablets --- ---",
+    "casId": "64461-82-1, 74113-36-3"
+  },
+  {
+    "id": 175,
+    "slug": "prednisolone-175",
+    "name": "Prednisolone",
+    "category": "Steroid",
+    "dosageForm": "Tablets",
+    "strength": "5 mg",
+    "details": "Prednisolone Tablets --- 5 mg Tablets --- ---",
+    "casId": "50-24-8, 8056-11-9"
+  },
+  {
+    "id": 176,
+    "slug": "ondansetran-hydrochloride-dihydrate-176",
+    "name": "Ondansetran Hydrochloride Dihydrate",
+    "category": "Anti-Emetic",
+    "dosageForm": "Tablets",
+    "strength": "4 mg",
+    "details": "Ondansetran Hydrochloride Dihydrate Tablets --- 4 mg 8 mg Tablets --- --- Ondansetran Hydrochloride",
+    "casId": "--"
+  },
+  {
+    "id": 177,
+    "slug": "dihydrate-177",
+    "name": "Dihydrate",
+    "category": "Anti-Emetic",
+    "dosageForm": "Injection",
+    "strength": "4 mg/ 2ml",
+    "details": "Dihydrate Injection --- 4 mg/ 2ml 8 mg/ 4ml Injection --- ---",
+    "casId": "--"
+  },
+  {
+    "id": 178,
+    "slug": "meropenem-inj-500-mg-1g-178",
+    "name": "Meropenem Inj 500 mg / 1g",
+    "category": "Other Antibiotics",
+    "dosageForm": "Injection",
+    "strength": "500 mg / 1g",
+    "details": "Meropenem Inj 500 mg / 1g Injection",
+    "casId": "96036-03-2"
+  },
+  {
+    "id": 179,
+    "slug": "vancomycin-179",
+    "name": "Vancomycin",
+    "category": "Other Antibiotics",
+    "dosageForm": "Injection",
+    "strength": "500 mg",
+    "details": "Vancomycin Usp Inj 500 mg Injection",
+    "casId": "1404-90-6"
+  },
+  {
+    "id": 180,
+    "slug": "amikacin-sulphate-180",
+    "name": "Amikacin Sulphate",
+    "category": "Other Antibiotics",
+    "dosageForm": "Injection",
+    "strength": "500 mg",
+    "details": "Amikacin Sulphate Bp Inj 100 / 250/500 mg Injection",
+    "casId": "39831-55-5"
+  },
+  {
+    "id": 181,
+    "slug": "gentamycin-inj-80mg-2ml-2ml-10ml-181",
+    "name": "Gentamycin Inj. 80mg/2ml, 2ml, 10ml",
+    "category": "Other Antibiotics",
+    "dosageForm": "Injection",
+    "strength": "80mg/2ml, 2ml, 10ml",
+    "details": "Gentamycin Inj. 80mg/2ml, 2ml, 10ml Injection",
+    "casId": "--"
+  },
+  {
+    "id": 182,
+    "slug": "gentamycin-182",
+    "name": "Gentamycin",
+    "category": "Other Antibiotics",
+    "dosageForm": "Drops",
+    "strength": "0.3%, 5ml",
+    "details": "Gentamycin Drops 0.3%, 5ml Suspension",
+    "casId": "1403-66-3, 1294497-75-8"
+  },
+  {
+    "id": 183,
+    "slug": "erythromycin-stearate-tabs-250mg-183",
+    "name": "Erythromycin Stearate Tabs 250mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "250mg",
+    "details": "Erythromycin Stearate Tabs 250mg Tablets",
+    "casId": "643-22-1"
+  },
+  {
+    "id": 184,
+    "slug": "erythromycin-estolate-dry-184",
+    "name": "Erythromycin Estolate Dry",
+    "category": "Other Antibiotics",
+    "dosageForm": "Syrup",
+    "strength": "125mg/5ml, 250mg",
+    "details": "Erythromycin Estolate Dry Syrup 125mg/5ml, 250mg/5ml Suspension",
+    "casId": "3521-62-8"
+  },
+  {
+    "id": 185,
+    "slug": "dexamethasone-chloramphenicol-0-1-1-5-ml-185",
+    "name": "Dexamethasone + Chloramphenicol 0.1% + 1%, 5 ml",
+    "category": "Other Antibiotics",
+    "dosageForm": "Suspension",
+    "strength": "0.1% + 1%, 5 ml",
+    "details": "Dexamethasone + Chloramphenicol 0.1% + 1%, 5 ml Suspension",
+    "casId": "50-02-2, 23495-06-9, 1050677-47-8"
+  },
+  {
+    "id": 186,
+    "slug": "doxycycline-tabs-100-mg-186",
+    "name": "Doxycycline Tabs 100 mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "100 mg",
+    "details": "Doxycycline Tabs 100 mg Tablets",
+    "casId": "7164-70-7, 564-25-0, 24390-14-5"
+  },
+  {
+    "id": 187,
+    "slug": "tetracycline-caps-250-mg-500-mg-187",
+    "name": "Tetracycline Caps 250 mg/500 mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Capsule",
+    "strength": "250 mg/500 mg",
+    "details": "Tetracycline Caps 250 mg/500 mg Capsule",
+    "casId": "60-54-8"
+  },
+  {
+    "id": 188,
+    "slug": "satronidazole-tabs-300mg-188",
+    "name": "Satronidazole Tabs 300mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "300mg",
+    "details": "Satronidazole Tabs 300mg Tablets",
+    "casId": "--"
+  },
+  {
+    "id": 189,
+    "slug": "metronidazole-189",
+    "name": "Metronidazole",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "400 mg",
+    "details": "Metronidazole Bp (Uncoated) Tabs 200/400 mg Tablets",
+    "casId": "443-48-1, 56010-45-8"
+  },
+  {
+    "id": 190,
+    "slug": "metronidazole-190",
+    "name": "Metronidazole",
+    "category": "Other Antibiotics",
+    "dosageForm": "Suspension",
+    "strength": "125 mg/ 5ml",
+    "details": "Metronidazole Bp Suspension 125 mg/ 5ml Suspension",
+    "casId": "443-48-1, 56010-45-8"
+  },
+  {
+    "id": 191,
+    "slug": "trimethoprim-sulphamethoxazole-191",
+    "name": "Trimethoprim + Sulphamethoxazole",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "960 mg",
+    "details": "Trimethoprim + Sulphamethoxazole Bp Tabs 480/960 mg Tablets",
+    "casId": "738-70-5, 723-46-6, 144930-01-8"
+  },
+  {
+    "id": 192,
+    "slug": "cotrimoxazole-192",
+    "name": "Cotrimoxazole",
+    "category": "Other Antibiotics",
+    "dosageForm": "Suspension",
+    "strength": "240 mg/ 5 ml",
+    "details": "Cotrimoxazole Bp Suspension 240 mg/ 5 ml Suspension",
+    "casId": "8064-90-2, 50808-41-8"
+  },
+  {
+    "id": 193,
+    "slug": "albendazole-193",
+    "name": "Albendazole",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "400mg",
+    "details": "Albendazole Usp Tabs 400mg Tablets",
+    "casId": "54965-21-8, 001-04-7"
+  },
+  {
+    "id": 194,
+    "slug": "albendazole-194",
+    "name": "Albendazole",
+    "category": "Other Antibiotics",
+    "dosageForm": "Suspension",
+    "strength": "400 mg/10ml",
+    "details": "Albendazole Suspension 400 mg/10ml Suspension",
+    "casId": "54965-21-8, 001-04-7"
+  },
+  {
+    "id": 195,
+    "slug": "chloramphenicol-dry-195",
+    "name": "Chloramphenicol Dry",
+    "category": "Other Antibiotics",
+    "dosageForm": "Syrup",
+    "strength": "125 mg / 5 ml",
+    "details": "Chloramphenicol Dry Syrup 125 mg / 5 ml Suspension",
+    "casId": "56-75-7, 125440-98-4, 2787-09-9"
+  },
+  {
+    "id": 196,
+    "slug": "chloramphenicol-196",
+    "name": "Chloramphenicol",
+    "category": "Other Antibiotics",
+    "dosageForm": "Drops",
+    "strength": "0.4%, 5ml",
+    "details": "Chloramphenicol Drops 0.4%, 5ml Suspension",
+    "casId": "56-75-7, 125440-98-4, 2787-09-9"
+  },
+  {
+    "id": 197,
+    "slug": "sulphadoxine-pyrimethamine-tabs-500-mg-25-mg-197",
+    "name": "Sulphadoxine + Pyrimethamine Tabs 500 mg + 25 mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "500 mg + 25 mg",
+    "details": "Sulphadoxine + Pyrimethamine Tabs 500 mg + 25 mg Tablets",
+    "casId": "2447-57-6, 1173021-35-6, 58-14-0"
+  },
+  {
+    "id": 198,
+    "slug": "rifampicin-isoniazid-tabs-450-mg-300-mg-198",
+    "name": "Rifampicin + Isoniazid Tabs 450 mg + 300 mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "450 mg + 300 mg",
+    "details": "Rifampicin + Isoniazid Tabs 450 mg + 300 mg Tablets",
+    "casId": "13292-46-1, 54-85-3"
+  },
+  {
+    "id": 199,
+    "slug": "rifampicin-isoniazid-ethambutol-tabs-450-mg-300mg-800mg-199",
+    "name": "Rifampicin+Isoniazid+Ethambutol Tabs 450 mg+300mg+800mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "450 mg+300mg+800mg",
+    "details": "Rifampicin+Isoniazid+Ethambutol Tabs 450 mg+300mg+800mg Tablets",
+    "casId": "13292-46-1, 54-85-3, 74-55-5"
+  },
+  {
+    "id": 200,
+    "slug": "rifampicin-isoniazid-pyrazinamide-tabs-450mg-300mg-750mg-200",
+    "name": "Rifampicin+Isoniazid+Pyrazinamide Tabs 450mg+300mg+750mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "450mg+300mg+750mg",
+    "details": "Rifampicin+Isoniazid+Pyrazinamide Tabs 450mg+300mg+750mg Tablets",
+    "casId": "13292-46-1, 54-85-3, 98-96-4"
+  },
+  {
+    "id": 201,
+    "slug": "rifampicin-isoniazid-pyrazinamide-ethambutol-tabs-450mg-300mg-750mg-80-201",
+    "name": "Rifampicin + Isoniazid + Pyrazinamide + Ethambutol Tabs 450mg+300mg+750mg +800mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "450mg+300mg+750mg +800mg",
+    "details": "Rifampicin + Isoniazid + Pyrazinamide + Ethambutol Tabs 450mg+300mg+750mg +800mg Tablets",
+    "casId": "13292-46-1, 54-85-3, 98-96-4"
+  },
+  {
+    "id": 202,
+    "slug": "amlodipine-tabs-2-5-5-10mg-202",
+    "name": "Amlodipine Tabs 2.5/ 5/ 10mg",
+    "category": "Cardio Vasculars",
+    "dosageForm": "Tablets",
+    "strength": "10mg",
+    "details": "Amlodipine Tabs 2.5/ 5/ 10mg Tablets",
+    "casId": "88150-42-9, 074-09-9"
+  },
+  {
+    "id": 203,
+    "slug": "amlodipine-enalapril-tabs-5mg-5-mg-203",
+    "name": "Amlodipine + Enalapril Tabs 5mg + 5 mg",
+    "category": "Cardio Vasculars",
+    "dosageForm": "Tablets",
+    "strength": "5mg + 5 mg",
+    "details": "Amlodipine + Enalapril Tabs 5mg + 5 mg Tablets",
+    "casId": "88150-42-9, 074-09-9, 75847-73-3"
+  },
+  {
+    "id": 204,
+    "slug": "amlodipine-atenolol-tabs-5mg-50mg-204",
+    "name": "Amlodipine + Atenolol Tabs 5mg + 50mg",
+    "category": "Cardio Vasculars",
+    "dosageForm": "Tablets",
+    "strength": "5mg + 50mg",
+    "details": "Amlodipine + Atenolol Tabs 5mg + 50mg Tablets",
+    "casId": "88150-42-9, 074-09-9, 29122-68-7"
+  },
+  {
+    "id": 205,
+    "slug": "lisinopril-205",
+    "name": "Lisinopril",
+    "category": "Cardio Vasculars",
+    "dosageForm": "Tablets",
+    "strength": "10mg",
+    "details": "Lisinopril Usp Tabs 2.5/5/10mg Tablets",
+    "casId": "76547-98-3, 83915-83-7, 001-11-6"
+  },
+  {
+    "id": 206,
+    "slug": "carvedilol-tabs-3-125-6-25-12-5-25-mg-206",
+    "name": "Carvedilol Tabs 3.125/6.25/12.5/25 mg",
+    "category": "Cardio Vasculars",
+    "dosageForm": "Tablets",
+    "strength": "25 mg",
+    "details": "Carvedilol Tabs 3.125/6.25/12.5/25 mg Tablets",
+    "casId": "72956-09-3, 107741-96-8"
+  },
+  {
+    "id": 207,
+    "slug": "losartan-potassium-tabs-25-50mg-207",
+    "name": "Losartan Potassium Tabs 25/ 50mg",
+    "category": "Cardio Vasculars",
+    "dosageForm": "Tablets",
+    "strength": "50mg",
+    "details": "Losartan Potassium Tabs 25/ 50mg Tablets",
+    "casId": "--"
+  },
+  {
+    "id": 208,
+    "slug": "atenolol-indapamide-tabs-50-1-25-mg-208",
+    "name": "Atenolol + Indapamide Tabs 50 + 1.25 mg",
+    "category": "Cardio Vasculars",
+    "dosageForm": "Tablets",
+    "strength": "1.25 mg",
+    "details": "Atenolol + Indapamide Tabs 50 + 1.25 mg Tablets",
+    "casId": "29122-68-7, 60966-51-0, 001-02-5"
+  },
+  {
+    "id": 209,
+    "slug": "ramipril-caps-1-25-2-5-5-mg-209",
+    "name": "Ramipril Caps 1.25 / 2.5 / 5 mg",
+    "category": "Cardio Vasculars",
+    "dosageForm": "Capsule",
+    "strength": "5 mg",
+    "details": "Ramipril Caps 1.25 / 2.5 / 5 mg Capsule",
+    "casId": "87333-19-5, 1028843-43-7"
+  },
+  {
+    "id": 210,
+    "slug": "ismn-aspirin-tabs-30-60-mg-75-mg-210",
+    "name": "Ismn + Aspirin Tabs 30 / 60 mg + 75 mg",
+    "category": "Cardio Vasculars",
+    "dosageForm": "Tablets",
+    "strength": "60 mg + 75 mg",
+    "details": "Ismn + Aspirin Tabs 30 / 60 mg + 75 mg Tablets",
+    "casId": "16051-77-7"
+  },
+  {
+    "id": 211,
+    "slug": "amlodipine-tabs-2-5-5-10-mg-211",
+    "name": "Amlodipine Tabs 2.5 / 5 / 10 mg",
+    "category": "Cardio Vasculars",
+    "dosageForm": "Tablets",
+    "strength": "10 mg",
+    "details": "Amlodipine Tabs 2.5 / 5 / 10 mg Tablets",
+    "casId": "88150-42-9, 074-09-9"
+  },
+  {
+    "id": 212,
+    "slug": "amlodipine-atenolol-tabs-5-50mg-212",
+    "name": "Amlodipine + Atenolol Tabs 5 + 50mg",
+    "category": "Cardio Vasculars",
+    "dosageForm": "Tablets",
+    "strength": "50mg",
+    "details": "Amlodipine + Atenolol Tabs 5 + 50mg Tablets",
+    "casId": "88150-42-9, 074-09-9"
+  },
+  {
+    "id": 213,
+    "slug": "atorvastatin-tabs-10mg-20-mg-213",
+    "name": "Atorvastatin Tabs 10mg / 20 mg",
+    "category": "Cardio Vasculars",
+    "dosageForm": "Tablets",
+    "strength": "10mg / 20 mg",
+    "details": "Atorvastatin Tabs 10mg / 20 mg Tablets",
+    "casId": "134523-00-5, 110862-48-1"
+  },
+  {
+    "id": 214,
+    "slug": "pantoprazole-tabs-20-mg-214",
+    "name": "Pantoprazole Tabs 20 mg",
+    "category": "Cardio Vasculars",
+    "dosageForm": "Tablets",
+    "strength": "20 mg",
+    "details": "Pantoprazole Tabs 20 mg Tablets",
+    "casId": "102625-70-7, 236-06-6"
+  },
+  {
+    "id": 215,
+    "slug": "pantoprazole-tabs-40-mg-215",
+    "name": "Pantoprazole Tabs 40 mg",
+    "category": "Gastro Intestinals",
+    "dosageForm": "Tablets",
+    "strength": "40 mg",
+    "details": "Pantoprazole Tabs 40 mg Tablets",
+    "casId": "102625-70-7, 236-06-6"
+  },
+  {
+    "id": 216,
+    "slug": "pantoprazole-inj-40-mg-216",
+    "name": "Pantoprazole Inj. 40 mg",
+    "category": "Gastro Intestinals",
+    "dosageForm": "Injection",
+    "strength": "40 mg",
+    "details": "Pantoprazole Inj. 40 mg Injection",
+    "casId": "102625-70-7, 236-06-6"
+  },
+  {
+    "id": 217,
+    "slug": "pantoprazole-domperidone-tabs-40mg-30mg-217",
+    "name": "Pantoprazole+Domperidone Tabs 40mg + 30mg",
+    "category": "Gastro Intestinals",
+    "dosageForm": "Tablets",
+    "strength": "40mg + 30mg",
+    "details": "Pantoprazole+Domperidone Tabs 40mg + 30mg Tablets",
+    "casId": "102625-70-7, 236-06-6, 57808-66-9"
+  },
+  {
+    "id": 218,
+    "slug": "ranitidine-inj-25mg-ml-2-ml-218",
+    "name": "Ranitidine Inj. 25mg / ml, 2 ml",
+    "category": "Gastro Intestinals",
+    "dosageForm": "Injection",
+    "strength": "25mg",
+    "details": "Ranitidine Inj. 25mg / ml, 2 ml Injection",
+    "casId": "66357-35-5, 82530-72-1, 66357-59-3"
+  },
+  {
+    "id": 219,
+    "slug": "ranitidine-tabs-150-mg-219",
+    "name": "Ranitidine Tabs 150 mg",
+    "category": "Gastro Intestinals",
+    "dosageForm": "Tablets",
+    "strength": "150 mg",
+    "details": "Ranitidine Tabs 150 mg Tablets",
+    "casId": "66357-35-5, 82530-72-1, 66357-59-3"
+  },
+  {
+    "id": 220,
+    "slug": "cisapride-tabs-10mg-220",
+    "name": "Cisapride Tabs 10mg",
+    "category": "Gastro Intestinals",
+    "dosageForm": "Tablets",
+    "strength": "10mg",
+    "details": "Cisapride Tabs 10mg Tablets",
+    "casId": "81098-60-4, 86718-70-9, 104860-66-4"
+  },
+  {
+    "id": 221,
+    "slug": "cisapride-dimethicone-tabs-10-125mg-221",
+    "name": "Cisapride + Dimethicone Tabs 10 + 125mg",
+    "category": "Gastro Intestinals",
+    "dosageForm": "Tablets",
+    "strength": "125mg",
+    "details": "Cisapride + Dimethicone Tabs 10 + 125mg Tablets",
+    "casId": "81098-60-4, 86718-70-9, 104860-66-4"
+  },
+  {
+    "id": 222,
+    "slug": "omeprazole-222",
+    "name": "Omeprazole",
+    "category": "Gastro Intestinals",
+    "dosageForm": "Injection",
+    "strength": "10 mg/ 20 mg",
+    "details": "Omeprazole Bp 10 mg/ 20 mg Injection",
+    "casId": "73590-58-6, 326602-80-6, 668985-31-7"
+  },
+  {
+    "id": 223,
+    "slug": "lansoprazole-caps-30mg-223",
+    "name": "Lansoprazole Caps 30mg",
+    "category": "Gastro Intestinals",
+    "dosageForm": "Capsule",
+    "strength": "30mg",
+    "details": "Lansoprazole Caps 30mg Capsule",
+    "casId": "103577-45-3, 1261394-42-6, 001-26-3"
+  },
+  {
+    "id": 224,
+    "slug": "mosapride-tabs-2-5-5mg-224",
+    "name": "Mosapride Tabs 2.5 / 5mg",
+    "category": "Gastro Intestinals",
+    "dosageForm": "Tablets",
+    "strength": "5mg",
+    "details": "Mosapride Tabs 2.5 / 5mg Tablets",
+    "casId": "--"
+  },
+  {
+    "id": 225,
+    "slug": "rabeprazole-tabs-20mg-225",
+    "name": "Rabeprazole Tabs 20mg",
+    "category": "Gastro Intestinals",
+    "dosageForm": "Tablets",
+    "strength": "20mg",
+    "details": "Rabeprazole Tabs 20mg Tablets",
+    "casId": "117976-89-3, 236-09-9"
+  },
+  {
+    "id": 226,
+    "slug": "omeprazole-domperidone-tabs-10mg-10mg-226",
+    "name": "Omeprazole + Domperidone Tabs 10mg + 10mg",
+    "category": "Gastro Intestinals",
+    "dosageForm": "Tablets",
+    "strength": "10mg + 10mg",
+    "details": "Omeprazole + Domperidone Tabs 10mg + 10mg Tablets",
+    "casId": "73590-58-6, 326602-80-6, 668985-31-7"
+  },
+  {
+    "id": 227,
+    "slug": "esomeprazole-tabs-20-40mg-227",
+    "name": "Esomeprazole Tabs 20/40mg",
+    "category": "Gastro Intestinals",
+    "dosageForm": "Tablets",
+    "strength": "40mg",
+    "details": "Esomeprazole Tabs 20/40mg Tablets",
+    "casId": "--"
+  },
+  {
+    "id": 228,
+    "slug": "gliclazide-tabs-40-80-mg-228",
+    "name": "Gliclazide Tabs 40 / 80 mg",
+    "category": "Anti Diabetics",
+    "dosageForm": "Tablets",
+    "strength": "80 mg",
+    "details": "Gliclazide Tabs 40 / 80 mg Tablets",
+    "casId": "--"
+  },
+  {
+    "id": 229,
+    "slug": "gliclazide-metformin-tabs-80-500mg-229",
+    "name": "Gliclazide + Metformin Tabs 80+ 500mg",
+    "category": "Anti Diabetics",
+    "dosageForm": "Tablets",
+    "strength": "500mg",
+    "details": "Gliclazide + Metformin Tabs 80+ 500mg Tablets",
+    "casId": "21187-98-4"
+  },
+  {
+    "id": 230,
+    "slug": "glimepiride-tabs-1-mg-2-mg-230",
+    "name": "Glimepiride Tabs 1 mg / 2 mg",
+    "category": "Anti Diabetics",
+    "dosageForm": "Tablets",
+    "strength": "1 mg / 2 mg",
+    "details": "Glimepiride Tabs 1 mg / 2 mg Tablets",
+    "casId": "93479-97-1, 684286-46-2, 261361-60-8"
+  },
+  {
+    "id": 231,
+    "slug": "glimepiride-metformin-tabs-1mg-500mg-2mg-500mg-231",
+    "name": "Glimepiride + Metformin Tabs 1mg + 500mg 2mg + 500mg",
+    "category": "Anti Diabetics",
+    "dosageForm": "Tablets",
+    "strength": "1mg + 500mg",
+    "details": "Glimepiride + Metformin Tabs 1mg + 500mg 2mg + 500mg Tablets",
+    "casId": "93479-97-1, 684286-46-2, 261361-60-8"
+  },
+  {
+    "id": 232,
+    "slug": "metformin-pioglitazone-500mg-15mg-500mg-30mg-232",
+    "name": "Metformin + Pioglitazone 500mg + 15mg 500mg + 30mg",
+    "category": "Anti Diabetics",
+    "dosageForm": "Tablets",
+    "strength": "500mg + 15mg",
+    "details": "Metformin + Pioglitazone 500mg + 15mg 500mg + 30mg Tablets",
+    "casId": "657-24-9, 1115-70-4, 111025-46-8"
+  },
+  {
+    "id": 233,
+    "slug": "sildenafil-citrate-50mg-100mg-233",
+    "name": "Sildenafil Citrate 50mg /100mg",
+    "category": "Erectile Dysfunction",
+    "dosageForm": "Tablets",
+    "strength": "50mg /100mg",
+    "details": "Sildenafil Citrate 50mg /100mg Tablets 10X1X4",
+    "casId": "171599-83-0"
+  },
+  {
+    "id": 234,
+    "slug": "tadalafil-20mg-40mg-234",
+    "name": "Tadalafil 20mg / 40mg",
+    "category": "Erectile Dysfunction",
+    "dosageForm": "Tablets",
+    "strength": "20mg / 40mg",
+    "details": "Tadalafil 20mg / 40mg Tablets 10X1X2",
+    "casId": "171596-29-5, 1242099-07-5, 171488-03-2"
+  },
+  {
+    "id": 235,
+    "slug": "verdanafil-20mg-235",
+    "name": "Verdanafil 20mg",
+    "category": "Erectile Dysfunction",
+    "dosageForm": "Tablets",
+    "strength": "20mg",
+    "details": "Verdanafil 20mg Tablets 10X10",
+    "casId": "--"
+  },
+  {
+    "id": 236,
+    "slug": "flurbiprofen-sod-oph-sol-236",
+    "name": "Flurbiprofen Sod. Oph. Sol.",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Flurbiprofen Sod. Oph. Sol. Usp 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 237,
+    "slug": "chlor-beclo-clot-ligno-ear-237",
+    "name": "Chlor,Beclo,Clot& Ligno.Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Chlor,Beclo,Clot& Ligno.Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "7782-50-5, 81859-29-2"
+  },
+  {
+    "id": 238,
+    "slug": "oflo-beclo-clotri-ligno-ear-238",
+    "name": "Oflo,Beclo,Clotri& Ligno.Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Oflo,Beclo,Clotri& Ligno.Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing Tobramycin Opth. Sol. USP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 239,
+    "slug": "ofloxacin-opth-sol-239",
+    "name": "Ofloxacin Opth. Sol",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Ofloxacin Opth. Sol USP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 240,
+    "slug": "gatifloxacin-eye-240",
+    "name": "Gatifloxacin Eye",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Gatifloxacin Eye Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 241,
+    "slug": "ketorolac-tro-oph-solution-5ml-10-ml-eye-ear-241",
+    "name": "Ketorolac Tro. OPH Solution 5ml, 10 ml Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Ketorolac Tro. OPH Solution 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 242,
+    "slug": "polyvinyl-al-povidone-eye-242",
+    "name": "Polyvinyl Al. & Povidone Eye",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Polyvinyl Al. & Povidone Eye Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 243,
+    "slug": "prednisolone-acetate-oph-sol-5ml-10-ml-eye-ear-243",
+    "name": "Prednisolone Acetate Oph. Sol. 5ml, 10 ml Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Prednisolone Acetate Oph. Sol. 5ml, 10 ml Eye/Ear Drops FFS Packing Tobramycin & Fluoro. Opth Susp. 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 244,
+    "slug": "ofloxa-pred-acetate-eye-244",
+    "name": "Ofloxa & Pred. Acetate Eye",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Ofloxa & Pred. Acetate Eye Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 245,
+    "slug": "ofloxacin-oph-sol-245",
+    "name": "Ofloxacin Oph. Sol.",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Ofloxacin Oph. Sol. USP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 246,
+    "slug": "norfloxacin-eye-ear-246",
+    "name": "Norfloxacin Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Norfloxacin Eye/Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 247,
+    "slug": "cipro-dexa-eye-ear-247",
+    "name": "Cipro. & Dexa. Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Cipro. & Dexa. Eye/Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "85721-33-1, 93107-08-5"
+  },
+  {
+    "id": 248,
+    "slug": "betametha-neomycin-e-e-248",
+    "name": "Betametha & Neomycin E/E",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "drops",
+    "strength": "5ml, 10 ml",
+    "details": "Betametha & Neomycin E/E drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "7542-37-2, 134235-09-9, 065-03-2"
+  },
+  {
+    "id": 249,
+    "slug": "dexa-boric-neomy-e-e-249",
+    "name": "Dexa, Boric & Neomy E/E",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "drops",
+    "strength": "5ml, 10 ml",
+    "details": "Dexa, Boric & Neomy E/E drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "50-02-2, 23495-06-9, 1050677-47-8"
+  },
+  {
+    "id": 250,
+    "slug": "gentamicin-sul-eye-ear-250",
+    "name": "Gentamicin Sul. Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Gentamicin Sul. Eye/Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 251,
+    "slug": "norflo-dexa-eye-ear-251",
+    "name": "Norflo. & Dexa Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Norflo. & Dexa Eye/Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "70458-96-7"
+  },
+  {
+    "id": 252,
+    "slug": "diclofenac-sod-eye-ear-252",
+    "name": "Diclofenac Sod. Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Diclofenac Sod. Eye/Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "15307-79-6"
+  },
+  {
+    "id": 253,
+    "slug": "ciprofloxacin-eye-ear-253",
+    "name": "Ciprofloxacin Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Ciprofloxacin Eye/Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 254,
+    "slug": "dexa-chloram-eye-ear-254",
+    "name": "Dexa. & Chloram. Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Dexa. & Chloram. Eye/Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "50-02-2, 23495-06-9, 1050677-47-8"
+  },
+  {
+    "id": 255,
+    "slug": "gentamicin-dexa-eye-ear-255",
+    "name": "Gentamicin & Dexa Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Gentamicin & Dexa Eye/Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing Tobramycin & Dexa Eye/Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "1403-66-3, 1294497-75-8"
+  },
+  {
+    "id": 256,
+    "slug": "genta-dexa-eye-ear-256",
+    "name": "Genta. & Dexa. Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Genta. & Dexa. Eye/Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 257,
+    "slug": "naphazoline-hcl-opth-sol-257",
+    "name": "Naphazoline HCl Opth. Sol.",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Naphazoline HCl Opth. Sol. USP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 258,
+    "slug": "phenylephrine-eye-258",
+    "name": "Phenylephrine Eye",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Phenylephrine Eye Drops BP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 259,
+    "slug": "norfloxacin-dexa-eye-ear-259",
+    "name": "Norfloxacin & Dexa. Eye / Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Norfloxacin & Dexa. Eye / Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "70458-96-7"
+  },
+  {
+    "id": 260,
+    "slug": "ofloxacin-oph-sol-260",
+    "name": "Ofloxacin Oph. Sol.",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Ofloxacin Oph. Sol. USP E/E Drops 5ml, 10 ml Eye/Ear Drops FFS Packing Tobramycin Ophthalmic Sol. USP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 261,
+    "slug": "diclofenac-sodiom-eye-ear-261",
+    "name": "Diclofenac Sodiom Eye / Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Diclofenac Sodiom Eye / Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 262,
+    "slug": "gentamicin-sulphate-eye-ear-262",
+    "name": "Gentamicin Sulphate Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Gentamicin Sulphate Eye/Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 263,
+    "slug": "cipro-dexa-eye-ear-263",
+    "name": "Cipro. & Dexa. Eye / Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Cipro. & Dexa. Eye / Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "85721-33-1, 93107-08-5"
+  },
+  {
+    "id": 264,
+    "slug": "dexa-neomycin-eye-ear-264",
+    "name": "Dexa. & Neomycin Eye / Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Dexa. & Neomycin Eye / Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "50-02-2, 23495-06-9, 1050677-47-8"
+  },
+  {
+    "id": 265,
+    "slug": "lubricating-eye-265",
+    "name": "Lubricating Eye",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Lubricating Eye Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 266,
+    "slug": "timolol-maleate-eye-266",
+    "name": "Timolol Maleate Eye",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Timolol Maleate Eye Drops IP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 267,
+    "slug": "prednisolone-acetate-oph-sol-267",
+    "name": "Prednisolone Acetate Oph. Sol.",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Prednisolone Acetate Oph. Sol. USP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 268,
+    "slug": "ofloxacin-oph-sol-268",
+    "name": "Ofloxacin Oph. Sol.",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Ofloxacin Oph. Sol. USP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 269,
+    "slug": "ciprofloxacin-dexa-eye-ear-269",
+    "name": "Ciprofloxacin & Dexa. Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Ciprofloxacin & Dexa. Eye/Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "85721-33-1, 93107-08-5"
+  },
+  {
+    "id": 270,
+    "slug": "prednisolone-acetate-ofloxacin-eye-270",
+    "name": "Prednisolone Acetate & Ofloxacin Eye",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Prednisolone Acetate & Ofloxacin Eye Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "52-21-1"
+  },
+  {
+    "id": 271,
+    "slug": "dexa-boric-acid-neomycin-e-e-271",
+    "name": "Dexa., Boric Acid & Neomycin E/E",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Dexa., Boric Acid & Neomycin E/E Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "7542-37-2, 134235-09-9, 065-03-2"
+  },
+  {
+    "id": 272,
+    "slug": "betamethasone-neomycin-e-e-272",
+    "name": "Betamethasone & Neomycin E/E",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Betamethasone & Neomycin E/E Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "378-44-9, 7542-37-2, 134235-09-9"
+  },
+  {
+    "id": 273,
+    "slug": "dexa-chloram-eye-273",
+    "name": "Dexa. & Chloram. Eye",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Dexa. & Chloram. Eye Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "50-02-2, 23495-06-9, 1050677-47-8"
+  },
+  {
+    "id": 274,
+    "slug": "sulphacetamide-sod-eye-274",
+    "name": "Sulphacetamide Sod. Eye",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Sulphacetamide Sod. Eye Drops IP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 275,
+    "slug": "naphazoline-cpm-methylcellulose-e-e-275",
+    "name": "Naphazoline, CPM & Methylcellulose E/E",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Naphazoline, CPM & Methylcellulose E/E Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "835-31-4, 10061-11-7, 550-99-2"
+  },
+  {
+    "id": 276,
+    "slug": "povidone-iodine-solution-276",
+    "name": "Povidone Iodine Solution",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Povidone Iodine Solution IP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 277,
+    "slug": "cmc-glycerin-n-acetyl-caronsine-e-e-277",
+    "name": "CMC,Glycerin & N-Acetyl. Caronsine E/E",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "CMC,Glycerin & N-Acetyl. Caronsine E/E Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 278,
+    "slug": "boric-acid-sod-chlo-napha-zinc-cpm-5ml-10-ml-eye-ear-278",
+    "name": "Boric Acid, Sod. Chlo.,Napha, Zinc & CPM 5ml, 10 ml Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Boric Acid, Sod. Chlo.,Napha, Zinc & CPM 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "10043-35-3, 11113-50-1, 1332-77-0"
+  },
+  {
+    "id": 279,
+    "slug": "phen-hcl-napha-menthol-camphor-hpmc-5ml-10-ml-eye-ear-279",
+    "name": "Phen. HCl, Napha, Menthol, Camphor, HPMC 5ml, 10 ml Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Phen. HCl, Napha, Menthol, Camphor, HPMC 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "66-71-7"
+  },
+  {
+    "id": 280,
+    "slug": "sod-cmc-eye-280",
+    "name": "Sod. CMC Eye",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Sod. CMC Eye Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 281,
+    "slug": "fluorometholone-oph-susp-281",
+    "name": "Fluorometholone Oph. Susp.",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Fluorometholone Oph. Susp. USP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 282,
+    "slug": "napha-cpm-zinc-boric-acid-sod-chloride-5ml-10-ml-eye-ear-282",
+    "name": "Napha., CPM, Zinc, Boric Acid & Sod. Chloride 5ml, 10 ml Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Napha., CPM, Zinc, Boric Acid & Sod. Chloride 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 283,
+    "slug": "flurbiprofen-sodium-chloramphenicol-5ml-10-ml-eye-ear-283",
+    "name": "Flurbiprofen Sodium& Chloramphenicol 5ml, 10 ml Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Flurbiprofen Sodium& Chloramphenicol 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "56767-76-1"
+  },
+  {
+    "id": 284,
+    "slug": "boric-phen-hcl-napha-menthol-camphor-5ml-10-ml-eye-ear-284",
+    "name": "Boric, Phen. HCl, Napha., Menthol & Camphor 5ml, 10 ml Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Boric, Phen. HCl, Napha., Menthol & Camphor 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 285,
+    "slug": "bimatoprost-timolol-maleate-eye-285",
+    "name": "Bimatoprost & Timolol Maleate Eye",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Bimatoprost & Timolol Maleate Eye Drops 5ml, 10 ml Eye/Ear Drops FFS Packing HPMC,Borax,Boric,Sod.Chlo.,& Pot.Chloride 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "155206-00-1"
+  },
+  {
+    "id": 286,
+    "slug": "cpm-boric-acid-sod-chloride-tetrahy-hcl-5ml-10-ml-eye-ear-286",
+    "name": "CPM,Boric Acid, Sod. Chloride & Tetrahy. HCl 5ml, 10 ml Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "CPM,Boric Acid, Sod. Chloride & Tetrahy. HCl 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "76877-33-3"
+  },
+  {
+    "id": 287,
+    "slug": "flurbiprofen-sodium-ophthalmic-solution-287",
+    "name": "Flurbiprofen Sodium Ophthalmic Solution",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Flurbiprofen Sodium Ophthalmic Solution USP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 288,
+    "slug": "ofloxacin-288",
+    "name": "Ofloxacin",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Ofloxacin USP, Ben. Chloride Sol. IP E/E Drop 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "82419-36-1, 83380-47-6"
+  },
+  {
+    "id": 289,
+    "slug": "oflo-dexa-sod-phos-e-e-289",
+    "name": "Oflo. & Dexa. Sod. Phos. E/E",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Oflo. & Dexa. Sod. Phos. E/E Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 290,
+    "slug": "cip-dexa-e-e-290",
+    "name": "Cip. & Dexa. E/E",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Cip. & Dexa. E/E Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "101385-69-7"
+  },
+  {
+    "id": 291,
+    "slug": "oflo-bec-clot-ligo-methy-propy-ear-291",
+    "name": "Oflo.,Bec.,Clot.,Ligo.,Methy.,Propy., Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Oflo.,Bec.,Clot.,Ligo.,Methy.,Propy., Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 292,
+    "slug": "naph-nit-chlo-zinc-sul-boric-acid-eye-292",
+    "name": "Naph.Nit.,Chlo.,Zinc Sul.,Boric Acid Eye",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Naph.Nit.,Chlo.,Zinc Sul.,Boric Acid Eye Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 293,
+    "slug": "gatifloxacin-dexa-phot-bkc-eye-293",
+    "name": "Gatifloxacin, Dexa.Phot.& BKC Eye",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Gatifloxacin, Dexa.Phot.& BKC Eye Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "112811-59-3, 160738-57-8, 001-06-9"
+  },
+  {
+    "id": 294,
+    "slug": "naph-hpmc-cpm-zinc-sulphate-boric-acid-5ml-10-ml-eye-ear-294",
+    "name": "Naph, HPMC,CPM, Zinc sulphate, Boric Acid 5ml, 10 ml Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Naph, HPMC,CPM, Zinc sulphate, Boric Acid 5ml, 10 ml Eye/Ear Drops FFS Packing HPMC 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 295,
+    "slug": "sodium-carboxymethylcellulose-295",
+    "name": "Sodium Carboxymethylcellulose",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Sodium Carboxymethylcellulose IP & Oxy chloro 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "9004-32-4, 9085-26-1"
+  },
+  {
+    "id": 296,
+    "slug": "hydroxypropylmethyl-cellulose-296",
+    "name": "Hydroxypropylmethyl cellulose",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Hydroxypropylmethyl cellulose IP 5ml, 10 ml Eye/Ear Drops FFS Packing Tobramycin & Dexamethasone Eye/Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 297,
+    "slug": "ofloxacin-dexa-sod-eye-ear-297",
+    "name": "Ofloxacin & Dexa.Sod. Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Ofloxacin & Dexa.Sod. Eye/Ear Drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "82419-36-1, 83380-47-6"
+  },
+  {
+    "id": 298,
+    "slug": "brimonide-tartrate-timolol-maleate-298",
+    "name": "Brimonide Tartrate, Timolol Maleate",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Brimonide Tartrate, Timolol Maleate IP, BKC 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 299,
+    "slug": "ciprofloxacin-hcl-hpmc-bkc-5ml-10-ml-eye-ear-299",
+    "name": "Ciprofloxacin HCl, HPMC,BKC 5ml, 10 ml Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Ciprofloxacin HCl, HPMC,BKC 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "86393-32-0, 128074-72-6"
+  },
+  {
+    "id": 300,
+    "slug": "latanoprost-bkc-5ml-10-ml-eye-ear-300",
+    "name": "Latanoprost, BKC 5ml, 10 ml Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Latanoprost, BKC 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "130209-82-4, 155551-81-8"
+  },
+  {
+    "id": 301,
+    "slug": "latanprost-timolol-maleate-301",
+    "name": "Latanprost, timolol Maleate",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Latanprost, timolol Maleate IP, BKC 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 302,
+    "slug": "tropicamide-peh-bkc-5ml-10-ml-eye-ear-302",
+    "name": "Tropicamide, PEH, BKC 5ml, 10 ml Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Tropicamide, PEH, BKC 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "1508-75-4, 001-05-8, 001-20-7"
+  },
+  {
+    "id": 303,
+    "slug": "olopatidine-hydrochloride-bkc-5ml-10-ml-eye-ear-303",
+    "name": "Olopatidine Hydrochloride, BKC 5ml, 10 ml Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Olopatidine Hydrochloride, BKC 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 304,
+    "slug": "brimonidine-tartrate-soc-5ml-10-ml-eye-ear-304",
+    "name": "Brimonidine tartrate, SOC 5ml, 10 ml Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Brimonidine tartrate, SOC 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "70359-46-5, 79570-19-7, 109826-56-4"
+  },
+  {
+    "id": 305,
+    "slug": "ofloxacin-ophthalmic-solution-305",
+    "name": "Ofloxacin Ophthalmic Solution",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Ofloxacin Ophthalmic Solution USP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "82419-36-1, 83380-47-6"
+  },
+  {
+    "id": 306,
+    "slug": "timolol-maleate-eye-306",
+    "name": "Timolol Maleate Eye",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Timolol Maleate Eye Drops IP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 307,
+    "slug": "tropicamide-eye-307",
+    "name": "Tropicamide Eye",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Tropicamide Eye Drops IP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 308,
+    "slug": "ofloxacin-ophthalmic-solution-308",
+    "name": "Ofloxacin Ophthalmic Solution",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Ofloxacin Ophthalmic Solution USP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "82419-36-1, 83380-47-6"
+  },
+  {
+    "id": 309,
+    "slug": "timolol-maleate-eye-309",
+    "name": "Timolol Maleate Eye",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Timolol Maleate Eye Drops IP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 310,
+    "slug": "sodium-chloride-eye-dops-310",
+    "name": "Sodium Chloride Eye Dops",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Sodium Chloride Eye Dops BP 5ml, 10 ml Eye/Ear Drops FFS Packing Tobramycin Ophthalmic Solution USP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 311,
+    "slug": "moxifloxacin-eye-311",
+    "name": "Moxifloxacin Eye",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "drops",
+    "strength": "5ml, 10 ml",
+    "details": "Moxifloxacin Eye drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 312,
+    "slug": "ofloxacin-dexamethasone-sod-phos-eye-ear-312",
+    "name": "ofloxacin & Dexamethasone Sod. Phos. Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "drops",
+    "strength": "5ml, 10 ml",
+    "details": "ofloxacin & Dexamethasone Sod. Phos. Eye/Ear drops 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "82419-36-1, 83380-47-6"
+  },
+  {
+    "id": 313,
+    "slug": "naphazoline-hcl-hpmc-borax-313",
+    "name": "Naphazoline HCl, HPMC, borax",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Naphazoline HCl, HPMC, borax BP, Boric Acid, Menthol 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "550-99-2"
+  },
+  {
+    "id": 314,
+    "slug": "sodiumcarboxymethylcellulose-314",
+    "name": "SodiumCarboxymethylcellulose",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "SodiumCarboxymethylcellulose IP, SOC 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 315,
+    "slug": "sulphacetamide-sodium-315",
+    "name": "Sulphacetamide Sodium",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Sulphacetamide Sodium IP, CPM, HPMC 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "127-56-0"
+  },
+  {
+    "id": 316,
+    "slug": "betamethasone-sod-phos-316",
+    "name": "Betamethasone Sod. Phos.",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Betamethasone Sod. Phos. IP, Neomycin Sulphate Ip 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 317,
+    "slug": "ofloxacin-317",
+    "name": "Ofloxacin",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Ofloxacin USP, Becmethasone Dipropionate Ip, Clotrimazole IP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "82419-36-1, 83380-47-6"
+  },
+  {
+    "id": 318,
+    "slug": "sulphacetamide-sodium-318",
+    "name": "Sulphacetamide Sodium",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Sulphacetamide Sodium IP, Chloramphenicol IP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "127-56-0"
+  },
+  {
+    "id": 319,
+    "slug": "chloramphenicol-polymyxin-b-sulphate-phenylmercuric-nitrate-319",
+    "name": "Chloramphenicol, Polymyxin B Sulphate,Phenylmercuric Nitrate",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Chloramphenicol, Polymyxin B Sulphate,Phenylmercuric Nitrate IP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "56-75-7, 125440-98-4, 2787-09-9"
+  },
+  {
+    "id": 320,
+    "slug": "natamycin-ophthalmic-320",
+    "name": "Natamycin Ophthalmic",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Suspension",
+    "strength": "5ml, 10 ml",
+    "details": "Natamycin Ophthalmic Suspension USP 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 321,
+    "slug": "naphazoline-hydrochloride-321",
+    "name": "Naphazoline Hydrochloride",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Naphazoline Hydrochloride USP, HPMC,CPM 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "550-99-2"
+  },
+  {
+    "id": 322,
+    "slug": "gatifloxacin-prednisolone-5ml-10-ml-ffs-packing-azithromycin-5ml-10-ml-322",
+    "name": "GATIFLOXACIN + PREDNISOLONE 5ml, 10 ml FFS Packing AZITHROMYCIN 5ml, 10 ml FFS Packing Ketrolac + Ofloxacin 5ml, 10 ml FFS Packing",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Not specified",
+    "strength": "5ml, 10 ml",
+    "details": "GATIFLOXACIN + PREDNISOLONE 5ml, 10 ml FFS Packing AZITHROMYCIN 5ml, 10 ml FFS Packing Ketrolac + Ofloxacin 5ml, 10 ml FFS Packing",
+    "casId": "112811-59-3, 160738-57-8, 001-06-9"
+  },
+  {
+    "id": 323,
+    "slug": "ketrolac-tromethamine-5mg-moxifloxacin-hcl-5mg-eye-drop-5ml-10-ml-eye-323",
+    "name": "Ketrolac Tromethamine 5mg +Moxifloxacin HCL 5mg Eye Drop 5ml, 10 ml Eye/Ear",
+    "category": "Eye / Ear Drops",
+    "dosageForm": "Drops",
+    "strength": "5mg",
+    "details": "Ketrolac Tromethamine 5mg +Moxifloxacin HCL 5mg Eye Drop 5ml, 10 ml Eye/Ear Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 324,
+    "slug": "xylometazoline-hcl-324",
+    "name": "Xylometazoline HCL",
+    "category": "Nasal Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Xylometazoline HCL Nasal Drops IP 5ml, 10 ml Nasal Drops FFS Packing",
+    "casId": "1218-35-5"
+  },
+  {
+    "id": 325,
+    "slug": "oxymetazoline-hydrochloride-nasal-solution-5ml-10-ml-325",
+    "name": "Oxymetazoline Hydrochloride Nasal Solution 5ml, 10 ml",
+    "category": "Nasal Drops",
+    "dosageForm": "Drops",
+    "strength": "5ml, 10 ml",
+    "details": "Oxymetazoline Hydrochloride Nasal Solution 5ml, 10 ml Nasal Drops FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 326,
+    "slug": "camphone-chlorthymol-eucalyptol-menthol-terpineol-25mg-5mg-125mg-55mg-326",
+    "name": "Camphone+ Chlorthymol+ Eucalyptol+ Menthol+ Terpineol 25mg+ 5mg+ 125mg+ 55mg+ 120mg",
+    "category": "Soft Gelatin",
+    "dosageForm": "Capsule",
+    "strength": "25mg+ 5mg+ 125mg+ 55mg+ 120mg",
+    "details": "Camphone+ Chlorthymol+ Eucalyptol+ Menthol+ Terpineol 25mg+ 5mg+ 125mg+ 55mg+ 120mg Capsule 10x10",
+    "casId": "89-68-9, 470-82-6, 001-03-6"
+  },
+  {
+    "id": 327,
+    "slug": "diphenydramine-hcl-25-327",
+    "name": "Diphenydramine Hcl 25",
+    "category": "Soft Gelatin",
+    "dosageForm": "Capsule",
+    "strength": "Not specified",
+    "details": "Diphenydramine Hcl 25 Capsule 30x10",
+    "casId": "--"
+  },
+  {
+    "id": 328,
+    "slug": "elemental-calcium-200-calcitrol-0-25-328",
+    "name": "Elemental Calcium 200 + Calcitrol 0.25",
+    "category": "Soft Gelatin",
+    "dosageForm": "Capsule",
+    "strength": "Not specified",
+    "details": "Elemental Calcium 200 + Calcitrol 0.25 Capsule 10x10",
+    "casId": "--"
+  },
+  {
+    "id": 329,
+    "slug": "lycopene-6-5000-vitamine-e-acetate-100-selenium-100-329",
+    "name": "Lycopene 6% 5000 + Vitamine E Acetate 100 + Selenium 100",
+    "category": "Soft Gelatin",
+    "dosageForm": "Capsule",
+    "strength": "6%",
+    "details": "Lycopene 6% 5000 + Vitamine E Acetate 100 + Selenium 100 Capsule 10x10",
+    "casId": "--"
+  },
+  {
+    "id": 330,
+    "slug": "multivitamin-w-o-ginseng-330",
+    "name": "Multivitamin w/o Ginseng",
+    "category": "Soft Gelatin",
+    "dosageForm": "Capsule",
+    "strength": "Not specified",
+    "details": "Multivitamin w/o Ginseng Capsule 10x1x10",
+    "casId": "--"
+  },
+  {
+    "id": 331,
+    "slug": "multivitamin-with-ginseng-331",
+    "name": "Multivitamin with Ginseng",
+    "category": "Soft Gelatin",
+    "dosageForm": "Capsule",
+    "strength": "Not specified",
+    "details": "Multivitamin with Ginseng Capsule 10x1x10",
+    "casId": "--"
+  },
+  {
+    "id": 332,
+    "slug": "betacarotene-10-zinc-sulfate-monohydrate-27-5-selenium-70-manganese-2-332",
+    "name": "Betacarotene 10 + Zinc Sulfate Monohydrate 27.5 + Selenium 70 + Manganese 2+Copper 1",
+    "category": "Soft Gelatin",
+    "dosageForm": "Capsule",
+    "strength": "Not specified",
+    "details": "Betacarotene 10 + Zinc Sulfate Monohydrate 27.5 + Selenium 70 + Manganese 2+Copper 1 Capsule 10x10",
+    "casId": "19869-93-3"
+  },
+  {
+    "id": 333,
+    "slug": "vitamin-e-200-333",
+    "name": "Vitamin E 200",
+    "category": "Soft Gelatin",
+    "dosageForm": "Capsule",
+    "strength": "Not specified",
+    "details": "Vitamin E 200 Capsule 10x10",
+    "casId": "--"
+  },
+  {
+    "id": 334,
+    "slug": "vitamin-e-400-334",
+    "name": "Vitamin E 400",
+    "category": "Soft Gelatin",
+    "dosageForm": "Capsule",
+    "strength": "Not specified",
+    "details": "Vitamin E 400 Capsule 10x10",
+    "casId": "--"
+  },
+  {
+    "id": 335,
+    "slug": "betacarotene-335",
+    "name": "Betacarotene",
+    "category": "Soft Gelatin",
+    "dosageForm": "Capsule",
+    "strength": "30%",
+    "details": "Betacarotene BP (30% Dispersion) + Lycopene 6% + Lutein USP 40% + Zinc sulphate monohydrate USP Capsule 5x10",
+    "casId": "7235-40-7, 116-32-5"
+  },
+  {
+    "id": 336,
+    "slug": "lycopene-2-5-vitamin-e-acetate-336",
+    "name": "LYCOPENE (2.5%) + Vitamin E Acetate",
+    "category": "Soft Gelatin",
+    "dosageForm": "Capsule",
+    "strength": "2.5%",
+    "details": "LYCOPENE (2.5%) + Vitamin E Acetate IP + Vitamin C IP+ Vitamin A concentrate oily form as Palmitate IP + Zinc Sulphate Monohydrate IP + Selenium Dioxide IP 2000mcg+ 10iu+ 50mg+ 2500 IU + 27.45 mg+ 70mcg Capsule 10x10",
+    "casId": "502-65-8, 58-95-7, 52225-20-4"
+  },
+  {
+    "id": 337,
+    "slug": "atorvastatin-calcium-omega-3-fatty-acid-e-p-a-33-mg-d-h-a-22-mg-lycope-337",
+    "name": "Atorvastatin Calcium+ Omega 3 Fatty Acid (E.P.A =33 MG &D.H.A 22 MG+ Lycopene 10%+ L- Argenine 10mg+ 300mg+ 10mg+ 50mg",
+    "category": "Soft Gelatin",
+    "dosageForm": "Capsule",
+    "strength": "33 MG",
+    "details": "Atorvastatin Calcium+ Omega 3 Fatty Acid (E.P.A =33 MG &D.H.A 22 MG+ Lycopene 10%+ L- Argenine 10mg+ 300mg+ 10mg+ 50mg Capsule 10x10",
+    "casId": "134523-03-8, 363599-71-7, 1316891-47-0"
+  },
+  {
+    "id": 338,
+    "slug": "nimesulide-paracetamol-338",
+    "name": "Nimesulide + Paracetamol",
+    "category": "Soft Gelatin",
+    "dosageForm": "Capsule",
+    "strength": "Not specified",
+    "details": "Nimesulide + Paracetamol Capsule 10x10",
+    "casId": "51803-78-2, 1364966-82-4, 103-90-2"
+  },
+  {
+    "id": 339,
+    "slug": "l-arginine-hydrochloride-339",
+    "name": "L-Arginine Hydrochloride",
+    "category": "Soft Gelatin",
+    "dosageForm": "Not specified",
+    "strength": "Not specified",
+    "details": "L-Arginine Hydrochloride BP + L-Isoleucine + L-leucine + L-Lysine Hydrochloride USP + DL-Methionine + L-Threonine + L-Valine + L-Tryptophan + L-Phenylalanine + Reduced",
+    "casId": "1119-34-2, 15595-35-4"
+  },
+  {
+    "id": 340,
+    "slug": "glutathione-cholecalciferol-340",
+    "name": "Glutathione+Cholecalciferol",
+    "category": "Soft Gelatin",
+    "dosageForm": "Not specified",
+    "strength": "0.1 mg",
+    "details": "Glutathione+Cholecalciferol IP + Vitamin A + α-Tocopheryl Acetate + Vitamin B1 IP + Vitamin B2 IP + Vitamin B6 IP + Vitamin B12 IP + Nicotinamide IP + Calcium Pantothenate IP + Ascorbic Acid IP + Folic Acid IP + Sodium selenite + Chromium Picolinate + Dried Ferrous Sulphate + Copper Sulphate 5 H2O (eq. to elemental Cu. 0.1 mg) + Potasium Iodideeq. to elemental",
+    "casId": "70-18-8, 95687-20-0, 106272-20-2"
+  },
+  {
+    "id": 341,
+    "slug": "iodine-0-1-mg-zinc-sulphate-h2o-eq-to-elemental-zn-15-mg-manganese-sul-341",
+    "name": "Iodine 0.1 mg)+ Zinc Sulphate H2O (eq. to elemental Zn. 15 mg) + Manganese Sulphate H2O (eq. to elemental Mn. 2.03 mg) + Magnesium Oxide (Light) (eq. to 13.28 mg + 5.90 mg + 18.30 mg + 25.00 mg + 4.20 mg + 6.70 mg + 5.00 mg + 5.00 mg + 1.00 mg + 200 IU + 2500 IU + 7.50 mg + 5.00 mg + 3.00 mg + 1.50 mg + 2.00 mcg + 25.00 mg + 16.30 mg + 50.00 mg + 200 mcg + 10 mg + 200 mcg + 20.50 mg + 0.40 mg + 0.13 mg + 41.20 mg + 6.25 mg",
+    "category": "Soft Gelatin",
+    "dosageForm": "Capsule",
+    "strength": "0.1 mg",
+    "details": "Iodine 0.1 mg)+ Zinc Sulphate H2O (eq. to elemental Zn. 15 mg) + Manganese Sulphate H2O (eq. to elemental Mn. 2.03 mg) + Magnesium Oxide (Light) (eq. to 13.28 mg + 5.90 mg + 18.30 mg + 25.00 mg + 4.20 mg + 6.70 mg + 5.00 mg + 5.00 mg + 1.00 mg + 200 IU + 2500 IU + 7.50 mg + 5.00 mg + 3.00 mg + 1.50 mg + 2.00 mcg + 25.00 mg + 16.30 mg + 50.00 mg + 200 mcg + 10 mg + 200 mcg + 20.50 mg + 0.40 mg + 0.13 mg + 41.20 mg + 6.25 mg + Capsule 10x10",
+    "casId": "7553-56-2, 12190-71-5, 8031-47-8"
+  },
+  {
+    "id": 342,
+    "slug": "elemental-mg-4-15-mg-omega-3-fatty-acid-250-mg-equivalent-to-eicosapen-342",
+    "name": "elemental Mg. 4.15 mg Omega - 3 Fatty Acid 250 mg Equivalent to :Eicosapentaenoic Acid 90 mg & Docosahexaeboic Acid 60 mg)",
+    "category": "Soft Gelatin",
+    "dosageForm": "Not specified",
+    "strength": "4.15 mg",
+    "details": "elemental Mg. 4.15 mg Omega - 3 Fatty Acid 250 mg Equivalent to :Eicosapentaenoic Acid 90 mg & Docosahexaeboic Acid 60 mg)",
+    "casId": "--"
+  },
+  {
+    "id": 343,
+    "slug": "vitamin-e-acetate-vitamin-b-6-vitamin-c-vitamin-b-12-folic-acid-coenzy-343",
+    "name": "Vitamin E Acetate + Vitamin B 6 + Vitamin C + Vitamin B 12 + Folic Acid + Coenzyme Q 10 + Onega 3 Fatty Acid (eq. Eicosapentaenoic Acid &",
+    "category": "Soft Gelatin",
+    "dosageForm": "Not specified",
+    "strength": "Not specified",
+    "details": "Vitamin E Acetate + Vitamin B 6 + Vitamin C + Vitamin B 12 + Folic Acid + Coenzyme Q 10 + Onega 3 Fatty Acid (eq. Eicosapentaenoic Acid &",
+    "casId": "58-95-7, 52225-20-4, 54-22-8"
+  },
+  {
+    "id": 344,
+    "slug": "docosahezaenoic-acid-60-mg-200-mg-3-mg-150mg-500mcg-1-mg-10-mg-344",
+    "name": "Docosahezaenoic Acid 60 mg) 200 mg + 3 mg + 150mg + 500mcg + 1 mg + 10 mg",
+    "category": "Soft Gelatin",
+    "dosageForm": "Capsule",
+    "strength": "60 mg",
+    "details": "Docosahezaenoic Acid 60 mg) 200 mg + 3 mg + 150mg + 500mcg + 1 mg + 10 mg Capsule 10X10",
+    "casId": "--"
+  },
+  {
+    "id": 345,
+    "slug": "ginseng-extract-345",
+    "name": "Ginseng Extract",
+    "category": "Soft Gelatin",
+    "dosageForm": "Not specified",
+    "strength": "217.5mg",
+    "details": "Ginseng Extract USP (Highly concentrated & standardized, Ginseng Extract corresponding to 217.5mg of root of Panax Ginseng) + Mix Carotene 10%",
+    "casId": "--"
+  },
+  {
+    "id": 346,
+    "slug": "niacinamide-346",
+    "name": "Niacinamide",
+    "category": "Soft Gelatin",
+    "dosageForm": "Capsule",
+    "strength": "43.5mg + 10.33mg + 25 mg + 5mg + 1 mg + 500mcg + 50mg + 200 IU + 5mg + 0.15mg + 75mg + 58mg + 30mg + 10mg + 3mg + 0.5mg + 0.5mg + 0.1mg + 2mg",
+    "details": "Niacinamide IP + Calcium Pantothenate IP + Vitamin B6 IP + Mecobalamin + Calcium Ascorbate BP + Vitamin D3 IP + Refined Wheat-germ Oil BP + Folic Acid IP + Dibasic Calcium Phosphate IP Eq. to Elemental Calcium+ Elemental Phosphorous + Ferrous Fumarate IP + Zinc Sulfate Monohydrate USP + Magnesium Sulphate IP Eq. to Elemental Magnesium + Manganese Sulphate Monohydrate BP Eq. to Elemental Manganese + Copper Sulphate Pentahydrate BP Eq. to Elemental Copper Potassium Iodide IP Eq. to Elemental Iodine + Potassium Sulphate BP Eq. to Elemental Potassium 43.5mg + 10.33mg + 25 mg + 5mg + 1 mg + 500mcg + 50mg + 200 IU + 5mg + 0.15mg + 75mg + 58mg + 30mg + 10mg + 3mg + 0.5mg + 0.5mg + 0.1mg + 2mg Capsule 10X10",
+    "casId": "98-92-0, 11032-50-1"
+  },
+  {
+    "id": 347,
+    "slug": "calcium-carbonate-347",
+    "name": "Calcium Carbonate",
+    "category": "Soft Gelatin",
+    "dosageForm": "Capsule",
+    "strength": "500 mg + 200 mg + 0.25 mcg",
+    "details": "Calcium Carbonate IP eq. to Elemental + Calcium Alfacalcidol BP 500 mg + 200 mg + 0.25 mcg Capsule 10X10",
+    "casId": "471-34-1, 13397-26-7, 72608-12-9"
+  },
+  {
+    "id": 348,
+    "slug": "calcium-ascorbate-348",
+    "name": "Calcium Ascorbate",
+    "category": "Soft Gelatin",
+    "dosageForm": "Capsule",
+    "strength": "50 mg + 2000 mcg + 500 mcg + 25 mg + 27.45 mg + 10 mcg + 3.2 mg",
+    "details": "Calcium Ascorbate BP+ Lycopene + Methylcobalamin + Wheat Germ Oil BP + Zinc Sulfate Monohydrate USP + Calcium Pantothenate IP + Lutein 50 mg + 2000 mcg + 500 mcg + 25 mg + 27.45 mg + 10 mcg + 3.2 mg Capsule 10X10",
+    "casId": "5743-27-1"
+  },
+  {
+    "id": 349,
+    "slug": "ciprofloxacin-349",
+    "name": "Ciprofloxacin",
+    "category": "IV Fluid",
+    "dosageForm": "injection",
+    "strength": "2%",
+    "details": "Ciprofloxacin injection IP (2% w/v) 100ML I. V. FFS Packing",
+    "casId": "85721-33-1, 93107-08-5"
+  },
+  {
+    "id": 350,
+    "slug": "ciprofloxacin-intravenous-350",
+    "name": "Ciprofloxacin intravenous",
+    "category": "IV Fluid",
+    "dosageForm": "infusion",
+    "strength": "100ML",
+    "details": "Ciprofloxacin intravenous infusion 100ML I. V. FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 351,
+    "slug": "dextrose-351",
+    "name": "Dextrose",
+    "category": "IV Fluid",
+    "dosageForm": "injection",
+    "strength": "100ML",
+    "details": "Dextrose injection 100ML I. V. FFS Packing",
+    "casId": "50-99-7, 2280-44-6, 54-17-1"
+  },
+  {
+    "id": 352,
+    "slug": "mannitol-352",
+    "name": "Mannitol",
+    "category": "IV Fluid",
+    "dosageForm": "injection",
+    "strength": "20%",
+    "details": "Mannitol injection (20%) 100ML I. V. FFS Packing",
+    "casId": "69-65-8, 87-78-5, 133-43-7"
+  },
+  {
+    "id": 353,
+    "slug": "metronidazole-353",
+    "name": "Metronidazole",
+    "category": "IV Fluid",
+    "dosageForm": "injection",
+    "strength": "0.5%",
+    "details": "Metronidazole injection (0.5%w/v) 100ML I. V. FFS Packing",
+    "casId": "443-48-1, 56010-45-8"
+  },
+  {
+    "id": 354,
+    "slug": "linezolid-354",
+    "name": "Linezolid",
+    "category": "IV Fluid",
+    "dosageForm": "injection",
+    "strength": "0.2%",
+    "details": "Linezolid injection (0.2% w/v) 100ML I. V. FFS Packing",
+    "casId": "165800-03-3"
+  },
+  {
+    "id": 355,
+    "slug": "ofloxacin-influsion-0-2-w-v-100ml-i-v-ffs-packing-levofloxacin-intrave-355",
+    "name": "Ofloxacin influsion (0.2% w/v) 100ML I. V. FFS Packing Levofloxacin intravenous",
+    "category": "IV Fluid",
+    "dosageForm": "infusion",
+    "strength": "0.2%",
+    "details": "Ofloxacin influsion (0.2% w/v) 100ML I. V. FFS Packing Levofloxacin intravenous infusion 100ML I. V. FFS Packing (0.5% w/v)",
+    "casId": "--"
+  },
+  {
+    "id": 356,
+    "slug": "ornidazole-356",
+    "name": "Ornidazole",
+    "category": "IV Fluid",
+    "dosageForm": "infusion",
+    "strength": "0.5%",
+    "details": "Ornidazole infusion (0.5% w/v) 100ML I. V. FFS Packing",
+    "casId": "16773-42-5"
+  },
+  {
+    "id": 357,
+    "slug": "moxifloxacin-intravenous-357",
+    "name": "Moxifloxacin intravenous",
+    "category": "IV Fluid",
+    "dosageForm": "infusion",
+    "strength": "0.4%",
+    "details": "Moxifloxacin intravenous infusion (0.4% w/v) 100ML I. V. FFS Packing",
+    "casId": "--"
+  },
+  {
+    "id": 358,
+    "slug": "fluconazole-358",
+    "name": "Fluconazole",
+    "category": "IV Fluid",
+    "dosageForm": "infusion",
+    "strength": "0.2%",
+    "details": "Fluconazole infusion (0.2% ww/v) 100ML I. V. FFS Packing",
+    "casId": "86386-73-4, 123631-92-5"
+  },
+  {
+    "id": 359,
+    "slug": "gatifloxacin-359",
+    "name": "Gatifloxacin",
+    "category": "IV Fluid",
+    "dosageForm": "infusion",
+    "strength": "100ML",
+    "details": "Gatifloxacin infusion IP 100ML I. V. FFS Packing",
+    "casId": "112811-59-3, 160738-57-8, 001-06-9"
+  },
+  {
+    "id": 360,
+    "slug": "levofloxacin-360",
+    "name": "Levofloxacin",
+    "category": "IV Fluid",
+    "dosageForm": "infusion",
+    "strength": "0.5%",
+    "details": "Levofloxacin infusion (0.5% w/v) 100ML I. V. FFS Packing",
+    "casId": "100986-85-4"
+  },
+  {
+    "id": 361,
+    "slug": "paracetamol-100ml-i-v-ffs-packing-paracetamol-diclofenac-361",
+    "name": "Paracetamol 100ML I. V. FFS Packing Paracetamol + diclofenac",
+    "category": "IV Fluid",
+    "dosageForm": "injection",
+    "strength": "100ML",
+    "details": "Paracetamol 100ML I. V. FFS Packing Paracetamol + diclofenac injection 100ML I. V. FFS Packing",
+    "casId": "15307-86-5, 128402-48-2"
+  },
+  {
+    "id": 362,
+    "slug": "amikacin-sul-inj-362",
+    "name": "Amikacin Sul. Inj.",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "100 mg",
+    "details": "Amikacin Sul. Inj. IP 100 mg/ml 2ml /10ml Injection Vial",
+    "casId": "--"
+  },
+  {
+    "id": 363,
+    "slug": "amikacin-sul-inj-363",
+    "name": "Amikacin Sul. Inj.",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "250 mg",
+    "details": "Amikacin Sul. Inj. IP 250 mg/ml 2ml Injection Vial",
+    "casId": "--"
+  },
+  {
+    "id": 364,
+    "slug": "amikacin-sul-inj-364",
+    "name": "Amikacin Sul. Inj.",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "500 mg",
+    "details": "Amikacin Sul. Inj. IP 500 mg/ml 2ml /10ml Injection Vial",
+    "casId": "--"
+  },
+  {
+    "id": 365,
+    "slug": "betamethasone-sod-phos-inj-365",
+    "name": "Betamethasone Sod. Phos. Inj.",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "1ml / 2ml",
+    "details": "Betamethasone Sod. Phos. Inj.IP 1ml / 2ml / 5ml Injection Ampoule, Vial",
+    "casId": "--"
+  },
+  {
+    "id": 366,
+    "slug": "chloroquine-phosphate-366",
+    "name": "Chloroquine Phosphate",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "30ml",
+    "details": "Chloroquine Phosphate IP 30ml Injection Vial",
+    "casId": "50-63-5"
+  },
+  {
+    "id": 367,
+    "slug": "dexa-methyl-propyl-paraben-367",
+    "name": "Dexa., Methyl., Propyl Paraben",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml/10ml",
+    "details": "Dexa., Methyl., Propyl Paraben IP Inj 2ml/10ml / 20ml / 30ml Injection Vial",
+    "casId": "50-02-2, 23495-06-9, 1050677-47-8"
+  },
+  {
+    "id": 368,
+    "slug": "dexamethasone-inj-368",
+    "name": "Dexamethasone Inj.",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml /10ml",
+    "details": "Dexamethasone Inj. IP 2ml /10ml / 20ml / 30ml Injection Vial",
+    "casId": "50-02-2, 23495-06-9, 1050677-47-8"
+  },
+  {
+    "id": 369,
+    "slug": "dexamethasone-sod-phos-inj-369",
+    "name": "Dexamethasone Sod. Phos. Inj.",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml /10ml",
+    "details": "Dexamethasone Sod. Phos. Inj. IP 2ml /10ml / 20ml / 30ml Injection Vial",
+    "casId": "--"
+  },
+  {
+    "id": 370,
+    "slug": "dic-sodium-370",
+    "name": "Dic. Sodium",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "3ml / 30ml",
+    "details": "Dic. Sodium IP, Benzyl Alcohol IP'85 Inj. 3ml / 30ml Injection Ampoule, Vial",
+    "casId": "693-13-0"
+  },
+  {
+    "id": 371,
+    "slug": "dic-sodium-371",
+    "name": "Dic. Sodium",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "3ml / 30ml",
+    "details": "Dic. Sodium IP, 3ml / 30ml Injection Ampoule, Vial",
+    "casId": "693-13-0"
+  },
+  {
+    "id": 372,
+    "slug": "diclofenac-sod-inj-372",
+    "name": "Diclofenac Sod. Inj.",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "3ml / 30ml",
+    "details": "Diclofenac Sod. Inj. IP 3ml / 30ml Injection Ampoule, Vial",
+    "casId": "15307-79-6"
+  },
+  {
+    "id": 373,
+    "slug": "diclofenac-sodfium-inj-ip-3ml-30ml-373",
+    "name": "Diclofenac Sodfium Inj. Ip 3ml / 30ml",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "3ml / 30ml",
+    "details": "Diclofenac Sodfium Inj. Ip 3ml / 30ml Injection Ampoule, Vial",
+    "casId": "15307-79-6"
+  },
+  {
+    "id": 374,
+    "slug": "diclofenac-sodium-374",
+    "name": "Diclofenac Sodium",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "3ml / 30ml",
+    "details": "Diclofenac Sodium Injection IP 3ml / 30ml Injection Ampoule, Vial",
+    "casId": "15307-79-6"
+  },
+  {
+    "id": 375,
+    "slug": "dicyclomine-hcl-inj-375",
+    "name": "Dicyclomine HCl Inj.",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "30ml",
+    "details": "Dicyclomine HCl Inj.USP 30ml Injection Vial",
+    "casId": "67-92-5"
+  },
+  {
+    "id": 376,
+    "slug": "etamsylate-376",
+    "name": "Etamsylate",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml",
+    "details": "Etamsylate Injection 2ml Injection Ampoule",
+    "casId": "2624-44-4"
+  },
+  {
+    "id": 377,
+    "slug": "etofylline-theophylline-377",
+    "name": "Etofylline & Theophylline",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml",
+    "details": "Etofylline & Theophylline Injection 2ml Injection Ampoule",
+    "casId": "519-37-9, 001-23-0, 58-55-9"
+  },
+  {
+    "id": 378,
+    "slug": "frusemide-inj-378",
+    "name": "Frusemide Inj.",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "10 mg",
+    "details": "Frusemide Inj. IP 10 mg/ml 2ml Injection Ampoule",
+    "casId": "54-31-9, 001-05-8, 001-20-7"
+  },
+  {
+    "id": 379,
+    "slug": "frusemide-inj-379",
+    "name": "Frusemide Inj.",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "20 mg",
+    "details": "Frusemide Inj. IP 20 mg/ml 2ml Injection Ampoule",
+    "casId": "54-31-9, 001-05-8, 001-20-7"
+  },
+  {
+    "id": 380,
+    "slug": "genta-methyl-propyl-paraben-380",
+    "name": "Genta., Methyl., Propyl Paraben",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml /10ml",
+    "details": "Genta., Methyl., Propyl Paraben IP Inj. 2ml /10ml / 20ml /30ml Injection Vial",
+    "casId": "--"
+  },
+  {
+    "id": 381,
+    "slug": "gentamicin-381",
+    "name": "Gentamicin",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml /10ml",
+    "details": "Gentamicin Injection BP 2ml /10ml / 20ml / 30ml Injection Vial",
+    "casId": "1403-66-3, 1294497-75-8"
+  },
+  {
+    "id": 382,
+    "slug": "gentamicin-sul-inj-382",
+    "name": "Gentamicin Sul. Inj.",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml /10ml",
+    "details": "Gentamicin Sul. Inj. IP 2ml /10ml / 20ml /30ml Injection Vial",
+    "casId": "--"
+  },
+  {
+    "id": 383,
+    "slug": "ghentamicin-sul-inj-ip-2ml-10ml-20ml-30ml-383",
+    "name": "Ghentamicin Sul. Inj Ip 2ml /10ml / 20ml / 30ml",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml /10ml",
+    "details": "Ghentamicin Sul. Inj Ip 2ml /10ml / 20ml / 30ml Injection Vial",
+    "casId": "--"
+  },
+  {
+    "id": 384,
+    "slug": "menadione-sodium-bisulphite-384",
+    "name": "Menadione Sodium Bisulphite",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "Not specified",
+    "details": "Menadione Sodium Bisulphite Injection Injection",
+    "casId": "130-37-0"
+  },
+  {
+    "id": 385,
+    "slug": "methyl-pred-acetate-inj-385",
+    "name": "Methyl Pred. Acetate Inj.",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml",
+    "details": "Methyl Pred. Acetate Inj. IP 2ml Injection Vial",
+    "casId": "--"
+  },
+  {
+    "id": 386,
+    "slug": "methylcobalamin-386",
+    "name": "Methylcobalamin",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "1ml / 2ml",
+    "details": "Methylcobalamin Injection 1ml / 2ml Injection Ampoule",
+    "casId": "13422-55-4"
+  },
+  {
+    "id": 387,
+    "slug": "methylergometrine-inj-387",
+    "name": "Methylergometrine Inj.",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "1ml / 7.5ml",
+    "details": "Methylergometrine Inj. IP 1ml / 7.5ml Injection Ampoule, Vial",
+    "casId": "113-42-8"
+  },
+  {
+    "id": 388,
+    "slug": "metroclopramide-hydrochloride-388",
+    "name": "Metroclopramide Hydrochloride",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml / 10ml",
+    "details": "Metroclopramide Hydrochloride Injection Ip 2ml / 10ml Injection Ampoule, Vial",
+    "casId": "--"
+  },
+  {
+    "id": 389,
+    "slug": "metroclopramide-hcl-inj-389",
+    "name": "Metroclopramide HCl Inj.",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml / 10ml",
+    "details": "Metroclopramide HCl Inj.IP 2ml / 10ml Injection Ampoule, Vial",
+    "casId": "--"
+  },
+  {
+    "id": 390,
+    "slug": "ondansetron-inj-390",
+    "name": "Ondansetron Inj.",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml / 5ml",
+    "details": "Ondansetron Inj. USP 2ml / 5ml /10ml Injection Ampoule, Vial",
+    "casId": "99614-02-5, 116002-70-1"
+  },
+  {
+    "id": 391,
+    "slug": "ondansetron-391",
+    "name": "Ondansetron",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml / 5ml",
+    "details": "Ondansetron Injection USP 2ml / 5ml / 10ml Injection Ampoule, Vial",
+    "casId": "99614-02-5, 116002-70-1"
+  },
+  {
+    "id": 392,
+    "slug": "ondasetoron-hcl-2mg-ml-2ml-5ml-10ml-392",
+    "name": "Ondasetoron Hcl 2mg/ml 2ml / 5ml / 10ml",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2mg",
+    "details": "Ondasetoron Hcl 2mg/ml 2ml / 5ml / 10ml Injection Ampoule, Vial",
+    "casId": "--"
+  },
+  {
+    "id": 393,
+    "slug": "oxytocin-inj-393",
+    "name": "Oxytocin Inj.",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "5 IU",
+    "details": "Oxytocin Inj. BP 5 IU 1ml Injection Ampoule",
+    "casId": "50-56-6"
+  },
+  {
+    "id": 394,
+    "slug": "oxytocin-inj-394",
+    "name": "Oxytocin Inj.",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "5 IU",
+    "details": "Oxytocin Inj. IP 5 IU 1ml Injection Ampoule",
+    "casId": "50-56-6"
+  },
+  {
+    "id": 395,
+    "slug": "oxytocin-395",
+    "name": "Oxytocin",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "1ml",
+    "details": "Oxytocin Injection IP 1ml Injection Ampoule",
+    "casId": "50-56-6"
+  },
+  {
+    "id": 396,
+    "slug": "paracetamol-396",
+    "name": "Paracetamol",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "1ml",
+    "details": "Paracetamol Injection 1ml Injection Ampoule",
+    "casId": "103-90-2"
+  },
+  {
+    "id": 397,
+    "slug": "pentazocine-lactate-397",
+    "name": "Pentazocine Lactate",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml",
+    "details": "Pentazocine Lactate Injection IP 2ml Injection Ampoule",
+    "casId": "17146-95-1"
+  },
+  {
+    "id": 398,
+    "slug": "quinine-dihydrochloride-398",
+    "name": "Quinine Dihydrochloride",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "1ml",
+    "details": "Quinine Dihydrochloride Injection IP 1ml Injection Ampoule",
+    "casId": "60-93-5"
+  },
+  {
+    "id": 399,
+    "slug": "ranitidine-hcl-inj-399",
+    "name": "Ranitidine HCl Inj.",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml",
+    "details": "Ranitidine HCl Inj. IP 2ml Injection Ampoule",
+    "casId": "66357-59-3, 71130-06-8"
+  },
+  {
+    "id": 400,
+    "slug": "ranitidine-hydrochloride-inj-ip-2ml-400",
+    "name": "Ranitidine Hydrochloride Inj. Ip 2ml",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml",
+    "details": "Ranitidine Hydrochloride Inj. Ip 2ml Injection Ampoule",
+    "casId": "66357-59-3, 71130-06-8"
+  },
+  {
+    "id": 401,
+    "slug": "ranitidine-401",
+    "name": "Ranitidine",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml",
+    "details": "Ranitidine Injection BP 2ml Injection Ampoule",
+    "casId": "66357-35-5, 82530-72-1, 66357-59-3"
+  },
+  {
+    "id": 402,
+    "slug": "sodium-chloride-402",
+    "name": "Sodium Chloride",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml",
+    "details": "Sodium Chloride IP INJ. 2ml Injection Ampoule",
+    "casId": "7647-14-5, 14762-51-7, 32343-72-9"
+  },
+  {
+    "id": 403,
+    "slug": "solium-bacarbonate-403",
+    "name": "Solium Bacarbonate",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "5ml / 10ml",
+    "details": "Solium Bacarbonate IP 5ml / 10ml Injection Ampoule",
+    "casId": "--"
+  },
+  {
+    "id": 404,
+    "slug": "sterile-artesunate-404",
+    "name": "Sterile Artesunate",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "60mg",
+    "details": "Sterile Artesunate Injection 60mg 2ml Injection Ampoule",
+    "casId": "--"
+  },
+  {
+    "id": 405,
+    "slug": "sterile-water-for-405",
+    "name": "Sterile Water For",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "7.5ml",
+    "details": "Sterile Water For Injection IP 7.5ml Injection Vial",
+    "casId": "7732-18-5"
+  },
+  {
+    "id": 406,
+    "slug": "tramadol-hydrochloride-406",
+    "name": "Tramadol Hydrochloride",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "5ml / 10ml",
+    "details": "Tramadol Hydrochloride Injection 5ml / 10ml Injection Ampoule",
+    "casId": "36282-47-0, 148229-78-1, 22204-88-2"
+  },
+  {
+    "id": 407,
+    "slug": "triamcinolone-acetonide-inj-407",
+    "name": "Triamcinolone Acetonide Inj.",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml / 1ml",
+    "details": "Triamcinolone Acetonide Inj. IP 2ml / 1ml Injection Ampoule",
+    "casId": "76-25-5"
+  },
+  {
+    "id": 408,
+    "slug": "velthemide-bromide-2ml-7-5ml-408",
+    "name": "Velthemide Bromide 2ml / 7.5ml",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "2ml / 7.5ml",
+    "details": "Velthemide Bromide 2ml / 7.5ml Injection Vial",
+    "casId": "--"
+  },
+  {
+    "id": 409,
+    "slug": "vitamin-b-complex-409",
+    "name": "Vitamin B Complex",
+    "category": "Injection",
+    "dosageForm": "Injection",
+    "strength": "1ml",
+    "details": "Vitamin B Complex Injection 1ml Injection Ampoule",
+    "casId": "--"
+  },
+  {
+    "id": 410,
+    "slug": "amoxycillin-cloxacillin-250gm-250gm-410",
+    "name": "Amoxycillin + Cloxacillin 250gm + 250gm",
+    "category": "Sachet",
+    "dosageForm": "Pouch",
+    "strength": "250gm + 250gm",
+    "details": "Amoxycillin + Cloxacillin 250gm + 250gm Pouch",
+    "casId": "26787-78-0, 61-72-3, 236-05-5"
+  },
+  {
+    "id": 411,
+    "slug": "amoxycillin-cloxacillin-50gm-50gm-411",
+    "name": "Amoxycillin + Cloxacillin 50gm + 50gm",
+    "category": "Sachet",
+    "dosageForm": "Pouch",
+    "strength": "50gm + 50gm",
+    "details": "Amoxycillin + Cloxacillin 50gm + 50gm Pouch",
+    "casId": "26787-78-0, 61-72-3, 236-05-5"
+  },
+  {
+    "id": 412,
+    "slug": "cholestyramine-5gm-412",
+    "name": "Cholestyramine 5gm",
+    "category": "Sachet",
+    "dosageForm": "Pouch",
+    "strength": "5gm",
+    "details": "Cholestyramine 5gm Pouch",
+    "casId": "--"
+  },
+  {
+    "id": 413,
+    "slug": "clonezepam-413",
+    "name": "Clonezepam",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "1mg",
+    "details": "Clonezepam USP 1mg Tablets 10x10",
+    "casId": "--"
+  },
+  {
+    "id": 414,
+    "slug": "dexamethasone-0-5mg-414",
+    "name": "Dexamethasone 0.5mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "0.5mg",
+    "details": "Dexamethasone 0.5mg Tablets 20x10",
+    "casId": "50-02-2, 23495-06-9, 1050677-47-8"
+  },
+  {
+    "id": 415,
+    "slug": "etamsylate-500mg-415",
+    "name": "Etamsylate 500mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "500mg",
+    "details": "Etamsylate 500mg Tablets 20x10",
+    "casId": "2624-44-4"
+  },
+  {
+    "id": 416,
+    "slug": "etoricoxib-90mg-416",
+    "name": "Etoricoxib 90mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "90mg",
+    "details": "Etoricoxib 90mg Tablets 20x10",
+    "casId": "202409-33-4"
+  },
+  {
+    "id": 417,
+    "slug": "folic-acid-5mg-417",
+    "name": "Folic Acid 5mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "5mg",
+    "details": "Folic Acid 5mg Tablets 50X10",
+    "casId": "59-30-3, 112339-08-9, 112339-32-9"
+  },
+  {
+    "id": 418,
+    "slug": "faropenem-sodium-200mg-418",
+    "name": "Faropenem Sodium 200mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "200mg",
+    "details": "Faropenem Sodium 200mg Tablets 1X6",
+    "casId": "122547-49-3"
+  },
+  {
+    "id": 419,
+    "slug": "ferrous-ascorbate-vitamin-c-folic-acid-methylcobalamin-275mg-150mg-100-419",
+    "name": "Ferrous Ascorbate+ VItamin C+ Folic Acid + Methylcobalamin 275mg+ 150mg+ 1000mcg+ 10mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "275mg+ 150mg+ 1000mcg+ 10mg",
+    "details": "Ferrous Ascorbate+ VItamin C+ Folic Acid + Methylcobalamin 275mg+ 150mg+ 1000mcg+ 10mg Tablets 10X10",
+    "casId": "24808-52-4, 50-81-7, 6730-29-6"
+  },
+  {
+    "id": 420,
+    "slug": "fexofenadine-hcl-120mg-420",
+    "name": "Fexofenadine Hcl 120mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "120mg",
+    "details": "Fexofenadine Hcl 120mg Tablets 10X1X6",
+    "casId": "153439-40-8, 138452-21-8"
+  },
+  {
+    "id": 421,
+    "slug": "fexofenadine-hcl-180mg-421",
+    "name": "Fexofenadine Hcl 180mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "180mg",
+    "details": "Fexofenadine Hcl 180mg Tablets 10X1X6",
+    "casId": "153439-40-8, 138452-21-8"
+  },
+  {
+    "id": 422,
+    "slug": "fluconazole-150mg-422",
+    "name": "Fluconazole 150mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "150mg",
+    "details": "Fluconazole 150mg Tablets 20X1X1",
+    "casId": "86386-73-4, 123631-92-5"
+  },
+  {
+    "id": 423,
+    "slug": "folic-acid-5mg-5mg-423",
+    "name": "Folic Acid 5mg 5mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "5mg",
+    "details": "Folic Acid 5mg 5mg Tablets 50X10",
+    "casId": "59-30-3, 112339-08-9, 112339-32-9"
+  },
+  {
+    "id": 424,
+    "slug": "gabapentin-methylcobalamin-300mg-500mcg-424",
+    "name": "Gabapentin+ Methylcobalamin 300mg+ 500mcg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "300mg+ 500mcg",
+    "details": "Gabapentin+ Methylcobalamin 300mg+ 500mcg Tablets 10X10",
+    "casId": "60142-96-3, 1126623-20-8, 13422-55-4"
+  },
+  {
+    "id": 425,
+    "slug": "gatifloxacin-200mg-425",
+    "name": "Gatifloxacin 200mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "200mg",
+    "details": "Gatifloxacin 200mg Tablets 1X5",
+    "casId": "112811-59-3, 160738-57-8, 001-06-9"
+  },
+  {
+    "id": 426,
+    "slug": "gatifloxacin-400mg-426",
+    "name": "Gatifloxacin 400mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "400mg",
+    "details": "Gatifloxacin 400mg Tablets 1x5",
+    "casId": "112811-59-3, 160738-57-8, 001-06-9"
+  },
+  {
+    "id": 427,
+    "slug": "gatifloxacin-ambroxol-200mg-30mg-427",
+    "name": "Gatifloxacin+ Ambroxol 200mg+ 30mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "200mg+ 30mg",
+    "details": "Gatifloxacin+ Ambroxol 200mg+ 30mg Tablets 10x10",
+    "casId": "112811-59-3, 160738-57-8, 001-06-9"
+  },
+  {
+    "id": 428,
+    "slug": "gatifloxacin-ornidazole-200mg-500mg-428",
+    "name": "Gatifloxacin+ Ornidazole 200mg+ 500mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "200mg+ 500mg",
+    "details": "Gatifloxacin+ Ornidazole 200mg+ 500mg Tablets 10x10",
+    "casId": "112811-59-3, 160738-57-8, 001-06-9"
+  },
+  {
+    "id": 429,
+    "slug": "glibenclamide-429",
+    "name": "Glibenclamide",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "5mg",
+    "details": "Glibenclamide IP 5mg Tablets 5x6X10",
+    "casId": "10238-21-8"
+  },
+  {
+    "id": 430,
+    "slug": "glimepiride-metformin-hydro-1mg-500mg-430",
+    "name": "Glimepiride+ Metformin Hydro 1mg+ 500mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "1mg+ 500mg",
+    "details": "Glimepiride+ Metformin Hydro 1mg+ 500mg Tablets 10x10",
+    "casId": "93479-97-1, 684286-46-2, 261361-60-8"
+  },
+  {
+    "id": 431,
+    "slug": "glimepiride-metformin-hydro-2mg-500mg-431",
+    "name": "Glimepiride+ Metformin Hydro 2mg+ 500mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "2mg+ 500mg",
+    "details": "Glimepiride+ Metformin Hydro 2mg+ 500mg Tablets 10x10",
+    "casId": "93479-97-1, 684286-46-2, 261361-60-8"
+  },
+  {
+    "id": 432,
+    "slug": "glimepiride-3mg-432",
+    "name": "Glimepiride 3mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "3mg",
+    "details": "Glimepiride 3mg Tablets 10x10",
+    "casId": "93479-97-1, 684286-46-2, 261361-60-8"
+  },
+  {
+    "id": 433,
+    "slug": "glimepiride-4mg-433",
+    "name": "Glimepiride 4mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "4mg",
+    "details": "Glimepiride 4mg Tablets 10X10",
+    "casId": "93479-97-1, 684286-46-2, 261361-60-8"
+  },
+  {
+    "id": 434,
+    "slug": "glipizide-5mg-434",
+    "name": "Glipizide 5mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "5mg",
+    "details": "Glipizide 5mg Tablets 5x6x10",
+    "casId": "29094-61-9, 172964-66-8"
+  },
+  {
+    "id": 435,
+    "slug": "glipizide-metformin-5mg-500mg-435",
+    "name": "Glipizide+ Metformin 5mg+ 500mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "5mg+ 500mg",
+    "details": "Glipizide+ Metformin 5mg+ 500mg Tablets 20x10",
+    "casId": "29094-61-9, 172964-66-8, 657-24-9"
+  },
+  {
+    "id": 436,
+    "slug": "ibuprofen-paracetamol-400mg-500mg-436",
+    "name": "Ibuprofen+ Paracetamol 400mg+ 500mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "400mg+ 500mg",
+    "details": "Ibuprofen+ Paracetamol 400mg+ 500mg Tablets 20X15",
+    "casId": "58560-75-1, 15687-27-1, 1189866-35-0"
+  },
+  {
+    "id": 437,
+    "slug": "iron-iii-hydroxide-polymaltose-complex-eq-elemental-iron-folic-acid-10-437",
+    "name": "Iron (iii) Hydroxide Polymaltose Complex eq. Elemental Iron+ Folic Acid 100mg+ 550mcg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "100mg+ 550mcg",
+    "details": "Iron (iii) Hydroxide Polymaltose Complex eq. Elemental Iron+ Folic Acid 100mg+ 550mcg Tablets 10X3X10",
+    "casId": "59-30-3, 112339-08-9, 112339-32-9"
+  },
+  {
+    "id": 438,
+    "slug": "levocetirizne-5mg-438",
+    "name": "Levocetirizne 5mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "5mg",
+    "details": "Levocetirizne 5mg Tablets 20x10",
+    "casId": "--"
+  },
+  {
+    "id": 439,
+    "slug": "methyl-prednisolone-4mg-439",
+    "name": "Methyl Prednisolone 4mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "4mg",
+    "details": "Methyl Prednisolone 4mg Tablets 10x10",
+    "casId": "--"
+  },
+  {
+    "id": 440,
+    "slug": "misioprostol-200mcg-440",
+    "name": "Misioprostol 200mcg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "200mcg",
+    "details": "Misioprostol 200mcg Tablets 10x1x4",
+    "casId": "59122-46-2, 103601-27-0, 848849-83-2"
+  },
+  {
+    "id": 441,
+    "slug": "metaprolol-er-100mg-441",
+    "name": "Metaprolol (ER) 100mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "100mg",
+    "details": "Metaprolol (ER) 100mg Tablets 10x10",
+    "casId": "51384-51-1, 37350-58-6, 54163-88-1"
+  },
+  {
+    "id": 442,
+    "slug": "metaprolol-er-amlodepine-50mg-5mg-442",
+    "name": "Metaprolol (ER) + Amlodepine 50mg+ 5mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "50mg+ 5mg",
+    "details": "Metaprolol (ER) + Amlodepine 50mg+ 5mg Tablets 10x10",
+    "casId": "51384-51-1, 37350-58-6, 54163-88-1"
+  },
+  {
+    "id": 443,
+    "slug": "mosapride-5mg-443",
+    "name": "Mosapride 5mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "5mg",
+    "details": "Mosapride 5mg Tablets 10x10",
+    "casId": "112885-41-3"
+  },
+  {
+    "id": 444,
+    "slug": "nimesulide-paracetamol-chlorzoxazone-100mg-325mg-375mg-444",
+    "name": "Nimesulide+ Paracetamol+ Chlorzoxazone 100mg+ 325mg+ 375mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "100mg+ 325mg+ 375mg",
+    "details": "Nimesulide+ Paracetamol+ Chlorzoxazone 100mg+ 325mg+ 375mg Tablets 20x10",
+    "casId": "51803-78-2, 1364966-82-4, 103-90-2"
+  },
+  {
+    "id": 445,
+    "slug": "nimesulide-paracetamol-100mg-500mg-445",
+    "name": "Nimesulide+ Paracetamol 100mg+ 500mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "100mg+ 500mg",
+    "details": "Nimesulide+ Paracetamol 100mg+ 500mg Tablets 10x10",
+    "casId": "51803-78-2, 1364966-82-4, 103-90-2"
+  },
+  {
+    "id": 446,
+    "slug": "nimesulide-paracetamol-chlorzoxazone-100mg-500mg-250mg-446",
+    "name": "Nimesulide+ Paracetamol+ Chlorzoxazone 100mg+ 500mg+ 250mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "100mg+ 500mg+ 250mg",
+    "details": "Nimesulide+ Paracetamol+ Chlorzoxazone 100mg+ 500mg+ 250mg Tablets 20x10",
+    "casId": "51803-78-2, 1364966-82-4, 103-90-2"
+  },
+  {
+    "id": 447,
+    "slug": "nimesulide-paracetamol-tizanidine-100mg-500mg-2mg-447",
+    "name": "Nimesulide+ Paracetamol + Tizanidine 100mg+ 500mg+ 2mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "100mg+ 500mg+ 2mg",
+    "details": "Nimesulide+ Paracetamol + Tizanidine 100mg+ 500mg+ 2mg Tablets 20X10",
+    "casId": "51803-78-2, 1364966-82-4, 103-90-2"
+  },
+  {
+    "id": 448,
+    "slug": "nimesulide-100mg-448",
+    "name": "Nimesulide 100mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "100mg",
+    "details": "Nimesulide 100mg Tablets 10X2X15",
+    "casId": "51803-78-2, 1364966-82-4"
+  },
+  {
+    "id": 449,
+    "slug": "nimesulide-paracetamol-goden-pvc-50mg-500mg-449",
+    "name": "Nimesulide+ Paracetamol (Goden PVC) 50mg+ 500mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "50mg+ 500mg",
+    "details": "Nimesulide+ Paracetamol (Goden PVC) 50mg+ 500mg Tablets 20X10",
+    "casId": "51803-78-2, 1364966-82-4, 103-90-2"
+  },
+  {
+    "id": 450,
+    "slug": "nimesulide-b-p-100mg-450",
+    "name": "Nimesulide B.P. 100mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "100mg",
+    "details": "Nimesulide B.P. 100mg Tablets 6X5X10",
+    "casId": "--"
+  },
+  {
+    "id": 451,
+    "slug": "nimesulide-b-p-50mg-451",
+    "name": "Nimesulide B.P. 50mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "50mg",
+    "details": "Nimesulide B.P. 50mg Tablets 2x5x10",
+    "casId": "--"
+  },
+  {
+    "id": 452,
+    "slug": "norfloxacin-400mg-452",
+    "name": "Norfloxacin 400mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "400mg",
+    "details": "Norfloxacin 400mg Tablets 20x10",
+    "casId": "70458-96-7"
+  },
+  {
+    "id": 453,
+    "slug": "norfloxacin-metronidazole-400mg-500mg-453",
+    "name": "Norfloxacin+ Metronidazole 400mg+ 500mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "400mg+ 500mg",
+    "details": "Norfloxacin+ Metronidazole 400mg+ 500mg Tablets 20x10",
+    "casId": "70458-96-7, 443-48-1, 56010-45-8"
+  },
+  {
+    "id": 454,
+    "slug": "norfloxacin-nitazoxanide-400mg-500mg-454",
+    "name": "Norfloxacin+ Nitazoxanide 400mg+ 500mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "400mg+ 500mg",
+    "details": "Norfloxacin+ Nitazoxanide 400mg+ 500mg Tablets 20x10",
+    "casId": "70458-96-7, 55981-09-4"
+  },
+  {
+    "id": 455,
+    "slug": "norfloxacin-ornidazole-400mg-500mg-455",
+    "name": "Norfloxacin+ Ornidazole 400mg+ 500mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "400mg+ 500mg",
+    "details": "Norfloxacin+ Ornidazole 400mg+ 500mg Tablets 20x10",
+    "casId": "70458-96-7, 16773-42-5"
+  },
+  {
+    "id": 456,
+    "slug": "norfloxacin-tinidazole-400mg-600mg-456",
+    "name": "Norfloxacin+ Tinidazole 400mg+ 600mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "400mg+ 600mg",
+    "details": "Norfloxacin+ Tinidazole 400mg+ 600mg Tablets 20x10",
+    "casId": "70458-96-7, 19387-91-8, 148159-84-6"
+  },
+  {
+    "id": 457,
+    "slug": "norfloxacin-tinidazole-400mg-600mg-457",
+    "name": "Norfloxacin+ Tinidazole 400mg+ 600mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "400mg+ 600mg",
+    "details": "Norfloxacin+ Tinidazole 400mg+ 600mg Tablets 20x10",
+    "casId": "70458-96-7, 19387-91-8, 148159-84-6"
+  },
+  {
+    "id": 458,
+    "slug": "ofloxacin-100mg-458",
+    "name": "Ofloxacin 100mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "100mg",
+    "details": "Ofloxacin 100mg Tablets 10x10",
+    "casId": "82419-36-1, 83380-47-6"
+  },
+  {
+    "id": 459,
+    "slug": "ofloxacin-200mg-459",
+    "name": "Ofloxacin 200mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "200mg",
+    "details": "Ofloxacin 200mg Tablets 10x10",
+    "casId": "82419-36-1, 83380-47-6"
+  },
+  {
+    "id": 460,
+    "slug": "ofloxacin-ornidazole-200mg-500mg-460",
+    "name": "Ofloxacin+ Ornidazole 200mg+ 500mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "200mg+ 500mg",
+    "details": "Ofloxacin+ Ornidazole 200mg+ 500mg Tablets 10x10",
+    "casId": "82419-36-1, 83380-47-6, 16773-42-5"
+  },
+  {
+    "id": 461,
+    "slug": "ofloxacin-tindiazole-200mg-600mg-461",
+    "name": "Ofloxacin + Tindiazole 200mg+ 600mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "200mg+ 600mg",
+    "details": "Ofloxacin + Tindiazole 200mg+ 600mg Tablets 10x10",
+    "casId": "82419-36-1, 83380-47-6, 19387-91-8"
+  },
+  {
+    "id": 462,
+    "slug": "ofloxacin-400mg-462",
+    "name": "Ofloxacin 400mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "400mg",
+    "details": "Ofloxacin 400mg Tablets 10x10",
+    "casId": "82419-36-1, 83380-47-6"
+  },
+  {
+    "id": 463,
+    "slug": "olanzapin-10mg-463",
+    "name": "Olanzapin 10mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "10mg",
+    "details": "Olanzapin 10mg Tablets 10x10",
+    "casId": "132539-06-1, 001-16-1"
+  },
+  {
+    "id": 464,
+    "slug": "olanzapin-15mg-464",
+    "name": "Olanzapin 15mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "15mg",
+    "details": "Olanzapin 15mg Tablets 10x10",
+    "casId": "132539-06-1, 001-16-1"
+  },
+  {
+    "id": 465,
+    "slug": "olanzapin-2-5mg-465",
+    "name": "Olanzapin 2.5mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "2.5mg",
+    "details": "Olanzapin 2.5mg Tablets 10x10",
+    "casId": "132539-06-1, 001-16-1"
+  },
+  {
+    "id": 466,
+    "slug": "olanzapin-5mg-466",
+    "name": "Olanzapin 5mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "5mg",
+    "details": "Olanzapin 5mg Tablets 10x10",
+    "casId": "132539-06-1, 001-16-1"
+  },
+  {
+    "id": 467,
+    "slug": "omeprazole-domperidone-10mg-15mg-467",
+    "name": "Omeprazole+ Domperidone 10mg+ 15mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "10mg+ 15mg",
+    "details": "Omeprazole+ Domperidone 10mg+ 15mg Tablets 20x10",
+    "casId": "73590-58-6, 326602-80-6, 668985-31-7"
+  },
+  {
+    "id": 468,
+    "slug": "ondanestron-4mg-468",
+    "name": "Ondanestron 4mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "4mg",
+    "details": "Ondanestron 4mg Tablets 20x10",
+    "casId": "99614-02-5, 116002-70-1"
+  },
+  {
+    "id": 469,
+    "slug": "ondansetron-paracetamol-4mg-500mg-469",
+    "name": "Ondansetron+ Paracetamol 4mg+ 500mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "4mg+ 500mg",
+    "details": "Ondansetron+ Paracetamol 4mg+ 500mg Tablets 20x10",
+    "casId": "99614-02-5, 116002-70-1, 103-90-2"
+  },
+  {
+    "id": 470,
+    "slug": "pancreatin-470",
+    "name": "Pancreatin",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "500mg",
+    "details": "Pancreatin IP 500mg Tablets 10x10",
+    "casId": "1709-88-2, 8049-47-6"
+  },
+  {
+    "id": 471,
+    "slug": "panoprazole-in-pallets-domperidone-40mg-30mg-471",
+    "name": "Panoprazole (in pallets)+ Domperidone 40mg + 30mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "40mg + 30mg",
+    "details": "Panoprazole (in pallets)+ Domperidone 40mg + 30mg Tablets 10x10",
+    "casId": "102625-70-7, 236-06-6, 57808-66-9"
+  },
+  {
+    "id": 472,
+    "slug": "pantoprazole-domperidone-20mg-10mg-472",
+    "name": "Pantoprazole+ Domperidone 20mg + 10mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "20mg + 10mg",
+    "details": "Pantoprazole+ Domperidone 20mg + 10mg Tablets 10x10",
+    "casId": "102625-70-7, 236-06-6, 57808-66-9"
+  },
+  {
+    "id": 473,
+    "slug": "pantoprazole-40mg-473",
+    "name": "Pantoprazole 40mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "40mg",
+    "details": "Pantoprazole 40mg Tablets 10x10",
+    "casId": "102625-70-7, 236-06-6"
+  },
+  {
+    "id": 474,
+    "slug": "paracetamol-bromhexine-chlorpheniramine-maleate-phenylephrine-guaiphen-474",
+    "name": "Paracetamol+ Bromhexine +Chlorpheniramine maleate+ Phenylephrine+ Guaiphenesin 450mg+ 8mg+ 2mg+ 25mg+ 50mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "450mg+ 8mg+ 2mg+ 25mg+ 50mg",
+    "details": "Paracetamol+ Bromhexine +Chlorpheniramine maleate+ Phenylephrine+ Guaiphenesin 450mg+ 8mg+ 2mg+ 25mg+ 50mg Tablets 10x10",
+    "casId": "103-90-2, 3572-43-8, 003-02-1"
+  },
+  {
+    "id": 475,
+    "slug": "paracetamol-ephedrine-caffeine-50mg-12mg-32mg-475",
+    "name": "Paracetamol+ Ephedrine+ caffeine 50mg+ 12mg+ 32mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "50mg+ 12mg+ 32mg",
+    "details": "Paracetamol+ Ephedrine+ caffeine 50mg+ 12mg+ 32mg Tablets 25x10",
+    "casId": "103-90-2, 299-42-3, 58-08-2"
+  },
+  {
+    "id": 476,
+    "slug": "paracetamo-caffeine-chlorpheniramine-maleate-phenylpropanolamine-500mg-476",
+    "name": "Paracetamo + Caffeine + Chlorpheniramine maleate+ Phenylpropanolamine 500mg+ 30mg+ 2mg+ 12.5mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "500mg+ 30mg+ 2mg+ 12.5mg",
+    "details": "Paracetamo + Caffeine + Chlorpheniramine maleate+ Phenylpropanolamine 500mg+ 30mg+ 2mg+ 12.5mg Tablets 25x10",
+    "casId": "58-08-2, 95789-13-2, 114303-55-8"
+  },
+  {
+    "id": 477,
+    "slug": "paracetamol-cetirizine-pseudoephdrine-500mg-5mg-30mg-477",
+    "name": "Paracetamol + Cetirizine + Pseudoephdrine 500mg+ 5mg+ 30mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "500mg+ 5mg+ 30mg",
+    "details": "Paracetamol + Cetirizine + Pseudoephdrine 500mg+ 5mg+ 30mg Tablets 10x3x10",
+    "casId": "103-90-2, 83881-51-0, 774596-22-4"
+  },
+  {
+    "id": 478,
+    "slug": "paracetamol-chlorpheniramine-maleate-phenylpropanolamine-caffeine-500m-478",
+    "name": "Paracetamol + Chlorpheniramine maleate + Phenylpropanolamine + Caffeine 500mg+ 2mg+ 10mg+ 30mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "500mg+ 2mg+ 10mg+ 30mg",
+    "details": "Paracetamol + Chlorpheniramine maleate + Phenylpropanolamine + Caffeine 500mg+ 2mg+ 10mg+ 30mg Tablets 20x10",
+    "casId": "103-90-2, 113-92-8, 14838-15-4"
+  },
+  {
+    "id": 479,
+    "slug": "paracetamol-ephedrine-caffeine-500mg-12mg-32mg-479",
+    "name": "Paracetamol + Ephedrine + Caffeine 500mg+ 12mg+ 32mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "500mg+ 12mg+ 32mg",
+    "details": "Paracetamol + Ephedrine + Caffeine 500mg+ 12mg+ 32mg Tablets 25x10",
+    "casId": "103-90-2, 299-42-3, 58-08-2"
+  },
+  {
+    "id": 480,
+    "slug": "paracetamol-phenylepherine-chlorpheniramine-maleate-500mg-5mg-2mg-480",
+    "name": "Paracetamol + Phenylepherine + Chlorpheniramine maleate 500mg+ 5mg+ 2mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "500mg+ 5mg+ 2mg",
+    "details": "Paracetamol + Phenylepherine + Chlorpheniramine maleate 500mg+ 5mg+ 2mg Tablets 30x10",
+    "casId": "103-90-2, 113-92-8"
+  },
+  {
+    "id": 481,
+    "slug": "paracetamol-phenylepherine-guaiphenesin-chlorpheniramine-maleate-500mg-481",
+    "name": "Paracetamol + Phenylepherine + Guaiphenesin + Chlorpheniramine maleate 500mg+ 5mg+ 100mg+ 2mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "500mg+ 5mg+ 100mg+ 2mg",
+    "details": "Paracetamol + Phenylepherine + Guaiphenesin + Chlorpheniramine maleate 500mg+ 5mg+ 100mg+ 2mg Tablets 20x10",
+    "casId": "103-90-2, 93-14-1, 001-05-8"
+  },
+  {
+    "id": 482,
+    "slug": "paracetamol-pseudoephdrine-triprolidine-500mg-60mg-2-5mg-482",
+    "name": "Paracetamol + Pseudoephdrine +Triprolidine 500mg+ 60mg+ 2.5mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "500mg+ 60mg+ 2.5mg",
+    "details": "Paracetamol + Pseudoephdrine +Triprolidine 500mg+ 60mg+ 2.5mg Tablets 20x10",
+    "casId": "103-90-2, 486-12-4"
+  },
+  {
+    "id": 483,
+    "slug": "paracetamol-cetirizine-phenylepherine-500mg-5mg-25mg-483",
+    "name": "Paracetamol+ Cetirizine + Phenylepherine 500mg+ 5mg+ 25mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "500mg+ 5mg+ 25mg",
+    "details": "Paracetamol+ Cetirizine + Phenylepherine 500mg+ 5mg+ 25mg Tablets 20x10",
+    "casId": "103-90-2, 83881-51-0, 774596-22-4"
+  },
+  {
+    "id": 484,
+    "slug": "paracetamol-diclofenac-chlorzoxone-500mg-50mg-500mg-484",
+    "name": "Paracetamol+ Diclofenac+ Chlorzoxone 500mg+ 50mg+ 500mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "500mg+ 50mg+ 500mg",
+    "details": "Paracetamol+ Diclofenac+ Chlorzoxone 500mg+ 50mg+ 500mg Tablets 20x6",
+    "casId": "103-90-2, 15307-86-5, 128402-48-2"
+  },
+  {
+    "id": 485,
+    "slug": "paracetamol-500mg-485",
+    "name": "Paracetamol 500mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "500mg",
+    "details": "Paracetamol 500mg Tablets 50x10",
+    "casId": "103-90-2"
+  },
+  {
+    "id": 486,
+    "slug": "phenylephrine-hydrochloride-486",
+    "name": "Phenylephrine Hydrochloride",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "5mg+ 2.5mg",
+    "details": "Phenylephrine Hydrochloride IP + Triprolidine 5mg+ 2.5mg Tablets 10x10",
+    "casId": "61-76-7"
+  },
+  {
+    "id": 487,
+    "slug": "phenylephrine-hydrochloride-487",
+    "name": "Phenylephrine Hydrochloride",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "5mg+ 2.5mg+ 500mg",
+    "details": "Phenylephrine Hydrochloride IP + Triprolidine + Paracetamol 5mg+ 2.5mg+ 500mg Tablets 10x10",
+    "casId": "61-76-7"
+  },
+  {
+    "id": 488,
+    "slug": "quinine-sulphate-300mg-488",
+    "name": "Quinine Sulphate 300mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "300mg",
+    "details": "Quinine Sulphate 300mg Tablets 20X10",
+    "casId": "804-63-7"
+  },
+  {
+    "id": 489,
+    "slug": "rabeprazol-20mg-489",
+    "name": "Rabeprazol 20mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "20mg",
+    "details": "Rabeprazol 20mg Tablets 10x10",
+    "casId": "117976-89-3, 236-09-9"
+  },
+  {
+    "id": 490,
+    "slug": "rabeprazole-dmperidone-20mg-10mg-490",
+    "name": "Rabeprazole+ Dmperidone 20mg+ 10mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "20mg+ 10mg",
+    "details": "Rabeprazole+ Dmperidone 20mg+ 10mg Tablets 10x10",
+    "casId": "117976-89-3, 236-09-9, 57808-66-9"
+  },
+  {
+    "id": 491,
+    "slug": "ramipril-2-5mg-491",
+    "name": "Ramipril 2.5mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "2.5mg",
+    "details": "Ramipril 2.5mg Tablets 20X10",
+    "casId": "87333-19-5, 1028843-43-7"
+  },
+  {
+    "id": 492,
+    "slug": "serratiopeptidase-10mg-492",
+    "name": "Serratiopeptidase 10mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "10mg",
+    "details": "Serratiopeptidase 10mg Tablets 20X10",
+    "casId": "37312-62-2, 70851-98-8, 95077-02-4"
+  },
+  {
+    "id": 493,
+    "slug": "serratiopeptidase-5mg-493",
+    "name": "Serratiopeptidase 5mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "5mg",
+    "details": "Serratiopeptidase 5mg Tablets 20X10",
+    "casId": "37312-62-2, 70851-98-8, 95077-02-4"
+  },
+  {
+    "id": 494,
+    "slug": "serritiopeptidase-diclofenac-pottassium-10mg-50mg-494",
+    "name": "Serritiopeptidase + Diclofenac Pottassium 10mg+ 50mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "10mg+ 50mg",
+    "details": "Serritiopeptidase + Diclofenac Pottassium 10mg+ 50mg Tablets 20X10",
+    "casId": "--"
+  },
+  {
+    "id": 495,
+    "slug": "serritiopeptidase-diclofenac-sodium-10mg-50mg-495",
+    "name": "Serritiopeptidase + Diclofenac Sodium 10mg+ 50mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "10mg+ 50mg",
+    "details": "Serritiopeptidase + Diclofenac Sodium 10mg+ 50mg Tablets 20X10",
+    "casId": "15307-79-6"
+  },
+  {
+    "id": 496,
+    "slug": "simavastin-20mg-496",
+    "name": "Simavastin 20mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "20mg",
+    "details": "Simavastin 20mg Tablets 10X1X10",
+    "casId": "79902-63-9, 001-05-8, 001-11-6"
+  },
+  {
+    "id": 497,
+    "slug": "simavastin-10mg-497",
+    "name": "Simavastin 10mg",
+    "category": "Other Antibiotics",
+    "dosageForm": "Tablets",
+    "strength": "10mg",
+    "details": "Simavastin 10mg Tablets 10X1X10",
+    "casId": "79902-63-9, 001-05-8, 001-11-6"
+  },
+  {
+    "id": 498,
+    "slug": "artesunate-amodiaquine-100mg-270mg-bilayered-498",
+    "name": "Artesunate + Amodiaquine 100mg + 270mg Bilayered",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "100mg + 270mg",
+    "details": "Artesunate + Amodiaquine 100mg + 270mg Bilayered Tablets",
+    "casId": "88495-63-0"
+  },
+  {
+    "id": 499,
+    "slug": "artesunate-amodiaquine-25mg-67-5-bilayered-499",
+    "name": "Artesunate + Amodiaquine 25mg + 67.5 Bilayered",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "25mg",
+    "details": "Artesunate + Amodiaquine 25mg + 67.5 Bilayered Tablets",
+    "casId": "88495-63-0"
+  },
+  {
+    "id": 500,
+    "slug": "alpha-beta-artemether-150mg-per-2ml-500",
+    "name": "Alpha Beta Artemether 150mg Per 2ml",
+    "category": "Anti Malarial",
+    "dosageForm": "Injection",
+    "strength": "150mg",
+    "details": "Alpha Beta Artemether 150mg Per 2ml Injection",
+    "casId": "--"
+  },
+  {
+    "id": 501,
+    "slug": "amodiaquine-153mg-501",
+    "name": "Amodiaquine 153mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "153mg",
+    "details": "Amodiaquine 153mg Tablets",
+    "casId": "--"
+  },
+  {
+    "id": 502,
+    "slug": "amodiaquine-200mg-502",
+    "name": "Amodiaquine 200mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "200mg",
+    "details": "Amodiaquine 200mg Tablets",
+    "casId": "--"
+  },
+  {
+    "id": 503,
+    "slug": "amodiaquine-50mg-5-ml-503",
+    "name": "Amodiaquine 50mg/5 ml",
+    "category": "Anti Malarial",
+    "dosageForm": "Suspension",
+    "strength": "50mg/5 ml",
+    "details": "Amodiaquine 50mg/5 ml Suspension",
+    "casId": "--"
+  },
+  {
+    "id": 504,
+    "slug": "amodiaquine-hcl-sulphadoxine-pyrimethamine-153mg-500mg-25mg-504",
+    "name": "Amodiaquine Hcl + Sulphadoxine + Pyrimethamine 153mg + 500mg + 25mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "153mg + 500mg + 25mg",
+    "details": "Amodiaquine Hcl + Sulphadoxine + Pyrimethamine 153mg + 500mg + 25mg Tablets",
+    "casId": "2447-57-6, 1173021-35-6, 58-14-0"
+  },
+  {
+    "id": 505,
+    "slug": "amodiaquine-hcl-sulphadoxine-pyrimethamine-200mg-500mg-25mg-505",
+    "name": "Amodiaquine Hcl + Sulphadoxine + Pyrimethamine 200mg + 500mg + 25mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Kit",
+    "strength": "200mg + 500mg + 25mg",
+    "details": "Amodiaquine Hcl + Sulphadoxine + Pyrimethamine 200mg + 500mg + 25mg Kit",
+    "casId": "2447-57-6, 1173021-35-6, 58-14-0"
+  },
+  {
+    "id": 506,
+    "slug": "artemether-lumefantrine-20mg-120mg-506",
+    "name": "Artemether + Lumefantrine 20mg+ 120mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "20mg+ 120mg",
+    "details": "Artemether + Lumefantrine 20mg+ 120mg Tablets",
+    "casId": "71963-77-4, 82186-77-4, 120583-70-2"
+  },
+  {
+    "id": 507,
+    "slug": "artemether-300-mg-100-ml-507",
+    "name": "Artemether 300 mg/100 ml",
+    "category": "Anti Malarial",
+    "dosageForm": "Syrup",
+    "strength": "300 mg/100 ml",
+    "details": "Artemether 300 mg/100 ml Syrup",
+    "casId": "71963-77-4"
+  },
+  {
+    "id": 508,
+    "slug": "artemether-40mg-508",
+    "name": "Artemether 40mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Injection",
+    "strength": "40mg",
+    "details": "Artemether 40mg Injection",
+    "casId": "71963-77-4"
+  },
+  {
+    "id": 509,
+    "slug": "artemether-50mg-509",
+    "name": "Artemether 50mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "50mg",
+    "details": "Artemether 50mg Tablets",
+    "casId": "71963-77-4"
+  },
+  {
+    "id": 510,
+    "slug": "artemether-80mg-510",
+    "name": "Artemether 80mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Injection",
+    "strength": "80mg",
+    "details": "Artemether 80mg Injection",
+    "casId": "71963-77-4"
+  },
+  {
+    "id": 511,
+    "slug": "artesunate-sulphadoxine-pyrimethamine-511",
+    "name": "Artesunate + Sulphadoxine + Pyrimethamine",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "Not specified",
+    "details": "Artesunate + Sulphadoxine + Pyrimethamine Tablets",
+    "casId": "88495-63-0, 2447-57-6, 1173021-35-6"
+  },
+  {
+    "id": 512,
+    "slug": "artesunate-sulphadoxine-pyrimethamine-512",
+    "name": "Artesunate + Sulphadoxine + Pyrimethamine",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "Not specified",
+    "details": "Artesunate + Sulphadoxine + Pyrimethamine Tablets",
+    "casId": "88495-63-0, 2447-57-6, 1173021-35-6"
+  },
+  {
+    "id": 513,
+    "slug": "artesunate-amodiaquine-100mg-300mg-513",
+    "name": "Artesunate + Amodiaquine 100mg + 300mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Kit",
+    "strength": "100mg + 300mg",
+    "details": "Artesunate + Amodiaquine 100mg + 300mg Kit",
+    "casId": "88495-63-0"
+  },
+  {
+    "id": 514,
+    "slug": "artesunate-100mg-514",
+    "name": "Artesunate 100mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "100mg",
+    "details": "Artesunate 100mg Tablets",
+    "casId": "88495-63-0"
+  },
+  {
+    "id": 515,
+    "slug": "artesunate-200mg-515",
+    "name": "Artesunate 200mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "200mg",
+    "details": "Artesunate 200mg Tablets",
+    "casId": "88495-63-0"
+  },
+  {
+    "id": 516,
+    "slug": "artesunate-amodiaquin-50mg-100mg-516",
+    "name": "Artesunate + Amodiaquin 50mg + 100mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Kit",
+    "strength": "50mg + 100mg",
+    "details": "Artesunate + Amodiaquin 50mg + 100mg Kit",
+    "casId": "88495-63-0, 86-42-0, 1021496-19-4"
+  },
+  {
+    "id": 517,
+    "slug": "artesunate-amodiaquin-50mg-150mg-517",
+    "name": "Artesunate + amodiaquin 50mg + 150mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Kit",
+    "strength": "50mg + 150mg",
+    "details": "Artesunate + amodiaquin 50mg + 150mg Kit",
+    "casId": "88495-63-0, 86-42-0, 1021496-19-4"
+  },
+  {
+    "id": 518,
+    "slug": "artesunate-amodiaquin-50mg-150mg-518",
+    "name": "Artesunate + amodiaquin 50mg + 150mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Kit",
+    "strength": "50mg + 150mg",
+    "details": "Artesunate + amodiaquin 50mg + 150mg Kit",
+    "casId": "88495-63-0, 86-42-0, 1021496-19-4"
+  },
+  {
+    "id": 519,
+    "slug": "artesunate-amodiaquin-50mg-150mg-519",
+    "name": "Artesunate + amodiaquin 50mg + 150mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Kit",
+    "strength": "50mg + 150mg",
+    "details": "Artesunate + amodiaquin 50mg + 150mg Kit",
+    "casId": "88495-63-0, 86-42-0, 1021496-19-4"
+  },
+  {
+    "id": 520,
+    "slug": "artesunate-amodiaquine-50mg-150mg-520",
+    "name": "Artesunate + amodiaquine 50mg + 150mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "50mg + 150mg",
+    "details": "Artesunate + amodiaquine 50mg + 150mg Tablets",
+    "casId": "88495-63-0"
+  },
+  {
+    "id": 521,
+    "slug": "artesunate-amodiaquine-50mg-150mg-521",
+    "name": "Artesunate + amodiaquine 50mg + 150mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "50mg + 150mg",
+    "details": "Artesunate + amodiaquine 50mg + 150mg Tablets",
+    "casId": "88495-63-0"
+  },
+  {
+    "id": 522,
+    "slug": "artesunate-amodiaquine-50mg-150mg-522",
+    "name": "Artesunate + amodiaquine 50mg + 150mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "50mg + 150mg",
+    "details": "Artesunate + amodiaquine 50mg + 150mg Tablets",
+    "casId": "88495-63-0"
+  },
+  {
+    "id": 523,
+    "slug": "artesunate-50mg-523",
+    "name": "Artesunate 50mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Capsules",
+    "strength": "50mg",
+    "details": "Artesunate 50mg Capsules",
+    "casId": "88495-63-0"
+  },
+  {
+    "id": 524,
+    "slug": "artesunate-50mg-524",
+    "name": "Artesunate 50mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "50mg",
+    "details": "Artesunate 50mg Tablets",
+    "casId": "88495-63-0"
+  },
+  {
+    "id": 525,
+    "slug": "artesunate-sulphadoxine-pyrimethamine-50mg-500mg-25mg-525",
+    "name": "Artesunate + sulphadoxine + pyrimethamine 50mg + 500mg + 25mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "50mg + 500mg + 25mg",
+    "details": "Artesunate + sulphadoxine + pyrimethamine 50mg + 500mg + 25mg Tablets",
+    "casId": "88495-63-0, 2447-57-6, 1173021-35-6"
+  },
+  {
+    "id": 526,
+    "slug": "artesunate-5mg-526",
+    "name": "Artesunate 5mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Injection",
+    "strength": "5mg",
+    "details": "Artesunate 5mg Injection",
+    "casId": "88495-63-0"
+  },
+  {
+    "id": 527,
+    "slug": "artesunate-60-mg-527",
+    "name": "Artesunate 60 mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Injection",
+    "strength": "60 mg",
+    "details": "Artesunate 60 mg Injection",
+    "casId": "88495-63-0"
+  },
+  {
+    "id": 528,
+    "slug": "chloroquine-250mg-528",
+    "name": "Chloroquine 250mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "250mg",
+    "details": "Chloroquine 250mg Tablets",
+    "casId": "54-05-7, 1246815-14-4, 316-10-9"
+  },
+  {
+    "id": 529,
+    "slug": "chloroquine-500mg-529",
+    "name": "Chloroquine 500mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "500mg",
+    "details": "Chloroquine 500mg Tablets",
+    "casId": "54-05-7, 1246815-14-4, 316-10-9"
+  },
+  {
+    "id": 530,
+    "slug": "chloroquine-phosphate-sulphadoxine-pyrimethamine-530",
+    "name": "Chloroquine phosphate + sulphadoxine + pyrimethamine",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "Not specified",
+    "details": "Chloroquine phosphate + sulphadoxine + pyrimethamine Tablets",
+    "casId": "50-63-5, 2447-57-6, 1173021-35-6"
+  },
+  {
+    "id": 531,
+    "slug": "chloroquine-phosphate-sulphadoxine-pyrimethamine-531",
+    "name": "Chloroquine phosphate + sulphadoxine+ pyrimethamine",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "Not specified",
+    "details": "Chloroquine phosphate + sulphadoxine+ pyrimethamine Tablets",
+    "casId": "50-63-5, 2447-57-6, 1173021-35-6"
+  },
+  {
+    "id": 532,
+    "slug": "mefloquine-250mg-532",
+    "name": "Mefloquine 250mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "250mg",
+    "details": "Mefloquine 250mg Tablets",
+    "casId": "53230-10-7, 49752-90-1"
+  },
+  {
+    "id": 533,
+    "slug": "mefloquine-hcl-artesunate-250mg-200mg-533",
+    "name": "Mefloquine hcl + artesunate 250mg+ 200mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "250mg+ 200mg",
+    "details": "Mefloquine hcl + artesunate 250mg+ 200mg Tablets",
+    "casId": "51773-92-3, 51742-86-0, 88495-63-0"
+  },
+  {
+    "id": 534,
+    "slug": "primaquine-phosphate-15mg-534",
+    "name": "Primaquine phosphate 15mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "15mg",
+    "details": "Primaquine phosphate 15mg Tablets",
+    "casId": "63-45-6"
+  },
+  {
+    "id": 535,
+    "slug": "primaquine-phosphate-5mg-535",
+    "name": "Primaquine phosphate 5mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "5mg",
+    "details": "Primaquine phosphate 5mg Tablets",
+    "casId": "63-45-6"
+  },
+  {
+    "id": 536,
+    "slug": "primaquine-phosphate-7-5mg-536",
+    "name": "Primaquine phosphate 7.5mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "7.5mg",
+    "details": "Primaquine phosphate 7.5mg Tablets",
+    "casId": "63-45-6"
+  },
+  {
+    "id": 537,
+    "slug": "proguanil-hcl-100mg-537",
+    "name": "Proguanil hcl 100mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "100mg",
+    "details": "Proguanil hcl 100mg Tablets",
+    "casId": "637-32-1, 1189671-34-8"
+  },
+  {
+    "id": 538,
+    "slug": "pyrimethamine-25mg-538",
+    "name": "Pyrimethamine 25mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "25mg",
+    "details": "Pyrimethamine 25mg Tablets",
+    "casId": "58-14-0"
+  },
+  {
+    "id": 539,
+    "slug": "quinine-di-hcl-250mg-539",
+    "name": "Quinine Di hcl 250mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Injection",
+    "strength": "250mg",
+    "details": "Quinine Di hcl 250mg Injection",
+    "casId": "60-93-5"
+  },
+  {
+    "id": 540,
+    "slug": "quinine-di-hcl-300mg-540",
+    "name": "Quinine di hcl 300mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Injection",
+    "strength": "300mg",
+    "details": "Quinine di hcl 300mg Injection",
+    "casId": "60-93-5"
+  },
+  {
+    "id": 541,
+    "slug": "quinine-di-hcl-500mg-541",
+    "name": "Quinine di hcl 500mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Injection",
+    "strength": "500mg",
+    "details": "Quinine di hcl 500mg Injection",
+    "casId": "60-93-5"
+  },
+  {
+    "id": 542,
+    "slug": "quinine-sulphate-200mg-542",
+    "name": "Quinine sulphate 200mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "200mg",
+    "details": "Quinine sulphate 200mg Tablets",
+    "casId": "804-63-7"
+  },
+  {
+    "id": 543,
+    "slug": "quinine-sulphate-300mg-543",
+    "name": "Quinine sulphate 300mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "300mg",
+    "details": "Quinine sulphate 300mg Tablets",
+    "casId": "804-63-7"
+  },
+  {
+    "id": 544,
+    "slug": "quinine-sulphate-500mg-544",
+    "name": "Quinine sulphate 500mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "500mg",
+    "details": "Quinine sulphate 500mg Tablets",
+    "casId": "804-63-7"
+  },
+  {
+    "id": 545,
+    "slug": "sulphadoxine-pyrimethamine-500mg-25mg-545",
+    "name": "Sulphadoxine + pyrimethamine 500mg + 25mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Injection",
+    "strength": "500mg + 25mg",
+    "details": "Sulphadoxine + pyrimethamine 500mg + 25mg Injection",
+    "casId": "2447-57-6, 1173021-35-6, 58-14-0"
+  },
+  {
+    "id": 546,
+    "slug": "sulphamethoxazole-pyrimethamine-250mg-12-5mg-546",
+    "name": "Sulphamethoxazole + pyrimethamine 250mg + 12.5mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "250mg + 12.5mg",
+    "details": "Sulphamethoxazole + pyrimethamine 250mg + 12.5mg Tablets",
+    "casId": "723-46-6, 144930-01-8, 001-27-4"
+  },
+  {
+    "id": 547,
+    "slug": "sulphamethoxazole-pyrimethamine-500mg-25mg-547",
+    "name": "Sulphamethoxazole + pyrimethamine 500mg + 25mg",
+    "category": "Anti Malarial",
+    "dosageForm": "Tablets",
+    "strength": "500mg + 25mg",
+    "details": "Sulphamethoxazole + pyrimethamine 500mg + 25mg Tablets",
+    "casId": "723-46-6, 144930-01-8, 001-27-4"
+  }
+]
