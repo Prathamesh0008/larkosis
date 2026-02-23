@@ -102,10 +102,10 @@ export default function RootLayout({ children }) {
                 <Image
                   src="/larko.png"
                   alt="Larkosis Pharma Logo"
-                  width={52}
-                  height={52}
+                  width={220}
+                  height={182}
                   priority
-                  className="h-20 w-25 rounded-md object-cover"
+                  className="h-18 w-auto object-contain"
                 />
               </Link>
 
