@@ -63,7 +63,7 @@ export default function ContactPage() {
             </div>
 
             <h1 className="mt-4 text-4xl font-bold text-[#251b14] sm:text-5xl lg:text-6xl">
-              Let's Discuss Your
+              Let&apos;s Discuss Your
               <span className="block text-[#ec671f]">Pharmaceutical Requirements</span>
             </h1>
             
@@ -269,7 +269,7 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-bold text-[#271b13]">Need Urgent Assistance?</h3>
                 <p className="mt-1 text-sm text-[#5d4436]">
-                  For urgent matters outside business hours, please send an email with "URGENT" in the subject line.
+                  For urgent matters outside business hours, please send an email with &quot;URGENT&quot; in the subject line.
                 </p>
               </div>
             </div>

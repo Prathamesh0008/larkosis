@@ -1,24 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
+Install dependencies and run the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## EmailJS Setup (Contact Form)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The contact form in `app/contact/contact-form.js` sends inquiries via EmailJS.
+
+1. Copy `.env.example` to `.env.local`.
+2. Add your EmailJS values:
+   - `NEXT_PUBLIC_EMAILJS_SERVICE_ID`
+   - `NEXT_PUBLIC_EMAILJS_TEMPLATE_ID`
+   - `NEXT_PUBLIC_EMAILJS_AUTOREPLY_TEMPLATE_ID`
+   - `NEXT_PUBLIC_EMAILJS_PUBLIC_KEY`
+3. Restart the dev server after updating environment variables.
+
+### EmailJS template variables used
+
+Configure your EmailJS template to accept these variables:
+
+- `to_email`
+- `from_name`
+- `company_name`
+- `reply_to`
+- `email`
+- `phone`
+- `country`
+- `inquiry_type`
+- `preferred_contact`
+- `subject`
+- `message`
+- `requirements`
+
+### Auto-reply template variables used
+
+For `NEXT_PUBLIC_EMAILJS_AUTOREPLY_TEMPLATE_ID`, configure these variables:
+
+- `to_email`
+- `to_name`
+- `company_name`
+- `inquiry_type`
+- `preferred_contact`
+- `submitted_subject`
+- `support_email`
+- `support_phone`
+- `website`
+- `message`
 
 ## Learn More
 

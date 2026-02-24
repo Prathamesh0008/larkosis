@@ -250,28 +250,6 @@ export default function CatalogClient({ products, categories }) {
     }
   }
 
-  function exportToCSV() {
-    const headers = ['Name', 'Form', 'Category', 'Strength', 'Pack Size', 'Formulation Type', 'CAS ID', 'Pharm Spec'];
-    const csvData = filteredProducts.map(p => [
-      p.name,
-      p.dosageForm || '--',
-      p.category,
-      p.strength || '--',
-      extractPackSize(p.details),
-      extractFormulationType(p.details, p.dosageForm),
-      extractCasId(p),
-      extractPharmSpec(p.details)
-    ]);
-    
-    const csv = [headers, ...csvData].map(row => row.join(',')).join('\n');
-    const blob = new Blob([csv], { type: 'text/csv' });
-    const url = window.URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'pharmaceutical-products.csv';
-    a.click();
-  }
-
   return (
     <section className="mx-auto w-full max-w-7xl px-4 pb-16 pt-8 sm:px-6 lg:px-8">
       {/* Mobile Filter Toggle */}
@@ -299,16 +277,6 @@ export default function CatalogClient({ products, categories }) {
             </p>
           </div>
           
-          {/* Export Button */}
-          <button
-            onClick={exportToCSV}
-            className="flex items-center gap-2 rounded-full border border-[#ec671f] bg-white px-4 py-2 text-sm font-semibold text-[#ec671f] hover:bg-[#ec671f] hover:text-white transition-colors"
-          >
-            <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-            </svg>
-            Export CSV
-          </button>
         </div>
 
         <div className="mt-5 flex flex-col gap-3 rounded-xl border border-[#efcfba] bg-white p-3 sm:flex-row sm:items-center sm:justify-between">

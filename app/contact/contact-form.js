@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
 import { companyProfile } from "@/data/companyProfile";
 
 const initialState = {
@@ -24,12 +25,17 @@ const countries = [
   "Argentina", "Chile", "Colombia", "Other"
 ];
 
+const EMAILJS_SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "";
+const EMAILJS_TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "";
+const EMAILJS_PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "";
+const EMAILJS_AUTOREPLY_TEMPLATE_ID =
+  process.env.NEXT_PUBLIC_EMAILJS_AUTOREPLY_TEMPLATE_ID || "";
+
 export default function ContactForm() {
   const [form, setForm] = useState(initialState);
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
-  const formRef = useRef(null);
 
   // Validation function
   const validateForm = () => {
@@ -95,60 +101,114 @@ export default function ContactForm() {
     setIsSubmitting(true);
     setSubmitStatus(null);
 
-    // Prepare email content
-    const subject = encodeURIComponent(
-      `${form.inquiryType === 'urgent' ? 'URGENT: ' : ''}Business Inquiry - ${form.companyName}`,
-    );
+    if (!EMAILJS_SERVICE_ID || !EMAILJS_TEMPLATE_ID || !EMAILJS_PUBLIC_KEY) {
+      setSubmitStatus({
+        type: "error",
+        message:
+          "Email service is not configured. Please set EmailJS keys and try again.",
+      });
+      setIsSubmitting(false);
+      return;
+    }
 
-    const body = encodeURIComponent(
-      [
-        "Hello Larkosis Pharma Team,",
-        "",
-        "A new business inquiry has been submitted through your website:",
-        "",
-        "=== COMPANY DETAILS ===",
-        `Company Name: ${form.companyName}`,
-        `Contact Person: ${form.contactPerson}`,
-        `Email: ${form.email}`,
-        `Phone / WhatsApp: ${form.phone}`,
-        `Country: ${form.country}`,
-        `Preferred Contact Method: ${form.preferredContact === 'email' ? 'Email' : 'Phone/WhatsApp'}`,
-        `Inquiry Type: ${form.inquiryType === 'urgent' ? 'Urgent / Express' : 'General Inquiry'}`,
-        "",
-        "=== INQUIRY DETAILS ===",
-        form.requirements,
-        "",
-        "=== PRODUCT INTERESTS ===",
-        "Please refer to the requirements above for specific product requests.",
-        "",
-        "Regards,",
-        form.contactPerson,
-        form.companyName,
-      ].join("\n"),
-    );
+    const inquiryTypeLabel =
+      form.inquiryType === "urgent" ? "Urgent / Express" : "General Inquiry";
+    const preferredContactLabel =
+      form.preferredContact === "email" ? "Email" : "Phone/WhatsApp";
+    const subject = `${form.inquiryType === "urgent" ? "URGENT: " : ""}Business Inquiry - ${form.companyName}`;
+    const message = [
+      "A new business inquiry has been submitted.",
+      "",
+      `Company Name: ${form.companyName}`,
+      `Contact Person: ${form.contactPerson}`,
+      `Email: ${form.email}`,
+      `Phone / WhatsApp: ${form.phone}`,
+      `Country: ${form.country}`,
+      `Preferred Contact Method: ${preferredContactLabel}`,
+      `Inquiry Type: ${inquiryTypeLabel}`,
+      "",
+      "Requirements:",
+      form.requirements,
+    ].join("\n");
+
+    const templateParams = {
+      to_email: companyProfile.email,
+      from_name: form.contactPerson,
+      company_name: form.companyName,
+      reply_to: form.email,
+      email: form.email,
+      phone: form.phone,
+      country: form.country,
+      inquiry_type: inquiryTypeLabel,
+      preferred_contact: preferredContactLabel,
+      subject,
+      message,
+      requirements: form.requirements,
+    };
+
+    const autoReplyParams = {
+      to_email: form.email,
+      to_name: form.contactPerson,
+      company_name: form.companyName,
+      inquiry_type: inquiryTypeLabel,
+      preferred_contact: preferredContactLabel,
+      submitted_subject: subject,
+      support_email: companyProfile.email,
+      support_phone: companyProfile.phone,
+      website: companyProfile.website,
+      message:
+        "Thank you for contacting Larkosis Pharma. We have received your inquiry and our team will review it shortly.",
+    };
 
     try {
-      // For production, you might want to use an API route instead of mailto
-      // This simulates a successful submission
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      // Open email client
-      window.location.href = `mailto:${companyProfile.email}?subject=${subject}&body=${body}`;
-      
+      await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        templateParams,
+        {
+          publicKey: EMAILJS_PUBLIC_KEY,
+        },
+      );
+
+      let autoReplySent = false;
+      if (EMAILJS_AUTOREPLY_TEMPLATE_ID) {
+        try {
+          await emailjs.send(
+            EMAILJS_SERVICE_ID,
+            EMAILJS_AUTOREPLY_TEMPLATE_ID,
+            autoReplyParams,
+            {
+              publicKey: EMAILJS_PUBLIC_KEY,
+            },
+          );
+          autoReplySent = true;
+        } catch (autoReplyError) {
+          console.error("EmailJS auto-reply failed:", autoReplyError);
+        }
+      }
+
       setSubmitStatus({
-        type: 'success',
-        message: 'Inquiry prepared successfully! Your email client will open shortly.'
+        type: "success",
+        message:
+          EMAILJS_AUTOREPLY_TEMPLATE_ID && autoReplySent
+            ? "Inquiry submitted successfully. A confirmation email has been sent to your inbox."
+            : "Inquiry submitted successfully. Our team will contact you shortly.",
       });
-      
-      // Reset form after successful submission
+
       setForm(initialState);
-      
-      // Clear success message after 5 seconds
+
       setTimeout(() => setSubmitStatus(null), 5000);
     } catch (error) {
+      console.error("EmailJS send failed:", error);
+      const errorReason =
+        typeof error === "object" && error !== null
+          ? error.text || error.message || ""
+          : "";
       setSubmitStatus({
-        type: 'error',
-        message: 'Something went wrong. Please try again or contact us directly.'
+        type: "error",
+        message: errorReason
+          ? `Unable to send inquiry right now (${errorReason}). Please email us at ${companyProfile.email}.`
+          : `Unable to send inquiry right now. Please email us at ${companyProfile.email}.`,
       });
     } finally {
       setIsSubmitting(false);
@@ -161,7 +221,6 @@ export default function ContactForm() {
 
   return (
     <form
-      ref={formRef}
       onSubmit={handleSubmit}
       className="rounded-2xl border border-[#f2d8c7] bg-white p-5 shadow-[0_12px_28px_rgba(175,86,37,0.08)] sm:p-6"
     >
@@ -415,7 +474,7 @@ export default function ContactForm() {
           ) : (
             charCount > charLimit * 0.8 && charCount < charLimit && (
               <p className="text-xs text-orange-500 mt-1">
-                You're approaching the character limit
+                You are approaching the character limit
               </p>
             )
           )}
