@@ -9,69 +9,65 @@ export default function Home() {
   const categoryCounts = getCategoryCounts();
   const featuredProducts = products.slice(0, 6);
 
-  // ✅ Working banner images from Pexels (free to use)
+  const heroImage = {
+    src: "https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg?auto=compress&cs=tinysrgb&w=2000&h=1300&dpr=2",
+    alt: "Scientists in a pharmaceutical quality-control laboratory",
+  };
+
   const bannerImages = [
     {
-      src: "https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      alt: "Pharmaceutical laboratory with scientists",
-      className: "object-center"
+      src: "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=1400&h=900&dpr=2",
+      alt: "Sterile pharmaceutical production line",
+      className: "object-center",
+      label: "Manufacturing",
     },
     {
-      src: "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      alt: "Medical research and development",
-      className: "object-top"
+      src: "https://images.pexels.com/photos/139398/thermometer-headache-pain-pills-139398.jpeg?auto=compress&cs=tinysrgb&w=1400&h=900&dpr=2",
+      alt: "Tablet and capsule portfolio for global distribution",
+      className: "object-center",
+      label: "Product Portfolio",
     },
     {
-      src: "https://images.pexels.com/photos/139398/thermometer-headache-pain-pills-139398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      alt: "Pharmaceutical products",
-      className: "object-center"
-    }
+      src: "https://images.pexels.com/photos/5726708/pexels-photo-5726708.jpeg?auto=compress&cs=tinysrgb&w=1400&h=900&dpr=2",
+      alt: "Pharmaceutical packaging and inspection workflow",
+      className: "object-top",
+      label: "Quality Systems",
+    },
   ];
 
-  // ✅ Working video backgrounds from Coverr (free to use)
-  const videoBackgrounds = [
+  const facilityImages = [
     {
-      src: "https://coverr.co/s3/mp4/Medical-Team-Working.mp4",
-      type: "video/mp4",
-      fallback: "Medical team working in hospital"
+      src: "https://images.pexels.com/photos/3825368/pexels-photo-3825368.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=2",
+      alt: "Laboratory scientist reviewing formulation samples",
+      title: "Analytical Laboratory",
+      description: "Batch validation, stability checks, and specification testing.",
     },
     {
-      src: "https://coverr.co/s3/mp4/Scientist-in-Laboratory.mp4", 
-      type: "video/mp4",
-      fallback: "Scientist working in laboratory"
-    }
+      src: "https://images.pexels.com/photos/8460156/pexels-photo-8460156.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=2",
+      alt: "Pharmaceutical team in protective clothing on production floor",
+      title: "Production Facility",
+      description: "Controlled environments for scalable formulation and packing.",
+    },
   ];
-
-  // ✅ Hero video from Pexels
-  const heroVideo = "https://videos.pexels.com/video-files/3195909/3195909-uhd_2560_1440_24fps.mp4";
 
   return (
     <div className="pb-14">
-      {/* Hero Section with Video Background */}
       <section className="relative min-h-[700px] overflow-hidden">
-        {/* Video Background */}
         <div className="absolute inset-0 z-0">
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="absolute h-full w-full object-cover"
-            poster="https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-          >
-            <source src={heroVideo} type="video/mp4" />
-            {/* Fallback text if video doesn't load */}
-            Your browser does not support the video tag.
-          </video>
-          {/* Gradient Overlay */}
+          <Image
+            src={heroImage.src}
+            alt={heroImage.alt}
+            fill
+            priority
+            className="object-cover"
+            sizes="100vw"
+          />
           <div className="absolute inset-0 bg-gradient-to-r from-[#1f1712]/90 via-[#1f1712]/70 to-[#1f1712]/30" />
         </div>
 
-        {/* Animated Elements */}
         <div className="absolute -left-14 top-24 h-52 w-52 rounded-full bg-[#f4b083]/30 blur-3xl animate-float-a" />
         <div className="absolute right-0 top-14 h-64 w-64 rounded-full bg-[#ec671f]/20 blur-3xl animate-float-b" />
-        
-        {/* Content */}
+
         <div className="relative z-10 mx-auto flex min-h-[700px] max-w-7xl items-center px-4 py-20 sm:px-6 lg:px-8">
           <div className="max-w-2xl animate-fade-up text-white">
             <p className="inline-flex items-center rounded-full border border-white/30 bg-white/10 px-4 py-1 text-xs font-bold uppercase tracking-[0.16em] text-white backdrop-blur-sm">
@@ -88,13 +84,13 @@ export default function Home() {
             <div className="mt-7 flex flex-wrap gap-3">
               <Link
                 href="/products"
-                className="rounded-xl bg-[#ec671f] px-5 py-3 text-sm font-bold text-white hover:bg-[#d85f1d] transition-all hover:scale-105"
+                className="rounded-xl bg-[#ec671f] px-5 py-3 text-sm font-bold text-white transition-all hover:scale-105 hover:bg-[#d85f1d]"
               >
                 Explore Products
               </Link>
               <Link
                 href="/contact"
-                className="rounded-xl border border-white/30 bg-white/10 px-5 py-3 text-sm font-bold text-white backdrop-blur-sm hover:bg-white/20 transition-all"
+                className="rounded-xl border border-white/30 bg-white/10 px-5 py-3 text-sm font-bold text-white backdrop-blur-sm transition-all hover:bg-white/20"
               >
                 Contact Team
               </Link>
@@ -102,7 +98,7 @@ export default function Home() {
                 href={companyProfile.documents.productListPdf}
                 target="_blank"
                 rel="noreferrer"
-                className="rounded-xl border border-white/30 bg-white/5 px-5 py-3 text-sm font-bold text-white backdrop-blur-sm hover:bg-white/10 transition-all"
+                className="rounded-xl border border-white/30 bg-white/5 px-5 py-3 text-sm font-bold text-white backdrop-blur-sm transition-all hover:bg-white/10"
               >
                 Download Product PDF
               </a>
@@ -132,7 +128,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Banner Images Grid Section */}
       <section className="mx-auto mt-10 max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {bannerImages.map((image, index) => (
@@ -146,48 +141,50 @@ export default function Home() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
               <div className="absolute bottom-0 left-0 p-4 text-white">
-                <h3 className="text-lg font-bold">{image.alt}</h3>
+                <p className="text-xs font-semibold uppercase tracking-[0.12em] text-white/90">
+                  {image.label}
+                </p>
+                <h3 className="text-base font-bold sm:text-lg">{image.alt}</h3>
               </div>
             </div>
           ))}
         </div>
       </section>
 
-      {/* Video Showcase Section */}
       <section className="mx-auto mt-10 max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-5">
           <h2 className="text-2xl font-bold text-[#241a14] sm:text-3xl">
             Our Facilities
           </h2>
           <p className="mt-2 text-[#5d4435]">
-            Take a virtual tour of our state-of-the-art pharmaceutical facilities
+            Visual highlights from our quality and production ecosystem
           </p>
         </div>
         <div className="grid gap-4 sm:grid-cols-2">
-          {videoBackgrounds.map((video, index) => (
-            <div key={index} className="relative aspect-video overflow-hidden rounded-2xl">
-              <video
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="h-full w-full object-cover"
-                poster="https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              >
-                <source src={video.src} type={video.type} />
-                Your browser does not support the video tag.
-              </video>
-              <div className="absolute inset-0 bg-black/20" />
+          {facilityImages.map((image, index) => (
+            <div
+              key={index}
+              className="group relative aspect-video overflow-hidden rounded-2xl"
+            >
+              <Image
+                src={image.src}
+                alt={image.alt}
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
               <div className="absolute bottom-0 left-0 p-4 text-white">
-                <p className="text-sm font-bold">{video.fallback}</p>
+                <p className="text-sm font-bold sm:text-base">{image.title}</p>
+                <p className="mt-1 text-xs text-white/90 sm:text-sm">
+                  {image.description}
+                </p>
               </div>
             </div>
           ))}
         </div>
       </section>
 
-      {/* Rest of your sections remain the same */}
-      {/* Therapeutic Coverage Section */}
       <section className="mx-auto mt-10 max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="rounded-3xl border border-[#efd1bb] bg-white p-6 sm:p-8">
           <h2 className="text-2xl font-bold text-[#271b14] sm:text-3xl">
@@ -210,7 +207,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Products Section */}
       <section className="mx-auto mt-10 max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-5 flex flex-col items-start justify-between gap-3 sm:flex-row sm:items-end sm:gap-4">
           <h2 className="text-2xl font-bold text-[#241a14] sm:text-3xl">

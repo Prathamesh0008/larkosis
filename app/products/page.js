@@ -1,7 +1,6 @@
 import CatalogClient from "./catalog-client";
 import { getAllProducts, getCategoryCounts } from "@/lib/catalog";
 import { companyProfile } from "@/data/companyProfile";
-import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
 
@@ -166,7 +165,7 @@ export default function ProductsPage() {
                       href="#catalog"
                       className="font-semibold text-[#ec671f] hover:underline"
                     >
-                      Browse All →
+                      Browse All -&gt;
                     </Link>
                   </div>
                 </div>
@@ -217,3 +216,4 @@ export default function ProductsPage() {
     </div>
   );
 }
+

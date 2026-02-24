@@ -404,7 +404,7 @@ export default function CatalogClient({ products, categories }) {
               <option value={96}>96 per page</option>
             </select>
 
-            <div className="flex gap-2">
+            <div className="flex flex-wrap gap-2">
               <button
                 type="button"
                 onClick={applyFilters}
@@ -466,8 +466,63 @@ export default function CatalogClient({ products, categories }) {
         </div>
       </div>
 
-      <div className="mt-8 overflow-x-auto rounded-2xl border border-[#f0d4c2] bg-white shadow-sm">
-        <table className="min-w-[1200px] w-full border-collapse text-left">
+      <div className="mt-8 space-y-3 md:hidden">
+        {paginatedProducts.length === 0 && (
+          <div className="rounded-2xl border border-[#f0d4c2] bg-white p-6 text-center text-[#684938] shadow-sm">
+            <p className="text-lg font-semibold">No products found</p>
+            <p className="mt-1 text-sm">Try adjusting your filters or search terms</p>
+            <button
+              type="button"
+              onClick={clearFilters}
+              className="mt-3 rounded-full bg-[#ec671f] px-4 py-2 text-sm font-bold text-white hover:bg-[#d95f1d]"
+            >
+              Clear All Filters
+            </button>
+          </div>
+        )}
+        {paginatedProducts.map((product) => (
+          <article
+            key={product.id}
+            className="rounded-2xl border border-[#f0d4c2] bg-white p-4 shadow-sm"
+          >
+            <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#8a5436]">
+              {product.category}
+            </p>
+            <h3 className="mt-1 text-base font-bold text-[#2e2119]">
+              <Link href={`/products/${product.slug}`} className="hover:text-[#ec671f]">
+                {product.name}
+              </Link>
+            </h3>
+            <dl className="mt-3 space-y-1 text-sm text-[#553d30]">
+              <div>
+                <dt className="inline font-semibold text-[#3f2a1e]">Form:</dt>{" "}
+                <dd className="inline break-words">{product.dosageForm || "--"}</dd>
+              </div>
+              <div>
+                <dt className="inline font-semibold text-[#3f2a1e]">Strength:</dt>{" "}
+                <dd className="inline break-words">{product.strength || "--"}</dd>
+              </div>
+              <div>
+                <dt className="inline font-semibold text-[#3f2a1e]">Pack:</dt>{" "}
+                <dd className="inline break-words">{extractPackSize(product.details)}</dd>
+              </div>
+              <div>
+                <dt className="inline font-semibold text-[#3f2a1e]">CAS ID:</dt>{" "}
+                <dd className="inline break-words">{extractCasId(product)}</dd>
+              </div>
+            </dl>
+            <Link
+              href={`/products/${product.slug}`}
+              className="mt-4 inline-flex rounded-full bg-[#ec671f] px-4 py-2 text-xs font-bold text-white hover:bg-[#d95f1d]"
+            >
+              View Details
+            </Link>
+          </article>
+        ))}
+      </div>
+
+      <div className="mt-8 hidden overflow-x-auto rounded-2xl border border-[#f0d4c2] bg-white shadow-sm md:block">
+        <table className="w-full min-w-[980px] border-collapse text-left lg:min-w-[1200px]">
           <thead className="bg-[#0f3558] text-xs uppercase tracking-[0.08em] text-white">
             <tr>
               <th 
@@ -545,20 +600,20 @@ export default function CatalogClient({ products, categories }) {
                 key={product.id}
                 className={`${index % 2 === 0 ? "bg-[#fffefd]" : "bg-[#fff8f3]"} border-t border-[#eed4c3] hover:bg-[#fff0e8] transition-colors`}
               >
-                <td className="px-4 py-4 text-sm font-semibold text-[#2e2119]">
+                <td className="max-w-[280px] break-words px-4 py-4 align-top text-sm font-semibold text-[#2e2119]">
                   <Link href={`/products/${product.slug}`} className="hover:text-[#ec671f] hover:underline">
                     {product.name}
                   </Link>
                 </td>
-                <td className="px-4 py-4 text-sm text-[#553d30]">{product.dosageForm || "--"}</td>
-                <td className="px-4 py-4 text-sm text-[#553d30]">{product.category}</td>
-                <td className="px-4 py-4 text-sm text-[#553d30]">{product.strength || "--"}</td>
-                <td className="px-4 py-4 text-sm text-[#553d30]">{extractPackSize(product.details)}</td>
-                <td className="px-4 py-4 text-sm text-[#553d30]">
+                <td className="max-w-[180px] break-words px-4 py-4 align-top text-sm text-[#553d30]">{product.dosageForm || "--"}</td>
+                <td className="max-w-[200px] break-words px-4 py-4 align-top text-sm text-[#553d30]">{product.category}</td>
+                <td className="max-w-[220px] break-words px-4 py-4 align-top text-sm text-[#553d30]">{product.strength || "--"}</td>
+                <td className="max-w-[220px] break-words px-4 py-4 align-top text-sm text-[#553d30]">{extractPackSize(product.details)}</td>
+                <td className="max-w-[240px] break-words px-4 py-4 align-top text-sm text-[#553d30]">
                   {extractFormulationType(product.details, product.dosageForm)}
                 </td>
-                <td className="px-4 py-4 text-sm text-[#553d30]">{extractCasId(product)}</td>
-                <td className="px-4 py-4 text-sm text-[#553d30]">{extractPharmSpec(product.details)}</td>
+                <td className="max-w-[220px] break-words px-4 py-4 align-top text-sm text-[#553d30]">{extractCasId(product)}</td>
+                <td className="max-w-[180px] break-words px-4 py-4 align-top text-sm text-[#553d30]">{extractPharmSpec(product.details)}</td>
               </tr>
             ))}
           </tbody>
@@ -572,12 +627,12 @@ export default function CatalogClient({ products, categories }) {
           </p>
           
           {/* Pagination */}
-          <div className="flex items-center gap-2">
+          <div className="flex w-full flex-wrap items-center justify-center gap-2 sm:w-auto sm:justify-end">
             <button
               type="button"
               onClick={() => setPage(1)}
               disabled={currentPage <= 1}
-              className="rounded-lg border border-[#e6b99d] px-3 py-2 text-sm font-semibold text-[#7b4428] disabled:cursor-not-allowed disabled:opacity-40 hover:bg-[#fff0e8]"
+              className="hidden rounded-lg border border-[#e6b99d] px-3 py-2 text-sm font-semibold text-[#7b4428] disabled:cursor-not-allowed disabled:opacity-40 hover:bg-[#fff0e8] sm:inline-flex"
             >
               First
             </button>
@@ -585,7 +640,7 @@ export default function CatalogClient({ products, categories }) {
               type="button"
               onClick={() => setPage((value) => Math.max(1, value - 1))}
               disabled={currentPage <= 1}
-              className="rounded-lg border border-[#e6b99d] px-4 py-2 text-sm font-semibold text-[#7b4428] disabled:cursor-not-allowed disabled:opacity-40 hover:bg-[#fff0e8]"
+              className="rounded-lg border border-[#e6b99d] px-3 py-2 text-sm font-semibold text-[#7b4428] disabled:cursor-not-allowed disabled:opacity-40 hover:bg-[#fff0e8]"
             >
               Previous
             </button>
@@ -624,7 +679,7 @@ export default function CatalogClient({ products, categories }) {
               type="button"
               onClick={() => setPage((value) => Math.min(totalPages, value + 1))}
               disabled={currentPage >= totalPages}
-              className="rounded-lg border border-[#e6b99d] px-4 py-2 text-sm font-semibold text-[#7b4428] disabled:cursor-not-allowed disabled:opacity-40 hover:bg-[#fff0e8]"
+              className="rounded-lg border border-[#e6b99d] px-3 py-2 text-sm font-semibold text-[#7b4428] disabled:cursor-not-allowed disabled:opacity-40 hover:bg-[#fff0e8]"
             >
               Next
             </button>
@@ -632,7 +687,7 @@ export default function CatalogClient({ products, categories }) {
               type="button"
               onClick={() => setPage(totalPages)}
               disabled={currentPage >= totalPages}
-              className="rounded-lg border border-[#e6b99d] px-3 py-2 text-sm font-semibold text-[#7b4428] disabled:cursor-not-allowed disabled:opacity-40 hover:bg-[#fff0e8]"
+              className="hidden rounded-lg border border-[#e6b99d] px-3 py-2 text-sm font-semibold text-[#7b4428] disabled:cursor-not-allowed disabled:opacity-40 hover:bg-[#fff0e8] sm:inline-flex"
             >
               Last
             </button>
@@ -644,7 +699,7 @@ export default function CatalogClient({ products, categories }) {
               setPageSize(Number(event.target.value));
               setPage(1);
             }}
-            className="rounded-lg border border-[#e6b99d] bg-white px-3 py-2 text-sm text-[#7b4428] outline-none focus:ring-2 focus:ring-[#ec671f]"
+            className="w-full rounded-lg border border-[#e6b99d] bg-white px-3 py-2 text-sm text-[#7b4428] outline-none focus:ring-2 focus:ring-[#ec671f] sm:w-auto"
           >
             <option value={12}>12 per page</option>
             <option value={24}>24 per page</option>
