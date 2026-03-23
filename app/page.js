@@ -58,26 +58,26 @@ export default function Home() {
   };
 
   const heroImage = {
-    src: "https://images.pexels.com/photos/8539650/pexels-photo-8539650.jpeg?auto=compress&cs=tinysrgb&w=2200&h=1300&dpr=2",
-    alt: "Pharmaceutical research team working in a quality-control laboratory",
+    src: "/quality%20system.jpg",
+    alt: "Pharmaceutical quality system and inspection workflow",
   };
 
   const bannerImages = [
     {
-      src: "https://images.pexels.com/photos/8392793/pexels-photo-8392793.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=2",
-      alt: "Scientist handling pharmaceutical samples in a controlled laboratory",
+      src: "/manufacturing%20image.jpg",
+      alt: "Pharmaceutical production and manufacturing setup",
       className: "object-center",
       label: "Manufacturing",
     },
     {
-      src: "https://images.pexels.com/photos/9742738/pexels-photo-9742738.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=2",
-      alt: "Pharmaceutical tablets and capsules in blister packaging",
+      src: "/product.png",
+      alt: "Pharmaceutical product portfolio",
       className: "object-center",
       label: "Product Portfolio",
     },
     {
-      src: "https://images.pexels.com/photos/3912364/pexels-photo-3912364.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=2",
-      alt: "Laboratory precision testing for pharmaceutical quality assurance",
+      src: "/quality%20system.jpg",
+      alt: "Pharmaceutical quality systems and inspection",
       className: "object-center",
       label: "Quality Systems",
     },
@@ -85,14 +85,14 @@ export default function Home() {
 
   const facilityImages = [
     {
-      src: "https://images.pexels.com/photos/8851551/pexels-photo-8851551.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=2",
-      alt: "Scientist examining pharmaceutical samples with a microscope",
+      src: "/analaytiacal%20laboratory.png",
+      alt: "Analytical laboratory operations",
       title: "Analytical Laboratory",
       description: "Batch validation, stability checks, and specification testing.",
     },
     {
-      src: "https://images.pexels.com/photos/9574515/pexels-photo-9574515.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=2",
-      alt: "Pharmaceutical quality documentation and laboratory monitoring setup",
+      src: "/manufacturing%20image.jpg",
+      alt: "Production facility operations",
       title: "Production Facility",
       description: "Controlled environments for scalable formulation and packing.",
     },
