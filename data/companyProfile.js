@@ -1,9 +1,9 @@
 export const companyProfile = {
-  brand: "Larkosis Pharma",
+  brand: "Larksois Pharma",
   legalName: "Larksois Pharma Pvt. Ltd.",
   email: "larksoispharma@gmail.com",
   phone: "9004525044",
-  website: "https://www.larksois.com",
+  website: "https://www.larksoispharma.com",
   officeAddress:
     "#06 Triveni Apartment, Plot 157-160, Sector 19, Kharghar, New Mumbai, Maharashtra, India 410210",
   overview:

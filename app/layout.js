@@ -4,6 +4,7 @@ import { Manrope, Spectral } from "next/font/google";
 import "./globals.css";
 import { companyProfile } from "@/data/companyProfile";
 import { getCategoryCounts } from "@/lib/catalog";
+import { SITE_URL, absoluteUrl } from "@/lib/seo";
 import MobileMenu from "@/components/MobileMenu";
 
 const manrope = Manrope({
@@ -21,46 +22,52 @@ const spectral = Spectral({
 
 export const metadata = {
   title: {
-    default: "Larkosis Pharma | Global Pharmaceutical Inquiry Portal",
-    template: "%s | Larkosis Pharma",
+    default: "Larksois Pharma | Global Pharmaceutical Supplier",
+    template: "%s | Larksois Pharma",
   },
   description:
-    "Production-ready pharmaceutical product inquiry website for Larkosis Pharma, including product catalog, details, FAQs, and quotation requests.",
+    "Larksois Pharma is a global pharmaceutical supplier for quality generic and branded formulations. Explore products and request quotations for international markets.",
   keywords: [
-    "pharmaceutical",
-    "medicines",
-    "drug inquiry",
-    "pharma products",
-    "Larkosis",
+    "Larksois Pharma",
+    "Larksois Pharmaceuticals",
+    "pharmaceutical supplier",
+    "generic medicines manufacturer",
+    "pharma export company",
+    "bulk medicine supplier",
+    "pharmaceutical products",
+    "API and formulations",
   ],
-  authors: [{ name: "Larkosis Pharma" }],
-  creator: "Larkosis Pharma",
-  publisher: "Larkosis Pharma",
+  authors: [{ name: "Larksois Pharma" }],
+  creator: "Larksois Pharma",
+  publisher: "Larksois Pharma",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL(companyProfile.website || "https://larkosis.com"),
+  metadataBase: new URL(SITE_URL),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Larkosis Pharma | Global Pharmaceutical Inquiry Portal",
-    description: "Browse our pharmaceutical product catalog and submit inquiries.",
-    url: "https://larkosis.com",
-    siteName: "Larkosis Pharma",
+    title: "Larksois Pharma | Global Pharmaceutical Supplier",
+    description:
+      "Explore Larksois Pharma products, formulations, and quotation support for global pharmaceutical markets.",
+    url: SITE_URL,
+    siteName: "Larksois Pharma",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Larkosis Pharma | Global Pharmaceutical Inquiry Portal",
-    description: "Browse our pharmaceutical product catalog and submit inquiries.",
+    title: "Larksois Pharma | Global Pharmaceutical Supplier",
+    description:
+      "Explore Larksois Pharma products and submit quotation inquiries for global supply.",
   },
   robots: {
     index: true,
     follow: true,
+    nocache: false,
     googleBot: {
       index: true,
       follow: true,
@@ -83,18 +90,42 @@ const year = new Date().getFullYear();
 export default function RootLayout({ children }) {
   const topCategories = getCategoryCounts().slice(0, 6);
   const phoneDigits = companyProfile.phone.replace(/\D/g, "");
-  const socialLinks = [
-    {
-      name: "Website",
-      href: companyProfile.website,
-      external: true,
-      icon: (
-        <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.6 9h16.8M3.6 15h16.8M12 3a16 16 0 010 18M12 3a16 16 0 000 18" />
-        </svg>
-      ),
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: companyProfile.brand,
+    legalName: companyProfile.legalName,
+    url: SITE_URL,
+    logo: absoluteUrl("/larko.png"),
+    email: companyProfile.email,
+    telephone: companyProfile.phone,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: companyProfile.officeAddress,
+      addressCountry: "IN",
     },
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        contactType: "sales",
+        email: companyProfile.email,
+        telephone: companyProfile.phone,
+        availableLanguage: ["English"],
+      },
+    ],
+  };
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: companyProfile.brand,
+    url: SITE_URL,
+    publisher: {
+      "@type": "Organization",
+      name: companyProfile.brand,
+      url: SITE_URL,
+    },
+  };
+  const socialLinks = [
     {
       name: "Email",
       href: `mailto:${companyProfile.email}`,
@@ -134,6 +165,14 @@ export default function RootLayout({ children }) {
       <body
         className={`${manrope.variable} ${spectral.variable} font-sans antialiased`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-white focus:p-4 focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#ec671f]"
@@ -356,26 +395,14 @@ export default function RootLayout({ children }) {
           </address>
         </div>
 
-        {/* Column 4: Social & Website */}
+        {/* Column 4: Connect */}
         <div className="rounded-2xl bg-white/70 p-5 backdrop-blur-sm">
           <h3 className="flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-[#7a4a2f]">
             <span className="h-1 w-5 rounded-full bg-[#00923f]"></span>
             Connect
           </h3>
           
-          <div className="mt-4 space-y-4">
-            <a
-              href={companyProfile.website}
-              target="_blank"
-              rel="noreferrer"
-              className="flex items-center gap-2 rounded-xl bg-[#00923f]/10 px-4 py-3 text-[#00923f] transition-all hover:bg-[#00923f] hover:text-white"
-            >
-              <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14h-2v-6h2v6zm-1-8c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm8 8h-2v-4c0-1.1-.9-2-2-2s-2 .9-2 2v4h-2v-6h2v1.1c.58-.66 1.6-1.1 2.5-1.1 1.93 0 3.5 1.57 3.5 3.5v2.5z"/>
-              </svg>
-              <span className="font-medium">Visit Website</span>
-            </a>
-
+          <div className="mt-4">
             <div className="flex flex-wrap gap-2">
               {socialLinks.map((item) => (
                 <a
@@ -414,7 +441,7 @@ export default function RootLayout({ children }) {
               Terms of Use
             </Link>
             <span className="text-[#f1d9c9]">•</span>
-            <Link href="/sitemap" className="text-[#6b5140] transition-colors hover:text-[#ec671f]">
+            <Link href="/sitemap.xml" className="text-[#6b5140] transition-colors hover:text-[#ec671f]">
               Sitemap
             </Link>
           </div>

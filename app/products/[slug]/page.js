@@ -4,10 +4,12 @@ import ProductCard from "@/components/product-card";
 import { companyProfile } from "@/data/companyProfile";
 import {
   buildQuoteMailto,
+  getAllProducts,
   getProductBySlug,
   getRelatedProducts,
 } from "@/lib/catalog";
 import { buildProductFaqs } from "@/lib/product-faqs";
+import { SITE_URL, absoluteUrl } from "@/lib/seo";
 
 function extractPharmSpec(details) {
   const matches = details.match(/\b(BP\/USP|BP|USP|INH|IP|IH)\b/gi) ?? [];
@@ -42,19 +44,45 @@ export async function generateMetadata({ params }) {
 
   if (!product) {
     return {
-      title: "Product Not Found | Larkosis Pharma",
+      title: "Product Not Found",
     };
   }
+  const details = product.details.replace(/\s+/g, " ").trim();
+  const description = `Detailed product information, FAQ, and quotation request for ${product.name}. ${details}`.slice(
+    0,
+    160,
+  );
+  const productUrl = absoluteUrl(`/products/${product.slug}`);
 
   return {
-    title: `${product.name} | Larkosis Pharma`,
-    description: `Detailed product information, FAQ, and quotation request for ${product.name}. ${product.details.substring(0, 160)}`,
+    title: product.name,
+    description,
+    keywords: [
+      product.name,
+      product.category,
+      product.dosageForm,
+      product.strength,
+      "pharmaceutical product",
+      "bulk quotation request",
+    ].filter(Boolean),
+    alternates: {
+      canonical: `/products/${product.slug}`,
+    },
     openGraph: {
-      title: `${product.name} | Larkosis Pharma`,
-      description: product.details.substring(0, 200),
+      title: `${product.name} | Larksois Pharma`,
+      description: details.slice(0, 200),
+      url: productUrl,
       type: "article",
     },
+    robots: {
+      index: true,
+      follow: true,
+    },
   };
+}
+
+export async function generateStaticParams() {
+  return getAllProducts().map((product) => ({ slug: product.slug }));
 }
 
 export default async function ProductDetailPage({ params }) {
@@ -71,9 +99,116 @@ export default async function ProductDetailPage({ params }) {
   const pharmSpec = extractPharmSpec(product.details);
   const packSize = extractPackSize(product.details);
   const casId = product.casId && product.casId !== "--" ? product.casId : null;
+  const productUrl = absoluteUrl(`/products/${product.slug}`);
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE_URL,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Products",
+        item: absoluteUrl("/products"),
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: product.name,
+        item: productUrl,
+      },
+    ],
+  };
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    description: product.details,
+    category: product.category,
+    sku: String(product.id),
+    productID: String(product.id),
+    url: productUrl,
+    brand: {
+      "@type": "Brand",
+      name: companyProfile.brand,
+    },
+    manufacturer: {
+      "@type": "Organization",
+      name: companyProfile.brand,
+      url: SITE_URL,
+    },
+    additionalProperty: [
+      {
+        "@type": "PropertyValue",
+        name: "Dosage Form",
+        value: product.dosageForm,
+      },
+      {
+        "@type": "PropertyValue",
+        name: "Strength",
+        value: product.strength,
+      },
+      ...(packSize
+        ? [
+            {
+              "@type": "PropertyValue",
+              name: "Pack Size",
+              value: packSize,
+            },
+          ]
+        : []),
+      ...(pharmSpec
+        ? [
+            {
+              "@type": "PropertyValue",
+              name: "Pharmacopoeia",
+              value: pharmSpec,
+            },
+          ]
+        : []),
+      ...(casId
+        ? [
+            {
+              "@type": "PropertyValue",
+              name: "CAS ID",
+              value: casId,
+            },
+          ]
+        : []),
+    ],
+  };
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
 
   return (
     <div className="pb-14">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <section className="relative overflow-hidden bg-gradient-to-br from-[#fff7f1] via-[#fbe4d5] to-[#fffbf8]">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -left-10 top-8 h-64 w-64 rounded-full bg-[#f4b083]/20 blur-3xl animate-float-slow" />

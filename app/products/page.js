@@ -1,13 +1,34 @@
 import CatalogClient from "./catalog-client";
 import { getAllProducts, getCategoryCounts } from "@/lib/catalog";
 import { companyProfile } from "@/data/companyProfile";
+import { SITE_URL, absoluteUrl } from "@/lib/seo";
 import Link from "next/link";
 import { Suspense } from "react";
 
 export const metadata = {
-  title: "Products | Larkosis Pharma",
+  title: "Products",
   description:
-    "Browse the Larkosis Pharma product catalog and submit quote requests.",
+    "Browse the Larksois Pharma product catalog by category, dosage form, and strength. Request quotations directly for required products.",
+  keywords: [
+    "pharmaceutical product catalog",
+    "Larksois Pharma products",
+    "generic medicines list",
+    "bulk pharma supplier",
+  ],
+  alternates: {
+    canonical: "/products",
+  },
+  openGraph: {
+    title: "Products | Larksois Pharma",
+    description:
+      "Search the Larksois Pharma product portfolio and submit quotation requests.",
+    url: absoluteUrl("/products"),
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 function CatalogFallback() {
@@ -23,6 +44,49 @@ function CatalogFallback() {
 export default function ProductsPage() {
   const products = getAllProducts();
   const categories = getCategoryCounts();
+  const collectionPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Larksois Pharma Product Catalog",
+    description: metadata.description,
+    url: absoluteUrl("/products"),
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Larksois Pharma",
+      url: SITE_URL,
+    },
+  };
+  const productListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Pharmaceutical Products",
+    itemListOrder: "https://schema.org/ItemListOrderAscending",
+    numberOfItems: products.length,
+    itemListElement: products.slice(0, 200).map((product, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: product.name,
+      url: absoluteUrl(`/products/${product.slug}`),
+    })),
+  };
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE_URL,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Products",
+        item: absoluteUrl("/products"),
+      },
+    ],
+  };
 
   // Calculate additional stats
   const totalStrengths = new Set(products.map(p => p.strength).filter(Boolean)).size;
@@ -35,6 +99,18 @@ export default function ProductsPage() {
 
   return (
     <div className="pb-10">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionPageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productListSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       {/* Hero Section with Enhanced Visuals */}
       <section className="relative overflow-hidden bg-gradient-to-br from-[#fff7f1] via-[#fbe4d5] to-[#fffaf6]">
         {/* Decorative Elements */}

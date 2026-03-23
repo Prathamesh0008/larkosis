@@ -3,11 +3,59 @@ import Link from "next/link";
 import ProductCard from "@/components/product-card";
 import { companyProfile } from "@/data/companyProfile";
 import { getAllProducts, getCategoryCounts } from "@/lib/catalog";
+import { SITE_URL, absoluteUrl } from "@/lib/seo";
+
+export const metadata = {
+  title: "Global Pharmaceutical Supplier",
+  description:
+    "Larksois Pharma provides high-quality pharmaceutical formulations for global markets. Explore products, therapeutic categories, and request quotations.",
+  keywords: [
+    "Larksois Pharma",
+    "pharmaceutical company India",
+    "pharma export supplier",
+    "generic formulations",
+    "pharmaceutical product catalog",
+  ],
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Larksois Pharma | Global Pharmaceutical Supplier",
+    description:
+      "Explore pharmaceutical products and request quotations from Larksois Pharma.",
+    url: SITE_URL,
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 export default function Home() {
   const products = getAllProducts();
   const categoryCounts = getCategoryCounts();
   const featuredProducts = products.slice(0, 6);
+  const homeSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Larksois Pharma | Global Pharmaceutical Supplier",
+    description:
+      "Larksois Pharma provides high-quality pharmaceutical formulations for global markets.",
+    url: SITE_URL,
+    inLanguage: "en",
+  };
+  const featuredItemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Featured Pharmaceutical Products",
+    itemListElement: featuredProducts.map((product, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: product.name,
+      url: absoluteUrl(`/products/${product.slug}`),
+    })),
+  };
 
   const heroImage = {
     src: "https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg?auto=compress&cs=tinysrgb&w=2000&h=1300&dpr=2",
@@ -52,6 +100,14 @@ export default function Home() {
 
   return (
     <div className="pb-14">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(featuredItemListSchema) }}
+      />
       <section className="relative min-h-[700px] overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image

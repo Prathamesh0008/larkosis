@@ -2,14 +2,31 @@ import Link from "next/link";
 import Image from "next/image";
 import { companyProfile } from "@/data/companyProfile";
 import { getAllProducts, getCategoryCounts } from "@/lib/catalog";
+import { SITE_URL, absoluteUrl } from "@/lib/seo";
 
 export const metadata = {
-  title: "About Larkosis Pharma | Global Pharmaceutical Partner",
-  description: "Learn about Larkosis Pharma, our quality systems, manufacturing strengths, research focus, and global product capabilities across 100+ therapeutic categories.",
+  title: "About",
+  description:
+    "Learn about Larksois Pharma, our quality systems, manufacturing strengths, research focus, and global pharmaceutical capabilities.",
+  keywords: [
+    "about Larksois Pharma",
+    "pharmaceutical manufacturer India",
+    "GMP pharmaceutical company",
+    "global pharma exporter",
+  ],
+  alternates: {
+    canonical: "/about",
+  },
   openGraph: {
-    title: "About Larkosis Pharma | Global Pharmaceutical Partner",
-    description: "Discover our commitment to quality, global reach, and comprehensive pharmaceutical portfolio.",
+    title: "About Larksois Pharma | Global Pharmaceutical Partner",
+    description:
+      "Discover Larksois Pharma's quality commitment, global reach, and comprehensive pharmaceutical portfolio.",
+    url: absoluteUrl("/about"),
     type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
@@ -20,10 +37,48 @@ export default function AboutPage() {
   // Calculate additional stats
   const manufacturingSites = 3;
   const globalPartners = 25;
-  const yearsExperience = 15;
+  const aboutPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    name: "About Larksois Pharma",
+    url: absoluteUrl("/about"),
+    description: metadata.description,
+    mainEntity: {
+      "@type": "Organization",
+      name: companyProfile.brand,
+      url: SITE_URL,
+      numberOfEmployees: "50+",
+    },
+  };
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE_URL,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "About",
+        item: absoluteUrl("/about"),
+      },
+    ],
+  };
 
   return (
     <div className="pb-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutPageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       {/* Hero Section with Enhanced Visuals */}
       <section className="relative overflow-hidden bg-gradient-to-br from-[#fff6ef] via-[#fbe4d5] to-[#fff9f3]">
         {/* Decorative Background Elements */}

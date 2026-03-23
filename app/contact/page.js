@@ -2,15 +2,30 @@ import ContactForm from "./contact-form";
 import { companyProfile } from "@/data/companyProfile";
 import Link from "next/link";
 import Image from "next/image";
+import { SITE_URL, absoluteUrl } from "@/lib/seo";
 
 export const metadata = {
-  title: "Contact | Larkosis Pharma",
+  title: "Contact",
   description:
-    "Contact Larkosis Pharma for product availability, documentation, and quotations. Get expert pharmaceutical support and business inquiries answered within 24 hours.",
+    "Contact Larksois Pharma for product availability, documentation, and bulk quotation requests. Get business support within 24 hours.",
+  keywords: [
+    "contact Larksois Pharma",
+    "pharmaceutical quote request",
+    "bulk medicine inquiry",
+    "pharma export contact",
+  ],
+  alternates: {
+    canonical: "/contact",
+  },
   openGraph: {
-    title: "Contact Larkosis Pharma | Global Pharmaceutical Supplier",
+    title: "Contact Larksois Pharma | Global Pharmaceutical Supplier",
     description: "Reach out for product inquiries, quotations, and technical documentation.",
+    url: absoluteUrl("/contact"),
     type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
@@ -18,9 +33,49 @@ export default function ContactPage() {
   // Business hours calculation
   const currentHour = new Date().getHours();
   const isBusinessHours = currentHour >= 9 && currentHour <= 18;
+  const contactPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    name: "Contact Larksois Pharma",
+    url: absoluteUrl("/contact"),
+    description: metadata.description,
+    mainEntity: {
+      "@type": "Organization",
+      name: companyProfile.brand,
+      url: SITE_URL,
+      email: companyProfile.email,
+      telephone: companyProfile.phone,
+    },
+  };
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: SITE_URL,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Contact",
+        item: absoluteUrl("/contact"),
+      },
+    ],
+  };
 
   return (
     <div className="pb-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(contactPageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       {/* Hero Section with Enhanced Visuals */}
       <section className="relative overflow-hidden bg-gradient-to-br from-[#fff6ef] via-[#fbe4d5] to-[#fff9f3]">
         {/* Decorative Background Elements */}
