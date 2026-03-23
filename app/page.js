@@ -91,7 +91,7 @@ export default function Home() {
       description: "Batch validation, stability checks, and specification testing.",
     },
     {
-      src: "/manufacturing%20image.jpg",
+      src: "/gg.png",
       alt: "Production facility operations",
       title: "Production Facility",
       description: "Controlled environments for scalable formulation and packing.",
