@@ -78,6 +78,12 @@ export const metadata = {
   },
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+};
+
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/products", label: "Products" },
@@ -182,7 +188,7 @@ export default function RootLayout({ children }) {
 
         <div className="flex min-h-screen flex-col">
           <header className="sticky top-0 z-40 border-b border-[#f1d9c9] bg-[#fff8f4]/95 backdrop-blur-md supports-[backdrop-filter]:bg-[#fff8f4]/80">
-            <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+            <div className="relative mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
               <Link
                 href="/"
                 className="group relative rounded-lg focus:outline-none"
@@ -194,7 +200,7 @@ export default function RootLayout({ children }) {
                   width={220}
                   height={182}
                   priority
-                  className="h-15 w-auto origin-left scale-140 object-contain"
+                  className="h-10 w-auto object-contain sm:h-12"
                 />
               </Link>
 
@@ -402,7 +408,7 @@ export default function RootLayout({ children }) {
             Connect
           </h3>
           
-          <div className="mt-4">
+            <div className="mt-4">
             <div className="flex flex-wrap gap-2">
               {socialLinks.map((item) => (
                 <a
@@ -411,10 +417,10 @@ export default function RootLayout({ children }) {
                   target={item.external ? "_blank" : undefined}
                   rel={item.external ? "noreferrer" : undefined}
                   aria-label={item.name}
-                  className="flex items-center gap-2 rounded-full border border-[#e8c7b2] bg-white px-4 py-2 text-sm font-medium text-[#7a4a2f] transition-all hover:border-[#ec671f] hover:bg-[#ec671f] hover:text-white"
+                  className="flex min-w-[120px] flex-1 items-center justify-center gap-2 rounded-full border border-[#e8c7b2] bg-white px-4 py-2 text-sm font-medium text-[#7a4a2f] transition-all hover:border-[#ec671f] hover:bg-[#ec671f] hover:text-white sm:min-w-0 sm:flex-none"
                 >
                   <span className="h-4 w-4">{item.icon}</span>
-                  <span className="hidden sm:inline">{item.name}</span>
+                  <span>{item.name}</span>
                 </a>
               ))}
             </div>
@@ -436,11 +442,11 @@ export default function RootLayout({ children }) {
             <Link href="/privacy" className="text-[#6b5140] transition-colors hover:text-[#ec671f]">
               Privacy Policy
             </Link>
-            <span className="text-[#f1d9c9]">•</span>
+            <span className="text-[#f1d9c9]">&bull;</span>
             <Link href="/terms" className="text-[#6b5140] transition-colors hover:text-[#ec671f]">
               Terms of Use
             </Link>
-            <span className="text-[#f1d9c9]">•</span>
+            <span className="text-[#f1d9c9]">&bull;</span>
             <Link href="/sitemap.xml" className="text-[#6b5140] transition-colors hover:text-[#ec671f]">
               Sitemap
             </Link>
@@ -459,3 +465,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+

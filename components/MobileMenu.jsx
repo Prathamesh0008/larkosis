@@ -26,7 +26,7 @@ export default function MobileMenu({ navLinks }) {
       </button>
 
       {isOpen && (
-        <div className="absolute left-0 right-0 top-full border-t border-[#f1d9c9] bg-white shadow-lg z-50">
+        <div className="absolute left-0 right-0 top-full z-50 max-h-[calc(100vh-72px)] overflow-y-auto border-t border-[#f1d9c9] bg-white shadow-lg">
           <nav className="flex flex-col p-4 space-y-2">
             {navLinks.map((link) => (
               <Link

@@ -58,41 +58,41 @@ export default function Home() {
   };
 
   const heroImage = {
-    src: "https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg?auto=compress&cs=tinysrgb&w=2000&h=1300&dpr=2",
-    alt: "Scientists in a pharmaceutical quality-control laboratory",
+    src: "https://images.pexels.com/photos/8539650/pexels-photo-8539650.jpeg?auto=compress&cs=tinysrgb&w=2200&h=1300&dpr=2",
+    alt: "Pharmaceutical research team working in a quality-control laboratory",
   };
 
   const bannerImages = [
     {
-      src: "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=1400&h=900&dpr=2",
-      alt: "Sterile pharmaceutical production line",
+      src: "https://images.pexels.com/photos/8392793/pexels-photo-8392793.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=2",
+      alt: "Scientist handling pharmaceutical samples in a controlled laboratory",
       className: "object-center",
       label: "Manufacturing",
     },
     {
-      src: "https://images.pexels.com/photos/139398/thermometer-headache-pain-pills-139398.jpeg?auto=compress&cs=tinysrgb&w=1400&h=900&dpr=2",
-      alt: "Tablet and capsule portfolio for global distribution",
+      src: "https://images.pexels.com/photos/9742738/pexels-photo-9742738.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=2",
+      alt: "Pharmaceutical tablets and capsules in blister packaging",
       className: "object-center",
       label: "Product Portfolio",
     },
     {
-      src: "https://images.pexels.com/photos/5726708/pexels-photo-5726708.jpeg?auto=compress&cs=tinysrgb&w=1400&h=900&dpr=2",
-      alt: "Pharmaceutical packaging and inspection workflow",
-      className: "object-top",
+      src: "https://images.pexels.com/photos/3912364/pexels-photo-3912364.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=2",
+      alt: "Laboratory precision testing for pharmaceutical quality assurance",
+      className: "object-center",
       label: "Quality Systems",
     },
   ];
 
   const facilityImages = [
     {
-      src: "https://images.pexels.com/photos/3825368/pexels-photo-3825368.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=2",
-      alt: "Laboratory scientist reviewing formulation samples",
+      src: "https://images.pexels.com/photos/8851551/pexels-photo-8851551.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=2",
+      alt: "Scientist examining pharmaceutical samples with a microscope",
       title: "Analytical Laboratory",
       description: "Batch validation, stability checks, and specification testing.",
     },
     {
-      src: "https://images.pexels.com/photos/8460156/pexels-photo-8460156.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=2",
-      alt: "Pharmaceutical team in protective clothing on production floor",
+      src: "https://images.pexels.com/photos/9574515/pexels-photo-9574515.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&dpr=2",
+      alt: "Pharmaceutical quality documentation and laboratory monitoring setup",
       title: "Production Facility",
       description: "Controlled environments for scalable formulation and packing.",
     },
