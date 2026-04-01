@@ -70,7 +70,7 @@ export default function AboutPage() {
   };
 
   return (
-    <div className="pb-12">
+    <div className="pb-12 overflow-x-hidden">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutPageSchema) }}
@@ -97,7 +97,7 @@ export default function AboutPage() {
           />
         </div>
 
-        <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+        <div className="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-20">
           {/* Breadcrumb */}
           <nav className="mb-6 flex items-center gap-2 text-sm" aria-label="Breadcrumb">
             <Link href="/" className="text-[#6d4832] hover:text-[#e36c0a] transition-colors">
@@ -125,49 +125,49 @@ export default function AboutPage() {
               <span className="block text-[#ec671f]">Formulation Partner</span>
             </h1>
             
-            <p className="mt-4 text-lg leading-relaxed text-[#5f4536]">
+            <p className="mt-4 text-base sm:text-lg leading-relaxed text-[#5f4536]">
               {companyProfile.overview}
             </p>
 
-            {/* Stats Grid */}
-            <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
-              <div className="rounded-xl bg-white/70 backdrop-blur-sm border border-[#efc9af] p-4 text-center">
-                <p className="text-2xl font-bold text-[#ec671f]">{productCount}+</p>
-                <p className="text-xs uppercase tracking-wider text-[#7f4b2f]">Products</p>
+            {/* Stats Grid - fully responsive */}
+            <div className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 sm:grid-cols-4">
+              <div className="rounded-xl bg-white/70 backdrop-blur-sm border border-[#efc9af] p-3 sm:p-4 text-center">
+                <p className="text-xl sm:text-2xl font-bold text-[#ec671f]">{productCount}+</p>
+                <p className="text-[10px] sm:text-xs uppercase tracking-wider text-[#7f4b2f]">Products</p>
               </div>
-              <div className="rounded-xl bg-white/70 backdrop-blur-sm border border-[#efc9af] p-4 text-center">
-                <p className="text-2xl font-bold text-[#ec671f]">{categoryCount}</p>
-                <p className="text-xs uppercase tracking-wider text-[#7f4b2f]">Categories</p>
+              <div className="rounded-xl bg-white/70 backdrop-blur-sm border border-[#efc9af] p-3 sm:p-4 text-center">
+                <p className="text-xl sm:text-2xl font-bold text-[#ec671f]">{categoryCount}</p>
+                <p className="text-[10px] sm:text-xs uppercase tracking-wider text-[#7f4b2f]">Categories</p>
               </div>
-              <div className="rounded-xl bg-white/70 backdrop-blur-sm border border-[#efc9af] p-4 text-center">
-                <p className="text-2xl font-bold text-[#ec671f]">{manufacturingSites}</p>
-                <p className="text-xs uppercase tracking-wider text-[#7f4b2f]">Facilities</p>
+              <div className="rounded-xl bg-white/70 backdrop-blur-sm border border-[#efc9af] p-3 sm:p-4 text-center">
+                <p className="text-xl sm:text-2xl font-bold text-[#ec671f]">{manufacturingSites}</p>
+                <p className="text-[10px] sm:text-xs uppercase tracking-wider text-[#7f4b2f]">Facilities</p>
               </div>
-              <div className="rounded-xl bg-white/70 backdrop-blur-sm border border-[#efc9af] p-4 text-center">
-                <p className="text-2xl font-bold text-[#ec671f]">{globalPartners}+</p>
-                <p className="text-xs uppercase tracking-wider text-[#7f4b2f]">Global Partners</p>
+              <div className="rounded-xl bg-white/70 backdrop-blur-sm border border-[#efc9af] p-3 sm:p-4 text-center">
+                <p className="text-xl sm:text-2xl font-bold text-[#ec671f]">{globalPartners}+</p>
+                <p className="text-[10px] sm:text-xs uppercase tracking-wider text-[#7f4b2f]">Global Partners</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Main Content */}
-      <section className="mx-auto mt-8 grid max-w-7xl gap-6 px-4 sm:px-6 lg:grid-cols-3 lg:px-8">
-        {/* Left Column - Main Content (spans 2 columns) */}
-        <div className="lg:col-span-2 space-y-6">
+      {/* Main Content - Enhanced tablet & mobile responsiveness */}
+      <section className="mx-auto mt-8 grid max-w-7xl gap-6 px-4 sm:px-6 md:grid-cols-3 lg:px-8">
+        {/* Left Column - Main Content (spans 2 columns on tablet and up) */}
+        <div className="md:col-span-2 space-y-6">
           {/* Who We Are Card */}
-          <article className="rounded-2xl border border-[#f2d8c7] bg-white p-6 shadow-lg sm:p-8">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="rounded-xl bg-[#ec671f]/10 p-3">
-                <svg className="h-6 w-6 text-[#ec671f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <article className="rounded-2xl border border-[#f2d8c7] bg-white p-5 sm:p-6 shadow-lg sm:p-8">
+            <div className="flex items-center gap-3 mb-4 sm:mb-6">
+              <div className="rounded-xl bg-[#ec671f]/10 p-2.5 sm:p-3">
+                <svg className="h-5 w-5 sm:h-6 sm:w-6 text-[#ec671f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
-              <h2 className="text-2xl font-bold text-[#291b12]">Who We Are</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[#291b12]">Who We Are</h2>
             </div>
             
-            <div className="space-y-4 text-[#5e4332]">
+            <div className="space-y-3 sm:space-y-4 text-[#5e4332] text-sm sm:text-base">
               <p className="leading-relaxed">{companyProfile.marketFocus}</p>
               <p className="leading-relaxed">{companyProfile.manufacturing}</p>
               <p className="leading-relaxed">{companyProfile.quality}</p>
@@ -175,34 +175,34 @@ export default function AboutPage() {
             </div>
 
             {/* Milestones/Timeline */}
-            <div className="mt-8 border-t border-[#f2d8c7] pt-6">
-              <h3 className="text-lg font-bold text-[#291b12] mb-4">Our Journey</h3>
-              <div className="grid gap-4 sm:grid-cols-3">
+            <div className="mt-6 sm:mt-8 border-t border-[#f2d8c7] pt-5 sm:pt-6">
+              <h3 className="text-base sm:text-lg font-bold text-[#291b12] mb-3 sm:mb-4">Our Journey</h3>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
                 <div className="text-center">
-                  <p className="text-3xl font-bold text-[#ec671f]">2010</p>
-                  <p className="text-sm text-[#5e4332]">Founded</p>
+                  <p className="text-2xl sm:text-3xl font-bold text-[#ec671f]">2010</p>
+                  <p className="text-xs sm:text-sm text-[#5e4332]">Founded</p>
                 </div>
                 <div className="text-center">
-                  <p className="text-3xl font-bold text-[#ec671f]">2015</p>
-                  <p className="text-sm text-[#5e4332]">Global Expansion</p>
+                  <p className="text-2xl sm:text-3xl font-bold text-[#ec671f]">2015</p>
+                  <p className="text-xs sm:text-sm text-[#5e4332]">Global Expansion</p>
                 </div>
                 <div className="text-center">
-                  <p className="text-3xl font-bold text-[#ec671f]">2020</p>
-                  <p className="text-sm text-[#5e4332]">ISO Certification</p>
+                  <p className="text-2xl sm:text-3xl font-bold text-[#ec671f]">2020</p>
+                  <p className="text-xs sm:text-sm text-[#5e4332]">ISO Certification</p>
                 </div>
               </div>
             </div>
           </article>
 
           {/* Therapeutic Capabilities */}
-          <article className="rounded-2xl border border-[#f2d8c7] bg-white p-6 shadow-lg sm:p-8">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="rounded-xl bg-[#0f3558]/10 p-3">
-                <svg className="h-6 w-6 text-[#0f3558]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <article className="rounded-2xl border border-[#f2d8c7] bg-white p-5 sm:p-6 shadow-lg sm:p-8">
+            <div className="flex items-center gap-3 mb-4 sm:mb-6">
+              <div className="rounded-xl bg-[#0f3558]/10 p-2.5 sm:p-3">
+                <svg className="h-5 w-5 sm:h-6 sm:w-6 text-[#0f3558]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </div>
-              <h2 className="text-2xl font-bold text-[#291b12]">Therapeutic Capabilities</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-[#291b12]">Therapeutic Capabilities</h2>
             </div>
             
             <p className="text-sm text-[#5e4332] mb-4">
@@ -213,7 +213,7 @@ export default function AboutPage() {
               {companyProfile.therapeuticCoverage.map((item) => (
                 <span
                   key={item}
-                  className="rounded-full border border-[#f1d5c3] bg-[#fff7f1] px-4 py-2 text-sm font-semibold text-[#7d4f33] hover:bg-[#ec671f] hover:text-white hover:border-[#ec671f] transition-colors cursor-default"
+                  className="rounded-full border border-[#f1d5c3] bg-[#fff7f1] px-3 py-1.5 sm:px-4 sm:py-2 text-xs sm:text-sm font-semibold text-[#7d4f33] hover:bg-[#ec671f] hover:text-white hover:border-[#ec671f] transition-colors cursor-default"
                 >
                   {item}
                 </span>
@@ -222,12 +222,12 @@ export default function AboutPage() {
           </article>
         </div>
 
-        {/* Right Column - Sidebar */}
+        {/* Right Column - Sidebar (fully responsive) */}
         <div className="space-y-5">
           {/* Our Values Card */}
-          <article className="rounded-2xl border border-[#f2d8c7] bg-white p-6 shadow-lg">
+          <article className="rounded-2xl border border-[#f2d8c7] bg-white p-5 sm:p-6 shadow-lg">
             <div className="flex items-center gap-3 mb-4">
-              <div className="rounded-xl bg-[#00923f]/10 p-3">
+              <div className="rounded-xl bg-[#00923f]/10 p-2.5">
                 <svg className="h-5 w-5 text-[#00923f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
@@ -241,7 +241,7 @@ export default function AboutPage() {
                   key={value}
                   className="group flex items-center gap-3 rounded-xl border border-[#efd6c6] bg-[#fff8f3] p-3 hover:border-[#ec671f] transition-colors"
                 >
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-[#ec671f]/10 text-xs font-bold text-[#ec671f] group-hover:bg-[#ec671f] group-hover:text-white transition-colors">
+                  <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#ec671f]/10 text-xs font-bold text-[#ec671f] group-hover:bg-[#ec671f] group-hover:text-white transition-colors">
                     {index + 1}
                   </span>
                   <span className="text-sm text-[#5d4436] group-hover:text-[#ec671f] transition-colors">
@@ -253,9 +253,9 @@ export default function AboutPage() {
           </article>
 
           {/* Company Documents Card */}
-          <article className="rounded-2xl border border-[#f2d8c7] bg-white p-6 shadow-lg">
+          <article className="rounded-2xl border border-[#f2d8c7] bg-white p-5 sm:p-6 shadow-lg">
             <div className="flex items-center gap-3 mb-4">
-              <div className="rounded-xl bg-[#ec671f]/10 p-3">
+              <div className="rounded-xl bg-[#ec671f]/10 p-2.5">
                 <svg className="h-5 w-5 text-[#ec671f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
                 </svg>
@@ -268,13 +268,13 @@ export default function AboutPage() {
                 href={companyProfile.documents.companyProfilePdf}
                 target="_blank"
                 rel="noreferrer"
-                className="group flex items-center justify-between rounded-xl border border-[#efd6c6] bg-[#fff8f3] p-4 hover:border-[#ec671f] transition-all"
+                className="group flex items-center justify-between rounded-xl border border-[#efd6c6] bg-[#fff8f3] p-3 sm:p-4 hover:border-[#ec671f] transition-all"
               >
                 <div className="flex items-center gap-3">
                   <svg className="h-5 w-5 text-[#7a4428]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                   </svg>
-                  <span className="text-sm font-semibold text-[#7a4428]">Company Profile</span>
+                  <span className="text-xs sm:text-sm font-semibold text-[#7a4428]">Company Profile</span>
                 </div>
                 <svg className="h-4 w-4 text-[#b18b75] group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -285,13 +285,13 @@ export default function AboutPage() {
                 href={companyProfile.documents.productListPdf}
                 target="_blank"
                 rel="noreferrer"
-                className="group flex items-center justify-between rounded-xl border border-[#efd6c6] bg-[#fff8f3] p-4 hover:border-[#ec671f] transition-all"
+                className="group flex items-center justify-between rounded-xl border border-[#efd6c6] bg-[#fff8f3] p-3 sm:p-4 hover:border-[#ec671f] transition-all"
               >
                 <div className="flex items-center gap-3">
                   <svg className="h-5 w-5 text-[#7a4428]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
-                  <span className="text-sm font-semibold text-[#7a4428]">Product List</span>
+                  <span className="text-xs sm:text-sm font-semibold text-[#7a4428]">Product List</span>
                 </div>
                 <svg className="h-4 w-4 text-[#b18b75] group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -301,9 +301,9 @@ export default function AboutPage() {
           </article>
 
           {/* Quality Certifications Card */}
-          <article className="rounded-2xl border border-[#f2d8c7] bg-gradient-to-br from-[#0f3558] to-[#1a4a73] p-6 shadow-lg">
+          <article className="rounded-2xl border border-[#f2d8c7] bg-gradient-to-br from-[#0f3558] to-[#1a4a73] p-5 sm:p-6 shadow-lg">
             <div className="flex items-center gap-3 mb-4">
-              <div className="rounded-xl bg-white/10 p-3">
+              <div className="rounded-xl bg-white/10 p-2.5">
                 <svg className="h-5 w-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
@@ -330,39 +330,39 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Call to Action Section */}
+      {/* Call to Action Section - Fully responsive with stacked buttons on mobile */}
       <section className="mx-auto mt-8 max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-[#ec671f] to-[#d85f1d] p-8 sm:p-12">
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-[#ec671f] to-[#d85f1d] p-6 sm:p-8 md:p-12">
           {/* Decorative Elements */}
           <div className="absolute inset-0 opacity-10">
             <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-white blur-3xl" />
             <div className="absolute -bottom-20 -left-20 h-64 w-64 rounded-full bg-[#0f3558] blur-3xl" />
           </div>
           
-          <div className="relative grid gap-8 lg:grid-cols-2 lg:gap-12">
+          <div className="relative grid gap-6 lg:grid-cols-2 lg:gap-12">
             <div>
-              <h2 className="text-3xl font-bold text-white sm:text-4xl">
+              <h2 className="text-2xl sm:text-3xl font-bold text-white sm:text-4xl">
                 Ready to Discuss Your Requirements?
               </h2>
-              <p className="mt-4 text-white/90 text-lg">
+              <p className="mt-3 sm:mt-4 text-white/90 text-base sm:text-lg">
                 Share your needed products, strengths, and destination market.
               </p>
             </div>
-            <div className="flex items-center justify-start gap-4 lg:justify-end">
+            <div className="flex flex-col sm:flex-row items-center justify-start gap-3 sm:gap-4 lg:justify-end">
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 rounded-xl bg-white px-6 py-3 text-base font-bold text-[#ec671f] transition-all hover:bg-[#0f3558] hover:text-white hover:shadow-xl"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl bg-white px-5 py-2.5 sm:px-6 sm:py-3 text-sm sm:text-base font-bold text-[#ec671f] transition-all hover:bg-[#0f3558] hover:text-white hover:shadow-xl"
               >
-                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="h-4 w-4 sm:h-5 sm:w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
                 Contact Team
               </Link>
               <Link
                 href="/products"
-                className="inline-flex items-center gap-2 rounded-xl border-2 border-white px-6 py-3 text-base font-bold text-white transition-all hover:bg-white hover:text-[#ec671f]"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-xl border-2 border-white px-5 py-2.5 sm:px-6 sm:py-3 text-sm sm:text-base font-bold text-white transition-all hover:bg-white hover:text-[#ec671f]"
               >
-                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="h-4 w-4 sm:h-5 sm:w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                 </svg>
                 Browse Products
@@ -372,24 +372,24 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Trust Indicators */}
-      <section className="mx-auto mt-8 max-w-7xl px-4 sm:px-6 lg:px-8">
+      {/* Trust Indicators - Responsive grid with adjusted text sizes */}
+      <section className="mx-auto mt-8 max-w-7xl px-4 sm:px-6 lg:px-8 pb-8">
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
           <div className="text-center">
-            <p className="text-3xl font-bold text-[#ec671f]">100+</p>
-            <p className="text-xs text-[#5e4332]">Global Markets</p>
+            <p className="text-2xl sm:text-3xl font-bold text-[#ec671f]">100+</p>
+            <p className="text-[11px] sm:text-xs text-[#5e4332]">Global Markets</p>
           </div>
           <div className="text-center">
-            <p className="text-3xl font-bold text-[#ec671f]">50+</p>
-            <p className="text-xs text-[#5e4332]">Manufacturing Partners</p>
+            <p className="text-2xl sm:text-3xl font-bold text-[#ec671f]">50+</p>
+            <p className="text-[11px] sm:text-xs text-[#5e4332]">Manufacturing Partners</p>
           </div>
           <div className="text-center">
-            <p className="text-3xl font-bold text-[#ec671f]">1000+</p>
-            <p className="text-xs text-[#5e4332]">Happy Clients</p>
+            <p className="text-2xl sm:text-3xl font-bold text-[#ec671f]">1000+</p>
+            <p className="text-[11px] sm:text-xs text-[#5e4332]">Happy Clients</p>
           </div>
           <div className="text-center">
-            <p className="text-3xl font-bold text-[#ec671f]">24/7</p>
-            <p className="text-xs text-[#5e4332]">Support Available</p>
+            <p className="text-2xl sm:text-3xl font-bold text-[#ec671f]">24/7</p>
+            <p className="text-[11px] sm:text-xs text-[#5e4332]">Support Available</p>
           </div>
         </div>
       </section>

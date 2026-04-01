@@ -95,7 +95,8 @@ const year = new Date().getFullYear();
 
 export default function RootLayout({ children }) {
   const topCategories = getCategoryCounts().slice(0, 6);
-  const phoneDigits = companyProfile.phone.replace(/\D/g, "");
+  // const phoneDigit
+  // s = companyProfile.phone.replace(/\D/g, "");
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -103,7 +104,7 @@ export default function RootLayout({ children }) {
     legalName: companyProfile.legalName,
     url: SITE_URL,
     logo: absoluteUrl("/larko.png"),
-    email: companyProfile.email,
+    // email: companyProfile.email,
     telephone: companyProfile.phone,
     address: {
       "@type": "PostalAddress",
@@ -114,7 +115,7 @@ export default function RootLayout({ children }) {
       {
         "@type": "ContactPoint",
         contactType: "sales",
-        email: companyProfile.email,
+        // email: companyProfile.email,
         telephone: companyProfile.phone,
         availableLanguage: ["English"],
       },
@@ -132,29 +133,29 @@ export default function RootLayout({ children }) {
     },
   };
   const socialLinks = [
-    {
-      name: "Email",
-      href: `mailto:${companyProfile.email}`,
-      external: false,
-      icon: (
-        <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-        </svg>
-      ),
-    },
-    {
-      name: "Phone",
-      href: `tel:${companyProfile.phone}`,
-      external: false,
-      icon: (
-        <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-        </svg>
-      ),
-    },
+    // {
+    //   name: "Email",
+    //   href: `mailto:${companyProfile.email}`,
+    //   external: false,
+      // icon: (
+      //   <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      //     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+      //   </svg>
+      // ),
+    //},
+    // {
+    //   name: "Phone",
+    //   href: `tel:${companyProfile.phone}`,
+    //   external: false,
+    //   icon: (
+    //     <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    //       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+    //     </svg>
+    //   ),
+    // },
     {
       name: "WhatsApp",
-      href: `https://wa.me/${phoneDigits}`,
+      // href: `https://wa.me/${phoneDigits}`,
       external: true,
       icon: (
         <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -305,12 +306,12 @@ export default function RootLayout({ children }) {
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
         
         {/* Column 1: Explore Links */}
-        <div className="rounded-2xl bg-white/70 p-5 backdrop-blur-sm">
+        {/* <div className="rounded-2xl bg-white/70 p-5 backdrop-blur-sm">
           <h3 className="flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-[#7a4a2f]">
             <span className="h-1 w-5 rounded-full bg-[#ec671f]"></span>
             Explore
-          </h3>
-          <ul className="mt-4 space-y-2.5">
+          </h3> */}
+          {/* <ul className="mt-4 space-y-2.5">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <Link
@@ -322,8 +323,8 @@ export default function RootLayout({ children }) {
                 </Link>
               </li>
             ))}
-          </ul>
-        </div>
+          </ul> */}
+        {/* </div> */}
 
         {/* Column 2: Downloads & Resources */}
         <div className="rounded-2xl bg-white/70 p-5 backdrop-blur-sm">
@@ -382,14 +383,14 @@ export default function RootLayout({ children }) {
               </svg>
               <span className="leading-relaxed">{companyProfile.officeAddress}</span>
             </p>
-            <p className="flex items-center gap-2">
+            {/* <p className="flex items-center gap-2">
               <svg className="h-5 w-5 text-[#ec671f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
               <a href={`tel:${companyProfile.phone}`} className="hover:text-[#ec671f]">
                 {companyProfile.phone}
               </a>
-            </p>
+            </p> */}
             <p className="flex items-center gap-2">
               <svg className="h-5 w-5 text-[#ec671f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
