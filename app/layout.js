@@ -186,22 +186,22 @@ export default function RootLayout({ children }) {
           Skip to main content
         </a>
 
-        <div className="flex min-h-screen flex-col">
-          <header className="sticky top-0 z-40 border-b border-[#f1d9c9] bg-[#fff8f4]/95 backdrop-blur-md supports-[backdrop-filter]:bg-[#fff8f4]/80">
-            <div className="relative mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+        <div className="flex min-h-screen flex-col ">
+        <header className="sticky top-0 z-40 border-b border-gray-200 bg-white">
+            <div className="relative mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-1.5 sm:px-6 lg:px-8">
               <Link
                 href="/"
                 className="group relative rounded-lg focus:outline-none"
                 aria-label="Larkosis Pharma Home"
               >
-                <Image
-                  src="/larko.png"
-                  alt="Larkosis Pharma Logo"
-                  width={220}
-                  height={182}
-                  priority
-                  className="h-10 w-auto object-contain sm:h-12"
-                />
+<Image
+  src="/larko.png"
+  alt="Larkosis Pharma Logo"
+  width={340}
+  height={240}
+  priority
+ className="h-12 w-auto object-contain sm:h-16 scale-140 origin-left mt-2"
+/>
               </Link>
 
               <nav
@@ -218,11 +218,11 @@ export default function RootLayout({ children }) {
                   </Link>
                 ))}
                 <a
-                  href={`mailto:${companyProfile.email}`}
-                  className="ml-2 rounded-lg bg-[#00923f] px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-[#007e35] hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#00923f] focus:ring-offset-2"
-                >
-                  Get Quote
-                </a>
+    href={`mailto:${companyProfile.email}`}
+    className="rounded-md bg-[#ec671f] px-3 py-1.5 text-xs font-semibold text-white"
+  >
+   Get Quote
+  </a>
               </nav>
 
               <MobileMenu navLinks={navLinks} />
@@ -238,7 +238,7 @@ export default function RootLayout({ children }) {
   <div className="pointer-events-none absolute -left-12 top-10 h-44 w-44 rounded-full bg-[#ec671f]/15 blur-3xl max-lg:hidden" />
   <div className="pointer-events-none absolute -right-12 bottom-12 h-48 w-48 rounded-full bg-[#00923f]/10 blur-3xl max-lg:hidden" />
 
-  <div className="relative mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+  <div className="relative mx-auto w-full max-w-6xl px-4 py-0. sm:px-6 lg:px-9 ">
     {/* Main footer content - redesigned layout */}
     <div className="grid gap-8 lg:gap-12">
       
