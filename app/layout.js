@@ -104,7 +104,7 @@ export default function RootLayout({ children }) {
     legalName: companyProfile.legalName,
     url: SITE_URL,
     logo: absoluteUrl("/larko.png"),
-    // email: companyProfile.email,
+     email: companyProfile.email,
     telephone: companyProfile.phone,
     address: {
       "@type": "PostalAddress",
