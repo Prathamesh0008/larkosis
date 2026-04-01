@@ -1,7 +1,7 @@
 export const companyProfile = {
   brand: "Larksois Pharma",
   legalName: "Larksois Pharma Pvt. Ltd.",
- 
+ companyProfile: "larksoispharma@gmail.com",
   
   website: "https://www.larksoispharma.com",
   officeAddress:
