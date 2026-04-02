@@ -5,7 +5,7 @@ export const companyProfile = {
   
   website: "https://www.larksoispharma.com",
   officeAddress:
-    "#17, Ground Floor, Sai Srushti Chs, Plot No. 15, Sector 19, Kharghar, Navi Mumbai 410210",
+    "17, Ground Floor, Sai Srushti Chs, Plot No. 15, Sector 19, Kharghar, Navi Mumbai 410210",
   overview:
     "Larksois Pharma Pvt. Ltd., headquartered in Mumbai, India, is an emerging global pharmaceutical company focused on product research, manufacturing, and marketing of quality and affordable generic and branded formulations.",
   marketFocus:

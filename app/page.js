@@ -140,7 +140,8 @@ export default function Home() {
             <div className="mt-7 flex flex-wrap gap-3">
               <Link
                 href="/products"
-                className="rounded-xl bg-[#ec671f] px-5 py-3 text-sm font-bold text-white transition-all hover:scale-105 hover:bg-[#d85f1d]"
+                className="rounded-xl bg-[#ec671f] px-5 py-3 text-sm font-bold text-white transition-all
+                 hover:scale-105 hover:bg-[#d85f1d]"
               >
                 Explore Products
               </Link>

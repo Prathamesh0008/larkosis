@@ -27,6 +27,7 @@ export const metadata = {
     index: true,
     follow: true,
   },
+  
 };
 
 export default function ContactPage() {

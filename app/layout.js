@@ -153,18 +153,18 @@ export default function RootLayout({ children }) {
     //     </svg>
     //   ),
     // },
-    {
-      name: "WhatsApp",
-      // href: `https://wa.me/${phoneDigits}`,
-      external: true,
-      icon: (
-        <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 11.5A8.5 8.5 0 1111.5 3a8.5 8.5 0 018.5 8.5z" />
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.5 20.5L4 22l1.5-4.5" />
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.8 9.6c.3-.6.5-.6.7-.6h.6c.2 0 .5 0 .7.5.2.5.7 1.7.7 1.8 0 .2 0 .3-.1.5-.1.2-.2.3-.4.4-.1.1-.3.2-.4.3-.1.1-.2.3-.1.5.1.2.7 1.1 1.6 1.8 1 .8 1.8 1 2.1 1.1.3.1.5.1.7-.1.2-.2.8-.9 1-.9.2 0 .3 0 .5.1.2.1 1.4.7 1.6.8.2.1.4.2.4.3 0 .1 0 .7-.3 1.3-.3.6-1.7 1.2-2.3 1.2-.6 0-1.3.2-4.4-1-3.1-1.2-5.1-4.3-5.2-4.5-.1-.2-1.2-1.6-1.2-3.1 0-1.5.8-2.2 1.1-2.5z" />
-        </svg>
-      ),
-    },
+    // {
+    //   name: "WhatsApp",
+    //   // href: `https://wa.me/${phoneDigits}`,
+    //   external: true,
+    //   icon: (
+    //     <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    //       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 11.5A8.5 8.5 0 1111.5 3a8.5 8.5 0 018.5 8.5z" />
+    //       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.5 20.5L4 22l1.5-4.5" />
+    //       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.8 9.6c.3-.6.5-.6.7-.6h.6c.2 0 .5 0 .7.5.2.5.7 1.7.7 1.8 0 .2 0 .3-.1.5-.1.2-.2.3-.4.4-.1.1-.3.2-.4.3-.1.1-.2.3-.1.5.1.2.7 1.1 1.6 1.8 1 .8 1.8 1 2.1 1.1.3.1.5.1.7-.1.2-.2.8-.9 1-.9.2 0 .3 0 .5.1.2.1 1.4.7 1.6.8.2.1.4.2.4.3 0 .1 0 .7-.3 1.3-.3.6-1.7 1.2-2.3 1.2-.6 0-1.3.2-4.4-1-3.1-1.2-5.1-4.3-5.2-4.5-.1-.2-1.2-1.6-1.2-3.1 0-1.5.8-2.2 1.1-2.5z" />
+    //     </svg>
+    //   ),
+    // },
   ];
 
   return (
@@ -340,9 +340,9 @@ export default function RootLayout({ children }) {
                 rel="noreferrer"
                 className="group flex items-center gap-3 rounded-lg border border-[#f1d5c3] bg-white/50 p-3 transition-all hover:border-[#00923f] hover:bg-white"
               >
-                <svg className="h-5 w-5 text-[#00923f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                {/* <svg className="h-5 w-5 text-[#00923f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                </svg>
+                </svg> */}
                 <div>
                   <p className="font-medium text-[#513828]">Company Profile</p>
                   <p className="text-xs text-[#8b6f5c]">PDF, 2.4 MB</p>
@@ -391,26 +391,26 @@ export default function RootLayout({ children }) {
                 {companyProfile.phone}
               </a>
             </p> */}
-            <p className="flex items-center gap-2">
+            {/* <p className="flex items-center gap-2">
               <svg className="h-5 w-5 text-[#ec671f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
               <a href={`mailto:${companyProfile.email}`} className="break-all hover:text-[#ec671f]">
                 {companyProfile.email}
               </a>
-            </p>
+            </p> */}
           </address>
         </div>
 
         {/* Column 4: Connect */}
-        <div className="rounded-2xl bg-white/70 p-5 backdrop-blur-sm">
-          <h3 className="flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-[#7a4a2f]">
+        {/* <div className="rounded-2xl bg-white/70 p-5 backdrop-blur-sm"> */}
+          {/* <h3 className="flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-[#7a4a2f]">
             <span className="h-1 w-5 rounded-full bg-[#00923f]"></span>
             Connect
-          </h3>
+          </h3> */}
           
             <div className="mt-4">
-            <div className="flex flex-wrap gap-2">
+           {/* // <div className="flex flex-wrap gap-2"> */}
               {socialLinks.map((item) => (
                 <a
                   key={item.name}
@@ -424,8 +424,8 @@ export default function RootLayout({ children }) {
                   <span>{item.name}</span>
                 </a>
               ))}
-            </div>
-          </div>
+            {/* </div> */}
+          {/* //</div> */}
         </div>
       </div>
 
