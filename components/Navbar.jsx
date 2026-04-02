@@ -21,7 +21,7 @@ export default function Navbar({ navLinks, companyProfile }) {
   className={`rounded-full px-4 py-2 text-sm font-semibold transition-all
     ${
       isActive
-        ? "bg-[#ec671f] text-white border border-[#ec671f]"
+        ? "bg-text-white border border-[#ec671f]"
         : "text-black hover:text-[#ec671f]"
     }`}
 >
