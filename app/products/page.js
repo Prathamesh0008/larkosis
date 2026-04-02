@@ -1,3 +1,4 @@
+//app\products\page.js
 import CatalogClient from "./catalog-client";
 import { getAllProducts, getCategoryCounts } from "@/lib/catalog";
 import { companyProfile } from "@/data/companyProfile";

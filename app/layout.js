@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import Image from "next/image";
 import { Manrope, Spectral } from "next/font/google";
@@ -6,6 +7,7 @@ import { companyProfile } from "@/data/companyProfile";
 import { getCategoryCounts } from "@/lib/catalog";
 import { SITE_URL, absoluteUrl } from "@/lib/seo";
 import MobileMenu from "@/components/MobileMenu";
+import Navbar from "@/components/Navbar";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -104,7 +106,7 @@ export default function RootLayout({ children }) {
     legalName: companyProfile.legalName,
     url: SITE_URL,
     logo: absoluteUrl("/larko.png"),
-     email: companyProfile.email,
+    // email: companyProfile.email,
     telephone: companyProfile.phone,
     address: {
       "@type": "PostalAddress",
@@ -209,7 +211,7 @@ export default function RootLayout({ children }) {
                 className="hidden items-center gap-1 md:flex"
                 aria-label="Main navigation"
               >
-                {navLinks.map((link) => (
+                {/* {navLinks.map((link) => (
                   <Link
                     key={link.href}
                     href={link.href}
@@ -217,7 +219,8 @@ export default function RootLayout({ children }) {
                   >
                     {link.label}
                   </Link>
-                ))}
+                ))} */}
+                <Navbar navLinks={navLinks} companyProfile={companyProfile} />
                 <a
     href={`mailto:${companyProfile.email}`}
     className="rounded-md bg-[#ec671f] px-3 py-1.5 text-xs font-semibold text-white"
