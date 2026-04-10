@@ -18,7 +18,7 @@ export default function SiteHeader({ navLinks, companyProfile }) {
             width={340}
             height={240}
             priority
-            className="h-12 w-auto origin-left scale-140 object-contain sm:h-16 mt-2"
+            className="h-12 w-auto origin-left scale-140 object-contain sm:h-16 "
           />
         </Link>
 
