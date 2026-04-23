@@ -22,7 +22,6 @@ export default function SiteFooter({ companyProfile, year }) {
                 height={95}
                 className="h-20 w-auto object-contain"
               />
-             
             </Link>
             
             <p className="text-sm leading-relaxed text-[#614c40]">{companyProfile.overview}</p>
@@ -42,7 +41,12 @@ export default function SiteFooter({ companyProfile, year }) {
                 </li>
               ))}
               <li>
-               
+                <Link
+                  href="/sitemap.xml"
+                  className="text-sm text-[#3f2d24] transition-colors hover:text-[#ec671f]"
+                >
+                  XML Sitemap
+                </Link>
               </li>
             </ul>
           </div>

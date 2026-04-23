@@ -20,7 +20,7 @@ export default function SiteFooter({ companyProfile, year }) {
                 alt="Larkosis Pharma Logo"
                 width={260}
                 height={95}
-                className="h-20 w-auto object-contain"
+                className="h-25 w-auto object-contain"
               />
              
             </Link>
@@ -42,7 +42,12 @@ export default function SiteFooter({ companyProfile, year }) {
                 </li>
               ))}
               <li>
-               
+                <Link
+                  href="/sitemap.xml"
+                  className="text-sm text-[#3f2d24] transition-colors hover:text-[#ec671f]"
+                >
+                  XML Sitemap
+                </Link>
               </li>
             </ul>
           </div>
