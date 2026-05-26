@@ -29,14 +29,47 @@ export default function MobileMenu({ navLinks }) {
         <div className="absolute left-0 right-0 top-full z-50 max-h-[calc(100vh-72px)] overflow-y-auto border-t border-[#f1d9c9] bg-white shadow-lg">
           <nav className="flex flex-col p-4 space-y-2">
             {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="rounded-lg px-3 py-2 text-sm font-semibold text-[#2f2f2f] hover:bg-[#fbe4d5] transition-colors"
-                onClick={() => setIsOpen(false)}
-              >
-                {link.label}
-              </Link>
+              <div key={link.href}>
+                <Link
+                  href={link.href}
+                  className="rounded-lg px-3 py-2 text-sm font-semibold text-[#2f2f2f] hover:bg-[#fbe4d5] transition-colors"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {link.label}
+                </Link>
+                {link.href === "/products" ? (
+                  <>
+                    <Link
+                      href="/products"
+                      className="ml-4 mt-1 block rounded-lg px-3 py-2 text-sm font-medium text-[#5a3b2b] hover:bg-[#fff1e7] hover:text-[#ec671f] transition-colors"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      All Product
+                    </Link>
+                    <Link
+                      href="/pharmaceutical-products"
+                      className="ml-4 mt-1 block rounded-lg px-3 py-2 text-sm font-medium text-[#5a3b2b] hover:bg-[#fff1e7] hover:text-[#ec671f] transition-colors"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      Pharmaceutical Products
+                    </Link>
+                    <Link
+                      href="/test-kits"
+                      className="ml-4 mt-1 block rounded-lg px-3 py-2 text-sm font-medium text-[#5a3b2b] hover:bg-[#fff1e7] hover:text-[#ec671f] transition-colors"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      Test Kits
+                    </Link>
+                    <Link
+                      href="/active-ingredients"
+                      className="ml-4 mt-1 block rounded-lg px-3 py-2 text-sm font-medium text-[#5a3b2b] hover:bg-[#fff1e7] hover:text-[#ec671f] transition-colors"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      Active Ingredients
+                    </Link>
+                  </>
+                ) : null}
+              </div>
             ))}
             <a
               href={`mailto:${companyProfile.email}`}
