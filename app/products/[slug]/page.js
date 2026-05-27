@@ -336,10 +336,6 @@ export default async function ProductDetailPage({ params }) {
             <div className="mt-6 overflow-x-auto rounded-xl border border-[#efd6c6]">
               <table className="min-w-[560px] divide-y divide-[#efd6c6] sm:min-w-full">
                 <tbody className="divide-y divide-[#efd6c6]">
-                  <tr className="bg-[#fff9f5]">
-                    <td className="w-40 px-4 py-3 text-sm font-semibold text-[#37261c]">Product Name</td>
-                    <td className="break-words px-4 py-3 text-sm text-[#5f4536]">{product.name}</td>
-                  </tr>
                   <tr>
                     <td className="w-40 px-4 py-3 text-sm font-semibold text-[#37261c]">Category</td>
                     <td className="break-words px-4 py-3 text-sm text-[#5f4536]">{product.category}</td>

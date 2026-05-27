@@ -33,15 +33,29 @@ function formatInlineValue(value) {
   return "";
 }
 
+function isProductNameLabel(label) {
+  return String(label || "").trim().toLowerCase() === "product name";
+}
+
 function renderPrimitive(value) {
   return <p className="mt-2 text-sm leading-relaxed text-[#4f433c]">{formatInlineValue(value)}</p>;
 }
 
 function renderValue(value, prefix) {
   if (Array.isArray(value)) {
+    const normalizedItems = value.filter((item) => {
+      if (item && typeof item === "object" && !Array.isArray(item) && "label" in item) {
+        return !isProductNameLabel(item.label);
+      }
+      if (typeof item === "string") {
+        return !item.trim().toLowerCase().startsWith("product name:");
+      }
+      return true;
+    });
+
     return (
       <ul className="mt-2 list-disc space-y-1.5 pl-5 text-sm text-[#4f433c] marker:text-[#ec671f]">
-        {value.map((item, idx) => (
+        {normalizedItems.map((item, idx) => (
           <li key={`${prefix}-${idx}`}>
             {item && typeof item === "object" ? renderValue(item, `${prefix}-${idx}`) : String(item)}
           </li>
@@ -52,6 +66,9 @@ function renderValue(value, prefix) {
 
   if (value && typeof value === "object") {
     if ("label" in value && "value" in value) {
+      if (isProductNameLabel(value.label)) {
+        return null;
+      }
       return (
         <div className="mt-2 rounded-xl border border-[#edf0f2] bg-[#fcfefe] p-3">
           <p className="text-xs font-semibold uppercase tracking-wider text-[#0f3558]">{String(value.label)}</p>
@@ -107,7 +124,6 @@ export default async function TestKitDetailPage({ params }) {
   const content = item.details?.content || {};
   const faqs = item.details?.faqs || [];
   const topInfo = [
-    ["Product", item.catalog?.product],
     ["Description", item.catalog?.description],
     ["Category", item.catalog?.category],
     ["Method", item.catalog?.method],

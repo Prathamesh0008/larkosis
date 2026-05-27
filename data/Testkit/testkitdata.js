@@ -2667,7 +2667,7 @@ export const en = {
       },
       "hero": {
         "title": "fFN Rapid Test Device",
-        "description": "fFN Rapid Test Device (Vaginal Secretion) by Ivexia Pharma is a professional rapid diagnostic solution designed for the qualitative detection of fetal fibronectin in vaginal secretion samples. Developed using the colloidal gold method, this fFN rapid test device supports healthcare professionals in pregnancy-care assessment, especially where timely evaluation of possible preterm birth risk is required. With a stated cut-off of 25 ng/ml, the fFN rapid test device provides a practical, easy-to-use diagnostic format for hospitals, clinics, maternity centers, laboratories, and international healthcare distributors."
+        "description": "fFN Rapid Test Device by Ivexia Pharma is a professional rapid diagnostic solution designed for the qualitative detection of fetal fibronectin in vaginal secretion samples. Developed using the colloidal gold method, this fFN rapid test device supports healthcare professionals in pregnancy-care assessment, especially where timely evaluation of possible preterm birth risk is required. With a stated cut-off of 25 ng/ml, the fFN rapid test device provides a practical, easy-to-use diagnostic format for hospitals, clinics, maternity centers, laboratories, and international healthcare distributors."
       },
       "content": {
         "introduction": {
@@ -2684,10 +2684,6 @@ export const en = {
             {
               "label": "Product Name",
               "value": "fFN Rapid Test Device"
-            },
-            {
-              "label": "Full Description",
-              "value": "fFN Rapid Test Device (Vaginal Secretion)"
             },
             {
               "label": "Brand",
@@ -15226,10 +15222,6 @@ export const en = {
               "value": "Chikungunya"
             },
             {
-              "label": "Full Description",
-              "value": "Chikungunya IgG and IgM Cassette (WB/S/P)"
-            },
-            {
               "label": "Brand",
               "value": "Ivexia Pharma"
             },
@@ -15805,10 +15797,6 @@ export const en = {
             {
               "label": "Product Name",
               "value": "Cholerae"
-            },
-            {
-              "label": "Full Description",
-              "value": "Cholerae O1 Antigen Rapid Test Device (Feces)"
             },
             {
               "label": "Brand",

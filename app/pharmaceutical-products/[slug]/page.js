@@ -36,11 +36,25 @@ function formatInlineValue(value) {
   return "";
 }
 
+function isProductNameLabel(label) {
+  return String(label || "").trim().toLowerCase() === "product name";
+}
+
 function renderValue(value, prefix) {
   if (Array.isArray(value)) {
+    const normalizedItems = value.filter((item) => {
+      if (item && typeof item === "object" && !Array.isArray(item) && "label" in item) {
+        return !isProductNameLabel(item.label);
+      }
+      if (typeof item === "string") {
+        return !item.trim().toLowerCase().startsWith("product name:");
+      }
+      return true;
+    });
+
     return (
       <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-relaxed text-[#4f433c] marker:text-[#ec671f]">
-        {value.map((item, idx) => (
+        {normalizedItems.map((item, idx) => (
           <li key={`${prefix}-${idx}`}>
             {item && typeof item === "object" ? (
               <div className="rounded-lg border border-[#f0e0d6] bg-[#fffdfb] p-3">
@@ -61,6 +75,10 @@ function renderValue(value, prefix) {
   }
 
   if (value && typeof value === "object") {
+    if ("label" in value && isProductNameLabel(value.label)) {
+      return null;
+    }
+
     return (
       <div className="mt-3 grid gap-3 sm:grid-cols-2">
         {Object.entries(value).map(([subKey, subValue]) => (
@@ -121,7 +139,6 @@ export default async function PharmaceuticalProductDetailPage({ params }) {
   const content = product.details?.content || {};
   const faqs = product.details?.faqs || [];
   const topInfo = [
-    ["Product Name", name],
     ["Category", product.details?.meta?.category || product.catalog?.category || "None"],
     ["Form", product.details?.meta?.form || product.catalog?.form || "None"],
     ["Strength", product.details?.meta?.strength || product.catalog?.dosage || "None"],
