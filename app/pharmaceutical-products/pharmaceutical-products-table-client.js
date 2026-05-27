@@ -10,7 +10,12 @@ export default function PharmaceuticalProductsTableClient({ products }) {
   const [dosage, setDosage] = useState("All");
 
   const categories = useMemo(
-    () => ["All", ...new Set(products.map((item) => item.category).filter(Boolean))],
+    () => [
+      "All",
+      ...[...new Set(products.map((item) => item.category).filter(Boolean))].sort((a, b) =>
+        a.localeCompare(b, undefined, { sensitivity: "base" }),
+      ),
+    ],
     [products],
   );
   const forms = useMemo(

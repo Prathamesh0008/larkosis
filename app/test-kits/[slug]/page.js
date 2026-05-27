@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { absoluteUrl } from "@/lib/seo";
 import { getAllTestKitDetails, getTestKitBySlug } from "@/lib/test-kit-details";
@@ -12,8 +11,30 @@ function toHeading(key) {
     .replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
+function formatInlineValue(value) {
+  if (value == null) return "";
+  if (typeof value === "string" || typeof value === "number" || typeof value === "boolean") {
+    const text = String(value).trim();
+    if (text === "-" || text === "--") return "None";
+    return text;
+  }
+  if (Array.isArray(value)) {
+    return value.map((item) => formatInlineValue(item)).filter(Boolean).join(", ");
+  }
+  if (typeof value === "object") {
+    if ("label" in value && "value" in value) {
+      return formatInlineValue(value.value);
+    }
+    return Object.entries(value)
+      .map(([k, v]) => `${toHeading(k)}: ${formatInlineValue(v)}`)
+      .filter((line) => line.trim() !== ":")
+      .join(", ");
+  }
+  return "";
+}
+
 function renderPrimitive(value) {
-  return <p className="mt-2 text-sm leading-relaxed text-[#4f433c]">{String(value)}</p>;
+  return <p className="mt-2 text-sm leading-relaxed text-[#4f433c]">{formatInlineValue(value)}</p>;
 }
 
 function renderValue(value, prefix) {
@@ -21,7 +42,9 @@ function renderValue(value, prefix) {
     return (
       <ul className="mt-2 list-disc space-y-1.5 pl-5 text-sm text-[#4f433c] marker:text-[#ec671f]">
         {value.map((item, idx) => (
-          <li key={`${prefix}-${idx}`}>{String(item)}</li>
+          <li key={`${prefix}-${idx}`}>
+            {item && typeof item === "object" ? renderValue(item, `${prefix}-${idx}`) : String(item)}
+          </li>
         ))}
       </ul>
     );
@@ -32,7 +55,7 @@ function renderValue(value, prefix) {
       return (
         <div className="mt-2 rounded-xl border border-[#edf0f2] bg-[#fcfefe] p-3">
           <p className="text-xs font-semibold uppercase tracking-wider text-[#0f3558]">{String(value.label)}</p>
-          <p className="mt-1 text-sm text-[#2f2b29]">{String(value.value)}</p>
+          <p className="mt-1 text-sm text-[#2f2b29]">{formatInlineValue(value.value)}</p>
         </div>
       );
     }
@@ -50,36 +73,6 @@ function renderValue(value, prefix) {
   }
 
   return renderPrimitive(value);
-}
-
-function renderContentSection(key, value) {
-  if (!value) return null;
-
-  if (value && typeof value === "object" && !Array.isArray(value) && "title" in value) {
-    const rest = Object.entries(value).filter(([k]) => k !== "title");
-    return (
-      <section key={key} className="rounded-2xl border border-[#ecd7ca] bg-white p-5 shadow-sm">
-        <h3 className="text-lg font-bold text-[#1e1e1e]">{String(value.title)}</h3>
-        <div className="mt-2 space-y-2">
-          {rest.map(([k, v]) => (
-            <div key={`${key}-${k}`}>
-              {k !== "title" ? (
-                <p className="text-xs font-semibold uppercase tracking-wider text-[#0f3558]">{toHeading(k)}</p>
-              ) : null}
-              {renderValue(v, `${key}-${k}`)}
-            </div>
-          ))}
-        </div>
-      </section>
-    );
-  }
-
-  return (
-    <section key={key} className="rounded-2xl border border-[#ecd7ca] bg-white p-5 shadow-sm">
-      <h3 className="text-lg font-bold text-[#1e1e1e]">{toHeading(key)}</h3>
-      {renderValue(value, key)}
-    </section>
-  );
 }
 
 export async function generateStaticParams() {
@@ -121,68 +114,94 @@ export default async function TestKitDetailPage({ params }) {
     ["Specimen", item.catalog?.specimen],
     ["Cut-Off", item.catalog?.cutOff],
     ["Certificate", item.catalog?.certificate],
-  ].filter(([, v]) => v && String(v).trim() && String(v).trim() !== "--");
+  ].filter(([, v]) => {
+    const normalized = formatInlineValue(v).trim();
+    return normalized && normalized !== "None";
+  });
+  const overview = topInfo.slice(0, 4);
+  const extraInfo = topInfo.slice(4);
+  const sectionEntries = Object.entries(content);
 
   return (
-    <div className="bg-[#fff9f6] pb-12">
-      <section className="border-b border-[#efd8cb] bg-gradient-to-r from-[#fff4ec] via-[#fff9f6] to-[#edf6ff]">
-        <div className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-          <nav className="mb-5 flex items-center gap-2 text-sm text-[#7d5a47]">
-            <Link href="/" className="hover:text-[#ec671f]">Home</Link>
-            <span>/</span>
-            <Link href="/test-kits" className="hover:text-[#ec671f]">Test Kits</Link>
-            <span>/</span>
-            <span className="font-semibold text-[#ec671f]">{item.title}</span>
-          </nav>
-
-          <div className="grid items-center gap-8 lg:grid-cols-[280px_1fr]">
-            <div className="mx-auto w-full max-w-[260px] rounded-2xl border border-[#f0d8ca] bg-white p-4 shadow-sm">
-              <Image src="/product.png" alt={item.title} width={500} height={500} className="h-auto w-full rounded-xl object-cover" />
-            </div>
-            <div>
-              <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#0f3558]">Test Kit</p>
-              <h1 className="mt-2 text-3xl font-bold text-[#1e1f22] sm:text-4xl">{item.title}</h1>
-              <p className="mt-4 text-sm leading-relaxed text-[#4f433c]">{item.description}</p>
-              <div className="mt-5 flex flex-wrap gap-2">
-                <Link href="/contact" className="rounded-full bg-[#ec671f] px-5 py-2 text-sm font-semibold text-white hover:bg-[#d95f1d]">Inquire Now</Link>
-                <Link href="/test-kits" className="rounded-full border border-[#d7c0b0] bg-white px-5 py-2 text-sm font-semibold text-[#2f2b29] hover:border-[#ec671f] hover:text-[#ec671f]">Back to List</Link>
+    <div className="bg-[radial-gradient(circle_at_top_left,#eff6ff_0%,#f8fafc_32%,#f5f7fb_100%)] pb-14 pt-8">
+      <section className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="overflow-hidden rounded-3xl border border-[#d7dfec] bg-white shadow-[0_18px_45px_rgba(20,40,80,0.08)]">
+          <div className="grid gap-0 lg:grid-cols-[1.05fr_1fr]">
+            <div className="border-b border-[#e5e9f0] bg-gradient-to-br from-[#f8fbff] to-[#f2f6fc] p-6 sm:p-8 lg:border-b-0 lg:border-r">
+              <div className="mb-4 inline-flex items-center rounded-full border border-[#cfe0f5] bg-white px-3 py-1 text-xs font-semibold uppercase tracking-[0.12em] text-[#1d4f91]">
+                Test Kit
               </div>
+              <Image src="/product.png" alt={item.title} width={700} height={520} className="h-auto w-full rounded-xl object-contain" />
+            </div>
+
+            <div className="p-6 sm:p-8">
+              <h1 className="text-3xl font-bold uppercase tracking-tight text-[#13294b]">{item.title}</h1>
+              <p className="mt-3 text-xl font-semibold text-[#0f172a]">{item.catalog?.product}</p>
+              <p className="mt-4 text-sm leading-relaxed text-[#475569]">{item.description}</p>
+
+              {overview.length > 0 ? (
+                <div className="mt-6 grid gap-3 sm:grid-cols-2">
+                  {overview.map(([label, value]) => (
+                    <div key={label} className="rounded-xl border border-[#e4ebf6] bg-[#f8fbff] p-3">
+                      <p className="text-[11px] font-bold uppercase tracking-[0.1em] text-[#486387]">{label}</p>
+                      <p className="mt-1 text-sm font-semibold text-[#0f172a]">{formatInlineValue(value)}</p>
+                    </div>
+                  ))}
+                </div>
+              ) : null}
+
             </div>
           </div>
         </div>
       </section>
 
-      <section className="mx-auto mt-8 w-full max-w-7xl px-4 sm:px-6 lg:px-8">
-        <h2 className="text-center text-xl font-bold text-[#1f1f1f]">Complete Product Details</h2>
-
-        {topInfo.length > 0 ? (
-          <div className="mt-5 overflow-hidden rounded-2xl border border-[#d7e2ea] bg-white shadow-sm">
-            <div className="grid grid-cols-1 divide-y divide-[#d7e2ea] sm:grid-cols-2 sm:divide-x sm:divide-y-0">
-              {topInfo.map(([label, value]) => (
-                <div key={label} className="px-5 py-4">
-                  <p className="text-xs font-semibold uppercase tracking-wider text-[#0f3558]">{label}</p>
-                  <p className="mt-1 text-sm text-[#2f2b29]">{String(value)}</p>
+      <section className="mx-auto mt-7 w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+        {extraInfo.length > 0 ? (
+          <div className="mb-4 rounded-2xl border border-[#d9dee7] bg-white p-4 shadow-sm">
+            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {extraInfo.map(([label, value]) => (
+                <div key={label} className="rounded-xl border border-[#e5e9f0] bg-[#f8fafc] p-3">
+                  <p className="text-[11px] font-bold uppercase tracking-[0.08em] text-[#53657f]">{label}</p>
+                  <p className="mt-1 text-sm font-medium text-[#0f172a]">{formatInlineValue(value)}</p>
                 </div>
               ))}
             </div>
           </div>
         ) : null}
 
-        <div className="mt-5 space-y-4">
-          {Object.entries(content).map(([key, value]) => renderContentSection(key, value))}
+        <div className="space-y-4">
+          {sectionEntries
+            .filter(
+              ([key]) =>
+                !key.toLowerCase().includes("indication") &&
+                !key.toLowerCase().includes("presentation"),
+            )
+            .map(([key, value]) => (
+            <section key={key} className="rounded-2xl border border-[#d9dee7] bg-white p-5 shadow-sm">
+              <h3 className="text-lg font-bold text-[#0f172a]">{toHeading(key)}</h3>
+              <div className="mt-1 h-[2px] w-14 rounded-full bg-gradient-to-r from-[#1d4f91] to-[#7aa7df]" />
+              {renderValue(value, key)}
+            </section>
+          ))}
         </div>
 
         {faqs.length > 0 ? (
-          <section className="mt-5 rounded-2xl border border-[#ecd7ca] bg-white p-5 shadow-sm">
-            <h3 className="text-lg font-bold text-[#1e1e1e]">Frequently Asked Questions</h3>
+          <section className="mt-5 rounded-2xl border border-[#d9dee7] bg-white p-5 shadow-sm">
+            <h3 className="text-lg font-bold text-[#0f172a]">Frequently Asked Questions</h3>
+            <p className="mt-1 text-sm text-[#64748b]">Click any question to expand the answer.</p>
             <div className="mt-4 space-y-3">
               {faqs.map((faq, index) => (
-                <details key={`faq-${index}`} className="group rounded-xl border border-[#e7d5c8] bg-[#fffaf6] p-4">
-                  <summary className="flex cursor-pointer list-none items-center justify-between text-sm font-semibold text-[#3b2f28]">
+                <details key={`faq-${index}`} className="group rounded-xl border border-[#e2e8f2] bg-gradient-to-r from-[#f8fafc] to-[#f6f9ff] p-4">
+                  <summary className="flex cursor-pointer list-none items-center justify-between text-sm font-semibold text-[#0f172a]">
                     <span className="pr-3">{faq.question}</span>
-                    <span className="text-[#ec671f]">+</span>
+                    <span className="text-[#1d4f91] group-open:hidden">+</span>
+                    <span className="hidden text-[#1d4f91] group-open:block">-</span>
                   </summary>
-                  <p className="mt-3 border-t border-[#eddccf] pt-3 text-sm leading-relaxed text-[#5a4a3e]">{faq.answer}</p>
+                  <div className="grid grid-rows-[0fr] transition-all duration-300 ease-in-out group-open:grid-rows-[1fr]">
+                    <div className="overflow-hidden">
+                      <p className="mt-3 border-t border-[#dbe2ea] pt-3 text-sm leading-relaxed text-[#334155]">{faq.answer}</p>
+                    </div>
+                  </div>
                 </details>
               ))}
             </div>

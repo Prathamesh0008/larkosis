@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { absoluteUrl } from "@/lib/seo";
 import {
@@ -15,6 +14,28 @@ function toHeading(key) {
     .replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
+function formatInlineValue(value) {
+  if (value == null) return "";
+  if (typeof value === "string" || typeof value === "number" || typeof value === "boolean") {
+    const text = String(value).trim();
+    if (text === "-" || text === "--") return "None";
+    return text;
+  }
+  if (Array.isArray(value)) {
+    return value.map((item) => formatInlineValue(item)).filter(Boolean).join(", ");
+  }
+  if (typeof value === "object") {
+    if ("label" in value && "value" in value) {
+      return formatInlineValue(value.value);
+    }
+    return Object.entries(value)
+      .map(([k, v]) => `${toHeading(k)}: ${formatInlineValue(v)}`)
+      .filter((line) => line.trim() !== ":")
+      .join(", ");
+  }
+  return "";
+}
+
 function renderValue(value, prefix) {
   if (Array.isArray(value)) {
     return (
@@ -26,7 +47,7 @@ function renderValue(value, prefix) {
                 {Object.entries(item).map(([objKey, objValue]) => (
                   <div key={`${prefix}-${idx}-${objKey}`} className="mb-1 last:mb-0">
                     <span className="font-semibold text-[#3b2f28]">{toHeading(objKey)}: </span>
-                    <span>{typeof objValue === "string" || typeof objValue === "number" ? String(objValue) : JSON.stringify(objValue)}</span>
+                    <span>{formatInlineValue(objValue)}</span>
                   </div>
                 ))}
               </div>
@@ -52,7 +73,7 @@ function renderValue(value, prefix) {
     );
   }
 
-  return <p className="mt-2 text-sm leading-relaxed text-[#4f433c]">{String(value)}</p>;
+  return <p className="mt-2 text-sm leading-relaxed text-[#4f433c]">{formatInlineValue(value)}</p>;
 }
 
 export async function generateStaticParams() {
@@ -99,6 +120,14 @@ export default async function PharmaceuticalProductDetailPage({ params }) {
     : String(heroDescription || "");
   const content = product.details?.content || {};
   const faqs = product.details?.faqs || [];
+  const topInfo = [
+    ["Product Name", name],
+    ["Category", product.details?.meta?.category || product.catalog?.category || "None"],
+    ["Form", product.details?.meta?.form || product.catalog?.form || "None"],
+    ["Strength", product.details?.meta?.strength || product.catalog?.dosage || "None"],
+    ["CAS-ID", product.details?.meta?.cas || product.catalog?.casId || "None"],
+  ].filter(([, value]) => formatInlineValue(value).trim());
+  const overview = topInfo.slice(0, 4);
   const contentEntries = Object.entries(content);
   const contentSections = contentEntries.map(([key]) => ({
     key,
@@ -106,109 +135,75 @@ export default async function PharmaceuticalProductDetailPage({ params }) {
     id: `section-${key.replace(/[^a-zA-Z0-9_-]/g, "-")}`,
   }));
 
-  const topInfo = [
-    ["Product Name", name],
-    ["Category", product.details?.meta?.category || product.catalog?.category || "--"],
-    ["Form", product.details?.meta?.form || product.catalog?.form || "--"],
-    ["Strength", product.details?.meta?.strength || product.catalog?.dosage || "--"],
-    ["CAS-ID", product.details?.meta?.cas || product.catalog?.casId || "--"],
-  ].filter(([, value]) => value && String(value).trim());
-
   return (
-    <div className="bg-[#fff9f6] pb-14">
-      <section className="border-b border-[#efd8cb] bg-gradient-to-r from-[#fff4ec] via-[#fff9f6] to-[#edf6ff]">
-        <div className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-          <nav className="mb-5 flex items-center gap-2 text-sm text-[#7d5a47]">
-            <Link href="/" className="hover:text-[#ec671f]">Home</Link>
-            <span>/</span>
-            <Link href="/pharmaceutical-products" className="hover:text-[#ec671f]">Pharmaceutical Products</Link>
-            <span>/</span>
-            <span className="font-semibold text-[#ec671f]">{name}</span>
-          </nav>
-
-          <div className="grid items-center gap-8 lg:grid-cols-[280px_1fr]">
-            <div className="mx-auto w-full max-w-[260px] rounded-2xl border border-[#f0d8ca] bg-white p-4 shadow-sm">
-              <Image src="/product.png" alt={name} width={500} height={500} className="h-auto w-full rounded-xl object-cover" />
+    <div className="bg-[#f5f7fb] pb-12 pt-8">
+      <section className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="rounded-2xl border border-[#d9dee7] bg-white p-5 sm:p-7">
+          <div className="grid gap-8 lg:grid-cols-[1.05fr_1fr]">
+            <div className="rounded-2xl border border-[#e5e9f0] bg-[#f8fafc] p-5">
+              <Image src="/product.png" alt={name} width={700} height={520} className="h-auto w-full rounded-xl object-contain" />
             </div>
 
             <div>
-              <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#0f3558]">Pharmaceutical Product</p>
-              <h1 className="mt-2 text-3xl font-bold leading-tight text-[#1e1f22] sm:text-4xl">{heroTitle}</h1>
-              <div className="mt-4 flex flex-wrap gap-2">
-                {product.details?.meta?.category ? (
-                  <span className="rounded-full border border-[#f1cab1] bg-[#fff2e8] px-3 py-1 text-xs font-semibold text-[#954d1d]">
-                    {product.details.meta.category}
-                  </span>
-                ) : null}
-                {product.details?.meta?.form ? (
-                  <span className="rounded-full border border-[#cfe3f4] bg-[#eff7ff] px-3 py-1 text-xs font-semibold text-[#0f3558]">
-                    {product.details.meta.form}
-                  </span>
-                ) : null}
-              </div>
-              <p className="mt-4 max-w-4xl text-sm leading-relaxed text-[#4f433c]">{heroDescriptionText}</p>
-              <div className="mt-6 flex flex-wrap gap-2">
-                <Link href="/contact" className="rounded-full bg-[#ec671f] px-5 py-2 text-sm font-semibold text-white hover:bg-[#d95f1d]">Inquire Now</Link>
-                <Link href="/pharmaceutical-products" className="rounded-full border border-[#d7c0b0] bg-white px-5 py-2 text-sm font-semibold text-[#2f2b29] hover:border-[#ec671f] hover:text-[#ec671f]">Back to List</Link>
-              </div>
+              <h1 className="text-3xl font-bold uppercase tracking-tight text-[#13294b]">{heroTitle}</h1>
+              <p className="mt-3 text-base leading-relaxed text-[#334155]">{heroDescriptionText}</p>
+
+              {overview.length > 0 ? (
+                <div className="mt-5 space-y-2">
+                  {overview.map(([label, value]) => (
+                    <p key={label} className="text-[15px] text-[#0f172a]">
+                      <span className="font-bold">{label}: </span>
+                      <span>{formatInlineValue(value)}</span>
+                    </p>
+                  ))}
+                </div>
+              ) : null}
+
             </div>
           </div>
         </div>
       </section>
 
-      <section className="mx-auto mt-8 w-full max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="rounded-2xl border border-[#f1dccf] bg-white/80 p-5 shadow-sm">
-          <h2 className="text-xl font-bold text-[#1f1f1f]">Complete Product Details</h2>
-          <p className="mt-1 text-sm text-[#6a5a4f]">Detailed formulation, usage guidance, safety information, and clinical reference points.</p>
-          {contentSections.length > 0 ? (
-            <div className="mt-4 flex flex-wrap gap-2">
-              {contentSections.map((section) => (
-                <a
-                  key={section.id}
-                  href={`#${section.id}`}
-                  className="rounded-full border border-[#e6d2c5] bg-[#fffaf6] px-3 py-1 text-xs font-medium text-[#5c4a3f] transition hover:border-[#ec671f] hover:text-[#ec671f]"
-                >
-                  {section.title}
-                </a>
-              ))}
-            </div>
-          ) : null}
-        </div>
-
-        {topInfo.length > 0 ? (
-          <div className="mt-5 overflow-hidden rounded-2xl border border-[#d7e2ea] bg-white shadow-sm">
-            <div className="grid grid-cols-1 divide-y divide-[#d7e2ea] sm:grid-cols-2 lg:grid-cols-3 lg:divide-x lg:divide-y-0">
-              {topInfo.map(([label, value]) => (
-                <div key={label} className="px-5 py-4">
-                  <p className="text-xs font-semibold uppercase tracking-wider text-[#0f3558]">{label}</p>
-                  <p className="mt-1 text-sm font-medium text-[#2f2b29]">{String(value)}</p>
-                </div>
-              ))}
-            </div>
+      <section className="mx-auto mt-7 w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="rounded-xl border border-[#d9dee7] bg-white p-4">
+          <div className="flex flex-wrap gap-2">
+            {contentSections.map((section) => (
+              <a
+                key={section.id}
+                href={`#${section.id}`}
+                className="rounded-md border border-[#dbe3ef] bg-[#f8fafc] px-3 py-1.5 text-xs font-semibold text-[#334155] hover:border-[#1d4f91] hover:text-[#1d4f91]"
+              >
+                {section.title}
+              </a>
+            ))}
           </div>
-        ) : null}
+        </div>
 
         <div className="mt-5 space-y-4">
           {contentEntries.map(([key, value]) => (
-            <section id={`section-${key.replace(/[^a-zA-Z0-9_-]/g, "-")}`} key={key} className="scroll-mt-24 rounded-2xl border border-[#ecd7ca] bg-white p-5 shadow-sm">
-              <h3 className="text-lg font-bold text-[#1e1e1e]">{toHeading(key)}</h3>
+            <section id={`section-${key.replace(/[^a-zA-Z0-9_-]/g, "-")}`} key={key} className="scroll-mt-24 rounded-2xl border border-[#d9dee7] bg-white p-5">
+              <h3 className="text-lg font-bold text-[#0f172a]">{toHeading(key)}</h3>
               {renderValue(value, key)}
             </section>
           ))}
         </div>
 
         {faqs.length > 0 ? (
-          <section className="mt-5 rounded-2xl border border-[#ecd7ca] bg-white p-5 shadow-sm">
-            <h3 className="text-lg font-bold text-[#1e1e1e]">Frequently Asked Questions</h3>
+          <section className="mt-5 rounded-2xl border border-[#d9dee7] bg-white p-5">
+            <h3 className="text-lg font-bold text-[#0f172a]">Frequently Asked Questions</h3>
             <div className="mt-4 space-y-3">
               {faqs.map((faq, index) => (
-                <details key={`faq-${index}`} className="group rounded-xl border border-[#e7d5c8] bg-[#fffaf6] p-4">
-                  <summary className="flex cursor-pointer list-none items-center justify-between text-sm font-semibold text-[#3b2f28]">
+                <details key={`faq-${index}`} className="group rounded-xl border border-[#e5e9f0] bg-[#f8fafc] p-4">
+                  <summary className="flex cursor-pointer list-none items-center justify-between text-sm font-semibold text-[#0f172a]">
                     <span className="pr-3">{faq.question}</span>
-                    <span className="text-[#ec671f] group-open:hidden">+</span>
-                    <span className="hidden text-[#ec671f] group-open:block">-</span>
+                    <span className="text-[#1d4f91] group-open:hidden">+</span>
+                    <span className="hidden text-[#1d4f91] group-open:block">-</span>
                   </summary>
-                  <p className="mt-3 border-t border-[#eddccf] pt-3 text-sm leading-relaxed text-[#5a4a3e]">{faq.answer}</p>
+                  <div className="grid grid-rows-[0fr] transition-all duration-300 ease-in-out group-open:grid-rows-[1fr]">
+                    <div className="overflow-hidden">
+                      <p className="mt-3 border-t border-[#dbe2ea] pt-3 text-sm leading-relaxed text-[#334155]">{faq.answer}</p>
+                    </div>
+                  </div>
                 </details>
               ))}
             </div>

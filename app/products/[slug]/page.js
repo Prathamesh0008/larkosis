@@ -98,7 +98,13 @@ export default async function ProductDetailPage({ params }) {
 
   const pharmSpec = extractPharmSpec(product.details);
   const packSize = extractPackSize(product.details);
-  const casId = product.casId && product.casId !== "--" ? product.casId : null;
+  const casId =
+    product.casId &&
+    product.casId !== "--" &&
+    product.casId !== "-" &&
+    product.casId !== "None"
+      ? product.casId
+      : null;
   const productUrl = absoluteUrl(`/products/${product.slug}`);
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -395,9 +401,13 @@ export default async function ProductDetailPage({ params }) {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </svg>
                   </summary>
-                  <p className="mt-3 border-t border-[#efd6c6] pt-3 text-sm leading-relaxed text-[#5f4536]">
-                    {faq.answer}
-                  </p>
+                  <div className="grid grid-rows-[0fr] transition-all duration-300 ease-in-out group-open:grid-rows-[1fr]">
+                    <div className="overflow-hidden">
+                      <p className="mt-3 border-t border-[#efd6c6] pt-3 text-sm leading-relaxed text-[#5f4536]">
+                        {faq.answer}
+                      </p>
+                    </div>
+                  </div>
                 </details>
               ))}
             </div>

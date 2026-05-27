@@ -28,11 +28,11 @@ export default function CatalogMobileList({ paginatedProducts, clearFilters, ext
           <dl className="mt-3 space-y-1 text-sm text-[#553d30]">
             <div>
               <dt className="inline font-semibold text-[#3f2a1e]">Form:</dt>{" "}
-              <dd className="inline break-words">{product.dosageForm || "--"}</dd>
+              <dd className="inline break-words">{product.dosageForm || "None"}</dd>
             </div>
             <div>
               <dt className="inline font-semibold text-[#3f2a1e]">Strength:</dt>{" "}
-              <dd className="inline break-words">{product.strength || "--"}</dd>
+              <dd className="inline break-words">{product.strength || "None"}</dd>
             </div>
             <div>
               <dt className="inline font-semibold text-[#3f2a1e]">Pack:</dt>{" "}

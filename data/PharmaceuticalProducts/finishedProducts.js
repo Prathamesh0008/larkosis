@@ -648,7 +648,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "480 mg / 960 mg",
     "form": "10 x 10's, 1000's",
     "PACK SIZE": "Uncoated Tablets",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Trimethoprim": "738-70-5",
       "Sulfamethoxazole": "723-46-6"
@@ -663,7 +663,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "240 mg/5 ml",
     "form": "Suspension",
     "PACK SIZE": "Oral Liquid",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Trimethoprim": "738-70-5",
       "Sulfamethoxazole": "723-46-6"
@@ -885,7 +885,7 @@ export const FINISHED_PRODUCTS = [
     "name": "Cefoperazone + Sulbactam Vial",
     "dosage": "1 g / 2 g",
     "form": "Injection",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Cefoperazone": "62893-20-3",
       "Sulbactam": "69388-84-7"
@@ -907,7 +907,7 @@ export const FINISHED_PRODUCTS = [
     "name": "Piperacillin = Tazobactam",
     "dosage": "4 g + 0.5 g",
     "form": "Injection",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Piperacillin": "61477-96-1",
       "Tazobactam": "89785-84-2"
@@ -938,7 +938,7 @@ export const FINISHED_PRODUCTS = [
     "name": "Ampicillin + Cloxacillin Vial",
     "dosage": "250 / 500 mg",
     "form": "Injection",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Ampicillin": "69-52-3",
       "Cloxacillin": "61-72-3"
@@ -951,7 +951,7 @@ export const FINISHED_PRODUCTS = [
     "name": "Ampicillin + Cloxacillin BP Caps",
     "dosage": "250 / 500 mg",
     "form": "Capsule",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Ampicillin": "69-52-3",
       "Cloxacillin": "61-72-3"
@@ -964,7 +964,7 @@ export const FINISHED_PRODUCTS = [
     "name": "Amoxycillin + Clavulanate Pot. USP Vial",
     "dosage": "150 / 300 / 600 mg / 1.2 gm",
     "form": "Injection",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Amoxicillin": "26787-78-0",
       "Clavulanate Potassium": "61177-45-5",
@@ -978,7 +978,7 @@ export const FINISHED_PRODUCTS = [
     "name": "Amoxycillin + Clavulanate Pot. USP Tabs",
     "dosage": "375 / 625 / 1000 mg",
     "form": "Tablets",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Amoxicillin": "26787-78-0",
       "Clavulanate Potassium": "61177-45-5",
@@ -994,7 +994,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "480 mg / 960 mg",
     "form": "Tablets",
     "PACK SIZE": "Uncoated Tablets",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Trimethoprim": "738-70-5",
       "Sulfamethoxazole": "723-46-6"
@@ -1061,7 +1061,7 @@ export const FINISHED_PRODUCTS = [
     "name": "Amoxycillin + Clavulanate Pot. USP",
     "dosage": "125 mg + 31.25 mg / 5 ml",
     "form": "Suspension",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Amoxicillin": "26787-78-0",
       "Clavulanate Potassium": "61177-45-5",
@@ -1075,7 +1075,7 @@ export const FINISHED_PRODUCTS = [
     "name": "Amoxycillin + Clavulanate Dry Syrup",
     "dosage": "200 mg + 28.5 mg / 5 ml",
     "form": "Dry Syrup",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Amoxicillin": "26787-78-0",
       "Clavulanate Potassium": "61177-45-5",
@@ -1116,7 +1116,7 @@ export const FINISHED_PRODUCTS = [
     "name": "Amoxycillin + Lactobacillus Tabs",
     "dosage": "125 / 250 / 500 mg",
     "form": "Tablets",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Amoxicillin": "26787-78-0",
       "Lactobacillus": "No CAS (biological organism)"
@@ -1129,7 +1129,7 @@ export const FINISHED_PRODUCTS = [
     "name": "Amoxycillin + Cloxacillin + Lactobacillus Tabs",
     "dosage": "125 mg + 125 mg",
     "form": "Tablets",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Amoxicillin": "26787-78-0",
       "Cloxacillin": "61-72-3",
@@ -1179,7 +1179,7 @@ export const FINISHED_PRODUCTS = [
     "name": "Piperacillin + Tazobactam",
     "dosage": "4 g + 0.5 g",
     "form": "Injection",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Piperacillin": "61477-96-1",
       "Tazobactam": "89786-04-9"
@@ -1236,7 +1236,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "400 mg",
     "form": "Tablets",
     "PACK_SIZE": "5 x 1 x 1",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Albendazole": "54965-21-8",
       "Ivermectin": "70288-86-7"
@@ -1305,7 +1305,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "80 mg + 500 mg",
     "form": "Tablets",
     "PACK SIZE": "Uncoated Tablets",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Gliclazide": "21187-98-4",
       "Metformin Hydrochloride": "1115-70-4"
@@ -1352,7 +1352,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "25 mg + 300 mg",
     "form": "Tablets",
     "PACK SIZE": "Film Coated Tablets",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Camylofin Dihydrochloride": "72-50-4",
       "Paracetamol": "103-90-2"
@@ -1376,7 +1376,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "50 mg + 50 mg",
     "form": "Tablets",
     "PACK_SIZE": "Film Coated Tablets",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Camylofin Dihydrochloride": "72-50-4",
       "Diclofenac Sodium": "15307-79-6"
@@ -1391,7 +1391,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "(250 mg + 125 IU), (500 mg + 250 IU)",
     "form": "Tablets",
     "PACK_SIZE": "Film Coated Tablets",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Calcium Carbonate (from oyster shell)": "471-34-1",
       "Vitamin D3 (Cholecalciferol)": "67-97-0"
@@ -1415,7 +1415,7 @@ export const FINISHED_PRODUCTS = [
     "name": "Calcitrol + Calcium Citrate + Zinc",
     "dosage": "0.25 mcg + 250 mg + 7.5 mg",
     "form": "Tablets",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Calcitriol": "32222-06-3",
       "Calcium Citrate": "813-94-5",
@@ -1430,7 +1430,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "500 mg + 0.25 mg",
     "form": "Tablets",
     "PACK_SIZE": "10 x 10",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Calcium Carbonate": "471-34-1",
       "Alfacalcidol": "41294-56-8"
@@ -1444,7 +1444,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "1000 mg + 100 mg + 4 mg",
     "form": "Tablets",
     "PACK_SIZE": "10 x 10",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Calcium Citrate": "813-94-5",
       "Magnesium": "No CAS (mineral element)",
@@ -1460,7 +1460,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "250 mg + 200 mg",
     "form": "Tablets",
     "PACK_SIZE": "10 x 10's",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Calcium Citrate Maleate": "No CAS (mixture compound)",
       "Vitamin D3": "67-97-0"
@@ -1512,7 +1512,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "200 mg + 30 mg",
     "form": "Tablets",
     "PACK_SIZE": "10 x 10",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Gatifloxacin": "112811-59-3",
       "Ambroxol": "18683-91-5"
@@ -1526,7 +1526,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "200 mg + 500 mg",
     "form": "Tablets",
     "PACK_SIZE": "10 x 10",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Gatifloxacin": "112811-59-3",
       "Ornidazole": "16773-42-5"
@@ -1540,7 +1540,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "500 mg + 600 mg",
     "form": "Tablets",
     "PACK_SIZE": "10 x 10",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Ciprofloxacin": "85721-33-1",
       "Tinidazole": "19387-91-8"
@@ -1554,7 +1554,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "400 mg + 500 mg",
     "form": "Tablets",
     "PACK_SIZE": "20 x 10",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Norfloxacin": "70458-96-7",
       "Metronidazole": "443-48-1"
@@ -1568,7 +1568,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "400 mg + 500 mg",
     "form": "Tablets",
     "PACK_SIZE": "20 x 10",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Norfloxacin": "70458-96-7",
       "Nitazoxanide": "55981-09-4"
@@ -1582,7 +1582,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "400 mg + 500 mg",
     "form": "Tablets",
     "PACK_SIZE": "20 x 10",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Norfloxacin": "70458-96-7",
       "Ornidazole": "16773-42-5"
@@ -1596,7 +1596,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "400 mg + 600 mg",
     "form": "Tablets",
     "PACK_SIZE": "20 x 10",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Norfloxacin": "70458-96-7",
       "Tinidazole": "19387-91-8"
@@ -1610,7 +1610,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "200 mg + 600 mg",
     "form": "Tablets",
     "PACK_SIZE": "10 x 10",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Ofloxacin": "82419-36-1",
       "Tinidazole": "19387-91-8"
@@ -1641,7 +1641,7 @@ export const FINISHED_PRODUCTS = [
     "name": "Ofloxacin + Ornidazole Tabs",
     "dosage": "200 mg + 500 mg",
     "form": "Tablets",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Ofloxacin": "82419-36-1",
       "Ornidazole": "16773-42-5"
@@ -1708,7 +1708,7 @@ export const FINISHED_PRODUCTS = [
     "name": "Ofloxacin + Satranidazole Tabs",
     "dosage": "200 mg + 300 mg",
     "form": "Tablets",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Ofloxacin": "82419-36-1",
       "Satranidazole": "83485-23-6"
@@ -1798,7 +1798,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "50 mg + 500 mg",
     "form": "Tablets",
     "PACK_SIZE": "Film Coated Tablets",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Diclofenac Sodium": "15307-79-6",
       "Paracetamol": "103-90-2"
@@ -1822,7 +1822,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "50 mg + 500 mg",
     "form": "Tablets",
     "PACK_SIZE": "20 x 10",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Tramadol Hydrochloride": "36282-47-0",
       "Paracetamol": "103-90-2"
@@ -1866,7 +1866,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "100 mg + 325 mg + 375 mg",
     "form": "Tablets",
     "PACK_SIZE": "20 x 10",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Nimesulide": "51803-78-2",
       "Paracetamol": "103-90-2",
@@ -1881,7 +1881,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "100 mg + 500 mg",
     "form": "Tablets",
     "PACK_SIZE": "10 x 10",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Nimesulide": "51803-78-2",
       "Paracetamol": "103-90-2"
@@ -1895,7 +1895,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "100 mg + 500 mg + 250 mg",
     "form": "Tablets",
     "PACK_SIZE": "20 x 10",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Nimesulide": "51803-78-2",
       "Paracetamol": "103-90-2",
@@ -1910,7 +1910,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "100 mg + 500 mg + 2 mg",
     "form": "Tablets",
     "PACK_SIZE": "20 x 10",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Nimesulide": "51803-78-2",
       "Paracetamol": "103-90-2",
@@ -1935,7 +1935,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "50 mg + 500 mg",
     "form": "Tablets",
     "PACK_SIZE": "20 x 10",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Nimesulide": "51803-78-2",
       "Paracetamol": "103-90-2"
@@ -1969,7 +1969,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "50mg + 325mg + 250mg",
     "form": "Tablets",
     "PACK_SIZE": "30X6",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Diclofenac Sodium": "15307-86-5",
       "Paracetamol": "103-90-2",
@@ -1984,7 +1984,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "50mg + 10mg",
     "form": "Tablets",
     "PACK_SIZE": "10X10",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Diclofenac Sodium": "15307-86-5",
       "Serratiopeptidase": "N/A (enzyme, no CAS)"
@@ -2012,7 +2012,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "400mg + 500mg",
     "form": "Tablets",
     "PACK_SIZE": "20X15",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Ibuprofen": "15687-27-1",
       "Paracetamol": "103-90-2"
@@ -2026,7 +2026,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "100mg + 500mg",
     "form": "Tablets",
     "PACK_SIZE": "10X10",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Aceclofenac": "89796-99-6",
       "Paracetamol": "103-90-2"
@@ -2040,7 +2040,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "100mg + 500mg + 10mg",
     "form": "Tablets",
     "PACK_SIZE": "10X6",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Aceclofenac": "89796-99-6",
       "Paracetamol": "103-90-2",
@@ -2065,7 +2065,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "100mg + 325mg + 250mg",
     "form": "Tablets",
     "PACK_SIZE": "10X10",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Aceclofenac": "89796-99-6",
       "Paracetamol": "103-90-2",
@@ -2080,7 +2080,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "100mg + 500mg + 15mg",
     "form": "Tablets",
     "PACK_SIZE": "10X10",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Aceclofenac": "89796-99-6",
       "Paracetamol": "103-90-2",
@@ -2150,7 +2150,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "5mg + 5mg",
     "form": "Tablets",
     "PACK_SIZE": "Uncoated Tablets",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Amlodipine Besilate": "111470-99-6",
       "Lisinopril": "76547-98-3"
@@ -2176,7 +2176,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "5mg + 50mg",
     "form": "Tablets",
     "PACK_SIZE": "10 x 10’s",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Amlodipine Besilate": "111470-99-6",
       "Atenolol": "29122-68-7"
@@ -2242,7 +2242,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "350mg + 250mg",
     "form": "Tablets",
     "PACK_SIZE": "10 x 10’s",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Methocarbamol": "532-03-6",
       "Paracetamol": "103-90-2"
@@ -2257,7 +2257,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "500mg + 50mg + 325mg",
     "form": "Tablets",
     "PACK_SIZE": "10 x 10’s",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Methocarbamol": "532-03-6",
       "Diclofenac Potassium": "15307-81-0",
@@ -2273,7 +2273,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "750mg + 200mg, 750mg + 400mg",
     "form": "Tablets",
     "PACK_SIZE": "10 x 10’s",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Methocarbamol": "532-03-6",
       "Ibuprofen": "15687-27-1"
@@ -2288,7 +2288,7 @@ export const FINISHED_PRODUCTS = [
     "dosage": "1000mg + 100mg",
     "form": "Tablets",
     "PACK_SIZE": "10 x 10’s",
-    "CAS-ID": "N/A (combination)",
+    "CAS-ID": "N/A",
     "API-CAS": {
       "Methocarbamol": "532-03-6",
       "Nimesulide": "51803-78-2"

@@ -91,20 +91,6 @@ export default async function ActiveIngredientDetailPage({ params }) {
               <p className="mt-4 max-w-4xl text-sm leading-relaxed text-[#4f433c] sm:text-base">
                 {ingredient.description}
               </p>
-              <div className="mt-5 flex flex-wrap gap-2">
-                <Link
-                  href="/contact"
-                  className="rounded-full bg-[#ec671f] px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-[#d95f1d]"
-                >
-                  Inquire Now
-                </Link>
-                <Link
-                  href="/active-ingredients"
-                  className="rounded-full border border-[#d7c0b0] bg-white px-5 py-2 text-sm font-semibold text-[#2f2b29] transition-colors hover:border-[#ec671f] hover:text-[#ec671f]"
-                >
-                  Back to List
-                </Link>
-              </div>
             </div>
           </div>
         </div>
