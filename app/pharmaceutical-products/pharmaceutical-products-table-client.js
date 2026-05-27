@@ -28,6 +28,7 @@ export default function PharmaceuticalProductsTableClient({ products }) {
       const queryMatch =
         !q ||
         item.name.toLowerCase().includes(q) ||
+        (item.listName || "").toLowerCase().includes(q) ||
         item.category.toLowerCase().includes(q) ||
         item.form.toLowerCase().includes(q) ||
         item.dosage.toLowerCase().includes(q) ||
@@ -119,7 +120,7 @@ export default function PharmaceuticalProductsTableClient({ products }) {
                 <tr key={item.id} className="bg-[#fbfcfe] text-[#0f3558] hover:bg-[#f1f6fb]">
                   <td className="px-5 py-4 text-sm font-semibold">
                     <Link href={`/pharmaceutical-products/${item.slug}`} className="hover:underline">
-                      {item.name}
+                      {item.listName || item.name}
                     </Link>
                   </td>
                   <td className="px-5 py-4 text-sm">{item.form}</td>

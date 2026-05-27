@@ -989,6 +989,20 @@ export const FINISHED_PRODUCTS = [
   },
   {
     "category": "ANTIBACTERIAL",
+    "name": "Amoxycillin + Clavulanate Pot. USP",
+    "dosage": "125 + 31.25 mg / 5 ml",
+    "form": "Suspension",
+    "CAS-ID": "N/A (combination)",
+    "API-CAS": {
+      "Amoxicillin": "26787-78-0",
+      "Clavulanate Potassium": "61177-45-5",
+      "Clavulanic Acid": "58001-44-8"
+    },
+    "id": 89,
+    "slug": "amoxycillin-clavulanate-pot-usp"
+  },
+  {
+    "category": "ANTIBACTERIAL",
     "name": "Co-Trimoxazole Tablets BP",
     "PHARM SPECN": "BP",
     "dosage": "480 mg / 960 mg",

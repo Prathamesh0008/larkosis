@@ -28,6 +28,7 @@ export default function TestKitsTableClient({ testKits }) {
       const queryMatch =
         !q ||
         item.product.toLowerCase().includes(q) ||
+        (item.listProduct || "").toLowerCase().includes(q) ||
         item.description.toLowerCase().includes(q) ||
         item.category.toLowerCase().includes(q) ||
         item.method.toLowerCase().includes(q) ||
@@ -119,7 +120,7 @@ export default function TestKitsTableClient({ testKits }) {
                 <tr key={item.id} className="bg-[#fbfcfe] text-[#0f3558] hover:bg-[#f1f6fb]">
                   <td className="px-5 py-4 text-sm font-semibold">
                     <Link href={`/test-kits/${item.slug}`} className="hover:underline">
-                      {item.product}
+                      {item.listProduct || item.product}
                     </Link>
                   </td>
                   <td className="px-5 py-4 text-sm">{item.description}</td>
