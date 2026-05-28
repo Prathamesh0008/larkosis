@@ -175,3 +175,28 @@ button {
 .animate-pulse-slow {
   animation: pulse-slow 5s ease-in-out infinite;
 }
+
+/* Hide scrollbar but keep scroll functionality */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+@keyframes section-flash {
+  0% {
+    box-shadow: 0 0 0 0 rgba(236, 103, 31, 0.35);
+    background-color: #fff3ea;
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(236, 103, 31, 0);
+    background-color: transparent;
+  }
+}
+
+.section-flash {
+  animation: section-flash 700ms ease-out;
+}

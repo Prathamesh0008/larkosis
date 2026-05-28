@@ -36,7 +36,9 @@ export default function Navbar({ navLinks, companyProfile }) {
           ? pathname.startsWith("/products") ||
             pathname.startsWith("/active-ingredients") ||
             pathname.startsWith("/pharmaceutical-products") ||
-            pathname.startsWith("/test-kits")
+            pathname.startsWith("/test-kits") ||
+            pathname.startsWith("/over-the-counter") ||
+            pathname.startsWith("/private-label-manufacturing-oem")
           : link.href === "/"
             ? pathname === "/"
             : pathname.startsWith(link.href);
@@ -46,7 +48,9 @@ export default function Navbar({ navLinks, companyProfile }) {
             { href: "/products", label: "All Product" },
             { href: "/pharmaceutical-products", label: "Pharmaceutical Products" },
             { href: "/test-kits", label: "Test Kits" },
-            { href: "/active-ingredients", label: "Active Ingredients" },
+            { href: "/active-ingredients", label: "Active Pharmaceutical Ingredients" },
+            { href: "/over-the-counter", label: "Over-the-Counter" },
+            { href: "/private-label-manufacturing-oem", label: "Private Label Manufacturing / OEM" },
           ];
 
           return (

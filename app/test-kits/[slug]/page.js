@@ -1,6 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { absoluteUrl } from "@/lib/seo";
+import GoToTopButton from "@/components/go-to-top-button";
+import ActiveIngredientSectionNav from "@/components/active-ingredient-section-nav";
 import { getAllTestKitDetails, getTestKitBySlug } from "@/lib/test-kit-details";
 
 function toHeading(key) {
@@ -37,6 +40,15 @@ function isProductNameLabel(label) {
   return String(label || "").trim().toLowerCase() === "product name";
 }
 
+function isTitleLabel(label) {
+  return String(label || "").trim().toLowerCase() === "title";
+}
+
+function isRedundantSubheading(key) {
+  const normalized = String(key || "").trim().toLowerCase();
+  return normalized === "sections" || normalized === "content" || normalized === "description";
+}
+
 function renderPrimitive(value) {
   return <p className="mt-2 text-sm leading-relaxed text-[#4f433c]">{formatInlineValue(value)}</p>;
 }
@@ -45,10 +57,11 @@ function renderValue(value, prefix) {
   if (Array.isArray(value)) {
     const normalizedItems = value.filter((item) => {
       if (item && typeof item === "object" && !Array.isArray(item) && "label" in item) {
-        return !isProductNameLabel(item.label);
+        return !isProductNameLabel(item.label) && !isTitleLabel(item.label);
       }
       if (typeof item === "string") {
-        return !item.trim().toLowerCase().startsWith("product name:");
+        const normalized = item.trim().toLowerCase();
+        return !normalized.startsWith("product name:") && !normalized.startsWith("title:");
       }
       return true;
     });
@@ -66,7 +79,7 @@ function renderValue(value, prefix) {
 
   if (value && typeof value === "object") {
     if ("label" in value && "value" in value) {
-      if (isProductNameLabel(value.label)) {
+      if (isProductNameLabel(value.label) || isTitleLabel(value.label)) {
         return null;
       }
       return (
@@ -79,9 +92,13 @@ function renderValue(value, prefix) {
 
     return (
       <div className="mt-3 space-y-3">
-        {Object.entries(value).map(([k, v]) => (
+        {Object.entries(value)
+          .filter(([k]) => k.trim().toLowerCase() !== "title")
+          .map(([k, v]) => (
           <div key={`${prefix}-${k}`}>
-            <p className="text-xs font-semibold uppercase tracking-wider text-[#0f3558]">{toHeading(k)}</p>
+            {!isRedundantSubheading(k) ? (
+              <p className="text-xs font-semibold uppercase tracking-wider text-[#0f3558]">{toHeading(k)}</p>
+            ) : null}
             {renderValue(v, `${prefix}-${k}`)}
           </div>
         ))}
@@ -136,94 +153,108 @@ export default async function TestKitDetailPage({ params }) {
   });
   const overview = topInfo.slice(0, 4);
   const extraInfo = topInfo.slice(4);
-  const sectionEntries = Object.entries(content);
+  const sectionEntries = Object.entries(content).filter(
+    ([key]) =>
+      !key.toLowerCase().includes("indication") &&
+      !key.toLowerCase().includes("presentation") &&
+      !key.toLowerCase().includes("productoverview"),
+  );
+  const sectionNav = sectionEntries.map(([key]) => ({
+    key,
+    id: `section-${key.replace(/[^a-zA-Z0-9_-]/g, "-")}`,
+    title: toHeading(key),
+  }));
 
   return (
-    <div className="bg-[radial-gradient(circle_at_top_left,#eff6ff_0%,#f8fafc_32%,#f5f7fb_100%)] pb-14 pt-8">
+    <div id="page-top" className="bg-[#f3f6fb] pb-12 pt-8">
       <section className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="overflow-hidden rounded-3xl border border-[#d7dfec] bg-white shadow-[0_18px_45px_rgba(20,40,80,0.08)]">
-          <div className="grid gap-0 lg:grid-cols-[1.05fr_1fr]">
-            <div className="border-b border-[#e5e9f0] bg-gradient-to-br from-[#f8fbff] to-[#f2f6fc] p-6 sm:p-8 lg:border-b-0 lg:border-r">
-              <div className="mb-4 inline-flex items-center rounded-full border border-[#cfe0f5] bg-white px-3 py-1 text-xs font-semibold uppercase tracking-[0.12em] text-[#1d4f91]">
-                Test Kit
-              </div>
-              <Image src="/product.png" alt={item.title} width={700} height={520} className="h-auto w-full rounded-xl object-contain" />
+        <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-[#dbe4f0] sm:p-8">
+          <div className="grid gap-8 lg:grid-cols-[360px_1fr]">
+            <div className="flex min-h-[320px] items-center justify-center rounded-xl bg-[#f7faff] p-4 ring-1 ring-[#e2eaf5]">
+              <Image src="/product.png" alt={item.title} width={700} height={520} className="h-auto w-full rounded-lg object-contain" />
             </div>
-
-            <div className="p-6 sm:p-8">
-              <h1 className="text-3xl font-bold uppercase tracking-tight text-[#13294b]">{item.title}</h1>
-              <p className="mt-3 text-xl font-semibold text-[#0f172a]">{item.catalog?.product}</p>
-              <p className="mt-4 text-sm leading-relaxed text-[#475569]">{item.description}</p>
-
+            <div>
+              <nav className="flex items-center gap-2 text-sm text-[#6c7b8d]">
+                <Link href="/" className="hover:text-[#ec671f]">Home</Link>
+                <span>/</span>
+                <Link href="/test-kits" className="hover:text-[#ec671f]">Test Kits</Link>
+                <span>/</span>
+                <span className="truncate font-semibold text-[#1d4f91]">{item.title}</span>
+              </nav>
+              <h1 className="mt-3 text-3xl font-bold text-[#102a4c] sm:text-4xl">{item.title}</h1>
+              <p className="mt-4 max-w-3xl text-sm leading-relaxed text-[#44566c]">{item.description}</p>
               {overview.length > 0 ? (
                 <div className="mt-6 grid gap-3 sm:grid-cols-2">
                   {overview.map(([label, value]) => (
-                    <div key={label} className="rounded-xl border border-[#e4ebf6] bg-[#f8fbff] p-3">
-                      <p className="text-[11px] font-bold uppercase tracking-[0.1em] text-[#486387]">{label}</p>
-                      <p className="mt-1 text-sm font-semibold text-[#0f172a]">{formatInlineValue(value)}</p>
+                    <div key={label} className="rounded-lg bg-[#f7faff] p-3 ring-1 ring-[#dfe8f4]">
+                      <p className="text-[11px] font-bold uppercase tracking-[0.08em] text-[#5c7390]">{label}</p>
+                      <p className="mt-1 text-xs font-semibold text-[#0f172a]">{formatInlineValue(value)}</p>
                     </div>
                   ))}
                 </div>
               ) : null}
-
             </div>
           </div>
         </div>
       </section>
 
-      <section className="mx-auto mt-7 w-full max-w-7xl px-4 sm:px-6 lg:px-8">
-        {extraInfo.length > 0 ? (
-          <div className="mb-4 rounded-2xl border border-[#d9dee7] bg-white p-4 shadow-sm">
-            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-              {extraInfo.map(([label, value]) => (
-                <div key={label} className="rounded-xl border border-[#e5e9f0] bg-[#f8fafc] p-3">
-                  <p className="text-[11px] font-bold uppercase tracking-[0.08em] text-[#53657f]">{label}</p>
-                  <p className="mt-1 text-sm font-medium text-[#0f172a]">{formatInlineValue(value)}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        ) : null}
-
-        <div className="space-y-4">
-          {sectionEntries
-            .filter(
-              ([key]) =>
-                !key.toLowerCase().includes("indication") &&
-                !key.toLowerCase().includes("presentation"),
-            )
-            .map(([key, value]) => (
-            <section key={key} className="rounded-2xl border border-[#d9dee7] bg-white p-5 shadow-sm">
-              <h3 className="text-lg font-bold text-[#0f172a]">{toHeading(key)}</h3>
-              <div className="mt-1 h-[2px] w-14 rounded-full bg-gradient-to-r from-[#1d4f91] to-[#7aa7df]" />
-              {renderValue(value, key)}
-            </section>
-          ))}
-        </div>
-
-        {faqs.length > 0 ? (
-          <section className="mt-5 rounded-2xl border border-[#d9dee7] bg-white p-5 shadow-sm">
-            <h3 className="text-lg font-bold text-[#0f172a]">Frequently Asked Questions</h3>
-            <p className="mt-1 text-sm text-[#64748b]">Click any question to expand the answer.</p>
-            <div className="mt-4 space-y-3">
-              {faqs.map((faq, index) => (
-                <details key={`faq-${index}`} className="group rounded-xl border border-[#e2e8f2] bg-gradient-to-r from-[#f8fafc] to-[#f6f9ff] p-4">
-                  <summary className="flex cursor-pointer list-none items-center justify-between text-sm font-semibold text-[#0f172a]">
-                    <span className="pr-3">{faq.question}</span>
-                    <span className="text-[#1d4f91] group-open:hidden">+</span>
-                    <span className="hidden text-[#1d4f91] group-open:block">-</span>
-                  </summary>
-                  <div className="grid grid-rows-[0fr] transition-all duration-300 ease-in-out group-open:grid-rows-[1fr]">
-                    <div className="overflow-hidden">
-                      <p className="mt-3 border-t border-[#dbe2ea] pt-3 text-sm leading-relaxed text-[#334155]">{faq.answer}</p>
-                    </div>
+      <section className="mx-auto mt-6 grid w-full max-w-7xl gap-6 px-4 sm:px-6 lg:grid-cols-[220px_1fr] lg:px-8">
+        <aside className="h-fit rounded-xl bg-white p-4 shadow-sm ring-1 ring-[#dbe4f0] lg:sticky lg:top-24">
+          <ActiveIngredientSectionNav sections={sectionNav} includeFaq={faqs.length > 0} />
+          {extraInfo.length > 0 ? (
+            <div className="mt-4 border-t border-[#e6edf6] pt-4">
+              <h3 className="text-xs font-bold uppercase tracking-[0.08em] text-[#5d7390]">Additional</h3>
+              <div className="mt-2 space-y-2">
+                {extraInfo.map(([label, value]) => (
+                  <div key={label} className="rounded-md bg-[#f7faff] p-2 ring-1 ring-[#e2eaf5]">
+                    <p className="text-[10px] font-bold uppercase tracking-[0.08em] text-[#607792]">{label}</p>
+                    <p className="mt-0.5 text-xs font-medium text-[#102a4c]">{formatInlineValue(value)}</p>
                   </div>
-                </details>
-              ))}
+                ))}
+              </div>
             </div>
-          </section>
-        ) : null}
+          ) : null}
+        </aside>
+
+        <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-[#dbe4f0] sm:p-6">
+          <div className="space-y-0">
+            {sectionEntries.map(([key, value], idx) => (
+              <section
+                id={`section-${key.replace(/[^a-zA-Z0-9_-]/g, "-")}`}
+                key={key}
+                className={`scroll-mt-24 ${idx > 0 ? "mt-6 border-t border-[#e3ebf5] pt-6" : ""}`}
+              >
+                <h3 className="text-xl font-bold text-[#0f2f57]">{toHeading(key)}</h3>
+                {renderValue(value, key)}
+              </section>
+            ))}
+
+            {faqs.length > 0 ? (
+              <section id="faq" className={`${sectionEntries.length > 0 ? "mt-6 border-t border-[#e3ebf5] pt-6" : ""}`}>
+                <h3 className="text-xl font-bold text-[#0f2f57]">Frequently Asked Questions</h3>
+                <div className="mt-4 space-y-3">
+                  {faqs.map((faq, index) => (
+                    <details key={`faq-${index}`} className="group rounded-lg bg-[#f7faff] p-4 ring-1 ring-[#dde6f3]">
+                      <summary className="flex cursor-pointer list-none items-center justify-between text-sm font-semibold text-[#0f172a]">
+                        <span className="pr-3">{faq.question}</span>
+                        <span className="text-[#1d4f91] group-open:hidden">+</span>
+                        <span className="hidden text-[#1d4f91] group-open:block">-</span>
+                      </summary>
+                      <div className="grid grid-rows-[0fr] transition-all duration-300 ease-in-out group-open:grid-rows-[1fr]">
+                        <div className="overflow-hidden">
+                          <p className="mt-3 border-t border-[#dbe4f0] pt-3 text-sm leading-relaxed text-[#334155]">{faq.answer}</p>
+                        </div>
+                      </div>
+                    </details>
+                  ))}
+                </div>
+              </section>
+            ) : null}
+          </div>
+        </div>
       </section>
+
+      <GoToTopButton />
     </div>
   );
 }

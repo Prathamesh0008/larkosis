@@ -107,7 +107,7 @@ export default function ActiveIngredientsTableClient({ ingredients }) {
                     </td>
 
                     <td className="px-5 py-5 text-sm font-medium text-[#002b4f] sm:px-6 sm:text-base">
-                      {ingredient.therapeuticArea || "General"}
+                    
                     </td>
                   </tr>
                 ))

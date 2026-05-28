@@ -30836,6 +30836,176 @@ export const en = {
           }
         ]
       }
-    }
+    },
+
+     "6-mam-urine-test": {
+    meta: {
+      title: "6-Monoacetylmorphine 6-MAM Rapid Test Urine 50 ng/mL | Ivexia Pharma",
+      description:
+        "6-Monoacetylmorphine (6-MAM) Rapid Test Device by Ivexia Pharma is a urine-based rapid drug of abuse screening test with 50 ng/mL cut-off for detecting 6-MAM, a specific heroin metabolite.",
+    },
+    hero: {
+      title: "6-Monoacetylmorphine (6-MAM) Rapid Test Device",
+      description:
+        "6-Monoacetylmorphine (6-MAM) Rapid Test Device by Ivexia Pharma is a professional urine-based rapid test designed for qualitative screening of 6-MAM, a specific metabolite associated with heroin exposure. With a 50 ng/mL cut-off, this 6-MAM rapid test device supports clinical laboratories, rehabilitation centers, occupational health programs, forensic screening settings, and drug monitoring facilities where fast and dependable urine drug screening is required.",
+    },
+    content: {
+      introduction: {
+        title: "Introduction",
+        sections: [
+          "The 6-Monoacetylmorphine (6-MAM) Rapid Test Device is a professional diagnostic screening product used to support the qualitative detection of 6-MAM in urine specimens.",
+          "6-MAM, also known as 6-Acetylmorphine, is an important toxicology marker because it is associated with heroin metabolism and supports heroin-specific screening workflows.",
+          "The 6-MAM Rapid Test Device should be used as a preliminary screening product and not as a final diagnostic, legal, workplace, or forensic conclusion without appropriate confirmation.",
+        ],
+      },
+      productOverview: {
+        title: "Product Overview",
+        details: [
+          { label: "Product Name", value: "6-Monoacetylmorphine (6-MAM) Rapid Test Device" },
+          { label: "Brand", value: "Ivexia Pharma" },
+          { label: "Category", value: "Drug of Abuse" },
+          { label: "Method", value: "Rapid Test" },
+          { label: "Specimen", value: "Urine" },
+          { label: "Cut-off", value: "50 ng/mL" },
+          { label: "Target Analyte", value: "6-Monoacetylmorphine" },
+          { label: "Certificate", value: "None" },
+        ],
+        note:
+          "The 6-MAM Rapid Test Device offers a simple urine-based rapid testing format for professional drug screening programs where fast preliminary results are needed before confirmatory testing.",
+      },
+      whatIsHPV: {
+        title: "What is 6-Monoacetylmorphine (6-MAM)?",
+        content:
+          "6-Monoacetylmorphine, commonly called 6-MAM or 6-Acetylmorphine, is a metabolite linked with heroin metabolism. In drug screening, it is valued because it is considered more specific to heroin exposure than general opiate markers such as morphine.",
+      },
+      intendedUse: {
+        title: "Intended Use of 6-MAM Rapid Test Device",
+        description:
+          "The 6-MAM Rapid Test Device is intended for professional urine-based screening support. It helps trained users identify urine samples that may require further review or confirmatory testing according to laboratory policy.",
+        applications: [
+          "Drug of abuse screening programs",
+          "Toxicology laboratories",
+          "Rehabilitation and de-addiction centers",
+          "Occupational health screening",
+          "Emergency and clinical screening settings",
+          "Forensic and compliance screening support",
+          "Institutional drug monitoring programs",
+        ],
+      },
+      method: {
+        title: "Method: Rapid Test",
+        description:
+          "The 6-MAM Rapid Test Device is designed for qualitative detection of 6-MAM in urine at the stated 50 ng/mL cut-off. Rapid urine drug screening devices commonly use immunoassay-based principles to provide a preliminary visual result.",
+        benefits: [
+          "Fast preliminary screening support",
+          "Simple urine sample workflow",
+          "No complex instrument required for basic screening",
+          "Useful for heroin metabolite screening",
+          "Suitable for professional testing environments",
+          "Supports screening before confirmatory laboratory methods",
+          "Practical format for international diagnostic supply",
+        ],
+      },
+      specimen: {
+        title: "Specimen: Urine",
+        description:
+          "The 6-MAM Rapid Test Device uses urine as the specimen. Proper sample collection, handling, and interpretation are important for reliable screening performance.",
+        guidance: [
+          "Use urine specimens only",
+          "Collect urine in a clean and dry container",
+          "Follow the exact sample volume and testing steps in the product insert",
+          "Avoid contaminated or improperly stored urine samples",
+          "Use the test device immediately after opening the sealed pouch",
+          "Read the result only within the approved time window",
+          "Do not reuse the test device",
+        ],
+      },
+      clinicalImportance: {
+        title: "Clinical and Toxicology Importance",
+        sections: [
+          "6-MAM testing is useful because 6-MAM is associated specifically with heroin metabolism and may help support heroin-focused screening workflows.",
+          "Because 6-MAM can have a short detection window, a positive result may be meaningful, while a negative result does not always rule out previous exposure.",
+          "Results should be interpreted by trained professionals together with sample history, testing policy, chain-of-custody requirements where applicable, and confirmatory methods when needed.",
+        ],
+      },
+      resultInterpretation: {
+        title: "Result Interpretation",
+        positive:
+          "A positive result suggests that 6-MAM may be present in the urine specimen at or above the stated cut-off. The result should be treated as preliminary unless confirmed by a validated laboratory method.",
+        negative:
+          "A negative result suggests that 6-MAM was not detected or was below the test detection level at the time of testing. It does not always rule out previous exposure.",
+        invalid:
+          "If the control indicator does not appear, the result is invalid. The test should be repeated with a new 6-MAM Rapid Test Device and a suitable urine specimen.",
+      },
+      limitations: {
+        title: "Limitations and Precautions",
+        description:
+          "The 6-MAM Rapid Test Device is a professional screening-support test. It should not replace confirmatory testing, medical judgment, laboratory policy, or legal procedures where those are required.",
+        guidance: [
+          "Use only for professional in vitro diagnostic screening support",
+          "Follow the official product insert carefully",
+          "Do not use expired or damaged devices",
+          "Do not reuse the test device",
+          "Avoid contaminated samples",
+          "Interpret results within the recommended time only",
+          "Confirm positive results through appropriate laboratory methods where required",
+        ],
+      },
+      storage: {
+        title: "Storage and Handling",
+        instructions: [
+          "Store in a clean and dry place",
+          "Keep away from direct sunlight",
+          "Protect from excessive heat and moisture",
+          "Keep sealed until use",
+          "Use before the expiry date",
+          "Do not use if the pouch is damaged",
+          "Follow the printed temperature range on the pack",
+        ],
+      },
+      whyChoose: {
+        title: "Why Choose Ivexia Pharma 6-MAM Rapid Test Device?",
+        description:
+          "Ivexia Pharma provides diagnostic products for international healthcare, laboratory, and distribution markets with a focus on professional product presentation and dependable screening support.",
+        advantages: [
+          "Urine-based rapid screening format",
+          "50 ng/mL cut-off level",
+          "Targets 6-Monoacetylmorphine specifically",
+          "Supports heroin metabolite screening",
+          "Suitable for drug of abuse testing programs",
+          "Useful for professional laboratory workflows",
+          "International product positioning under Ivexia Pharma",
+        ],
+      },
+    },
+    faqs: [
+      {
+        question: "What does 6-MAM mean on a drug test?",
+        answer:
+          "6-MAM means 6-Monoacetylmorphine, also called 6-Acetylmorphine. On a drug test, it refers to a heroin-specific metabolite that may require confirmatory testing.",
+      },
+      {
+        question: "What drug class is 6-MAM?",
+        answer:
+          "6-MAM belongs to the opiate or opioid metabolite category in drug testing. It is tested because it is associated with heroin metabolism.",
+      },
+      {
+        question: "What is the specimen type for this 6-MAM rapid test?",
+        answer:
+          "This Ivexia Pharma 6-MAM Rapid Test Device is designed for urine specimens. Other specimen types may require different validated testing methods.",
+      },
+      {
+        question: "What is the cut-off level of the 6-MAM Rapid Test Device?",
+        answer:
+          "The stated cut-off level is 50 ng/mL. Results should be interpreted according to the official product insert and laboratory policy.",
+      },
+      {
+        question: "Is a positive 6-MAM rapid test result final?",
+        answer:
+          "No. A positive rapid screening result is preliminary and may need confirmatory testing by a validated laboratory method, especially for legal, workplace, or compliance decisions.",
+      },
+    ],
+  }
+
   }
 };

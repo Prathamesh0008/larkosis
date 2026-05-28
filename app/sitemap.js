@@ -46,6 +46,18 @@ export default function sitemap() {
       priority: 0.8,
     },
     {
+      url: absoluteUrl("/over-the-counter"),
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: absoluteUrl("/private-label-manufacturing-oem"),
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: absoluteUrl("/contact"),
       lastModified: now,
       changeFrequency: "monthly",

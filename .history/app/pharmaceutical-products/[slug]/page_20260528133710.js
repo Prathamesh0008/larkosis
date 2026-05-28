@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { absoluteUrl } from "@/lib/seo";
-import PharmaHeroTabs from "@/components/pharma-hero-tabs";
 import {
   getAllPharmaceuticalProductDetails,
   getPharmaceuticalProductBySlug,
@@ -40,27 +39,6 @@ function formatInlineValue(value) {
 
 function isProductNameLabel(label) {
   return String(label || "").trim().toLowerCase() === "product name";
-}
-
-function toFlatText(value) {
-  if (value == null) return "";
-  if (typeof value === "string" || typeof value === "number" || typeof value === "boolean") {
-    return String(value).trim();
-  }
-  if (Array.isArray(value)) {
-    return value.map((item) => toFlatText(item)).filter(Boolean).join(" ");
-  }
-  if (typeof value === "object") {
-    if ("label" in value && "value" in value) return toFlatText(value.value);
-    return Object.values(value).map((entry) => toFlatText(entry)).filter(Boolean).join(" ");
-  }
-  return "";
-}
-
-function findTabText(contentEntries, keyword, fallbackIndex) {
-  const match = contentEntries.find(([key]) => key.toLowerCase().includes(keyword));
-  if (match) return toFlatText(match[1]);
-  return toFlatText(contentEntries[fallbackIndex]?.[1]);
 }
 
 function renderValue(value, prefix) {
@@ -165,83 +143,79 @@ export default async function PharmaceuticalProductDetailPage({ params }) {
     ["Category", product.details?.meta?.category || product.catalog?.category || "None"],
     ["Form", product.details?.meta?.form || product.catalog?.form || "None"],
     ["Strength", product.details?.meta?.strength || product.catalog?.dosage || "None"],
+    ["CAS-ID", product.details?.meta?.cas || product.catalog?.casId || "None"],
   ].filter(([, value]) => formatInlineValue(value).trim());
-  const casInfo = ["CAS", product.details?.meta?.cas || product.catalog?.casId || "Combination"];
-  const leftInfo = [...topInfo, casInfo];
+  const overview = topInfo.slice(0, 4);
   const contentEntries = Object.entries(content);
-  const introText = findTabText(contentEntries, "intro", 0) || heroDescriptionText;
-  const indicationsText = findTabText(contentEntries, "indication", 1) || heroDescriptionText;
-  const maintenanceText = findTabText(contentEntries, "maintenance", 2) || heroDescriptionText;
-  const sectionIdByIndex = contentEntries.map(([_key], index) => {
-    if (index === 0) return "section-introduction";
-    if (index === 1) return "section-indications";
-    if (index === 2) return "section-maintenance";
-    return `section-${index + 1}`;
-  });
+  const contentSections = contentEntries.map(([key]) => ({
+    key,
+    title: toHeading(key),
+    id: `section-${key.replace(/[^a-zA-Z0-9_-]/g, "-")}`,
+  }));
 
   return (
     <div className="bg-[radial-gradient(circle_at_top_left,#eaf3ff_0%,#f6f9fd_45%,#f8fbff_100%)] pb-14 pt-8">
       <section className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="overflow-hidden rounded-3xl border border-[#d5deea] bg-white shadow-[0_20px_48px_rgba(15,53,88,0.1)]">
-          <div className="border-b border-[#e6ecf4] px-6 py-4 sm:px-8">
-            <nav className="flex items-center gap-2 text-sm text-[#6c7b8d]">
-              <Link href="/" className="hover:text-[#ec671f]">Home</Link>
-              <span>/</span>
-              <Link href="/pharmaceutical-products" className="hover:text-[#ec671f]">Pharmaceutical Products</Link>
-              <span>/</span>
-              <span className="truncate font-semibold text-[#1d4f91]">{name}</span>
-            </nav>
-          </div>
-          <div className="grid items-start gap-8 lg:grid-cols-[1.05fr_1fr]">
-            <div className="self-start border-b border-[#e5e9f0] bg-gradient-to-br from-[#f4f8ff] via-[#f8fbff] to-[#edf5ff] p-4 sm:p-5 lg:border-b-0 lg:border-r">
-              <div className="inline-block w-full rounded-xl bg-white/60 p-2.5">
-                <Image src="/product.png" alt={name} width={700} height={520} className="h-auto w-full rounded-xl object-contain" />
-              </div>
-              {leftInfo.length > 0 ? (
-                <div className="mt-3 grid gap-2 sm:grid-cols-2">
-                  {leftInfo.map(([label, value], idx) => (
-                    <div
-                      key={label}
-                      className={`rounded-md border border-[#dce7f5] bg-[#f6faff] px-3 py-2 ${idx === leftInfo.length - 1 ? "sm:col-span-1" : ""}`}
-                    >
-                      <p className="text-[9px] font-bold uppercase tracking-[0.1em] text-[#567293]">{label}</p>
-                      <p className="mt-0.5 text-sm font-semibold leading-tight text-[#0f172a]">{formatInlineValue(value)}</p>
+          <div className="grid gap-8 lg:grid-cols-[1.05fr_1fr]">
+            <div className="border-b border-[#e5e9f0] bg-gradient-to-br from-[#f4f8ff] via-[#f8fbff] to-[#edf5ff] p-6 sm:p-8 lg:border-b-0 lg:border-r">
+              <Image src="/product.png" alt={name} width={700} height={520} className="h-auto w-full rounded-2xl object-contain" />
+            </div>
+
+            <div className="p-6 sm:p-8">
+              <nav className="flex items-center gap-2 text-sm text-[#6c7b8d]">
+                <Link href="/" className="hover:text-[#ec671f]">Home</Link>
+                <span>/</span>
+                <Link href="/pharmaceutical-products" className="hover:text-[#ec671f]">Pharmaceutical Products</Link>
+                <span>/</span>
+                <span className="truncate font-semibold text-[#1d4f91]">{name}</span>
+              </nav>
+              <h1 className="mt-3 text-3xl font-bold leading-tight text-[#102a4c] sm:text-4xl">{heroTitle}</h1>
+              <p className="mt-4 text-sm leading-relaxed text-[#475569] sm:text-base">{heroDescriptionText}</p>
+
+              {overview.length > 0 ? (
+                <div className="mt-6 grid gap-3 sm:grid-cols-2">
+                  {overview.map(([label, value]) => (
+                    <div key={label} className="rounded-xl border border-[#dce7f5] bg-[#f6faff] p-3">
+                      <p className="text-[11px] font-bold uppercase tracking-[0.1em] text-[#567293]">{label}</p>
+                      <p className="mt-1 text-sm font-semibold text-[#0f172a]">{formatInlineValue(value)}</p>
                     </div>
                   ))}
                 </div>
               ) : null}
-            </div>
-
-            <div className="p-6 sm:p-8">
-              <h1 className="text-3xl font-bold leading-tight text-[#102a4c] sm:text-4xl">{heroTitle}</h1>
-              <p className="mt-4 text-sm leading-relaxed text-[#475569] sm:text-base">{heroDescriptionText}</p>
-
-              <PharmaHeroTabs
-                casValue=""
-                introText={introText}
-                indicationsText={indicationsText}
-                maintenanceText={maintenanceText}
-              />
             </div>
           </div>
         </div>
       </section>
 
       <section className="mx-auto mt-7 w-full max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="rounded-2xl border border-[#d5deea] bg-white px-5 py-5 shadow-sm sm:px-6">
-          <div className="space-y-4">
-            {contentEntries.map(([key, value], index) => (
+        <div className="rounded-2xl border border-[#d5deea] bg-white p-4 shadow-sm">
+          <h2 className="text-sm font-bold uppercase tracking-[0.1em] text-[#2c4f76]">Quick Navigation</h2>
+          <div className="flex flex-wrap gap-2">
+            {contentSections.map((section) => (
+              <a
+                key={section.id}
+                href={`#${section.id}`}
+                className="rounded-lg border border-[#dbe6f4] bg-[#f8fbff] px-3 py-1.5 text-xs font-semibold text-[#334155] transition-colors hover:border-[#1d4f91] hover:text-[#1d4f91]"
+              >
+                {section.title}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-5 space-y-4">
+          {contentEntries.map(([key, value]) => (
             <section
-              id={sectionIdByIndex[index]}
+              id={`section-${key.replace(/[^a-zA-Z0-9_-]/g, "-")}`}
               key={key}
               className="scroll-mt-24 rounded-2xl border border-[#d5deea] bg-white p-5 shadow-sm"
             >
               <h3 className="text-xl font-bold text-[#0f2f57]">{toHeading(key)}</h3>
-              <div className="mt-2 h-[2px] w-16 rounded-full " />
+              <div className="mt-2 h-[2px] w-16 rounded-full bg-gradient-to-r from-[#1d4f91] to-[#76a7e6]" />
               {renderValue(value, key)}
             </section>
-            ))}
-          </div>
+          ))}
         </div>
 
         {faqs.length > 0 ? (

@@ -65,7 +65,21 @@ export default function MobileMenu({ navLinks }) {
                       className="ml-4 mt-1 block rounded-lg px-3 py-2 text-sm font-medium text-[#5a3b2b] hover:bg-[#fff1e7] hover:text-[#ec671f] transition-colors"
                       onClick={() => setIsOpen(false)}
                     >
-                      Active Ingredients
+                      Active Pharmaceutical Ingredients
+                    </Link>
+                    <Link
+                      href="/over-the-counter"
+                      className="ml-4 mt-1 block rounded-lg px-3 py-2 text-sm font-medium text-[#5a3b2b] hover:bg-[#fff1e7] hover:text-[#ec671f] transition-colors"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      Over-the-Counter
+                    </Link>
+                    <Link
+                      href="/private-label-manufacturing-oem"
+                      className="ml-4 mt-1 block rounded-lg px-3 py-2 text-sm font-medium text-[#5a3b2b] hover:bg-[#fff1e7] hover:text-[#ec671f] transition-colors"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      Private Label Manufacturing / OEM
                     </Link>
                   </>
                 ) : null}

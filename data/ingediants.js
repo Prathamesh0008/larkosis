@@ -5327,7 +5327,7 @@ export const en = {
   },
 };
 
-// Normalized products list for dropdowns (e.g., "Add Active Ingredients" forms).
+// Normalized products list for dropdowns (e.g., "Add Active Pharmaceutical Ingredients" forms).
 export const INGREDIENT_PRODUCTS = Object.entries(en.ingredients)
   .map(([slug, ingredient]) => ({
     value: slug,

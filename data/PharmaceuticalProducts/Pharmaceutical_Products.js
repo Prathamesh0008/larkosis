@@ -23741,7 +23741,7 @@ export const en = {
         "manufacturing": [
           "Manufactured in WHO-GMP certified facilities",
           "Sterile aseptic production process",
-          "High-quality active ingredients",
+          "High-quality Active Pharmaceutical Ingredients",
           "Strict quality control systems",
           "Complies with global regulatory standards"
         ],
@@ -23937,7 +23937,7 @@ export const en = {
         "manufacturing": [
           "Manufactured in WHO-GMP certified facilities",
           "Sterile production environment",
-          "High-quality active ingredients",
+          "High-quality Active Pharmaceutical Ingredients",
           "Strict quality control processes",
           "Tested for sterility, safety, and efficacy"
         ],

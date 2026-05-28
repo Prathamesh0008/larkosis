@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { absoluteUrl } from "@/lib/seo";
+import GoToTopButton from "@/components/go-to-top-button";
+import ActiveIngredientSectionNav from "@/components/active-ingredient-section-nav";
 import { getActiveIngredientBySlug, getAllActiveIngredients } from "@/lib/ingredients";
 
 function hasAnyRenderableField(block) {
@@ -44,7 +46,7 @@ export async function generateMetadata({ params }) {
       canonical: `/active-ingredients/${ingredient.slug}`,
     },
     openGraph: {
-      title: `${ingredient.name} | Active Ingredients`,
+      title: `${ingredient.name} | Active Pharmaceutical Ingredients`,
       description: ingredient.metaDescription,
       url: absoluteUrl(`/active-ingredients/${ingredient.slug}`),
       type: "article",
@@ -61,155 +63,187 @@ export default async function ActiveIngredientDetailPage({ params }) {
   const contentBlocks = Object.values(ingredient.raw?.content || {}).filter(hasAnyRenderableField);
   const faqs = Array.isArray(ingredient.raw?.faqs) ? ingredient.raw.faqs : [];
   const topInfo = getTopInfo(ingredient.productInformation);
+  const blockNav = contentBlocks
+    .map((block, index) => ({
+      id: `block-${index + 1}`,
+      title: block.title || `Section ${index + 1}`,
+    }))
+    .filter((item) => item.title);
 
   return (
-    <div className="bg-[#fff9f6] pb-12">
-      <section className="border-b border-[#efd8cb] bg-gradient-to-r from-[#fff4ec] via-[#fff9f6] to-[#edf6ff]">
-        <div className="mx-auto w-full max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-          <nav className="mb-5 flex items-center gap-2 text-sm text-[#7d5a47]">
+    <div id="page-top" className="bg-[#f3f6fb] pb-12 pt-8">
+      <section className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="overflow-hidden rounded-2xl bg-white p-6 shadow-sm ring-1 ring-[#dbe4f0] sm:p-8">
+          <div className="border-b border-[#e6ecf4] px-6 py-4 sm:px-8">
+            <nav className="flex items-center gap-2 text-sm text-[#6c7b8d]">
             <Link href="/" className="hover:text-[#ec671f]">Home</Link>
             <span>/</span>
-            <Link href="/active-ingredients" className="hover:text-[#ec671f]">Active Ingredients</Link>
+              <Link href="/active-ingredients" className="hover:text-[#ec671f]">Active Pharmaceutical Ingredients</Link>
             <span>/</span>
-            <span className="font-semibold text-[#ec671f]">{ingredient.name}</span>
+              <span className="truncate font-semibold text-[#1d4f91]">{ingredient.name}</span>
           </nav>
+          </div>
 
-          <div className="grid items-center gap-8 lg:grid-cols-[280px_1fr]">
-            <div className="mx-auto w-full max-w-[260px] rounded-2xl border border-[#f0d8ca] bg-white p-4 shadow-sm">
+          <div className="grid gap-8 lg:grid-cols-[360px_1fr]">
+            <div className="flex min-h-[320px] items-center justify-center rounded-xl bg-[#f7faff] p-4 ring-1 ring-[#e2eaf5]">
               <Image
                 src="/product.png"
                 alt={ingredient.name}
-                width={500}
-                height={500}
-                className="h-auto w-full rounded-xl object-cover"
+                width={700}
+                height={520}
+                className="h-auto w-full rounded-lg object-contain"
               />
             </div>
 
             <div>
-              <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#0f3558]">Active Ingredient</p>
-              <h1 className="mt-2 text-3xl font-bold text-[#1e1f22] sm:text-4xl">{ingredient.name}</h1>
-              <p className="mt-4 max-w-4xl text-sm leading-relaxed text-[#4f433c] sm:text-base">
+              <h1 className="mt-3 text-3xl font-bold leading-tight text-[#102a4c] sm:text-4xl">{ingredient.name}</h1>
+              <p className="mt-4 max-w-4xl text-sm leading-relaxed text-[#475569] sm:text-base">
                 {ingredient.description}
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section className="mx-auto mt-8 w-full max-w-7xl px-4 sm:px-6 lg:px-8">
-        <h2 className="text-center text-xl font-bold text-[#1f1f1f]">Complete Product Details</h2>
-
-        {topInfo.length > 0 ? (
-          <div className="mt-5 overflow-hidden rounded-2xl border border-[#d7e2ea] bg-white shadow-sm">
-            <div className="grid grid-cols-1 divide-y divide-[#d7e2ea] sm:grid-cols-2 sm:divide-x sm:divide-y-0">
-              {topInfo.map((item, idx) => (
-                <div key={`${item.label}-${idx}`} className="px-5 py-4">
-                  <p className="text-xs font-semibold uppercase tracking-wider text-[#0f3558]">{item.label}</p>
-                  <p className="mt-1 text-sm text-[#2f2b29]">{item.value}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        ) : null}
-
-        {ingredient.productInformation.length > 0 ? (
-          <div className="mt-5 overflow-hidden rounded-2xl border border-[#c9d9e6] bg-white shadow-sm">
-            <div className="bg-[#0f3558] px-5 py-3 text-sm font-semibold text-white">Technical Information</div>
-            <table className="min-w-full divide-y divide-[#d2dee9]">
-              <tbody className="divide-y divide-[#d2dee9]">
-                {ingredient.productInformation.map((item, idx) => (
-                  <tr key={`${item.label}-${idx}`} className="bg-[#fbfdff]">
-                    <td className="w-56 px-5 py-3 text-sm font-semibold text-[#0f3558]">{item.label}</td>
-                    <td className="px-5 py-3 text-sm text-[#2e2e2e]">{item.value}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        ) : null}
-
-        <div className="mt-5 space-y-4">
-          {contentBlocks.map((block, blockIndex) => (
-            <section
-              key={`${block.title || "content"}-${blockIndex}`}
-              className="rounded-2xl border border-[#ecd7ca] bg-white p-5 shadow-sm"
-            >
-              {block.title ? <h3 className="text-lg font-bold text-[#1e1e1e]">{block.title}</h3> : null}
-
-              {block.description ? (
-                <p className="mt-3 text-sm leading-relaxed text-[#4f433c]">{block.description}</p>
-              ) : null}
-
-              {Array.isArray(block.details) && block.details.length > 0 ? (
-                <div className="mt-4 grid gap-3 sm:grid-cols-2">
-                  {block.details.map((item, itemIndex) => (
-                    <div
-                      key={`${block.title || blockIndex}-detail-${itemIndex}`}
-                      className="rounded-xl border border-[#edf0f2] bg-[#fcfefe] p-3"
-                    >
-                      <p className="text-xs font-semibold uppercase tracking-wider text-[#0f3558]">{item.label}</p>
-                      <p className="mt-1 text-sm text-[#2f2b29]">{item.value}</p>
+              {topInfo.length > 0 ? (
+                <div className="mt-6 grid gap-3 sm:grid-cols-2">
+                  {topInfo.slice(0, 4).map((item, idx) => (
+                    <div key={`${item.label}-${idx}`} className="rounded-lg bg-[#f7faff] p-3 ring-1 ring-[#dfe8f4]">
+                      <p className="text-[11px] font-bold uppercase tracking-[0.08em] text-[#5c7390]">{item.label}</p>
+                      <p className="mt-1 text-sm font-semibold text-[#0f172a]">{item.value}</p>
                     </div>
                   ))}
                 </div>
               ) : null}
-
-              {Array.isArray(block.sections) && block.sections.length > 0 ? (
-                <div className="mt-3 space-y-2 text-sm leading-relaxed text-[#4f433c]">
-                  {block.sections.map((line, index) => (
-                    <p key={`${block.title || blockIndex}-section-${index}`}>{line}</p>
-                  ))}
-                </div>
-              ) : null}
-
-              {Array.isArray(block.points) && block.points.length > 0 ? (
-                <ul className="mt-3 list-disc space-y-1.5 pl-5 text-sm text-[#4f433c] marker:text-[#ec671f]">
-                  {block.points.map((point, index) => (
-                    <li key={`${block.title || blockIndex}-point-${index}`}>{point}</li>
-                  ))}
-                </ul>
-              ) : null}
-
-              {Array.isArray(block.instructions) && block.instructions.length > 0 ? (
-                <ul className="mt-3 list-disc space-y-1.5 pl-5 text-sm text-[#4f433c] marker:text-[#ec671f]">
-                  {block.instructions.map((line, index) => (
-                    <li key={`${block.title || blockIndex}-instruction-${index}`}>{line}</li>
-                  ))}
-                </ul>
-              ) : null}
-            </section>
-          ))}
+            </div>
+          </div>
         </div>
+      </section>
 
-        {faqs.length > 0 ? (
-          <section className="mt-5 rounded-2xl border border-[#ecd7ca] bg-white p-5 shadow-sm">
-            <h3 className="text-lg font-bold text-[#1e1e1e]">Frequently Asked Questions</h3>
-            <div className="mt-4 space-y-3">
-              {faqs.map((faq, index) => (
-                <details
-                  key={`faq-${index}`}
-                  className="group rounded-xl border border-[#e7d5c8] bg-[#fffaf6] p-4 transition-all hover:border-[#ec671f]/30"
+      <section className="mx-auto mt-6 grid w-full max-w-7xl gap-6 px-4 sm:px-6 lg:grid-cols-[220px_1fr] lg:px-8">
+        <aside className="hide-scrollbar h-fit rounded-xl bg-white p-4 shadow-sm ring-1 ring-[#dbe4f0] lg:sticky lg:top-24 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto">
+          <ActiveIngredientSectionNav sections={blockNav} includeFaq={faqs.length > 0} />
+        </aside>
+
+        <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-[#dbe4f0] sm:p-6">
+          <div className="space-y-0">
+            {topInfo.length > 0 ? (
+              <div>
+              <h2 className="text-sm font-bold uppercase tracking-[0.1em] text-[#2c4f76]">Key Information</h2>
+              <div className="mt-3 grid gap-3 sm:grid-cols-2">
+                {topInfo.map((item, idx) => (
+                  <div key={`${item.label}-${idx}`} className="rounded-lg bg-[#f7faff] p-3 ring-1 ring-[#dfe8f4]">
+                    <p className="text-[11px] font-bold uppercase tracking-[0.08em] text-[#5c7390]">{item.label}</p>
+                    <p className="mt-1 text-sm font-semibold text-[#102a4c]">{item.value}</p>
+                  </div>
+                ))}
+              </div>
+              </div>
+            ) : null}
+
+            {ingredient.productInformation.length > 0 ? (
+              <div className="mt-6 overflow-hidden border-t border-[#e3ebf5] pt-6">
+                <div className="border-b border-[#dfe8f4] bg-[#f7fbff] px-5 py-3 text-sm font-bold uppercase tracking-[0.1em] text-[#2f5379]">
+                Technical Information
+              </div>
+              <table className="min-w-full divide-y divide-[#e3ebf5]">
+                <tbody className="divide-y divide-[#e3ebf5]">
+                  {ingredient.productInformation.map((item, idx) => (
+                    <tr key={`${item.label}-${idx}`} className="bg-white odd:bg-[#fbfdff]">
+                      <td className="w-56 px-5 py-3 text-sm font-semibold text-[#0f3558]">{item.label}</td>
+                      <td className="px-5 py-3 text-sm text-[#2e3b4d]">{item.value}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+              </div>
+            ) : null}
+
+            <div className="mt-6 space-y-0 border-t border-[#e3ebf5] pt-6">
+              {contentBlocks.map((block, blockIndex) => (
+                <section
+                  id={`block-${blockIndex + 1}`}
+                  key={`${block.title || "content"}-${blockIndex}`}
+                  className={`scroll-mt-24 ${blockIndex > 0 ? "mt-6 border-t border-[#e3ebf5] pt-6" : ""}`}
                 >
-                  <summary className="flex cursor-pointer list-none items-center justify-between text-sm font-semibold text-[#3b2f28]">
-                    <span className="pr-3">{faq.question}</span>
-                    <svg
-                      className="h-4 w-4 text-[#ec671f] transition-transform group-open:rotate-180"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                    </svg>
-                  </summary>
-                  <p className="mt-3 border-t border-[#eddccf] pt-3 text-sm leading-relaxed text-[#5a4a3e]">
-                    {faq.answer}
-                  </p>
-                </details>
+                  {block.title ? (
+                    <>
+                      <h3 className="text-xl font-bold text-[#0f2f57]">{block.title}</h3>
+                    </>
+                  ) : null}
+
+                  {block.description ? (
+                    <p className="mt-3 text-sm leading-relaxed text-[#475569]">{block.description}</p>
+                  ) : null}
+
+                  {Array.isArray(block.details) && block.details.length > 0 ? (
+                    <div className="mt-4 grid gap-3 sm:grid-cols-2">
+                      {block.details.map((item, itemIndex) => (
+                        <div
+                          key={`${block.title || blockIndex}-detail-${itemIndex}`}
+                          className="rounded-lg bg-[#f7faff] p-3 ring-1 ring-[#dfe8f4]"
+                        >
+                          <p className="text-xs font-semibold uppercase tracking-wider text-[#325a84]">{item.label}</p>
+                          <p className="mt-1 text-sm text-[#1f2d3b]">{item.value}</p>
+                        </div>
+                      ))}
+                    </div>
+                  ) : null}
+
+                  {Array.isArray(block.sections) && block.sections.length > 0 ? (
+                    <div className="mt-3 space-y-2 text-sm leading-relaxed text-[#475569]">
+                      {block.sections.map((line, index) => (
+                        <p key={`${block.title || blockIndex}-section-${index}`}>{line}</p>
+                      ))}
+                    </div>
+                  ) : null}
+
+                  {Array.isArray(block.points) && block.points.length > 0 ? (
+                    <ul className="mt-3 list-disc space-y-1.5 pl-5 text-sm text-[#475569] marker:text-[#ec671f]">
+                      {block.points.map((point, index) => (
+                        <li key={`${block.title || blockIndex}-point-${index}`}>{point}</li>
+                      ))}
+                    </ul>
+                  ) : null}
+
+                  {Array.isArray(block.instructions) && block.instructions.length > 0 ? (
+                    <ul className="mt-3 list-disc space-y-1.5 pl-5 text-sm text-[#475569] marker:text-[#ec671f]">
+                      {block.instructions.map((line, index) => (
+                        <li key={`${block.title || blockIndex}-instruction-${index}`}>{line}</li>
+                      ))}
+                    </ul>
+                  ) : null}
+                </section>
               ))}
             </div>
-          </section>
-        ) : null}
+
+            {faqs.length > 0 ? (
+              <section id="faq" className="mt-6 border-t border-[#e3ebf5] pt-6">
+                <h3 className="text-xl font-bold text-[#0f2f57]">Frequently Asked Questions</h3>
+                <p className="mt-1 text-sm text-[#64748b]">Click any question to expand the answer.</p>
+                <div className="mt-4 space-y-3">
+                  {faqs.map((faq, index) => (
+                    <details
+                      key={`faq-${index}`}
+                      className="group rounded-lg bg-[#f7faff] p-4 ring-1 ring-[#dde6f3]"
+                    >
+                      <summary className="flex cursor-pointer list-none items-center justify-between text-sm font-semibold text-[#0f172a]">
+                        <span className="pr-3">{faq.question}</span>
+                        <span className="text-[#1d4f91] group-open:hidden">+</span>
+                        <span className="hidden text-[#1d4f91] group-open:block">-</span>
+                      </summary>
+                      <div className="grid grid-rows-[0fr] transition-all duration-300 ease-in-out group-open:grid-rows-[1fr]">
+                        <div className="overflow-hidden">
+                          <p className="mt-3 border-t border-[#dbe4f0] pt-3 text-sm leading-relaxed text-[#334155]">
+                            {faq.answer}
+                          </p>
+                        </div>
+                      </div>
+                    </details>
+                  ))}
+                </div>
+              </section>
+            ) : null}
+          </div>
+        </div>
       </section>
+      <GoToTopButton />
     </div>
   );
 }
