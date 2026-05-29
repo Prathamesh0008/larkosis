@@ -234,38 +234,37 @@ export default async function PharmaceuticalProductDetailPage({ params }) {
             <section
               id={sectionIdByIndex[index]}
               key={key}
-              className="scroll-mt-24 rounded-2xl border border-[#d5deea] bg-white p-5 shadow-sm"
+              className={`scroll-mt-24 py-3 ${index > 0 ? "border-t border-[#e3ebf5] pt-6" : ""}`}
             >
               <h3 className="text-xl font-bold text-[#0f2f57]">{toHeading(key)}</h3>
-              <div className="mt-2 h-[2px] w-16 rounded-full " />
               {renderValue(value, key)}
             </section>
             ))}
           </div>
-        </div>
 
-        {faqs.length > 0 ? (
-          <section className="mt-5 rounded-2xl border border-[#d5deea] bg-white p-5 shadow-sm">
-            <h3 className="text-xl font-bold text-[#0f2f57]">Frequently Asked Questions</h3>
-            <p className="mt-1 text-sm text-[#64748b]">Common product and supply questions.</p>
-            <div className="mt-4 space-y-3">
-              {faqs.map((faq, index) => (
-                <details key={`faq-${index}`} className="group rounded-xl border border-[#dbe5f3] bg-gradient-to-r from-[#f8fbff] to-[#f2f7ff] p-4">
-                  <summary className="flex cursor-pointer list-none items-center justify-between text-sm font-semibold text-[#0f172a]">
-                    <span className="pr-3">{faq.question}</span>
-                    <span className="text-[#1d4f91] group-open:hidden">+</span>
-                    <span className="hidden text-[#1d4f91] group-open:block">-</span>
-                  </summary>
-                  <div className="grid grid-rows-[0fr] transition-all duration-300 ease-in-out group-open:grid-rows-[1fr]">
-                    <div className="overflow-hidden">
-                      <p className="mt-3 border-t border-[#dbe2ea] pt-3 text-sm leading-relaxed text-[#334155]">{faq.answer}</p>
+          {faqs.length > 0 ? (
+            <section className="mt-4 border-t border-[#e3ebf5] pt-6">
+              <h3 className="text-xl font-bold text-[#0f2f57]">Frequently Asked Questions</h3>
+              <p className="mt-1 text-sm text-[#64748b]">Common product and supply questions.</p>
+              <div className="mt-4 space-y-3">
+                {faqs.map((faq, index) => (
+                  <details key={`faq-${index}`} className="group border-b border-[#e5edf6] pb-3">
+                    <summary className="flex cursor-pointer list-none items-center justify-between text-sm font-semibold text-[#0f172a]">
+                      <span className="pr-3">{faq.question}</span>
+                      <span className="text-[#1d4f91] group-open:hidden">+</span>
+                      <span className="hidden text-[#1d4f91] group-open:block">-</span>
+                    </summary>
+                    <div className="grid grid-rows-[0fr] transition-all duration-300 ease-in-out group-open:grid-rows-[1fr]">
+                      <div className="overflow-hidden">
+                        <p className="mt-3 text-sm leading-relaxed text-[#334155]">{faq.answer}</p>
+                      </div>
                     </div>
-                  </div>
-                </details>
-              ))}
-            </div>
-          </section>
-        ) : null}
+                  </details>
+                ))}
+              </div>
+            </section>
+          ) : null}
+        </div>
       </section>
     </div>
   );
