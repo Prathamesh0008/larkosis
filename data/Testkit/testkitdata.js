@@ -1,21 +1,21 @@
-//data3\languages\en.js
+﻿//data3\languages\en.js
 export const en = {
   "testKits": {
     "lh-ovulation-strip": {
       "meta": {
-        "title": "LH One Step Ovulation Test Strip – Urine Fertility Test | Ivexia Pharma",
-        "description": "Ivexia Pharma offers LH One Step Ovulation Test Strip for urine-based ovulation prediction using colloidal gold method. A fertility rapid test strip for detecting LH surge and supporting reproductive health screening."
+        "title": "LH One Step Ovulation Test Strip â€“ Urine Fertility Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers LH One Step Ovulation Test Strip for urine-based ovulation prediction using colloidal gold method. A fertility rapid test strip for detecting LH surge and supporting reproductive health screening."
       },
       "hero": {
         "title": "LH One Step Ovulation Test Strip",
-        "description": "LH One Step Ovulation Test Strip (Urine) by Ivexia Pharma is a rapid fertility diagnostic strip designed for the qualitative detection of luteinizing hormone (LH) in urine. Developed using the colloidal gold immunochromatographic method, this LH One Step Ovulation Test Strip helps identify the LH surge that occurs before ovulation. The product is suitable for fertility clinics, gynecology centers, diagnostic laboratories, hospitals, women’s health programs, and international healthcare distributors."
+        "description": "LH One Step Ovulation Test Strip (Urine) by LARKSOIS Pharma is a rapid fertility diagnostic strip designed for the qualitative detection of luteinizing hormone (LH) in urine. Developed using the colloidal gold immunochromatographic method, this LH One Step Ovulation Test Strip helps identify the LH surge that occurs before ovulation. The product is suitable for fertility clinics, gynecology centers, diagnostic laboratories, hospitals, womenâ€™s health programs, and international healthcare distributors."
       },
       "content": {
         "introduction": {
           "title": "Introduction",
           "sections": [
             "The LH One Step Ovulation Test Strip (Urine) is a fertility diagnostic product used to help predict ovulation by detecting a rise in luteinizing hormone, commonly known as LH, in urine. Ovulation home tests detect a rise in LH in urine, and this rise signals the ovary to release an egg.",
-            "The LH One Step Ovulation Test Strip by Ivexia Pharma is designed for simple urine sample testing, rapid visual results, and convenient fertility tracking. This strip format is compact, easy to use, and suitable for professional as well as approved self-testing markets, depending on local regulatory requirements.",
+            "The LH One Step Ovulation Test Strip by LARKSOIS Pharma is designed for simple urine sample testing, rapid visual results, and convenient fertility tracking. This strip format is compact, easy to use, and suitable for professional as well as approved self-testing markets, depending on local regulatory requirements.",
             "In fertility planning, detecting the LH surge is useful because it helps identify the most fertile days of the menstrual cycle. A positive ovulation test may indicate that ovulation could occur in the next 24 to 36 hours, although this may vary from person to person."
           ]
         },
@@ -28,7 +28,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -55,7 +55,7 @@ export const en = {
               "value": "Ovulation prediction and fertility window support"
             }
           ],
-          "note": "The LH One Step Ovulation Test Strip is a qualitative rapid test. It does not measure the exact numeric LH level. Instead, it helps show whether LH has reached a surge level according to the product’s validated sensitivity."
+          "note": "The LH One Step Ovulation Test Strip is a qualitative rapid test. It does not measure the exact numeric LH level. Instead, it helps show whether LH has reached a surge level according to the productâ€™s validated sensitivity."
         },
         "whatIsLH": {
           "title": "What is LH?",
@@ -67,7 +67,7 @@ export const en = {
           "applications": [
             "Ovulation prediction",
             "Fertility tracking",
-            "Women’s reproductive health screening",
+            "Womenâ€™s reproductive health screening",
             "Gynecology clinic testing",
             "Fertility center support",
             "Diagnostic laboratory use",
@@ -76,14 +76,14 @@ export const en = {
         },
         "method": {
           "title": "Method: Colloidal Gold",
-          "description": "The LH One Step Ovulation Test Strip by Ivexia Pharma uses the colloidal gold method. In this rapid immunochromatographic method, LH in the urine sample reacts with specific antibodies on the strip. If LH is present at or above the test’s detection level, a visible test line appears along with the control line.",
+          "description": "The LH One Step Ovulation Test Strip by LARKSOIS Pharma uses the colloidal gold method. In this rapid immunochromatographic method, LH in the urine sample reacts with specific antibodies on the strip. If LH is present at or above the testâ€™s detection level, a visible test line appears along with the control line.",
           "benefits": [
             "Fast visual result format",
             "Simple strip-based testing",
             "No complex instrument required",
             "Suitable for urine sample testing",
             "Compact and easy to distribute",
-            "Useful for fertility and women’s health programs",
+            "Useful for fertility and womenâ€™s health programs",
             "Practical for international diagnostic markets"
           ]
         },
@@ -96,7 +96,7 @@ export const en = {
             "Avoid excessive fluid intake before testing",
             "Test around the same time each day during the fertile window",
             "Read results within the instructed time window",
-            "Follow the Ivexia Pharma product insert carefully"
+            "Follow the LARKSOIS Pharma product insert carefully"
           ],
           "note": "Do not drink large amounts of fluids before using an ovulation test because diluted urine may affect LH detection."
         },
@@ -111,7 +111,7 @@ export const en = {
             "Remove and place it on a clean, flat surface",
             "Read the result within the approved time window"
           ],
-          "note": "The exact procedure should follow the official Ivexia Pharma product insert. A typical LH One Step Ovulation Test Strip workflow may include dipping the strip in urine for 15–20 seconds, placing it on a flat surface, and reading results within the stated time."
+          "note": "The exact procedure should follow the official LARKSOIS Pharma product insert. A typical LH One Step Ovulation Test Strip workflow may include dipping the strip in urine for 15â€“20 seconds, placing it on a flat surface, and reading results within the stated time."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -139,7 +139,7 @@ export const en = {
         "precautions": {
           "title": "Precautions",
           "instructions": [
-            "Follow the official Ivexia Pharma product insert carefully",
+            "Follow the official LARKSOIS Pharma product insert carefully",
             "Use urine specimen only",
             "Do not use damaged or expired strips",
             "Do not read results outside the approved time window",
@@ -149,16 +149,16 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma LH One Step Ovulation Test Strip?",
-          "description": "Ivexia Pharma offers fertility diagnostic products for international healthcare markets. The LH One Step Ovulation Test Strip (Urine) is designed for reliable ovulation prediction support, convenient urine testing, and simple result interpretation.",
+          "title": "Why Choose LARKSOIS Pharma LH One Step Ovulation Test Strip?",
+          "description": "LARKSOIS Pharma offers fertility diagnostic products for international healthcare markets. The LH One Step Ovulation Test Strip (Urine) is designed for reliable ovulation prediction support, convenient urine testing, and simple result interpretation.",
           "advantages": [
             "Urine-based ovulation test strip",
             "Colloidal gold rapid test method",
             "Simple visual result format",
             "Compact strip design",
             "Suitable for fertility clinics and diagnostic centers",
-            "Useful for women’s health screening programs",
-            "International product positioning under Ivexia Pharma"
+            "Useful for womenâ€™s health screening programs",
+            "International product positioning under LARKSOIS Pharma"
           ]
         }
       },
@@ -233,19 +233,19 @@ export const en = {
     },
     "lh-ovulation-device": {
       "meta": {
-        "title": "LH One Step Ovulation Test Device – Urine Fertility Test | Ivexia Pharma",
-        "description": "Ivexia Pharma offers LH One Step Ovulation Test Device for urine-based ovulation prediction using colloidal gold method with 30 mIU/mL cut-off. Suitable for fertility clinics, diagnostic use, and global healthcare markets."
+        "title": "LH One Step Ovulation Test Device â€“ Urine Fertility Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers LH One Step Ovulation Test Device for urine-based ovulation prediction using colloidal gold method with 30 mIU/mL cut-off. Suitable for fertility clinics, diagnostic use, and global healthcare markets."
       },
       "hero": {
         "title": "LH One Step Ovulation Test Device",
-        "description": "LH One Step Ovulation Test Device (Urine) by Ivexia Pharma is a rapid fertility diagnostic device designed for the qualitative detection of luteinizing hormone (LH) in urine. Developed using the colloidal gold immunochromatographic method, this LH One Step Ovulation Test Device helps identify the LH surge that occurs before ovulation. With a 30 mIU/mL cut-off, the device supports women’s fertility tracking, ovulation prediction, and reproductive health screening in clinics, fertility centers, diagnostic laboratories, hospitals, and international healthcare markets."
+        "description": "LH One Step Ovulation Test Device (Urine) by LARKSOIS Pharma is a rapid fertility diagnostic device designed for the qualitative detection of luteinizing hormone (LH) in urine. Developed using the colloidal gold immunochromatographic method, this LH One Step Ovulation Test Device helps identify the LH surge that occurs before ovulation. With a 30 mIU/mL cut-off, the device supports womenâ€™s fertility tracking, ovulation prediction, and reproductive health screening in clinics, fertility centers, diagnostic laboratories, hospitals, and international healthcare markets."
       },
       "content": {
         "introduction": {
           "title": "Introduction",
           "sections": [
             "The LH One Step Ovulation Test Device (Urine) is a fertility diagnostic product used to help predict ovulation by detecting a rise in luteinizing hormone in urine. LH is a reproductive hormone that increases sharply before ovulation.",
-            "The LH One Step Ovulation Test Device by Ivexia Pharma is designed for simple urine-based testing and visual result interpretation. It uses the colloidal gold method, a common rapid immunochromatographic technology used in point-of-care diagnostic products.",
+            "The LH One Step Ovulation Test Device by LARKSOIS Pharma is designed for simple urine-based testing and visual result interpretation. It uses the colloidal gold method, a common rapid immunochromatographic technology used in point-of-care diagnostic products.",
             "In fertility planning, identifying the LH surge is important because it helps estimate the most fertile window. Urine ovulation tests measure LH to detect the LH surge that happens in the middle of the menstrual cycle, usually before ovulation."
           ]
         },
@@ -258,7 +258,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -289,7 +289,7 @@ export const en = {
               "value": "Ovulation prediction and fertility window support"
             }
           ],
-          "note": "The LH One Step Ovulation Test Device is a qualitative test. It does not measure the exact numeric LH level; instead, it indicates whether LH is detected at or above the product’s cut-off level."
+          "note": "The LH One Step Ovulation Test Device is a qualitative test. It does not measure the exact numeric LH level; instead, it indicates whether LH is detected at or above the productâ€™s cut-off level."
         },
         "whatIsLH": {
           "title": "What is LH?",
@@ -301,7 +301,7 @@ export const en = {
           "applications": [
             "Fertility tracking",
             "Ovulation prediction",
-            "Women’s reproductive health testing",
+            "Womenâ€™s reproductive health testing",
             "Gynecology clinic testing",
             "Fertility center use",
             "Diagnostic laboratory support",
@@ -310,7 +310,7 @@ export const en = {
         },
         "method": {
           "title": "Method: Colloidal Gold",
-          "description": "The LH One Step Ovulation Test Device by Ivexia Pharma uses the colloidal gold immunochromatographic method. In this method, specific antibodies react with LH in the urine sample. If LH is present at or above the test cut-off, a visible test line appears along with the control line.",
+          "description": "The LH One Step Ovulation Test Device by LARKSOIS Pharma uses the colloidal gold immunochromatographic method. In this method, specific antibodies react with LH in the urine sample. If LH is present at or above the test cut-off, a visible test line appears along with the control line.",
           "benefits": [
             "Fast visual result format",
             "Simple urine-based testing",
@@ -328,7 +328,7 @@ export const en = {
             "Use a clean and dry urine container",
             "Avoid drinking large amounts of fluids before testing",
             "Test at the same time each day during the fertile window",
-            "Follow the Ivexia Pharma product insert carefully",
+            "Follow the LARKSOIS Pharma product insert carefully",
             "Read the result only within the approved time window",
             "Do not reuse the test device"
           ],
@@ -336,7 +336,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 30 mIU/mL",
-          "content": "The LH One Step Ovulation Test Device by Ivexia Pharma has a stated 30 mIU/mL cut-off. This means the device is designed to detect an LH surge when urine LH reaches or exceeds the validated threshold. Ivexia Pharma should mention the exact sensitivity and cut-off only as confirmed by its final product IFU and technical documentation."
+          "content": "The LH One Step Ovulation Test Device by LARKSOIS Pharma has a stated 30 mIU/mL cut-off. This means the device is designed to detect an LH surge when urine LH reaches or exceeds the validated threshold. LARKSOIS Pharma should mention the exact sensitivity and cut-off only as confirmed by its final product IFU and technical documentation."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -349,7 +349,7 @@ export const en = {
             "Read the result within the stated time window",
             "Do not interpret results after the approved reading time"
           ],
-          "note": "The official Ivexia Pharma instructions for use should always be followed. Testing steps may vary depending on the final product design."
+          "note": "The official LARKSOIS Pharma instructions for use should always be followed. Testing steps may vary depending on the final product design."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -380,7 +380,7 @@ export const en = {
         "precautions": {
           "title": "Precautions",
           "instructions": [
-            "Follow the official Ivexia Pharma product insert carefully",
+            "Follow the official LARKSOIS Pharma product insert carefully",
             "Use urine specimen only",
             "Do not reuse the test device",
             "Do not use damaged or expired devices",
@@ -391,16 +391,16 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma LH One Step Ovulation Test Device?",
-          "description": "Ivexia Pharma provides fertility and diagnostic products for international healthcare markets. The LH One Step Ovulation Test Device (Urine) is designed for simple testing, fast results, and professional fertility screening support.",
+          "title": "Why Choose LARKSOIS Pharma LH One Step Ovulation Test Device?",
+          "description": "LARKSOIS Pharma provides fertility and diagnostic products for international healthcare markets. The LH One Step Ovulation Test Device (Urine) is designed for simple testing, fast results, and professional fertility screening support.",
           "advantages": [
             "Urine-based ovulation prediction device",
             "Colloidal gold rapid test method",
             "30 mIU/mL cut-off",
             "Simple visual result interpretation",
             "Suitable for fertility clinics and diagnostic centers",
-            "Useful for women’s health and reproductive care",
-            "International product positioning under Ivexia Pharma"
+            "Useful for womenâ€™s health and reproductive care",
+            "International product positioning under LARKSOIS Pharma"
           ]
         }
       },
@@ -475,12 +475,12 @@ export const en = {
     },
     "igfbp-1-strip": {
       "meta": {
-        "title": "iGFBP-1 Rapid Test Strip – Vaginal Secretion PROM Test | Ivexia Pharma",
-        "description": "Ivexia Pharma offers iGFBP-1 Rapid Test Strip for vaginal secretion samples using colloidal gold method. A professional maternal-care rapid test for PROM and rupture of membrane screening support."
+        "title": "iGFBP-1 Rapid Test Strip â€“ Vaginal Secretion PROM Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers iGFBP-1 Rapid Test Strip for vaginal secretion samples using colloidal gold method. A professional maternal-care rapid test for PROM and rupture of membrane screening support."
       },
       "hero": {
         "title": "iGFBP-1 Rapid Test Strip",
-        "description": "iGFBP-1 Rapid Test Strip (Vaginal Secretion) by Ivexia Pharma is a professional maternal-care diagnostic strip designed for the qualitative detection of insulin-like growth factor-binding protein 1 (IGFBP-1) in vaginal secretion samples. Developed using the colloidal gold immunochromatographic method, this iGFBP-1 Rapid Test Strip supports healthcare professionals in evaluating suspected rupture of fetal membranes (ROM) and premature rupture of membranes (PROM) during pregnancy. The strip format is simple, compact, and suitable for hospitals, maternity units, obstetric clinics, emergency departments, diagnostic laboratories, and international healthcare distributors."
+        "description": "iGFBP-1 Rapid Test Strip (Vaginal Secretion) by LARKSOIS Pharma is a professional maternal-care diagnostic strip designed for the qualitative detection of insulin-like growth factor-binding protein 1 (IGFBP-1) in vaginal secretion samples. Developed using the colloidal gold immunochromatographic method, this iGFBP-1 Rapid Test Strip supports healthcare professionals in evaluating suspected rupture of fetal membranes (ROM) and premature rupture of membranes (PROM) during pregnancy. The strip format is simple, compact, and suitable for hospitals, maternity units, obstetric clinics, emergency departments, diagnostic laboratories, and international healthcare distributors."
       },
       "content": {
         "introduction": {
@@ -488,7 +488,7 @@ export const en = {
           "sections": [
             "The iGFBP-1 Rapid Test Strip (Vaginal Secretion) is an important rapid diagnostic product used in pregnancy care and obstetric evaluation. IGFBP-1 stands for insulin-like growth factor-binding protein 1, a protein associated with the insulin-like growth factor system.",
             "In maternal-care diagnostics, IGFBP-1 is clinically important because it is present in amniotic fluid. When fetal membranes rupture, amniotic fluid may leak into the vaginal canal, allowing IGFBP-1 to be detected in vaginal secretion.",
-            "PROM diagnosis can be challenging when fluid leakage is unclear. The iGFBP-1 Rapid Test Strip by Ivexia Pharma is positioned as a professional rapid test for suspected ROM or PROM assessment support."
+            "PROM diagnosis can be challenging when fluid leakage is unclear. The iGFBP-1 Rapid Test Strip by LARKSOIS Pharma is positioned as a professional rapid test for suspected ROM or PROM assessment support."
           ]
         },
         "productOverview": {
@@ -500,11 +500,11 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
-              "value": "Fertility / Maternal Care / Women’s Health"
+              "value": "Fertility / Maternal Care / Womenâ€™s Health"
             },
             {
               "label": "Method",
@@ -539,7 +539,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Intended Use",
-          "description": "The iGFBP-1 Rapid Test Strip by Ivexia Pharma is intended for the qualitative detection of IGFBP-1 in vaginal secretion samples during pregnancy. It is used as a rapid screening aid in suspected PROM or ROM cases.",
+          "description": "The iGFBP-1 Rapid Test Strip by LARKSOIS Pharma is intended for the qualitative detection of IGFBP-1 in vaginal secretion samples during pregnancy. It is used as a rapid screening aid in suspected PROM or ROM cases.",
           "applications": [
             "Suspected rupture of fetal membranes",
             "Premature rupture of membranes assessment support",
@@ -566,7 +566,7 @@ export const en = {
         },
         "specimen": {
           "title": "Specimen: Vaginal Secretion",
-          "description": "The correct sample for the iGFBP-1 Rapid Test Strip is vaginal secretion or cervicovaginal secretion. Urine should not be listed as the specimen unless Ivexia Pharma has a separate validated urine-based product, which is not typical for PROM IGFBP-1 testing.",
+          "description": "The correct sample for the iGFBP-1 Rapid Test Strip is vaginal secretion or cervicovaginal secretion. Urine should not be listed as the specimen unless LARKSOIS Pharma has a separate validated urine-based product, which is not typical for PROM IGFBP-1 testing.",
           "guidance": [
             "Collect vaginal secretion using the recommended sterile swab",
             "Follow the product IFU carefully",
@@ -597,12 +597,12 @@ export const en = {
             "Place the strip on a clean, flat surface if required",
             "Read the result within the approved time window"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert or IFU supplied with the iGFBP-1 Rapid Test Strip."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert or IFU supplied with the iGFBP-1 Rapid Test Strip."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "A positive result usually means IGFBP-1 has been detected in the vaginal secretion sample. This may suggest amniotic fluid leakage and possible rupture of fetal membranes. The result should be reviewed by a healthcare professional.",
-          "negative": "A negative result usually means IGFBP-1 is not detected or is below the test’s detection level. This may support intact membranes, but clinical judgment is still required if symptoms continue.",
+          "negative": "A negative result usually means IGFBP-1 is not detected or is below the testâ€™s detection level. This may support intact membranes, but clinical judgment is still required if symptoms continue.",
           "invalid": "If the control indicator does not appear, the test is invalid. The test should be repeated with a new iGFBP-1 Rapid Test Strip and fresh sample according to the product IFU."
         },
         "storage": {
@@ -631,8 +631,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma iGFBP-1 Rapid Test Strip?",
-          "description": "Ivexia Pharma provides diagnostic products for international healthcare markets with a focus on reliable product positioning, professional usability, and global supply needs. The iGFBP-1 Rapid Test Strip (Vaginal Secretion) is designed for maternal-care settings where fast and practical screening support is required.",
+          "title": "Why Choose LARKSOIS Pharma iGFBP-1 Rapid Test Strip?",
+          "description": "LARKSOIS Pharma provides diagnostic products for international healthcare markets with a focus on reliable product positioning, professional usability, and global supply needs. The iGFBP-1 Rapid Test Strip (Vaginal Secretion) is designed for maternal-care settings where fast and practical screening support is required.",
           "advantages": [
             "Vaginal secretion-based PROM screening support",
             "Colloidal gold rapid test method",
@@ -640,7 +640,7 @@ export const en = {
             "Simple visual result interpretation",
             "Suitable for hospitals and maternity clinics",
             "Useful for obstetric emergency evaluation",
-            "International product positioning under Ivexia Pharma"
+            "International product positioning under LARKSOIS Pharma"
           ]
         }
       },
@@ -715,19 +715,19 @@ export const en = {
     },
     "igfbp-1-device": {
       "meta": {
-        "title": "IGFBP-1 Rapid Test Device – Vaginal Secretion PROM Test | Ivexia Pharma",
-        "description": "Ivexia Pharma offers IGFBP-1 Rapid Test Device for vaginal secretion samples using colloidal gold method. A professional rapid test for PROM/ROM assessment with 25 ng/ml cut-off."
+        "title": "IGFBP-1 Rapid Test Device â€“ Vaginal Secretion PROM Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers IGFBP-1 Rapid Test Device for vaginal secretion samples using colloidal gold method. A professional rapid test for PROM/ROM assessment with 25 ng/ml cut-off."
       },
       "hero": {
         "title": "IGFBP-1 Rapid Test Device",
-        "description": "IGFBP-1 Rapid Test Device (Vaginal Secretion) by Ivexia Pharma is a professional maternal-care diagnostic device designed for the qualitative detection of insulin-like growth factor-binding protein 1 (IGFBP-1) in vaginal secretion samples. Developed using the colloidal gold immunochromatographic method, this IGFBP-1 Rapid Test Device supports healthcare professionals in evaluating suspected rupture of fetal membranes (ROM) and premature rupture of membranes (PROM) during pregnancy. With a 25 ng/ml cut-off, the IGFBP-1 Rapid Test Device by Ivexia Pharma is suitable for hospitals, maternity units, obstetric clinics, emergency departments, diagnostic laboratories, and international healthcare distributors."
+        "description": "IGFBP-1 Rapid Test Device (Vaginal Secretion) by LARKSOIS Pharma is a professional maternal-care diagnostic device designed for the qualitative detection of insulin-like growth factor-binding protein 1 (IGFBP-1) in vaginal secretion samples. Developed using the colloidal gold immunochromatographic method, this IGFBP-1 Rapid Test Device supports healthcare professionals in evaluating suspected rupture of fetal membranes (ROM) and premature rupture of membranes (PROM) during pregnancy. With a 25 ng/ml cut-off, the IGFBP-1 Rapid Test Device by LARKSOIS Pharma is suitable for hospitals, maternity units, obstetric clinics, emergency departments, diagnostic laboratories, and international healthcare distributors."
       },
       "content": {
         "introduction": {
           "title": "Introduction",
           "sections": [
             "The IGFBP-1 Rapid Test Device (Vaginal Secretion) is an important rapid diagnostic product used in pregnancy care and obstetric assessment. IGFBP-1 stands for insulin-like growth factor-binding protein 1, a protein found in high concentration in amniotic fluid.",
-            "When fetal membranes rupture, amniotic fluid may leak into the vagina, making IGFBP-1 detectable in vaginal secretions. The IGFBP-1 Rapid Test Device by Ivexia Pharma is designed for professional use and provides a rapid, easy-to-read format for supporting clinical evaluation when membrane rupture is suspected.",
+            "When fetal membranes rupture, amniotic fluid may leak into the vagina, making IGFBP-1 detectable in vaginal secretions. The IGFBP-1 Rapid Test Device by LARKSOIS Pharma is designed for professional use and provides a rapid, easy-to-read format for supporting clinical evaluation when membrane rupture is suspected.",
             "PROM and PPROM are clinically important because rupture of fetal membranes can increase maternal and fetal risks, including infection and preterm birth. This product is especially useful in cases where fluid leakage is unclear and traditional methods may not provide enough confidence."
           ]
         },
@@ -740,11 +740,11 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
-              "value": "Fertility / Maternal Care / Women’s Health"
+              "value": "Fertility / Maternal Care / Womenâ€™s Health"
             },
             {
               "label": "Method",
@@ -783,7 +783,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Intended Use",
-          "description": "The IGFBP-1 Rapid Test Device by Ivexia Pharma is intended for the qualitative detection of IGFBP-1 in vaginal secretion samples during pregnancy. It is used as a rapid screening aid for suspected rupture of fetal membranes.",
+          "description": "The IGFBP-1 Rapid Test Device by LARKSOIS Pharma is intended for the qualitative detection of IGFBP-1 in vaginal secretion samples during pregnancy. It is used as a rapid screening aid for suspected rupture of fetal membranes.",
           "applications": [
             "Suspected rupture of fetal membranes",
             "PROM and PPROM assessment support",
@@ -819,11 +819,11 @@ export const en = {
             "Read results only within the approved time window",
             "Do not use urine unless the validated product insert specifically allows it"
           ],
-          "note": "For website and catalog accuracy, Ivexia Pharma should list this product as Vaginal Secretion, not urine."
+          "note": "For website and catalog accuracy, LARKSOIS Pharma should list this product as Vaginal Secretion, not urine."
         },
         "cutOff": {
           "title": "Cut-off: 25 ng/ml",
-          "content": "The IGFBP-1 Rapid Test Device by Ivexia Pharma has a stated 25 ng/ml cut-off. This means the product is designed to detect IGFBP-1 at or above the validated detection threshold. The final product page, insert, and packaging should mention the cut-off exactly as confirmed by Ivexia Pharma’s technical file and regulatory documentation."
+          "content": "The IGFBP-1 Rapid Test Device by LARKSOIS Pharma has a stated 25 ng/ml cut-off. This means the product is designed to detect IGFBP-1 at or above the validated detection threshold. The final product page, insert, and packaging should mention the cut-off exactly as confirmed by LARKSOIS Pharmaâ€™s technical file and regulatory documentation."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -836,7 +836,7 @@ export const en = {
             "Wait for the colored lines to appear",
             "Read the result within the approved time window"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert or IFU supplied with the IGFBP-1 Rapid Test Device."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert or IFU supplied with the IGFBP-1 Rapid Test Device."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -878,8 +878,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma IGFBP-1 Rapid Test Device?",
-          "description": "Ivexia Pharma provides diagnostic products for international healthcare markets with a focus on quality, usability, and professional product positioning. The IGFBP-1 Rapid Test Device (Vaginal Secretion) is designed for maternal-care settings where fast and reliable screening support is required.",
+          "title": "Why Choose LARKSOIS Pharma IGFBP-1 Rapid Test Device?",
+          "description": "LARKSOIS Pharma provides diagnostic products for international healthcare markets with a focus on quality, usability, and professional product positioning. The IGFBP-1 Rapid Test Device (Vaginal Secretion) is designed for maternal-care settings where fast and reliable screening support is required.",
           "advantages": [
             "Vaginal secretion-based PROM assessment support",
             "Colloidal gold rapid test method",
@@ -888,7 +888,7 @@ export const en = {
             "Rapid visual interpretation",
             "Suitable for maternity hospitals and obstetric clinics",
             "International diagnostic product positioning",
-            "Professional healthcare use under Ivexia Pharma"
+            "Professional healthcare use under LARKSOIS Pharma"
           ]
         }
       },
@@ -963,12 +963,12 @@ export const en = {
     },
     "hpv-strip": {
       "meta": {
-        "title": "HPV Rapid Test Strip (Urine) – Women’s Health Screening | Ivexia Pharma",
-        "description": "Ivexia Pharma offers HPV Rapid Test Strip (Urine) using colloidal gold method for non-invasive HPV screening support. Suitable for women’s health, fertility clinics, STI screening, and international diagnostic supply."
+        "title": "HPV Rapid Test Strip (Urine) â€“ Womenâ€™s Health Screening | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers HPV Rapid Test Strip (Urine) using colloidal gold method for non-invasive HPV screening support. Suitable for womenâ€™s health, fertility clinics, STI screening, and international diagnostic supply."
       },
       "hero": {
         "title": "HPV Rapid Test Strip (Urine)",
-        "description": "HPV Rapid Test Strip (Urine) by Ivexia Pharma is a rapid women’s health diagnostic strip designed for urine-based HPV screening support. Developed using the colloidal gold method, this HPV Rapid Test Strip provides a simple, non-invasive, and convenient testing format for healthcare settings where accessible screening support is required. The HPV Rapid Test Strip by Ivexia Pharma is suitable for fertility clinics, gynecology centers, STI screening programs, hospitals, diagnostic laboratories, wellness screening providers, and international healthcare distributors."
+        "description": "HPV Rapid Test Strip (Urine) by LARKSOIS Pharma is a rapid womenâ€™s health diagnostic strip designed for urine-based HPV screening support. Developed using the colloidal gold method, this HPV Rapid Test Strip provides a simple, non-invasive, and convenient testing format for healthcare settings where accessible screening support is required. The HPV Rapid Test Strip by LARKSOIS Pharma is suitable for fertility clinics, gynecology centers, STI screening programs, hospitals, diagnostic laboratories, wellness screening providers, and international healthcare distributors."
       },
       "content": {
         "introduction": {
@@ -976,7 +976,7 @@ export const en = {
           "sections": [
             "The HPV Rapid Test Strip (Urine) is a diagnostic screening product used to support the detection of Human Papillomavirus, commonly known as HPV. HPV is a group of viruses that may affect the genital area, skin, throat, and reproductive health.",
             "Most HPV infections do not cause major health problems and are controlled naturally by the immune system, but persistent high-risk HPV infection can increase the risk of cervical cancer and other HPV-related cancers.",
-            "The HPV Rapid Test Strip by Ivexia Pharma is designed for urine samples, making it more comfortable and easier to collect compared with traditional cervical sample collection. This urine-based format can be especially useful in screening campaigns, fertility clinics, gynecology practices, and healthcare access programs where patient comfort, privacy, and quick sample collection are important.",
+            "The HPV Rapid Test Strip by LARKSOIS Pharma is designed for urine samples, making it more comfortable and easier to collect compared with traditional cervical sample collection. This urine-based format can be especially useful in screening campaigns, fertility clinics, gynecology practices, and healthcare access programs where patient comfort, privacy, and quick sample collection are important.",
             "The HPV Rapid Test Strip (Urine) should be presented as a screening-support product, not as a replacement for full cervical cancer screening or medical diagnosis. Positive or uncertain results should be reviewed by a healthcare professional and confirmed with appropriate clinical testing according to local guidelines."
           ]
         },
@@ -989,11 +989,11 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
-              "value": "Fertility / Women’s Health Diagnostics"
+              "value": "Fertility / Womenâ€™s Health Diagnostics"
             },
             {
               "label": "Method",
@@ -1020,13 +1020,13 @@ export const en = {
         },
         "whatIsHPV": {
           "title": "What is HPV?",
-          "content": "HPV, or Human Papillomavirus, is one of the most common viral infections related to reproductive and sexual health. There are many HPV types. Some types are low-risk and may be associated with genital warts, while high-risk HPV types are linked with cervical cancer and other cancers. The HPV Rapid Test Strip is designed to support screening by detecting HPV-related markers in urine, depending on the product’s validated technology and instructions for use. Since HPV can often have no symptoms, screening support can be valuable for identifying possible infection risk and guiding follow-up care."
+          "content": "HPV, or Human Papillomavirus, is one of the most common viral infections related to reproductive and sexual health. There are many HPV types. Some types are low-risk and may be associated with genital warts, while high-risk HPV types are linked with cervical cancer and other cancers. The HPV Rapid Test Strip is designed to support screening by detecting HPV-related markers in urine, depending on the productâ€™s validated technology and instructions for use. Since HPV can often have no symptoms, screening support can be valuable for identifying possible infection risk and guiding follow-up care."
         },
         "intendedUse": {
           "title": "Intended Use of HPV Rapid Test Strip",
-          "description": "The HPV Rapid Test Strip (Urine) is intended for urine-based HPV screening support. It may help healthcare providers identify whether HPV-related markers are present in the urine sample, depending on the product’s validated performance.",
+          "description": "The HPV Rapid Test Strip (Urine) is intended for urine-based HPV screening support. It may help healthcare providers identify whether HPV-related markers are present in the urine sample, depending on the productâ€™s validated performance.",
           "applications": [
-            "Women’s health screening",
+            "Womenâ€™s health screening",
             "Fertility and reproductive health clinics",
             "Gynecology departments",
             "STI screening centers",
@@ -1037,7 +1037,7 @@ export const en = {
         },
         "method": {
           "title": "Method: Colloidal Gold Technology",
-          "description": "The HPV Rapid Test Strip by Ivexia Pharma uses the colloidal gold method as per the product specification. Colloidal gold rapid tests generally use labeled particles to generate a visible line when the target marker is present in the sample.",
+          "description": "The HPV Rapid Test Strip by LARKSOIS Pharma uses the colloidal gold method as per the product specification. Colloidal gold rapid tests generally use labeled particles to generate a visible line when the target marker is present in the sample.",
           "benefits": [
             "Fast visual result format",
             "Simple urine sample workflow",
@@ -1059,7 +1059,7 @@ export const en = {
             "Read the result only within the approved time window",
             "Do not reuse the test strip"
           ],
-          "note": "For Ivexia Pharma, the final website content should avoid unverified accuracy claims unless supported by Ivexia’s own test validation."
+          "note": "For LARKSOIS Pharma, the final website content should avoid unverified accuracy claims unless supported by LARKSOISâ€™s own test validation."
         },
         "clinicalImportance": {
           "title": "Clinical Importance of HPV Screening",
@@ -1080,12 +1080,12 @@ export const en = {
             "Place the strip on a clean, flat surface if required",
             "Read the result within the approved time window"
           ],
-          "note": "The exact testing procedure must follow the official Ivexia Pharma product insert or IFU supplied with the HPV Rapid Test Strip."
+          "note": "The exact testing procedure must follow the official LARKSOIS Pharma product insert or IFU supplied with the HPV Rapid Test Strip."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "A positive result suggests that HPV-related markers have been detected in the urine sample. This does not mean the person has cervical cancer. It means follow-up testing or medical evaluation may be needed.",
-          "negative": "A negative result suggests that the target marker was not detected or was below the test’s detection level at the time of testing. A negative result does not fully rule out HPV infection if the sample was collected incorrectly or if the marker level was low.",
+          "negative": "A negative result suggests that the target marker was not detected or was below the testâ€™s detection level at the time of testing. A negative result does not fully rule out HPV infection if the sample was collected incorrectly or if the marker level was low.",
           "invalid": "If the control indicator does not appear, the result is invalid. The test should be repeated with a new HPV Rapid Test Strip and fresh urine sample."
         },
         "limitations": {
@@ -1100,7 +1100,7 @@ export const en = {
             "Interpret results within the recommended time only",
             "Confirm positive results through appropriate clinical evaluation"
           ],
-          "note": "Because HPV detection methods vary by assay type, Ivexia Pharma should clearly mention which HPV types or markers the product detects, the validated specimen type, the expected result time, and the test limitations."
+          "note": "Because HPV detection methods vary by assay type, LARKSOIS Pharma should clearly mention which HPV types or markers the product detects, the validated specimen type, the expected result time, and the test limitations."
         },
         "storage": {
           "title": "Storage and Handling",
@@ -1123,20 +1123,20 @@ export const en = {
             "Do not replace cervical screening or medical evaluation where required",
             "Positive or uncertain results should be reviewed by a healthcare professional",
             "Use only within the approved reading time",
-            "Follow local HPV screening and women’s health guidelines"
+            "Follow local HPV screening and womenâ€™s health guidelines"
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma HPV Rapid Test Strip?",
-          "description": "Ivexia Pharma provides diagnostic products for international healthcare markets with a focus on accessibility, quality presentation, and professional screening support. The HPV Rapid Test Strip (Urine) is designed for buyers looking for a urine-based HPV screening product that is convenient, practical, and suitable for global distribution.",
+          "title": "Why Choose LARKSOIS Pharma HPV Rapid Test Strip?",
+          "description": "LARKSOIS Pharma provides diagnostic products for international healthcare markets with a focus on accessibility, quality presentation, and professional screening support. The HPV Rapid Test Strip (Urine) is designed for buyers looking for a urine-based HPV screening product that is convenient, practical, and suitable for global distribution.",
           "advantages": [
             "Urine-based HPV screening support",
             "Colloidal gold method",
             "Non-invasive specimen collection",
             "Compact strip format",
-            "Suitable for women’s health and STI screening",
+            "Suitable for womenâ€™s health and STI screening",
             "Useful for fertility clinics and diagnostic laboratories",
-            "International product positioning under Ivexia Pharma"
+            "International product positioning under LARKSOIS Pharma"
           ]
         }
       },
@@ -1211,20 +1211,20 @@ export const en = {
     },
     "hpv-device": {
       "meta": {
-        "title": "HPV Rapid Test Device (Urine) – Women’s Health Diagnostic Test | Ivexia Pharma",
-        "description": "Ivexia Pharma offers an HPV Rapid Test Device for urine-based screening support using colloidal gold method. Designed for women’s health, fertility clinics, STI screening, and international diagnostic supply."
+        "title": "HPV Rapid Test Device (Urine) â€“ Womenâ€™s Health Diagnostic Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers an HPV Rapid Test Device for urine-based screening support using colloidal gold method. Designed for womenâ€™s health, fertility clinics, STI screening, and international diagnostic supply."
       },
       "hero": {
         "title": "HPV Rapid Test Device (Urine)",
-        "description": "HPV Rapid Test Device (Urine) by Ivexia Pharma is a professional women’s health diagnostic product designed for urine-based HPV screening support. Developed using the colloidal gold method as per product specification, this HPV Rapid Test Device provides a convenient, non-invasive sample option for healthcare environments where fast and accessible screening support is required. The HPV Rapid Test Device by Ivexia Pharma is suitable for gynecology clinics, fertility centers, STI screening programs, diagnostic laboratories, hospitals, public health screening initiatives, and international healthcare distributors."
+        "description": "HPV Rapid Test Device (Urine) by LARKSOIS Pharma is a professional womenâ€™s health diagnostic product designed for urine-based HPV screening support. Developed using the colloidal gold method as per product specification, this HPV Rapid Test Device provides a convenient, non-invasive sample option for healthcare environments where fast and accessible screening support is required. The HPV Rapid Test Device by LARKSOIS Pharma is suitable for gynecology clinics, fertility centers, STI screening programs, diagnostic laboratories, hospitals, public health screening initiatives, and international healthcare distributors."
       },
       "content": {
         "introduction": {
           "title": "Introduction",
           "sections": [
             "The HPV Rapid Test Device (Urine) is a rapid diagnostic product used to support screening for Human Papillomavirus, commonly known as HPV. HPV is a common virus associated with reproductive health, cervical health, and sexually transmitted infection screening.",
-            "The HPV Rapid Test Device by Ivexia Pharma is designed for urine specimen testing, making it a more comfortable and non-invasive option compared with traditional cervical sample collection. Urine-based HPV testing may improve screening acceptance, especially for people who avoid pelvic examination or have limited access to clinical screening facilities.",
-            "This HPV Rapid Test Device (Urine) is positioned for professional diagnostic use and international distribution. It should be used according to the official Ivexia Pharma product insert, and results should be interpreted by healthcare professionals together with clinical history, symptoms, cervical screening guidelines, and confirmatory testing when required."
+            "The HPV Rapid Test Device by LARKSOIS Pharma is designed for urine specimen testing, making it a more comfortable and non-invasive option compared with traditional cervical sample collection. Urine-based HPV testing may improve screening acceptance, especially for people who avoid pelvic examination or have limited access to clinical screening facilities.",
+            "This HPV Rapid Test Device (Urine) is positioned for professional diagnostic use and international distribution. It should be used according to the official LARKSOIS Pharma product insert, and results should be interpreted by healthcare professionals together with clinical history, symptoms, cervical screening guidelines, and confirmatory testing when required."
           ]
         },
         "productOverview": {
@@ -1236,11 +1236,11 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
-              "value": "Fertility / Women’s Health Diagnostics"
+              "value": "Fertility / Womenâ€™s Health Diagnostics"
             },
             {
               "label": "Method",
@@ -1263,17 +1263,17 @@ export const en = {
               "value": "Clinics, laboratories, hospitals, screening programs"
             }
           ],
-          "note": "The HPV Rapid Test Device (Urine) offers a practical format for healthcare providers who require a simple and accessible HPV screening product. For final website and packaging use, Ivexia Pharma should ensure all claims match the product’s validated performance data and regulatory approval."
+          "note": "The HPV Rapid Test Device (Urine) offers a practical format for healthcare providers who require a simple and accessible HPV screening product. For final website and packaging use, LARKSOIS Pharma should ensure all claims match the productâ€™s validated performance data and regulatory approval."
         },
         "whatIsHPV": {
           "title": "What is HPV?",
-          "content": "Human Papillomavirus (HPV) is a group of viruses, some of which are considered high-risk because persistent infection may contribute to cervical cancer and other HPV-related cancers. In women’s health, HPV testing is important because high-risk HPV types are linked with cervical precancer and cervical cancer. The HPV Rapid Test Device can support early screening awareness, especially in reproductive health and cervical health programs."
+          "content": "Human Papillomavirus (HPV) is a group of viruses, some of which are considered high-risk because persistent infection may contribute to cervical cancer and other HPV-related cancers. In womenâ€™s health, HPV testing is important because high-risk HPV types are linked with cervical precancer and cervical cancer. The HPV Rapid Test Device can support early screening awareness, especially in reproductive health and cervical health programs."
         },
         "intendedUse": {
           "title": "Intended Use of HPV Rapid Test Device",
-          "description": "The HPV Rapid Test Device (Urine) is intended for the detection or screening support of HPV-related markers in urine samples, depending on the product’s validated test principle. It is designed as a rapid diagnostic support tool, not as a final standalone diagnosis.",
+          "description": "The HPV Rapid Test Device (Urine) is intended for the detection or screening support of HPV-related markers in urine samples, depending on the productâ€™s validated test principle. It is designed as a rapid diagnostic support tool, not as a final standalone diagnosis.",
           "applications": [
-            "Women’s health screening programs",
+            "Womenâ€™s health screening programs",
             "Fertility and reproductive health clinics",
             "Gynecology departments",
             "STI screening centers",
@@ -1284,7 +1284,7 @@ export const en = {
         },
         "method": {
           "title": "Method: Colloidal Gold",
-          "description": "The HPV Rapid Test Device by Ivexia Pharma is listed with the colloidal gold method. Colloidal gold rapid tests commonly use labeled particles to create visible test results when the target marker is present in the sample. This type of rapid test format is widely used in point-of-care diagnostics because it is simple, fast, and easy to interpret.",
+          "description": "The HPV Rapid Test Device by LARKSOIS Pharma is listed with the colloidal gold method. Colloidal gold rapid tests commonly use labeled particles to create visible test results when the target marker is present in the sample. This type of rapid test format is widely used in point-of-care diagnostics because it is simple, fast, and easy to interpret.",
           "benefits": [
             "Fast visual result format",
             "Simple urine sample workflow",
@@ -1306,14 +1306,14 @@ export const en = {
             "Read results only within the stated time window",
             "Do not reuse the test device"
           ],
-          "note": "The final Ivexia Pharma content should describe the exact test principle, sample requirements, result time, and limitations from the official product IFU."
+          "note": "The final LARKSOIS Pharma content should describe the exact test principle, sample requirements, result time, and limitations from the official product IFU."
         },
         "clinicalImportance": {
           "title": "Clinical Importance of HPV Screening",
           "sections": [
             "HPV screening is important because persistent high-risk HPV infection can lead to cervical cell changes over time.",
             "The HPV Rapid Test Device (Urine) may support wider screening access by offering a urine-based sample option. Research suggests urine HPV testing can be promising, but performance depends on sample collection method, assay type, target HPV types, and clinical setting.",
-            "For this reason, the HPV Rapid Test Device by Ivexia Pharma should be presented as a screening-support product. Positive or uncertain results should be followed by professional medical evaluation and confirmatory testing according to local guidelines."
+            "For this reason, the HPV Rapid Test Device by LARKSOIS Pharma should be presented as a screening-support product. Positive or uncertain results should be followed by professional medical evaluation and confirmatory testing according to local guidelines."
           ]
         },
         "procedure": {
@@ -1327,7 +1327,7 @@ export const en = {
             "Wait for the control and test indicators to appear",
             "Read the result within the approved time window"
           ],
-          "note": "The exact testing procedure must follow the official Ivexia Pharma product insert or IFU supplied with the HPV Rapid Test Device."
+          "note": "The exact testing procedure must follow the official LARKSOIS Pharma product insert or IFU supplied with the HPV Rapid Test Device."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -1347,7 +1347,7 @@ export const en = {
             "Interpret results within the recommended time",
             "Confirm positive results with appropriate clinical evaluation"
           ],
-          "note": "The HPV Rapid Test Device by Ivexia Pharma should be supplied with clear instructions, storage guidance, result interpretation details, and performance information."
+          "note": "The HPV Rapid Test Device by LARKSOIS Pharma should be supplied with clear instructions, storage guidance, result interpretation details, and performance information."
         },
         "storage": {
           "title": "Storage and Handling",
@@ -1370,20 +1370,20 @@ export const en = {
             "Do not replace regular cervical screening or medical evaluation where required",
             "Positive or uncertain results should be reviewed by a healthcare professional",
             "Use only within the approved reading time",
-            "Follow local HPV screening and women’s health guidelines"
+            "Follow local HPV screening and womenâ€™s health guidelines"
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma HPV Rapid Test Device?",
-          "description": "Ivexia Pharma provides diagnostic products for international healthcare markets with a focus on quality, accessibility, and reliable product presentation. The HPV Rapid Test Device (Urine) is designed for healthcare buyers looking for a non-invasive HPV screening support product.",
+          "title": "Why Choose LARKSOIS Pharma HPV Rapid Test Device?",
+          "description": "LARKSOIS Pharma provides diagnostic products for international healthcare markets with a focus on quality, accessibility, and reliable product presentation. The HPV Rapid Test Device (Urine) is designed for healthcare buyers looking for a non-invasive HPV screening support product.",
           "advantages": [
             "Urine-based HPV screening support",
             "Colloidal gold method as per product specification",
             "Rapid device format",
             "Easy sample collection",
-            "Suitable for women’s health and STI screening programs",
+            "Suitable for womenâ€™s health and STI screening programs",
             "Useful for clinics, laboratories, and distributors",
-            "International product positioning under Ivexia Pharma"
+            "International product positioning under LARKSOIS Pharma"
           ]
         }
       },
@@ -1406,7 +1406,7 @@ export const en = {
         },
         {
           "question": "What is the natural killer of HPV?",
-          "answer": "There is no single natural killer of HPV. In most cases, the body’s immune system controls and clears HPV naturally. There is no treatment for the virus itself, but health problems caused by HPV can be treated."
+          "answer": "There is no single natural killer of HPV. In most cases, the bodyâ€™s immune system controls and clears HPV naturally. There is no treatment for the virus itself, but health problems caused by HPV can be treated."
         }
       ],
       "faqSchema": {
@@ -1450,7 +1450,7 @@ export const en = {
             "name": "What is the natural killer of HPV?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "There is no single natural killer of HPV. In most cases, the body’s immune system controls and clears HPV naturally. There is no treatment for the virus itself, but health problems caused by HPV can be treated."
+              "text": "There is no single natural killer of HPV. In most cases, the bodyâ€™s immune system controls and clears HPV naturally. There is no treatment for the virus itself, but health problems caused by HPV can be treated."
             }
           }
         ]
@@ -1458,19 +1458,19 @@ export const en = {
     },
     "hcg-pregnancy-strip": {
       "meta": {
-        "title": "hCG One Step Pregnancy Test Strip – Serum/Urine Pregnancy Test | Ivexia Pharma",
-        "description": "Ivexia Pharma offers hCG One Step Pregnancy Test Strip for serum/urine pregnancy screening using colloidal gold technology. A rapid fertility diagnostic strip for qualitative hCG detection."
+        "title": "hCG One Step Pregnancy Test Strip â€“ Serum/Urine Pregnancy Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers hCG One Step Pregnancy Test Strip for serum/urine pregnancy screening using colloidal gold technology. A rapid fertility diagnostic strip for qualitative hCG detection."
       },
       "hero": {
         "title": "hCG One Step Pregnancy Test Strip",
-        "description": "hCG One Step Pregnancy Test Strip (Serum/Urine) by Ivexia Pharma is a rapid fertility diagnostic strip designed for the qualitative detection of human chorionic gonadotropin (hCG) in urine and serum samples. Developed using the colloidal gold immunochromatographic method, this hCG One Step Pregnancy Test Strip supports early pregnancy screening with a simple, fast, and easy-to-read strip format. The product is suitable for fertility clinics, diagnostic laboratories, hospitals, gynecology centers, maternity care units, and international healthcare distributors."
+        "description": "hCG One Step Pregnancy Test Strip (Serum/Urine) by LARKSOIS Pharma is a rapid fertility diagnostic strip designed for the qualitative detection of human chorionic gonadotropin (hCG) in urine and serum samples. Developed using the colloidal gold immunochromatographic method, this hCG One Step Pregnancy Test Strip supports early pregnancy screening with a simple, fast, and easy-to-read strip format. The product is suitable for fertility clinics, diagnostic laboratories, hospitals, gynecology centers, maternity care units, and international healthcare distributors."
       },
       "content": {
         "introduction": {
           "title": "Introduction",
           "sections": [
             "The hCG One Step Pregnancy Test Strip (Serum/Urine) is a rapid diagnostic product used for pregnancy screening by detecting human chorionic gonadotropin, commonly known as hCG.",
-            "hCG is a hormone produced during pregnancy, and pregnancy tests work by detecting this hormone in urine or blood samples. The hCG One Step Pregnancy Test Strip by Ivexia Pharma is designed for simple operation, quick result interpretation, and professional diagnostic convenience.",
+            "hCG is a hormone produced during pregnancy, and pregnancy tests work by detecting this hormone in urine or blood samples. The hCG One Step Pregnancy Test Strip by LARKSOIS Pharma is designed for simple operation, quick result interpretation, and professional diagnostic convenience.",
             "The strip format is compact, easy to handle, and suitable for high-volume diagnostic supply. In the international fertility diagnostics market, the hCG One Step Pregnancy Test Strip is a practical product because it provides a rapid screening result without the need for complex equipment."
           ]
         },
@@ -1483,7 +1483,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -1518,7 +1518,7 @@ export const en = {
         },
         "whatIsHcg": {
           "title": "What is hCG?",
-          "content": "Human chorionic gonadotropin (hCG) is a hormone produced by the developing placenta shortly after fertilization. Because hCG rises during early pregnancy, it is widely used as a marker for pregnancy screening. The hCG One Step Pregnancy Test Strip detects hCG at or above the test’s validated detection level. A positive result suggests hCG is present, while a negative result means hCG is not detected or may be below the test sensitivity at the time of testing."
+          "content": "Human chorionic gonadotropin (hCG) is a hormone produced by the developing placenta shortly after fertilization. Because hCG rises during early pregnancy, it is widely used as a marker for pregnancy screening. The hCG One Step Pregnancy Test Strip detects hCG at or above the testâ€™s validated detection level. A positive result suggests hCG is present, while a negative result means hCG is not detected or may be below the test sensitivity at the time of testing."
         },
         "intendedUse": {
           "title": "Intended Use",
@@ -1526,7 +1526,7 @@ export const en = {
           "applications": [
             "Early pregnancy screening",
             "Fertility clinic testing",
-            "Gynecology and women’s health diagnostics",
+            "Gynecology and womenâ€™s health diagnostics",
             "Hospital pregnancy screening support",
             "Laboratory-based rapid testing",
             "Pre-procedure pregnancy screening support",
@@ -1554,15 +1554,15 @@ export const en = {
             "Collect urine in a clean and dry container",
             "First morning urine may improve early detection because it is more concentrated",
             "Serum samples should be handled by trained professionals",
-            "Follow the Ivexia Pharma product insert carefully",
+            "Follow the LARKSOIS Pharma product insert carefully",
             "Read the result only within the approved time window",
             "Do not reuse the test strip"
           ],
-          "note": "For product labeling, Ivexia Pharma should clearly mention whether the strip is validated for serum only, urine only, or both serum and urine."
+          "note": "For product labeling, LARKSOIS Pharma should clearly mention whether the strip is validated for serum only, urine only, or both serum and urine."
         },
         "sensitivity": {
           "title": "Sensitivity and Detection Level",
-          "content": "Similar hCG rapid test strip products commonly list a sensitivity of 25 mIU/mL and state that the test detects hCG at concentrations of 25 mIU/mL or greater. Ivexia Pharma should mention the exact cut-off only according to its own product validation and IFU."
+          "content": "Similar hCG rapid test strip products commonly list a sensitivity of 25 mIU/mL and state that the test detects hCG at concentrations of 25 mIU/mL or greater. LARKSOIS Pharma should mention the exact cut-off only according to its own product validation and IFU."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -1575,11 +1575,11 @@ export const en = {
             "Place the strip on a clean, non-absorbent flat surface",
             "Read the result within the approved time window"
           ],
-          "note": "The exact procedure for the hCG One Step Pregnancy Test Strip by Ivexia Pharma should follow the official IFU supplied with the product."
+          "note": "The exact procedure for the hCG One Step Pregnancy Test Strip by LARKSOIS Pharma should follow the official IFU supplied with the product."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
-          "positive": "A positive result usually shows both the control line (C) and the test line (T). This indicates that hCG has been detected in the sample at or above the test’s detection level.",
+          "positive": "A positive result usually shows both the control line (C) and the test line (T). This indicates that hCG has been detected in the sample at or above the testâ€™s detection level.",
           "negative": "A negative result usually shows only the control line (C) and no test line. This means hCG is not detected or is below the sensitivity level at the time of testing.",
           "invalid": "If the control line does not appear, the result is invalid. The test should be repeated with a new strip and fresh sample."
         },
@@ -1621,8 +1621,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma hCG One Step Pregnancy Test Strip?",
-          "description": "Ivexia Pharma focuses on fertility and diagnostic products for international healthcare markets. The hCG One Step Pregnancy Test Strip (Serum/Urine) is designed for simple handling, rapid screening, and professional use.",
+          "title": "Why Choose LARKSOIS Pharma hCG One Step Pregnancy Test Strip?",
+          "description": "LARKSOIS Pharma focuses on fertility and diagnostic products for international healthcare markets. The hCG One Step Pregnancy Test Strip (Serum/Urine) is designed for simple handling, rapid screening, and professional use.",
           "advantages": [
             "Serum/urine pregnancy screening support",
             "Colloidal gold rapid test method",
@@ -1630,7 +1630,7 @@ export const en = {
             "Qualitative hCG detection",
             "Fast visual result interpretation",
             "Suitable for clinics, hospitals, laboratories, and distributors",
-            "International product positioning under Ivexia Pharma"
+            "International product positioning under LARKSOIS Pharma"
           ]
         }
       },
@@ -1705,19 +1705,19 @@ export const en = {
     },
     "hcg-pregnancy-device": {
       "meta": {
-        "title": "hCG One Step Pregnancy Test Device – Serum/Urine | Ivexia Pharma",
-        "description": "Ivexia Pharma offers hCG One Step Pregnancy Test Device for serum/urine pregnancy detection using colloidal gold technology with 25 mIU/ml cut-off. Suitable for fertility, clinical, and diagnostic use."
+        "title": "hCG One Step Pregnancy Test Device â€“ Serum/Urine | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers hCG One Step Pregnancy Test Device for serum/urine pregnancy detection using colloidal gold technology with 25 mIU/ml cut-off. Suitable for fertility, clinical, and diagnostic use."
       },
       "hero": {
         "title": "hCG One Step Pregnancy Test Device",
-        "description": "hCG One Step Pregnancy Test Device (Serum/Urine) by Ivexia Pharma is a rapid fertility diagnostic product designed for the qualitative detection of human chorionic gonadotropin (hCG) in urine and serum samples. Developed using the colloidal gold immunochromatographic method, this hCG One Step Pregnancy Test Device helps support early pregnancy screening with a simple visual result format. With a 25 mIU/ml cut-off, the device is suitable for hospitals, diagnostic laboratories, fertility centers, gynecology clinics, and international healthcare distributors."
+        "description": "hCG One Step Pregnancy Test Device (Serum/Urine) by LARKSOIS Pharma is a rapid fertility diagnostic product designed for the qualitative detection of human chorionic gonadotropin (hCG) in urine and serum samples. Developed using the colloidal gold immunochromatographic method, this hCG One Step Pregnancy Test Device helps support early pregnancy screening with a simple visual result format. With a 25 mIU/ml cut-off, the device is suitable for hospitals, diagnostic laboratories, fertility centers, gynecology clinics, and international healthcare distributors."
       },
       "content": {
         "introduction": {
           "title": "Introduction",
           "sections": [
             "The hCG One Step Pregnancy Test Device (Serum/Urine) is a rapid diagnostic device used for pregnancy screening by detecting human chorionic gonadotropin, commonly known as hCG.",
-            "hCG is a hormone produced during pregnancy, and pregnancy tests work by checking urine or blood samples for this hormone. The hCG One Step Pregnancy Test Device by Ivexia Pharma is developed for easy sample testing, rapid result reading, and professional diagnostic convenience.",
+            "hCG is a hormone produced during pregnancy, and pregnancy tests work by checking urine or blood samples for this hormone. The hCG One Step Pregnancy Test Device by LARKSOIS Pharma is developed for easy sample testing, rapid result reading, and professional diagnostic convenience.",
             "The product uses colloidal gold technology, a widely used method in rapid immunoassay tests. This product belongs to the Fertility category and is suitable for global markets where fast, reliable, and simple pregnancy screening products are required."
           ]
         },
@@ -1730,7 +1730,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -1773,7 +1773,7 @@ export const en = {
           "applications": [
             "Early pregnancy screening",
             "Fertility clinic testing",
-            "Gynecology and women’s health diagnostics",
+            "Gynecology and womenâ€™s health diagnostics",
             "Hospital and laboratory pregnancy testing",
             "Pre-procedure pregnancy screening support",
             "International diagnostic product supply",
@@ -1805,11 +1805,11 @@ export const en = {
             "Serum testing should be performed by trained professionals",
             "Handle all biological samples with standard safety precautions"
           ],
-          "note": "Ivexia Pharma should clearly mention whether the device is validated for serum only, urine only, or both serum and urine in the final IFU and product label."
+          "note": "LARKSOIS Pharma should clearly mention whether the device is validated for serum only, urine only, or both serum and urine in the final IFU and product label."
         },
         "cutOff": {
           "title": "Cut-off: 25 mIU/ml",
-          "content": "The hCG One Step Pregnancy Test Device by Ivexia Pharma has a stated cut-off of 25 mIU/ml. This means the device is designed to show a positive result when hCG is detected at or above this level, according to the product’s validated performance. Ivexia Pharma should use only its validated performance data in the final IFU, label, and regulatory documents."
+          "content": "The hCG One Step Pregnancy Test Device by LARKSOIS Pharma has a stated cut-off of 25 mIU/ml. This means the device is designed to show a positive result when hCG is detected at or above this level, according to the productâ€™s validated performance. LARKSOIS Pharma should use only its validated performance data in the final IFU, label, and regulatory documents."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -1822,7 +1822,7 @@ export const en = {
             "Read the result within the approved reading time",
             "Do not interpret results after the stated time window"
           ],
-          "note": "The exact procedure for the hCG One Step Pregnancy Test Device should always follow the official Ivexia Pharma product insert."
+          "note": "The exact procedure for the hCG One Step Pregnancy Test Device should always follow the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -1852,11 +1852,11 @@ export const en = {
             "Use before the expiry date",
             "Follow the temperature range printed on the package"
           ],
-          "note": "Ivexia Pharma should mention its own confirmed shelf life based on stability data."
+          "note": "LARKSOIS Pharma should mention its own confirmed shelf life based on stability data."
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma hCG One Step Pregnancy Test Device?",
-          "description": "Ivexia Pharma offers fertility and diagnostic products designed for international healthcare markets. The hCG One Step Pregnancy Test Device (Serum/Urine) is suitable for professional diagnostic buyers who need a practical, fast, and reliable pregnancy screening product.",
+          "title": "Why Choose LARKSOIS Pharma hCG One Step Pregnancy Test Device?",
+          "description": "LARKSOIS Pharma offers fertility and diagnostic products designed for international healthcare markets. The hCG One Step Pregnancy Test Device (Serum/Urine) is suitable for professional diagnostic buyers who need a practical, fast, and reliable pregnancy screening product.",
           "advantages": [
             "Serum and urine sample compatibility",
             "Colloidal gold rapid test method",
@@ -1864,7 +1864,7 @@ export const en = {
             "Easy visual result interpretation",
             "Fertility and pregnancy screening application",
             "Suitable for clinics, laboratories, and distributors",
-            "International product positioning under Ivexia Pharma"
+            "International product positioning under LARKSOIS Pharma"
           ]
         }
       },
@@ -1939,20 +1939,20 @@ export const en = {
     },
     "fsh-strip": {
       "meta": {
-        "title": "FSH Rapid Test Strip (Urine) – Fertility & Menopause Test | Ivexia Pharma",
-        "description": "Ivexia Pharma offers an international-quality FSH Rapid Test Strip for urine-based detection of follicle-stimulating hormone using colloidal gold method. Suitable for fertility, women’s health, and menopause screening support."
+        "title": "FSH Rapid Test Strip (Urine) â€“ Fertility & Menopause Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers an international-quality FSH Rapid Test Strip for urine-based detection of follicle-stimulating hormone using colloidal gold method. Suitable for fertility, womenâ€™s health, and menopause screening support."
       },
       "hero": {
         "title": "FSH Rapid Test Strip (Urine)",
-        "description": "FSH Rapid Test Strip (Urine) by Ivexia Pharma is a rapid fertility diagnostic strip designed for the qualitative detection of follicle-stimulating hormone (FSH) in urine samples. Developed using the colloidal gold immunochromatographic method, this FSH Rapid Test Strip provides a simple, fast, and convenient testing format for fertility clinics, gynecology centers, diagnostic laboratories, hospitals, wellness centers, and global healthcare distributors. The FSH Rapid Test Strip by Ivexia Pharma supports women’s health screening, menopause-related hormone evaluation, and fertility assessment support in professional and international diagnostic settings."
+        "description": "FSH Rapid Test Strip (Urine) by LARKSOIS Pharma is a rapid fertility diagnostic strip designed for the qualitative detection of follicle-stimulating hormone (FSH) in urine samples. Developed using the colloidal gold immunochromatographic method, this FSH Rapid Test Strip provides a simple, fast, and convenient testing format for fertility clinics, gynecology centers, diagnostic laboratories, hospitals, wellness centers, and global healthcare distributors. The FSH Rapid Test Strip by LARKSOIS Pharma supports womenâ€™s health screening, menopause-related hormone evaluation, and fertility assessment support in professional and international diagnostic settings."
       },
       "content": {
         "introduction": {
           "title": "Introduction",
           "sections": [
             "The FSH Rapid Test Strip (Urine) is a fertility diagnostic product used to detect elevated levels of follicle-stimulating hormone, commonly called FSH. FSH is an important reproductive hormone involved in menstrual cycle regulation, ovarian function, and reproductive health.",
-            "The FSH Rapid Test Strip by Ivexia Pharma is designed as a urine-based rapid test strip. It uses the colloidal gold method, a commonly used rapid immunochromatographic technology that allows visual result interpretation without complex laboratory equipment.",
-            "In women’s health, FSH levels may rise when ovarian function changes, especially during perimenopause and menopause. This makes the FSH Rapid Test Strip practical for professional diagnostic environments where quick hormone screening support is required."
+            "The FSH Rapid Test Strip by LARKSOIS Pharma is designed as a urine-based rapid test strip. It uses the colloidal gold method, a commonly used rapid immunochromatographic technology that allows visual result interpretation without complex laboratory equipment.",
+            "In womenâ€™s health, FSH levels may rise when ovarian function changes, especially during perimenopause and menopause. This makes the FSH Rapid Test Strip practical for professional diagnostic environments where quick hormone screening support is required."
           ]
         },
         "productOverview": {
@@ -1964,7 +1964,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -2006,7 +2006,7 @@ export const en = {
           "description": "The FSH Rapid Test Strip (Urine) is intended for the qualitative detection of human FSH in urine. It supports screening for elevated FSH levels, which may be associated with menopause, perimenopause, or changes in reproductive hormone activity.",
           "applications": [
             "Fertility-related hormone screening",
-            "Women’s health assessment support",
+            "Womenâ€™s health assessment support",
             "Menopause and perimenopause screening support",
             "Gynecology clinic testing",
             "Laboratory rapid hormone testing",
@@ -2016,7 +2016,7 @@ export const en = {
         },
         "method": {
           "title": "Method: Colloidal Gold Technology",
-          "description": "The FSH Rapid Test Strip works through colloidal gold immunochromatography. In this method, gold-conjugated antibodies react with FSH in the urine sample. If FSH is present at or above the strip’s detection threshold, a visible test line appears along with the control line.",
+          "description": "The FSH Rapid Test Strip works through colloidal gold immunochromatography. In this method, gold-conjugated antibodies react with FSH in the urine sample. If FSH is present at or above the stripâ€™s detection threshold, a visible test line appears along with the control line.",
           "benefits": [
             "Fast visual result",
             "Easy urine sample testing",
@@ -2035,7 +2035,7 @@ export const en = {
             "First morning urine is often preferred when instructed by the product insert",
             "Avoid excessive fluid intake before testing, unless directed",
             "Bring the test strip and sample to room temperature before use",
-            "Follow the official Ivexia Pharma instructions for use",
+            "Follow the official LARKSOIS Pharma instructions for use",
             "Read the result only within the recommended time window"
           ],
           "note": "Because FSH levels can fluctuate, repeat testing may be useful when recommended by a healthcare professional or product insert."
@@ -2051,20 +2051,20 @@ export const en = {
             "Read the result within the stated reading time",
             "Do not interpret the strip after the allowed time window"
           ],
-          "note": "The exact procedure for the FSH Rapid Test Strip by Ivexia Pharma should follow the product IFU."
+          "note": "The exact procedure for the FSH Rapid Test Strip by LARKSOIS Pharma should follow the product IFU."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
-          "positive": "A positive result usually means FSH is detected at or above the test cut-off. Ivexia Pharma should mention its exact validated cut-off only as per its own product insert.",
-          "negative": "A negative result generally means FSH is not detected at a positive level or is below the test’s cut-off. This may suggest that elevated FSH is not present at the time of testing.",
+          "positive": "A positive result usually means FSH is detected at or above the test cut-off. LARKSOIS Pharma should mention its exact validated cut-off only as per its own product insert.",
+          "negative": "A negative result generally means FSH is not detected at a positive level or is below the testâ€™s cut-off. This may suggest that elevated FSH is not present at the time of testing.",
           "invalid": "If the control line does not appear, the test is invalid. The test should be repeated with a new strip and a fresh urine sample according to the product instructions."
         },
         "clinicalImportance": {
           "title": "Clinical Importance of FSH Screening",
           "sections": [
-            "The FSH Rapid Test Strip can support women’s health evaluation by identifying elevated FSH levels in urine. Elevated FSH may be seen during perimenopause or menopause because ovarian hormone activity changes during this stage.",
+            "The FSH Rapid Test Strip can support womenâ€™s health evaluation by identifying elevated FSH levels in urine. Elevated FSH may be seen during perimenopause or menopause because ovarian hormone activity changes during this stage.",
             "FSH can vary from day to day and cycle to cycle. A single FSH Rapid Test Strip result should not be considered a complete medical diagnosis.",
-            "The FSH Rapid Test Strip by Ivexia Pharma should be promoted as a screening aid, not as a replacement for physician consultation, laboratory testing, ultrasound, or complete fertility assessment."
+            "The FSH Rapid Test Strip by LARKSOIS Pharma should be promoted as a screening aid, not as a replacement for physician consultation, laboratory testing, ultrasound, or complete fertility assessment."
           ]
         },
         "storage": {
@@ -2093,16 +2093,16 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma FSH Rapid Test Strip?",
-          "description": "Ivexia Pharma provides fertility and diagnostic products for international healthcare markets. The FSH Rapid Test Strip (Urine) is designed for reliable, fast, and convenient hormone screening support.",
+          "title": "Why Choose LARKSOIS Pharma FSH Rapid Test Strip?",
+          "description": "LARKSOIS Pharma provides fertility and diagnostic products for international healthcare markets. The FSH Rapid Test Strip (Urine) is designed for reliable, fast, and convenient hormone screening support.",
           "advantages": [
             "Urine-based fertility diagnostic strip",
             "Colloidal gold rapid test technology",
             "Simple visual result interpretation",
-            "Suitable for women’s health and menopause screening support",
+            "Suitable for womenâ€™s health and menopause screening support",
             "Compact format for easy distribution",
             "Useful for clinics, hospitals, and laboratories",
-            "International product positioning under Ivexia Pharma"
+            "International product positioning under LARKSOIS Pharma"
           ]
         }
       },
@@ -2177,19 +2177,19 @@ export const en = {
     },
     "fsh-device": {
       "meta": {
-        "title": "FSH Rapid Test Device (Urine) – Fertility & Menopause Test | Ivexia Pharma",
-        "description": "Ivexia Pharma offers an international-quality FSH Rapid Test Device (Urine) based on colloidal gold method for qualitative detection of follicle-stimulating hormone in urine samples."
+        "title": "FSH Rapid Test Device (Urine) â€“ Fertility & Menopause Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers an international-quality FSH Rapid Test Device (Urine) based on colloidal gold method for qualitative detection of follicle-stimulating hormone in urine samples."
       },
       "hero": {
         "title": "FSH Rapid Test Device (Urine)",
-        "description": "FSH Rapid Test Device (Urine) by Ivexia Pharma is a professional fertility diagnostic product designed for the qualitative detection of human follicle-stimulating hormone (FSH) in urine. Developed using the colloidal gold immunochromatographic method, this FSH Rapid Test Device supports fast, simple, and reliable fertility-related hormone screening. The device is suitable for clinics, laboratories, gynecology centers, fertility centers, hospitals, diagnostic distributors, and international healthcare markets."
+        "description": "FSH Rapid Test Device (Urine) by LARKSOIS Pharma is a professional fertility diagnostic product designed for the qualitative detection of human follicle-stimulating hormone (FSH) in urine. Developed using the colloidal gold immunochromatographic method, this FSH Rapid Test Device supports fast, simple, and reliable fertility-related hormone screening. The device is suitable for clinics, laboratories, gynecology centers, fertility centers, hospitals, diagnostic distributors, and international healthcare markets."
       },
       "content": {
         "introduction": {
           "title": "Introduction",
           "sections": [
             "The FSH Rapid Test Device (Urine) is a fertility diagnostic product used to detect elevated levels of follicle-stimulating hormone, commonly known as FSH. FSH is an important reproductive hormone produced by the anterior pituitary gland and plays a key role in reproductive function.",
-            "The FSH Rapid Test Device by Ivexia Pharma is designed for urine-based testing and uses the colloidal gold method to provide a visual qualitative result. This type of test is commonly used to support fertility and menopause-related evaluation, especially when women experience irregular menstrual cycles, hot flashes, sleep changes, mood changes, or other symptoms associated with hormonal transition.",
+            "The FSH Rapid Test Device by LARKSOIS Pharma is designed for urine-based testing and uses the colloidal gold method to provide a visual qualitative result. This type of test is commonly used to support fertility and menopause-related evaluation, especially when women experience irregular menstrual cycles, hot flashes, sleep changes, mood changes, or other symptoms associated with hormonal transition.",
             "Internationally, FSH rapid test devices are widely used because they are simple, fast, and convenient. The FSH Rapid Test Device (Urine) is suitable for professional diagnostic settings where quick hormone screening support is required."
           ]
         },
@@ -2202,7 +2202,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -2233,7 +2233,7 @@ export const en = {
               "value": "Professional diagnostic use / as per product approval"
             }
           ],
-          "note": "The FSH Rapid Test Device (Urine) is suitable for healthcare environments that require quick hormone screening. It can be used as part of women’s health evaluation, but the final interpretation should always be made with clinical symptoms, medical history, and professional advice."
+          "note": "The FSH Rapid Test Device (Urine) is suitable for healthcare environments that require quick hormone screening. It can be used as part of womenâ€™s health evaluation, but the final interpretation should always be made with clinical symptoms, medical history, and professional advice."
         },
         "whatIsFSH": {
           "title": "What is FSH?",
@@ -2241,11 +2241,11 @@ export const en = {
         },
         "intendedUse": {
           "title": "Intended Use of FSH Rapid Test Device",
-          "description": "The FSH Rapid Test Device (Urine) is intended for the qualitative detection of human FSH in urine specimens. The FSH Rapid Test Device by Ivexia Pharma may help healthcare professionals identify whether FSH levels are elevated above the device’s detection threshold.",
+          "description": "The FSH Rapid Test Device (Urine) is intended for the qualitative detection of human FSH in urine specimens. The FSH Rapid Test Device by LARKSOIS Pharma may help healthcare professionals identify whether FSH levels are elevated above the deviceâ€™s detection threshold.",
           "applications": [
             "Fertility-related hormone screening",
             "Menopause and perimenopause assessment support",
-            "Women’s health diagnostic evaluation",
+            "Womenâ€™s health diagnostic evaluation",
             "Gynecology clinic testing",
             "Laboratory-based rapid hormone screening",
             "International diagnostic product distribution"
@@ -2272,10 +2272,10 @@ export const en = {
             "Test at a consistent time when recommended",
             "First morning urine may be preferred if instructed by the product insert",
             "Bring the test device and urine sample to room temperature before use",
-            "Follow the official Ivexia Pharma product insert carefully",
+            "Follow the official LARKSOIS Pharma product insert carefully",
             "Read results only within the approved time window"
           ],
-          "note": "The exact collection procedure should follow the Ivexia Pharma product insert."
+          "note": "The exact collection procedure should follow the LARKSOIS Pharma product insert."
         },
         "procedure": {
           "title": "Testing Procedure",
@@ -2299,7 +2299,7 @@ export const en = {
         "clinicalImportance": {
           "title": "Clinical Importance of FSH Testing",
           "sections": [
-            "The FSH Rapid Test Device (Urine) can support women’s health screening by identifying elevated FSH levels. Elevated FSH may be associated with perimenopause, menopause, or changes in ovarian function.",
+            "The FSH Rapid Test Device (Urine) can support womenâ€™s health screening by identifying elevated FSH levels. Elevated FSH may be associated with perimenopause, menopause, or changes in ovarian function.",
             "The test may be useful for women experiencing symptoms such as irregular menstrual cycles, hot flashes, sleep irregularities, mood changes, or other hormone-related changes.",
             "FSH levels may fluctuate, so a single test result should not be used as a final diagnosis. The FSH Rapid Test Device result should be reviewed with a healthcare professional, especially if the user has irregular periods, fertility concerns, menopause symptoms, pregnancy possibility, hormonal therapy use, or any ongoing medical condition."
           ]
@@ -2330,16 +2330,16 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma FSH Rapid Test Device?",
-          "description": "Ivexia Pharma focuses on reliable diagnostic and healthcare products for international markets. The FSH Rapid Test Device (Urine) is designed to support fertility screening, women’s health testing, and menopause-related hormone evaluation.",
+          "title": "Why Choose LARKSOIS Pharma FSH Rapid Test Device?",
+          "description": "LARKSOIS Pharma focuses on reliable diagnostic and healthcare products for international markets. The FSH Rapid Test Device (Urine) is designed to support fertility screening, womenâ€™s health testing, and menopause-related hormone evaluation.",
           "advantages": [
             "Urine-based rapid test format",
             "Colloidal gold method",
             "Easy visual result interpretation",
-            "Fertility and women’s health category product",
+            "Fertility and womenâ€™s health category product",
             "Suitable for clinics, laboratories, and distributors",
             "International market-ready product positioning",
-            "Professional diagnostic support from Ivexia Pharma"
+            "Professional diagnostic support from LARKSOIS Pharma"
           ]
         }
       },
@@ -2414,19 +2414,19 @@ export const en = {
     },
     "ffn-strip": {
       "meta": {
-        "title": "fFN Rapid Test Strip – Vaginal Secretion Fertility Diagnostic | Ivexia Pharma",
-        "description": "Ivexia Pharma offers an international-quality fFN Rapid Test Strip for vaginal secretion samples using colloidal gold method. Designed for professional fertility, pregnancy-care, and preterm labor risk assessment support."
+        "title": "fFN Rapid Test Strip â€“ Vaginal Secretion Fertility Diagnostic | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers an international-quality fFN Rapid Test Strip for vaginal secretion samples using colloidal gold method. Designed for professional fertility, pregnancy-care, and preterm labor risk assessment support."
       },
       "hero": {
         "title": "fFN Rapid Test Strip",
-        "description": "fFN Rapid Test Strip (Vaginal Secretion) by Ivexia Pharma is a professional rapid diagnostic strip designed for the qualitative detection of fetal fibronectin in vaginal or cervicovaginal secretion samples. Developed using the colloidal gold method, this fFN rapid test strip supports healthcare professionals in pregnancy-care evaluation, fertility diagnostics, and preterm labor risk assessment. With a simple strip-based format, easy sample application, and rapid visual interpretation, the fFN rapid test strip by Ivexia Pharma is suitable for hospitals, maternity clinics, fertility centers, gynecology departments, and diagnostic laboratories serving international healthcare markets."
+        "description": "fFN Rapid Test Strip (Vaginal Secretion) by LARKSOIS Pharma is a professional rapid diagnostic strip designed for the qualitative detection of fetal fibronectin in vaginal or cervicovaginal secretion samples. Developed using the colloidal gold method, this fFN rapid test strip supports healthcare professionals in pregnancy-care evaluation, fertility diagnostics, and preterm labor risk assessment. With a simple strip-based format, easy sample application, and rapid visual interpretation, the fFN rapid test strip by LARKSOIS Pharma is suitable for hospitals, maternity clinics, fertility centers, gynecology departments, and diagnostic laboratories serving international healthcare markets."
       },
       "content": {
         "introduction": {
           "title": "Introduction",
           "sections": [
-            "The fFN rapid test strip is an important diagnostic product used in women’s health and pregnancy-care settings. fFN stands for fetal fibronectin, a glycoprotein often described as a glue-like protein that helps support the attachment between the fetal membranes and the uterus.",
-            "The fFN rapid test strip (vaginal secretion) by Ivexia Pharma is designed for professional use and helps detect fetal fibronectin in vaginal secretion samples. The product is categorized under Fertility / Women’s Health Diagnostics and uses the colloidal gold method, a widely used rapid immunochromatographic technique for visual test results.",
+            "The fFN rapid test strip is an important diagnostic product used in womenâ€™s health and pregnancy-care settings. fFN stands for fetal fibronectin, a glycoprotein often described as a glue-like protein that helps support the attachment between the fetal membranes and the uterus.",
+            "The fFN rapid test strip (vaginal secretion) by LARKSOIS Pharma is designed for professional use and helps detect fetal fibronectin in vaginal secretion samples. The product is categorized under Fertility / Womenâ€™s Health Diagnostics and uses the colloidal gold method, a widely used rapid immunochromatographic technique for visual test results.",
             "In global maternity care, preterm birth is a serious healthcare concern. The fFN rapid test strip supports early risk evaluation when used along with clinical examination, patient symptoms, cervical assessment, and professional medical judgment."
           ]
         },
@@ -2439,11 +2439,11 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
-              "value": "Fertility / Women’s Health Diagnostics"
+              "value": "Fertility / Womenâ€™s Health Diagnostics"
             },
             {
               "label": "Method",
@@ -2478,7 +2478,7 @@ export const en = {
           "applications": [
             "Pregnancy-care evaluation",
             "Preterm labor risk assessment support",
-            "Fertility and women’s health diagnostics",
+            "Fertility and womenâ€™s health diagnostics",
             "Maternity clinic testing",
             "Gynecology department testing",
             "Hospital pregnancy-care support",
@@ -2488,7 +2488,7 @@ export const en = {
         },
         "method": {
           "title": "Method: Colloidal Gold",
-          "description": "The fFN rapid test strip uses the colloidal gold method, a rapid immunochromatographic testing principle. In this method, colloidal gold-labeled antibodies react with fetal fibronectin in the sample. If fFN is present at a detectable level, the strip produces a visual test line according to the product’s instructions for use.",
+          "description": "The fFN rapid test strip uses the colloidal gold method, a rapid immunochromatographic testing principle. In this method, colloidal gold-labeled antibodies react with fetal fibronectin in the sample. If fFN is present at a detectable level, the strip produces a visual test line according to the productâ€™s instructions for use.",
           "benefits": [
             "Easy-to-use strip format",
             "Rapid visual result interpretation",
@@ -2500,7 +2500,7 @@ export const en = {
         },
         "specimen": {
           "title": "Specimen: Vaginal Secretion",
-          "description": "For this product, the correct specimen should be vaginal secretion or cervicovaginal secretion. Urine should not be listed as the specimen unless Ivexia Pharma has a validated urine-based fFN product, because standard fFN testing references describe vaginal or cervicovaginal secretion samples.",
+          "description": "For this product, the correct specimen should be vaginal secretion or cervicovaginal secretion. Urine should not be listed as the specimen unless LARKSOIS Pharma has a validated urine-based fFN product, because standard fFN testing references describe vaginal or cervicovaginal secretion samples.",
           "guidance": [
             "Collect the sample using the recommended swab or collection system",
             "Avoid contamination with blood, lubricants, creams, or external materials",
@@ -2509,7 +2509,7 @@ export const en = {
             "Read results only within the instructed result window",
             "Use only by trained healthcare professionals"
           ],
-          "note": "Proper sample collection is important for reliable results. Collection should follow the official Ivexia Pharma product insert."
+          "note": "Proper sample collection is important for reliable results. Collection should follow the official LARKSOIS Pharma product insert."
         },
         "clinicalImportance": {
           "title": "Clinical Importance of fFN Testing",
@@ -2530,7 +2530,7 @@ export const en = {
             "Place the strip on a clean, flat surface if required",
             "Read the result within the approved result window"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert or IFU supplied with the fFN Rapid Test Strip."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert or IFU supplied with the fFN Rapid Test Strip."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -2578,8 +2578,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma fFN Rapid Test Strip?",
-          "description": "Ivexia Pharma offers professional diagnostic solutions with a focus on quality, reliability, and international market suitability. The fFN rapid test strip by Ivexia Pharma is designed for women’s health professionals who require a practical, rapid, and easy-to-use testing format.",
+          "title": "Why Choose LARKSOIS Pharma fFN Rapid Test Strip?",
+          "description": "LARKSOIS Pharma offers professional diagnostic solutions with a focus on quality, reliability, and international market suitability. The fFN rapid test strip by LARKSOIS Pharma is designed for womenâ€™s health professionals who require a practical, rapid, and easy-to-use testing format.",
           "advantages": [
             "International-quality diagnostic product positioning",
             "Professional fertility and pregnancy-care application",
@@ -2662,19 +2662,19 @@ export const en = {
     },
     "ffn-device": {
       "meta": {
-        "title": "fFN Rapid Test Device – Vaginal Secretion Fertility Test | Ivexia Pharma",
-        "description": "Ivexia Pharma offers an international-quality fFN Rapid Test Device for vaginal secretion samples using colloidal gold method. Designed for professional fertility and pregnancy-care diagnostics with a 25 ng/ml cut-off."
+        "title": "fFN Rapid Test Device â€“ Vaginal Secretion Fertility Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers an international-quality fFN Rapid Test Device for vaginal secretion samples using colloidal gold method. Designed for professional fertility and pregnancy-care diagnostics with a 25 ng/ml cut-off."
       },
       "hero": {
         "title": "fFN Rapid Test Device",
-        "description": "fFN Rapid Test Device by Ivexia Pharma is a professional rapid diagnostic solution designed for the qualitative detection of fetal fibronectin in vaginal secretion samples. Developed using the colloidal gold method, this fFN rapid test device supports healthcare professionals in pregnancy-care assessment, especially where timely evaluation of possible preterm birth risk is required. With a stated cut-off of 25 ng/ml, the fFN rapid test device provides a practical, easy-to-use diagnostic format for hospitals, clinics, maternity centers, laboratories, and international healthcare distributors."
+        "description": "fFN Rapid Test Device by LARKSOIS Pharma is a professional rapid diagnostic solution designed for the qualitative detection of fetal fibronectin in vaginal secretion samples. Developed using the colloidal gold method, this fFN rapid test device supports healthcare professionals in pregnancy-care assessment, especially where timely evaluation of possible preterm birth risk is required. With a stated cut-off of 25 ng/ml, the fFN rapid test device provides a practical, easy-to-use diagnostic format for hospitals, clinics, maternity centers, laboratories, and international healthcare distributors."
       },
       "content": {
         "introduction": {
           "title": "Introduction",
           "sections": [
-            "The fFN rapid test device is an important diagnostic tool used in women’s health, fertility care, obstetrics, and maternity healthcare settings. fFN stands for fetal fibronectin, a protein associated with the connection between the fetal membranes and the uterine lining.",
-            "The fFN rapid test device (vaginal secretion) by Ivexia Pharma is designed for professional diagnostic use. It uses a colloidal gold immunochromatographic method, which is widely used in rapid test formats because of its simple operation, visual result interpretation, and suitability for point-of-care testing environments.",
+            "The fFN rapid test device is an important diagnostic tool used in womenâ€™s health, fertility care, obstetrics, and maternity healthcare settings. fFN stands for fetal fibronectin, a protein associated with the connection between the fetal membranes and the uterine lining.",
+            "The fFN rapid test device (vaginal secretion) by LARKSOIS Pharma is designed for professional diagnostic use. It uses a colloidal gold immunochromatographic method, which is widely used in rapid test formats because of its simple operation, visual result interpretation, and suitability for point-of-care testing environments.",
             "Internationally, fetal fibronectin testing is commonly discussed as part of preterm labor risk assessment. This fFN rapid test device is especially useful in settings where quick screening support is needed before further clinical decision-making."
           ]
         },
@@ -2687,11 +2687,11 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
-              "value": "Fertility / Women’s Health Diagnostics"
+              "value": "Fertility / Womenâ€™s Health Diagnostics"
             },
             {
               "label": "Method",
@@ -2718,7 +2718,7 @@ export const en = {
         },
         "whatIsFfn": {
           "title": "What is fFN?",
-          "content": "Fetal fibronectin, commonly known as fFN, is a protein that acts like a biological adhesive during pregnancy. It helps support the attachment between the amniotic sac and the lining of the uterus. When fetal fibronectin is detected in vaginal fluid during certain pregnancy stages, it may indicate a higher risk of preterm labor. However, the fFN rapid test device should not be used as the only basis for diagnosis. The result must be interpreted together with clinical symptoms, gestational age, cervical assessment, medical history, ultrasound findings, and the healthcare provider’s judgment."
+          "content": "Fetal fibronectin, commonly known as fFN, is a protein that acts like a biological adhesive during pregnancy. It helps support the attachment between the amniotic sac and the lining of the uterus. When fetal fibronectin is detected in vaginal fluid during certain pregnancy stages, it may indicate a higher risk of preterm labor. However, the fFN rapid test device should not be used as the only basis for diagnosis. The result must be interpreted together with clinical symptoms, gestational age, cervical assessment, medical history, ultrasound findings, and the healthcare providerâ€™s judgment."
         },
         "intendedUse": {
           "title": "Intended Use of fFN Rapid Test Device",
@@ -2729,13 +2729,13 @@ export const en = {
             "Preterm labor risk evaluation support",
             "Hospital gynecology departments",
             "Maternity clinics",
-            "Women’s health diagnostic laboratories",
+            "Womenâ€™s health diagnostic laboratories",
             "Point-of-care screening environments"
           ]
         },
         "method": {
           "title": "Method: Colloidal Gold Technology",
-          "description": "The fFN rapid test device uses the colloidal gold method, a proven immunochromatographic testing principle widely used in rapid diagnostic devices. In this method, colloidal gold-labeled antibodies react with the target analyte in the specimen. If fetal fibronectin is present at or above the device cut-off, a visible test line may appear according to the product’s instructions for use.",
+          "description": "The fFN rapid test device uses the colloidal gold method, a proven immunochromatographic testing principle widely used in rapid diagnostic devices. In this method, colloidal gold-labeled antibodies react with the target analyte in the specimen. If fetal fibronectin is present at or above the device cut-off, a visible test line may appear according to the productâ€™s instructions for use.",
           "benefits": [
             "Simple testing procedure",
             "No complex laboratory equipment required",
@@ -2754,25 +2754,25 @@ export const en = {
             "Avoid sample contamination",
             "Test should be performed by trained healthcare professionals",
             "Results should be read within the time window stated in the IFU",
-            "Do not use urine unless the product’s validated IFU specifically states urine compatibility"
+            "Do not use urine unless the productâ€™s validated IFU specifically states urine compatibility"
           ],
-          "note": "For accurate product labeling, Ivexia Pharma should list the specimen as Vaginal Secretion, not urine."
+          "note": "For accurate product labeling, LARKSOIS Pharma should list the specimen as Vaginal Secretion, not urine."
         },
         "cutOff": {
           "title": "Cut-off: 25 ng/ml",
-          "content": "The provided product cut-off is 25 ng/ml. This means the fFN rapid test device is designed to detect fetal fibronectin at or above the stated threshold, based on the manufacturer’s validation and product instructions. Ivexia Pharma should clearly mention 25 ng/ml as the product-specific cut-off in the product insert, catalog, and website content."
+          "content": "The provided product cut-off is 25 ng/ml. This means the fFN rapid test device is designed to detect fetal fibronectin at or above the stated threshold, based on the manufacturerâ€™s validation and product instructions. LARKSOIS Pharma should clearly mention 25 ng/ml as the product-specific cut-off in the product insert, catalog, and website content."
         },
         "keyFeatures": {
-          "title": "Key Features of Ivexia Pharma fFN Rapid Test Device",
+          "title": "Key Features of LARKSOIS Pharma fFN Rapid Test Device",
           "instructions": [
-            "Professional diagnostic format for women’s health screening",
+            "Professional diagnostic format for womenâ€™s health screening",
             "Vaginal secretion specimen for clinically relevant sample testing",
             "Colloidal gold method for rapid immunochromatographic detection",
             "25 ng/ml cut-off as per product specification",
             "Simple visual interpretation based on test and control lines",
             "Suitable for hospitals, clinics, laboratories, and maternity centers",
             "International product positioning for global diagnostic supply",
-            "Quality-focused manufacturing support from Ivexia Pharma"
+            "Quality-focused manufacturing support from LARKSOIS Pharma"
           ],
           "note": "The fFN rapid test device is designed to support medical professionals with quick screening information. It is not a replacement for full clinical evaluation, but it can be a valuable part of a broader diagnostic approach."
         },
@@ -2795,7 +2795,7 @@ export const en = {
             "Wait for the control and test lines to appear",
             "Read the result within the approved reading window"
           ],
-          "note": "The exact testing procedure must follow the official Ivexia Pharma product insert or IFU supplied with the fFN Rapid Test Device."
+          "note": "The exact testing procedure must follow the official LARKSOIS Pharma product insert or IFU supplied with the fFN Rapid Test Device."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -2830,14 +2830,14 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma focuses on delivering reliable pharmaceutical and diagnostic products for international healthcare markets. The fFN rapid test device reflects Ivexia Pharma’s commitment to women’s health, fertility diagnostics, pregnancy-care support, and global-quality medical solutions.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma focuses on delivering reliable pharmaceutical and diagnostic products for international healthcare markets. The fFN rapid test device reflects LARKSOIS Pharmaâ€™s commitment to womenâ€™s health, fertility diagnostics, pregnancy-care support, and global-quality medical solutions.",
           "advantages": [
             "International market-focused product development",
             "Quality-driven diagnostic portfolio",
             "Support for hospitals, laboratories, and distributors",
             "Professional product documentation",
-            "Focus on women’s health and fertility diagnostics",
+            "Focus on womenâ€™s health and fertility diagnostics",
             "Scalable supply for global markets"
           ]
         }
@@ -2913,19 +2913,19 @@ export const en = {
     },
     "st2-device": {
       "meta": {
-        "title": "PE sFlt-1/PlGF Test Serum – Fluorescence Immunoassay | Ivexia Pharma",
-        "description": "PE (sFlt-1/PlGF) Test (Serum) by Ivexia Pharma is a fluorescence-based immunofluorescence test for pre-eclampsia risk assessment using the sFlt-1/PlGF ratio in serum."
+        "title": "PE sFlt-1/PlGF Test Serum â€“ Fluorescence Immunoassay | LARKSOIS Pharma",
+        "description": "PE (sFlt-1/PlGF) Test (Serum) by LARKSOIS Pharma is a fluorescence-based immunofluorescence test for pre-eclampsia risk assessment using the sFlt-1/PlGF ratio in serum."
       },
       "hero": {
         "title": "PE (sFlt-1/PlGF) Test (Serum)",
-        "description": "PE (sFlt-1/PlGF) Test (Serum) by Ivexia Pharma is a professional immunofluorescence diagnostic test designed to support pre-eclampsia risk assessment by measuring the relationship between sFlt-1, soluble fms-like tyrosine kinase-1, and PlGF, placental growth factor, in human serum. Based on the fluorescence method, this serum-based PE test supports hospitals, maternity centers, gynecology clinics, diagnostic laboratories, and prenatal care providers in evaluating suspected hypertensive disorders of pregnancy."
+        "description": "PE (sFlt-1/PlGF) Test (Serum) by LARKSOIS Pharma is a professional immunofluorescence diagnostic test designed to support pre-eclampsia risk assessment by measuring the relationship between sFlt-1, soluble fms-like tyrosine kinase-1, and PlGF, placental growth factor, in human serum. Based on the fluorescence method, this serum-based PE test supports hospitals, maternity centers, gynecology clinics, diagnostic laboratories, and prenatal care providers in evaluating suspected hypertensive disorders of pregnancy."
       },
       "content": {
         "introduction": {
           "title": "Introduction",
           "sections": [
             "The PE (sFlt-1/PlGF) Test (Serum) is an advanced immunofluorescence diagnostic product used to support pre-eclampsia risk assessment in pregnant women with suspected hypertensive disorders of pregnancy. Pre-eclampsia is a pregnancy-related condition commonly associated with high blood pressure and possible organ involvement, usually after 20 weeks of pregnancy.",
-            "The PE (sFlt-1/PlGF) Test by Ivexia Pharma measures the relationship between two important placental biomarkers: sFlt-1 and PlGF. This biomarker ratio may help healthcare professionals evaluate whether a patient is at lower or higher risk of developing pre-eclampsia-related complications when used with clinical findings and other laboratory investigations.",
+            "The PE (sFlt-1/PlGF) Test by LARKSOIS Pharma measures the relationship between two important placental biomarkers: sFlt-1 and PlGF. This biomarker ratio may help healthcare professionals evaluate whether a patient is at lower or higher risk of developing pre-eclampsia-related complications when used with clinical findings and other laboratory investigations.",
             "This serum-based fluorescence test is intended for professional diagnostic environments such as maternity hospitals, gynecology clinics, diagnostic laboratories, prenatal care centers, and international healthcare distribution networks. It is not intended for home use or as a standalone diagnosis."
           ]
         },
@@ -2938,7 +2938,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -3006,7 +3006,7 @@ export const en = {
             "Separate serum according to laboratory protocol",
             "Avoid hemolyzed, contaminated, or improperly stored specimens",
             "Use compatible fluorescence analyzer systems where required",
-            "Follow the Ivexia Pharma product insert carefully"
+            "Follow the LARKSOIS Pharma product insert carefully"
           ],
           "note": "Incorrect specimen handling may affect test performance. Always follow validated laboratory procedures and local diagnostic guidelines."
         },
@@ -3021,7 +3021,7 @@ export const en = {
             "Allow the test reaction to complete within the instructed time",
             "Read and report the result according to the approved interpretation guidance"
           ],
-          "note": "The exact testing procedure may vary depending on the analyzer system and Ivexia Pharma product insert. Laboratory professionals should follow the official instructions supplied with the kit."
+          "note": "The exact testing procedure may vary depending on the analyzer system and LARKSOIS Pharma product insert. Laboratory professionals should follow the official instructions supplied with the kit."
         },
         "clinicalImportance": {
           "title": "Clinical Importance of PE (sFlt-1/PlGF) Testing",
@@ -3063,8 +3063,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma PE (sFlt-1/PlGF) Test?",
-          "description": "Ivexia Pharma provides professional diagnostic solutions for hospitals, laboratories, clinics, and international healthcare markets. The PE (sFlt-1/PlGF) Test (Serum) is developed for clinical environments that require reliable support for pre-eclampsia biomarker testing and pregnancy-related risk assessment.",
+          "title": "Why Choose LARKSOIS Pharma PE (sFlt-1/PlGF) Test?",
+          "description": "LARKSOIS Pharma provides professional diagnostic solutions for hospitals, laboratories, clinics, and international healthcare markets. The PE (sFlt-1/PlGF) Test (Serum) is developed for clinical environments that require reliable support for pre-eclampsia biomarker testing and pregnancy-related risk assessment.",
           "advantages": [
             "Fluorescence-based immunofluorescence method",
             "Serum specimen compatibility",
@@ -3148,12 +3148,12 @@ export const en = {
     },
     "pappa-device": {
       "meta": {
-        "title": "PAPP-A Rapid Test Device Serum – Fluorescence Immunoassay Test | Ivexia Pharma",
-        "description": "PAPP-A Rapid Test Device (Serum) by Ivexia Pharma is a fluorescence-based immunofluorescence test for Pregnancy-Associated Plasma Protein A detection in serum, supporting first-trimester prenatal screening and pregnancy risk assessment."
+        "title": "PAPP-A Rapid Test Device Serum â€“ Fluorescence Immunoassay Test | LARKSOIS Pharma",
+        "description": "PAPP-A Rapid Test Device (Serum) by LARKSOIS Pharma is a fluorescence-based immunofluorescence test for Pregnancy-Associated Plasma Protein A detection in serum, supporting first-trimester prenatal screening and pregnancy risk assessment."
       },
       "hero": {
         "title": "PAPP-A Rapid Test Device (Serum)",
-        "description": "PAPP-A Rapid Test Device (Serum) by Ivexia Pharma is a professional immunofluorescence diagnostic test designed for the detection of Pregnancy-Associated Plasma Protein A (PAPP-A) in human serum. Based on the fluorescence method, this PAPP-A rapid test supports clinical laboratories, diagnostic centers, gynecology clinics, maternity hospitals, and prenatal screening facilities in evaluating important pregnancy-related biomarkers. PAPP-A is commonly measured during first-trimester screening along with other parameters such as free β-hCG, maternal age, and ultrasound findings to assess the risk of selected chromosomal abnormalities and pregnancy complications."
+        "description": "PAPP-A Rapid Test Device (Serum) by LARKSOIS Pharma is a professional immunofluorescence diagnostic test designed for the detection of Pregnancy-Associated Plasma Protein A (PAPP-A) in human serum. Based on the fluorescence method, this PAPP-A rapid test supports clinical laboratories, diagnostic centers, gynecology clinics, maternity hospitals, and prenatal screening facilities in evaluating important pregnancy-related biomarkers. PAPP-A is commonly measured during first-trimester screening along with other parameters such as free Î²-hCG, maternal age, and ultrasound findings to assess the risk of selected chromosomal abnormalities and pregnancy complications."
       },
       "content": {
         "introduction": {
@@ -3161,7 +3161,7 @@ export const en = {
           "sections": [
             "The PAPP-A Rapid Test Device (Serum) is an advanced diagnostic device categorized under Immunofluorescence. It uses the fluorescence method to support accurate and efficient testing of PAPP-A levels in serum specimens.",
             "PAPP-A stands for Pregnancy-Associated Plasma Protein A, a protein produced mainly by the placenta during pregnancy. It plays an important role in early pregnancy evaluation and is widely used as a serum marker in first-trimester prenatal screening.",
-            "Ivexia Pharma offers this PAPP-A rapid test device for professional diagnostic use in international healthcare markets. The product is suitable for clinical laboratories, diagnostic centers, maternity hospitals, gynecology clinics, and prenatal screening facilities."
+            "LARKSOIS Pharma offers this PAPP-A rapid test device for professional diagnostic use in international healthcare markets. The product is suitable for clinical laboratories, diagnostic centers, maternity hospitals, gynecology clinics, and prenatal screening facilities."
           ]
         },
         "productOverview": {
@@ -3173,7 +3173,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -3255,7 +3255,7 @@ export const en = {
             "Avoid hemolyzed, contaminated, or improperly stored specimens",
             "Use compatible fluorescence analyzer systems if required",
             "Allow reagents and samples to reach recommended testing conditions if instructed",
-            "Follow the Ivexia Pharma product insert carefully"
+            "Follow the LARKSOIS Pharma product insert carefully"
           ],
           "note": "The PAPP-A Rapid Test Device should be used only by trained healthcare or laboratory professionals in professional diagnostic environments."
         },
@@ -3270,11 +3270,11 @@ export const en = {
             "Allow the test reaction to complete within the instructed time",
             "Read and report the result according to the approved interpretation guidance"
           ],
-          "note": "The exact testing procedure should follow the official Ivexia Pharma product insert and compatible fluorescence analyzer instructions."
+          "note": "The exact testing procedure should follow the official LARKSOIS Pharma product insert and compatible fluorescence analyzer instructions."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
-          "positive": "Abnormal or low PAPP-A values may support further clinical review when interpreted with gestational age, ultrasound findings, free β-hCG, maternal age, and medical history.",
+          "positive": "Abnormal or low PAPP-A values may support further clinical review when interpreted with gestational age, ultrasound findings, free Î²-hCG, maternal age, and medical history.",
           "negative": "A result within the expected reference range may support lower risk assessment when interpreted with other screening parameters, but it does not replace clinical monitoring or professional pregnancy care.",
           "invalid": "If the analyzer, control system, or test device indicates an invalid result, repeat testing should be performed according to the product insert and laboratory quality-control procedure."
         },
@@ -3296,15 +3296,15 @@ export const en = {
             "For professional in vitro diagnostic use only",
             "Not intended for home-based testing",
             "Not a standalone diagnostic test for fetal abnormalities",
-            "Results should be interpreted with gestational age, ultrasound findings, free β-hCG, maternal age, and clinical history",
+            "Results should be interpreted with gestational age, ultrasound findings, free Î²-hCG, maternal age, and clinical history",
             "Low PAPP-A requires medical review, not panic",
             "High, normal, or low values may vary depending on laboratory standards and gestational age",
             "Follow local regulatory and clinical screening guidelines"
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma PAPP-A Rapid Test Device?",
-          "description": "Ivexia Pharma focuses on diagnostic solutions that meet the needs of global healthcare providers, laboratories, hospitals, and distributors. The PAPP-A Rapid Test Device (Serum) is designed for professional prenatal screening workflows and pregnancy biomarker evaluation.",
+          "title": "Why Choose LARKSOIS Pharma PAPP-A Rapid Test Device?",
+          "description": "LARKSOIS Pharma focuses on diagnostic solutions that meet the needs of global healthcare providers, laboratories, hospitals, and distributors. The PAPP-A Rapid Test Device (Serum) is designed for professional prenatal screening workflows and pregnancy biomarker evaluation.",
           "advantages": [
             "Serum-based PAPP-A testing support",
             "Fluorescence immunoassay method",
@@ -3388,20 +3388,20 @@ export const en = {
     },
     "amh-device": {
       "meta": {
-        "title": "AMH Rapid Test Device Serum – Fluorescence Immunoassay Test | Ivexia Pharma",
-        "description": "AMH Rapid Test Device (Serum) by Ivexia Pharma is a fluorescence-based immunofluorescence diagnostic test for quantitative AMH detection in serum, supporting ovarian reserve, fertility evaluation, IVF planning, and PCOS assessment."
+        "title": "AMH Rapid Test Device Serum â€“ Fluorescence Immunoassay Test | LARKSOIS Pharma",
+        "description": "AMH Rapid Test Device (Serum) by LARKSOIS Pharma is a fluorescence-based immunofluorescence diagnostic test for quantitative AMH detection in serum, supporting ovarian reserve, fertility evaluation, IVF planning, and PCOS assessment."
       },
       "hero": {
         "title": "AMH Rapid Test Device (Serum)",
-        "description": "AMH Rapid Test Device (Serum) by Ivexia Pharma is an advanced fluorescence immunoassay diagnostic device designed for the quantitative detection of Anti-Müllerian Hormone (AMH) in human serum. Developed for professional laboratory and clinical use, this AMH rapid test supports healthcare providers in evaluating ovarian reserve, fertility planning, assisted reproductive technology assessment, and reproductive hormone analysis. AMH testing is widely used with other clinical investigations to support fertility treatment decisions and ovarian health evaluation. AMH is linked to ovarian reserve, but it does not independently predict pregnancy success, so results should always be interpreted by qualified healthcare professionals."
+        "description": "AMH Rapid Test Device (Serum) by LARKSOIS Pharma is an advanced fluorescence immunoassay diagnostic device designed for the quantitative detection of Anti-MÃ¼llerian Hormone (AMH) in human serum. Developed for professional laboratory and clinical use, this AMH rapid test supports healthcare providers in evaluating ovarian reserve, fertility planning, assisted reproductive technology assessment, and reproductive hormone analysis. AMH testing is widely used with other clinical investigations to support fertility treatment decisions and ovarian health evaluation. AMH is linked to ovarian reserve, but it does not independently predict pregnancy success, so results should always be interpreted by qualified healthcare professionals."
       },
       "content": {
         "introduction": {
           "title": "Introduction",
           "sections": [
             "The AMH Rapid Test Device (Serum) is a professional in vitro diagnostic product under the Immunofluorescence category. It uses the fluorescence method to detect AMH concentration in serum samples with reliable sensitivity and clinically useful turnaround time.",
-            "AMH, also known as Anti-Müllerian Hormone, is produced by ovarian follicles and is commonly used as a marker for ovarian reserve. In females of reproductive age, higher AMH levels generally indicate a larger remaining egg supply, while lower AMH levels may suggest reduced ovarian reserve.",
-            "Ivexia Pharma offers the AMH Rapid Test Device (Serum) for hospitals, fertility clinics, diagnostic laboratories, gynecology centers, IVF clinics, and reproductive endocrinology practices seeking dependable fertility-related hormone testing solutions."
+            "AMH, also known as Anti-MÃ¼llerian Hormone, is produced by ovarian follicles and is commonly used as a marker for ovarian reserve. In females of reproductive age, higher AMH levels generally indicate a larger remaining egg supply, while lower AMH levels may suggest reduced ovarian reserve.",
+            "LARKSOIS Pharma offers the AMH Rapid Test Device (Serum) for hospitals, fertility clinics, diagnostic laboratories, gynecology centers, IVF clinics, and reproductive endocrinology practices seeking dependable fertility-related hormone testing solutions."
           ]
         },
         "productOverview": {
@@ -3413,7 +3413,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -3429,7 +3429,7 @@ export const en = {
             },
             {
               "label": "Target Marker",
-              "value": "Anti-Müllerian Hormone"
+              "value": "Anti-MÃ¼llerian Hormone"
             },
             {
               "label": "Use",
@@ -3444,11 +3444,11 @@ export const en = {
         },
         "whatIsAmh": {
           "title": "What is AMH and Why is it Important?",
-          "content": "Anti-Müllerian Hormone is an important reproductive hormone. In females, AMH is produced by cells inside ovarian follicles. These follicles contain immature eggs, and AMH levels are often used as a snapshot of ovarian reserve. As age increases, the number of eggs naturally declines, and AMH levels also tend to decrease. The AMH Rapid Test Device (Serum) helps laboratories measure AMH levels using serum specimens."
+          "content": "Anti-MÃ¼llerian Hormone is an important reproductive hormone. In females, AMH is produced by cells inside ovarian follicles. These follicles contain immature eggs, and AMH levels are often used as a snapshot of ovarian reserve. As age increases, the number of eggs naturally declines, and AMH levels also tend to decrease. The AMH Rapid Test Device (Serum) helps laboratories measure AMH levels using serum specimens."
         },
         "intendedUse": {
           "title": "Intended Use",
-          "description": "The AMH Rapid Test Device (Serum) is intended for the professional in vitro diagnostic quantitative detection of Anti-Müllerian Hormone in human serum. It supports reproductive health evaluation, fertility assessment, ovarian reserve testing, IVF planning, and PCOS-related clinical assessment when used with other diagnostic findings.",
+          "description": "The AMH Rapid Test Device (Serum) is intended for the professional in vitro diagnostic quantitative detection of Anti-MÃ¼llerian Hormone in human serum. It supports reproductive health evaluation, fertility assessment, ovarian reserve testing, IVF planning, and PCOS-related clinical assessment when used with other diagnostic findings.",
           "applications": [
             "Ovarian reserve assessment",
             "Fertility evaluation support",
@@ -3491,7 +3491,7 @@ export const en = {
             "Avoid hemolyzed, contaminated, or improperly stored specimens",
             "Use calibrated and compatible fluorescence analyzer systems",
             "Bring test components to recommended temperature before use if required",
-            "Follow the Ivexia Pharma product insert carefully"
+            "Follow the LARKSOIS Pharma product insert carefully"
           ],
           "note": "The AMH Rapid Test Device should be used only by trained healthcare or laboratory professionals in professional diagnostic environments."
         },
@@ -3506,7 +3506,7 @@ export const en = {
             "Allow the test reaction to complete within the instructed time",
             "Read and report the result according to the approved interpretation guidance"
           ],
-          "note": "The exact procedure should follow the official Ivexia Pharma product insert and compatible fluorescence analyzer instructions."
+          "note": "The exact procedure should follow the official LARKSOIS Pharma product insert and compatible fluorescence analyzer instructions."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -3517,7 +3517,7 @@ export const en = {
         "storage": {
           "title": "Storage and Handling",
           "instructions": [
-            "Store according to the manufacturer’s product label and package insert",
+            "Store according to the manufacturerâ€™s product label and package insert",
             "Protect from excessive heat, moisture, direct sunlight, and contamination",
             "Keep the test device sealed until use",
             "Do not use expired test devices",
@@ -3539,8 +3539,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma AMH Rapid Test Device (Serum)?",
-          "description": "Ivexia Pharma focuses on internationally acceptable diagnostic product standards, dependable quality, and professional-use healthcare solutions. The AMH Rapid Test Device (Serum) is suitable for clinical environments where accurate reproductive hormone testing is required.",
+          "title": "Why Choose LARKSOIS Pharma AMH Rapid Test Device (Serum)?",
+          "description": "LARKSOIS Pharma focuses on internationally acceptable diagnostic product standards, dependable quality, and professional-use healthcare solutions. The AMH Rapid Test Device (Serum) is suitable for clinical environments where accurate reproductive hormone testing is required.",
           "advantages": [
             "Fluorescence-based AMH detection",
             "Serum specimen compatibility",
@@ -3555,7 +3555,7 @@ export const en = {
       "faqs": [
         {
           "question": "What is a serum AMH level test?",
-          "answer": "A serum AMH level test is a blood-based diagnostic test that measures Anti-Müllerian Hormone in serum. It is commonly used to assess ovarian reserve, support fertility evaluation, guide IVF planning, and help evaluate conditions linked with abnormal AMH levels."
+          "answer": "A serum AMH level test is a blood-based diagnostic test that measures Anti-MÃ¼llerian Hormone in serum. It is commonly used to assess ovarian reserve, support fertility evaluation, guide IVF planning, and help evaluate conditions linked with abnormal AMH levels."
         },
         {
           "question": "Can I get pregnant with 0.75 AMH?",
@@ -3563,11 +3563,11 @@ export const en = {
         },
         {
           "question": "What is the AMH level to get pregnant?",
-          "answer": "There is no fixed AMH level that guarantees pregnancy. Many references describe 1.0–3.0 ng/mL as an average AMH range, while below 1.0 ng/mL may be considered low. Pregnancy depends on multiple reproductive factors, not AMH alone."
+          "answer": "There is no fixed AMH level that guarantees pregnancy. Many references describe 1.0â€“3.0 ng/mL as an average AMH range, while below 1.0 ng/mL may be considered low. Pregnancy depends on multiple reproductive factors, not AMH alone."
         },
         {
           "question": "What is a normal AMH for a 36 year old?",
-          "answer": "AMH naturally declines with age. Around the mid-30s, approximately 1.0–1.5 ng/mL may be used as a practical age-related estimate, but normal ranges vary by laboratory and patient condition. A healthcare professional should interpret the result."
+          "answer": "AMH naturally declines with age. Around the mid-30s, approximately 1.0â€“1.5 ng/mL may be used as a practical age-related estimate, but normal ranges vary by laboratory and patient condition. A healthcare professional should interpret the result."
         },
         {
           "question": "Can I get pregnant at 37 with low AMH?",
@@ -3583,7 +3583,7 @@ export const en = {
             "name": "What is a serum AMH level test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "A serum AMH level test is a blood-based diagnostic test that measures Anti-Müllerian Hormone in serum. It is commonly used to assess ovarian reserve, support fertility evaluation, guide IVF planning, and help evaluate conditions linked with abnormal AMH levels."
+              "text": "A serum AMH level test is a blood-based diagnostic test that measures Anti-MÃ¼llerian Hormone in serum. It is commonly used to assess ovarian reserve, support fertility evaluation, guide IVF planning, and help evaluate conditions linked with abnormal AMH levels."
             }
           },
           {
@@ -3599,7 +3599,7 @@ export const en = {
             "name": "What is the AMH level to get pregnant?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "There is no fixed AMH level that guarantees pregnancy. Many references describe 1.0–3.0 ng/mL as an average AMH range, while below 1.0 ng/mL may be considered low. Pregnancy depends on multiple reproductive factors, not AMH alone."
+              "text": "There is no fixed AMH level that guarantees pregnancy. Many references describe 1.0â€“3.0 ng/mL as an average AMH range, while below 1.0 ng/mL may be considered low. Pregnancy depends on multiple reproductive factors, not AMH alone."
             }
           },
           {
@@ -3607,7 +3607,7 @@ export const en = {
             "name": "What is a normal AMH for a 36 year old?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "AMH naturally declines with age. Around the mid-30s, approximately 1.0–1.5 ng/mL may be used as a practical age-related estimate, but normal ranges vary by laboratory and patient condition. A healthcare professional should interpret the result."
+              "text": "AMH naturally declines with age. Around the mid-30s, approximately 1.0â€“1.5 ng/mL may be used as a practical age-related estimate, but normal ranges vary by laboratory and patient condition. A healthcare professional should interpret the result."
             }
           },
           {
@@ -3623,12 +3623,12 @@ export const en = {
     },
     "acetaminophen-urine-test": {
       "meta": {
-        "title": "Acetaminophen ACE Rapid Test Urine 500 ng/mL | Ivexia Pharma",
-        "description": "Acetaminophen (ACE) Rapid Test Device by Ivexia Pharma is a urine-based rapid screening test with 500 ng/mL cut-off for qualitative detection of acetaminophen in professional toxicology and drug monitoring settings."
+        "title": "Acetaminophen ACE Rapid Test Urine 500 ng/mL | LARKSOIS Pharma",
+        "description": "Acetaminophen (ACE) Rapid Test Device by LARKSOIS Pharma is a urine-based rapid screening test with 500 ng/mL cut-off for qualitative detection of acetaminophen in professional toxicology and drug monitoring settings."
       },
       "hero": {
         "title": "Acetaminophen (ACE) Rapid Test Device",
-        "description": "Acetaminophen (ACE) Rapid Test Device by Ivexia Pharma is a professional urine-based rapid test designed for qualitative screening of acetaminophen, also known as paracetamol or APAP, in human urine specimens. With a 500 ng/mL cut-off, this Acetaminophen rapid test device supports toxicology laboratories, hospitals, emergency care units, rehabilitation centers, occupational screening programs, and clinical drug monitoring workflows where fast preliminary screening is required."
+        "description": "Acetaminophen (ACE) Rapid Test Device by LARKSOIS Pharma is a professional urine-based rapid test designed for qualitative screening of acetaminophen, also known as paracetamol or APAP, in human urine specimens. With a 500 ng/mL cut-off, this Acetaminophen rapid test device supports toxicology laboratories, hospitals, emergency care units, rehabilitation centers, occupational screening programs, and clinical drug monitoring workflows where fast preliminary screening is required."
       },
       "content": {
         "introduction": {
@@ -3648,7 +3648,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -3741,7 +3741,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Acetaminophen (ACE) Rapid Test Device."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Acetaminophen (ACE) Rapid Test Device."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -3775,8 +3775,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma Acetaminophen Rapid Test Device?",
-          "description": "Ivexia Pharma focuses on reliable diagnostic solutions for global healthcare providers, laboratories, distributors, and institutional screening programs. The Acetaminophen (ACE) Rapid Test Device is developed for professional environments where speed, clarity, and dependable screening support are important.",
+          "title": "Why Choose LARKSOIS Pharma Acetaminophen Rapid Test Device?",
+          "description": "LARKSOIS Pharma focuses on reliable diagnostic solutions for global healthcare providers, laboratories, distributors, and institutional screening programs. The Acetaminophen (ACE) Rapid Test Device is developed for professional environments where speed, clarity, and dependable screening support are important.",
           "advantages": [
             "Urine-based rapid screening format",
             "500 ng/mL cut-off level",
@@ -3803,7 +3803,7 @@ export const en = {
           "answer": "Dolo 650 is commonly marketed in India as a paracetamol 650 mg tablet. Paracetamol and acetaminophen refer to the same active medicine name in different regions, but users should always check the product label before use."
         },
         {
-          "question": "What’s the difference between ibuprofen and ACE?",
+          "question": "Whatâ€™s the difference between ibuprofen and ACE?",
           "answer": "ACE usually refers to acetaminophen, a pain reliever and fever reducer. Ibuprofen is an NSAID, which means it can reduce pain, fever, and inflammation. They are different medicines and should be used only as directed by a healthcare professional."
         },
         {
@@ -3860,12 +3860,12 @@ export const en = {
     },
     "amphetamine-urine-test": {
       "meta": {
-        "title": "Amphetamine AMP Rapid Test Urine 1000 ng/mL | Ivexia Pharma",
-        "description": "Amphetamine (AMP) Rapid Test Device by Ivexia Pharma is a urine-based rapid drug screening test with 1000 ng/mL cut-off for qualitative detection of amphetamine in professional toxicology and drug monitoring settings."
+        "title": "Amphetamine AMP Rapid Test Urine 1000 ng/mL | LARKSOIS Pharma",
+        "description": "Amphetamine (AMP) Rapid Test Device by LARKSOIS Pharma is a urine-based rapid drug screening test with 1000 ng/mL cut-off for qualitative detection of amphetamine in professional toxicology and drug monitoring settings."
       },
       "hero": {
         "title": "Amphetamine (AMP) Rapid Test Device",
-        "description": "Amphetamine (AMP) Rapid Test Device by Ivexia Pharma is a professional urine-based rapid test designed for qualitative screening of amphetamine in human urine specimens. With a 1000 ng/mL cut-off, this Amphetamine rapid test device supports clinical laboratories, hospitals, rehabilitation centers, occupational health programs, forensic screening facilities, and institutional drug monitoring workflows. Amphetamines are central nervous system stimulant drugs that may be prescribed for selected medical conditions, but they also carry misuse and dependency risks, making professional drug screening important in controlled healthcare and compliance settings."
+        "description": "Amphetamine (AMP) Rapid Test Device by LARKSOIS Pharma is a professional urine-based rapid test designed for qualitative screening of amphetamine in human urine specimens. With a 1000 ng/mL cut-off, this Amphetamine rapid test device supports clinical laboratories, hospitals, rehabilitation centers, occupational health programs, forensic screening facilities, and institutional drug monitoring workflows. Amphetamines are central nervous system stimulant drugs that may be prescribed for selected medical conditions, but they also carry misuse and dependency risks, making professional drug screening important in controlled healthcare and compliance settings."
       },
       "content": {
         "introduction": {
@@ -3885,7 +3885,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -3937,7 +3937,7 @@ export const en = {
           "sections": [
             "Urine testing is commonly used in toxicology because it provides a practical specimen type for drug screening workflows. The Amphetamine rapid test urine format helps professionals screen urine specimens quickly at the stated 1000 ng/mL cut-off.",
             "Immunoassay-based drug screening is useful for rapid preliminary testing, but it may produce presumptive results. Positive screening results may require confirmatory testing using validated laboratory methods such as GC-MS or LC-MS/MS, especially when results may affect medical, workplace, forensic, or institutional decisions.",
-            "The Amphetamine (AMP) Rapid Test Device by Ivexia Pharma is intended to support responsible screening and reporting systems in controlled professional environments."
+            "The Amphetamine (AMP) Rapid Test Device by LARKSOIS Pharma is intended to support responsible screening and reporting systems in controlled professional environments."
           ]
         },
         "method": {
@@ -3969,7 +3969,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 1000 ng/mL",
-          "content": "The Amphetamine (AMP) Rapid Test Device by Ivexia Pharma has a stated cut-off of 1000 ng/mL. This means the device is designed to screen for amphetamine in urine at or above the validated threshold. Ivexia Pharma should mention the exact cut-off and performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Amphetamine (AMP) Rapid Test Device by LARKSOIS Pharma has a stated cut-off of 1000 ng/mL. This means the device is designed to screen for amphetamine in urine at or above the validated threshold. LARKSOIS Pharma should mention the exact cut-off and performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -3982,7 +3982,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Amphetamine (AMP) Rapid Test Device."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Amphetamine (AMP) Rapid Test Device."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -4016,8 +4016,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma Amphetamine Rapid Test Device?",
-          "description": "Ivexia Pharma focuses on reliable diagnostic solutions for global healthcare providers, laboratories, distributors, and institutional screening programs. The Amphetamine (AMP) Rapid Test Device is developed for professional environments where speed, clarity, and dependable screening support are important.",
+          "title": "Why Choose LARKSOIS Pharma Amphetamine Rapid Test Device?",
+          "description": "LARKSOIS Pharma focuses on reliable diagnostic solutions for global healthcare providers, laboratories, distributors, and institutional screening programs. The Amphetamine (AMP) Rapid Test Device is developed for professional environments where speed, clarity, and dependable screening support are important.",
           "advantages": [
             "Urine-based rapid screening format",
             "1000 ng/mL cut-off level",
@@ -4037,7 +4037,7 @@ export const en = {
         },
         {
           "question": "What is the cut-off for amphetamine urine test?",
-          "answer": "The Amphetamine (AMP) Rapid Test Device by Ivexia Pharma has a stated urine cut-off of 1000 ng/mL. The exact interpretation should follow the official product insert and laboratory policy."
+          "answer": "The Amphetamine (AMP) Rapid Test Device by LARKSOIS Pharma has a stated urine cut-off of 1000 ng/mL. The exact interpretation should follow the official product insert and laboratory policy."
         },
         {
           "question": "What does AMP mean on a urine drug test?",
@@ -4069,7 +4069,7 @@ export const en = {
             "name": "What is the cut-off for amphetamine urine test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Amphetamine (AMP) Rapid Test Device by Ivexia Pharma has a stated urine cut-off of 1000 ng/mL. The exact interpretation should follow the official product insert and laboratory policy."
+              "text": "The Amphetamine (AMP) Rapid Test Device by LARKSOIS Pharma has a stated urine cut-off of 1000 ng/mL. The exact interpretation should follow the official product insert and laboratory policy."
             }
           },
           {
@@ -4101,12 +4101,12 @@ export const en = {
     },
     "benzodiazepines-urine-test": {
       "meta": {
-        "title": "Benzodiazepines BZO Rapid Test Urine 300 ng/mL | Ivexia Pharma",
-        "description": "Benzodiazepines (BZO) Rapid Test Device by Ivexia Pharma is a urine-based rapid drug screening test with 300 ng/mL cut-off for professional benzodiazepine detection in toxicology and drug monitoring programs."
+        "title": "Benzodiazepines BZO Rapid Test Urine 300 ng/mL | LARKSOIS Pharma",
+        "description": "Benzodiazepines (BZO) Rapid Test Device by LARKSOIS Pharma is a urine-based rapid drug screening test with 300 ng/mL cut-off for professional benzodiazepine detection in toxicology and drug monitoring programs."
       },
       "hero": {
         "title": "Benzodiazepines (BZO) Rapid Test Device",
-        "description": "Benzodiazepines (BZO) Rapid Test Device by Ivexia Pharma is a professional urine-based rapid test designed for qualitative screening of benzodiazepines in human urine specimens. With a 300 ng/mL cut-off, this BZO rapid test device supports hospitals, diagnostic laboratories, rehabilitation centers, occupational health programs, forensic screening settings, and institutional drug monitoring workflows. Benzodiazepines are central nervous system depressant medicines used in controlled medical settings for conditions such as anxiety, insomnia, seizures, muscle spasms, and procedural sedation, but they are also regulated due to misuse, dependence, and safety risks."
+        "description": "Benzodiazepines (BZO) Rapid Test Device by LARKSOIS Pharma is a professional urine-based rapid test designed for qualitative screening of benzodiazepines in human urine specimens. With a 300 ng/mL cut-off, this BZO rapid test device supports hospitals, diagnostic laboratories, rehabilitation centers, occupational health programs, forensic screening settings, and institutional drug monitoring workflows. Benzodiazepines are central nervous system depressant medicines used in controlled medical settings for conditions such as anxiety, insomnia, seizures, muscle spasms, and procedural sedation, but they are also regulated due to misuse, dependence, and safety risks."
       },
       "content": {
         "introduction": {
@@ -4126,7 +4126,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -4211,7 +4211,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 300 ng/mL",
-          "content": "The Benzodiazepines (BZO) Rapid Test Device by Ivexia Pharma has a stated cut-off of 300 ng/mL. This means the device is designed to screen for benzodiazepines in urine at or above the validated threshold. Ivexia Pharma should mention the exact cut-off and performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Benzodiazepines (BZO) Rapid Test Device by LARKSOIS Pharma has a stated cut-off of 300 ng/mL. This means the device is designed to screen for benzodiazepines in urine at or above the validated threshold. LARKSOIS Pharma should mention the exact cut-off and performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -4224,7 +4224,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Benzodiazepines (BZO) Rapid Test Device."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Benzodiazepines (BZO) Rapid Test Device."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -4261,8 +4261,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma BZO Rapid Test Device?",
-          "description": "Ivexia Pharma focuses on reliable diagnostic solutions for global healthcare providers, laboratories, distributors, and institutional screening programs. The Benzodiazepines (BZO) Rapid Test Device is developed for professional environments where speed, clarity, and dependable screening support are important.",
+          "title": "Why Choose LARKSOIS Pharma BZO Rapid Test Device?",
+          "description": "LARKSOIS Pharma focuses on reliable diagnostic solutions for global healthcare providers, laboratories, distributors, and institutional screening programs. The Benzodiazepines (BZO) Rapid Test Device is developed for professional environments where speed, clarity, and dependable screening support are important.",
           "advantages": [
             "Urine-based rapid screening format",
             "300 ng/mL benzodiazepine cut-off",
@@ -4347,12 +4347,12 @@ export const en = {
     },
     "buprenorphine-urine-test": {
       "meta": {
-        "title": "Buprenorphine BUP Rapid Test Urine 300 ng/mL | Ivexia Pharma",
-        "description": "Buprenorphine (BUP) Rapid Test Device by Ivexia Pharma is a urine-based rapid drug screening test with 300 ng/mL cut-off for professional buprenorphine detection in toxicology and drug monitoring programs."
+        "title": "Buprenorphine BUP Rapid Test Urine 300 ng/mL | LARKSOIS Pharma",
+        "description": "Buprenorphine (BUP) Rapid Test Device by LARKSOIS Pharma is a urine-based rapid drug screening test with 300 ng/mL cut-off for professional buprenorphine detection in toxicology and drug monitoring programs."
       },
       "hero": {
         "title": "Buprenorphine (BUP) Rapid Test Device",
-        "description": "Buprenorphine (BUP) Rapid Test Device by Ivexia Pharma is a professional urine-based rapid test designed for qualitative screening of buprenorphine in human urine specimens. With a 300 ng/mL cut-off, this BUP rapid test device supports hospitals, diagnostic laboratories, rehabilitation centers, pain management clinics, occupational screening programs, and drug monitoring workflows. Buprenorphine is an opioid medicine used under medical supervision for opioid dependence and pain management, but it is also monitored because it may cause dependence, misuse risk, and serious side effects when used improperly."
+        "description": "Buprenorphine (BUP) Rapid Test Device by LARKSOIS Pharma is a professional urine-based rapid test designed for qualitative screening of buprenorphine in human urine specimens. With a 300 ng/mL cut-off, this BUP rapid test device supports hospitals, diagnostic laboratories, rehabilitation centers, pain management clinics, occupational screening programs, and drug monitoring workflows. Buprenorphine is an opioid medicine used under medical supervision for opioid dependence and pain management, but it is also monitored because it may cause dependence, misuse risk, and serious side effects when used improperly."
       },
       "content": {
         "introduction": {
@@ -4372,7 +4372,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -4457,7 +4457,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 300 ng/mL",
-          "content": "The Buprenorphine (BUP) Rapid Test Device by Ivexia Pharma has a stated cut-off of 300 ng/mL. This means the device is designed to screen for buprenorphine in urine at or above the validated threshold. Ivexia Pharma should mention the exact cut-off and performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Buprenorphine (BUP) Rapid Test Device by LARKSOIS Pharma has a stated cut-off of 300 ng/mL. This means the device is designed to screen for buprenorphine in urine at or above the validated threshold. LARKSOIS Pharma should mention the exact cut-off and performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "procedure": {
           "title": "General Testing Workflow",
@@ -4470,7 +4470,7 @@ export const en = {
             "Read results only within the recommended time window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Buprenorphine (BUP) Rapid Test Device."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Buprenorphine (BUP) Rapid Test Device."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -4508,8 +4508,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma Buprenorphine Rapid Test Device?",
-          "description": "Ivexia Pharma focuses on reliable diagnostic solutions for global healthcare providers, laboratories, distributors, and institutional screening programs. The Buprenorphine (BUP) Rapid Test Device is developed for professional environments where fast, clear, and dependable screening support is important.",
+          "title": "Why Choose LARKSOIS Pharma Buprenorphine Rapid Test Device?",
+          "description": "LARKSOIS Pharma focuses on reliable diagnostic solutions for global healthcare providers, laboratories, distributors, and institutional screening programs. The Buprenorphine (BUP) Rapid Test Device is developed for professional environments where fast, clear, and dependable screening support is important.",
           "advantages": [
             "Urine-based rapid screening format",
             "300 ng/mL buprenorphine cut-off",
@@ -4594,12 +4594,12 @@ export const en = {
     },
     "carisoprodol-urine-test": {
       "meta": {
-        "title": "Carisoprodol SOMA Rapid Test Urine 1000 ng/mL | Ivexia Pharma",
-        "description": "Carisoprodol (SOMA) Rapid Test Device by Ivexia Pharma is a urine-based rapid drug screening test with 1000 ng/mL cut-off for professional carisoprodol detection in toxicology and drug monitoring programs."
+        "title": "Carisoprodol SOMA Rapid Test Urine 1000 ng/mL | LARKSOIS Pharma",
+        "description": "Carisoprodol (SOMA) Rapid Test Device by LARKSOIS Pharma is a urine-based rapid drug screening test with 1000 ng/mL cut-off for professional carisoprodol detection in toxicology and drug monitoring programs."
       },
       "hero": {
         "title": "Carisoprodol (SOMA) Rapid Test Device",
-        "description": "Carisoprodol (SOMA) Rapid Test Device by Ivexia Pharma is a professional urine-based rapid test designed for qualitative screening of carisoprodol, commonly known by the brand name Soma, in human urine specimens. With a 1000 ng/mL cut-off, this SOMA rapid test device supports hospitals, toxicology laboratories, rehabilitation centers, occupational health programs, emergency screening units, pain management monitoring programs, and institutional drug screening workflows. Carisoprodol is a centrally acting skeletal muscle relaxant used for short-term relief of acute musculoskeletal discomfort, but it is also monitored because of misuse, dependence, sedation, and safety risks."
+        "description": "Carisoprodol (SOMA) Rapid Test Device by LARKSOIS Pharma is a professional urine-based rapid test designed for qualitative screening of carisoprodol, commonly known by the brand name Soma, in human urine specimens. With a 1000 ng/mL cut-off, this SOMA rapid test device supports hospitals, toxicology laboratories, rehabilitation centers, occupational health programs, emergency screening units, pain management monitoring programs, and institutional drug screening workflows. Carisoprodol is a centrally acting skeletal muscle relaxant used for short-term relief of acute musculoskeletal discomfort, but it is also monitored because of misuse, dependence, sedation, and safety risks."
       },
       "content": {
         "introduction": {
@@ -4619,7 +4619,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -4703,7 +4703,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 1000 ng/mL",
-          "content": "The Carisoprodol (SOMA) Rapid Test Device by Ivexia Pharma has a stated cut-off of 1000 ng/mL. This means the device is designed to screen for carisoprodol in urine at or above the validated threshold. Ivexia Pharma should mention the exact cut-off and performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Carisoprodol (SOMA) Rapid Test Device by LARKSOIS Pharma has a stated cut-off of 1000 ng/mL. This means the device is designed to screen for carisoprodol in urine at or above the validated threshold. LARKSOIS Pharma should mention the exact cut-off and performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "procedure": {
           "title": "General Testing Workflow",
@@ -4716,7 +4716,7 @@ export const en = {
             "Read results only within the recommended time window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Carisoprodol (SOMA) Rapid Test Device."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Carisoprodol (SOMA) Rapid Test Device."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -4755,8 +4755,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma Carisoprodol Rapid Test Device?",
-          "description": "Ivexia Pharma focuses on reliable diagnostic solutions for global healthcare providers, laboratories, distributors, and institutional screening programs. The Carisoprodol (SOMA) Rapid Test Device is developed for professional environments where fast, clear, and dependable screening support is important.",
+          "title": "Why Choose LARKSOIS Pharma Carisoprodol Rapid Test Device?",
+          "description": "LARKSOIS Pharma focuses on reliable diagnostic solutions for global healthcare providers, laboratories, distributors, and institutional screening programs. The Carisoprodol (SOMA) Rapid Test Device is developed for professional environments where fast, clear, and dependable screening support is important.",
           "advantages": [
             "Urine-based rapid screening format",
             "1000 ng/mL carisoprodol cut-off",
@@ -4776,7 +4776,7 @@ export const en = {
         },
         {
           "question": "What is the cut-off for Carisoprodol urine test?",
-          "answer": "The Carisoprodol (SOMA) Rapid Test Device by Ivexia Pharma has a stated urine cut-off of 1000 ng/mL. The final interpretation should follow the official product insert and laboratory policy."
+          "answer": "The Carisoprodol (SOMA) Rapid Test Device by LARKSOIS Pharma has a stated urine cut-off of 1000 ng/mL. The final interpretation should follow the official product insert and laboratory policy."
         },
         {
           "question": "Is carisoprodol the same as Soma?",
@@ -4808,7 +4808,7 @@ export const en = {
             "name": "What is the cut-off for Carisoprodol urine test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Carisoprodol (SOMA) Rapid Test Device by Ivexia Pharma has a stated urine cut-off of 1000 ng/mL. The final interpretation should follow the official product insert and laboratory policy."
+              "text": "The Carisoprodol (SOMA) Rapid Test Device by LARKSOIS Pharma has a stated urine cut-off of 1000 ng/mL. The final interpretation should follow the official product insert and laboratory policy."
             }
           },
           {
@@ -4840,12 +4840,12 @@ export const en = {
     },
     "cocaine-urine-test": {
       "meta": {
-        "title": "Cocaine COC Rapid Test Kit – Urine Drug of Abuse Test 300ng/ml | Ivexia Pharma",
-        "description": "Ivexia Pharma offers Cocaine (COC) Rapid Test for urine-based drug of abuse screening with a 300ng/ml cut-off. Learn about COC testing, specimen type, detection principle, uses, storage, and FAQs."
+        "title": "Cocaine COC Rapid Test Kit â€“ Urine Drug of Abuse Test 300ng/ml | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers Cocaine (COC) Rapid Test for urine-based drug of abuse screening with a 300ng/ml cut-off. Learn about COC testing, specimen type, detection principle, uses, storage, and FAQs."
       },
       "hero": {
         "title": "Cocaine (COC) Rapid Test",
-        "description": "Cocaine (COC) Rapid Test by Ivexia Pharma is a urine-based drug of abuse screening test designed for the qualitative detection of cocaine-related metabolites in human urine. With a 300ng/ml cut-off, this rapid test supports laboratories, healthcare providers, workplace screening programs, rehabilitation centers, and institutional testing environments where quick and reliable preliminary screening is required."
+        "description": "Cocaine (COC) Rapid Test by LARKSOIS Pharma is a urine-based drug of abuse screening test designed for the qualitative detection of cocaine-related metabolites in human urine. With a 300ng/ml cut-off, this rapid test supports laboratories, healthcare providers, workplace screening programs, rehabilitation centers, and institutional testing environments where quick and reliable preliminary screening is required."
       },
       "content": {
         "introduction": {
@@ -4865,7 +4865,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -4921,7 +4921,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Important Features of Ivexia Pharma Cocaine COC Rapid Test",
+          "title": "Important Features of LARKSOIS Pharma Cocaine COC Rapid Test",
           "instructions": [
             "Rapid urine-based screening",
             "300ng/ml cut-off sensitivity",
@@ -4963,7 +4963,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 300ng/ml",
-          "content": "The Cocaine (COC) Rapid Test by Ivexia Pharma has a stated cut-off of 300ng/ml. This means the test is designed to screen for cocaine-related metabolites in urine at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Cocaine (COC) Rapid Test by LARKSOIS Pharma has a stated cut-off of 300ng/ml. This means the test is designed to screen for cocaine-related metabolites in urine at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -4984,7 +4984,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Cocaine (COC) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Cocaine (COC) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -5016,8 +5016,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma focuses on reliable pharmaceutical and diagnostic solutions for international healthcare markets. The Cocaine (COC) Rapid Test is positioned for B2B buyers, diagnostic distributors, laboratories, clinics, and institutional drug-testing programs that require practical, rapid, and market-ready screening products.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma focuses on reliable pharmaceutical and diagnostic solutions for international healthcare markets. The Cocaine (COC) Rapid Test is positioned for B2B buyers, diagnostic distributors, laboratories, clinics, and institutional drug-testing programs that require practical, rapid, and market-ready screening products.",
           "advantages": [
             "Clear 300ng/ml cut-off",
             "Urine specimen compatibility",
@@ -5025,7 +5025,7 @@ export const en = {
             "Suitable for professional diagnostic programs",
             "Useful for workplace and institutional testing",
             "Supports preliminary cocaine screening workflows",
-            "International product positioning under Ivexia Pharma"
+            "International product positioning under LARKSOIS Pharma"
           ]
         }
       },
@@ -5100,12 +5100,12 @@ export const en = {
     },
     "cotinine-urine-test": {
       "meta": {
-        "title": "Cotinine COT Rapid Test 200ng/ml – Urine Nicotine Exposure Test | Ivexia Pharma",
-        "description": "Ivexia Pharma offers Cotinine (COT) Rapid Test for urine-based drug of abuse and nicotine exposure screening with a 200ng/ml cut-off. Learn uses, specimen type, testing purpose, storage, precautions, FAQs, and international product details."
+        "title": "Cotinine COT Rapid Test 200ng/ml â€“ Urine Nicotine Exposure Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers Cotinine (COT) Rapid Test for urine-based drug of abuse and nicotine exposure screening with a 200ng/ml cut-off. Learn uses, specimen type, testing purpose, storage, precautions, FAQs, and international product details."
       },
       "hero": {
         "title": "Cotinine (COT) Rapid Test",
-        "description": "Cotinine (COT) Rapid Test by Ivexia Pharma is a urine-based rapid screening test designed for the qualitative detection of cotinine, the major metabolite of nicotine. With a 200ng/ml cut-off, this COT rapid test helps identify recent nicotine or tobacco exposure through a simple urine specimen. It is suitable for professional screening use in laboratories, hospitals, clinics, workplace testing programs, rehabilitation centers, insurance health checks, and public health monitoring programs."
+        "description": "Cotinine (COT) Rapid Test by LARKSOIS Pharma is a urine-based rapid screening test designed for the qualitative detection of cotinine, the major metabolite of nicotine. With a 200ng/ml cut-off, this COT rapid test helps identify recent nicotine or tobacco exposure through a simple urine specimen. It is suitable for professional screening use in laboratories, hospitals, clinics, workplace testing programs, rehabilitation centers, insurance health checks, and public health monitoring programs."
       },
       "content": {
         "introduction": {
@@ -5113,7 +5113,7 @@ export const en = {
           "sections": [
             "The Cotinine (COT) Rapid Test is categorized under Drug of Abuse testing and uses urine as the specimen. This rapid test is designed to support preliminary screening of tobacco, smoking, vaping, nicotine replacement, or second-hand smoke exposure.",
             "Cotinine is widely used as a reliable biomarker because nicotine disappears from the body faster, while cotinine remains detectable for a longer period.",
-            "Ivexia Pharma’s Cotinine COT Rapid Test 200ng/ml is developed for international diagnostic markets where fast, convenient, and dependable screening products are required. The test supports B2B healthcare distributors, occupational health services, diagnostic laboratories, and institutions looking for rapid urine-based nicotine exposure screening solutions."
+            "LARKSOIS Pharmaâ€™s Cotinine COT Rapid Test 200ng/ml is developed for international diagnostic markets where fast, convenient, and dependable screening products are required. The test supports B2B healthcare distributors, occupational health services, diagnostic laboratories, and institutions looking for rapid urine-based nicotine exposure screening solutions."
           ]
         },
         "productOverview": {
@@ -5125,7 +5125,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -5161,7 +5161,7 @@ export const en = {
         "howItWorks": {
           "title": "How the Cotinine COT Rapid Test Works",
           "sections": [
-            "The COT urine rapid test checks for the presence of cotinine in human urine. A urine sample is applied to the rapid test device, and the result is interpreted according to the manufacturer’s instruction leaflet.",
+            "The COT urine rapid test checks for the presence of cotinine in human urine. A urine sample is applied to the rapid test device, and the result is interpreted according to the manufacturerâ€™s instruction leaflet.",
             "The 200ng/ml cut-off means the test is designed to detect cotinine at or above the specified screening level.",
             "This Cotinine rapid test 200ng/ml is a preliminary screening tool. If results are used for employment, insurance, legal, clinical, or institutional decisions, confirmatory testing may be required through advanced laboratory methods, depending on local rules and testing policy."
           ]
@@ -5176,7 +5176,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Cotinine COT Rapid Test",
-          "description": "The Ivexia Pharma Cotinine COT Rapid Test 200ng/ml may be used in professional diagnostic and institutional screening environments.",
+          "description": "The LARKSOIS Pharma Cotinine COT Rapid Test 200ng/ml may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Smoking cessation monitoring programs",
             "Tobacco and nicotine exposure screening",
@@ -5198,7 +5198,7 @@ export const en = {
             "Helpful for tobacco and nicotine exposure monitoring",
             "Supports workplace, clinical, and wellness screening",
             "International B2B product suitability",
-            "Backed by Ivexia Pharma’s diagnostic product focus"
+            "Backed by LARKSOIS Pharmaâ€™s diagnostic product focus"
           ]
         },
         "detectionWindow": {
@@ -5238,7 +5238,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 200ng/ml",
-          "content": "The Cotinine (COT) Rapid Test by Ivexia Pharma has a stated cut-off of 200ng/ml. This means the test is designed to screen for cotinine in urine at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Cotinine (COT) Rapid Test by LARKSOIS Pharma has a stated cut-off of 200ng/ml. This means the test is designed to screen for cotinine in urine at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -5251,7 +5251,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Cotinine (COT) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Cotinine (COT) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -5286,8 +5286,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma supplies diagnostic and pharmaceutical products for international healthcare markets. The Cotinine COT Rapid Test 200ng/ml is designed for buyers who need reliable, urine-based rapid screening products for nicotine and tobacco exposure monitoring.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma supplies diagnostic and pharmaceutical products for international healthcare markets. The Cotinine COT Rapid Test 200ng/ml is designed for buyers who need reliable, urine-based rapid screening products for nicotine and tobacco exposure monitoring.",
           "advantages": [
             "Urine-based nicotine exposure screening",
             "200ng/ml cotinine cut-off",
@@ -5295,7 +5295,7 @@ export const en = {
             "Suitable for professional diagnostic programs",
             "Useful for workplace, insurance, wellness, and institutional testing",
             "Supports preliminary cotinine screening workflows",
-            "International product positioning under Ivexia Pharma"
+            "International product positioning under LARKSOIS Pharma"
           ]
         }
       },
@@ -5370,12 +5370,12 @@ export const en = {
     },
     "ecstasy-urine-test": {
       "meta": {
-        "title": "Ecstasy MDMA Rapid Test 500ng/ml – Urine Drug of Abuse Test Kit | Ivexia Pharma",
-        "description": "Ivexia Pharma offers Ecstasy (MDMA) Rapid Test for urine-based drug of abuse screening with a 500ng/ml cut-off. Learn about MDMA urine testing, rapid screening use, storage, precautions, FAQs, and international product details."
+        "title": "Ecstasy MDMA Rapid Test 500ng/ml â€“ Urine Drug of Abuse Test Kit | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers Ecstasy (MDMA) Rapid Test for urine-based drug of abuse screening with a 500ng/ml cut-off. Learn about MDMA urine testing, rapid screening use, storage, precautions, FAQs, and international product details."
       },
       "hero": {
         "title": "Ecstasy (MDMA) Rapid Test",
-        "description": "Ecstasy (MDMA) Rapid Test by Ivexia Pharma is a urine-based rapid screening test designed for the qualitative detection of MDMA-related substances in human urine. With a 500ng/ml cut-off, this MDMA rapid test supports preliminary drug of abuse screening for laboratories, hospitals, clinics, rehabilitation centers, workplace testing programs, forensic screening units, and institutional health monitoring programs."
+        "description": "Ecstasy (MDMA) Rapid Test by LARKSOIS Pharma is a urine-based rapid screening test designed for the qualitative detection of MDMA-related substances in human urine. With a 500ng/ml cut-off, this MDMA rapid test supports preliminary drug of abuse screening for laboratories, hospitals, clinics, rehabilitation centers, workplace testing programs, forensic screening units, and institutional health monitoring programs."
       },
       "content": {
         "introduction": {
@@ -5383,7 +5383,7 @@ export const en = {
           "sections": [
             "The Ecstasy (MDMA) Rapid Test is categorized under Drug of Abuse testing and uses urine as the specimen. This rapid test is designed for professional screening environments where quick, practical, and easy-to-read results are required.",
             "MDMA stands for 3,4-methylenedioxymethamphetamine and is commonly known as ecstasy. In drug testing, MDMA is screened because it is associated with recreational misuse, central nervous system stimulation, and safety risks.",
-            "Ivexia Pharma’s Ecstasy MDMA Rapid Test 500ng/ml is suitable for international diagnostic distributors, clinical laboratories, hospitals, occupational health services, anti-drug monitoring programs, rehabilitation facilities, and forensic toxicology screening providers."
+            "LARKSOIS Pharmaâ€™s Ecstasy MDMA Rapid Test 500ng/ml is suitable for international diagnostic distributors, clinical laboratories, hospitals, occupational health services, anti-drug monitoring programs, rehabilitation facilities, and forensic toxicology screening providers."
           ]
         },
         "productOverview": {
@@ -5395,7 +5395,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -5446,7 +5446,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Ecstasy MDMA Rapid Test",
-          "description": "The Ivexia Pharma Ecstasy MDMA Rapid Test 500ng/ml may be used in professional diagnostic and institutional screening environments.",
+          "description": "The LARKSOIS Pharma Ecstasy MDMA Rapid Test 500ng/ml may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Drug of abuse screening programs",
             "Clinical toxicology laboratories",
@@ -5468,7 +5468,7 @@ export const en = {
             "Suitable for professional testing environments",
             "Supports fast preliminary screening",
             "Useful for laboratories, institutions, and occupational health programs",
-            "International B2B product suitability under Ivexia Pharma"
+            "International B2B product suitability under LARKSOIS Pharma"
           ]
         },
         "method": {
@@ -5500,7 +5500,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 500ng/ml",
-          "content": "The Ecstasy (MDMA) Rapid Test by Ivexia Pharma has a stated cut-off of 500ng/ml. This means the test is designed to screen for MDMA-related substances in urine at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Ecstasy (MDMA) Rapid Test by LARKSOIS Pharma has a stated cut-off of 500ng/ml. This means the test is designed to screen for MDMA-related substances in urine at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -5521,7 +5521,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Ecstasy (MDMA) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Ecstasy (MDMA) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -5555,8 +5555,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma focuses on reliable pharmaceutical and diagnostic products for international healthcare markets. The Ecstasy MDMA Rapid Test 500ng/ml is designed for buyers looking for urine-based drug of abuse screening solutions.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma focuses on reliable pharmaceutical and diagnostic products for international healthcare markets. The Ecstasy MDMA Rapid Test 500ng/ml is designed for buyers looking for urine-based drug of abuse screening solutions.",
           "advantages": [
             "500ng/ml MDMA cut-off",
             "Urine specimen compatibility",
@@ -5564,7 +5564,7 @@ export const en = {
             "Suitable for professional diagnostic programs",
             "Useful for workplace and institutional testing",
             "Supports preliminary MDMA screening workflows",
-            "International product positioning under Ivexia Pharma"
+            "International product positioning under LARKSOIS Pharma"
           ]
         }
       },
@@ -5579,7 +5579,7 @@ export const en = {
         },
         {
           "question": "What is the cut-off for the Ecstasy MDMA Rapid Test?",
-          "answer": "The Ecstasy (MDMA) Rapid Test by Ivexia Pharma has a stated urine cut-off of 500ng/ml. Final interpretation should follow the product insert and the testing program’s policy."
+          "answer": "The Ecstasy (MDMA) Rapid Test by LARKSOIS Pharma has a stated urine cut-off of 500ng/ml. Final interpretation should follow the product insert and the testing programâ€™s policy."
         },
         {
           "question": "Is the Ecstasy MDMA Rapid Test a confirmatory test?",
@@ -5615,7 +5615,7 @@ export const en = {
             "name": "What is the cut-off for the Ecstasy MDMA Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Ecstasy (MDMA) Rapid Test by Ivexia Pharma has a stated urine cut-off of 500ng/ml. Final interpretation should follow the product insert and the testing program’s policy."
+              "text": "The Ecstasy (MDMA) Rapid Test by LARKSOIS Pharma has a stated urine cut-off of 500ng/ml. Final interpretation should follow the product insert and the testing programâ€™s policy."
             }
           },
           {
@@ -5639,12 +5639,12 @@ export const en = {
     },
     "ethylglucuronide-urine-test": {
       "meta": {
-        "title": "Ethylglucuronide ETG Rapid Test 50ng/ml – Urine Alcohol Exposure Test | Ivexia Pharma",
-        "description": "Ivexia Pharma offers Ethylglucuronide (ETG) Rapid Test for urine-based alcohol exposure screening with a 50ng/ml cut-off. Learn about ETG urine testing, rapid test use, detection purpose, storage, precautions, FAQs, and international product details."
+        "title": "Ethylglucuronide ETG Rapid Test 50ng/ml â€“ Urine Alcohol Exposure Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers Ethylglucuronide (ETG) Rapid Test for urine-based alcohol exposure screening with a 50ng/ml cut-off. Learn about ETG urine testing, rapid test use, detection purpose, storage, precautions, FAQs, and international product details."
       },
       "hero": {
         "title": "Ethylglucuronide (ETG) Rapid Test",
-        "description": "Ethylglucuronide (ETG) Rapid Test by Ivexia Pharma is a urine-based rapid screening test designed for the qualitative detection of ethyl glucuronide, a direct metabolite of ethanol. With a 50ng/ml cut-off, this ETG rapid test supports sensitive preliminary screening for recent alcohol exposure in professional testing environments. The Ethylglucuronide ETG Rapid Test is suitable for laboratories, hospitals, rehabilitation centers, workplace testing programs, forensic screening units, clinical monitoring services, and institutional drug-of-abuse testing programs."
+        "description": "Ethylglucuronide (ETG) Rapid Test by LARKSOIS Pharma is a urine-based rapid screening test designed for the qualitative detection of ethyl glucuronide, a direct metabolite of ethanol. With a 50ng/ml cut-off, this ETG rapid test supports sensitive preliminary screening for recent alcohol exposure in professional testing environments. The Ethylglucuronide ETG Rapid Test is suitable for laboratories, hospitals, rehabilitation centers, workplace testing programs, forensic screening units, clinical monitoring services, and institutional drug-of-abuse testing programs."
       },
       "content": {
         "introduction": {
@@ -5652,7 +5652,7 @@ export const en = {
           "sections": [
             "The Ethylglucuronide (ETG) Rapid Test is categorized under Drug of Abuse testing and uses urine as the specimen. It is intended for preliminary screening of recent ethanol exposure through detection of ETG in urine.",
             "ETG is formed when alcohol is processed in the body and can be detected in urine longer than alcohol itself, making it useful for alcohol abstinence and exposure monitoring.",
-            "Ivexia Pharma’s Ethylglucuronide ETG Rapid Test 50ng/ml is designed for international diagnostic markets where fast results, simple handling, and practical screening performance are important."
+            "LARKSOIS Pharmaâ€™s Ethylglucuronide ETG Rapid Test 50ng/ml is designed for international diagnostic markets where fast results, simple handling, and practical screening performance are important."
           ]
         },
         "productOverview": {
@@ -5664,7 +5664,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -5715,7 +5715,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Ethylglucuronide ETG Rapid Test",
-          "description": "The Ivexia Pharma Ethylglucuronide ETG Rapid Test 50ng/ml may be used in professional diagnostic and institutional screening environments.",
+          "description": "The LARKSOIS Pharma Ethylglucuronide ETG Rapid Test 50ng/ml may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Alcohol abstinence monitoring programs",
             "Rehabilitation and recovery support centers",
@@ -5737,7 +5737,7 @@ export const en = {
             "Suitable for professional testing environments",
             "Helpful for clinical, workplace, and rehabilitation programs",
             "Useful in drug-of-abuse screening portfolios",
-            "Supplied under Ivexia Pharma’s international diagnostic product focus"
+            "Supplied under LARKSOIS Pharmaâ€™s international diagnostic product focus"
           ]
         },
         "detectionWindow": {
@@ -5777,7 +5777,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 50ng/ml",
-          "content": "The Ethylglucuronide (ETG) Rapid Test by Ivexia Pharma has a stated cut-off of 50ng/ml. This means the test is designed to screen for ETG in urine at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Ethylglucuronide (ETG) Rapid Test by LARKSOIS Pharma has a stated cut-off of 50ng/ml. This means the test is designed to screen for ETG in urine at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -5798,7 +5798,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Ethylglucuronide (ETG) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Ethylglucuronide (ETG) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -5832,8 +5832,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma supplies pharmaceutical and diagnostic products for international healthcare markets. The Ethylglucuronide ETG Rapid Test 50ng/ml is designed for distributors, laboratories, clinics, rehabilitation centers, and institutional buyers who need reliable urine-based alcohol exposure screening products.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma supplies pharmaceutical and diagnostic products for international healthcare markets. The Ethylglucuronide ETG Rapid Test 50ng/ml is designed for distributors, laboratories, clinics, rehabilitation centers, and institutional buyers who need reliable urine-based alcohol exposure screening products.",
           "advantages": [
             "Sensitive 50ng/ml ETG cut-off",
             "Urine specimen compatibility",
@@ -5841,7 +5841,7 @@ export const en = {
             "Suitable for professional diagnostic programs",
             "Useful for rehabilitation, workplace, forensic, and institutional testing",
             "Supports preliminary alcohol exposure screening workflows",
-            "International product positioning under Ivexia Pharma"
+            "International product positioning under LARKSOIS Pharma"
           ]
         }
       },
@@ -5916,12 +5916,12 @@ export const en = {
     },
     "fentanyl-urine-test": {
       "meta": {
-        "title": "Fentanyl FYL Rapid Test Kit 200ng/ml – Urine Drug Abuse Test | Ivexia Pharma",
-        "description": "Ivexia Pharma offers Fentanyl (FYL) Rapid Test for urine screening with 200ng/ml cut-off. A reliable rapid drug abuse test for workplace, clinical, rehabilitation, and safety screening programs."
+        "title": "Fentanyl FYL Rapid Test Kit 200ng/ml â€“ Urine Drug Abuse Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers Fentanyl (FYL) Rapid Test for urine screening with 200ng/ml cut-off. A reliable rapid drug abuse test for workplace, clinical, rehabilitation, and safety screening programs."
       },
       "hero": {
         "title": "Fentanyl (FYL) Rapid Test",
-        "description": "Fentanyl (FYL) Rapid Test by Ivexia Pharma is a rapid urine-based screening test designed for the qualitative detection of fentanyl-related exposure at a 200ng/ml cut-off level. Developed for drug of abuse screening programs, this test supports fast, simple, and reliable preliminary detection in clinical, workplace, rehabilitation, forensic, and public safety environments. With international-quality manufacturing standards, Ivexia Pharma delivers rapid test solutions that help organizations strengthen drug monitoring, compliance, and early intervention workflows."
+        "description": "Fentanyl (FYL) Rapid Test by LARKSOIS Pharma is a rapid urine-based screening test designed for the qualitative detection of fentanyl-related exposure at a 200ng/ml cut-off level. Developed for drug of abuse screening programs, this test supports fast, simple, and reliable preliminary detection in clinical, workplace, rehabilitation, forensic, and public safety environments. With international-quality manufacturing standards, LARKSOIS Pharma delivers rapid test solutions that help organizations strengthen drug monitoring, compliance, and early intervention workflows."
       },
       "content": {
         "introduction": {
@@ -5929,7 +5929,7 @@ export const en = {
           "sections": [
             "The Fentanyl (FYL) Rapid Test is a urine drug abuse screening device used to detect fentanyl or fentanyl-related compounds in human urine specimens.",
             "Fentanyl is a powerful synthetic opioid used medically for severe pain management but also associated with misuse and illicit drug contamination. Because fentanyl may not always be included in standard drug screening panels, dedicated FYL testing has become increasingly important in modern drug testing programs.",
-            "Ivexia Pharma’s Fentanyl (FYL) Rapid Test is intended for professional screening use and provides a preliminary analytical result. Any non-negative or positive screening outcome should be confirmed by a recognized laboratory method such as GC-MS or LC-MS/MS, especially in workplace, legal, medical, or rehabilitation settings."
+            "LARKSOIS Pharmaâ€™s Fentanyl (FYL) Rapid Test is intended for professional screening use and provides a preliminary analytical result. Any non-negative or positive screening outcome should be confirmed by a recognized laboratory method such as GC-MS or LC-MS/MS, especially in workplace, legal, medical, or rehabilitation settings."
           ]
         },
         "productOverview": {
@@ -5941,7 +5941,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -5973,9 +5973,9 @@ export const en = {
         "whyTestingMatters": {
           "title": "Why Fentanyl Testing Is Important",
           "sections": [
-            "Fentanyl is classified as a synthetic opioid. It is used medically under controlled prescription conditions, but illicitly made fentanyl is a major public health concern because it may be mixed into counterfeit tablets or other substances without a person’s knowledge.",
+            "Fentanyl is classified as a synthetic opioid. It is used medically under controlled prescription conditions, but illicitly made fentanyl is a major public health concern because it may be mixed into counterfeit tablets or other substances without a personâ€™s knowledge.",
             "For employers, treatment centers, hospitals, laboratories, and public health programs, fentanyl testing helps support workplace safety screening, rehabilitation monitoring, clinical toxicology screening, post-incident testing, drug abuse prevention programs, and forensic testing workflows.",
-            "The Fentanyl (FYL) Rapid Test by Ivexia Pharma provides a convenient first-level screening method where quick decision support is needed."
+            "The Fentanyl (FYL) Rapid Test by LARKSOIS Pharma provides a convenient first-level screening method where quick decision support is needed."
           ]
         },
         "howItWorks": {
@@ -5988,7 +5988,7 @@ export const en = {
         },
         "specimen": {
           "title": "Specimen: Urine",
-          "description": "Urine is one of the most widely used specimens for drug abuse screening because it is non-invasive, easy to collect, and practical for routine testing programs. Ivexia Pharma’s Fentanyl (FYL) Rapid Test is developed for urine specimen testing and should be used according to the product insert, sample handling instructions, and applicable testing regulations.",
+          "description": "Urine is one of the most widely used specimens for drug abuse screening because it is non-invasive, easy to collect, and practical for routine testing programs. LARKSOIS Pharmaâ€™s Fentanyl (FYL) Rapid Test is developed for urine specimen testing and should be used according to the product insert, sample handling instructions, and applicable testing regulations.",
           "guidance": [
             "Use urine specimens only",
             "Use clean sample collection procedures",
@@ -6004,7 +6004,7 @@ export const en = {
           "content": "The 200ng/ml cut-off indicates the screening threshold used by this product. If the fentanyl-related concentration in the urine sample meets or exceeds the test threshold, the device may show a presumptive positive result. If the concentration is below the cut-off, the test may show a negative result. Results may be influenced by sample quality, testing conditions, individual metabolism, timing of exposure, and cross-reactivity, so confirmatory testing is recommended for all non-negative results."
         },
         "keyFeatures": {
-          "title": "Key Features of Ivexia Pharma Fentanyl (FYL) Rapid Test",
+          "title": "Key Features of LARKSOIS Pharma Fentanyl (FYL) Rapid Test",
           "instructions": [
             "Rapid urine-based screening format",
             "Designed for fentanyl drug abuse testing",
@@ -6019,7 +6019,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications",
-          "description": "The Fentanyl (FYL) Rapid Test by Ivexia Pharma can be used across multiple professional settings where preliminary fentanyl screening support is required.",
+          "description": "The Fentanyl (FYL) Rapid Test by LARKSOIS Pharma can be used across multiple professional settings where preliminary fentanyl screening support is required.",
           "applications": [
             "Workplace drug testing",
             "Rehabilitation and recovery monitoring",
@@ -6048,7 +6048,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Fentanyl (FYL) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Fentanyl (FYL) Rapid Test."
         },
         "storage": {
           "title": "Storage Instructions",
@@ -6076,8 +6076,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma focuses on dependable diagnostic and pharmaceutical product solutions for international markets. The Fentanyl (FYL) Rapid Test reflects the brand’s commitment to quality, usability, and global healthcare support.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma focuses on dependable diagnostic and pharmaceutical product solutions for international markets. The Fentanyl (FYL) Rapid Test reflects the brandâ€™s commitment to quality, usability, and global healthcare support.",
           "advantages": [
             "International product quality approach",
             "Drug of abuse rapid testing portfolio",
@@ -6160,12 +6160,12 @@ export const en = {
     },
     "ketamine-urine-test": {
       "meta": {
-        "title": "Ketamine KET Rapid Test Kit 1000ng/ml – Urine Drug Abuse Test | Ivexia Pharma",
-        "description": "Ivexia Pharma offers Ketamine (KET) Rapid Test for urine screening with 1000ng/ml cut-off. A reliable rapid drug abuse test for clinical, workplace, rehabilitation, forensic, and safety screening programs."
+        "title": "Ketamine KET Rapid Test Kit 1000ng/ml â€“ Urine Drug Abuse Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers Ketamine (KET) Rapid Test for urine screening with 1000ng/ml cut-off. A reliable rapid drug abuse test for clinical, workplace, rehabilitation, forensic, and safety screening programs."
       },
       "hero": {
         "title": "Ketamine (KET) Rapid Test",
-        "description": "Ketamine (KET) Rapid Test by Ivexia Pharma is a rapid urine-based screening test designed for the qualitative detection of ketamine exposure at a 1000ng/ml cut-off level. This Ketamine Rapid Test supports fast and practical preliminary drug abuse screening in clinical, workplace, rehabilitation, forensic, and institutional testing environments. Manufactured with international-quality standards, Ivexia Pharma provides dependable KET urine test solutions for global distributors, laboratories, hospitals, diagnostic centers, and professional screening programs."
+        "description": "Ketamine (KET) Rapid Test by LARKSOIS Pharma is a rapid urine-based screening test designed for the qualitative detection of ketamine exposure at a 1000ng/ml cut-off level. This Ketamine Rapid Test supports fast and practical preliminary drug abuse screening in clinical, workplace, rehabilitation, forensic, and institutional testing environments. Manufactured with international-quality standards, LARKSOIS Pharma provides dependable KET urine test solutions for global distributors, laboratories, hospitals, diagnostic centers, and professional screening programs."
       },
       "content": {
         "introduction": {
@@ -6173,7 +6173,7 @@ export const en = {
           "sections": [
             "The Ketamine (KET) Rapid Test is a urine drug screening device used for the preliminary detection of ketamine in human urine specimens.",
             "Ketamine is a dissociative anesthetic used medically under professional supervision, especially as an anesthetic medicine in hospital or clinical settings.",
-            "Because ketamine can also be misused outside medical supervision, many drug screening programs now include Ketamine KET Rapid Test panels for targeted detection. The Ivexia Pharma Ketamine (KET) Rapid Test 1000ng/ml is intended for professional in-vitro screening use."
+            "Because ketamine can also be misused outside medical supervision, many drug screening programs now include Ketamine KET Rapid Test panels for targeted detection. The LARKSOIS Pharma Ketamine (KET) Rapid Test 1000ng/ml is intended for professional in-vitro screening use."
           ]
         },
         "productOverview": {
@@ -6185,7 +6185,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -6236,7 +6236,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Ketamine (KET) Rapid Test",
-          "description": "The Ketamine (KET) Rapid Test by Ivexia Pharma can be used across multiple professional settings where preliminary ketamine screening support is required.",
+          "description": "The Ketamine (KET) Rapid Test by LARKSOIS Pharma can be used across multiple professional settings where preliminary ketamine screening support is required.",
           "applications": [
             "Workplace drug testing programs",
             "Rehabilitation and recovery monitoring",
@@ -6253,7 +6253,7 @@ export const en = {
           "content": "The 1000ng/ml cut-off means the Ketamine (KET) Rapid Test is designed to detect ketamine at or above this screening threshold. If the concentration in urine is below the cut-off, the result may appear negative. If the concentration is equal to or above the cut-off, the result may appear presumptive positive. Cut-off values help standardize screening interpretation, but sample quality, timing of specimen collection, metabolism, hydration level, storage conditions, cross-reactivity, improper handling, or reading time can influence outcomes."
         },
         "keyFeatures": {
-          "title": "Key Features of Ivexia Pharma Ketamine (KET) Rapid Test",
+          "title": "Key Features of LARKSOIS Pharma Ketamine (KET) Rapid Test",
           "instructions": [
             "Rapid urine-based drug abuse screening",
             "Designed for ketamine detection",
@@ -6264,7 +6264,7 @@ export const en = {
             "Supports international drug testing requirements",
             "No complex instrument required for preliminary screening",
             "Manufactured under quality-focused production standards",
-            "Supplied by Ivexia Pharma for global markets"
+            "Supplied by LARKSOIS Pharma for global markets"
           ]
         },
         "method": {
@@ -6283,7 +6283,7 @@ export const en = {
         },
         "specimen": {
           "title": "Specimen: Urine",
-          "description": "Urine is one of the most widely used specimens for drug abuse screening because it is non-invasive, easy to collect, and practical for routine testing programs. Ivexia Pharma’s Ketamine (KET) Rapid Test is developed for urine specimen testing and should be used according to the product insert, sample handling instructions, and applicable testing regulations.",
+          "description": "Urine is one of the most widely used specimens for drug abuse screening because it is non-invasive, easy to collect, and practical for routine testing programs. LARKSOIS Pharmaâ€™s Ketamine (KET) Rapid Test is developed for urine specimen testing and should be used according to the product insert, sample handling instructions, and applicable testing regulations.",
           "guidance": [
             "Use urine specimens only",
             "Use clean sample collection procedures",
@@ -6313,7 +6313,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Ketamine (KET) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Ketamine (KET) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation Guidance",
@@ -6348,8 +6348,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality pharmaceutical and diagnostic solutions for global healthcare and screening markets. The Ketamine (KET) Rapid Test is developed for professional users who require practical, dependable, and easy-to-use drug abuse testing products.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality pharmaceutical and diagnostic solutions for global healthcare and screening markets. The Ketamine (KET) Rapid Test is developed for professional users who require practical, dependable, and easy-to-use drug abuse testing products.",
           "advantages": [
             "Global product quality approach",
             "Reliable drug of abuse rapid test portfolio",
@@ -6371,12 +6371,12 @@ export const en = {
           "answer": "KET on a drug test usually refers to ketamine. A KET drug test is designed to screen a urine specimen for ketamine or related drug exposure, depending on the test format."
         },
         {
-          "question": "What specimen is used for the Ivexia Pharma Ketamine Rapid Test?",
-          "answer": "The Ivexia Pharma Ketamine Rapid Test uses a urine specimen. Urine testing is widely used because it is simple, non-invasive, and suitable for professional drug abuse screening programs."
+          "question": "What specimen is used for the LARKSOIS Pharma Ketamine Rapid Test?",
+          "answer": "The LARKSOIS Pharma Ketamine Rapid Test uses a urine specimen. Urine testing is widely used because it is simple, non-invasive, and suitable for professional drug abuse screening programs."
         },
         {
           "question": "What is the cut-off level of the Ketamine KET Rapid Test?",
-          "answer": "The Ketamine (KET) Rapid Test by Ivexia Pharma has a 1000ng/ml cut-off level. This means the test is designed to provide a preliminary positive result when ketamine concentration reaches or exceeds this threshold."
+          "answer": "The Ketamine (KET) Rapid Test by LARKSOIS Pharma has a 1000ng/ml cut-off level. This means the test is designed to provide a preliminary positive result when ketamine concentration reaches or exceeds this threshold."
         },
         {
           "question": "Is a Ketamine Rapid Test result final?",
@@ -6405,10 +6405,10 @@ export const en = {
           },
           {
             "@type": "Question",
-            "name": "What specimen is used for the Ivexia Pharma Ketamine Rapid Test?",
+            "name": "What specimen is used for the LARKSOIS Pharma Ketamine Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Ivexia Pharma Ketamine Rapid Test uses a urine specimen. Urine testing is widely used because it is simple, non-invasive, and suitable for professional drug abuse screening programs."
+              "text": "The LARKSOIS Pharma Ketamine Rapid Test uses a urine specimen. Urine testing is widely used because it is simple, non-invasive, and suitable for professional drug abuse screening programs."
             }
           },
           {
@@ -6416,7 +6416,7 @@ export const en = {
             "name": "What is the cut-off level of the Ketamine KET Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Ketamine (KET) Rapid Test by Ivexia Pharma has a 1000ng/ml cut-off level. This means the test is designed to provide a preliminary positive result when ketamine concentration reaches or exceeds this threshold."
+              "text": "The Ketamine (KET) Rapid Test by LARKSOIS Pharma has a 1000ng/ml cut-off level. This means the test is designed to provide a preliminary positive result when ketamine concentration reaches or exceeds this threshold."
             }
           },
           {
@@ -6432,12 +6432,12 @@ export const en = {
     },
     "ketamine-hair-test": {
       "meta": {
-        "title": "Ketamine KET Hair Rapid Test 20ng/ml – Drug Abuse Screening Kit | Ivexia Pharma",
-        "description": "Ivexia Pharma offers Ketamine (KET) Rapid Test for hair specimen screening with 20ng/ml cut-off. A professional drug abuse rapid test for workplace, clinical, rehabilitation, forensic, and international screening programs."
+        "title": "Ketamine KET Hair Rapid Test 20ng/ml â€“ Drug Abuse Screening Kit | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers Ketamine (KET) Rapid Test for hair specimen screening with 20ng/ml cut-off. A professional drug abuse rapid test for workplace, clinical, rehabilitation, forensic, and international screening programs."
       },
       "hero": {
-        "title": "Ketamine (KET) Rapid Test – Hair Screening Device",
-        "description": "Ketamine (KET) Rapid Test by Ivexia Pharma is a professional hair-specimen drug abuse screening test designed for the qualitative detection of ketamine exposure at a 20ng/ml cut-off level. This Ketamine KET Hair Rapid Test supports longer-window screening programs where urine or oral fluid testing may not provide enough historical exposure information. Developed for international testing environments, Ivexia Pharma offers reliable ketamine hair drug test solutions for laboratories, workplace screening agencies, rehabilitation centers, forensic institutions, and diagnostic distributors."
+        "title": "Ketamine (KET) Rapid Test â€“ Hair Screening Device",
+        "description": "Ketamine (KET) Rapid Test by LARKSOIS Pharma is a professional hair-specimen drug abuse screening test designed for the qualitative detection of ketamine exposure at a 20ng/ml cut-off level. This Ketamine KET Hair Rapid Test supports longer-window screening programs where urine or oral fluid testing may not provide enough historical exposure information. Developed for international testing environments, LARKSOIS Pharma offers reliable ketamine hair drug test solutions for laboratories, workplace screening agencies, rehabilitation centers, forensic institutions, and diagnostic distributors."
       },
       "content": {
         "introduction": {
@@ -6457,7 +6457,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -6484,23 +6484,23 @@ export const en = {
               "value": "Workplace, clinical, forensic, rehabilitation, institutional screening"
             }
           ],
-          "note": "The Ivexia Pharma Ketamine (KET) Rapid Test 20ng/ml is intended for professional screening use only. It provides a preliminary result and should be confirmed by advanced laboratory methods such as GC-MS or LC-MS/MS when results are used for workplace, legal, forensic, medical, or institutional decisions."
+          "note": "The LARKSOIS Pharma Ketamine (KET) Rapid Test 20ng/ml is intended for professional screening use only. It provides a preliminary result and should be confirmed by advanced laboratory methods such as GC-MS or LC-MS/MS when results are used for workplace, legal, forensic, medical, or institutional decisions."
         },
         "whatIsKetamineHairTest": {
           "title": "What Is a Ketamine Hair Drug Test?",
-          "content": "A Ketamine Hair Drug Test is used to screen a hair specimen for ketamine exposure. Unlike urine testing, which is generally used for more recent exposure, hair testing is commonly selected when organizations need a longer historical screening window. The Ketamine KET Hair Rapid Test by Ivexia Pharma is designed for practical preliminary screening and helps professional users identify possible ketamine exposure in a structured and efficient way."
+          "content": "A Ketamine Hair Drug Test is used to screen a hair specimen for ketamine exposure. Unlike urine testing, which is generally used for more recent exposure, hair testing is commonly selected when organizations need a longer historical screening window. The Ketamine KET Hair Rapid Test by LARKSOIS Pharma is designed for practical preliminary screening and helps professional users identify possible ketamine exposure in a structured and efficient way."
         },
         "whyHairTesting": {
           "title": "Why Hair Specimen Testing Is Important",
           "sections": [
             "Hair specimen testing is valuable because it can provide a broader view of drug exposure history compared with some short-window specimen types.",
             "For drug abuse screening programs, a Ketamine (KET) Rapid Test for hair may be selected when historical exposure information is important.",
-            "The Ivexia Pharma Ketamine Hair Rapid Test supports workplace compliance programs, rehabilitation monitoring, forensic use, institutional screening, and international diagnostic supply."
+            "The LARKSOIS Pharma Ketamine Hair Rapid Test supports workplace compliance programs, rehabilitation monitoring, forensic use, institutional screening, and international diagnostic supply."
           ]
         },
         "intendedUse": {
           "title": "Applications of Ketamine (KET) Hair Rapid Test",
-          "description": "The Ketamine (KET) Hair Rapid Test by Ivexia Pharma can be used across multiple professional settings where longer-window ketamine screening support is required.",
+          "description": "The Ketamine (KET) Hair Rapid Test by LARKSOIS Pharma can be used across multiple professional settings where longer-window ketamine screening support is required.",
           "applications": [
             "Workplace drug screening",
             "Rehabilitation monitoring",
@@ -6517,7 +6517,7 @@ export const en = {
           "content": "The 20ng/ml cut-off means the Ketamine (KET) Rapid Test is designed to screen hair specimens at this detection threshold. If ketamine concentration in the processed hair sample meets or exceeds the cut-off, the test may show a presumptive positive result. If the concentration is below the cut-off, the test may show a negative result. Cut-off values help standardize screening interpretation, but results may be affected by sample quality, hair treatment, collection method, exposure level, testing conditions, and reading time."
         },
         "keyFeatures": {
-          "title": "Key Features of Ivexia Pharma Ketamine (KET) Rapid Test",
+          "title": "Key Features of LARKSOIS Pharma Ketamine (KET) Rapid Test",
           "instructions": [
             "Hair-based ketamine drug abuse screening",
             "20ng/ml cut-off level",
@@ -6528,7 +6528,7 @@ export const en = {
             "Useful for international diagnostic distributors",
             "Easy to integrate into drug abuse testing panels",
             "Developed for reliable and practical screening workflows",
-            "Supplied by Ivexia Pharma for global markets"
+            "Supplied by LARKSOIS Pharma for global markets"
           ]
         },
         "method": {
@@ -6577,7 +6577,7 @@ export const en = {
             "Wait for the test reaction to complete within the instructed time",
             "Read the result within the approved interpretation window"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Ketamine (KET) Hair Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Ketamine (KET) Hair Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation Guidance",
@@ -6612,8 +6612,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality pharmaceutical and diagnostic solutions for global healthcare and screening markets. The Ketamine (KET) Hair Rapid Test is developed for professional users who require practical, dependable, and easy-to-use drug abuse testing products.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality pharmaceutical and diagnostic solutions for global healthcare and screening markets. The Ketamine (KET) Hair Rapid Test is developed for professional users who require practical, dependable, and easy-to-use drug abuse testing products.",
           "advantages": [
             "Global product quality approach",
             "Reliable drug of abuse rapid test portfolio",
@@ -6635,12 +6635,12 @@ export const en = {
           "answer": "KET on a drug test usually refers to ketamine. A KET drug test is designed to screen a specimen such as hair or urine for ketamine-related exposure, depending on the test format."
         },
         {
-          "question": "What specimen is used for the Ivexia Pharma Ketamine Hair Rapid Test?",
-          "answer": "The Ivexia Pharma Ketamine Hair Rapid Test uses a hair specimen. Hair testing is useful when longer-window drug exposure screening is required."
+          "question": "What specimen is used for the LARKSOIS Pharma Ketamine Hair Rapid Test?",
+          "answer": "The LARKSOIS Pharma Ketamine Hair Rapid Test uses a hair specimen. Hair testing is useful when longer-window drug exposure screening is required."
         },
         {
           "question": "What is the cut-off level of the Ketamine KET Hair Rapid Test?",
-          "answer": "The Ketamine (KET) Hair Rapid Test by Ivexia Pharma has a 20ng/ml cut-off level. This means the test is designed to provide a preliminary result when ketamine concentration in the processed hair specimen reaches or exceeds this threshold."
+          "answer": "The Ketamine (KET) Hair Rapid Test by LARKSOIS Pharma has a 20ng/ml cut-off level. This means the test is designed to provide a preliminary result when ketamine concentration in the processed hair specimen reaches or exceeds this threshold."
         },
         {
           "question": "Is a Ketamine Hair Rapid Test result final?",
@@ -6669,10 +6669,10 @@ export const en = {
           },
           {
             "@type": "Question",
-            "name": "What specimen is used for the Ivexia Pharma Ketamine Hair Rapid Test?",
+            "name": "What specimen is used for the LARKSOIS Pharma Ketamine Hair Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Ivexia Pharma Ketamine Hair Rapid Test uses a hair specimen. Hair testing is useful when longer-window drug exposure screening is required."
+              "text": "The LARKSOIS Pharma Ketamine Hair Rapid Test uses a hair specimen. Hair testing is useful when longer-window drug exposure screening is required."
             }
           },
           {
@@ -6680,7 +6680,7 @@ export const en = {
             "name": "What is the cut-off level of the Ketamine KET Hair Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Ketamine (KET) Hair Rapid Test by Ivexia Pharma has a 20ng/ml cut-off level. This means the test is designed to provide a preliminary result when ketamine concentration in the processed hair specimen reaches or exceeds this threshold."
+              "text": "The Ketamine (KET) Hair Rapid Test by LARKSOIS Pharma has a 20ng/ml cut-off level. This means the test is designed to provide a preliminary result when ketamine concentration in the processed hair specimen reaches or exceeds this threshold."
             }
           },
           {
@@ -6696,19 +6696,19 @@ export const en = {
     },
     "ketamine-saliva-test": {
       "meta": {
-        "title": "Ketamine KET Saliva Rapid Test 20ng/ml – Drug Abuse Screening Kit | Ivexia Pharma",
-        "description": "Ivexia Pharma offers Ketamine (KET) Saliva Rapid Test with 20ng/ml cut-off for preliminary drug abuse screening. Suitable for workplace, clinical, forensic, rehabilitation, and international diagnostic use."
+        "title": "Ketamine KET Saliva Rapid Test 20ng/ml â€“ Drug Abuse Screening Kit | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers Ketamine (KET) Saliva Rapid Test with 20ng/ml cut-off for preliminary drug abuse screening. Suitable for workplace, clinical, forensic, rehabilitation, and international diagnostic use."
       },
       "hero": {
-        "title": "Ketamine (KET) Rapid Test – Saliva Screening Device",
-        "description": "Ketamine (KET) Rapid Test by Ivexia Pharma is a saliva-based rapid drug abuse screening test designed for the qualitative detection of ketamine exposure at a 20ng/ml cut-off level. This Ketamine Saliva Rapid Test supports quick, non-invasive, and professional preliminary screening in workplace, clinical, rehabilitation, forensic, roadside, and institutional testing environments. Developed for international diagnostic markets, Ivexia Pharma provides reliable KET saliva test solutions for laboratories, hospitals, distributors, occupational health providers, and drug screening programs."
+        "title": "Ketamine (KET) Rapid Test â€“ Saliva Screening Device",
+        "description": "Ketamine (KET) Rapid Test by LARKSOIS Pharma is a saliva-based rapid drug abuse screening test designed for the qualitative detection of ketamine exposure at a 20ng/ml cut-off level. This Ketamine Saliva Rapid Test supports quick, non-invasive, and professional preliminary screening in workplace, clinical, rehabilitation, forensic, roadside, and institutional testing environments. Developed for international diagnostic markets, LARKSOIS Pharma provides reliable KET saliva test solutions for laboratories, hospitals, distributors, occupational health providers, and drug screening programs."
       },
       "content": {
         "introduction": {
           "title": "Introduction",
           "sections": [
             "The Ketamine (KET) Rapid Test is a saliva specimen-based rapid test used for preliminary screening of ketamine exposure. Ketamine is a dissociative anesthetic medicine approved for medical use as a general anesthetic under professional supervision.",
-            "Because ketamine can also be misused outside supervised medical environments, targeted KET drug testing is important in modern drug abuse screening programs. The Ivexia Pharma Ketamine Saliva Rapid Test 20ng/ml is designed for professional in-vitro screening use where a fast and practical first-level result is required.",
+            "Because ketamine can also be misused outside supervised medical environments, targeted KET drug testing is important in modern drug abuse screening programs. The LARKSOIS Pharma Ketamine Saliva Rapid Test 20ng/ml is designed for professional in-vitro screening use where a fast and practical first-level result is required.",
             "Oral fluid drug testing checks a saliva sample for drugs or drug metabolites. Saliva testing is valued because it is non-invasive, easy to collect, and suitable for observed sample collection in professional screening workflows."
           ]
         },
@@ -6721,7 +6721,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -6752,7 +6752,7 @@ export const en = {
         },
         "whatIsKetamineSalivaTest": {
           "title": "What Is a Ketamine Saliva Rapid Test?",
-          "content": "A Ketamine Saliva Rapid Test is used to screen oral fluid for possible ketamine exposure. Saliva testing is widely preferred in many drug screening programs because the specimen is easy to collect, does not require urine handling, and can support fast on-site testing. The Ketamine (KET) Rapid Test by Ivexia Pharma is suitable for professional screening workflows where same-day or recent-use screening is more relevant than long historical exposure testing."
+          "content": "A Ketamine Saliva Rapid Test is used to screen oral fluid for possible ketamine exposure. Saliva testing is widely preferred in many drug screening programs because the specimen is easy to collect, does not require urine handling, and can support fast on-site testing. The Ketamine (KET) Rapid Test by LARKSOIS Pharma is suitable for professional screening workflows where same-day or recent-use screening is more relevant than long historical exposure testing."
         },
         "whySalivaTesting": {
           "title": "Why Saliva Testing Is Important for Ketamine Screening",
@@ -6764,7 +6764,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Ketamine (KET) Saliva Rapid Test",
-          "description": "The Ketamine (KET) Saliva Rapid Test by Ivexia Pharma can be used across multiple professional settings where preliminary ketamine screening support is required.",
+          "description": "The Ketamine (KET) Saliva Rapid Test by LARKSOIS Pharma can be used across multiple professional settings where preliminary ketamine screening support is required.",
           "applications": [
             "Workplace drug abuse screening",
             "Clinical and toxicology screening",
@@ -6789,7 +6789,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Features of Ivexia Pharma Ketamine (KET) Saliva Rapid Test",
+          "title": "Key Features of LARKSOIS Pharma Ketamine (KET) Saliva Rapid Test",
           "instructions": [
             "Saliva-based ketamine drug abuse screening",
             "20ng/ml cut-off level",
@@ -6800,7 +6800,7 @@ export const en = {
             "Useful for workplace, clinical, forensic, and rehabilitation settings",
             "Practical for on-site and institutional testing",
             "Suitable for international diagnostic supply",
-            "Supplied by Ivexia Pharma for global markets"
+            "Supplied by LARKSOIS Pharma for global markets"
           ]
         },
         "method": {
@@ -6849,7 +6849,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Ketamine (KET) Saliva Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Ketamine (KET) Saliva Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation Guidance",
@@ -6885,8 +6885,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides professional diagnostic and pharmaceutical solutions for global markets. The Ketamine (KET) Rapid Test for saliva is designed for buyers who require a practical, reliable, and internationally suitable drug abuse screening product.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides professional diagnostic and pharmaceutical solutions for global markets. The Ketamine (KET) Rapid Test for saliva is designed for buyers who require a practical, reliable, and internationally suitable drug abuse screening product.",
           "advantages": [
             "International-quality product approach",
             "Professional drug of abuse rapid test portfolio",
@@ -6908,12 +6908,12 @@ export const en = {
           "answer": "KET on a drug test usually refers to ketamine. A KET drug test is designed to screen a specimen such as saliva, urine, or hair for ketamine-related exposure, depending on the test format."
         },
         {
-          "question": "What specimen is used for the Ivexia Pharma Ketamine Saliva Rapid Test?",
-          "answer": "The Ivexia Pharma Ketamine Saliva Rapid Test uses a saliva specimen. Saliva testing is non-invasive, easy to collect, and useful for recent-use preliminary screening programs."
+          "question": "What specimen is used for the LARKSOIS Pharma Ketamine Saliva Rapid Test?",
+          "answer": "The LARKSOIS Pharma Ketamine Saliva Rapid Test uses a saliva specimen. Saliva testing is non-invasive, easy to collect, and useful for recent-use preliminary screening programs."
         },
         {
           "question": "What is the cut-off level of the Ketamine KET Saliva Rapid Test?",
-          "answer": "The Ketamine (KET) Saliva Rapid Test by Ivexia Pharma has a 20ng/ml cut-off level. This means the test is designed to provide a preliminary result when ketamine concentration in the saliva specimen reaches or exceeds this threshold."
+          "answer": "The Ketamine (KET) Saliva Rapid Test by LARKSOIS Pharma has a 20ng/ml cut-off level. This means the test is designed to provide a preliminary result when ketamine concentration in the saliva specimen reaches or exceeds this threshold."
         },
         {
           "question": "Is a Ketamine Saliva Rapid Test result final?",
@@ -6942,10 +6942,10 @@ export const en = {
           },
           {
             "@type": "Question",
-            "name": "What specimen is used for the Ivexia Pharma Ketamine Saliva Rapid Test?",
+            "name": "What specimen is used for the LARKSOIS Pharma Ketamine Saliva Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Ivexia Pharma Ketamine Saliva Rapid Test uses a saliva specimen. Saliva testing is non-invasive, easy to collect, and useful for recent-use preliminary screening programs."
+              "text": "The LARKSOIS Pharma Ketamine Saliva Rapid Test uses a saliva specimen. Saliva testing is non-invasive, easy to collect, and useful for recent-use preliminary screening programs."
             }
           },
           {
@@ -6953,7 +6953,7 @@ export const en = {
             "name": "What is the cut-off level of the Ketamine KET Saliva Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Ketamine (KET) Saliva Rapid Test by Ivexia Pharma has a 20ng/ml cut-off level. This means the test is designed to provide a preliminary result when ketamine concentration in the saliva specimen reaches or exceeds this threshold."
+              "text": "The Ketamine (KET) Saliva Rapid Test by LARKSOIS Pharma has a 20ng/ml cut-off level. This means the test is designed to provide a preliminary result when ketamine concentration in the saliva specimen reaches or exceeds this threshold."
             }
           },
           {
@@ -6969,12 +6969,12 @@ export const en = {
     },
     "lsd-urine-test": {
       "meta": {
-        "title": "LSD Rapid Test Kit 50ng/ml – Urine Drug Abuse Screening Test | Ivexia Pharma",
-        "description": "Ivexia Pharma offers Lysergic Acid Diethylamide (LSD) Rapid Test for urine screening with 50ng/ml cut-off. A professional drug abuse rapid test for clinical, workplace, forensic, rehabilitation, and international screening programs."
+        "title": "LSD Rapid Test Kit 50ng/ml â€“ Urine Drug Abuse Screening Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers Lysergic Acid Diethylamide (LSD) Rapid Test for urine screening with 50ng/ml cut-off. A professional drug abuse rapid test for clinical, workplace, forensic, rehabilitation, and international screening programs."
       },
       "hero": {
         "title": "Lysergic Acid Diethylamide (LSD) Rapid Test",
-        "description": "Lysergic Acid Diethylamide (LSD) Rapid Test by Ivexia Pharma is a urine-based rapid drug abuse screening test designed for the qualitative detection of LSD exposure at a 50ng/ml cut-off level. This LSD Rapid Test supports fast preliminary screening in workplace, clinical, rehabilitation, forensic, institutional, and public safety testing programs. Developed for international diagnostic requirements, Ivexia Pharma provides reliable LSD urine test solutions for laboratories, hospitals, occupational health providers, diagnostic distributors, and professional drug testing agencies."
+        "description": "Lysergic Acid Diethylamide (LSD) Rapid Test by LARKSOIS Pharma is a urine-based rapid drug abuse screening test designed for the qualitative detection of LSD exposure at a 50ng/ml cut-off level. This LSD Rapid Test supports fast preliminary screening in workplace, clinical, rehabilitation, forensic, institutional, and public safety testing programs. Developed for international diagnostic requirements, LARKSOIS Pharma provides reliable LSD urine test solutions for laboratories, hospitals, occupational health providers, diagnostic distributors, and professional drug testing agencies."
       },
       "content": {
         "introduction": {
@@ -6982,7 +6982,7 @@ export const en = {
           "sections": [
             "The Lysergic Acid Diethylamide (LSD) Rapid Test is a rapid urine screening device used for preliminary detection of LSD exposure.",
             "LSD is a potent hallucinogenic substance that affects the central nervous system and can alter mood, perception, behavior, and thinking.",
-            "Because LSD may be used illicitly and can cause unpredictable psychological effects, many drug abuse screening programs include an LSD urine test as part of targeted or expanded drug testing panels. The Ivexia Pharma LSD Rapid Test 50ng/ml is intended for professional in-vitro screening use only and provides a preliminary result."
+            "Because LSD may be used illicitly and can cause unpredictable psychological effects, many drug abuse screening programs include an LSD urine test as part of targeted or expanded drug testing panels. The LARKSOIS Pharma LSD Rapid Test 50ng/ml is intended for professional in-vitro screening use only and provides a preliminary result."
           ]
         },
         "productOverview": {
@@ -6994,7 +6994,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -7032,7 +7032,7 @@ export const en = {
           "sections": [
             "LSD is classified as a hallucinogen. Hallucinogens can cause experiences that appear real but are created by the mind, and LSD is known for strong perception-altering effects.",
             "For organizations and healthcare-related screening programs, an LSD urine test helps support workplace drug abuse screening, clinical toxicology screening, rehabilitation monitoring, forensic testing, institutional testing, public safety programs, and international diagnostic distribution needs.",
-            "The Ivexia Pharma LSD Rapid Test provides a practical solution for preliminary urine-based screening in environments where fast decision support is required."
+            "The LARKSOIS Pharma LSD Rapid Test provides a practical solution for preliminary urine-based screening in environments where fast decision support is required."
           ]
         },
         "cutOff": {
@@ -7042,7 +7042,7 @@ export const en = {
         "howItWorks": {
           "title": "How the LSD Rapid Test Works",
           "sections": [
-            "The LSD Rapid Test by Ivexia Pharma is designed for simple professional testing. A urine specimen is collected, applied to the test device according to the product insert, and results are interpreted within the recommended reading time.",
+            "The LSD Rapid Test by LARKSOIS Pharma is designed for simple professional testing. A urine specimen is collected, applied to the test device according to the product insert, and results are interpreted within the recommended reading time.",
             "The result should always be checked with the control indicator to confirm that the test has run correctly.",
             "The test provides a qualitative result, meaning it indicates whether LSD is detected above or below the specified product cut-off."
           ]
@@ -7059,7 +7059,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Features of Ivexia Pharma LSD Rapid Test",
+          "title": "Key Features of LARKSOIS Pharma LSD Rapid Test",
           "instructions": [
             "Urine-based LSD drug abuse screening",
             "50ng/ml cut-off level",
@@ -7070,12 +7070,12 @@ export const en = {
             "Supports targeted and expanded drug screening panels",
             "Suitable for international diagnostic supply",
             "Designed for practical screening workflows",
-            "Supplied by Ivexia Pharma for global markets"
+            "Supplied by LARKSOIS Pharma for global markets"
           ]
         },
         "intendedUse": {
           "title": "Applications of Lysergic Acid Diethylamide (LSD) Rapid Test",
-          "description": "The Lysergic Acid Diethylamide (LSD) Rapid Test by Ivexia Pharma can be used across multiple professional settings where preliminary LSD screening support is required.",
+          "description": "The Lysergic Acid Diethylamide (LSD) Rapid Test by LARKSOIS Pharma can be used across multiple professional settings where preliminary LSD screening support is required.",
           "applications": [
             "Workplace drug abuse screening",
             "Clinical toxicology screening",
@@ -7133,7 +7133,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Lysergic Acid Diethylamide (LSD) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Lysergic Acid Diethylamide (LSD) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -7170,8 +7170,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides professional diagnostic and pharmaceutical solutions for international healthcare and screening markets. The Lysergic Acid Diethylamide (LSD) Rapid Test is developed for buyers who require a practical, reliable, and globally suitable drug abuse screening product.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides professional diagnostic and pharmaceutical solutions for international healthcare and screening markets. The Lysergic Acid Diethylamide (LSD) Rapid Test is developed for buyers who require a practical, reliable, and globally suitable drug abuse screening product.",
           "advantages": [
             "International-quality product approach",
             "Professional drug of abuse rapid test portfolio",
@@ -7186,7 +7186,7 @@ export const en = {
       "faqs": [
         {
           "question": "What is the drug LSD used for?",
-          "answer": "LSD is mainly known as a hallucinogenic substance and is not an approved routine medicine for general treatment use. Some scientific studies have evaluated LSD’s pharmacology and possible research applications, but use outside authorized medical or scientific settings is illegal in many countries."
+          "answer": "LSD is mainly known as a hallucinogenic substance and is not an approved routine medicine for general treatment use. Some scientific studies have evaluated LSDâ€™s pharmacology and possible research applications, but use outside authorized medical or scientific settings is illegal in many countries."
         },
         {
           "question": "Why was LSD banned?",
@@ -7214,7 +7214,7 @@ export const en = {
             "name": "What is the drug LSD used for?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "LSD is mainly known as a hallucinogenic substance and is not an approved routine medicine for general treatment use. Some scientific studies have evaluated LSD’s pharmacology and possible research applications, but use outside authorized medical or scientific settings is illegal in many countries."
+              "text": "LSD is mainly known as a hallucinogenic substance and is not an approved routine medicine for general treatment use. Some scientific studies have evaluated LSDâ€™s pharmacology and possible research applications, but use outside authorized medical or scientific settings is illegal in many countries."
             }
           },
           {
@@ -7254,12 +7254,12 @@ export const en = {
     },
     "marijuana-urine-test": {
       "meta": {
-        "title": "Marijuana THC Rapid Test Kit 50ng/ml – Urine Drug Abuse Screening Test | Ivexia Pharma",
-        "description": "Ivexia Pharma offers Marijuana (THC) Rapid Test for urine screening with 50ng/ml cut-off. A professional drug abuse rapid test for workplace, clinical, forensic, rehabilitation, and international screening programs."
+        "title": "Marijuana THC Rapid Test Kit 50ng/ml â€“ Urine Drug Abuse Screening Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers Marijuana (THC) Rapid Test for urine screening with 50ng/ml cut-off. A professional drug abuse rapid test for workplace, clinical, forensic, rehabilitation, and international screening programs."
       },
       "hero": {
         "title": "Marijuana (THC) Rapid Test",
-        "description": "Marijuana (THC) Rapid Test by Ivexia Pharma is a urine-based rapid drug abuse screening test designed for the qualitative detection of THC-related cannabis exposure at a 50ng/ml cut-off level. This THC Rapid Test supports fast preliminary screening in workplace, clinical, rehabilitation, forensic, institutional, and public safety testing programs. Developed for international diagnostic requirements, Ivexia Pharma provides reliable THC urine test solutions for laboratories, hospitals, occupational health providers, diagnostic distributors, and professional drug testing agencies."
+        "description": "Marijuana (THC) Rapid Test by LARKSOIS Pharma is a urine-based rapid drug abuse screening test designed for the qualitative detection of THC-related cannabis exposure at a 50ng/ml cut-off level. This THC Rapid Test supports fast preliminary screening in workplace, clinical, rehabilitation, forensic, institutional, and public safety testing programs. Developed for international diagnostic requirements, LARKSOIS Pharma provides reliable THC urine test solutions for laboratories, hospitals, occupational health providers, diagnostic distributors, and professional drug testing agencies."
       },
       "content": {
         "introduction": {
@@ -7267,7 +7267,7 @@ export const en = {
           "sections": [
             "The Marijuana (THC) Rapid Test is a rapid urine screening device used for preliminary detection of cannabis-related exposure.",
             "Cannabis, also known as marijuana in many regions, contains naturally occurring chemical compounds called cannabinoids. THC, or tetrahydrocannabinol, is the main psychoactive compound associated with cannabis-related intoxication and mind-altering effects.",
-            "The Ivexia Pharma Marijuana (THC) Rapid Test 50ng/ml is intended for professional in-vitro screening use only. It gives a preliminary result and should not be treated as a final legal, workplace, or clinical conclusion."
+            "The LARKSOIS Pharma Marijuana (THC) Rapid Test 50ng/ml is intended for professional in-vitro screening use only. It gives a preliminary result and should not be treated as a final legal, workplace, or clinical conclusion."
           ]
         },
         "productOverview": {
@@ -7279,7 +7279,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -7310,7 +7310,7 @@ export const en = {
         },
         "whatIsThcRapidTest": {
           "title": "What Is a Marijuana THC Rapid Test?",
-          "content": "A Marijuana THC Rapid Test is a drug abuse screening device used to detect THC-related metabolites in urine. In urine drug testing, the target is commonly a THC metabolite rather than active THC itself. The THC Rapid Test by Ivexia Pharma works as a qualitative screening method, meaning it indicates whether the sample is above or below the product’s detection threshold. It does not measure the exact amount of THC metabolite in the urine specimen."
+          "content": "A Marijuana THC Rapid Test is a drug abuse screening device used to detect THC-related metabolites in urine. In urine drug testing, the target is commonly a THC metabolite rather than active THC itself. The THC Rapid Test by LARKSOIS Pharma works as a qualitative screening method, meaning it indicates whether the sample is above or below the productâ€™s detection threshold. It does not measure the exact amount of THC metabolite in the urine specimen."
         },
         "whyTestingMatters": {
           "title": "Why THC Urine Testing Is Important",
@@ -7327,7 +7327,7 @@ export const en = {
         "howItWorks": {
           "title": "How the THC Rapid Test Works",
           "sections": [
-            "The Marijuana THC Rapid Test by Ivexia Pharma uses a rapid immunoassay principle. A urine specimen is collected and applied to the test device according to the product insert.",
+            "The Marijuana THC Rapid Test by LARKSOIS Pharma uses a rapid immunoassay principle. A urine specimen is collected and applied to the test device according to the product insert.",
             "The result is read visually within the recommended reading time. The result should always be checked with the control indicator to confirm that the test has run correctly.",
             "The test provides a qualitative result, meaning it indicates whether THC-related metabolites are detected above or below the specified product cut-off."
           ]
@@ -7344,7 +7344,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Features of Ivexia Pharma Marijuana THC Rapid Test",
+          "title": "Key Features of LARKSOIS Pharma Marijuana THC Rapid Test",
           "instructions": [
             "Urine-based THC drug abuse screening",
             "50ng/ml cut-off level",
@@ -7355,12 +7355,12 @@ export const en = {
             "Supports targeted and multi-panel drug screening",
             "Suitable for international diagnostic supply",
             "Practical product format for routine screening workflows",
-            "Supplied by Ivexia Pharma for global markets"
+            "Supplied by LARKSOIS Pharma for global markets"
           ]
         },
         "intendedUse": {
           "title": "Applications of Marijuana (THC) Rapid Test",
-          "description": "The Marijuana (THC) Rapid Test by Ivexia Pharma can be used across multiple professional settings where preliminary THC screening support is required.",
+          "description": "The Marijuana (THC) Rapid Test by LARKSOIS Pharma can be used across multiple professional settings where preliminary THC screening support is required.",
           "applications": [
             "Workplace drug testing",
             "Occupational health and safety checks",
@@ -7418,7 +7418,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Marijuana (THC) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Marijuana (THC) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -7455,8 +7455,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides professional diagnostic and pharmaceutical solutions for international healthcare and screening markets. The Marijuana (THC) Rapid Test is developed for buyers who require a practical, reliable, and globally suitable drug abuse screening product.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides professional diagnostic and pharmaceutical solutions for international healthcare and screening markets. The Marijuana (THC) Rapid Test is developed for buyers who require a practical, reliable, and globally suitable drug abuse screening product.",
           "advantages": [
             "International-quality product approach",
             "Professional drug of abuse rapid test portfolio",
@@ -7475,15 +7475,15 @@ export const en = {
         },
         {
           "question": "What is the cut-off level of the Marijuana THC Rapid Test?",
-          "answer": "The Marijuana (THC) Rapid Test by Ivexia Pharma has a 50ng/ml cut-off level. This means the test is designed to provide a preliminary result when THC-related metabolites in urine reach or exceed this threshold."
+          "answer": "The Marijuana (THC) Rapid Test by LARKSOIS Pharma has a 50ng/ml cut-off level. This means the test is designed to provide a preliminary result when THC-related metabolites in urine reach or exceed this threshold."
         },
         {
           "question": "Is a Marijuana THC Rapid Test result final?",
           "answer": "No. A Marijuana THC Rapid Test gives only a preliminary screening result. Any presumptive positive result should be confirmed by a recognized laboratory method such as GC-MS or LC-MS/MS where required."
         },
         {
-          "question": "What specimen is used for the Ivexia Pharma THC Rapid Test?",
-          "answer": "The Ivexia Pharma Marijuana THC Rapid Test uses a urine specimen. Urine testing is commonly used in professional drug-of-abuse screening programs because it is practical and suitable for routine testing workflows."
+          "question": "What specimen is used for the LARKSOIS Pharma THC Rapid Test?",
+          "answer": "The LARKSOIS Pharma Marijuana THC Rapid Test uses a urine specimen. Urine testing is commonly used in professional drug-of-abuse screening programs because it is practical and suitable for routine testing workflows."
         },
         {
           "question": "Can a negative THC urine test rule out cannabis exposure?",
@@ -7507,7 +7507,7 @@ export const en = {
             "name": "What is the cut-off level of the Marijuana THC Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Marijuana (THC) Rapid Test by Ivexia Pharma has a 50ng/ml cut-off level. This means the test is designed to provide a preliminary result when THC-related metabolites in urine reach or exceed this threshold."
+              "text": "The Marijuana (THC) Rapid Test by LARKSOIS Pharma has a 50ng/ml cut-off level. This means the test is designed to provide a preliminary result when THC-related metabolites in urine reach or exceed this threshold."
             }
           },
           {
@@ -7520,10 +7520,10 @@ export const en = {
           },
           {
             "@type": "Question",
-            "name": "What specimen is used for the Ivexia Pharma THC Rapid Test?",
+            "name": "What specimen is used for the LARKSOIS Pharma THC Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Ivexia Pharma Marijuana THC Rapid Test uses a urine specimen. Urine testing is commonly used in professional drug-of-abuse screening programs because it is practical and suitable for routine testing workflows."
+              "text": "The LARKSOIS Pharma Marijuana THC Rapid Test uses a urine specimen. Urine testing is commonly used in professional drug-of-abuse screening programs because it is practical and suitable for routine testing workflows."
             }
           },
           {
@@ -7539,21 +7539,21 @@ export const en = {
     },
     "methadone-urine-test": {
       "meta": {
-        "title": "Methadone MTD Rapid Test Kit 300ng/ml – Urine Drug Abuse Screening | Ivexia Pharma",
-        "description": "Ivexia Pharma offers Methadone (MTD) Rapid Test for urine screening with 300ng/ml cut-off. A professional drug abuse rapid test for clinical, workplace, forensic, rehabilitation, and international screening programs."
+        "title": "Methadone MTD Rapid Test Kit 300ng/ml â€“ Urine Drug Abuse Screening | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers Methadone (MTD) Rapid Test for urine screening with 300ng/ml cut-off. A professional drug abuse rapid test for clinical, workplace, forensic, rehabilitation, and international screening programs."
       },
       "hero": {
         "title": "Methadone (MTD) Rapid Test",
-        "description": "Methadone (MTD) Rapid Test by Ivexia Pharma is a urine-based rapid drug abuse screening test designed for the qualitative detection of methadone exposure at a 300ng/ml cut-off level. This MTD Rapid Test supports fast preliminary screening in clinical, workplace, rehabilitation, forensic, institutional, and compliance-based drug testing programs. Developed for international diagnostic markets, Ivexia Pharma provides reliable methadone urine test solutions for laboratories, hospitals, occupational health providers, diagnostic distributors, and professional drug screening agencies."
+        "description": "Methadone (MTD) Rapid Test by LARKSOIS Pharma is a urine-based rapid drug abuse screening test designed for the qualitative detection of methadone exposure at a 300ng/ml cut-off level. This MTD Rapid Test supports fast preliminary screening in clinical, workplace, rehabilitation, forensic, institutional, and compliance-based drug testing programs. Developed for international diagnostic markets, LARKSOIS Pharma provides reliable methadone urine test solutions for laboratories, hospitals, occupational health providers, diagnostic distributors, and professional drug screening agencies."
       },
       "content": {
         "introduction": {
           "title": "Introduction",
           "sections": [
             "The Methadone (MTD) Rapid Test is a rapid urine screening device used for preliminary detection of methadone in human urine specimens.",
-            "Methadone is a synthetic opioid and a full agonist at the μ-opioid receptor. It is used in regulated medical settings for opioid use disorder treatment and selected pain-management situations.",
+            "Methadone is a synthetic opioid and a full agonist at the Î¼-opioid receptor. It is used in regulated medical settings for opioid use disorder treatment and selected pain-management situations.",
             "Because methadone is a specific synthetic opioid, targeted MTD drug testing is important. Some diagnostic references note that methadone may not always produce a positive result on standard opiate urine screening, making a dedicated methadone urine test useful for professional testing programs.",
-            "The Ivexia Pharma Methadone Rapid Test 300ng/ml is intended for professional in-vitro screening use only. It provides a preliminary screening result and should not be treated as a final legal, workplace, or clinical conclusion."
+            "The LARKSOIS Pharma Methadone Rapid Test 300ng/ml is intended for professional in-vitro screening use only. It provides a preliminary screening result and should not be treated as a final legal, workplace, or clinical conclusion."
           ]
         },
         "productOverview": {
@@ -7565,7 +7565,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -7596,14 +7596,14 @@ export const en = {
         },
         "whatIsMtdRapidTest": {
           "title": "What Is a Methadone MTD Rapid Test?",
-          "content": "A Methadone MTD Rapid Test is a drug abuse screening device used to detect methadone in a urine sample. It is commonly used as a first-level screening tool in professional environments where fast, practical, and easy-to-read results are required. The Methadone Rapid Test by Ivexia Pharma is qualitative, meaning it indicates whether the urine specimen is above or below the product’s screening threshold. It does not measure the exact concentration of methadone in the specimen."
+          "content": "A Methadone MTD Rapid Test is a drug abuse screening device used to detect methadone in a urine sample. It is commonly used as a first-level screening tool in professional environments where fast, practical, and easy-to-read results are required. The Methadone Rapid Test by LARKSOIS Pharma is qualitative, meaning it indicates whether the urine specimen is above or below the productâ€™s screening threshold. It does not measure the exact concentration of methadone in the specimen."
         },
         "whyTestingMatters": {
           "title": "Why Methadone Urine Testing Is Important",
           "sections": [
             "Methadone has legitimate medical use, but it is also a controlled opioid medicine requiring careful supervision.",
             "A dedicated MTD urine test helps support workplace drug abuse screening, clinical toxicology screening, rehabilitation and recovery monitoring, opioid treatment compliance programs, forensic and institutional testing, and pre-employment or random testing where legally permitted.",
-            "The Ivexia Pharma MTD Rapid Test provides a practical preliminary screening option for professional drug testing programs that require methadone-specific detection."
+            "The LARKSOIS Pharma MTD Rapid Test provides a practical preliminary screening option for professional drug testing programs that require methadone-specific detection."
           ]
         },
         "cutOff": {
@@ -7613,7 +7613,7 @@ export const en = {
         "howItWorks": {
           "title": "How the MTD Rapid Test Works",
           "sections": [
-            "The MTD Rapid Test by Ivexia Pharma works through a rapid immunoassay principle. A urine specimen is applied to the test device according to the product insert, and the result is read visually within the recommended time window.",
+            "The MTD Rapid Test by LARKSOIS Pharma works through a rapid immunoassay principle. A urine specimen is applied to the test device according to the product insert, and the result is read visually within the recommended time window.",
             "The result should always be checked with the control indicator to confirm that the test has run correctly.",
             "The test provides a qualitative result, meaning it indicates whether methadone is detected above or below the specified product cut-off."
           ]
@@ -7630,7 +7630,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Features of Ivexia Pharma Methadone MTD Rapid Test",
+          "title": "Key Features of LARKSOIS Pharma Methadone MTD Rapid Test",
           "instructions": [
             "Urine-based methadone drug abuse screening",
             "300ng/ml cut-off level",
@@ -7641,12 +7641,12 @@ export const en = {
             "Supports methadone-specific drug screening",
             "Suitable for international diagnostic supply",
             "Practical product format for routine screening workflows",
-            "Supplied by Ivexia Pharma for global markets"
+            "Supplied by LARKSOIS Pharma for global markets"
           ]
         },
         "intendedUse": {
           "title": "Applications of Methadone (MTD) Rapid Test",
-          "description": "The Methadone (MTD) Rapid Test by Ivexia Pharma can be used across multiple professional settings where preliminary methadone screening support is required.",
+          "description": "The Methadone (MTD) Rapid Test by LARKSOIS Pharma can be used across multiple professional settings where preliminary methadone screening support is required.",
           "applications": [
             "Workplace drug screening",
             "Clinical and toxicology screening",
@@ -7704,7 +7704,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Methadone (MTD) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Methadone (MTD) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -7741,8 +7741,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides professional diagnostic and pharmaceutical solutions for international healthcare and screening markets. The Methadone (MTD) Rapid Test is developed for buyers who require a practical, reliable, and globally suitable drug abuse screening product.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides professional diagnostic and pharmaceutical solutions for international healthcare and screening markets. The Methadone (MTD) Rapid Test is developed for buyers who require a practical, reliable, and globally suitable drug abuse screening product.",
           "advantages": [
             "International-quality product approach",
             "Professional drug of abuse rapid test portfolio",
@@ -7825,12 +7825,12 @@ export const en = {
     },
     "methadone-metabolite-urine-test": {
       "meta": {
-        "title": "Methadone Metabolite EDDP Rapid Test Kit 300ng/ml – Urine Drug Abuse Screening | Ivexia Pharma",
-        "description": "Ivexia Pharma offers Methadone Metabolite (EDDP) Rapid Test for urine screening with 300ng/ml cut-off. A professional drug abuse rapid test for clinical, rehabilitation, workplace, forensic, and international screening programs."
+        "title": "Methadone Metabolite EDDP Rapid Test Kit 300ng/ml â€“ Urine Drug Abuse Screening | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers Methadone Metabolite (EDDP) Rapid Test for urine screening with 300ng/ml cut-off. A professional drug abuse rapid test for clinical, rehabilitation, workplace, forensic, and international screening programs."
       },
       "hero": {
         "title": "Methadone Metabolite (EDDP) Rapid Test",
-        "description": "Methadone Metabolite (EDDP) Rapid Test by Ivexia Pharma is a urine-based rapid drug abuse screening test designed for the qualitative detection of EDDP, the primary metabolite of methadone, at a 300ng/ml cut-off level. This EDDP Rapid Test supports professional screening programs where methadone intake monitoring, compliance assessment, rehabilitation support, and drug abuse screening are required. Developed for international diagnostic markets, Ivexia Pharma provides reliable EDDP urine test solutions for laboratories, hospitals, occupational health providers, rehabilitation centers, forensic institutions, and global diagnostic distributors."
+        "description": "Methadone Metabolite (EDDP) Rapid Test by LARKSOIS Pharma is a urine-based rapid drug abuse screening test designed for the qualitative detection of EDDP, the primary metabolite of methadone, at a 300ng/ml cut-off level. This EDDP Rapid Test supports professional screening programs where methadone intake monitoring, compliance assessment, rehabilitation support, and drug abuse screening are required. Developed for international diagnostic markets, LARKSOIS Pharma provides reliable EDDP urine test solutions for laboratories, hospitals, occupational health providers, rehabilitation centers, forensic institutions, and global diagnostic distributors."
       },
       "content": {
         "introduction": {
@@ -7839,7 +7839,7 @@ export const en = {
             "The Methadone Metabolite (EDDP) Rapid Test is a urine screening device used for preliminary detection of EDDP in human urine specimens.",
             "EDDP stands for 2-ethylidene-1,5-dimethyl-3,3-diphenylpyrrolidine, which is widely recognized as a major metabolite of methadone.",
             "Methadone testing and EDDP testing are related, but they are not exactly the same. A direct Methadone MTD Rapid Test detects methadone itself, while an EDDP Rapid Test detects the metabolite produced after methadone is processed by the body.",
-            "The Ivexia Pharma EDDP Rapid Test 300ng/ml is intended for professional in-vitro screening use only. It provides a preliminary screening result and should not be treated as a final medical, workplace, forensic, or legal conclusion."
+            "The LARKSOIS Pharma EDDP Rapid Test 300ng/ml is intended for professional in-vitro screening use only. It provides a preliminary screening result and should not be treated as a final medical, workplace, forensic, or legal conclusion."
           ]
         },
         "productOverview": {
@@ -7851,7 +7851,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -7882,14 +7882,14 @@ export const en = {
         },
         "whatIsEddpRapidTest": {
           "title": "What Is an EDDP Rapid Test?",
-          "content": "An EDDP Rapid Test is a drug abuse screening device used to detect methadone metabolite in urine. It is commonly used in professional environments where methadone exposure, methadone treatment compliance, or drug monitoring needs to be assessed. The Methadone Metabolite EDDP Rapid Test by Ivexia Pharma is qualitative, meaning it indicates whether EDDP is detected above or below the product cut-off. It does not measure the exact concentration of EDDP in the specimen."
+          "content": "An EDDP Rapid Test is a drug abuse screening device used to detect methadone metabolite in urine. It is commonly used in professional environments where methadone exposure, methadone treatment compliance, or drug monitoring needs to be assessed. The Methadone Metabolite EDDP Rapid Test by LARKSOIS Pharma is qualitative, meaning it indicates whether EDDP is detected above or below the product cut-off. It does not measure the exact concentration of EDDP in the specimen."
         },
         "whyTestingMatters": {
           "title": "Why EDDP Urine Testing Is Important",
           "sections": [
             "The EDDP urine test is especially useful in methadone monitoring and drug abuse screening because it focuses on the metabolite rather than only the parent drug.",
             "EDDP screening can support methadone treatment compliance monitoring, rehabilitation follow-up, clinical toxicology workflows, pain management monitoring, workplace drug screening, and forensic testing programs.",
-            "The Methadone Metabolite (EDDP) Rapid Test by Ivexia Pharma provides a practical preliminary screening option for professional programs requiring methadone-metabolite detection."
+            "The Methadone Metabolite (EDDP) Rapid Test by LARKSOIS Pharma provides a practical preliminary screening option for professional programs requiring methadone-metabolite detection."
           ]
         },
         "cutOff": {
@@ -7899,7 +7899,7 @@ export const en = {
         "howItWorks": {
           "title": "How the EDDP Rapid Test Works",
           "sections": [
-            "The EDDP Rapid Test by Ivexia Pharma works through a rapid immunoassay principle. A urine specimen is applied to the test device according to the product insert, and the result is read visually within the recommended time window.",
+            "The EDDP Rapid Test by LARKSOIS Pharma works through a rapid immunoassay principle. A urine specimen is applied to the test device according to the product insert, and the result is read visually within the recommended time window.",
             "The result should always be checked with the control indicator to confirm that the test has run correctly.",
             "The test provides a qualitative result, meaning it indicates whether EDDP is detected above or below the specified product cut-off."
           ]
@@ -7916,7 +7916,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Features of Ivexia Pharma Methadone Metabolite EDDP Rapid Test",
+          "title": "Key Features of LARKSOIS Pharma Methadone Metabolite EDDP Rapid Test",
           "instructions": [
             "Urine-based methadone metabolite screening",
             "300ng/ml cut-off level",
@@ -7927,12 +7927,12 @@ export const en = {
             "Useful for clinical, workplace, forensic, and rehabilitation settings",
             "Supports methadone treatment compliance monitoring",
             "Suitable for international diagnostic supply",
-            "Supplied by Ivexia Pharma for global markets"
+            "Supplied by LARKSOIS Pharma for global markets"
           ]
         },
         "intendedUse": {
           "title": "Applications of Methadone Metabolite (EDDP) Rapid Test",
-          "description": "The Methadone Metabolite (EDDP) Rapid Test by Ivexia Pharma can be used across multiple professional settings where preliminary EDDP screening support is required.",
+          "description": "The Methadone Metabolite (EDDP) Rapid Test by LARKSOIS Pharma can be used across multiple professional settings where preliminary EDDP screening support is required.",
           "applications": [
             "Methadone treatment compliance screening",
             "Rehabilitation and recovery monitoring",
@@ -7990,7 +7990,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Methadone Metabolite (EDDP) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Methadone Metabolite (EDDP) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -8027,8 +8027,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides professional diagnostic and pharmaceutical solutions for international healthcare and screening markets. The Methadone Metabolite (EDDP) Rapid Test is developed for buyers who require a practical, reliable, and globally suitable drug abuse screening product.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides professional diagnostic and pharmaceutical solutions for international healthcare and screening markets. The Methadone Metabolite (EDDP) Rapid Test is developed for buyers who require a practical, reliable, and globally suitable drug abuse screening product.",
           "advantages": [
             "International-quality product approach",
             "Professional drug of abuse rapid test portfolio",
@@ -8055,7 +8055,7 @@ export const en = {
         },
         {
           "question": "What is the cut-off level of the Methadone Metabolite EDDP Rapid Test?",
-          "answer": "The Methadone Metabolite (EDDP) Rapid Test by Ivexia Pharma has a 300ng/ml cut-off level. This means the test is designed to provide a preliminary result when EDDP in urine reaches or exceeds this threshold."
+          "answer": "The Methadone Metabolite (EDDP) Rapid Test by LARKSOIS Pharma has a 300ng/ml cut-off level. This means the test is designed to provide a preliminary result when EDDP in urine reaches or exceeds this threshold."
         },
         {
           "question": "Is an EDDP Rapid Test result final?",
@@ -8095,7 +8095,7 @@ export const en = {
             "name": "What is the cut-off level of the Methadone Metabolite EDDP Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Methadone Metabolite (EDDP) Rapid Test by Ivexia Pharma has a 300ng/ml cut-off level. This means the test is designed to provide a preliminary result when EDDP in urine reaches or exceeds this threshold."
+              "text": "The Methadone Metabolite (EDDP) Rapid Test by LARKSOIS Pharma has a 300ng/ml cut-off level. This means the test is designed to provide a preliminary result when EDDP in urine reaches or exceeds this threshold."
             }
           },
           {
@@ -8111,12 +8111,12 @@ export const en = {
     },
     "methamphetamine-urine-test": {
       "meta": {
-        "title": "Methamphetamine MET Rapid Test Kit 1000ng/ml – Urine Drug Abuse Screening | Ivexia Pharma",
-        "description": "Ivexia Pharma offers Methamphetamine (MET) Rapid Test for urine screening with 1000ng/ml cut-off. A professional drug abuse rapid test for workplace, clinical, forensic, rehabilitation, and international screening programs."
+        "title": "Methamphetamine MET Rapid Test Kit 1000ng/ml â€“ Urine Drug Abuse Screening | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers Methamphetamine (MET) Rapid Test for urine screening with 1000ng/ml cut-off. A professional drug abuse rapid test for workplace, clinical, forensic, rehabilitation, and international screening programs."
       },
       "hero": {
         "title": "Methamphetamine (MET) Rapid Test",
-        "description": "Methamphetamine (MET) Rapid Test by Ivexia Pharma is a urine-based rapid drug abuse screening test designed for the qualitative detection of methamphetamine exposure at a 1000ng/ml cut-off level. This MET Rapid Test supports fast preliminary screening in workplace, clinical, rehabilitation, forensic, institutional, and public safety testing programs. Developed for international diagnostic markets, Ivexia Pharma provides reliable methamphetamine urine test solutions for laboratories, hospitals, occupational health providers, diagnostic distributors, and professional drug testing agencies."
+        "description": "Methamphetamine (MET) Rapid Test by LARKSOIS Pharma is a urine-based rapid drug abuse screening test designed for the qualitative detection of methamphetamine exposure at a 1000ng/ml cut-off level. This MET Rapid Test supports fast preliminary screening in workplace, clinical, rehabilitation, forensic, institutional, and public safety testing programs. Developed for international diagnostic markets, LARKSOIS Pharma provides reliable methamphetamine urine test solutions for laboratories, hospitals, occupational health providers, diagnostic distributors, and professional drug testing agencies."
       },
       "content": {
         "introduction": {
@@ -8124,7 +8124,7 @@ export const en = {
           "sections": [
             "The Methamphetamine (MET) Rapid Test is a rapid urine screening device used for preliminary detection of methamphetamine in human urine specimens.",
             "Methamphetamine, often called meth, is a highly addictive stimulant drug that affects the central nervous system. Because methamphetamine misuse can be linked with serious health, behavioral, occupational, and safety risks, professional drug testing programs often include a MET urine test as part of drug abuse screening.",
-            "The Ivexia Pharma Methamphetamine Rapid Test 1000ng/ml is intended for professional in-vitro screening use only. It provides a preliminary result and should not be treated as a final legal, workplace, or clinical conclusion."
+            "The LARKSOIS Pharma Methamphetamine Rapid Test 1000ng/ml is intended for professional in-vitro screening use only. It provides a preliminary result and should not be treated as a final legal, workplace, or clinical conclusion."
           ]
         },
         "productOverview": {
@@ -8136,7 +8136,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -8167,14 +8167,14 @@ export const en = {
         },
         "whatIsMetRapidTest": {
           "title": "What Is a Methamphetamine MET Rapid Test?",
-          "content": "A Methamphetamine MET Rapid Test is a drug abuse screening device used to detect methamphetamine in a urine specimen. It is commonly used as a first-level screening tool where fast, practical, and easy-to-read results are required. The Methamphetamine Rapid Test by Ivexia Pharma is qualitative, meaning it indicates whether the urine specimen is above or below the product’s screening cut-off. It does not measure the exact concentration of methamphetamine in the urine sample."
+          "content": "A Methamphetamine MET Rapid Test is a drug abuse screening device used to detect methamphetamine in a urine specimen. It is commonly used as a first-level screening tool where fast, practical, and easy-to-read results are required. The Methamphetamine Rapid Test by LARKSOIS Pharma is qualitative, meaning it indicates whether the urine specimen is above or below the productâ€™s screening cut-off. It does not measure the exact concentration of methamphetamine in the urine sample."
         },
         "whyTestingMatters": {
           "title": "Why Methamphetamine Urine Testing Is Important",
           "sections": [
             "Methamphetamine is a powerful stimulant that can increase activity in the brain and body. Because of its misuse potential and safety risks, methamphetamine screening is important in professional drug abuse testing programs.",
             "A Methamphetamine urine test helps support workplace drug abuse screening, occupational health checks, clinical toxicology screening, rehabilitation monitoring, forensic testing, correctional testing, and international diagnostic distribution needs.",
-            "The Ivexia Pharma MET Rapid Test provides a practical preliminary screening option for organizations that require methamphetamine-specific detection."
+            "The LARKSOIS Pharma MET Rapid Test provides a practical preliminary screening option for organizations that require methamphetamine-specific detection."
           ]
         },
         "cutOff": {
@@ -8184,7 +8184,7 @@ export const en = {
         "howItWorks": {
           "title": "How the MET Rapid Test Works",
           "sections": [
-            "The MET Rapid Test by Ivexia Pharma is designed for simple professional testing. A urine specimen is collected and applied to the test device according to the product insert.",
+            "The MET Rapid Test by LARKSOIS Pharma is designed for simple professional testing. A urine specimen is collected and applied to the test device according to the product insert.",
             "The result is read visually within the recommended time window. The result should always be checked with the control indicator to confirm that the test has run correctly.",
             "This responsible testing approach helps ensure that the Methamphetamine MET Rapid Test is used as part of a complete screening and confirmation workflow."
           ]
@@ -8201,7 +8201,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Features of Ivexia Pharma Methamphetamine MET Rapid Test",
+          "title": "Key Features of LARKSOIS Pharma Methamphetamine MET Rapid Test",
           "instructions": [
             "Urine-based methamphetamine drug abuse screening",
             "1000ng/ml cut-off level",
@@ -8212,12 +8212,12 @@ export const en = {
             "Supports methamphetamine-specific drug screening",
             "Suitable for international diagnostic supply",
             "Practical product format for routine screening workflows",
-            "Supplied by Ivexia Pharma for global markets"
+            "Supplied by LARKSOIS Pharma for global markets"
           ]
         },
         "intendedUse": {
           "title": "Applications of Methamphetamine (MET) Rapid Test",
-          "description": "The Methamphetamine (MET) Rapid Test by Ivexia Pharma can be used across multiple professional settings where preliminary methamphetamine screening support is required.",
+          "description": "The Methamphetamine (MET) Rapid Test by LARKSOIS Pharma can be used across multiple professional settings where preliminary methamphetamine screening support is required.",
           "applications": [
             "Workplace drug abuse screening",
             "Occupational health and safety checks",
@@ -8275,7 +8275,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Methamphetamine (MET) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Methamphetamine (MET) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -8312,8 +8312,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides professional diagnostic and pharmaceutical solutions for international healthcare and screening markets. The Methamphetamine (MET) Rapid Test is developed for buyers who require a practical, reliable, and globally suitable drug abuse screening product.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides professional diagnostic and pharmaceutical solutions for international healthcare and screening markets. The Methamphetamine (MET) Rapid Test is developed for buyers who require a practical, reliable, and globally suitable drug abuse screening product.",
           "advantages": [
             "International-quality product approach",
             "Professional drug of abuse rapid test portfolio",
@@ -8340,7 +8340,7 @@ export const en = {
         },
         {
           "question": "What is the cut-off level of the Methamphetamine MET Rapid Test?",
-          "answer": "The Methamphetamine (MET) Rapid Test by Ivexia Pharma has a 1000ng/ml cut-off level. This means the test is designed to provide a preliminary result when methamphetamine in urine reaches or exceeds this threshold."
+          "answer": "The Methamphetamine (MET) Rapid Test by LARKSOIS Pharma has a 1000ng/ml cut-off level. This means the test is designed to provide a preliminary result when methamphetamine in urine reaches or exceeds this threshold."
         },
         {
           "question": "Is a Methamphetamine Rapid Test result final?",
@@ -8380,7 +8380,7 @@ export const en = {
             "name": "What is the cut-off level of the Methamphetamine MET Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Methamphetamine (MET) Rapid Test by Ivexia Pharma has a 1000ng/ml cut-off level. This means the test is designed to provide a preliminary result when methamphetamine in urine reaches or exceeds this threshold."
+              "text": "The Methamphetamine (MET) Rapid Test by LARKSOIS Pharma has a 1000ng/ml cut-off level. This means the test is designed to provide a preliminary result when methamphetamine in urine reaches or exceeds this threshold."
             }
           },
           {
@@ -8396,12 +8396,12 @@ export const en = {
     },
     "morphine-hair-test": {
       "meta": {
-        "title": "Morphine MOR Hair Rapid Test Kit – Drug of Abuse Screening 20 ng/mL | Ivexia Pharma",
-        "description": "Ivexia Pharma Morphine (MOR) Hair Rapid Test is a professional drug of abuse screening test with 20 ng/mL cut-off for qualitative morphine detection in hair specimens."
+        "title": "Morphine MOR Hair Rapid Test Kit â€“ Drug of Abuse Screening 20 ng/mL | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Morphine (MOR) Hair Rapid Test is a professional drug of abuse screening test with 20 ng/mL cut-off for qualitative morphine detection in hair specimens."
       },
       "hero": {
         "title": "Morphine (MOR) Hair Rapid Test",
-        "description": "Morphine (MOR) Hair Rapid Test by Ivexia Pharma is a professional rapid screening test designed for the qualitative detection of morphine in hair specimens at a 20 ng/mL cut-off level. Morphine is a strong opioid analgesic used medically for severe pain, but it also carries risks of dependence, misuse, sedation, and serious breathing problems when used incorrectly. Hair-based drug testing is valued because it can provide a longer detection window than many short-term specimen types."
+        "description": "Morphine (MOR) Hair Rapid Test by LARKSOIS Pharma is a professional rapid screening test designed for the qualitative detection of morphine in hair specimens at a 20 ng/mL cut-off level. Morphine is a strong opioid analgesic used medically for severe pain, but it also carries risks of dependence, misuse, sedation, and serious breathing problems when used incorrectly. Hair-based drug testing is valued because it can provide a longer detection window than many short-term specimen types."
       },
       "content": {
         "introduction": {
@@ -8409,7 +8409,7 @@ export const en = {
           "sections": [
             "The Morphine (MOR) Hair Rapid Test is a hair-based drug of abuse screening product used for preliminary detection of possible morphine exposure.",
             "Morphine belongs to the opioid analgesic class and is prescribed for severe pain under medical supervision. Because opioids may be misused or used outside approved medical guidance, morphine screening is important in professional testing programs.",
-            "The Ivexia Pharma MOR Hair Rapid Test provides a qualitative result, meaning it indicates whether morphine may be present above the stated 20 ng/mL cut-off. Any non-negative result should be treated as preliminary and confirmed through a certified laboratory method where required."
+            "The LARKSOIS Pharma MOR Hair Rapid Test provides a qualitative result, meaning it indicates whether morphine may be present above the stated 20 ng/mL cut-off. Any non-negative result should be treated as preliminary and confirmed through a certified laboratory method where required."
           ]
         },
         "productOverview": {
@@ -8421,7 +8421,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -8464,7 +8464,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Morphine MOR Hair Rapid Test",
-          "description": "The Morphine (MOR) Hair Rapid Test by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "description": "The Morphine (MOR) Hair Rapid Test by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Drug of abuse screening programs",
             "Workplace and pre-employment testing support",
@@ -8505,10 +8505,10 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 20 ng/mL",
-          "content": "The Morphine (MOR) Hair Rapid Test by Ivexia Pharma has a stated cut-off of 20 ng/mL. This means the test is designed to screen prepared hair specimens for morphine at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Morphine (MOR) Hair Rapid Test by LARKSOIS Pharma has a stated cut-off of 20 ng/mL. This means the test is designed to screen prepared hair specimens for morphine at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma MOR Hair Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma MOR Hair Rapid Test",
           "instructions": [
             "Hair-based morphine drug abuse screening",
             "20 ng/mL cut-off for professional screening needs",
@@ -8517,9 +8517,9 @@ export const en = {
             "Useful for workplace, clinical, forensic, and rehabilitation settings",
             "Supports drug of abuse testing panels",
             "Designed for international diagnostic distribution",
-            "Manufactured with Ivexia Pharma quality focus"
+            "Manufactured with LARKSOIS Pharma quality focus"
           ],
-          "note": "The Morphine MOR Hair Rapid Test by Ivexia Pharma is created for professional users who need a practical, efficient, and reliable preliminary screening solution."
+          "note": "The Morphine MOR Hair Rapid Test by LARKSOIS Pharma is created for professional users who need a practical, efficient, and reliable preliminary screening solution."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -8532,7 +8532,7 @@ export const en = {
             "Wait for the test reaction to complete within the instructed time",
             "Read the result within the approved interpretation window"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Morphine (MOR) Hair Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Morphine (MOR) Hair Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -8566,8 +8566,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides internationally focused pharmaceutical and diagnostic products for professional healthcare and screening markets. The Morphine MOR Hair Rapid Test is developed for distributors, laboratories, hospitals, rehabilitation centers, workplace testing providers, forensic programs, and global diagnostic buyers.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides internationally focused pharmaceutical and diagnostic products for professional healthcare and screening markets. The Morphine MOR Hair Rapid Test is developed for distributors, laboratories, hospitals, rehabilitation centers, workplace testing providers, forensic programs, and global diagnostic buyers.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -8575,7 +8575,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug of abuse screening programs",
             "Designed for practical hair specimen screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -8589,12 +8589,12 @@ export const en = {
           "answer": "MOR on a drug test usually refers to morphine. A MOR drug test is designed to screen a specimen such as hair or urine for morphine-related exposure, depending on the test format."
         },
         {
-          "question": "What specimen is used for the Ivexia Pharma Morphine Hair Rapid Test?",
-          "answer": "The Ivexia Pharma Morphine Hair Rapid Test uses a hair specimen. Hair testing is useful when longer-window drug exposure screening is required."
+          "question": "What specimen is used for the LARKSOIS Pharma Morphine Hair Rapid Test?",
+          "answer": "The LARKSOIS Pharma Morphine Hair Rapid Test uses a hair specimen. Hair testing is useful when longer-window drug exposure screening is required."
         },
         {
           "question": "What is the cut-off level of the Morphine MOR Hair Rapid Test?",
-          "answer": "The Morphine (MOR) Hair Rapid Test by Ivexia Pharma has a 20 ng/mL cut-off level. This means the test is designed to provide a preliminary result when morphine in the processed hair specimen reaches or exceeds this threshold."
+          "answer": "The Morphine (MOR) Hair Rapid Test by LARKSOIS Pharma has a 20 ng/mL cut-off level. This means the test is designed to provide a preliminary result when morphine in the processed hair specimen reaches or exceeds this threshold."
         },
         {
           "question": "Is a Morphine Hair Rapid Test result final?",
@@ -8623,10 +8623,10 @@ export const en = {
           },
           {
             "@type": "Question",
-            "name": "What specimen is used for the Ivexia Pharma Morphine Hair Rapid Test?",
+            "name": "What specimen is used for the LARKSOIS Pharma Morphine Hair Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Ivexia Pharma Morphine Hair Rapid Test uses a hair specimen. Hair testing is useful when longer-window drug exposure screening is required."
+              "text": "The LARKSOIS Pharma Morphine Hair Rapid Test uses a hair specimen. Hair testing is useful when longer-window drug exposure screening is required."
             }
           },
           {
@@ -8634,7 +8634,7 @@ export const en = {
             "name": "What is the cut-off level of the Morphine MOR Hair Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Morphine (MOR) Hair Rapid Test by Ivexia Pharma has a 20 ng/mL cut-off level. This means the test is designed to provide a preliminary result when morphine in the processed hair specimen reaches or exceeds this threshold."
+              "text": "The Morphine (MOR) Hair Rapid Test by LARKSOIS Pharma has a 20 ng/mL cut-off level. This means the test is designed to provide a preliminary result when morphine in the processed hair specimen reaches or exceeds this threshold."
             }
           },
           {
@@ -8650,12 +8650,12 @@ export const en = {
     },
     "methamphetamine-saliva-test": {
       "meta": {
-        "title": "Methamphetamine MET Saliva Rapid Test 20ng/ml – Drug Abuse Screening | Ivexia Pharma",
-        "description": "Ivexia Pharma offers Methamphetamine (MET) Saliva Rapid Test with 20ng/ml cut-off for professional drug abuse screening. Suitable for workplace, clinical, forensic, rehabilitation, roadside, and international testing programs."
+        "title": "Methamphetamine MET Saliva Rapid Test 20ng/ml â€“ Drug Abuse Screening | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers Methamphetamine (MET) Saliva Rapid Test with 20ng/ml cut-off for professional drug abuse screening. Suitable for workplace, clinical, forensic, rehabilitation, roadside, and international testing programs."
       },
       "hero": {
-        "title": "Methamphetamine (MET) Rapid Test – Saliva Screening Device",
-        "description": "Methamphetamine (MET) Rapid Test by Ivexia Pharma is a saliva-based rapid drug abuse screening test designed for qualitative detection of methamphetamine exposure at a 20ng/ml cut-off level. This MET Saliva Rapid Test supports fast, non-invasive, and professional preliminary screening in workplace, clinical, forensic, rehabilitation, roadside, institutional, and public safety testing programs. Developed for international diagnostic markets, Ivexia Pharma provides reliable methamphetamine saliva test solutions for laboratories, hospitals, occupational health providers, diagnostic distributors, and drug screening agencies."
+        "title": "Methamphetamine (MET) Rapid Test â€“ Saliva Screening Device",
+        "description": "Methamphetamine (MET) Rapid Test by LARKSOIS Pharma is a saliva-based rapid drug abuse screening test designed for qualitative detection of methamphetamine exposure at a 20ng/ml cut-off level. This MET Saliva Rapid Test supports fast, non-invasive, and professional preliminary screening in workplace, clinical, forensic, rehabilitation, roadside, institutional, and public safety testing programs. Developed for international diagnostic markets, LARKSOIS Pharma provides reliable methamphetamine saliva test solutions for laboratories, hospitals, occupational health providers, diagnostic distributors, and drug screening agencies."
       },
       "content": {
         "introduction": {
@@ -8663,7 +8663,7 @@ export const en = {
           "sections": [
             "The Methamphetamine (MET) Rapid Test is a saliva specimen-based rapid test used for preliminary detection of methamphetamine exposure.",
             "Methamphetamine is a powerful central nervous system stimulant and is widely recognized as a drug with high abuse potential. Because methamphetamine misuse can be linked with serious health, behavioral, workplace, and public safety concerns, professional screening programs often include a MET saliva test as part of targeted drug abuse screening.",
-            "The Ivexia Pharma Methamphetamine Saliva Rapid Test 20ng/ml is intended for professional in-vitro screening use only. It provides a preliminary result and should not be treated as a final legal, workplace, forensic, or clinical conclusion."
+            "The LARKSOIS Pharma Methamphetamine Saliva Rapid Test 20ng/ml is intended for professional in-vitro screening use only. It provides a preliminary result and should not be treated as a final legal, workplace, forensic, or clinical conclusion."
           ]
         },
         "productOverview": {
@@ -8675,7 +8675,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -8706,7 +8706,7 @@ export const en = {
         },
         "whatIsMetSalivaTest": {
           "title": "What Is a Methamphetamine Saliva Rapid Test?",
-          "content": "A Methamphetamine Saliva Rapid Test is a drug abuse screening device used to detect methamphetamine exposure in an oral fluid specimen. Saliva testing is widely used in modern drug screening programs because it is simple to collect, non-invasive, and suitable for observed collection. The MET Saliva Rapid Test by Ivexia Pharma is designed for fast preliminary screening where recent exposure assessment is important."
+          "content": "A Methamphetamine Saliva Rapid Test is a drug abuse screening device used to detect methamphetamine exposure in an oral fluid specimen. Saliva testing is widely used in modern drug screening programs because it is simple to collect, non-invasive, and suitable for observed collection. The MET Saliva Rapid Test by LARKSOIS Pharma is designed for fast preliminary screening where recent exposure assessment is important."
         },
         "whySalivaTesting": {
           "title": "Why Methamphetamine Saliva Testing Is Important",
@@ -8718,7 +8718,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Methamphetamine (MET) Saliva Rapid Test",
-          "description": "The Methamphetamine (MET) Saliva Rapid Test by Ivexia Pharma can be used across multiple professional settings where preliminary methamphetamine screening support is required.",
+          "description": "The Methamphetamine (MET) Saliva Rapid Test by LARKSOIS Pharma can be used across multiple professional settings where preliminary methamphetamine screening support is required.",
           "applications": [
             "Workplace drug abuse screening",
             "Roadside and safety-sensitive screening where legally permitted",
@@ -8737,7 +8737,7 @@ export const en = {
         "howItWorks": {
           "title": "How the MET Saliva Rapid Test Works",
           "sections": [
-            "The MET Rapid Test by Ivexia Pharma works through a rapid immunoassay screening principle. A saliva specimen is collected according to the product insert, applied to the test device, and interpreted visually within the recommended reading time.",
+            "The MET Rapid Test by LARKSOIS Pharma works through a rapid immunoassay screening principle. A saliva specimen is collected according to the product insert, applied to the test device, and interpreted visually within the recommended reading time.",
             "The result should always be checked with the control indicator to confirm that the test has run correctly.",
             "The test provides a qualitative result, meaning it indicates whether methamphetamine is detected above or below the specified product cut-off."
           ]
@@ -8754,7 +8754,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Features of Ivexia Pharma Methamphetamine MET Saliva Rapid Test",
+          "title": "Key Features of LARKSOIS Pharma Methamphetamine MET Saliva Rapid Test",
           "instructions": [
             "Saliva-based methamphetamine drug abuse screening",
             "20ng/ml cut-off level",
@@ -8765,7 +8765,7 @@ export const en = {
             "Supports recent-exposure screening workflows",
             "Practical visual result interpretation",
             "Suitable for international diagnostic supply",
-            "Supplied by Ivexia Pharma for global markets"
+            "Supplied by LARKSOIS Pharma for global markets"
           ]
         },
         "method": {
@@ -8814,7 +8814,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Methamphetamine (MET) Saliva Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Methamphetamine (MET) Saliva Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -8852,8 +8852,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides professional diagnostic and pharmaceutical solutions for international healthcare and screening markets. The Methamphetamine (MET) Rapid Test is developed for buyers who require a practical, reliable, and globally suitable drug abuse screening product.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides professional diagnostic and pharmaceutical solutions for international healthcare and screening markets. The Methamphetamine (MET) Rapid Test is developed for buyers who require a practical, reliable, and globally suitable drug abuse screening product.",
           "advantages": [
             "International-quality product approach",
             "Professional drug of abuse rapid test portfolio",
@@ -8936,12 +8936,12 @@ export const en = {
     },
     "methaqualone-urine-test": {
       "meta": {
-        "title": "Methaqualone MQL Rapid Test Kit – Urine Drug Abuse Screening | Ivexia Pharma",
-        "description": "Ivexia Pharma Methaqualone (MQL) Rapid Test is a urine-based drug abuse screening test with 20 ng/mL cut-off for qualitative methaqualone detection. Learn uses, testing purpose, benefits, FAQs, and international-quality standards."
+        "title": "Methaqualone MQL Rapid Test Kit â€“ Urine Drug Abuse Screening | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Methaqualone (MQL) Rapid Test is a urine-based drug abuse screening test with 20 ng/mL cut-off for qualitative methaqualone detection. Learn uses, testing purpose, benefits, FAQs, and international-quality standards."
       },
       "hero": {
         "title": "Methaqualone (MQL) Rapid Test",
-        "description": "Methaqualone (MQL) Rapid Test by Ivexia Pharma is a urine-based rapid screening test designed for the qualitative detection of methaqualone in human urine samples at a 20 ng/mL cut-off level. Methaqualone, also known historically by names such as Quaalude and Mandrax, is a controlled drug of abuse in many countries due to its sedative-hypnotic properties and misuse potential. The MQL rapid test supports laboratories, rehabilitation centers, workplace screening programs, forensic screening settings, and healthcare institutions with a fast, simple, and reliable preliminary testing solution."
+        "description": "Methaqualone (MQL) Rapid Test by LARKSOIS Pharma is a urine-based rapid screening test designed for the qualitative detection of methaqualone in human urine samples at a 20 ng/mL cut-off level. Methaqualone, also known historically by names such as Quaalude and Mandrax, is a controlled drug of abuse in many countries due to its sedative-hypnotic properties and misuse potential. The MQL rapid test supports laboratories, rehabilitation centers, workplace screening programs, forensic screening settings, and healthcare institutions with a fast, simple, and reliable preliminary testing solution."
       },
       "content": {
         "introduction": {
@@ -8949,7 +8949,7 @@ export const en = {
           "sections": [
             "The Methaqualone (MQL) Rapid Test is a drug of abuse rapid test used to screen urine specimens for the presence of methaqualone.",
             "Methaqualone belongs to the sedative-hypnotic class and was historically marketed under names such as Quaalude, Sopor, and Mandrax. It became widely known before many countries restricted or discontinued its medical use because of abuse potential.",
-            "The Ivexia Pharma Methaqualone MQL Rapid Test helps identify suspected methaqualone exposure through urine screening. Like most rapid drug tests, it is intended for initial screening, and any non-negative result should be confirmed using an approved laboratory method such as GC-MS or LC-MS/MS."
+            "The LARKSOIS Pharma Methaqualone MQL Rapid Test helps identify suspected methaqualone exposure through urine screening. Like most rapid drug tests, it is intended for initial screening, and any non-negative result should be confirmed using an approved laboratory method such as GC-MS or LC-MS/MS."
           ]
         },
         "productOverview": {
@@ -8961,7 +8961,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -9004,7 +9004,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Methaqualone MQL Rapid Test",
-          "description": "The Methaqualone (MQL) Rapid Test by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "description": "The Methaqualone (MQL) Rapid Test by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Drug abuse screening programs",
             "Rehabilitation and de-addiction centers",
@@ -9033,7 +9033,7 @@ export const en = {
             "No complex instrument required for initial testing",
             "Suitable for international drug screening markets",
             "Useful in multi-drug abuse testing programs",
-            "Manufactured with quality-focused standards by Ivexia Pharma"
+            "Manufactured with quality-focused standards by LARKSOIS Pharma"
           ]
         },
         "specimen": {
@@ -9052,10 +9052,10 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 20 ng/mL",
-          "content": "The Methaqualone (MQL) Rapid Test by Ivexia Pharma has a stated cut-off of 20 ng/mL. This means the test is designed to screen urine specimens for methaqualone at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Methaqualone (MQL) Rapid Test by LARKSOIS Pharma has a stated cut-off of 20 ng/mL. This means the test is designed to screen urine specimens for methaqualone at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma MQL Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma MQL Rapid Test",
           "instructions": [
             "Fast urine screening for methaqualone detection",
             "20 ng/mL cut-off for sensitive screening requirement",
@@ -9063,7 +9063,7 @@ export const en = {
             "No complex instrument required for initial testing",
             "Suitable for international drug screening markets",
             "Useful in multi-drug abuse testing programs",
-            "Manufactured with quality-focused standards by Ivexia Pharma"
+            "Manufactured with quality-focused standards by LARKSOIS Pharma"
           ],
           "note": "The Methaqualone MQL Rapid Test is designed for efficiency, reliability, and professional screening workflows."
         },
@@ -9078,7 +9078,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Methaqualone (MQL) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Methaqualone (MQL) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -9112,8 +9112,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma focuses on internationally acceptable pharmaceutical and diagnostic product quality. For drug of abuse rapid tests, consistency, sensitivity, packaging stability, and clear instructions are essential.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma focuses on internationally acceptable pharmaceutical and diagnostic product quality. For drug of abuse rapid tests, consistency, sensitivity, packaging stability, and clear instructions are essential.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -9121,7 +9121,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug abuse screening programs",
             "Designed for practical urine screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -9196,12 +9196,12 @@ export const en = {
     },
     "methylphenidate-urine-test": {
       "meta": {
-        "title": "Methylphenidate MPD Rapid Test Kit – Urine Drug Abuse Screening | Ivexia Pharma",
-        "description": "Ivexia Pharma Methylphenidate (MPD) Rapid Test is a urine-based rapid screening test with a 300 ng/mL cut-off for qualitative methylphenidate detection. Explore uses, benefits, testing purpose, FAQs, and international-quality standards."
+        "title": "Methylphenidate MPD Rapid Test Kit â€“ Urine Drug Abuse Screening | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Methylphenidate (MPD) Rapid Test is a urine-based rapid screening test with a 300 ng/mL cut-off for qualitative methylphenidate detection. Explore uses, benefits, testing purpose, FAQs, and international-quality standards."
       },
       "hero": {
         "title": "Methylphenidate (MPD) Rapid Test",
-        "description": "Methylphenidate (MPD) Rapid Test by Ivexia Pharma is a urine-based rapid drug screening test designed for the qualitative detection of methylphenidate in human urine specimens at a 300 ng/mL cut-off level. Methylphenidate is a central nervous system stimulant used medically for ADHD and narcolepsy, but because it has misuse potential, it is also included in many drug of abuse testing panels. The Ivexia Pharma MPD Rapid Test is suitable for laboratories, rehabilitation centers, workplace testing programs, healthcare institutions, toxicology screening, and international diagnostic distribution."
+        "description": "Methylphenidate (MPD) Rapid Test by LARKSOIS Pharma is a urine-based rapid drug screening test designed for the qualitative detection of methylphenidate in human urine specimens at a 300 ng/mL cut-off level. Methylphenidate is a central nervous system stimulant used medically for ADHD and narcolepsy, but because it has misuse potential, it is also included in many drug of abuse testing panels. The LARKSOIS Pharma MPD Rapid Test is suitable for laboratories, rehabilitation centers, workplace testing programs, healthcare institutions, toxicology screening, and international diagnostic distribution."
       },
       "content": {
         "introduction": {
@@ -9209,7 +9209,7 @@ export const en = {
           "sections": [
             "The Methylphenidate (MPD) Rapid Test is a professional urine screening device used to detect the possible presence of methylphenidate in urine samples.",
             "Methylphenidate is sold under well-known brand names such as Ritalin and Concerta and is classified as a central nervous system stimulant. It is commonly prescribed for attention deficit hyperactivity disorder and narcolepsy, but non-medical use may create abuse and safety risks.",
-            "The Methylphenidate MPD Rapid Test by Ivexia Pharma provides a qualitative result, meaning it helps identify whether the target drug may be present above the stated cut-off. Like other rapid screening tests, a non-negative result should be confirmed by a more specific laboratory method when used for legal, clinical, or workplace decisions."
+            "The Methylphenidate MPD Rapid Test by LARKSOIS Pharma provides a qualitative result, meaning it helps identify whether the target drug may be present above the stated cut-off. Like other rapid screening tests, a non-negative result should be confirmed by a more specific laboratory method when used for legal, clinical, or workplace decisions."
           ]
         },
         "productOverview": {
@@ -9221,7 +9221,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -9264,7 +9264,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Methylphenidate MPD Rapid Test",
-          "description": "The Methylphenidate (MPD) Rapid Test by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "description": "The Methylphenidate (MPD) Rapid Test by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Drug of abuse screening programs",
             "Rehabilitation and de-addiction centers",
@@ -9293,7 +9293,7 @@ export const en = {
             "Suitable for laboratories and field screening programs",
             "Supports drug of abuse testing panels",
             "Useful for international diagnostic distribution",
-            "Manufactured with Ivexia Pharma quality focus"
+            "Manufactured with LARKSOIS Pharma quality focus"
           ]
         },
         "specimen": {
@@ -9312,10 +9312,10 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 300 ng/mL",
-          "content": "The Methylphenidate (MPD) Rapid Test by Ivexia Pharma has a stated cut-off of 300 ng/mL. This means the test is designed to screen urine specimens for methylphenidate at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Methylphenidate (MPD) Rapid Test by LARKSOIS Pharma has a stated cut-off of 300 ng/mL. This means the test is designed to screen urine specimens for methylphenidate at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma MPD Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma MPD Rapid Test",
           "instructions": [
             "Fast urine-based screening for methylphenidate",
             "300 ng/mL cut-off for professional screening needs",
@@ -9323,9 +9323,9 @@ export const en = {
             "Suitable for laboratories and field screening programs",
             "Supports drug of abuse testing panels",
             "Useful for international diagnostic distribution",
-            "Manufactured with Ivexia Pharma quality focus"
+            "Manufactured with LARKSOIS Pharma quality focus"
           ],
-          "note": "The Methylphenidate MPD Rapid Test by Ivexia Pharma is created for professional users who need a practical, accurate, and efficient screening solution."
+          "note": "The Methylphenidate MPD Rapid Test by LARKSOIS Pharma is created for professional users who need a practical, accurate, and efficient screening solution."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -9338,7 +9338,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Methylphenidate (MPD) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Methylphenidate (MPD) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -9372,8 +9372,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides internationally focused pharmaceutical and diagnostic products for professional healthcare and screening markets. The Methylphenidate MPD Rapid Test is developed for distributors, laboratories, hospitals, rehabilitation centers, workplace testing providers, and global diagnostic buyers.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides internationally focused pharmaceutical and diagnostic products for professional healthcare and screening markets. The Methylphenidate MPD Rapid Test is developed for distributors, laboratories, hospitals, rehabilitation centers, workplace testing providers, and global diagnostic buyers.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -9381,7 +9381,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug of abuse screening programs",
             "Designed for practical urine screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -9456,12 +9456,12 @@ export const en = {
     },
     "morphine-urine-test": {
       "meta": {
-        "title": "Morphine MOR Rapid Test Kit – Urine Drug Abuse Screening 300 ng/mL | Ivexia Pharma",
-        "description": "Ivexia Pharma Morphine (MOR) Rapid Test is a urine-based drug of abuse screening test with 300 ng/mL cut-off for qualitative morphine detection. Learn uses, testing importance, benefits, FAQs, and international screening information."
+        "title": "Morphine MOR Rapid Test Kit â€“ Urine Drug Abuse Screening 300 ng/mL | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Morphine (MOR) Rapid Test is a urine-based drug of abuse screening test with 300 ng/mL cut-off for qualitative morphine detection. Learn uses, testing importance, benefits, FAQs, and international screening information."
       },
       "hero": {
         "title": "Morphine (MOR) Rapid Test",
-        "description": "Morphine (MOR) Rapid Test by Ivexia Pharma is a professional urine-based rapid screening test designed for the qualitative detection of morphine in human urine specimens at a 300 ng/mL cut-off level. Morphine is a strong opioid medicine prescribed for severe pain when other pain relief options are not effective or cannot be used. Because morphine has medical value but also carries risks of dependence, misuse, and serious breathing problems, the MOR rapid test is important for drug of abuse screening, workplace testing, rehabilitation monitoring, clinical toxicology, and forensic screening programs."
+        "description": "Morphine (MOR) Rapid Test by LARKSOIS Pharma is a professional urine-based rapid screening test designed for the qualitative detection of morphine in human urine specimens at a 300 ng/mL cut-off level. Morphine is a strong opioid medicine prescribed for severe pain when other pain relief options are not effective or cannot be used. Because morphine has medical value but also carries risks of dependence, misuse, and serious breathing problems, the MOR rapid test is important for drug of abuse screening, workplace testing, rehabilitation monitoring, clinical toxicology, and forensic screening programs."
       },
       "content": {
         "introduction": {
@@ -9469,7 +9469,7 @@ export const en = {
           "sections": [
             "The Morphine (MOR) Rapid Test is a drug of abuse rapid test used to screen urine specimens for the possible presence of morphine.",
             "Morphine belongs to a class of medicines known as opioid or narcotic analgesics. It is used medically for severe pain under professional supervision, but it is also monitored because opioid misuse can create serious health, workplace, legal, and safety concerns.",
-            "The Ivexia Pharma Morphine MOR Rapid Test provides a qualitative screening result. This means the test indicates whether morphine may be present above the stated cut-off level. Like most rapid drug screening tests, any non-negative result should be considered preliminary and confirmed through a laboratory confirmation method when required."
+            "The LARKSOIS Pharma Morphine MOR Rapid Test provides a qualitative screening result. This means the test indicates whether morphine may be present above the stated cut-off level. Like most rapid drug screening tests, any non-negative result should be considered preliminary and confirmed through a laboratory confirmation method when required."
           ]
         },
         "productOverview": {
@@ -9481,7 +9481,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -9524,7 +9524,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Morphine MOR Rapid Test",
-          "description": "The Morphine (MOR) Rapid Test by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "description": "The Morphine (MOR) Rapid Test by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Drug of abuse screening programs",
             "Rehabilitation and de-addiction centers",
@@ -9554,7 +9554,7 @@ export const en = {
             "Suitable for laboratories and field screening programs",
             "Supports drug of abuse testing panels",
             "Useful for international diagnostic distribution",
-            "Manufactured with Ivexia Pharma quality focus"
+            "Manufactured with LARKSOIS Pharma quality focus"
           ]
         },
         "specimen": {
@@ -9573,10 +9573,10 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 300 ng/mL",
-          "content": "The Morphine (MOR) Rapid Test by Ivexia Pharma has a stated cut-off of 300 ng/mL. This means the test is designed to screen urine specimens for morphine at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Morphine (MOR) Rapid Test by LARKSOIS Pharma has a stated cut-off of 300 ng/mL. This means the test is designed to screen urine specimens for morphine at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma MOR Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma MOR Rapid Test",
           "instructions": [
             "Fast urine-based morphine screening",
             "300 ng/mL cut-off for professional testing needs",
@@ -9585,9 +9585,9 @@ export const en = {
             "Supports drug of abuse testing panels",
             "Useful for workplace, clinical, forensic, and rehabilitation settings",
             "Designed for international diagnostic distribution",
-            "Manufactured with Ivexia Pharma quality focus"
+            "Manufactured with LARKSOIS Pharma quality focus"
           ],
-          "note": "The Morphine MOR Rapid Test by Ivexia Pharma is created for professional users who need a practical, efficient, and reliable preliminary screening solution."
+          "note": "The Morphine MOR Rapid Test by LARKSOIS Pharma is created for professional users who need a practical, efficient, and reliable preliminary screening solution."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -9600,7 +9600,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Morphine (MOR) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Morphine (MOR) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -9634,8 +9634,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides internationally focused pharmaceutical and diagnostic products for professional healthcare and screening markets. The Morphine MOR Rapid Test is developed for distributors, laboratories, hospitals, rehabilitation centers, workplace testing providers, and global diagnostic buyers.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides internationally focused pharmaceutical and diagnostic products for professional healthcare and screening markets. The Morphine MOR Rapid Test is developed for distributors, laboratories, hospitals, rehabilitation centers, workplace testing providers, and global diagnostic buyers.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -9643,7 +9643,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug of abuse screening programs",
             "Designed for practical urine screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -9658,7 +9658,7 @@ export const en = {
         },
         {
           "question": "What is the cut-off level of the Morphine MOR Rapid Test?",
-          "answer": "The Morphine (MOR) Rapid Test by Ivexia Pharma has a 300 ng/mL cut-off level. This means the test is designed to provide a preliminary result when morphine in urine reaches or exceeds this threshold."
+          "answer": "The Morphine (MOR) Rapid Test by LARKSOIS Pharma has a 300 ng/mL cut-off level. This means the test is designed to provide a preliminary result when morphine in urine reaches or exceeds this threshold."
         },
         {
           "question": "Is a Morphine MOR Rapid Test result final?",
@@ -9694,7 +9694,7 @@ export const en = {
             "name": "What is the cut-off level of the Morphine MOR Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Morphine (MOR) Rapid Test by Ivexia Pharma has a 300 ng/mL cut-off level. This means the test is designed to provide a preliminary result when morphine in urine reaches or exceeds this threshold."
+              "text": "The Morphine (MOR) Rapid Test by LARKSOIS Pharma has a 300 ng/mL cut-off level. This means the test is designed to provide a preliminary result when morphine in urine reaches or exceeds this threshold."
             }
           },
           {
@@ -9718,12 +9718,12 @@ export const en = {
     },
     "morphine-saliva-test": {
       "meta": {
-        "title": "Morphine MOR Saliva Rapid Test Kit – 20 ng/mL Oral Fluid Drug Screening | Ivexia Pharma",
-        "description": "Ivexia Pharma Morphine (MOR) Saliva Rapid Test is an oral-fluid drug of abuse screening test with 20 ng/mL cut-off for qualitative morphine detection. Explore uses, benefits, testing purpose, FAQs, and international screening information."
+        "title": "Morphine MOR Saliva Rapid Test Kit â€“ 20 ng/mL Oral Fluid Drug Screening | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Morphine (MOR) Saliva Rapid Test is an oral-fluid drug of abuse screening test with 20 ng/mL cut-off for qualitative morphine detection. Explore uses, benefits, testing purpose, FAQs, and international screening information."
       },
       "hero": {
         "title": "Morphine (MOR) Saliva Rapid Test",
-        "description": "Morphine (MOR) Saliva Rapid Test by Ivexia Pharma is a professional oral-fluid rapid screening test designed for the qualitative detection of morphine in saliva specimens at a 20 ng/mL cut-off level. Morphine is a strong opioid analgesic used medically for severe pain, but it is also monitored in drug of abuse testing because it can be habit-forming and may cause serious breathing problems when misused or taken outside medical supervision. The Ivexia Pharma Morphine MOR Saliva Rapid Test supports laboratories, workplace testing providers, rehabilitation centers, roadside screening programs, toxicology departments, and international diagnostic distributors that need fast and practical oral-fluid screening."
+        "description": "Morphine (MOR) Saliva Rapid Test by LARKSOIS Pharma is a professional oral-fluid rapid screening test designed for the qualitative detection of morphine in saliva specimens at a 20 ng/mL cut-off level. Morphine is a strong opioid analgesic used medically for severe pain, but it is also monitored in drug of abuse testing because it can be habit-forming and may cause serious breathing problems when misused or taken outside medical supervision. The LARKSOIS Pharma Morphine MOR Saliva Rapid Test supports laboratories, workplace testing providers, rehabilitation centers, roadside screening programs, toxicology departments, and international diagnostic distributors that need fast and practical oral-fluid screening."
       },
       "content": {
         "introduction": {
@@ -9731,7 +9731,7 @@ export const en = {
           "sections": [
             "The Morphine (MOR) Saliva Rapid Test is an oral-fluid drug of abuse screening product used for preliminary detection of possible morphine exposure.",
             "Unlike urine or hair testing, saliva testing is commonly used when recent exposure screening is required. Oral-fluid testing is valued because it is non-invasive, easy to collect, and suitable for observed collection.",
-            "The MOR Saliva Rapid Test by Ivexia Pharma is designed as a qualitative screening solution. This means the test helps indicate whether morphine may be present above the stated 20 ng/mL cut-off level. It does not measure exact drug quantity, diagnose addiction, prove impairment, or replace confirmatory laboratory testing."
+            "The MOR Saliva Rapid Test by LARKSOIS Pharma is designed as a qualitative screening solution. This means the test helps indicate whether morphine may be present above the stated 20 ng/mL cut-off level. It does not measure exact drug quantity, diagnose addiction, prove impairment, or replace confirmatory laboratory testing."
           ]
         },
         "productOverview": {
@@ -9743,7 +9743,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -9786,7 +9786,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Morphine MOR Saliva Rapid Test",
-          "description": "The Morphine (MOR) Saliva Rapid Test by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "description": "The Morphine (MOR) Saliva Rapid Test by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Drug of abuse screening programs",
             "Workplace and pre-employment screening support",
@@ -9836,10 +9836,10 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 20 ng/mL",
-          "content": "The Morphine (MOR) Saliva Rapid Test by Ivexia Pharma has a stated cut-off of 20 ng/mL. This means the test is designed to screen oral-fluid specimens for morphine at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Morphine (MOR) Saliva Rapid Test by LARKSOIS Pharma has a stated cut-off of 20 ng/mL. This means the test is designed to screen oral-fluid specimens for morphine at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma MOR Saliva Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma MOR Saliva Rapid Test",
           "instructions": [
             "Fast oral-fluid screening for morphine",
             "20 ng/mL cut-off for professional screening requirements",
@@ -9850,7 +9850,7 @@ export const en = {
             "Easy-to-read rapid test format",
             "Designed for international diagnostic supply markets"
           ],
-          "note": "The Morphine MOR Saliva Rapid Test by Ivexia Pharma provides a practical screening option for professional users who need speed, convenience, and reliable preliminary testing."
+          "note": "The Morphine MOR Saliva Rapid Test by LARKSOIS Pharma provides a practical screening option for professional users who need speed, convenience, and reliable preliminary testing."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -9863,7 +9863,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Morphine (MOR) Saliva Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Morphine (MOR) Saliva Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -9898,8 +9898,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality pharmaceutical and diagnostic products for healthcare, screening, and global supply markets. The Morphine MOR Saliva Rapid Test is developed for professional use by distributors, laboratories, hospitals, rehabilitation centers, workplace testing companies, and toxicology screening programs.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality pharmaceutical and diagnostic products for healthcare, screening, and global supply markets. The Morphine MOR Saliva Rapid Test is developed for professional use by distributors, laboratories, hospitals, rehabilitation centers, workplace testing companies, and toxicology screening programs.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -9907,7 +9907,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug of abuse screening programs",
             "Designed for practical oral-fluid screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -9982,20 +9982,20 @@ export const en = {
     },
     "multi-drug-1-14-drugs-test-panel": {
       "meta": {
-        "title": "Multi-Drug 1–14 Drugs Test Panel – Urine Rapid Drug Abuse Screening | Ivexia Pharma",
-        "description": "Ivexia Pharma Multi-Drug 1–14 Drugs Test Panel is a urine-based rapid drug abuse screening test for qualitative detection of multiple drugs and metabolites. Designed for professional screening, workplace testing, rehabilitation centers, laboratories, and international diagnostic supply."
+        "title": "Multi-Drug 1â€“14 Drugs Test Panel â€“ Urine Rapid Drug Abuse Screening | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Multi-Drug 1â€“14 Drugs Test Panel is a urine-based rapid drug abuse screening test for qualitative detection of multiple drugs and metabolites. Designed for professional screening, workplace testing, rehabilitation centers, laboratories, and international diagnostic supply."
       },
       "hero": {
-        "title": "Multi-Drug 1–14 Drugs Test Panel",
-        "description": "Multi-Drug (1–14) Drugs Test Panel by Ivexia Pharma is a urine-based rapid screening test designed for the qualitative detection of multiple drugs and drug metabolites in human urine. This Multi-Drug Test Panel supports professional drug of abuse screening where quick, easy, and practical testing is required. The test is suitable for laboratories, rehabilitation centers, workplace testing programs, hospitals, forensic screening, and international diagnostic distributors. Multi-drug urine panels are commonly used because urine is non-invasive and widely used for drug testing, while immunoassay-based screening is accessible, fast, and cost-effective for preliminary detection."
+        "title": "Multi-Drug 1â€“14 Drugs Test Panel",
+        "description": "Multi-Drug (1â€“14) Drugs Test Panel by LARKSOIS Pharma is a urine-based rapid screening test designed for the qualitative detection of multiple drugs and drug metabolites in human urine. This Multi-Drug Test Panel supports professional drug of abuse screening where quick, easy, and practical testing is required. The test is suitable for laboratories, rehabilitation centers, workplace testing programs, hospitals, forensic screening, and international diagnostic distributors. Multi-drug urine panels are commonly used because urine is non-invasive and widely used for drug testing, while immunoassay-based screening is accessible, fast, and cost-effective for preliminary detection."
       },
       "content": {
         "introduction": {
           "title": "Introduction",
           "sections": [
-            "The Multi-Drug 1–14 Drugs Test Panel is a professional drug of abuse rapid test used to screen urine samples for one or more drug classes in a single panel format.",
+            "The Multi-Drug 1â€“14 Drugs Test Panel is a professional drug of abuse rapid test used to screen urine samples for one or more drug classes in a single panel format.",
             "Depending on the selected configuration, the panel may include 1, 2, 3, 5, 10, 12, 14, or other multi-panel combinations.",
-            "The Ivexia Pharma Multi-Drug Test Panel is designed for qualitative screening. This means it indicates whether a drug or drug metabolite may be present above the stated cut-off level. It does not measure exact quantity, diagnose addiction, or prove intoxication."
+            "The LARKSOIS Pharma Multi-Drug Test Panel is designed for qualitative screening. This means it indicates whether a drug or drug metabolite may be present above the stated cut-off level. It does not measure exact quantity, diagnose addiction, or prove intoxication."
           ]
         },
         "productOverview": {
@@ -10003,11 +10003,11 @@ export const en = {
           "details": [
             {
               "label": "Product Name",
-              "value": "Multi-Drug (1–14) Drugs Test Panel"
+              "value": "Multi-Drug (1â€“14) Drugs Test Panel"
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -10034,7 +10034,7 @@ export const en = {
               "value": "Professional Screening Use"
             }
           ],
-          "note": "The Multi-Drug 1–14 Drugs Test Panel may be configured to detect different drug classes depending on product design, market requirement, label claim, and regulatory documentation."
+          "note": "The Multi-Drug 1â€“14 Drugs Test Panel may be configured to detect different drug classes depending on product design, market requirement, label claim, and regulatory documentation."
         },
         "whatIsMultiDrugPanel": {
           "title": "What is a Multi-Drug Test Panel?",
@@ -10043,14 +10043,14 @@ export const en = {
         "importance": {
           "title": "Importance of Multi-Drug Urine Testing",
           "sections": [
-            "The Multi-Drug 1–14 Drugs Test Panel is important because drug screening needs can differ across industries, healthcare settings, and countries.",
+            "The Multi-Drug 1â€“14 Drugs Test Panel is important because drug screening needs can differ across industries, healthcare settings, and countries.",
             "Some users need a simple 1-panel or 3-panel test, while others require a broader 10-panel, 12-panel, or 14-panel drug test.",
             "Drug testing may be used in clinical practice, chronic pain evaluation, substance-use-disorder management, workplace safety programs, rehabilitation monitoring, forensic screening, and institutional compliance workflows."
           ]
         },
         "intendedUse": {
-          "title": "Applications of Multi-Drug 1–14 Drugs Test Panel",
-          "description": "The Multi-Drug 1–14 Drugs Test Panel by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "title": "Applications of Multi-Drug 1â€“14 Drugs Test Panel",
+          "description": "The Multi-Drug 1â€“14 Drugs Test Panel by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Workplace and pre-employment drug screening",
             "Rehabilitation and de-addiction centers",
@@ -10072,7 +10072,7 @@ export const en = {
         },
         "method": {
           "title": "Testing Method",
-          "description": "The Multi-Drug 1–14 Drugs Test Panel uses a rapid urine screening method for qualitative detection of selected drugs or drug metabolites. It is designed to provide preliminary screening results according to the panel configuration and stated cut-off levels.",
+          "description": "The Multi-Drug 1â€“14 Drugs Test Panel uses a rapid urine screening method for qualitative detection of selected drugs or drug metabolites. It is designed to provide preliminary screening results according to the panel configuration and stated cut-off levels.",
           "benefits": [
             "Screens 1 to 14 drug markers depending on panel configuration",
             "Urine-based rapid testing format",
@@ -10086,7 +10086,7 @@ export const en = {
         },
         "specimen": {
           "title": "Specimen: Urine",
-          "description": "The Multi-Drug 1–14 Drugs Test Panel is designed for urine specimens. Urine is widely used in drug screening because it is practical, non-invasive, and suitable for professional toxicology screening workflows.",
+          "description": "The Multi-Drug 1â€“14 Drugs Test Panel is designed for urine specimens. Urine is widely used in drug screening because it is practical, non-invasive, and suitable for professional toxicology screening workflows.",
           "guidance": [
             "Use urine specimens only",
             "Use a fresh urine specimen when possible",
@@ -10133,7 +10133,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma Multi-Drug Test Panel",
+          "title": "Key Benefits of LARKSOIS Pharma Multi-Drug Test Panel",
           "instructions": [
             "Screens 1 to 14 drug markers depending on panel configuration",
             "Urine-based rapid testing format",
@@ -10144,7 +10144,7 @@ export const en = {
             "Supports international diagnostic supply requirements",
             "Provides fast preliminary screening results"
           ],
-          "note": "The Multi-Drug 1–14 Drugs Test Panel by Ivexia Pharma is designed for professional users who need a practical, scalable, and efficient drug of abuse rapid test solution."
+          "note": "The Multi-Drug 1â€“14 Drugs Test Panel by LARKSOIS Pharma is designed for professional users who need a practical, scalable, and efficient drug of abuse rapid test solution."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -10157,7 +10157,7 @@ export const en = {
             "Read each panel result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Multi-Drug 1–14 Drugs Test Panel."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Multi-Drug 1â€“14 Drugs Test Panel."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -10191,8 +10191,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides internationally focused pharmaceutical and diagnostic products for professional healthcare and screening markets. The Multi-Drug 1–14 Drugs Test Panel is suitable for diagnostic distributors, hospitals, rehabilitation centers, workplace testing providers, toxicology laboratories, and global healthcare suppliers.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides internationally focused pharmaceutical and diagnostic products for professional healthcare and screening markets. The Multi-Drug 1â€“14 Drugs Test Panel is suitable for diagnostic distributors, hospitals, rehabilitation centers, workplace testing providers, toxicology laboratories, and global healthcare suppliers.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -10200,7 +10200,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug of abuse screening programs",
             "Designed for practical urine screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -10215,7 +10215,7 @@ export const en = {
         },
         {
           "question": "What is a panel 1 drug test?",
-          "answer": "A panel 1 drug test usually means a single-drug screening test that detects one selected drug or drug metabolite. In a 1–14 panel range, users can choose single or multi-drug configurations based on screening needs."
+          "answer": "A panel 1 drug test usually means a single-drug screening test that detects one selected drug or drug metabolite. In a 1â€“14 panel range, users can choose single or multi-drug configurations based on screening needs."
         },
         {
           "question": "How long does a 14 panel drug test take?",
@@ -10251,7 +10251,7 @@ export const en = {
             "name": "What is a panel 1 drug test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "A panel 1 drug test usually means a single-drug screening test that detects one selected drug or drug metabolite. In a 1–14 panel range, users can choose single or multi-drug configurations based on screening needs."
+              "text": "A panel 1 drug test usually means a single-drug screening test that detects one selected drug or drug metabolite. In a 1â€“14 panel range, users can choose single or multi-drug configurations based on screening needs."
             }
           },
           {
@@ -10275,12 +10275,12 @@ export const en = {
     },
     "one-step-drugs-urine-cup": {
       "meta": {
-        "title": "One Step Drugs Urine Cup – Rapid Drug of Abuse Test Cup | Ivexia Pharma",
-        "description": "Ivexia Pharma One Step Drugs Urine Cup is a rapid urine drug of abuse screening cup for qualitative detection of multiple drugs and metabolites. Designed for professional screening, laboratories, workplace testing, rehabilitation centers, and international diagnostic supply."
+        "title": "One Step Drugs Urine Cup â€“ Rapid Drug of Abuse Test Cup | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma One Step Drugs Urine Cup is a rapid urine drug of abuse screening cup for qualitative detection of multiple drugs and metabolites. Designed for professional screening, laboratories, workplace testing, rehabilitation centers, and international diagnostic supply."
       },
       "hero": {
         "title": "One Step Drugs Urine Cup",
-        "description": "One Step Drugs Urine Cup by Ivexia Pharma is a urine-based rapid drug of abuse screening product designed for the qualitative detection of selected drugs and drug metabolites in human urine. This One Step Drugs Urine Cup combines specimen collection and rapid screening in a convenient cup format, helping professional users perform efficient, clean, and organized urine drug testing. Urine is one of the most widely used biological specimens for drug testing because it is non-invasive and practical for screening workflows, while immunoassay-based screening is accessible, fast, and cost-effective for preliminary testing."
+        "description": "One Step Drugs Urine Cup by LARKSOIS Pharma is a urine-based rapid drug of abuse screening product designed for the qualitative detection of selected drugs and drug metabolites in human urine. This One Step Drugs Urine Cup combines specimen collection and rapid screening in a convenient cup format, helping professional users perform efficient, clean, and organized urine drug testing. Urine is one of the most widely used biological specimens for drug testing because it is non-invasive and practical for screening workflows, while immunoassay-based screening is accessible, fast, and cost-effective for preliminary testing."
       },
       "content": {
         "introduction": {
@@ -10288,7 +10288,7 @@ export const en = {
           "sections": [
             "The One Step Drugs Urine Cup is a professional drug of abuse rapid test used to screen urine specimens for one or more drugs or drug metabolites.",
             "Unlike a separate strip or cassette test, the urine cup format helps simplify the process by combining sample collection and test reading into one integrated device.",
-            "The Ivexia Pharma One Step Drugs Urine Cup is designed for laboratories, rehabilitation centers, workplace drug testing programs, hospitals, correctional screening, forensic support, and international diagnostic distributors.",
+            "The LARKSOIS Pharma One Step Drugs Urine Cup is designed for laboratories, rehabilitation centers, workplace drug testing programs, hospitals, correctional screening, forensic support, and international diagnostic distributors.",
             "This test provides a preliminary qualitative result. It does not measure exact concentration, prove intoxication, diagnose substance use disorder, or replace confirmatory laboratory testing."
           ]
         },
@@ -10301,7 +10301,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -10344,7 +10344,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of One Step Drugs Urine Cup",
-          "description": "The One Step Drugs Urine Cup by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "description": "The One Step Drugs Urine Cup by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Workplace and pre-employment drug screening",
             "Rehabilitation and de-addiction centers",
@@ -10428,7 +10428,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma One Step Drugs Urine Cup",
+          "title": "Key Benefits of LARKSOIS Pharma One Step Drugs Urine Cup",
           "instructions": [
             "Integrated urine collection and screening format",
             "Rapid qualitative drug of abuse screening",
@@ -10439,7 +10439,7 @@ export const en = {
             "Easy-to-read result format",
             "Designed for international diagnostic supply"
           ],
-          "note": "The One Step Drugs Urine Cup by Ivexia Pharma is developed for professional users who need a reliable and efficient urine drug screening solution."
+          "note": "The One Step Drugs Urine Cup by LARKSOIS Pharma is developed for professional users who need a reliable and efficient urine drug screening solution."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -10453,7 +10453,7 @@ export const en = {
             "Document the result according to laboratory or institutional procedure",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the One Step Drugs Urine Cup."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the One Step Drugs Urine Cup."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -10487,8 +10487,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality pharmaceutical and diagnostic products for professional healthcare and screening markets. The One Step Drugs Urine Cup is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, and global healthcare suppliers.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality pharmaceutical and diagnostic products for professional healthcare and screening markets. The One Step Drugs Urine Cup is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, and global healthcare suppliers.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -10496,7 +10496,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug of abuse screening programs",
             "Designed for practical urine cup screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -10507,11 +10507,11 @@ export const en = {
         },
         {
           "question": "How to beat a urine cup drug test?",
-          "answer": "I can’t provide guidance on cheating, tampering with, or bypassing a drug test. The safe and professional approach is to follow the collection instructions, disclose prescribed medicines when required, and request confirmatory testing if results are disputed."
+          "answer": "I canâ€™t provide guidance on cheating, tampering with, or bypassing a drug test. The safe and professional approach is to follow the collection instructions, disclose prescribed medicines when required, and request confirmatory testing if results are disputed."
         },
         {
           "question": "How much water do I need to drink to flush my system?",
-          "answer": "I can’t help with flushing or evading a drug test. Drinking excessive water can be unsafe and may also create a diluted or suspicious specimen. Drug detection depends on the substance, dose, timing, metabolism, and test cut-off."
+          "answer": "I canâ€™t help with flushing or evading a drug test. Drinking excessive water can be unsafe and may also create a diluted or suspicious specimen. Drug detection depends on the substance, dose, timing, metabolism, and test cut-off."
         },
         {
           "question": "What is a red flag in a urine test?",
@@ -10539,7 +10539,7 @@ export const en = {
             "name": "How to beat a urine cup drug test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "I can’t provide guidance on cheating, tampering with, or bypassing a drug test. The safe and professional approach is to follow the collection instructions, disclose prescribed medicines when required, and request confirmatory testing if results are disputed."
+              "text": "I canâ€™t provide guidance on cheating, tampering with, or bypassing a drug test. The safe and professional approach is to follow the collection instructions, disclose prescribed medicines when required, and request confirmatory testing if results are disputed."
             }
           },
           {
@@ -10547,7 +10547,7 @@ export const en = {
             "name": "How much water do I need to drink to flush my system?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "I can’t help with flushing or evading a drug test. Drinking excessive water can be unsafe and may also create a diluted or suspicious specimen. Drug detection depends on the substance, dose, timing, metabolism, and test cut-off."
+              "text": "I canâ€™t help with flushing or evading a drug test. Drinking excessive water can be unsafe and may also create a diluted or suspicious specimen. Drug detection depends on the substance, dose, timing, metabolism, and test cut-off."
             }
           },
           {
@@ -10571,12 +10571,12 @@ export const en = {
     },
     "one-step-drugs-urine-key-cup": {
       "meta": {
-        "title": "One Step Drugs Urine Key Cup – Rapid Urine Drug Test Cup | Ivexia Pharma",
-        "description": "Ivexia Pharma One Step Drugs Urine Key Cup is a rapid urine drug of abuse screening cup for professional multi-drug detection. Designed for workplace screening, laboratories, rehabilitation centers, toxicology testing, and international diagnostic supply."
+        "title": "One Step Drugs Urine Key Cup â€“ Rapid Urine Drug Test Cup | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma One Step Drugs Urine Key Cup is a rapid urine drug of abuse screening cup for professional multi-drug detection. Designed for workplace screening, laboratories, rehabilitation centers, toxicology testing, and international diagnostic supply."
       },
       "hero": {
         "title": "One Step Drugs Urine Key Cup",
-        "description": "One Step Drugs Urine Key Cup by Ivexia Pharma is a professional urine-based drug of abuse rapid test designed to simplify specimen collection and multi-drug screening in one integrated cup format. The key-activation design helps keep the collected urine specimen separated from the test chamber until the operator activates the cup, supporting cleaner handling, controlled testing, and secure screening workflow. Urine remains one of the most widely used specimens in drug testing because it is non-invasive and practical for screening workflows, while immunoassay-based rapid tests are accessible, fast, and suitable for point-of-care or on-site preliminary testing."
+        "description": "One Step Drugs Urine Key Cup by LARKSOIS Pharma is a professional urine-based drug of abuse rapid test designed to simplify specimen collection and multi-drug screening in one integrated cup format. The key-activation design helps keep the collected urine specimen separated from the test chamber until the operator activates the cup, supporting cleaner handling, controlled testing, and secure screening workflow. Urine remains one of the most widely used specimens in drug testing because it is non-invasive and practical for screening workflows, while immunoassay-based rapid tests are accessible, fast, and suitable for point-of-care or on-site preliminary testing."
       },
       "content": {
         "introduction": {
@@ -10584,7 +10584,7 @@ export const en = {
           "sections": [
             "The One Step Drugs Urine Key Cup is a professional drug of abuse rapid screening product used for qualitative detection of selected drugs and drug metabolites in human urine.",
             "The key-cup format combines urine collection and drug screening inside one device. This helps reduce sample transfer steps, improve handling control, and support organized testing in professional environments.",
-            "The Ivexia Pharma One Step Drugs Urine Key Cup is suitable for laboratories, rehabilitation centers, workplace drug testing programs, hospitals, correctional screening, forensic support, and international diagnostic distributors.",
+            "The LARKSOIS Pharma One Step Drugs Urine Key Cup is suitable for laboratories, rehabilitation centers, workplace drug testing programs, hospitals, correctional screening, forensic support, and international diagnostic distributors.",
             "This test provides a preliminary qualitative result. It does not measure exact drug concentration, prove intoxication, diagnose substance use disorder, or replace confirmatory laboratory testing."
           ]
         },
@@ -10597,7 +10597,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -10640,7 +10640,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of One Step Drugs Urine Key Cup",
-          "description": "The One Step Drugs Urine Key Cup by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "description": "The One Step Drugs Urine Key Cup by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Workplace and pre-employment drug screening",
             "Rehabilitation and de-addiction monitoring",
@@ -10736,7 +10736,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma One Step Drugs Urine Key Cup",
+          "title": "Key Benefits of LARKSOIS Pharma One Step Drugs Urine Key Cup",
           "instructions": [
             "Integrated collection and rapid screening cup",
             "Key-activated testing workflow",
@@ -10749,7 +10749,7 @@ export const en = {
             "Easy-to-read result format",
             "Designed for international diagnostic supply"
           ],
-          "note": "The One Step Drugs Urine Key Cup by Ivexia Pharma is developed for professional users who need a controlled, reliable, and efficient urine drug screening solution."
+          "note": "The One Step Drugs Urine Key Cup by LARKSOIS Pharma is developed for professional users who need a controlled, reliable, and efficient urine drug screening solution."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -10764,7 +10764,7 @@ export const en = {
             "Document the result according to laboratory or institutional procedure",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the One Step Drugs Urine Key Cup."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the One Step Drugs Urine Key Cup."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -10799,8 +10799,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality pharmaceutical and diagnostic products for professional healthcare and screening markets. The One Step Drugs Urine Key Cup is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, and global healthcare suppliers.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality pharmaceutical and diagnostic products for professional healthcare and screening markets. The One Step Drugs Urine Key Cup is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, and global healthcare suppliers.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -10809,7 +10809,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug of abuse screening programs",
             "Designed for practical urine key cup screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -10884,12 +10884,12 @@ export const en = {
     },
     "opiates-urine-test": {
       "meta": {
-        "title": "Opiates OPI Rapid Test Kit – Urine Drug Abuse Screening 2000 ng/mL | Ivexia Pharma",
-        "description": "Ivexia Pharma Opiates (OPI) Rapid Test is a urine-based drug of abuse screening test with a 2000 ng/mL cut-off for qualitative opiate detection. Explore uses, benefits, testing purpose, FAQs, and international screening information."
+        "title": "Opiates OPI Rapid Test Kit â€“ Urine Drug Abuse Screening 2000 ng/mL | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Opiates (OPI) Rapid Test is a urine-based drug of abuse screening test with a 2000 ng/mL cut-off for qualitative opiate detection. Explore uses, benefits, testing purpose, FAQs, and international screening information."
       },
       "hero": {
         "title": "Opiates (OPI) Rapid Test",
-        "description": "Opiates (OPI) Rapid Test by Ivexia Pharma is a professional urine-based rapid screening test designed for the qualitative detection of opiates in human urine specimens at a 2000 ng/mL cut-off level. Opiate testing is used to identify possible exposure to natural opioids such as morphine and codeine, and may also help screen for heroin-related opioid exposure through related metabolites depending on the test design. The Ivexia Pharma OPI Rapid Test is suitable for laboratories, hospitals, rehabilitation centers, workplace screening programs, toxicology departments, forensic screening support, and international diagnostic distributors that require a fast and practical urine drug screening solution."
+        "description": "Opiates (OPI) Rapid Test by LARKSOIS Pharma is a professional urine-based rapid screening test designed for the qualitative detection of opiates in human urine specimens at a 2000 ng/mL cut-off level. Opiate testing is used to identify possible exposure to natural opioids such as morphine and codeine, and may also help screen for heroin-related opioid exposure through related metabolites depending on the test design. The LARKSOIS Pharma OPI Rapid Test is suitable for laboratories, hospitals, rehabilitation centers, workplace screening programs, toxicology departments, forensic screening support, and international diagnostic distributors that require a fast and practical urine drug screening solution."
       },
       "content": {
         "introduction": {
@@ -10897,7 +10897,7 @@ export const en = {
           "sections": [
             "The Opiates OPI Rapid Test is a drug of abuse rapid test used to screen urine specimens for possible opiate presence.",
             "This OPI urine test is designed for professional qualitative screening and helps detect whether opiate markers may be present above the stated 2000 ng/mL cut-off.",
-            "The Ivexia Pharma Opiates Rapid Test provides a preliminary screening result. It does not measure exact concentration, prove impairment, diagnose opioid use disorder, or replace confirmatory laboratory testing.",
+            "The LARKSOIS Pharma Opiates Rapid Test provides a preliminary screening result. It does not measure exact concentration, prove impairment, diagnose opioid use disorder, or replace confirmatory laboratory testing.",
             "A non-negative result should be confirmed when used for workplace, legal, clinical, or compliance decisions."
           ]
         },
@@ -10910,7 +10910,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -10947,13 +10947,13 @@ export const en = {
           "title": "Importance of OPI Drug Testing",
           "sections": [
             "The OPI Rapid Test is important because opiates may be used medically, misused, or encountered in drug abuse screening contexts.",
-            "The Ivexia Pharma Opiates OPI Rapid Test may be used in workplace and pre-employment drug screening, rehabilitation centers, clinical toxicology screening, hospitals, diagnostic laboratories, pain-management compliance support, forensic screening, and international diagnostic distribution.",
+            "The LARKSOIS Pharma Opiates OPI Rapid Test may be used in workplace and pre-employment drug screening, rehabilitation centers, clinical toxicology screening, hospitals, diagnostic laboratories, pain-management compliance support, forensic screening, and international diagnostic distribution.",
             "The OPI urine rapid test helps professional users screen urine samples quickly and decide whether further laboratory confirmation is required."
           ]
         },
         "intendedUse": {
           "title": "Applications of Opiates OPI Rapid Test",
-          "description": "The Opiates (OPI) Rapid Test by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "description": "The Opiates (OPI) Rapid Test by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Workplace and pre-employment drug screening",
             "Rehabilitation and de-addiction centers",
@@ -11014,7 +11014,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 2000 ng/mL",
-          "content": "The Opiates (OPI) Rapid Test by Ivexia Pharma has a stated cut-off of 2000 ng/mL. This means the test is designed to screen urine specimens for opiate-related markers at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Opiates (OPI) Rapid Test by LARKSOIS Pharma has a stated cut-off of 2000 ng/mL. This means the test is designed to screen urine specimens for opiate-related markers at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "limitations": {
           "title": "Limitations of OPI Rapid Screening",
@@ -11030,7 +11030,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma OPI Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma OPI Rapid Test",
           "instructions": [
             "Urine-based opiate screening",
             "2000 ng/mL cut-off for professional testing requirements",
@@ -11041,7 +11041,7 @@ export const en = {
             "Supports international diagnostic supply",
             "Helps identify samples that may need confirmatory testing"
           ],
-          "note": "The Opiates OPI Rapid Test by Ivexia Pharma is developed for professional users who need a practical, easy-to-use, and internationally suitable opiate screening solution."
+          "note": "The Opiates OPI Rapid Test by LARKSOIS Pharma is developed for professional users who need a practical, easy-to-use, and internationally suitable opiate screening solution."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -11054,7 +11054,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Opiates (OPI) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Opiates (OPI) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -11088,8 +11088,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Opiates OPI Rapid Test is suitable for distributors, laboratories, hospitals, rehabilitation centers, workplace testing providers, and toxicology screening programs.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Opiates OPI Rapid Test is suitable for distributors, laboratories, hospitals, rehabilitation centers, workplace testing providers, and toxicology screening programs.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -11097,7 +11097,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug of abuse screening programs",
             "Designed for practical urine screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -11172,12 +11172,12 @@ export const en = {
     },
     "oxycodone-urine-test": {
       "meta": {
-        "title": "Oxycodone OXY Rapid Test Kit – Urine Drug Abuse Screening 100 ng/mL | Ivexia Pharma",
-        "description": "Ivexia Pharma Oxycodone (OXY) Rapid Test is a urine-based drug of abuse screening test with a 100 ng/mL cut-off for qualitative oxycodone detection. Explore OXY urine test uses, benefits, screening purpose, FAQs, and international diagnostic information."
+        "title": "Oxycodone OXY Rapid Test Kit â€“ Urine Drug Abuse Screening 100 ng/mL | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Oxycodone (OXY) Rapid Test is a urine-based drug of abuse screening test with a 100 ng/mL cut-off for qualitative oxycodone detection. Explore OXY urine test uses, benefits, screening purpose, FAQs, and international diagnostic information."
       },
       "hero": {
         "title": "Oxycodone (OXY) Rapid Test",
-        "description": "Oxycodone (OXY) Rapid Test by Ivexia Pharma is a professional urine-based rapid screening test designed for the qualitative detection of oxycodone in human urine specimens at a 100 ng/mL cut-off level. Oxycodone is an opioid analgesic used for pain severe enough to require opioid treatment when other pain medicines are not effective or cannot be tolerated. Because oxycodone has medical use but also carries risks of dependence, misuse, respiratory depression, and overdose, the OXY rapid test is important for drug of abuse screening, workplace testing, rehabilitation monitoring, clinical toxicology, forensic screening, and international diagnostic supply."
+        "description": "Oxycodone (OXY) Rapid Test by LARKSOIS Pharma is a professional urine-based rapid screening test designed for the qualitative detection of oxycodone in human urine specimens at a 100 ng/mL cut-off level. Oxycodone is an opioid analgesic used for pain severe enough to require opioid treatment when other pain medicines are not effective or cannot be tolerated. Because oxycodone has medical use but also carries risks of dependence, misuse, respiratory depression, and overdose, the OXY rapid test is important for drug of abuse screening, workplace testing, rehabilitation monitoring, clinical toxicology, forensic screening, and international diagnostic supply."
       },
       "content": {
         "introduction": {
@@ -11185,7 +11185,7 @@ export const en = {
           "sections": [
             "The Oxycodone (OXY) Rapid Test is a urine-based drug of abuse rapid test used to screen for possible oxycodone exposure.",
             "Oxycodone is a semi-synthetic opioid analgesic used medically for severe pain under professional supervision. It may also be monitored in drug testing programs because of misuse, dependence, and safety risks.",
-            "The Ivexia Pharma Oxycodone Rapid Test provides a preliminary qualitative result. It does not measure exact drug concentration, diagnose addiction, prove impairment, or replace confirmatory laboratory testing."
+            "The LARKSOIS Pharma Oxycodone Rapid Test provides a preliminary qualitative result. It does not measure exact drug concentration, diagnose addiction, prove impairment, or replace confirmatory laboratory testing."
           ]
         },
         "productOverview": {
@@ -11197,7 +11197,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -11240,7 +11240,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Oxycodone OXY Rapid Test",
-          "description": "The Oxycodone (OXY) Rapid Test by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "description": "The Oxycodone (OXY) Rapid Test by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Workplace and pre-employment drug screening",
             "Rehabilitation and de-addiction monitoring",
@@ -11302,7 +11302,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 100 ng/mL",
-          "content": "The Oxycodone (OXY) Rapid Test by Ivexia Pharma has a stated cut-off of 100 ng/mL. This means the test is designed to screen urine specimens for oxycodone at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Oxycodone (OXY) Rapid Test by LARKSOIS Pharma has a stated cut-off of 100 ng/mL. This means the test is designed to screen urine specimens for oxycodone at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "safetyRelevance": {
           "title": "Safety and Testing Relevance",
@@ -11326,7 +11326,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma OXY Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma OXY Rapid Test",
           "instructions": [
             "Urine-based oxycodone screening",
             "100 ng/mL cut-off for professional testing requirements",
@@ -11337,7 +11337,7 @@ export const en = {
             "Supports international diagnostic supply",
             "Helps identify samples that may require confirmatory testing"
           ],
-          "note": "The Oxycodone OXY Rapid Test by Ivexia Pharma is developed for professional users who need a practical, easy-to-use, and internationally suitable oxycodone screening solution."
+          "note": "The Oxycodone OXY Rapid Test by LARKSOIS Pharma is developed for professional users who need a practical, easy-to-use, and internationally suitable oxycodone screening solution."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -11350,7 +11350,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Oxycodone (OXY) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Oxycodone (OXY) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -11384,8 +11384,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Oxycodone OXY Rapid Test is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, and toxicology screening programs.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Oxycodone OXY Rapid Test is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, and toxicology screening programs.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -11393,7 +11393,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug of abuse screening programs",
             "Designed for practical urine screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -11468,12 +11468,12 @@ export const en = {
     },
     "pcp-urine-test": {
       "meta": {
-        "title": "Phencyclidine PCP Rapid Test Kit – Urine Drug Abuse Screening 25 ng/mL | Ivexia Pharma",
-        "description": "Ivexia Pharma Phencyclidine (PCP) Rapid Test is a urine-based drug of abuse screening test with a 25 ng/mL cut-off for qualitative PCP detection. Explore uses, benefits, testing purpose, FAQs, and international diagnostic information."
+        "title": "Phencyclidine PCP Rapid Test Kit â€“ Urine Drug Abuse Screening 25 ng/mL | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Phencyclidine (PCP) Rapid Test is a urine-based drug of abuse screening test with a 25 ng/mL cut-off for qualitative PCP detection. Explore uses, benefits, testing purpose, FAQs, and international diagnostic information."
       },
       "hero": {
         "title": "Phencyclidine (PCP) Rapid Test",
-        "description": "Phencyclidine (PCP) Rapid Test by Ivexia Pharma is a professional urine-based rapid screening test designed for the qualitative detection of PCP in human urine specimens at a 25 ng/mL cut-off level. PCP is a dissociative hallucinogenic substance that affects the central nervous system and may cause serious behavioral, physical, and mental health risks. The Ivexia Pharma PCP Rapid Test is suitable for laboratories, hospitals, workplace screening programs, rehabilitation centers, toxicology departments, forensic screening support, and international diagnostic distributors that need fast and practical urine drug screening."
+        "description": "Phencyclidine (PCP) Rapid Test by LARKSOIS Pharma is a professional urine-based rapid screening test designed for the qualitative detection of PCP in human urine specimens at a 25 ng/mL cut-off level. PCP is a dissociative hallucinogenic substance that affects the central nervous system and may cause serious behavioral, physical, and mental health risks. The LARKSOIS Pharma PCP Rapid Test is suitable for laboratories, hospitals, workplace screening programs, rehabilitation centers, toxicology departments, forensic screening support, and international diagnostic distributors that need fast and practical urine drug screening."
       },
       "content": {
         "introduction": {
@@ -11481,7 +11481,7 @@ export const en = {
           "sections": [
             "The Phencyclidine (PCP) Rapid Test is a urine-based drug of abuse rapid test used to screen for possible PCP exposure.",
             "PCP, also known as phencyclidine, is classified as a dissociative hallucinogen and central nervous system-active substance. It may affect mood, perception, behavior, coordination, and thinking.",
-            "The Ivexia Pharma Phencyclidine PCP Rapid Test provides a preliminary qualitative result. It does not measure exact concentration, diagnose addiction, prove impairment, or replace confirmatory laboratory testing.",
+            "The LARKSOIS Pharma Phencyclidine PCP Rapid Test provides a preliminary qualitative result. It does not measure exact concentration, diagnose addiction, prove impairment, or replace confirmatory laboratory testing.",
             "For clinical, legal, workplace, forensic, or compliance decisions, non-negative results should be confirmed using a validated laboratory method."
           ]
         },
@@ -11494,7 +11494,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -11531,13 +11531,13 @@ export const en = {
           "title": "Importance of PCP Drug Testing",
           "sections": [
             "The PCP rapid test is important for professional drug of abuse screening because PCP can cause unpredictable effects and may present safety concerns in workplace, rehabilitation, clinical, and forensic settings.",
-            "The Ivexia Pharma Phencyclidine PCP Rapid Test may be used in workplace drug screening, rehabilitation monitoring, clinical toxicology, hospitals, diagnostic laboratories, forensic screening, correctional testing, and international diagnostic distribution.",
+            "The LARKSOIS Pharma Phencyclidine PCP Rapid Test may be used in workplace drug screening, rehabilitation monitoring, clinical toxicology, hospitals, diagnostic laboratories, forensic screening, correctional testing, and international diagnostic distribution.",
             "The PCP urine rapid test supports fast preliminary screening and helps identify samples that may require further laboratory evaluation."
           ]
         },
         "intendedUse": {
           "title": "Applications of Phencyclidine PCP Rapid Test",
-          "description": "The Phencyclidine (PCP) Rapid Test by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "description": "The Phencyclidine (PCP) Rapid Test by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Workplace and pre-employment drug screening",
             "Rehabilitation and de-addiction monitoring",
@@ -11588,7 +11588,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 25 ng/mL",
-          "content": "The Phencyclidine (PCP) Rapid Test by Ivexia Pharma has a stated cut-off of 25 ng/mL. This means the test is designed to screen urine specimens for PCP at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Phencyclidine (PCP) Rapid Test by LARKSOIS Pharma has a stated cut-off of 25 ng/mL. This means the test is designed to screen urine specimens for PCP at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "limitations": {
           "title": "Limitations of PCP Rapid Screening",
@@ -11604,7 +11604,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma PCP Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma PCP Rapid Test",
           "instructions": [
             "Urine-based PCP screening",
             "25 ng/mL cut-off for professional screening needs",
@@ -11615,7 +11615,7 @@ export const en = {
             "Supports international diagnostic supply",
             "Helps identify samples that may need confirmatory testing"
           ],
-          "note": "The Phencyclidine PCP Rapid Test by Ivexia Pharma is developed for professional users who need a practical, easy-to-use, and internationally suitable PCP screening solution."
+          "note": "The Phencyclidine PCP Rapid Test by LARKSOIS Pharma is developed for professional users who need a practical, easy-to-use, and internationally suitable PCP screening solution."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -11628,7 +11628,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Phencyclidine (PCP) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Phencyclidine (PCP) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -11662,8 +11662,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Phencyclidine PCP Rapid Test is suitable for distributors, laboratories, hospitals, rehabilitation centers, workplace testing providers, and toxicology screening programs.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Phencyclidine PCP Rapid Test is suitable for distributors, laboratories, hospitals, rehabilitation centers, workplace testing providers, and toxicology screening programs.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -11671,7 +11671,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug of abuse screening programs",
             "Designed for practical urine screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -11686,7 +11686,7 @@ export const en = {
         },
         {
           "question": "What is the cut-off level of the Phencyclidine PCP Rapid Test?",
-          "answer": "The Phencyclidine (PCP) Rapid Test by Ivexia Pharma has a 25 ng/mL cut-off level. This means the test is designed to provide a preliminary result when PCP in urine reaches or exceeds this threshold."
+          "answer": "The Phencyclidine (PCP) Rapid Test by LARKSOIS Pharma has a 25 ng/mL cut-off level. This means the test is designed to provide a preliminary result when PCP in urine reaches or exceeds this threshold."
         },
         {
           "question": "Is a PCP Rapid Test result final?",
@@ -11722,7 +11722,7 @@ export const en = {
             "name": "What is the cut-off level of the Phencyclidine PCP Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Phencyclidine (PCP) Rapid Test by Ivexia Pharma has a 25 ng/mL cut-off level. This means the test is designed to provide a preliminary result when PCP in urine reaches or exceeds this threshold."
+              "text": "The Phencyclidine (PCP) Rapid Test by LARKSOIS Pharma has a 25 ng/mL cut-off level. This means the test is designed to provide a preliminary result when PCP in urine reaches or exceeds this threshold."
             }
           },
           {
@@ -11746,12 +11746,12 @@ export const en = {
     },
     "pcp-saliva-test": {
       "meta": {
-        "title": "Phencyclidine PCP Saliva Rapid Test Kit – 20 ng/mL Oral Fluid Drug Screening | Ivexia Pharma",
-        "description": "Ivexia Pharma Phencyclidine (PCP) Saliva Rapid Test is an oral-fluid drug of abuse screening test with 20 ng/mL cut-off for qualitative PCP detection. Designed for professional saliva drug testing, workplace screening, toxicology programs, and international diagnostic supply."
+        "title": "Phencyclidine PCP Saliva Rapid Test Kit â€“ 20 ng/mL Oral Fluid Drug Screening | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Phencyclidine (PCP) Saliva Rapid Test is an oral-fluid drug of abuse screening test with 20 ng/mL cut-off for qualitative PCP detection. Designed for professional saliva drug testing, workplace screening, toxicology programs, and international diagnostic supply."
       },
       "hero": {
         "title": "Phencyclidine (PCP) Saliva Rapid Test",
-        "description": "Phencyclidine (PCP) Saliva Rapid Test by Ivexia Pharma is a professional oral-fluid rapid screening test designed for the qualitative detection of PCP in saliva specimens at a 20 ng/mL cut-off level. PCP is a dissociative hallucinogenic drug that affects mood, perception, behavior, and central nervous system function. The Ivexia Pharma PCP Saliva Rapid Test is suitable for laboratories, workplace testing providers, rehabilitation centers, roadside screening programs, toxicology departments, forensic screening support, and international diagnostic distributors that need fast and practical oral-fluid drug screening."
+        "description": "Phencyclidine (PCP) Saliva Rapid Test by LARKSOIS Pharma is a professional oral-fluid rapid screening test designed for the qualitative detection of PCP in saliva specimens at a 20 ng/mL cut-off level. PCP is a dissociative hallucinogenic drug that affects mood, perception, behavior, and central nervous system function. The LARKSOIS Pharma PCP Saliva Rapid Test is suitable for laboratories, workplace testing providers, rehabilitation centers, roadside screening programs, toxicology departments, forensic screening support, and international diagnostic distributors that need fast and practical oral-fluid drug screening."
       },
       "content": {
         "introduction": {
@@ -11759,7 +11759,7 @@ export const en = {
           "sections": [
             "The Phencyclidine (PCP) Saliva Rapid Test is an oral-fluid drug of abuse screening product used for preliminary detection of possible PCP exposure.",
             "PCP, also known as phencyclidine, is classified as a dissociative hallucinogenic substance because it can affect perception, mood, behavior, awareness, and central nervous system function.",
-            "The Ivexia Pharma PCP Saliva Rapid Test provides a qualitative screening result. This means it indicates whether PCP may be present above the stated 20 ng/mL cut-off level. It does not measure exact drug concentration, diagnose addiction, prove impairment, or replace confirmatory laboratory testing."
+            "The LARKSOIS Pharma PCP Saliva Rapid Test provides a qualitative screening result. This means it indicates whether PCP may be present above the stated 20 ng/mL cut-off level. It does not measure exact drug concentration, diagnose addiction, prove impairment, or replace confirmatory laboratory testing."
           ]
         },
         "productOverview": {
@@ -11771,7 +11771,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -11808,13 +11808,13 @@ export const en = {
           "title": "Importance of PCP Saliva Drug Testing",
           "sections": [
             "The PCP saliva rapid test is useful where fast oral-fluid screening is required. Saliva testing can support observed specimen collection and reduce the need for private urine collection.",
-            "The Ivexia Pharma PCP Saliva Rapid Test may be used in workplace and pre-employment screening support, rehabilitation monitoring, clinical toxicology screening, forensic testing, roadside screening where legally permitted, and international diagnostic distribution.",
+            "The LARKSOIS Pharma PCP Saliva Rapid Test may be used in workplace and pre-employment screening support, rehabilitation monitoring, clinical toxicology screening, forensic testing, roadside screening where legally permitted, and international diagnostic distribution.",
             "This PCP oral-fluid test is designed for professional screening use and should be interpreted according to the product insert and applicable local regulations."
           ]
         },
         "intendedUse": {
           "title": "Applications of Phencyclidine PCP Saliva Rapid Test",
-          "description": "The Phencyclidine (PCP) Saliva Rapid Test by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "description": "The Phencyclidine (PCP) Saliva Rapid Test by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Workplace and pre-employment screening support",
             "Rehabilitation and de-addiction monitoring",
@@ -11864,7 +11864,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 20 ng/mL",
-          "content": "The Phencyclidine (PCP) Saliva Rapid Test by Ivexia Pharma has a stated cut-off of 20 ng/mL. This means the test is designed to screen oral-fluid specimens for PCP at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Phencyclidine (PCP) Saliva Rapid Test by LARKSOIS Pharma has a stated cut-off of 20 ng/mL. This means the test is designed to screen oral-fluid specimens for PCP at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "limitations": {
           "title": "Limitations of PCP Saliva Rapid Screening",
@@ -11880,7 +11880,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma PCP Saliva Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma PCP Saliva Rapid Test",
           "instructions": [
             "Fast oral-fluid screening for PCP",
             "20 ng/mL cut-off for professional screening requirements",
@@ -11891,7 +11891,7 @@ export const en = {
             "Easy-to-read rapid test format",
             "Designed for international diagnostic supply markets"
           ],
-          "note": "The Phencyclidine PCP Saliva Rapid Test by Ivexia Pharma provides a practical screening option for professional users who need speed, convenience, and reliable preliminary testing."
+          "note": "The Phencyclidine PCP Saliva Rapid Test by LARKSOIS Pharma provides a practical screening option for professional users who need speed, convenience, and reliable preliminary testing."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -11904,7 +11904,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Phencyclidine (PCP) Saliva Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Phencyclidine (PCP) Saliva Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -11939,8 +11939,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality pharmaceutical and diagnostic products for healthcare, screening, and global supply markets. The Phencyclidine PCP Saliva Rapid Test is developed for professional use by distributors, laboratories, hospitals, rehabilitation centers, workplace testing companies, roadside screening programs, and toxicology departments.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality pharmaceutical and diagnostic products for healthcare, screening, and global supply markets. The Phencyclidine PCP Saliva Rapid Test is developed for professional use by distributors, laboratories, hospitals, rehabilitation centers, workplace testing companies, roadside screening programs, and toxicology departments.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -11948,7 +11948,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug of abuse screening programs",
             "Designed for practical oral-fluid screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -11963,7 +11963,7 @@ export const en = {
         },
         {
           "question": "What is the cut-off level of the Phencyclidine PCP Saliva Rapid Test?",
-          "answer": "The Phencyclidine (PCP) Saliva Rapid Test by Ivexia Pharma has a 20 ng/mL cut-off level. This means the test is designed to provide a preliminary result when PCP in saliva reaches or exceeds this threshold."
+          "answer": "The Phencyclidine (PCP) Saliva Rapid Test by LARKSOIS Pharma has a 20 ng/mL cut-off level. This means the test is designed to provide a preliminary result when PCP in saliva reaches or exceeds this threshold."
         },
         {
           "question": "Is a PCP Saliva Rapid Test result final?",
@@ -11999,7 +11999,7 @@ export const en = {
             "name": "What is the cut-off level of the Phencyclidine PCP Saliva Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Phencyclidine (PCP) Saliva Rapid Test by Ivexia Pharma has a 20 ng/mL cut-off level. This means the test is designed to provide a preliminary result when PCP in saliva reaches or exceeds this threshold."
+              "text": "The Phencyclidine (PCP) Saliva Rapid Test by LARKSOIS Pharma has a 20 ng/mL cut-off level. This means the test is designed to provide a preliminary result when PCP in saliva reaches or exceeds this threshold."
             }
           },
           {
@@ -12023,12 +12023,12 @@ export const en = {
     },
     "pregabalin-urine-test": {
       "meta": {
-        "title": "Pregabalin PGB Rapid Test Kit – Urine Drug Abuse Screening 300 ng/mL | Ivexia Pharma",
-        "description": "Ivexia Pharma Pregabalin (PGB) Rapid Test is a urine-based drug of abuse screening test with a 300 ng/mL cut-off for qualitative pregabalin detection. Explore PGB urine test uses, benefits, FAQs, and international screening information."
+        "title": "Pregabalin PGB Rapid Test Kit â€“ Urine Drug Abuse Screening 300 ng/mL | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Pregabalin (PGB) Rapid Test is a urine-based drug of abuse screening test with a 300 ng/mL cut-off for qualitative pregabalin detection. Explore PGB urine test uses, benefits, FAQs, and international screening information."
       },
       "hero": {
         "title": "Pregabalin (PGB) Rapid Test",
-        "description": "Pregabalin (PGB) Rapid Test by Ivexia Pharma is a professional urine-based rapid screening test designed for the qualitative detection of pregabalin in human urine specimens at a 300 ng/mL cut-off level. Pregabalin is a prescription medicine used for selected nerve pain conditions, fibromyalgia, and as add-on therapy for partial-onset seizures, but it may also be monitored in drug of abuse screening because it can be habit-forming and may be misused. The Ivexia Pharma PGB Rapid Test is suitable for laboratories, hospitals, rehabilitation centers, workplace screening programs, toxicology departments, compliance testing, and international diagnostic distributors that need a fast and practical urine drug screening solution."
+        "description": "Pregabalin (PGB) Rapid Test by LARKSOIS Pharma is a professional urine-based rapid screening test designed for the qualitative detection of pregabalin in human urine specimens at a 300 ng/mL cut-off level. Pregabalin is a prescription medicine used for selected nerve pain conditions, fibromyalgia, and as add-on therapy for partial-onset seizures, but it may also be monitored in drug of abuse screening because it can be habit-forming and may be misused. The LARKSOIS Pharma PGB Rapid Test is suitable for laboratories, hospitals, rehabilitation centers, workplace screening programs, toxicology departments, compliance testing, and international diagnostic distributors that need a fast and practical urine drug screening solution."
       },
       "content": {
         "introduction": {
@@ -12037,7 +12037,7 @@ export const en = {
             "The Pregabalin PGB Rapid Test is a urine-based drug of abuse rapid test used to screen for possible pregabalin exposure.",
             "This PGB urine test helps professional users identify whether pregabalin may be present above the stated 300 ng/mL cut-off.",
             "Pregabalin is commonly known by brand names such as Lyrica and Lyrica CR. It is used medically for selected nerve pain conditions, fibromyalgia, and certain seizure-related treatment plans under professional supervision.",
-            "The Ivexia Pharma Pregabalin Rapid Test provides a preliminary qualitative result. It does not measure exact concentration, diagnose addiction, prove impairment, or replace confirmatory laboratory testing."
+            "The LARKSOIS Pharma Pregabalin Rapid Test provides a preliminary qualitative result. It does not measure exact concentration, diagnose addiction, prove impairment, or replace confirmatory laboratory testing."
           ]
         },
         "productOverview": {
@@ -12049,7 +12049,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -12086,13 +12086,13 @@ export const en = {
           "title": "Importance of PGB Drug Testing",
           "sections": [
             "The PGB rapid test is important for professional drug screening programs because pregabalin may be prescribed legally, used outside prescription guidance, or monitored in rehabilitation and compliance settings.",
-            "The Ivexia Pharma Pregabalin PGB Rapid Test may be used in drug of abuse screening programs, rehabilitation centers, clinical toxicology screening, hospitals, diagnostic laboratories, workplace or compliance screening where permitted, prescription monitoring support, and international diagnostic distribution.",
+            "The LARKSOIS Pharma Pregabalin PGB Rapid Test may be used in drug of abuse screening programs, rehabilitation centers, clinical toxicology screening, hospitals, diagnostic laboratories, workplace or compliance screening where permitted, prescription monitoring support, and international diagnostic distribution.",
             "The PGB urine rapid test helps professional users screen urine specimens quickly and decide whether further confirmation is needed."
           ]
         },
         "intendedUse": {
           "title": "Applications of Pregabalin PGB Rapid Test",
-          "description": "The Pregabalin (PGB) Rapid Test by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "description": "The Pregabalin (PGB) Rapid Test by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Drug of abuse screening programs",
             "Rehabilitation and de-addiction centers",
@@ -12144,7 +12144,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 300 ng/mL",
-          "content": "The Pregabalin (PGB) Rapid Test by Ivexia Pharma has a stated cut-off of 300 ng/mL. This means the test is designed to screen urine specimens for pregabalin at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Pregabalin (PGB) Rapid Test by LARKSOIS Pharma has a stated cut-off of 300 ng/mL. This means the test is designed to screen urine specimens for pregabalin at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "safetyRelevance": {
           "title": "Safety and Testing Relevance",
@@ -12164,11 +12164,11 @@ export const en = {
             "Incorrect sample handling may affect performance",
             "Reading the result too early or too late may affect interpretation",
             "Cross-reactivity may occur depending on assay design",
-            "Always follow the Ivexia Pharma product insert for exact procedure, storage, timing, limitations, and interpretation"
+            "Always follow the LARKSOIS Pharma product insert for exact procedure, storage, timing, limitations, and interpretation"
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma PGB Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma PGB Rapid Test",
           "instructions": [
             "Urine-based pregabalin screening",
             "300 ng/mL cut-off for professional screening needs",
@@ -12179,7 +12179,7 @@ export const en = {
             "Supports international diagnostic supply",
             "Helps identify samples that may require confirmatory testing"
           ],
-          "note": "The Pregabalin PGB Rapid Test by Ivexia Pharma is developed for professional users who need a practical, reliable, and internationally suitable pregabalin screening solution."
+          "note": "The Pregabalin PGB Rapid Test by LARKSOIS Pharma is developed for professional users who need a practical, reliable, and internationally suitable pregabalin screening solution."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -12192,7 +12192,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Pregabalin (PGB) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Pregabalin (PGB) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -12226,8 +12226,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Pregabalin PGB Rapid Test is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, and toxicology screening programs.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Pregabalin PGB Rapid Test is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, and toxicology screening programs.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -12235,7 +12235,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug of abuse screening programs",
             "Designed for practical urine screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -12310,12 +12310,12 @@ export const en = {
     },
     "propoxyphene-urine-test": {
       "meta": {
-        "title": "Propoxyphene PPX Rapid Test Kit – Urine Drug Abuse Screening 300 ng/mL | Ivexia Pharma",
-        "description": "Ivexia Pharma Propoxyphene (PPX) Rapid Test is a urine-based drug of abuse screening test with a 300 ng/mL cut-off for qualitative propoxyphene detection. Explore PPX urine test uses, benefits, FAQs, and international screening information."
+        "title": "Propoxyphene PPX Rapid Test Kit â€“ Urine Drug Abuse Screening 300 ng/mL | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Propoxyphene (PPX) Rapid Test is a urine-based drug of abuse screening test with a 300 ng/mL cut-off for qualitative propoxyphene detection. Explore PPX urine test uses, benefits, FAQs, and international screening information."
       },
       "hero": {
         "title": "Propoxyphene (PPX) Rapid Test",
-        "description": "Propoxyphene (PPX) Rapid Test by Ivexia Pharma is a professional urine-based rapid screening test designed for the qualitative detection of propoxyphene in human urine specimens at a 300 ng/mL cut-off level. Propoxyphene is an opioid or narcotic pain reliever that was historically used for mild to moderate pain, but it is also relevant in drug of abuse testing because of dependence, misuse, overdose, and safety concerns. The Ivexia Pharma PPX Rapid Test is suitable for laboratories, hospitals, rehabilitation centers, workplace drug screening programs, toxicology departments, compliance testing, and international diagnostic distributors that require a fast and practical urine drug screening solution."
+        "description": "Propoxyphene (PPX) Rapid Test by LARKSOIS Pharma is a professional urine-based rapid screening test designed for the qualitative detection of propoxyphene in human urine specimens at a 300 ng/mL cut-off level. Propoxyphene is an opioid or narcotic pain reliever that was historically used for mild to moderate pain, but it is also relevant in drug of abuse testing because of dependence, misuse, overdose, and safety concerns. The LARKSOIS Pharma PPX Rapid Test is suitable for laboratories, hospitals, rehabilitation centers, workplace drug screening programs, toxicology departments, compliance testing, and international diagnostic distributors that require a fast and practical urine drug screening solution."
       },
       "content": {
         "introduction": {
@@ -12324,7 +12324,7 @@ export const en = {
             "The Propoxyphene PPX Rapid Test is a urine-based drug of abuse rapid test used to screen for possible propoxyphene exposure.",
             "This PPX urine test helps professional users identify whether propoxyphene may be present above the stated 300 ng/mL cut-off.",
             "Propoxyphene was historically marketed under brand names such as Darvon, Darvon-N, and PP-Cap, and it belongs to the opioid drug class.",
-            "The Ivexia Pharma Propoxyphene Rapid Test provides a preliminary qualitative result. It does not measure exact concentration, diagnose addiction, prove impairment, or replace confirmatory laboratory testing."
+            "The LARKSOIS Pharma Propoxyphene Rapid Test provides a preliminary qualitative result. It does not measure exact concentration, diagnose addiction, prove impairment, or replace confirmatory laboratory testing."
           ]
         },
         "productOverview": {
@@ -12336,7 +12336,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -12379,7 +12379,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Propoxyphene PPX Rapid Test",
-          "description": "The Propoxyphene (PPX) Rapid Test by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "description": "The Propoxyphene (PPX) Rapid Test by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Drug of abuse screening programs",
             "Rehabilitation and de-addiction centers",
@@ -12431,7 +12431,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 300 ng/mL",
-          "content": "The Propoxyphene (PPX) Rapid Test by Ivexia Pharma has a stated cut-off of 300 ng/mL. This means the test is designed to screen urine specimens for propoxyphene at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Propoxyphene (PPX) Rapid Test by LARKSOIS Pharma has a stated cut-off of 300 ng/mL. This means the test is designed to screen urine specimens for propoxyphene at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "safetyRelevance": {
           "title": "Safety and Testing Relevance",
@@ -12451,11 +12451,11 @@ export const en = {
             "Incorrect sample handling may affect performance",
             "Reading the result too early or too late may affect interpretation",
             "Cross-reactivity may occur depending on assay design",
-            "Always follow the Ivexia Pharma product insert for exact procedure, storage, timing, limitations, and interpretation"
+            "Always follow the LARKSOIS Pharma product insert for exact procedure, storage, timing, limitations, and interpretation"
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma PPX Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma PPX Rapid Test",
           "instructions": [
             "Urine-based propoxyphene screening",
             "300 ng/mL cut-off for professional screening needs",
@@ -12466,7 +12466,7 @@ export const en = {
             "Supports international diagnostic supply",
             "Helps identify samples that may require confirmatory testing"
           ],
-          "note": "The Propoxyphene PPX Rapid Test by Ivexia Pharma is developed for professional users who need a practical, reliable, and internationally suitable propoxyphene screening solution."
+          "note": "The Propoxyphene PPX Rapid Test by LARKSOIS Pharma is developed for professional users who need a practical, reliable, and internationally suitable propoxyphene screening solution."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -12479,7 +12479,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Propoxyphene (PPX) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Propoxyphene (PPX) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -12513,8 +12513,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Propoxyphene PPX Rapid Test is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, and toxicology screening programs.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Propoxyphene PPX Rapid Test is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, and toxicology screening programs.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -12522,7 +12522,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug of abuse screening programs",
             "Designed for practical urine screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -12537,7 +12537,7 @@ export const en = {
         },
         {
           "question": "What is the cut-off level of the Propoxyphene PPX Rapid Test?",
-          "answer": "The Propoxyphene (PPX) Rapid Test by Ivexia Pharma has a 300 ng/mL cut-off level. This means the test is designed to provide a preliminary result when propoxyphene in urine reaches or exceeds this threshold."
+          "answer": "The Propoxyphene (PPX) Rapid Test by LARKSOIS Pharma has a 300 ng/mL cut-off level. This means the test is designed to provide a preliminary result when propoxyphene in urine reaches or exceeds this threshold."
         },
         {
           "question": "Is a Propoxyphene PPX Rapid Test result final?",
@@ -12573,7 +12573,7 @@ export const en = {
             "name": "What is the cut-off level of the Propoxyphene PPX Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Propoxyphene (PPX) Rapid Test by Ivexia Pharma has a 300 ng/mL cut-off level. This means the test is designed to provide a preliminary result when propoxyphene in urine reaches or exceeds this threshold."
+              "text": "The Propoxyphene (PPX) Rapid Test by LARKSOIS Pharma has a 300 ng/mL cut-off level. This means the test is designed to provide a preliminary result when propoxyphene in urine reaches or exceeds this threshold."
             }
           },
           {
@@ -12597,12 +12597,12 @@ export const en = {
     },
     "synthetic-cannabis-urine-test": {
       "meta": {
-        "title": "Synthetic Cannabis K2 Rapid Test Kit – Urine Drug Abuse Screening 50 ng/mL | Ivexia Pharma",
-        "description": "Ivexia Pharma Synthetic Cannabis (K2) Rapid Test is a urine-based drug of abuse screening test with a 50 ng/mL cut-off for qualitative synthetic cannabinoid detection. Explore K2 urine test uses, benefits, FAQs, and international screening information."
+        "title": "Synthetic Cannabis K2 Rapid Test Kit â€“ Urine Drug Abuse Screening 50 ng/mL | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Synthetic Cannabis (K2) Rapid Test is a urine-based drug of abuse screening test with a 50 ng/mL cut-off for qualitative synthetic cannabinoid detection. Explore K2 urine test uses, benefits, FAQs, and international screening information."
       },
       "hero": {
         "title": "Synthetic Cannabis (K2) Rapid Test",
-        "description": "Synthetic Cannabis (K2) Rapid Test by Ivexia Pharma is a professional urine-based rapid screening test designed for the qualitative detection of synthetic cannabinoids in human urine specimens at a 50 ng/mL cut-off level. Synthetic cannabinoids, often known as K2, Spice, fake weed, or synthetic marijuana, are not a single drug but a changing group of laboratory-made chemicals that may cause unpredictable and harmful effects. The Ivexia Pharma K2 Rapid Test is suitable for laboratories, hospitals, rehabilitation centers, workplace screening programs, toxicology departments, forensic screening support, and international diagnostic distributors that need fast and practical urine drug screening."
+        "description": "Synthetic Cannabis (K2) Rapid Test by LARKSOIS Pharma is a professional urine-based rapid screening test designed for the qualitative detection of synthetic cannabinoids in human urine specimens at a 50 ng/mL cut-off level. Synthetic cannabinoids, often known as K2, Spice, fake weed, or synthetic marijuana, are not a single drug but a changing group of laboratory-made chemicals that may cause unpredictable and harmful effects. The LARKSOIS Pharma K2 Rapid Test is suitable for laboratories, hospitals, rehabilitation centers, workplace screening programs, toxicology departments, forensic screening support, and international diagnostic distributors that need fast and practical urine drug screening."
       },
       "content": {
         "introduction": {
@@ -12611,7 +12611,7 @@ export const en = {
             "The Synthetic Cannabis K2 Rapid Test is a urine-based drug of abuse rapid test used to screen for possible synthetic cannabinoid exposure.",
             "This K2 urine test helps professional users identify whether synthetic cannabinoid markers may be present above the stated 50 ng/mL cut-off.",
             "Synthetic cannabinoids are commonly marketed under names such as K2, Spice, Black Mamba, Scooby Snax, fake weed, and synthetic marijuana. These products may vary widely in chemical composition, making toxicology screening and risk assessment important.",
-            "The Ivexia Pharma Synthetic Cannabis Rapid Test provides a preliminary qualitative result. It does not measure exact concentration, prove impairment, diagnose addiction, or replace confirmatory laboratory testing."
+            "The LARKSOIS Pharma Synthetic Cannabis Rapid Test provides a preliminary qualitative result. It does not measure exact concentration, prove impairment, diagnose addiction, or replace confirmatory laboratory testing."
           ]
         },
         "productOverview": {
@@ -12623,7 +12623,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -12661,12 +12661,12 @@ export const en = {
           "sections": [
             "The K2 urine rapid test is important because synthetic cannabinoid exposure can be unpredictable and may create serious health, behavioral, workplace, and safety risks.",
             "Synthetic cannabinoid products can vary from batch to batch, and new compounds may appear in illegal or unregulated markets. This creates challenges for routine drug screening programs.",
-            "The Ivexia Pharma Synthetic Cannabis K2 Rapid Test helps professional users screen urine specimens quickly and decide whether confirmatory testing is required."
+            "The LARKSOIS Pharma Synthetic Cannabis K2 Rapid Test helps professional users screen urine specimens quickly and decide whether confirmatory testing is required."
           ]
         },
         "intendedUse": {
           "title": "Applications of Synthetic Cannabis K2 Rapid Test",
-          "description": "The Synthetic Cannabis (K2) Rapid Test by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "description": "The Synthetic Cannabis (K2) Rapid Test by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Drug of abuse screening programs",
             "Rehabilitation and de-addiction centers",
@@ -12719,7 +12719,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 50 ng/mL",
-          "content": "The Synthetic Cannabis (K2) Rapid Test by Ivexia Pharma has a stated cut-off of 50 ng/mL. This means the test is designed to screen urine specimens for selected synthetic cannabinoid markers at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Synthetic Cannabis (K2) Rapid Test by LARKSOIS Pharma has a stated cut-off of 50 ng/mL. This means the test is designed to screen urine specimens for selected synthetic cannabinoid markers at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "safetyRelevance": {
           "title": "Safety and Testing Relevance",
@@ -12740,11 +12740,11 @@ export const en = {
             "Reading the result too early or too late may affect interpretation",
             "New synthetic cannabinoid variants may not be detected depending on assay design",
             "Cross-reactivity may occur depending on test chemistry",
-            "Always follow the Ivexia Pharma product insert for exact procedure, storage, timing, limitations, and interpretation"
+            "Always follow the LARKSOIS Pharma product insert for exact procedure, storage, timing, limitations, and interpretation"
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma K2 Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma K2 Rapid Test",
           "instructions": [
             "Urine-based synthetic cannabinoid screening",
             "50 ng/mL cut-off for professional screening needs",
@@ -12755,7 +12755,7 @@ export const en = {
             "Supports international diagnostic supply",
             "Helps identify samples that may require confirmatory testing"
           ],
-          "note": "The Synthetic Cannabis K2 Rapid Test by Ivexia Pharma is developed for professional users who need a practical, reliable, and internationally suitable synthetic cannabinoid screening solution."
+          "note": "The Synthetic Cannabis K2 Rapid Test by LARKSOIS Pharma is developed for professional users who need a practical, reliable, and internationally suitable synthetic cannabinoid screening solution."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -12768,7 +12768,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Synthetic Cannabis (K2) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Synthetic Cannabis (K2) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -12802,8 +12802,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Synthetic Cannabis K2 Rapid Test is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, toxicology departments, and professional drug screening programs.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Synthetic Cannabis K2 Rapid Test is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, toxicology departments, and professional drug screening programs.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -12811,7 +12811,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug of abuse screening programs",
             "Designed for practical urine screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -12830,7 +12830,7 @@ export const en = {
         },
         {
           "question": "What is the cut-off level of the Synthetic Cannabis K2 Rapid Test?",
-          "answer": "The Synthetic Cannabis (K2) Rapid Test by Ivexia Pharma has a 50 ng/mL cut-off level. This means the test is designed to provide a preliminary result when selected synthetic cannabinoid markers in urine reach or exceed this threshold."
+          "answer": "The Synthetic Cannabis (K2) Rapid Test by LARKSOIS Pharma has a 50 ng/mL cut-off level. This means the test is designed to provide a preliminary result when selected synthetic cannabinoid markers in urine reach or exceed this threshold."
         },
         {
           "question": "Is a Synthetic Cannabis K2 Rapid Test result final?",
@@ -12870,7 +12870,7 @@ export const en = {
             "name": "What is the cut-off level of the Synthetic Cannabis K2 Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Synthetic Cannabis (K2) Rapid Test by Ivexia Pharma has a 50 ng/mL cut-off level. This means the test is designed to provide a preliminary result when selected synthetic cannabinoid markers in urine reach or exceed this threshold."
+              "text": "The Synthetic Cannabis (K2) Rapid Test by LARKSOIS Pharma has a 50 ng/mL cut-off level. This means the test is designed to provide a preliminary result when selected synthetic cannabinoid markers in urine reach or exceed this threshold."
             }
           },
           {
@@ -12886,12 +12886,12 @@ export const en = {
     },
     "synthetic-cannabis-k3-urine-test": {
       "meta": {
-        "title": "Synthetic Cannabis K3 Rapid Test Kit – Urine Drug Abuse Screening 20 ng/mL | Ivexia Pharma",
-        "description": "Ivexia Pharma Synthetic Cannabis (K3) Rapid Test is a urine-based drug of abuse screening test with a 20 ng/mL cut-off for qualitative synthetic cannabinoid detection. Explore K3 urine test uses, benefits, FAQs, and international diagnostic information."
+        "title": "Synthetic Cannabis K3 Rapid Test Kit â€“ Urine Drug Abuse Screening 20 ng/mL | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Synthetic Cannabis (K3) Rapid Test is a urine-based drug of abuse screening test with a 20 ng/mL cut-off for qualitative synthetic cannabinoid detection. Explore K3 urine test uses, benefits, FAQs, and international diagnostic information."
       },
       "hero": {
         "title": "Synthetic Cannabis (K3) Rapid Test",
-        "description": "Synthetic Cannabis (K3) Rapid Test by Ivexia Pharma is a professional urine-based rapid screening test designed for the qualitative detection of selected synthetic cannabinoid markers in human urine specimens at a 20 ng/mL cut-off level. In this product context, K3 refers to a synthetic cannabis / synthetic cannabinoid screening marker and should not be confused with vitamin K3. The Ivexia Pharma Synthetic Cannabis K3 Rapid Test is suitable for laboratories, hospitals, rehabilitation centers, workplace screening programs, forensic screening, toxicology departments, and international diagnostic distributors that need fast and practical urine drug screening."
+        "description": "Synthetic Cannabis (K3) Rapid Test by LARKSOIS Pharma is a professional urine-based rapid screening test designed for the qualitative detection of selected synthetic cannabinoid markers in human urine specimens at a 20 ng/mL cut-off level. In this product context, K3 refers to a synthetic cannabis / synthetic cannabinoid screening marker and should not be confused with vitamin K3. The LARKSOIS Pharma Synthetic Cannabis K3 Rapid Test is suitable for laboratories, hospitals, rehabilitation centers, workplace screening programs, forensic screening, toxicology departments, and international diagnostic distributors that need fast and practical urine drug screening."
       },
       "content": {
         "introduction": {
@@ -12899,7 +12899,7 @@ export const en = {
           "sections": [
             "The Synthetic Cannabis K3 Rapid Test is a urine-based drug of abuse rapid test used to screen for possible exposure to selected synthetic cannabinoid compounds or metabolites.",
             "Synthetic cannabinoids are laboratory-made psychoactive substances that can bind to cannabinoid receptors in the body. These substances are often sold under names such as K2, Spice, synthetic marijuana, or herbal smoking blends, but their effects can be more unpredictable than natural cannabis.",
-            "The Ivexia Pharma Synthetic Cannabis K3 Rapid Test provides a preliminary qualitative result. It does not measure exact concentration, prove impairment, diagnose addiction, or replace confirmatory laboratory testing."
+            "The LARKSOIS Pharma Synthetic Cannabis K3 Rapid Test provides a preliminary qualitative result. It does not measure exact concentration, prove impairment, diagnose addiction, or replace confirmatory laboratory testing."
           ]
         },
         "productOverview": {
@@ -12911,7 +12911,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -12949,12 +12949,12 @@ export const en = {
           "sections": [
             "The K3 urine rapid test is important because synthetic cannabinoids may be difficult to identify through standard drug panels.",
             "Synthetic cannabinoid products can vary from batch to batch, and new compounds may appear in illegal or unregulated markets. This creates challenges for routine drug screening programs.",
-            "The Ivexia Pharma Synthetic Cannabis K3 Rapid Test helps professional users screen urine specimens quickly and decide whether confirmatory testing is required."
+            "The LARKSOIS Pharma Synthetic Cannabis K3 Rapid Test helps professional users screen urine specimens quickly and decide whether confirmatory testing is required."
           ]
         },
         "intendedUse": {
           "title": "Applications of Synthetic Cannabis K3 Rapid Test",
-          "description": "The Synthetic Cannabis (K3) Rapid Test by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "description": "The Synthetic Cannabis (K3) Rapid Test by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Drug of abuse screening programs",
             "Rehabilitation and de-addiction centers",
@@ -13006,7 +13006,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 20 ng/mL",
-          "content": "The Synthetic Cannabis (K3) Rapid Test by Ivexia Pharma has a stated cut-off of 20 ng/mL. This means the test is designed to screen urine specimens for selected synthetic cannabinoid markers at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Synthetic Cannabis (K3) Rapid Test by LARKSOIS Pharma has a stated cut-off of 20 ng/mL. This means the test is designed to screen urine specimens for selected synthetic cannabinoid markers at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "classification": {
           "title": "Classification of Synthetic Cannabinoids",
@@ -13043,11 +13043,11 @@ export const en = {
             "Reading the result too early or too late may affect interpretation",
             "New synthetic cannabinoid variants may not be detected depending on assay design",
             "Cross-reactivity may occur depending on test chemistry",
-            "Always follow the Ivexia Pharma product insert for exact procedure, storage, timing, limitations, and interpretation"
+            "Always follow the LARKSOIS Pharma product insert for exact procedure, storage, timing, limitations, and interpretation"
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma K3 Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma K3 Rapid Test",
           "instructions": [
             "Urine-based synthetic cannabinoid screening",
             "20 ng/mL cut-off for professional screening needs",
@@ -13058,7 +13058,7 @@ export const en = {
             "Supports international diagnostic supply",
             "Helps identify samples that may require confirmatory testing"
           ],
-          "note": "The Synthetic Cannabis K3 Rapid Test by Ivexia Pharma is developed for professional users who need a practical, reliable, and internationally suitable synthetic cannabinoid screening solution."
+          "note": "The Synthetic Cannabis K3 Rapid Test by LARKSOIS Pharma is developed for professional users who need a practical, reliable, and internationally suitable synthetic cannabinoid screening solution."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -13071,7 +13071,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Synthetic Cannabis (K3) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Synthetic Cannabis (K3) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -13106,8 +13106,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Synthetic Cannabis K3 Rapid Test is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, toxicology departments, and professional drug screening programs.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Synthetic Cannabis K3 Rapid Test is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, toxicology departments, and professional drug screening programs.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -13115,7 +13115,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug of abuse screening programs",
             "Designed for practical urine screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -13134,7 +13134,7 @@ export const en = {
         },
         {
           "question": "What is the cut-off level of the Synthetic Cannabis K3 Rapid Test?",
-          "answer": "The Synthetic Cannabis (K3) Rapid Test by Ivexia Pharma has a 20 ng/mL cut-off level. This means the test is designed to provide a preliminary result when selected synthetic cannabinoid markers in urine reach or exceed this threshold."
+          "answer": "The Synthetic Cannabis (K3) Rapid Test by LARKSOIS Pharma has a 20 ng/mL cut-off level. This means the test is designed to provide a preliminary result when selected synthetic cannabinoid markers in urine reach or exceed this threshold."
         },
         {
           "question": "Is a Synthetic Cannabis K3 Rapid Test result final?",
@@ -13174,7 +13174,7 @@ export const en = {
             "name": "What is the cut-off level of the Synthetic Cannabis K3 Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Synthetic Cannabis (K3) Rapid Test by Ivexia Pharma has a 20 ng/mL cut-off level. This means the test is designed to provide a preliminary result when selected synthetic cannabinoid markers in urine reach or exceed this threshold."
+              "text": "The Synthetic Cannabis (K3) Rapid Test by LARKSOIS Pharma has a 20 ng/mL cut-off level. This means the test is designed to provide a preliminary result when selected synthetic cannabinoid markers in urine reach or exceed this threshold."
             }
           },
           {
@@ -13190,12 +13190,12 @@ export const en = {
     },
     "synthetic-cannabis-k4-urine-test": {
       "meta": {
-        "title": "Synthetic Cannabis K4 Rapid Test Kit – Urine Drug Abuse Screening 20 ng/mL | Ivexia Pharma",
-        "description": "Ivexia Pharma Synthetic Cannabis (K4) Rapid Test is a urine-based drug of abuse screening test with a 20 ng/mL cut-off for qualitative synthetic cannabinoid detection. Explore K4 urine test uses, benefits, FAQs, and international diagnostic information."
+        "title": "Synthetic Cannabis K4 Rapid Test Kit â€“ Urine Drug Abuse Screening 20 ng/mL | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Synthetic Cannabis (K4) Rapid Test is a urine-based drug of abuse screening test with a 20 ng/mL cut-off for qualitative synthetic cannabinoid detection. Explore K4 urine test uses, benefits, FAQs, and international diagnostic information."
       },
       "hero": {
         "title": "Synthetic Cannabis (K4) Rapid Test",
-        "description": "Synthetic Cannabis (K4) Rapid Test by Ivexia Pharma is a professional urine-based rapid screening test designed for the qualitative detection of selected synthetic cannabinoid markers in human urine specimens at a 20 ng/mL cut-off level. In drug testing, K4 is commonly used as a synthetic cannabinoid screening category, often linked with compounds or metabolites such as UR-144 or JWH-018 metabolites, depending on the test design. Synthetic cannabinoids are designer drug molecules that bind to cannabinoid receptors, but they are chemically different from natural cannabis cannabinoids such as THC and CBD."
+        "description": "Synthetic Cannabis (K4) Rapid Test by LARKSOIS Pharma is a professional urine-based rapid screening test designed for the qualitative detection of selected synthetic cannabinoid markers in human urine specimens at a 20 ng/mL cut-off level. In drug testing, K4 is commonly used as a synthetic cannabinoid screening category, often linked with compounds or metabolites such as UR-144 or JWH-018 metabolites, depending on the test design. Synthetic cannabinoids are designer drug molecules that bind to cannabinoid receptors, but they are chemically different from natural cannabis cannabinoids such as THC and CBD."
       },
       "content": {
         "introduction": {
@@ -13204,7 +13204,7 @@ export const en = {
             "The Synthetic Cannabis K4 Rapid Test is a urine-based drug of abuse rapid test used to screen for possible exposure to selected synthetic cannabinoid compounds or metabolites.",
             "This K4 urine test helps professional users identify whether a target synthetic cannabinoid marker may be present above the stated 20 ng/mL cut-off.",
             "Synthetic cannabinoids are not one fixed drug. They represent a large and changing group of laboratory-made psychoactive substances that may be sold under names such as K2, Spice, synthetic marijuana, fake weed, or herbal blends.",
-            "The Ivexia Pharma Synthetic Cannabis K4 Rapid Test provides a preliminary qualitative result. It does not measure exact concentration, prove impairment, diagnose addiction, or replace confirmatory laboratory testing."
+            "The LARKSOIS Pharma Synthetic Cannabis K4 Rapid Test provides a preliminary qualitative result. It does not measure exact concentration, prove impairment, diagnose addiction, or replace confirmatory laboratory testing."
           ]
         },
         "productOverview": {
@@ -13216,7 +13216,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -13254,12 +13254,12 @@ export const en = {
           "sections": [
             "The K4 urine rapid test is important because synthetic cannabinoid products can change frequently. New analogs may appear in the market, and older compounds may be replaced by newer ones.",
             "Synthetic cannabinoids may include different families of compounds, and many substances can have different base structures, potency levels, and detection requirements.",
-            "The Ivexia Pharma Synthetic Cannabis K4 Rapid Test helps professional users screen urine specimens quickly and decide whether confirmatory testing is required."
+            "The LARKSOIS Pharma Synthetic Cannabis K4 Rapid Test helps professional users screen urine specimens quickly and decide whether confirmatory testing is required."
           ]
         },
         "intendedUse": {
           "title": "Applications of Synthetic Cannabis K4 Rapid Test",
-          "description": "The Synthetic Cannabis (K4) Rapid Test by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "description": "The Synthetic Cannabis (K4) Rapid Test by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Drug of abuse screening programs",
             "Rehabilitation and de-addiction centers",
@@ -13311,7 +13311,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 20 ng/mL",
-          "content": "The Synthetic Cannabis (K4) Rapid Test by Ivexia Pharma has a stated cut-off of 20 ng/mL. This means the test is designed to screen urine specimens for selected synthetic cannabinoid markers at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Synthetic Cannabis (K4) Rapid Test by LARKSOIS Pharma has a stated cut-off of 20 ng/mL. This means the test is designed to screen urine specimens for selected synthetic cannabinoid markers at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "safetyRelevance": {
           "title": "Safety and Testing Relevance",
@@ -13332,11 +13332,11 @@ export const en = {
             "Reading the result too early or too late may affect interpretation",
             "New synthetic cannabinoid variants may not be covered by the assay",
             "Cross-reactivity may occur depending on test design",
-            "Always follow the Ivexia Pharma product insert for exact procedure, storage, timing, limitations, and interpretation"
+            "Always follow the LARKSOIS Pharma product insert for exact procedure, storage, timing, limitations, and interpretation"
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma K4 Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma K4 Rapid Test",
           "instructions": [
             "Urine-based synthetic cannabinoid screening",
             "20 ng/mL cut-off for professional screening needs",
@@ -13347,7 +13347,7 @@ export const en = {
             "Supports international diagnostic supply",
             "Helps identify samples that may require confirmatory testing"
           ],
-          "note": "The Synthetic Cannabis K4 Rapid Test by Ivexia Pharma is developed for professional users who need a practical, reliable, and internationally suitable synthetic cannabinoid screening solution."
+          "note": "The Synthetic Cannabis K4 Rapid Test by LARKSOIS Pharma is developed for professional users who need a practical, reliable, and internationally suitable synthetic cannabinoid screening solution."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -13360,7 +13360,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Synthetic Cannabis (K4) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Synthetic Cannabis (K4) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -13395,8 +13395,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Synthetic Cannabis K4 Rapid Test is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, toxicology departments, and professional drug screening programs.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Synthetic Cannabis K4 Rapid Test is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, toxicology departments, and professional drug screening programs.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -13404,7 +13404,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug of abuse screening programs",
             "Designed for practical urine screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -13467,12 +13467,12 @@ export const en = {
     },
     "marijuana-saliva-test": {
       "meta": {
-        "title": "Marijuana THC Saliva Rapid Test Kit – Oral Fluid Drug Screening | Ivexia Pharma",
-        "description": "Ivexia Pharma Marijuana (THC) Saliva Rapid Test is an oral-fluid drug of abuse screening test for qualitative detection of THC-related cannabis exposure. Designed for professional saliva drug testing, workplace screening, toxicology programs, rehabilitation centers, and international diagnostic supply."
+        "title": "Marijuana THC Saliva Rapid Test Kit â€“ Oral Fluid Drug Screening | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Marijuana (THC) Saliva Rapid Test is an oral-fluid drug of abuse screening test for qualitative detection of THC-related cannabis exposure. Designed for professional saliva drug testing, workplace screening, toxicology programs, rehabilitation centers, and international diagnostic supply."
       },
       "hero": {
         "title": "Marijuana (THC) Saliva Rapid Test",
-        "description": "Marijuana (THC) Saliva Rapid Test by Ivexia Pharma is a professional oral-fluid rapid screening test designed for the qualitative detection of THC-related cannabis exposure in saliva specimens. THC, or tetrahydrocannabinol, is the main psychoactive compound associated with cannabis and is widely included in drug of abuse screening panels because of its intoxicating effects, legal restrictions, workplace relevance, and public-health concerns. The Ivexia Pharma THC Saliva Rapid Test is suitable for laboratories, workplace testing providers, rehabilitation centers, roadside screening programs where legally permitted, toxicology departments, forensic screening support, and international diagnostic distributors that need fast and practical oral-fluid drug screening."
+        "description": "Marijuana (THC) Saliva Rapid Test by LARKSOIS Pharma is a professional oral-fluid rapid screening test designed for the qualitative detection of THC-related cannabis exposure in saliva specimens. THC, or tetrahydrocannabinol, is the main psychoactive compound associated with cannabis and is widely included in drug of abuse screening panels because of its intoxicating effects, legal restrictions, workplace relevance, and public-health concerns. The LARKSOIS Pharma THC Saliva Rapid Test is suitable for laboratories, workplace testing providers, rehabilitation centers, roadside screening programs where legally permitted, toxicology departments, forensic screening support, and international diagnostic distributors that need fast and practical oral-fluid drug screening."
       },
       "content": {
         "introduction": {
@@ -13480,7 +13480,7 @@ export const en = {
           "sections": [
             "The Marijuana (THC) Saliva Rapid Test is an oral-fluid drug of abuse screening product used for preliminary detection of possible cannabis exposure.",
             "Unlike urine testing, saliva testing is commonly used when recent-use screening and observed specimen collection are required. Oral-fluid testing is non-invasive, convenient, and practical for professional screening workflows.",
-            "The Ivexia Pharma THC Saliva Rapid Test provides a qualitative screening result. This means it indicates whether THC-related cannabis exposure may be detected according to the product’s stated cut-off and testing method.",
+            "The LARKSOIS Pharma THC Saliva Rapid Test provides a qualitative screening result. This means it indicates whether THC-related cannabis exposure may be detected according to the productâ€™s stated cut-off and testing method.",
             "The test does not measure exact drug concentration, prove impairment, diagnose addiction, or replace confirmatory laboratory testing."
           ]
         },
@@ -13493,7 +13493,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -13530,13 +13530,13 @@ export const en = {
           "title": "Importance of THC Saliva Drug Testing",
           "sections": [
             "The THC saliva rapid test is useful where fast oral-fluid screening is required. Saliva testing can support observed specimen collection and reduce the need for private urine collection.",
-            "The Ivexia Pharma Marijuana THC Saliva Rapid Test may be used in workplace and pre-employment screening support, rehabilitation monitoring, clinical toxicology screening, forensic testing, roadside screening where legally permitted, and international diagnostic distribution.",
+            "The LARKSOIS Pharma Marijuana THC Saliva Rapid Test may be used in workplace and pre-employment screening support, rehabilitation monitoring, clinical toxicology screening, forensic testing, roadside screening where legally permitted, and international diagnostic distribution.",
             "This THC oral-fluid test is designed for professional screening use and should be interpreted according to the product insert and applicable local regulations."
           ]
         },
         "intendedUse": {
           "title": "Applications of Marijuana THC Saliva Rapid Test",
-          "description": "The Marijuana (THC) Saliva Rapid Test by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "description": "The Marijuana (THC) Saliva Rapid Test by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Workplace and pre-employment screening support",
             "Rehabilitation and de-addiction monitoring",
@@ -13587,7 +13587,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: As per product IFU",
-          "content": "The Marijuana (THC) Saliva Rapid Test by Ivexia Pharma should list the exact saliva cut-off according to the final product insert, technical file, label claim, and regulatory documentation. Saliva cut-off values may differ from urine THC metabolite cut-offs, so the exact value should be confirmed before publishing."
+          "content": "The Marijuana (THC) Saliva Rapid Test by LARKSOIS Pharma should list the exact saliva cut-off according to the final product insert, technical file, label claim, and regulatory documentation. Saliva cut-off values may differ from urine THC metabolite cut-offs, so the exact value should be confirmed before publishing."
         },
         "safetyRelevance": {
           "title": "Safety and Testing Relevance",
@@ -13608,11 +13608,11 @@ export const en = {
             "Reading the result too early or too late may affect interpretation",
             "Passive exposure or product contamination concerns may require professional review",
             "Differences between screening and confirmatory results may occur",
-            "Always follow the Ivexia Pharma product insert for exact procedure, storage, timing, limitations, and interpretation"
+            "Always follow the LARKSOIS Pharma product insert for exact procedure, storage, timing, limitations, and interpretation"
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma THC Saliva Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma THC Saliva Rapid Test",
           "instructions": [
             "Oral-fluid based cannabis screening",
             "Fast qualitative drug of abuse screening",
@@ -13623,7 +13623,7 @@ export const en = {
             "Supports international diagnostic supply",
             "Helps identify samples that may require confirmatory testing"
           ],
-          "note": "The Marijuana THC Saliva Rapid Test by Ivexia Pharma provides a practical screening option for professional users who need speed, convenience, and reliable preliminary testing."
+          "note": "The Marijuana THC Saliva Rapid Test by LARKSOIS Pharma provides a practical screening option for professional users who need speed, convenience, and reliable preliminary testing."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -13636,7 +13636,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Marijuana (THC) Saliva Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Marijuana (THC) Saliva Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -13671,8 +13671,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality pharmaceutical and diagnostic products for healthcare, screening, and global supply markets. The Marijuana THC Saliva Rapid Test is developed for professional use by distributors, laboratories, hospitals, rehabilitation centers, workplace testing companies, roadside screening programs, and toxicology departments.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality pharmaceutical and diagnostic products for healthcare, screening, and global supply markets. The Marijuana THC Saliva Rapid Test is developed for professional use by distributors, laboratories, hospitals, rehabilitation centers, workplace testing companies, roadside screening programs, and toxicology departments.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -13680,7 +13680,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug of abuse screening programs",
             "Designed for practical oral-fluid screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -13755,12 +13755,12 @@ export const en = {
     },
     "tramadol-urine-test": {
       "meta": {
-        "title": "Tramadol TML Rapid Test Kit – Urine Drug Abuse Screening 300 ng/mL | Ivexia Pharma",
-        "description": "Ivexia Pharma Tramadol (TML) Rapid Test is a urine-based drug of abuse screening test with a 300 ng/mL cut-off for qualitative tramadol detection. Learn about TML urine test uses, benefits, FAQs, safety relevance, and international drug screening information."
+        "title": "Tramadol TML Rapid Test Kit â€“ Urine Drug Abuse Screening 300 ng/mL | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Tramadol (TML) Rapid Test is a urine-based drug of abuse screening test with a 300 ng/mL cut-off for qualitative tramadol detection. Learn about TML urine test uses, benefits, FAQs, safety relevance, and international drug screening information."
       },
       "hero": {
         "title": "Tramadol (TML) Rapid Test",
-        "description": "Tramadol (TML) Rapid Test by Ivexia Pharma is a professional urine-based rapid screening test designed for the qualitative detection of tramadol in human urine specimens at a 300 ng/mL cut-off level. Tramadol is an opioid medicine used for moderate to moderately severe pain when other pain treatments are not effective or cannot be tolerated. It is also monitored in drug of abuse screening because it may be habit-forming and carries risks of misuse, dependence, overdose, and serious breathing problems. The Ivexia Pharma TML Rapid Test is suitable for laboratories, hospitals, rehabilitation centers, workplace screening programs, clinical toxicology, compliance testing, and international diagnostic distributors that require a fast and practical urine drug screening solution."
+        "description": "Tramadol (TML) Rapid Test by LARKSOIS Pharma is a professional urine-based rapid screening test designed for the qualitative detection of tramadol in human urine specimens at a 300 ng/mL cut-off level. Tramadol is an opioid medicine used for moderate to moderately severe pain when other pain treatments are not effective or cannot be tolerated. It is also monitored in drug of abuse screening because it may be habit-forming and carries risks of misuse, dependence, overdose, and serious breathing problems. The LARKSOIS Pharma TML Rapid Test is suitable for laboratories, hospitals, rehabilitation centers, workplace screening programs, clinical toxicology, compliance testing, and international diagnostic distributors that require a fast and practical urine drug screening solution."
       },
       "content": {
         "introduction": {
@@ -13769,7 +13769,7 @@ export const en = {
             "The Tramadol TML Rapid Test is a urine-based drug of abuse rapid test used to screen for possible tramadol exposure.",
             "This TML urine test helps professional users identify whether tramadol may be present above the stated 300 ng/mL cut-off.",
             "Tramadol belongs to the opioid analgesic class and acts in the central nervous system to relieve pain. Because of its opioid-related risks, tramadol is included in many toxicology and drug of abuse screening discussions.",
-            "The Ivexia Pharma Tramadol Rapid Test provides a preliminary qualitative result. It does not measure exact concentration, diagnose addiction, prove impairment, or replace confirmatory laboratory testing."
+            "The LARKSOIS Pharma Tramadol Rapid Test provides a preliminary qualitative result. It does not measure exact concentration, diagnose addiction, prove impairment, or replace confirmatory laboratory testing."
           ]
         },
         "productOverview": {
@@ -13781,7 +13781,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -13819,12 +13819,12 @@ export const en = {
           "sections": [
             "The TML urine rapid test is important because tramadol may be prescribed legally but can also be misused.",
             "Screening may be required in healthcare monitoring, rehabilitation programs, workplace testing, forensic toxicology, pain-management monitoring, or compliance-based drug testing.",
-            "The Ivexia Pharma Tramadol TML Rapid Test helps professional users screen urine specimens quickly and supports responsible preliminary drug testing workflows."
+            "The LARKSOIS Pharma Tramadol TML Rapid Test helps professional users screen urine specimens quickly and supports responsible preliminary drug testing workflows."
           ]
         },
         "intendedUse": {
           "title": "Applications of Tramadol TML Rapid Test",
-          "description": "The Tramadol (TML) Rapid Test by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "description": "The Tramadol (TML) Rapid Test by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Drug of abuse screening programs",
             "Rehabilitation and de-addiction centers",
@@ -13877,7 +13877,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 300 ng/mL",
-          "content": "The Tramadol (TML) Rapid Test by Ivexia Pharma has a stated cut-off of 300 ng/mL. This means the test is designed to screen urine specimens for tramadol at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Tramadol (TML) Rapid Test by LARKSOIS Pharma has a stated cut-off of 300 ng/mL. This means the test is designed to screen urine specimens for tramadol at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "safetyRelevance": {
           "title": "Safety and Testing Relevance",
@@ -13897,11 +13897,11 @@ export const en = {
             "Incorrect sample handling may affect performance",
             "Reading the result too early or too late may affect interpretation",
             "Cross-reactivity may occur depending on assay design",
-            "Always follow the Ivexia Pharma product insert for exact procedure, storage, timing, limitations, and interpretation"
+            "Always follow the LARKSOIS Pharma product insert for exact procedure, storage, timing, limitations, and interpretation"
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma TML Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma TML Rapid Test",
           "instructions": [
             "Urine-based tramadol screening",
             "300 ng/mL cut-off for professional screening needs",
@@ -13912,7 +13912,7 @@ export const en = {
             "Supports international diagnostic supply",
             "Helps identify samples that may require confirmatory testing"
           ],
-          "note": "The Tramadol TML Rapid Test by Ivexia Pharma is developed for professional users who need a practical, reliable, and internationally suitable tramadol screening solution."
+          "note": "The Tramadol TML Rapid Test by LARKSOIS Pharma is developed for professional users who need a practical, reliable, and internationally suitable tramadol screening solution."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -13925,7 +13925,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Tramadol (TML) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Tramadol (TML) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -13959,8 +13959,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Tramadol TML Rapid Test is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, toxicology departments, and professional drug screening programs.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Tramadol TML Rapid Test is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, toxicology departments, and professional drug screening programs.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -13968,7 +13968,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug of abuse screening programs",
             "Designed for practical urine screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -13983,7 +13983,7 @@ export const en = {
         },
         {
           "question": "What is the cut-off level of the Tramadol TML Rapid Test?",
-          "answer": "The Tramadol (TML) Rapid Test by Ivexia Pharma has a 300 ng/mL cut-off level. This means the test is designed to provide a preliminary result when tramadol in urine reaches or exceeds this threshold."
+          "answer": "The Tramadol (TML) Rapid Test by LARKSOIS Pharma has a 300 ng/mL cut-off level. This means the test is designed to provide a preliminary result when tramadol in urine reaches or exceeds this threshold."
         },
         {
           "question": "Is a Tramadol TML Rapid Test result final?",
@@ -14019,7 +14019,7 @@ export const en = {
             "name": "What is the cut-off level of the Tramadol TML Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Tramadol (TML) Rapid Test by Ivexia Pharma has a 300 ng/mL cut-off level. This means the test is designed to provide a preliminary result when tramadol in urine reaches or exceeds this threshold."
+              "text": "The Tramadol (TML) Rapid Test by LARKSOIS Pharma has a 300 ng/mL cut-off level. This means the test is designed to provide a preliminary result when tramadol in urine reaches or exceeds this threshold."
             }
           },
           {
@@ -14043,12 +14043,12 @@ export const en = {
     },
     "tricyclic-antidepressants-urine-test": {
       "meta": {
-        "title": "Tricyclic Antidepressants TCA Rapid Test Kit – Urine Drug Abuse Screening 1000 ng/mL | Ivexia Pharma",
-        "description": "Ivexia Pharma Tricyclic Antidepressants (TCA) Rapid Test is a urine-based drug of abuse screening test with a 1000 ng/mL cut-off for qualitative TCA detection. Learn about TCA urine test use, benefits, FAQs, safety relevance, and international screening information."
+        "title": "Tricyclic Antidepressants TCA Rapid Test Kit â€“ Urine Drug Abuse Screening 1000 ng/mL | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Tricyclic Antidepressants (TCA) Rapid Test is a urine-based drug of abuse screening test with a 1000 ng/mL cut-off for qualitative TCA detection. Learn about TCA urine test use, benefits, FAQs, safety relevance, and international screening information."
       },
       "hero": {
         "title": "Tricyclic Antidepressants (TCA) Rapid Test",
-        "description": "Tricyclic Antidepressants (TCA) Rapid Test by Ivexia Pharma is a professional urine-based rapid screening test designed for the qualitative detection of tricyclic antidepressants in human urine specimens at a 1000 ng/mL cut-off level. Tricyclic antidepressants are a class of medicines historically used to treat major depressive disorder, and they may also be prescribed for conditions such as chronic pain, insomnia, anxiety disorders, migraine prevention, fibromyalgia, and neuropathic pain. The Ivexia Pharma TCA Rapid Test is suitable for laboratories, hospitals, rehabilitation centers, toxicology departments, emergency screening support, workplace screening programs where permitted, and international diagnostic distributors requiring a fast and practical urine drug screening solution."
+        "description": "Tricyclic Antidepressants (TCA) Rapid Test by LARKSOIS Pharma is a professional urine-based rapid screening test designed for the qualitative detection of tricyclic antidepressants in human urine specimens at a 1000 ng/mL cut-off level. Tricyclic antidepressants are a class of medicines historically used to treat major depressive disorder, and they may also be prescribed for conditions such as chronic pain, insomnia, anxiety disorders, migraine prevention, fibromyalgia, and neuropathic pain. The LARKSOIS Pharma TCA Rapid Test is suitable for laboratories, hospitals, rehabilitation centers, toxicology departments, emergency screening support, workplace screening programs where permitted, and international diagnostic distributors requiring a fast and practical urine drug screening solution."
       },
       "content": {
         "introduction": {
@@ -14057,7 +14057,7 @@ export const en = {
             "The Tricyclic Antidepressants TCA Rapid Test is a urine-based drug of abuse rapid test used to screen for possible TCA exposure.",
             "This TCA urine test helps professional users identify whether tricyclic antidepressant compounds may be present above the stated 1000 ng/mL cut-off.",
             "TCAs were among the earliest antidepressants developed. They are effective medicines, but newer antidepressants are often used more commonly because they may cause fewer side effects.",
-            "The Ivexia Pharma Tricyclic Antidepressants Rapid Test provides a preliminary qualitative result. It does not measure exact concentration, diagnose overdose, prove misuse, or replace confirmatory laboratory testing."
+            "The LARKSOIS Pharma Tricyclic Antidepressants Rapid Test provides a preliminary qualitative result. It does not measure exact concentration, diagnose overdose, prove misuse, or replace confirmatory laboratory testing."
           ]
         },
         "productOverview": {
@@ -14069,7 +14069,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -14112,7 +14112,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Tricyclic Antidepressants TCA Rapid Test",
-          "description": "The Tricyclic Antidepressants (TCA) Rapid Test by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "description": "The Tricyclic Antidepressants (TCA) Rapid Test by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Drug of abuse screening programs",
             "Clinical toxicology screening",
@@ -14164,7 +14164,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 1000 ng/mL",
-          "content": "The Tricyclic Antidepressants (TCA) Rapid Test by Ivexia Pharma has a stated cut-off of 1000 ng/mL. This means the test is designed to screen urine specimens for TCA compounds at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Tricyclic Antidepressants (TCA) Rapid Test by LARKSOIS Pharma has a stated cut-off of 1000 ng/mL. This means the test is designed to screen urine specimens for TCA compounds at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "safetyRelevance": {
           "title": "Safety and Testing Relevance",
@@ -14188,7 +14188,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma TCA Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma TCA Rapid Test",
           "instructions": [
             "Urine-based TCA screening",
             "1000 ng/mL cut-off for professional screening needs",
@@ -14199,7 +14199,7 @@ export const en = {
             "Supports international diagnostic supply",
             "Helps identify samples that may require confirmatory testing"
           ],
-          "note": "The Tricyclic Antidepressants TCA Rapid Test by Ivexia Pharma is developed for professional users who need a practical, reliable, and internationally suitable TCA screening solution."
+          "note": "The Tricyclic Antidepressants TCA Rapid Test by LARKSOIS Pharma is developed for professional users who need a practical, reliable, and internationally suitable TCA screening solution."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -14212,7 +14212,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Tricyclic Antidepressants (TCA) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Tricyclic Antidepressants (TCA) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -14246,8 +14246,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Tricyclic Antidepressants TCA Rapid Test is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, and toxicology screening programs.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Tricyclic Antidepressants TCA Rapid Test is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, and toxicology screening programs.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -14255,7 +14255,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug of abuse screening programs",
             "Designed for practical urine screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -14330,12 +14330,12 @@ export const en = {
     },
     "zolpidem-urine-test": {
       "meta": {
-        "title": "Zolpidem ZOL Rapid Test Kit – Urine Drug Abuse Screening 50 ng/mL | Ivexia Pharma",
-        "description": "Ivexia Pharma Zolpidem (ZOL) Rapid Test is a urine-based drug of abuse screening test with a 50 ng/mL cut-off for qualitative zolpidem detection. Learn ZOL urine test uses, benefits, FAQs, safety relevance, and international screening information."
+        "title": "Zolpidem ZOL Rapid Test Kit â€“ Urine Drug Abuse Screening 50 ng/mL | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Zolpidem (ZOL) Rapid Test is a urine-based drug of abuse screening test with a 50 ng/mL cut-off for qualitative zolpidem detection. Learn ZOL urine test uses, benefits, FAQs, safety relevance, and international screening information."
       },
       "hero": {
         "title": "Zolpidem (ZOL) Rapid Test",
-        "description": "Zolpidem (ZOL) Rapid Test by Ivexia Pharma is a professional urine-based rapid screening test designed for the qualitative detection of zolpidem in human urine specimens at a 50 ng/mL cut-off level. Zolpidem is a prescription sleep medicine used for short-term treatment of insomnia, but it is also monitored in drug of abuse screening because it may cause dependence, misuse risk, next-day impairment, and serious sleep-related behaviors. The Ivexia Pharma ZOL Rapid Test is suitable for laboratories, hospitals, rehabilitation centers, workplace screening programs, toxicology departments, compliance testing, and international diagnostic distributors."
+        "description": "Zolpidem (ZOL) Rapid Test by LARKSOIS Pharma is a professional urine-based rapid screening test designed for the qualitative detection of zolpidem in human urine specimens at a 50 ng/mL cut-off level. Zolpidem is a prescription sleep medicine used for short-term treatment of insomnia, but it is also monitored in drug of abuse screening because it may cause dependence, misuse risk, next-day impairment, and serious sleep-related behaviors. The LARKSOIS Pharma ZOL Rapid Test is suitable for laboratories, hospitals, rehabilitation centers, workplace screening programs, toxicology departments, compliance testing, and international diagnostic distributors."
       },
       "content": {
         "introduction": {
@@ -14344,7 +14344,7 @@ export const en = {
             "The Zolpidem ZOL Rapid Test is a urine-based drug of abuse rapid test used to screen for possible zolpidem exposure.",
             "This ZOL urine test helps professional users identify whether zolpidem may be present above the stated 50 ng/mL cut-off.",
             "Zolpidem is sold under brand names such as Ambien and is used mainly for short-term sleeping problems. It belongs to the non-benzodiazepine sedative-hypnotic medicine group, often called Z-drugs.",
-            "The Ivexia Pharma Zolpidem Rapid Test provides a preliminary qualitative result. It does not measure exact concentration, diagnose dependence, prove impairment, or replace confirmatory laboratory testing."
+            "The LARKSOIS Pharma Zolpidem Rapid Test provides a preliminary qualitative result. It does not measure exact concentration, diagnose dependence, prove impairment, or replace confirmatory laboratory testing."
           ]
         },
         "productOverview": {
@@ -14356,7 +14356,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -14394,12 +14394,12 @@ export const en = {
           "sections": [
             "The ZOL urine rapid test is important because zolpidem may be prescribed legally but can also be misused or taken in unsafe combinations.",
             "Zolpidem may impair alertness, coordination, and judgment, especially when combined with alcohol or other central nervous system depressants.",
-            "The Ivexia Pharma Zolpidem ZOL Rapid Test may be used in drug of abuse screening programs, rehabilitation centers, clinical toxicology screening, hospitals, diagnostic laboratories, workplace or compliance screening where permitted, prescription monitoring support, and international diagnostic distribution."
+            "The LARKSOIS Pharma Zolpidem ZOL Rapid Test may be used in drug of abuse screening programs, rehabilitation centers, clinical toxicology screening, hospitals, diagnostic laboratories, workplace or compliance screening where permitted, prescription monitoring support, and international diagnostic distribution."
           ]
         },
         "intendedUse": {
           "title": "Applications of Zolpidem ZOL Rapid Test",
-          "description": "The Zolpidem (ZOL) Rapid Test by Ivexia Pharma may be used in professional diagnostic and institutional screening environments.",
+          "description": "The Zolpidem (ZOL) Rapid Test by LARKSOIS Pharma may be used in professional diagnostic and institutional screening environments.",
           "applications": [
             "Drug of abuse screening programs",
             "Rehabilitation and de-addiction centers",
@@ -14451,7 +14451,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Cut-off: 50 ng/mL",
-          "content": "The Zolpidem (ZOL) Rapid Test by Ivexia Pharma has a stated cut-off of 50 ng/mL. This means the test is designed to screen urine specimens for zolpidem at or above the validated threshold. Ivexia Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The Zolpidem (ZOL) Rapid Test by LARKSOIS Pharma has a stated cut-off of 50 ng/mL. This means the test is designed to screen urine specimens for zolpidem at or above the validated threshold. LARKSOIS Pharma should mention the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "safetyRelevance": {
           "title": "Safety and Testing Relevance",
@@ -14472,11 +14472,11 @@ export const en = {
             "Incorrect sample handling may affect performance",
             "Reading the result too early or too late may affect interpretation",
             "Cross-reactivity may occur depending on assay design",
-            "Always follow the Ivexia Pharma product insert for exact procedure, storage, timing, limitations, and interpretation"
+            "Always follow the LARKSOIS Pharma product insert for exact procedure, storage, timing, limitations, and interpretation"
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma ZOL Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma ZOL Rapid Test",
           "instructions": [
             "Urine-based zolpidem screening",
             "50 ng/mL cut-off for professional screening needs",
@@ -14487,7 +14487,7 @@ export const en = {
             "Supports international diagnostic supply",
             "Helps identify samples that may require confirmatory testing"
           ],
-          "note": "The Zolpidem ZOL Rapid Test by Ivexia Pharma is developed for professional users who need a practical, reliable, and internationally suitable zolpidem screening solution."
+          "note": "The Zolpidem ZOL Rapid Test by LARKSOIS Pharma is developed for professional users who need a practical, reliable, and internationally suitable zolpidem screening solution."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -14500,7 +14500,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Zolpidem (ZOL) Rapid Test."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Zolpidem (ZOL) Rapid Test."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -14534,8 +14534,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Zolpidem ZOL Rapid Test is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, toxicology departments, and professional drug screening programs.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality pharmaceutical and diagnostic products for global healthcare and screening markets. The Zolpidem ZOL Rapid Test is suitable for diagnostic distributors, hospitals, laboratories, rehabilitation centers, workplace testing providers, toxicology departments, and professional drug screening programs.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -14543,7 +14543,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports drug of abuse screening programs",
             "Designed for practical urine screening workflows",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -14562,7 +14562,7 @@ export const en = {
         },
         {
           "question": "What is the cut-off level of the Zolpidem ZOL Rapid Test?",
-          "answer": "The Zolpidem (ZOL) Rapid Test by Ivexia Pharma has a 50 ng/mL cut-off level. This means the test is designed to provide a preliminary result when zolpidem in urine reaches or exceeds this threshold."
+          "answer": "The Zolpidem (ZOL) Rapid Test by LARKSOIS Pharma has a 50 ng/mL cut-off level. This means the test is designed to provide a preliminary result when zolpidem in urine reaches or exceeds this threshold."
         },
         {
           "question": "Is a Zolpidem ZOL Rapid Test result final?",
@@ -14602,7 +14602,7 @@ export const en = {
             "name": "What is the cut-off level of the Zolpidem ZOL Rapid Test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The Zolpidem (ZOL) Rapid Test by Ivexia Pharma has a 50 ng/mL cut-off level. This means the test is designed to provide a preliminary result when zolpidem in urine reaches or exceeds this threshold."
+              "text": "The Zolpidem (ZOL) Rapid Test by LARKSOIS Pharma has a 50 ng/mL cut-off level. This means the test is designed to provide a preliminary result when zolpidem in urine reaches or exceeds this threshold."
             }
           },
           {
@@ -14618,12 +14618,12 @@ export const en = {
     },
     "adenovirus-rapid-test": {
       "meta": {
-        "title": "ADEN Adenovirus Rapid Test Device Feces | Ivexia Pharma",
-        "description": "Ivexia Pharma ADEN Adenovirus Rapid Test Device (Feces) is a rapid immunochromatographic test for qualitative detection of adenovirus antigen in human fecal specimens."
+        "title": "ADEN Adenovirus Rapid Test Device Feces | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma ADEN Adenovirus Rapid Test Device (Feces) is a rapid immunochromatographic test for qualitative detection of adenovirus antigen in human fecal specimens."
       },
       "hero": {
         "title": "ADEN Adenovirus Rapid Test Device (Feces)",
-        "description": "ADEN Adenovirus Rapid Test Device (Feces) by Ivexia Pharma is a rapid diagnostic test designed for the qualitative detection of adenovirus antigen in human fecal specimens. This Adenovirus Rapid Test Device supports fast screening of suspected adenovirus-related gastroenteritis and helps laboratories, hospitals, clinics, pediatric care centers, and diagnostic distributors deliver timely infectious disease testing."
+        "description": "ADEN Adenovirus Rapid Test Device (Feces) by LARKSOIS Pharma is a rapid diagnostic test designed for the qualitative detection of adenovirus antigen in human fecal specimens. This Adenovirus Rapid Test Device supports fast screening of suspected adenovirus-related gastroenteritis and helps laboratories, hospitals, clinics, pediatric care centers, and diagnostic distributors deliver timely infectious disease testing."
       },
       "content": {
         "introduction": {
@@ -14631,7 +14631,7 @@ export const en = {
           "sections": [
             "The ADEN Adenovirus Rapid Test Device (Feces) is an infectious disease rapid test developed for professional diagnostic use.",
             "Adenoviruses can cause respiratory illness, eye infections, and gastrointestinal infections. For enteric adenovirus, fecal specimens are important because gastrointestinal adenovirus infection is commonly evaluated through stool-based testing.",
-            "The Ivexia Pharma ADEN Adenovirus Rapid Test Device uses a rapid immunochromatographic method to detect adenovirus antigen in fecal samples. It is designed to provide fast qualitative screening support for laboratories, hospitals, clinics, pediatric care centers, and international diagnostic distributors."
+            "The LARKSOIS Pharma ADEN Adenovirus Rapid Test Device uses a rapid immunochromatographic method to detect adenovirus antigen in fecal samples. It is designed to provide fast qualitative screening support for laboratories, hospitals, clinics, pediatric care centers, and international diagnostic distributors."
           ]
         },
         "productOverview": {
@@ -14647,7 +14647,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -14685,12 +14685,12 @@ export const en = {
           "sections": [
             "The ADEN Adenovirus Rapid Test Device is useful where rapid and practical screening is required for suspected adenovirus-related gastrointestinal infection.",
             "Enteric adenoviruses, especially types 40 and 41, are associated with diarrhea and viral gastroenteritis. Rapid identification may help healthcare professionals understand the possible cause of symptoms and support patient management.",
-            "Adenovirus-related diarrhea can occur in both children and adults, but it is commonly discussed in pediatric gastrointestinal infection settings. The Ivexia Pharma Adenovirus Rapid Test Device helps support faster infectious disease screening workflows."
+            "Adenovirus-related diarrhea can occur in both children and adults, but it is commonly discussed in pediatric gastrointestinal infection settings. The LARKSOIS Pharma Adenovirus Rapid Test Device helps support faster infectious disease screening workflows."
           ]
         },
         "intendedUse": {
           "title": "Applications of ADEN Adenovirus Rapid Test Device",
-          "description": "The ADEN Adenovirus Rapid Test Device (Feces) by Ivexia Pharma may be used in professional diagnostic and healthcare environments.",
+          "description": "The ADEN Adenovirus Rapid Test Device (Feces) by LARKSOIS Pharma may be used in professional diagnostic and healthcare environments.",
           "applications": [
             "Suspected adenovirus-related gastroenteritis screening",
             "Pediatric gastrointestinal infection support",
@@ -14708,7 +14708,7 @@ export const en = {
             "The Adenovirus Rapid Test Device (Feces) works on an immunochromatographic principle.",
             "During testing, the prepared fecal specimen reacts with adenovirus-specific antibodies. The sample migrates across the test membrane by capillary action.",
             "If adenovirus antigen is present at or above the detectable level, a visible test line appears. A control line confirms proper sample flow and valid test performance.",
-            "The test provides a qualitative result and should be interpreted according to the official Ivexia Pharma product insert."
+            "The test provides a qualitative result and should be interpreted according to the official LARKSOIS Pharma product insert."
           ]
         },
         "method": {
@@ -14737,11 +14737,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Treat all fecal specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, extraction, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, extraction, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Cut-off: 100 TCID/ml",
-          "content": "The ADEN Adenovirus Rapid Test Device by Ivexia Pharma has a stated cut-off of 100 TCID/ml. This means the test is designed to detect adenovirus antigen in fecal specimens at or above the validated detection level. Ivexia Pharma should publish the exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The ADEN Adenovirus Rapid Test Device by LARKSOIS Pharma has a stated cut-off of 100 TCID/ml. This means the test is designed to detect adenovirus antigen in fecal specimens at or above the validated detection level. LARKSOIS Pharma should publish the exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "clinicalRelevance": {
           "title": "Clinical and Diagnostic Relevance",
@@ -14765,7 +14765,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Benefits of Ivexia Pharma ADEN Test",
+          "title": "Benefits of LARKSOIS Pharma ADEN Test",
           "instructions": [
             "Rapid screening for adenovirus antigen",
             "Feces-based specimen format",
@@ -14776,7 +14776,7 @@ export const en = {
             "Supports gastroenteritis-related diagnostic evaluation",
             "Professional rapid diagnostic test format"
           ],
-          "note": "The ADEN Adenovirus Rapid Test Device by Ivexia Pharma is developed for professional users who need fast and practical infectious disease screening support."
+          "note": "The ADEN Adenovirus Rapid Test Device by LARKSOIS Pharma is developed for professional users who need fast and practical infectious disease screening support."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -14790,7 +14790,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the ADEN Adenovirus Rapid Test Device (Feces)."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the ADEN Adenovirus Rapid Test Device (Feces)."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -14824,8 +14824,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-level diagnostic and pharmaceutical products with a focus on quality, reliable supply, and global healthcare requirements. The ADEN Adenovirus Rapid Test Device (Feces) is developed for distributors, diagnostic suppliers, hospitals, laboratories, and healthcare professionals looking for dependable infectious disease rapid testing solutions.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-level diagnostic and pharmaceutical products with a focus on quality, reliable supply, and global healthcare requirements. The ADEN Adenovirus Rapid Test Device (Feces) is developed for distributors, diagnostic suppliers, hospitals, laboratories, and healthcare professionals looking for dependable infectious disease rapid testing solutions.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -14833,7 +14833,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports infectious disease screening workflows",
             "Practical feces-based diagnostic testing format",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -14852,7 +14852,7 @@ export const en = {
         },
         {
           "question": "What is the cut-off of the ADEN Adenovirus Rapid Test Device?",
-          "answer": "The ADEN Adenovirus Rapid Test Device by Ivexia Pharma has a stated cut-off of 100 TCID/ml. Final performance and interpretation should follow the official product insert and technical documentation."
+          "answer": "The ADEN Adenovirus Rapid Test Device by LARKSOIS Pharma has a stated cut-off of 100 TCID/ml. Final performance and interpretation should follow the official product insert and technical documentation."
         },
         {
           "question": "Is the Adenovirus Rapid Test Device a final diagnostic test?",
@@ -14892,7 +14892,7 @@ export const en = {
             "name": "What is the cut-off of the ADEN Adenovirus Rapid Test Device?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The ADEN Adenovirus Rapid Test Device by Ivexia Pharma has a stated cut-off of 100 TCID/ml. Final performance and interpretation should follow the official product insert and technical documentation."
+              "text": "The ADEN Adenovirus Rapid Test Device by LARKSOIS Pharma has a stated cut-off of 100 TCID/ml. Final performance and interpretation should follow the official product insert and technical documentation."
             }
           },
           {
@@ -14908,12 +14908,12 @@ export const en = {
     },
     "chikungunya-igm-test": {
       "meta": {
-        "title": "Chikungunya IgM Rapid Test Device | Infectious Disease Test | Ivexia Pharma",
-        "description": "Ivexia Pharma Chikungunya IgM Rapid Test Device is a rapid chromatographic immunoassay for qualitative detection of Chikungunya IgM antibodies in whole blood, serum, or plasma."
+        "title": "Chikungunya IgM Rapid Test Device | Infectious Disease Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Chikungunya IgM Rapid Test Device is a rapid chromatographic immunoassay for qualitative detection of Chikungunya IgM antibodies in whole blood, serum, or plasma."
       },
       "hero": {
         "title": "Chikungunya IgM Rapid Test Device",
-        "description": "Chikungunya IgM Rapid Test Device by Ivexia Pharma is a rapid infectious disease diagnostic test designed for the qualitative detection of IgM antibodies to Chikungunya virus. This Chikungunya IgM Rapid Test supports fast screening in hospitals, laboratories, clinics, diagnostic centers, and field healthcare programs where early evaluation of suspected chikungunya infection is important."
+        "description": "Chikungunya IgM Rapid Test Device by LARKSOIS Pharma is a rapid infectious disease diagnostic test designed for the qualitative detection of IgM antibodies to Chikungunya virus. This Chikungunya IgM Rapid Test supports fast screening in hospitals, laboratories, clinics, diagnostic centers, and field healthcare programs where early evaluation of suspected chikungunya infection is important."
       },
       "content": {
         "introduction": {
@@ -14938,7 +14938,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -14981,7 +14981,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Chikungunya IgM Rapid Test Device",
-          "description": "The Chikungunya IgM Rapid Test Device by Ivexia Pharma may be used in professional diagnostic and healthcare environments.",
+          "description": "The Chikungunya IgM Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic and healthcare environments.",
           "applications": [
             "Suspected chikungunya infection screening",
             "Hospitals and clinical laboratories",
@@ -14999,7 +14999,7 @@ export const en = {
             "The Chikungunya IgM Rapid Test Device works through an immunochromatographic process.",
             "A patient specimen is added to the sample well with buffer according to the kit instructions.",
             "If Chikungunya IgM antibodies are present, they bind with test reagents and produce a visible test line.",
-            "A control line confirms that the test has run correctly. The result should always be read according to the official Ivexia Pharma product insert."
+            "A control line confirms that the test has run correctly. The result should always be read according to the official LARKSOIS Pharma product insert."
           ]
         },
         "method": {
@@ -15028,7 +15028,7 @@ export const en = {
             "Read results only within the recommended time window",
             "Treat all specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -15053,7 +15053,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Benefits of Ivexia Pharma Chikungunya IgM Rapid Test",
+          "title": "Benefits of LARKSOIS Pharma Chikungunya IgM Rapid Test",
           "instructions": [
             "Rapid screening for suspected chikungunya infection",
             "Suitable for infectious disease diagnostic workflows",
@@ -15064,7 +15064,7 @@ export const en = {
             "Helps improve early screening in outbreak-prone regions",
             "Professional rapid diagnostic test format"
           ],
-          "note": "The Chikungunya IgM Rapid Test Device by Ivexia Pharma is developed for professional users who need fast and practical infectious disease screening support."
+          "note": "The Chikungunya IgM Rapid Test Device by LARKSOIS Pharma is developed for professional users who need fast and practical infectious disease screening support."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -15078,7 +15078,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Chikungunya IgM Rapid Test Device."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Chikungunya IgM Rapid Test Device."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -15113,8 +15113,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma focuses on international-quality diagnostic and pharmaceutical products for global healthcare markets. The Chikungunya IgM Rapid Test Device is designed for professional infectious disease screening, reliable supply, and simple diagnostic workflow integration.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma focuses on international-quality diagnostic and pharmaceutical products for global healthcare markets. The Chikungunya IgM Rapid Test Device is designed for professional infectious disease screening, reliable supply, and simple diagnostic workflow integration.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -15122,7 +15122,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports infectious disease screening workflows",
             "Practical mosquito-borne disease testing support",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -15141,7 +15141,7 @@ export const en = {
         },
         {
           "question": "How long are Chikungunya antibodies positive for?",
-          "answer": "IgM antibodies may remain detectable for around 3–4 months after infection, while IgG antibodies can remain detectable for years. Timing may vary by patient and test method."
+          "answer": "IgM antibodies may remain detectable for around 3â€“4 months after infection, while IgG antibodies can remain detectable for years. Timing may vary by patient and test method."
         },
         {
           "question": "Is chikungunya very serious?",
@@ -15197,12 +15197,12 @@ export const en = {
     },
     "chikungunya-igg-igm-test": {
       "meta": {
-        "title": "Chikungunya IgG and IgM Cassette WB/S/P | Ivexia Pharma",
-        "description": "Ivexia Pharma Chikungunya IgG and IgM Cassette (WB/S/P) is a rapid chromatographic immunoassay for qualitative detection of Chikungunya IgG and IgM antibodies in whole blood, serum, or plasma."
+        "title": "Chikungunya IgG and IgM Cassette WB/S/P | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Chikungunya IgG and IgM Cassette (WB/S/P) is a rapid chromatographic immunoassay for qualitative detection of Chikungunya IgG and IgM antibodies in whole blood, serum, or plasma."
       },
       "hero": {
         "title": "Chikungunya IgG and IgM Cassette (WB/S/P)",
-        "description": "Chikungunya IgG and IgM Cassette (WB/S/P) by Ivexia Pharma is a rapid infectious disease test designed for the qualitative detection of IgG and IgM antibodies to Chikungunya virus in whole blood, serum, or plasma. This Chikungunya IgG and IgM Rapid Test helps healthcare professionals screen suspected chikungunya infection quickly and supports international diagnostic workflows in hospitals, laboratories, clinics, and public health programs."
+        "description": "Chikungunya IgG and IgM Cassette (WB/S/P) by LARKSOIS Pharma is a rapid infectious disease test designed for the qualitative detection of IgG and IgM antibodies to Chikungunya virus in whole blood, serum, or plasma. This Chikungunya IgG and IgM Rapid Test helps healthcare professionals screen suspected chikungunya infection quickly and supports international diagnostic workflows in hospitals, laboratories, clinics, and public health programs."
       },
       "content": {
         "introduction": {
@@ -15223,7 +15223,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -15267,7 +15267,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Chikungunya IgG and IgM Cassette",
-          "description": "The Chikungunya IgG and IgM Cassette (WB/S/P) by Ivexia Pharma may be used in professional diagnostic and healthcare environments.",
+          "description": "The Chikungunya IgG and IgM Cassette (WB/S/P) by LARKSOIS Pharma may be used in professional diagnostic and healthcare environments.",
           "applications": [
             "Suspected chikungunya infection screening",
             "Hospitals and clinical laboratories",
@@ -15285,7 +15285,7 @@ export const en = {
             "The Chikungunya IgG and IgM Rapid Test Cassette works through lateral flow / chromatographic immunoassay technology.",
             "A whole blood, serum, or plasma specimen is added to the cassette along with buffer according to the kit instructions.",
             "If Chikungunya IgG or IgM antibodies are present, visible test lines appear in the test region.",
-            "A control line confirms that the test has run properly. The result should always be read according to the official Ivexia Pharma product insert."
+            "A control line confirms that the test has run properly. The result should always be read according to the official LARKSOIS Pharma product insert."
           ]
         },
         "method": {
@@ -15314,7 +15314,7 @@ export const en = {
             "Read results only within the recommended time window",
             "Treat all specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "clinicalImportance": {
           "title": "Clinical Use and Interpretation",
@@ -15339,7 +15339,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Benefits of Ivexia Pharma Chikungunya IgG and IgM Cassette",
+          "title": "Benefits of LARKSOIS Pharma Chikungunya IgG and IgM Cassette",
           "instructions": [
             "Rapid screening for suspected chikungunya infection",
             "Detects both IgG and IgM antibodies",
@@ -15350,7 +15350,7 @@ export const en = {
             "Suitable for international diagnostic product supply",
             "Professional rapid diagnostic test format"
           ],
-          "note": "The Chikungunya IgG and IgM Cassette by Ivexia Pharma is developed for professional users who need fast and practical infectious disease screening support."
+          "note": "The Chikungunya IgG and IgM Cassette by LARKSOIS Pharma is developed for professional users who need fast and practical infectious disease screening support."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -15364,7 +15364,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Chikungunya IgG and IgM Cassette (WB/S/P)."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Chikungunya IgG and IgM Cassette (WB/S/P)."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -15398,8 +15398,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality diagnostic and pharmaceutical products for global healthcare markets. The Chikungunya IgG and IgM Cassette is designed for professional testing environments that need fast, simple, and dependable infectious disease rapid testing solutions.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality diagnostic and pharmaceutical products for global healthcare markets. The Chikungunya IgG and IgM Cassette is designed for professional testing environments that need fast, simple, and dependable infectious disease rapid testing solutions.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -15407,7 +15407,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports infectious disease screening workflows",
             "Practical mosquito-borne disease testing support",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -15482,12 +15482,12 @@ export const en = {
     },
     "chl-rapid-test": {
       "meta": {
-        "title": "CHL Chlamydia Rapid Test Device/Strip | Ivexia Pharma",
-        "description": "Ivexia Pharma CHL Chlamydia Rapid Test Device/Strip is a rapid chromatographic immunoassay for qualitative detection of Chlamydia trachomatis in urine, male urethral swab, and female cervical swab specimens."
+        "title": "CHL Chlamydia Rapid Test Device/Strip | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma CHL Chlamydia Rapid Test Device/Strip is a rapid chromatographic immunoassay for qualitative detection of Chlamydia trachomatis in urine, male urethral swab, and female cervical swab specimens."
       },
       "hero": {
         "title": "CHL Chlamydia Rapid Test Device/Strip",
-        "description": "CHL Chlamydia Rapid Test Device/Strip by Ivexia Pharma is a professional rapid diagnostic test designed for qualitative detection of Chlamydia trachomatis antigen in urine, male urethral swab, and female cervical swab specimens. This Chlamydia Rapid Test Device/Strip supports fast infectious disease screening in hospitals, clinics, laboratories, diagnostic centers, and international healthcare supply channels."
+        "description": "CHL Chlamydia Rapid Test Device/Strip by LARKSOIS Pharma is a professional rapid diagnostic test designed for qualitative detection of Chlamydia trachomatis antigen in urine, male urethral swab, and female cervical swab specimens. This Chlamydia Rapid Test Device/Strip supports fast infectious disease screening in hospitals, clinics, laboratories, diagnostic centers, and international healthcare supply channels."
       },
       "content": {
         "introduction": {
@@ -15512,7 +15512,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -15556,7 +15556,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of CHL Chlamydia Rapid Test Device/Strip",
-          "description": "The CHL Chlamydia Rapid Test Device/Strip by Ivexia Pharma may be used in professional diagnostic and healthcare environments.",
+          "description": "The CHL Chlamydia Rapid Test Device/Strip by LARKSOIS Pharma may be used in professional diagnostic and healthcare environments.",
           "applications": [
             "Chlamydia infection screening",
             "Hospitals and clinical laboratories",
@@ -15574,7 +15574,7 @@ export const en = {
             "The CHL Chlamydia Rapid Test Device/Strip works through lateral flow chromatographic immunoassay technology.",
             "The prepared urine or swab specimen is added to the test device according to the product insert.",
             "If Chlamydia trachomatis antigen is present at or above the cut-off level, a visible test line appears.",
-            "A control line confirms correct sample migration and valid test performance. The result should always be read according to the official Ivexia Pharma product insert."
+            "A control line confirms correct sample migration and valid test performance. The result should always be read according to the official LARKSOIS Pharma product insert."
           ]
         },
         "method": {
@@ -15603,11 +15603,11 @@ export const en = {
             "Use correct extraction buffer and timing",
             "Read results only within the recommended time window"
           ],
-          "note": "Specimen collection, extraction, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, extraction, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Cut-off: 1e5 org/test",
-          "content": "The CHL Chlamydia Rapid Test Device/Strip by Ivexia Pharma has a stated cut-off of 1e5 org/test. This means the test is designed to detect Chlamydia trachomatis antigen at or above the validated detection level. Ivexia Pharma should publish exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The CHL Chlamydia Rapid Test Device/Strip by LARKSOIS Pharma has a stated cut-off of 1e5 org/test. This means the test is designed to detect Chlamydia trachomatis antigen at or above the validated detection level. LARKSOIS Pharma should publish exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -15632,7 +15632,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma CHL Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma CHL Rapid Test",
           "instructions": [
             "Rapid qualitative detection",
             "Suitable for urine and swab specimens",
@@ -15643,7 +15643,7 @@ export const en = {
             "Suitable for hospitals, clinics, laboratories, and distributors",
             "Developed for professional international diagnostic supply"
           ],
-          "note": "The CHL Chlamydia Rapid Test Device/Strip by Ivexia Pharma is developed for professional users who need fast and practical infectious disease screening support."
+          "note": "The CHL Chlamydia Rapid Test Device/Strip by LARKSOIS Pharma is developed for professional users who need fast and practical infectious disease screening support."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -15657,7 +15657,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the CHL Chlamydia Rapid Test Device/Strip."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the CHL Chlamydia Rapid Test Device/Strip."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -15691,8 +15691,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality diagnostic and pharmaceutical products for healthcare markets worldwide. The CHL Chlamydia Rapid Test Device/Strip is designed for professional infectious disease testing, reliable screening support, and global diagnostic distribution.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality diagnostic and pharmaceutical products for healthcare markets worldwide. The CHL Chlamydia Rapid Test Device/Strip is designed for professional infectious disease testing, reliable screening support, and global diagnostic distribution.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -15700,7 +15700,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports infectious disease screening workflows",
             "Practical urine and swab specimen testing format",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -15775,12 +15775,12 @@ export const en = {
     },
     "cholerae-o1-antigen-test": {
       "meta": {
-        "title": "Cholerae O1 Antigen Rapid Test Device Feces | Ivexia Pharma",
-        "description": "Ivexia Pharma Cholerae O1 Antigen Rapid Test Device (Feces) is a rapid lateral flow test for qualitative detection of Vibrio cholerae O1 antigen in human fecal specimens."
+        "title": "Cholerae O1 Antigen Rapid Test Device Feces | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Cholerae O1 Antigen Rapid Test Device (Feces) is a rapid lateral flow test for qualitative detection of Vibrio cholerae O1 antigen in human fecal specimens."
       },
       "hero": {
         "title": "Cholerae O1 Antigen Rapid Test Device (Feces)",
-        "description": "Cholerae O1 Antigen Rapid Test Device (Feces) by Ivexia Pharma is a professional infectious disease rapid test designed for qualitative detection of Vibrio cholerae O1 antigen in human fecal specimens. This Cholerae O1 Antigen Rapid Test Device supports fast screening during suspected cholera cases, outbreak surveillance, emergency response programs, hospitals, diagnostic laboratories, and public health testing workflows."
+        "description": "Cholerae O1 Antigen Rapid Test Device (Feces) by LARKSOIS Pharma is a professional infectious disease rapid test designed for qualitative detection of Vibrio cholerae O1 antigen in human fecal specimens. This Cholerae O1 Antigen Rapid Test Device supports fast screening during suspected cholera cases, outbreak surveillance, emergency response programs, hospitals, diagnostic laboratories, and public health testing workflows."
       },
       "content": {
         "introduction": {
@@ -15800,7 +15800,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -15843,7 +15843,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Cholerae O1 Antigen Rapid Test Device",
-          "description": "The Cholerae O1 Antigen Rapid Test Device (Feces) by Ivexia Pharma may be used in professional diagnostic and public health environments.",
+          "description": "The Cholerae O1 Antigen Rapid Test Device (Feces) by LARKSOIS Pharma may be used in professional diagnostic and public health environments.",
           "applications": [
             "Suspected cholera case screening",
             "Hospitals and clinics",
@@ -15861,7 +15861,7 @@ export const en = {
             "The Cholerae O1 Antigen Rapid Test Device works through lateral flow immunochromatographic technology.",
             "During testing, the fecal specimen is mixed with buffer and added to the test cassette according to the product insert.",
             "If Vibrio cholerae O1 antigen is present, a visible test line appears along with the control line.",
-            "The control line confirms that the test has run correctly. The result should always be read according to the official Ivexia Pharma product insert."
+            "The control line confirms that the test has run correctly. The result should always be read according to the official LARKSOIS Pharma product insert."
           ]
         },
         "method": {
@@ -15891,7 +15891,7 @@ export const en = {
             "Read results only within the recommended time window",
             "Treat all fecal specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, extraction, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, extraction, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "target": {
           "title": "Target: Vibrio cholerae O1 Antigen",
@@ -15920,7 +15920,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma Cholerae O1 Antigen Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma Cholerae O1 Antigen Rapid Test",
           "instructions": [
             "Rapid detection of Vibrio cholerae O1 antigen",
             "Feces-based specimen format",
@@ -15931,7 +15931,7 @@ export const en = {
             "Helps improve early screening in suspected cholera cases",
             "Designed for international diagnostic supply"
           ],
-          "note": "The Cholerae O1 Antigen Rapid Test Device by Ivexia Pharma is developed for professional users who need fast and practical infectious disease screening support."
+          "note": "The Cholerae O1 Antigen Rapid Test Device by LARKSOIS Pharma is developed for professional users who need fast and practical infectious disease screening support."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -15945,7 +15945,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Cholerae O1 Antigen Rapid Test Device (Feces)."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Cholerae O1 Antigen Rapid Test Device (Feces)."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -15979,8 +15979,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality diagnostic products for healthcare professionals, distributors, hospitals, and laboratories. The Cholerae O1 Antigen Rapid Test Device (Feces) is developed for fast infectious disease screening, dependable quality, and global diagnostic supply needs.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality diagnostic products for healthcare professionals, distributors, hospitals, and laboratories. The Cholerae O1 Antigen Rapid Test Device (Feces) is developed for fast infectious disease screening, dependable quality, and global diagnostic supply needs.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -15988,7 +15988,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports infectious disease screening workflows",
             "Practical feces-based diagnostic testing format",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -16063,12 +16063,12 @@ export const en = {
     },
     "cholerae-o139-antigen-test": {
       "meta": {
-        "title": "Vibrio Cholerae O139 Antigen Rapid Test Device Feces | Ivexia Pharma",
-        "description": "Ivexia Pharma offers Vibrio Cholerae O139 Antigen Rapid Test Device for feces specimen, designed for rapid qualitative detection of Vibrio cholerae O139 antigen in infectious disease screening."
+        "title": "Vibrio Cholerae O139 Antigen Rapid Test Device Feces | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers Vibrio Cholerae O139 Antigen Rapid Test Device for feces specimen, designed for rapid qualitative detection of Vibrio cholerae O139 antigen in infectious disease screening."
       },
       "hero": {
         "title": "Vibrio Cholerae O139 Antigen Rapid Test Device (Feces)",
-        "description": "Vibrio Cholerae O139 Antigen Rapid Test Device (Feces) by Ivexia Pharma is a rapid diagnostic test designed for the qualitative detection of Vibrio cholerae O139 antigen in human fecal specimens. Developed for infectious disease screening, outbreak response, clinical assessment, and public health surveillance, this Vibrio Cholerae O139 Antigen Rapid Test Device supports fast and reliable preliminary detection where timely decision-making is critical."
+        "description": "Vibrio Cholerae O139 Antigen Rapid Test Device (Feces) by LARKSOIS Pharma is a rapid diagnostic test designed for the qualitative detection of Vibrio cholerae O139 antigen in human fecal specimens. Developed for infectious disease screening, outbreak response, clinical assessment, and public health surveillance, this Vibrio Cholerae O139 Antigen Rapid Test Device supports fast and reliable preliminary detection where timely decision-making is critical."
       },
       "content": {
         "introduction": {
@@ -16089,7 +16089,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -16132,7 +16132,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Vibrio Cholerae O139 Antigen Rapid Test Device",
-          "description": "The Vibrio Cholerae O139 Antigen Rapid Test Device (Feces) by Ivexia Pharma may be used in professional diagnostic and public health environments.",
+          "description": "The Vibrio Cholerae O139 Antigen Rapid Test Device (Feces) by LARKSOIS Pharma may be used in professional diagnostic and public health environments.",
           "applications": [
             "Suspected cholera case screening",
             "Hospitals and clinics",
@@ -16150,7 +16150,7 @@ export const en = {
             "The Vibrio Cholerae O139 Antigen Rapid Test Device generally works on a lateral flow immunoassay principle.",
             "In this method, the prepared fecal specimen migrates across the test membrane.",
             "If Vibrio cholerae O139 antigen is present in the sample, it reacts with specific antibodies and produces a visible test line.",
-            "A control line appears to confirm that the test has run correctly. The result should always be interpreted according to the official Ivexia Pharma product insert."
+            "A control line appears to confirm that the test has run correctly. The result should always be interpreted according to the official LARKSOIS Pharma product insert."
           ]
         },
         "method": {
@@ -16180,7 +16180,7 @@ export const en = {
             "Read results only within the recommended time window",
             "Treat all fecal specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, extraction, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, extraction, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "target": {
           "title": "Target: Vibrio cholerae O139 Antigen",
@@ -16209,7 +16209,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma Vibrio Cholerae O139 Antigen Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma Vibrio Cholerae O139 Antigen Rapid Test",
           "instructions": [
             "Rapid detection of Vibrio cholerae O139 antigen",
             "Feces-based specimen format",
@@ -16220,7 +16220,7 @@ export const en = {
             "Helps improve early screening in suspected cholera cases",
             "Designed for international diagnostic supply"
           ],
-          "note": "The Vibrio Cholerae O139 Antigen Rapid Test Device by Ivexia Pharma is developed for professional users who need fast and practical infectious disease screening support."
+          "note": "The Vibrio Cholerae O139 Antigen Rapid Test Device by LARKSOIS Pharma is developed for professional users who need fast and practical infectious disease screening support."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -16234,7 +16234,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the Vibrio Cholerae O139 Antigen Rapid Test Device (Feces)."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the Vibrio Cholerae O139 Antigen Rapid Test Device (Feces)."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -16268,8 +16268,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality diagnostic products for healthcare professionals, distributors, hospitals, and laboratories. The Vibrio Cholerae O139 Antigen Rapid Test Device (Feces) is developed for fast infectious disease screening, dependable quality, and global diagnostic supply needs.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality diagnostic products for healthcare professionals, distributors, hospitals, and laboratories. The Vibrio Cholerae O139 Antigen Rapid Test Device (Feces) is developed for fast infectious disease screening, dependable quality, and global diagnostic supply needs.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -16277,7 +16277,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports infectious disease screening workflows",
             "Practical feces-based diagnostic testing format",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -16352,12 +16352,12 @@ export const en = {
     },
     "hbsag-hcv-hiv-syphilis-combo-rapid-test": {
       "meta": {
-        "title": "HBsAg HCV HIV Syphilis Combo Rapid Test Cassette | Ivexia Pharma",
-        "description": "Ivexia Pharma offers HBsAg/HCV/HIV/Syphilis Combo Rapid Test Cassette for qualitative detection of HBsAg, HCV antibodies, HIV 1/2 antibodies, and syphilis antibodies in whole blood, serum, or plasma."
+        "title": "HBsAg HCV HIV Syphilis Combo Rapid Test Cassette | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers HBsAg/HCV/HIV/Syphilis Combo Rapid Test Cassette for qualitative detection of HBsAg, HCV antibodies, HIV 1/2 antibodies, and syphilis antibodies in whole blood, serum, or plasma."
       },
       "hero": {
         "title": "HBsAg/HCV/HIV/Syphilis Combo Rapid Test Cassette",
-        "description": "HBsAg/HCV/HIV/Syphilis Combo Rapid Test Cassette by Ivexia Pharma is a professional infectious disease rapid test designed for the qualitative detection of Hepatitis B surface antigen (HBsAg), antibodies to Hepatitis C Virus (HCV), antibodies to HIV type 1 and type 2, and syphilis antibodies to Treponema pallidum in whole blood, serum, or plasma specimens. This combo rapid test format supports multi-parameter infectious disease screening in hospitals, clinics, laboratories, public health programs, and international diagnostic supply channels."
+        "description": "HBsAg/HCV/HIV/Syphilis Combo Rapid Test Cassette by LARKSOIS Pharma is a professional infectious disease rapid test designed for the qualitative detection of Hepatitis B surface antigen (HBsAg), antibodies to Hepatitis C Virus (HCV), antibodies to HIV type 1 and type 2, and syphilis antibodies to Treponema pallidum in whole blood, serum, or plasma specimens. This combo rapid test format supports multi-parameter infectious disease screening in hospitals, clinics, laboratories, public health programs, and international diagnostic supply channels."
       },
       "content": {
         "introduction": {
@@ -16378,7 +16378,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -16410,7 +16410,7 @@ export const en = {
         "whatDoesDetect": {
           "title": "What Does This Combo Rapid Test Detect?",
           "sections": [
-            "HBsAg – Hepatitis B Surface Antigen: HBsAg is a marker used in screening for Hepatitis B Virus infection. The HBsAg section helps detect Hepatitis B surface antigen in the specimen.",
+            "HBsAg â€“ Hepatitis B Surface Antigen: HBsAg is a marker used in screening for Hepatitis B Virus infection. The HBsAg section helps detect Hepatitis B surface antigen in the specimen.",
             "HCV Antibodies: The HCV section detects antibodies to Hepatitis C Virus. HCV screening is important because Hepatitis C can affect liver health and may remain undetected without testing.",
             "HIV 1/2 Antibodies: The HIV section detects antibodies to HIV type 1 and type 2. It supports screening workflows, but final diagnosis should follow approved clinical and laboratory protocols.",
             "Syphilis Antibodies: The syphilis section detects antibodies to Treponema pallidum, the bacterium associated with syphilis."
@@ -16427,7 +16427,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of HBsAg/HCV/HIV/Syphilis Combo Rapid Test Cassette",
-          "description": "The HBsAg/HCV/HIV/Syphilis Combo Rapid Test Cassette by Ivexia Pharma may be used in professional diagnostic and healthcare environments.",
+          "description": "The HBsAg/HCV/HIV/Syphilis Combo Rapid Test Cassette by LARKSOIS Pharma may be used in professional diagnostic and healthcare environments.",
           "applications": [
             "Multi-marker infectious disease screening",
             "Hospitals and clinical laboratories",
@@ -16445,7 +16445,7 @@ export const en = {
             "The HBsAg/HCV/HIV/Syphilis Combo Rapid Test Cassette works on a rapid chromatographic immunoassay principle.",
             "The specimen moves across the test membrane by capillary action.",
             "If the target antigen or antibodies are present, colored test lines appear in the relevant test region.",
-            "A control line confirms that the test has worked properly. Results should always be read according to the official Ivexia Pharma product insert."
+            "A control line confirms that the test has worked properly. Results should always be read according to the official LARKSOIS Pharma product insert."
           ]
         },
         "method": {
@@ -16475,15 +16475,15 @@ export const en = {
             "Read results only within the recommended time window",
             "Treat all specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "detectionMarkers": {
           "title": "Detection Markers",
           "instructions": [
-            "HBsAg – Hepatitis B surface antigen",
-            "HCV Ab – Antibodies to Hepatitis C Virus",
-            "HIV 1/2 Ab – Antibodies to HIV type 1 and type 2",
-            "Syphilis Ab – Antibodies to Treponema pallidum"
+            "HBsAg â€“ Hepatitis B surface antigen",
+            "HCV Ab â€“ Antibodies to Hepatitis C Virus",
+            "HIV 1/2 Ab â€“ Antibodies to HIV type 1 and type 2",
+            "Syphilis Ab â€“ Antibodies to Treponema pallidum"
           ],
           "note": "Exact performance characteristics, sensitivity, specificity, cross-reactivity, and interpretation details should follow the final product insert and technical documentation."
         },
@@ -16510,7 +16510,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma HBsAg/HCV/HIV/Syphilis Combo Rapid Test",
+          "title": "Key Benefits of LARKSOIS Pharma HBsAg/HCV/HIV/Syphilis Combo Rapid Test",
           "instructions": [
             "Detects four infectious disease markers in one cassette",
             "Suitable for whole blood, serum, or plasma",
@@ -16521,7 +16521,7 @@ export const en = {
             "Supports fast preliminary screening decisions",
             "Convenient for international medical supply and diagnostic distribution"
           ],
-          "note": "The HBsAg/HCV/HIV/Syphilis Combo Rapid Test Cassette by Ivexia Pharma is developed for professional users who need fast and practical infectious disease screening support."
+          "note": "The HBsAg/HCV/HIV/Syphilis Combo Rapid Test Cassette by LARKSOIS Pharma is developed for professional users who need fast and practical infectious disease screening support."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -16535,7 +16535,7 @@ export const en = {
             "Read the result within the stated interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the HBsAg/HCV/HIV/Syphilis Combo Rapid Test Cassette."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the HBsAg/HCV/HIV/Syphilis Combo Rapid Test Cassette."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -16570,8 +16570,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma delivers globally focused diagnostic and healthcare products with an emphasis on quality, accessibility, and international supply reliability. The HBsAg/HCV/HIV/Syphilis Combo Rapid Test Cassette is suitable for distributors, hospitals, diagnostic centers, public health organizations, and bulk procurement channels.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma delivers globally focused diagnostic and healthcare products with an emphasis on quality, accessibility, and international supply reliability. The HBsAg/HCV/HIV/Syphilis Combo Rapid Test Cassette is suitable for distributors, hospitals, diagnostic centers, public health organizations, and bulk procurement channels.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -16579,7 +16579,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports infectious disease screening workflows",
             "Practical multi-marker combo testing format",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -16654,12 +16654,12 @@ export const en = {
     },
     "hbsag-hcv-combo-rapid-test": {
       "meta": {
-        "title": "HBsAg and HCV Combo Test Cassette S/P | Ivexia Pharma",
-        "description": "Ivexia Pharma offers HBsAg and HCV Combo Test Cassette S/P for rapid qualitative detection of Hepatitis B surface antigen and Hepatitis C antibodies in serum or plasma."
+        "title": "HBsAg and HCV Combo Test Cassette S/P | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers HBsAg and HCV Combo Test Cassette S/P for rapid qualitative detection of Hepatitis B surface antigen and Hepatitis C antibodies in serum or plasma."
       },
       "hero": {
         "title": "HBsAg and HCV Combo Test Cassette (S/P)",
-        "description": "HBsAg and HCV Combo Test Cassette (S/P) by Ivexia Pharma is a professional infectious disease rapid test designed for the qualitative detection of Hepatitis B surface antigen (HBsAg) and antibodies to Hepatitis C Virus (HCV) in human serum or plasma specimens. The test is based on a rapid chromatographic immunoassay method and supports quick preliminary screening for two major viral hepatitis markers in one cassette."
+        "description": "HBsAg and HCV Combo Test Cassette (S/P) by LARKSOIS Pharma is a professional infectious disease rapid test designed for the qualitative detection of Hepatitis B surface antigen (HBsAg) and antibodies to Hepatitis C Virus (HCV) in human serum or plasma specimens. The test is based on a rapid chromatographic immunoassay method and supports quick preliminary screening for two major viral hepatitis markers in one cassette."
       },
       "content": {
         "introduction": {
@@ -16680,7 +16680,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -16716,7 +16716,7 @@ export const en = {
         "whatDoesDetect": {
           "title": "What Does This Combo Rapid Test Detect?",
           "sections": [
-            "HBsAg – Hepatitis B Surface Antigen: HBsAg is a marker used in screening for Hepatitis B Virus infection. The HBsAg section helps detect Hepatitis B surface antigen in the specimen.",
+            "HBsAg â€“ Hepatitis B Surface Antigen: HBsAg is a marker used in screening for Hepatitis B Virus infection. The HBsAg section helps detect Hepatitis B surface antigen in the specimen.",
             "HCV Antibodies: The HCV section detects antibodies to Hepatitis C Virus. HCV antibody testing helps identify individuals who may need further confirmatory testing.",
             "By combining both markers in one cassette, the HBsAg and HCV Combo Test Cassette (S/P) supports efficient infectious disease screening, especially where quick results and streamlined testing are important."
           ]
@@ -16732,7 +16732,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of HBsAg and HCV Combo Test Cassette",
-          "description": "The HBsAg and HCV Combo Test Cassette (S/P) by Ivexia Pharma may be used in professional diagnostic and healthcare environments.",
+          "description": "The HBsAg and HCV Combo Test Cassette (S/P) by LARKSOIS Pharma may be used in professional diagnostic and healthcare environments.",
           "applications": [
             "Viral hepatitis screening",
             "Hospitals and clinical laboratories",
@@ -16751,7 +16751,7 @@ export const en = {
             "The HBsAg and HCV Combo Test Cassette (S/P) works on a rapid chromatographic immunoassay principle.",
             "The serum or plasma specimen moves along the membrane by capillary action.",
             "If HBsAg or HCV antibodies are present, they react with specific test components and form visible colored lines in the relevant test regions.",
-            "A control line confirms proper sample flow and valid test performance. Results should always be read according to the official Ivexia Pharma product insert."
+            "A control line confirms proper sample flow and valid test performance. Results should always be read according to the official LARKSOIS Pharma product insert."
           ]
         },
         "method": {
@@ -16783,13 +16783,13 @@ export const en = {
             "Read results only within the recommended time window",
             "Treat all specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "detectionMarkers": {
           "title": "Detection Markers",
           "instructions": [
-            "HBsAg – Hepatitis B surface antigen",
-            "HCV Ab – Antibodies to Hepatitis C Virus"
+            "HBsAg â€“ Hepatitis B surface antigen",
+            "HCV Ab â€“ Antibodies to Hepatitis C Virus"
           ],
           "note": "Exact performance characteristics, sensitivity, specificity, cross-reactivity, and interpretation details should follow the final product insert and technical documentation."
         },
@@ -16816,7 +16816,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma HBsAg and HCV Combo Test Cassette",
+          "title": "Key Benefits of LARKSOIS Pharma HBsAg and HCV Combo Test Cassette",
           "instructions": [
             "Detects HBsAg and HCV antibodies in one cassette",
             "Uses serum or plasma specimen",
@@ -16828,7 +16828,7 @@ export const en = {
             "Suitable for international healthcare markets",
             "Supports fast preliminary decision-making"
           ],
-          "note": "The HBsAg and HCV Combo Test Cassette by Ivexia Pharma is developed for professional users who need fast and practical viral hepatitis screening support."
+          "note": "The HBsAg and HCV Combo Test Cassette by LARKSOIS Pharma is developed for professional users who need fast and practical viral hepatitis screening support."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -16843,7 +16843,7 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the HBsAg and HCV Combo Test Cassette (S/P)."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the HBsAg and HCV Combo Test Cassette (S/P)."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -16880,8 +16880,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides internationally focused diagnostic and healthcare products for hospitals, clinics, laboratories, importers, distributors, and public health buyers. The HBsAg and HCV Combo Test Cassette (S/P) is designed to support fast, practical, and reliable infectious disease screening.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides internationally focused diagnostic and healthcare products for hospitals, clinics, laboratories, importers, distributors, and public health buyers. The HBsAg and HCV Combo Test Cassette (S/P) is designed to support fast, practical, and reliable infectious disease screening.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -16889,7 +16889,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports infectious disease screening workflows",
             "Practical two-marker combo testing format",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -16964,12 +16964,12 @@ export const en = {
     },
     "covid19-ag-test": {
       "meta": {
-        "title": "COVID-19 Ag Rapid Test Device Nasal/NP Swab | Ivexia Pharma",
-        "description": "Ivexia Pharma offers COVID-19 Ag Rapid Test Device for nasopharyngeal and nasal swab specimens, designed for rapid qualitative detection of SARS-CoV-2 antigen with 100 TCID/ml cut-off."
+        "title": "COVID-19 Ag Rapid Test Device Nasal/NP Swab | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers COVID-19 Ag Rapid Test Device for nasopharyngeal and nasal swab specimens, designed for rapid qualitative detection of SARS-CoV-2 antigen with 100 TCID/ml cut-off."
       },
       "hero": {
         "title": "COVID-19 Ag Rapid Test Device",
-        "description": "COVID-19 Ag Rapid Test Device by Ivexia Pharma is an infectious disease rapid test designed for the qualitative detection of SARS-CoV-2 antigen in nasopharyngeal swabs and nasal swabs. This COVID-19 Ag Rapid Test Device supports fast screening in hospitals, clinics, diagnostic centers, workplace testing programs, travel screening, public health monitoring, and point-of-care environments."
+        "description": "COVID-19 Ag Rapid Test Device by LARKSOIS Pharma is an infectious disease rapid test designed for the qualitative detection of SARS-CoV-2 antigen in nasopharyngeal swabs and nasal swabs. This COVID-19 Ag Rapid Test Device supports fast screening in hospitals, clinics, diagnostic centers, workplace testing programs, travel screening, public health monitoring, and point-of-care environments."
       },
       "content": {
         "introduction": {
@@ -16977,7 +16977,7 @@ export const en = {
           "sections": [
             "The COVID-19 Ag Rapid Test Device is a professional infectious disease rapid test used for qualitative detection of SARS-CoV-2 antigen from respiratory swab specimens.",
             "Antigen tests detect viral proteins from SARS-CoV-2 and are commonly used for rapid screening because they can provide results faster than many laboratory-based methods.",
-            "The Ivexia Pharma COVID-19 Ag Rapid Test Device is suitable for hospitals, clinics, diagnostic centers, workplace testing programs, public health screening, travel screening, and point-of-care environments.",
+            "The LARKSOIS Pharma COVID-19 Ag Rapid Test Device is suitable for hospitals, clinics, diagnostic centers, workplace testing programs, public health screening, travel screening, and point-of-care environments.",
             "The test provides a qualitative screening result and should be interpreted with symptoms, exposure history, clinical findings, and local healthcare guidance."
           ]
         },
@@ -16990,7 +16990,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -17038,7 +17038,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of COVID-19 Ag Rapid Test Device",
-          "description": "The COVID-19 Ag Rapid Test Device by Ivexia Pharma may be used in professional diagnostic and healthcare screening environments.",
+          "description": "The COVID-19 Ag Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic and healthcare screening environments.",
           "applications": [
             "Suspected COVID-19 case screening",
             "Hospitals and clinical laboratories",
@@ -17057,7 +17057,7 @@ export const en = {
             "The COVID-19 Ag Rapid Test Device works on an immunochromatographic lateral flow principle.",
             "After sample extraction, the processed specimen is added to the sample well according to the product insert.",
             "If SARS-CoV-2 antigen is present at or above the detection level, it reacts with specific antibodies on the test membrane and forms a visible test line.",
-            "A control line appears to confirm valid sample flow and proper test performance. The result should always be read according to the official Ivexia Pharma product insert."
+            "A control line appears to confirm valid sample flow and proper test performance. The result should always be read according to the official LARKSOIS Pharma product insert."
           ]
         },
         "method": {
@@ -17087,11 +17087,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Treat all specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, extraction, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, extraction, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Cut-off: 100 TCID/ml",
-          "content": "The COVID-19 Ag Rapid Test Device by Ivexia Pharma has a stated cut-off of 100 TCID/ml. This means the test is designed to detect SARS-CoV-2 antigen at or above the validated detection level. Ivexia Pharma should publish exact performance details according to the final product insert, technical file, and regulatory documentation."
+          "content": "The COVID-19 Ag Rapid Test Device by LARKSOIS Pharma has a stated cut-off of 100 TCID/ml. This means the test is designed to detect SARS-CoV-2 antigen at or above the validated detection level. LARKSOIS Pharma should publish exact performance details according to the final product insert, technical file, and regulatory documentation."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -17117,7 +17117,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma COVID-19 Ag Rapid Test Device",
+          "title": "Key Benefits of LARKSOIS Pharma COVID-19 Ag Rapid Test Device",
           "instructions": [
             "Rapid qualitative detection of SARS-CoV-2 antigen",
             "Suitable for nasopharyngeal and nasal swab specimens",
@@ -17128,7 +17128,7 @@ export const en = {
             "Designed for professional in-vitro diagnostic use",
             "Suitable for international diagnostic supply"
           ],
-          "note": "The COVID-19 Ag Rapid Test Device by Ivexia Pharma is developed for professional users who need fast and practical infectious disease screening support."
+          "note": "The COVID-19 Ag Rapid Test Device by LARKSOIS Pharma is developed for professional users who need fast and practical infectious disease screening support."
         },
         "procedure": {
           "title": "General Testing Procedure",
@@ -17142,7 +17142,7 @@ export const en = {
             "Read the result within the approved interpretation window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "The exact procedure must follow the official Ivexia Pharma product insert supplied with the COVID-19 Ag Rapid Test Device."
+          "note": "The exact procedure must follow the official LARKSOIS Pharma product insert supplied with the COVID-19 Ag Rapid Test Device."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -17178,8 +17178,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality diagnostic and healthcare products for hospitals, laboratories, clinics, distributors, and public health programs. The COVID-19 Ag Rapid Test Device is developed for fast infectious disease screening, practical workflow integration, and dependable global diagnostic supply.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality diagnostic and healthcare products for hospitals, laboratories, clinics, distributors, and public health programs. The COVID-19 Ag Rapid Test Device is developed for fast infectious disease screening, practical workflow integration, and dependable global diagnostic supply.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -17187,7 +17187,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports infectious disease screening workflows",
             "Practical swab-based testing format",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -17198,11 +17198,11 @@ export const en = {
         },
         {
           "question": "What specimen is used for the COVID-19 Ag Rapid Test Device?",
-          "answer": "The COVID-19 Ag Rapid Test Device by Ivexia Pharma uses nasopharyngeal swab or nasal swab specimens. Collection should follow the official product insert."
+          "answer": "The COVID-19 Ag Rapid Test Device by LARKSOIS Pharma uses nasopharyngeal swab or nasal swab specimens. Collection should follow the official product insert."
         },
         {
           "question": "What is the cut-off of the COVID-19 Ag Rapid Test Device?",
-          "answer": "The COVID-19 Ag Rapid Test Device by Ivexia Pharma has a stated cut-off of 100 TCID/ml. Final performance and interpretation should follow the official product insert and technical documentation."
+          "answer": "The COVID-19 Ag Rapid Test Device by LARKSOIS Pharma has a stated cut-off of 100 TCID/ml. Final performance and interpretation should follow the official product insert and technical documentation."
         },
         {
           "question": "How accurate are rapid antigen tests?",
@@ -17234,7 +17234,7 @@ export const en = {
             "name": "What specimen is used for the COVID-19 Ag Rapid Test Device?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The COVID-19 Ag Rapid Test Device by Ivexia Pharma uses nasopharyngeal swab or nasal swab specimens. Collection should follow the official product insert."
+              "text": "The COVID-19 Ag Rapid Test Device by LARKSOIS Pharma uses nasopharyngeal swab or nasal swab specimens. Collection should follow the official product insert."
             }
           },
           {
@@ -17242,7 +17242,7 @@ export const en = {
             "name": "What is the cut-off of the COVID-19 Ag Rapid Test Device?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The COVID-19 Ag Rapid Test Device by Ivexia Pharma has a stated cut-off of 100 TCID/ml. Final performance and interpretation should follow the official product insert and technical documentation."
+              "text": "The COVID-19 Ag Rapid Test Device by LARKSOIS Pharma has a stated cut-off of 100 TCID/ml. Final performance and interpretation should follow the official product insert and technical documentation."
             }
           },
           {
@@ -17274,12 +17274,12 @@ export const en = {
     },
     "covid19-ag-self-test": {
       "meta": {
-        "title": "COVID-19 Ag Rapid Test Self Testing Device Nasal Swab | Ivexia Pharma",
-        "description": "Ivexia Pharma offers COVID-19 Ag Rapid Test Device Self Testing Device for nasal swab specimens, designed for rapid qualitative detection of SARS-CoV-2 antigen with 100 TCID/ml cut-off."
+        "title": "COVID-19 Ag Rapid Test Self Testing Device Nasal Swab | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers COVID-19 Ag Rapid Test Device Self Testing Device for nasal swab specimens, designed for rapid qualitative detection of SARS-CoV-2 antigen with 100 TCID/ml cut-off."
       },
       "hero": {
         "title": "COVID-19 Ag Rapid Test Device Self Testing Device",
-        "description": "COVID-19 Ag Rapid Test Device Self Testing Device by Ivexia Pharma is a nasal swab-based rapid antigen test designed for the qualitative detection of SARS-CoV-2 antigen. This COVID-19 Ag Rapid Test Device Self Testing Device supports quick, simple, and convenient screening for suspected COVID-19 infection using a self-collected nasal swab specimen."
+        "description": "COVID-19 Ag Rapid Test Device Self Testing Device by LARKSOIS Pharma is a nasal swab-based rapid antigen test designed for the qualitative detection of SARS-CoV-2 antigen. This COVID-19 Ag Rapid Test Device Self Testing Device supports quick, simple, and convenient screening for suspected COVID-19 infection using a self-collected nasal swab specimen."
       },
       "content": {
         "introduction": {
@@ -17300,7 +17300,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -17348,7 +17348,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of COVID-19 Ag Rapid Test Self Testing Device",
-          "description": "The COVID-19 Ag Rapid Test Device Self Testing Device by Ivexia Pharma may be used for quick preliminary screening where self-testing is permitted by local rules.",
+          "description": "The COVID-19 Ag Rapid Test Device Self Testing Device by LARKSOIS Pharma may be used for quick preliminary screening where self-testing is permitted by local rules.",
           "applications": [
             "Home screening",
             "Workplace screening",
@@ -17397,11 +17397,11 @@ export const en = {
             "Add the required drops to the sample well",
             "Read the result within the recommended window"
           ],
-          "note": "Sample collection, extraction, timing, and result reading should always follow the official Ivexia Pharma kit insert."
+          "note": "Sample collection, extraction, timing, and result reading should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Cut-off: 100 TCID/ml",
-          "content": "The COVID-19 Ag Rapid Test Device Self Testing Device by Ivexia Pharma has a stated cut-off of 100 TCID/ml. This means the test is designed to detect SARS-CoV-2 antigen at or above the validated detection level. Exact performance details should follow the final product insert, technical file, and regulatory documentation."
+          "content": "The COVID-19 Ag Rapid Test Device Self Testing Device by LARKSOIS Pharma has a stated cut-off of 100 TCID/ml. This means the test is designed to detect SARS-CoV-2 antigen at or above the validated detection level. Exact performance details should follow the final product insert, technical file, and regulatory documentation."
         },
         "clinicalImportance": {
           "title": "Accuracy and Reliability",
@@ -17427,7 +17427,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma COVID-19 Ag Rapid Test Self Testing Device",
+          "title": "Key Benefits of LARKSOIS Pharma COVID-19 Ag Rapid Test Self Testing Device",
           "instructions": [
             "Simple nasal swab self-testing format",
             "Rapid qualitative detection of SARS-CoV-2 antigen",
@@ -17438,7 +17438,7 @@ export const en = {
             "Supports international public health screening needs",
             "Convenient for distributors, clinics, institutions, and bulk buyers"
           ],
-          "note": "The COVID-19 Ag Rapid Test Device Self Testing Device by Ivexia Pharma is developed to support fast, accessible, and user-friendly COVID-19 antigen screening."
+          "note": "The COVID-19 Ag Rapid Test Device Self Testing Device by LARKSOIS Pharma is developed to support fast, accessible, and user-friendly COVID-19 antigen screening."
         },
         "procedure": {
           "title": "How to Use COVID-19 Ag Rapid Test Self Testing Device",
@@ -17489,8 +17489,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides internationally focused diagnostic solutions for healthcare distributors, clinics, laboratories, public health organizations, institutional buyers, and global procurement channels. The COVID-19 Ag Rapid Test Device Self Testing Device is developed to support fast, accessible, and user-friendly COVID-19 antigen screening.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides internationally focused diagnostic solutions for healthcare distributors, clinics, laboratories, public health organizations, institutional buyers, and global procurement channels. The COVID-19 Ag Rapid Test Device Self Testing Device is developed to support fast, accessible, and user-friendly COVID-19 antigen screening.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -17498,7 +17498,7 @@ export const en = {
             "User-friendly self-testing format",
             "Supports infectious disease screening workflows",
             "Practical nasal swab-based testing format",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -17573,12 +17573,12 @@ export const en = {
     },
     "covid19-igg-igm-test": {
       "meta": {
-        "title": "COVID-19 IgG/IgM Rapid Test Device WB/S/P | Ivexia Pharma",
-        "description": "Ivexia Pharma offers COVID-19 IgG/IgM Rapid Test Device for qualitative detection and differentiation of IgG and IgM antibodies to SARS-CoV-2 in whole blood, serum, or plasma."
+        "title": "COVID-19 IgG/IgM Rapid Test Device WB/S/P | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers COVID-19 IgG/IgM Rapid Test Device for qualitative detection and differentiation of IgG and IgM antibodies to SARS-CoV-2 in whole blood, serum, or plasma."
       },
       "hero": {
         "title": "COVID-19 IgG/IgM Rapid Test Device (WB/S/P)",
-        "description": "COVID-19 IgG/IgM Rapid Test Device by Ivexia Pharma is an infectious disease rapid test designed for the qualitative detection and differentiation of IgG and IgM antibodies to SARS-CoV-2 in whole blood, serum, or plasma specimens. This COVID-19 IgG/IgM Rapid Test Device supports professional antibody screening and helps identify immune response related to past or recent exposure to COVID-19."
+        "description": "COVID-19 IgG/IgM Rapid Test Device by LARKSOIS Pharma is an infectious disease rapid test designed for the qualitative detection and differentiation of IgG and IgM antibodies to SARS-CoV-2 in whole blood, serum, or plasma specimens. This COVID-19 IgG/IgM Rapid Test Device supports professional antibody screening and helps identify immune response related to past or recent exposure to COVID-19."
       },
       "content": {
         "introduction": {
@@ -17599,7 +17599,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -17647,7 +17647,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of COVID-19 IgG/IgM Rapid Test Device",
-          "description": "The COVID-19 IgG/IgM Rapid Test Device by Ivexia Pharma may be used in professional diagnostic and healthcare screening environments.",
+          "description": "The COVID-19 IgG/IgM Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic and healthcare screening environments.",
           "applications": [
             "Antibody screening programs",
             "Serological surveillance",
@@ -17696,11 +17696,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Target: SARS-CoV-2 IgG and IgM Antibodies",
-          "content": "The COVID-19 IgG/IgM Rapid Test Device by Ivexia Pharma is designed to detect and differentiate SARS-CoV-2 IgG and IgM antibodies in whole blood, serum, or plasma specimens. It does not directly detect the virus itself; instead, it detects antibodies produced by the immune system after exposure or infection."
+          "content": "The COVID-19 IgG/IgM Rapid Test Device by LARKSOIS Pharma is designed to detect and differentiate SARS-CoV-2 IgG and IgM antibodies in whole blood, serum, or plasma specimens. It does not directly detect the virus itself; instead, it detects antibodies produced by the immune system after exposure or infection."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -17726,7 +17726,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma COVID-19 IgG/IgM Rapid Test Device",
+          "title": "Key Benefits of LARKSOIS Pharma COVID-19 IgG/IgM Rapid Test Device",
           "instructions": [
             "Qualitative detection and differentiation of IgG and IgM antibodies",
             "Suitable for whole blood, serum, or plasma specimens",
@@ -17737,7 +17737,7 @@ export const en = {
             "Designed for professional in-vitro diagnostic use",
             "Suitable for international diagnostic supply"
           ],
-          "note": "The COVID-19 IgG/IgM Rapid Test Device by Ivexia Pharma is developed for professional users who need practical antibody screening support."
+          "note": "The COVID-19 IgG/IgM Rapid Test Device by LARKSOIS Pharma is developed for professional users who need practical antibody screening support."
         },
         "procedure": {
           "title": "How to Use COVID-19 IgG/IgM Rapid Test Device",
@@ -17752,7 +17752,7 @@ export const en = {
             "Do not interpret the result after the recommended reading time",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "Testing should be performed by trained professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -17787,8 +17787,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality diagnostic products for hospitals, laboratories, clinics, public health buyers, distributors, and importers. The COVID-19 IgG/IgM Rapid Test Device is designed for practical antibody screening using whole blood, serum, or plasma.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality diagnostic products for hospitals, laboratories, clinics, public health buyers, distributors, and importers. The COVID-19 IgG/IgM Rapid Test Device is designed for practical antibody screening using whole blood, serum, or plasma.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -17796,7 +17796,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports antibody screening workflows",
             "Practical WB/S/P testing format",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -17871,12 +17871,12 @@ export const en = {
     },
     "dengue-igg-igm-test": {
       "meta": {
-        "title": "Dengue IgG/IgM Test Device WB/S/P | Ivexia Pharma",
-        "description": "Ivexia Pharma offers Dengue IgG/IgM Test Device for rapid qualitative detection and differentiation of dengue IgG and IgM antibodies in whole blood, serum, or plasma."
+        "title": "Dengue IgG/IgM Test Device WB/S/P | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers Dengue IgG/IgM Test Device for rapid qualitative detection and differentiation of dengue IgG and IgM antibodies in whole blood, serum, or plasma."
       },
       "hero": {
         "title": "Dengue IgG/IgM Test Device (WB/S/P)",
-        "description": "Dengue IgG/IgM Test Device by Ivexia Pharma is an infectious disease rapid test designed for the qualitative detection and differentiation of IgG and IgM antibodies to dengue virus in whole blood, serum, or plasma specimens. This Dengue IgG/IgM Test Device supports rapid dengue antibody screening in hospitals, diagnostic laboratories, clinics, public health programs, and point-of-care settings."
+        "description": "Dengue IgG/IgM Test Device by LARKSOIS Pharma is an infectious disease rapid test designed for the qualitative detection and differentiation of IgG and IgM antibodies to dengue virus in whole blood, serum, or plasma specimens. This Dengue IgG/IgM Test Device supports rapid dengue antibody screening in hospitals, diagnostic laboratories, clinics, public health programs, and point-of-care settings."
       },
       "content": {
         "introduction": {
@@ -17897,7 +17897,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -17945,7 +17945,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Dengue IgG/IgM Test Device",
-          "description": "The Dengue IgG/IgM Test Device by Ivexia Pharma may be used in professional diagnostic and healthcare screening environments.",
+          "description": "The Dengue IgG/IgM Test Device by LARKSOIS Pharma may be used in professional diagnostic and healthcare screening environments.",
           "applications": [
             "Rapid dengue antibody screening",
             "Point-of-care testing",
@@ -17994,11 +17994,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Dengue IgG and IgM Antibodies",
-          "content": "The Dengue IgG/IgM Test Device by Ivexia Pharma is designed to detect and differentiate dengue IgG and IgM antibodies in whole blood, serum, or plasma specimens. It helps identify antibody response patterns related to dengue infection and supports professional clinical interpretation."
+          "content": "The Dengue IgG/IgM Test Device by LARKSOIS Pharma is designed to detect and differentiate dengue IgG and IgM antibodies in whole blood, serum, or plasma specimens. It helps identify antibody response patterns related to dengue infection and supports professional clinical interpretation."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -18024,7 +18024,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma Dengue IgG/IgM Test Device",
+          "title": "Key Benefits of LARKSOIS Pharma Dengue IgG/IgM Test Device",
           "instructions": [
             "Rapid qualitative detection of dengue IgG and IgM antibodies",
             "Differentiates IgG and IgM antibody patterns",
@@ -18035,7 +18035,7 @@ export const en = {
             "Useful for hospitals, clinics, laboratories, and public health programs",
             "Suitable for international infectious disease testing programs"
           ],
-          "note": "The Dengue IgG/IgM Test Device by Ivexia Pharma is developed for professional users who need fast and practical dengue antibody screening support."
+          "note": "The Dengue IgG/IgM Test Device by LARKSOIS Pharma is developed for professional users who need fast and practical dengue antibody screening support."
         },
         "procedure": {
           "title": "How to Use Dengue IgG/IgM Test Device",
@@ -18050,7 +18050,7 @@ export const en = {
             "Do not interpret the result after the recommended reading time",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "Testing should be performed by trained professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -18085,8 +18085,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality rapid diagnostic products for hospitals, diagnostic centers, laboratories, importers, distributors, NGOs, and public health buyers. The Dengue IgG/IgM Test Device is designed for simple use, fast result interpretation, and practical infectious disease screening.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality rapid diagnostic products for hospitals, diagnostic centers, laboratories, importers, distributors, NGOs, and public health buyers. The Dengue IgG/IgM Test Device is designed for simple use, fast result interpretation, and practical infectious disease screening.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -18094,7 +18094,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports dengue antibody screening workflows",
             "Practical WB/S/P testing format",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -18169,12 +18169,12 @@ export const en = {
     },
     "dengue-ns1-test": {
       "meta": {
-        "title": "Dengue NS1 Test Device WB/S/P | Ivexia Pharma",
-        "description": "Ivexia Pharma offers Dengue NS1 Test Device for rapid qualitative detection of Dengue NS1 antigen in whole blood, serum, or plasma for early dengue screening."
+        "title": "Dengue NS1 Test Device WB/S/P | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers Dengue NS1 Test Device for rapid qualitative detection of Dengue NS1 antigen in whole blood, serum, or plasma for early dengue screening."
       },
       "hero": {
         "title": "Dengue NS1 Test Device (WB/S/P)",
-        "description": "Dengue NS1 Test Device by Ivexia Pharma is an infectious disease rapid test designed for the qualitative detection of Dengue NS1 antigen in whole blood, serum, or plasma specimens. This Dengue NS1 Test Device supports early dengue screening, especially during the first few days of fever when NS1 antigen is commonly detectable before dengue antibodies become prominent."
+        "description": "Dengue NS1 Test Device by LARKSOIS Pharma is an infectious disease rapid test designed for the qualitative detection of Dengue NS1 antigen in whole blood, serum, or plasma specimens. This Dengue NS1 Test Device supports early dengue screening, especially during the first few days of fever when NS1 antigen is commonly detectable before dengue antibodies become prominent."
       },
       "content": {
         "introduction": {
@@ -18195,7 +18195,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -18230,7 +18230,7 @@ export const en = {
         },
         "whatIsCovidAgTest": {
           "title": "What is Dengue NS1?",
-          "content": "NS1 stands for non-structural protein 1, a dengue virus antigen that can be present in the blood during the early phase of infection. Unlike Dengue IgG/IgM antibody tests, which detect the body’s immune response, the Dengue NS1 Test Device detects a dengue viral antigen. This makes the Dengue NS1 Test Device useful for early testing when a patient has fever, body pain, headache, rash, or other symptoms suggestive of dengue."
+          "content": "NS1 stands for non-structural protein 1, a dengue virus antigen that can be present in the blood during the early phase of infection. Unlike Dengue IgG/IgM antibody tests, which detect the bodyâ€™s immune response, the Dengue NS1 Test Device detects a dengue viral antigen. This makes the Dengue NS1 Test Device useful for early testing when a patient has fever, body pain, headache, rash, or other symptoms suggestive of dengue."
         },
         "importance": {
           "title": "Importance of Dengue NS1 Rapid Testing",
@@ -18243,7 +18243,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Dengue NS1 Test Device",
-          "description": "The Dengue NS1 Test Device by Ivexia Pharma may be used in professional diagnostic and healthcare screening environments.",
+          "description": "The Dengue NS1 Test Device by LARKSOIS Pharma may be used in professional diagnostic and healthcare screening environments.",
           "applications": [
             "Early dengue antigen screening",
             "Rapid point-of-care testing",
@@ -18292,11 +18292,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Dengue NS1 Antigen",
-          "content": "The Dengue NS1 Test Device by Ivexia Pharma is designed to detect Dengue NS1 antigen in whole blood, serum, or plasma specimens. NS1 antigen may be present during the early phase of dengue infection, making this test useful for early screening when clinically appropriate."
+          "content": "The Dengue NS1 Test Device by LARKSOIS Pharma is designed to detect Dengue NS1 antigen in whole blood, serum, or plasma specimens. NS1 antigen may be present during the early phase of dengue infection, making this test useful for early screening when clinically appropriate."
         },
         "clinicalImportance": {
           "title": "Best Time to Use Dengue NS1 Test Device",
@@ -18322,7 +18322,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma Dengue NS1 Test Device",
+          "title": "Key Benefits of LARKSOIS Pharma Dengue NS1 Test Device",
           "instructions": [
             "Rapid qualitative detection of Dengue NS1 antigen",
             "Supports early dengue screening",
@@ -18333,7 +18333,7 @@ export const en = {
             "Useful for hospitals, clinics, laboratories, and public health programs",
             "Suitable for international infectious disease screening programs"
           ],
-          "note": "The Dengue NS1 Test Device by Ivexia Pharma is developed for professional users who need fast and practical early dengue screening support."
+          "note": "The Dengue NS1 Test Device by LARKSOIS Pharma is developed for professional users who need fast and practical early dengue screening support."
         },
         "procedure": {
           "title": "How the Test is Performed",
@@ -18347,7 +18347,7 @@ export const en = {
             "Do not read results too early or too late",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "Testing should be performed according to the official Ivexia Pharma product insert and by trained healthcare personnel."
+          "note": "Testing should be performed according to the official LARKSOIS Pharma product insert and by trained healthcare personnel."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -18382,8 +18382,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality infectious disease rapid test products for hospitals, diagnostic centers, laboratories, importers, distributors, NGOs, and public health organizations. The Dengue NS1 Test Device (WB/S/P) is designed for rapid, simple, and practical early dengue screening.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality infectious disease rapid test products for hospitals, diagnostic centers, laboratories, importers, distributors, NGOs, and public health organizations. The Dengue NS1 Test Device (WB/S/P) is designed for rapid, simple, and practical early dengue screening.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -18391,7 +18391,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports early dengue screening workflows",
             "Practical WB/S/P testing format",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -18466,12 +18466,12 @@ export const en = {
     },
     "dengue-igg-igm-ns1-combo-test": {
       "meta": {
-        "title": "Dengue IgG/IgM/NS1 Combo Test Device WB/S/P | Ivexia Pharma",
-        "description": "Ivexia Pharma offers Dengue IgG/IgM/NS1 Combo Test Device for rapid qualitative detection of dengue NS1 antigen and IgG/IgM antibodies in whole blood, serum, or plasma."
+        "title": "Dengue IgG/IgM/NS1 Combo Test Device WB/S/P | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers Dengue IgG/IgM/NS1 Combo Test Device for rapid qualitative detection of dengue NS1 antigen and IgG/IgM antibodies in whole blood, serum, or plasma."
       },
       "hero": {
         "title": "Dengue IgG/IgM/NS1 Combo Test Device (WB/S/P)",
-        "description": "Dengue IgG/IgM/NS1 Combo Test Device by Ivexia Pharma is an infectious disease rapid test designed for the qualitative detection of Dengue NS1 antigen, Dengue IgM antibodies, and Dengue IgG antibodies in whole blood, serum, or plasma specimens. This combo format supports dengue screening across different stages of infection by combining early antigen detection with antibody response detection in one practical rapid test device."
+        "description": "Dengue IgG/IgM/NS1 Combo Test Device by LARKSOIS Pharma is an infectious disease rapid test designed for the qualitative detection of Dengue NS1 antigen, Dengue IgM antibodies, and Dengue IgG antibodies in whole blood, serum, or plasma specimens. This combo format supports dengue screening across different stages of infection by combining early antigen detection with antibody response detection in one practical rapid test device."
       },
       "content": {
         "introduction": {
@@ -18492,7 +18492,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -18540,7 +18540,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Dengue IgG/IgM/NS1 Combo Test Device",
-          "description": "The Dengue IgG/IgM/NS1 Combo Test Device by Ivexia Pharma may be used in professional diagnostic and healthcare screening environments.",
+          "description": "The Dengue IgG/IgM/NS1 Combo Test Device by LARKSOIS Pharma may be used in professional diagnostic and healthcare screening environments.",
           "applications": [
             "Early dengue antigen screening",
             "Later-stage antibody response detection",
@@ -18589,11 +18589,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Dengue NS1 Antigen, Dengue IgG, Dengue IgM",
-          "content": "The Dengue IgG/IgM/NS1 Combo Test Device by Ivexia Pharma is designed to detect Dengue NS1 antigen together with Dengue IgG and IgM antibodies in whole blood, serum, or plasma specimens. This combination supports broader dengue screening across different stages of infection."
+          "content": "The Dengue IgG/IgM/NS1 Combo Test Device by LARKSOIS Pharma is designed to detect Dengue NS1 antigen together with Dengue IgG and IgM antibodies in whole blood, serum, or plasma specimens. This combination supports broader dengue screening across different stages of infection."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -18619,7 +18619,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma Dengue IgG/IgM/NS1 Combo Test Device",
+          "title": "Key Benefits of LARKSOIS Pharma Dengue IgG/IgM/NS1 Combo Test Device",
           "instructions": [
             "Rapid qualitative detection of Dengue NS1 antigen",
             "Qualitative detection of Dengue IgM antibodies",
@@ -18630,7 +18630,7 @@ export const en = {
             "No major instrument required",
             "Useful for hospitals, clinics, and laboratories"
           ],
-          "note": "The Dengue IgG/IgM/NS1 Combo Test Device by Ivexia Pharma is developed for professional users who need fast and practical dengue screening support."
+          "note": "The Dengue IgG/IgM/NS1 Combo Test Device by LARKSOIS Pharma is developed for professional users who need fast and practical dengue screening support."
         },
         "procedure": {
           "title": "How to Use Dengue IgG/IgM/NS1 Combo Test Device",
@@ -18644,7 +18644,7 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -18679,8 +18679,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality rapid diagnostic solutions for hospitals, laboratories, clinics, importers, distributors, NGOs, and public health organizations. The Dengue IgG/IgM/NS1 Combo Test Device is designed for fast, simple, and practical dengue screening across global healthcare markets.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality rapid diagnostic solutions for hospitals, laboratories, clinics, importers, distributors, NGOs, and public health organizations. The Dengue IgG/IgM/NS1 Combo Test Device is designed for fast, simple, and practical dengue screening across global healthcare markets.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -18688,7 +18688,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports dengue screening workflows",
             "Practical WB/S/P testing format",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -18763,12 +18763,12 @@ export const en = {
     },
     "filariasis-rapid-test": {
       "meta": {
-        "title": "Filariasis IgG/IgM Rapid Test Device WB/S/P | Ivexia Pharma",
-        "description": "Ivexia Pharma offers Filariasis IgG/IgM Rapid Test Device for qualitative detection and differentiation of filariasis IgG and IgM antibodies in whole blood, serum, or plasma."
+        "title": "Filariasis IgG/IgM Rapid Test Device WB/S/P | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers Filariasis IgG/IgM Rapid Test Device for qualitative detection and differentiation of filariasis IgG and IgM antibodies in whole blood, serum, or plasma."
       },
       "hero": {
         "title": "Filariasis IgG/IgM Rapid Test Device (WB/S/P)",
-        "description": "Filariasis IgG/IgM Rapid Test Device by Ivexia Pharma is an infectious disease rapid test designed for the qualitative detection and differentiation of IgG and IgM antibodies to filarial parasites in whole blood, serum, or plasma specimens. This Filariasis IgG/IgM Rapid Test Device supports professional screening for lymphatic filariasis and helps healthcare providers evaluate immune response related to filarial infection."
+        "description": "Filariasis IgG/IgM Rapid Test Device by LARKSOIS Pharma is an infectious disease rapid test designed for the qualitative detection and differentiation of IgG and IgM antibodies to filarial parasites in whole blood, serum, or plasma specimens. This Filariasis IgG/IgM Rapid Test Device supports professional screening for lymphatic filariasis and helps healthcare providers evaluate immune response related to filarial infection."
       },
       "content": {
         "introduction": {
@@ -18789,7 +18789,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -18837,7 +18837,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Filariasis IgG/IgM Rapid Test Device",
-          "description": "The Filariasis IgG/IgM Rapid Test Device by Ivexia Pharma may be used in professional diagnostic and healthcare screening environments.",
+          "description": "The Filariasis IgG/IgM Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic and healthcare screening environments.",
           "applications": [
             "Filariasis antibody screening",
             "Tropical disease testing programs",
@@ -18886,11 +18886,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Filariasis IgG and IgM Antibodies",
-          "content": "The Filariasis IgG/IgM Rapid Test Device by Ivexia Pharma is designed to detect and differentiate filariasis IgG and IgM antibodies in whole blood, serum, or plasma specimens. It helps evaluate immune response patterns associated with filarial infection."
+          "content": "The Filariasis IgG/IgM Rapid Test Device by LARKSOIS Pharma is designed to detect and differentiate filariasis IgG and IgM antibodies in whole blood, serum, or plasma specimens. It helps evaluate immune response patterns associated with filarial infection."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -18916,7 +18916,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma Filariasis IgG/IgM Rapid Test Device",
+          "title": "Key Benefits of LARKSOIS Pharma Filariasis IgG/IgM Rapid Test Device",
           "instructions": [
             "Rapid qualitative detection of filariasis IgG antibodies",
             "Rapid qualitative detection of filariasis IgM antibodies",
@@ -18927,7 +18927,7 @@ export const en = {
             "Supports field-level healthcare and public health screening",
             "Useful for hospitals, clinics, and laboratories"
           ],
-          "note": "The Filariasis IgG/IgM Rapid Test Device by Ivexia Pharma is developed for professional users who need practical and accessible filariasis screening support."
+          "note": "The Filariasis IgG/IgM Rapid Test Device by LARKSOIS Pharma is developed for professional users who need practical and accessible filariasis screening support."
         },
         "procedure": {
           "title": "How to Use Filariasis IgG/IgM Rapid Test Device",
@@ -18942,7 +18942,7 @@ export const en = {
             "Do not read results after the recommended time",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -18977,8 +18977,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality diagnostic products for hospitals, clinics, laboratories, importers, distributors, NGOs, and public health organizations. The Filariasis IgG/IgM Rapid Test Device is designed for rapid, practical, and accessible infectious disease screening using whole blood, serum, or plasma.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality diagnostic products for hospitals, clinics, laboratories, importers, distributors, NGOs, and public health organizations. The Filariasis IgG/IgM Rapid Test Device is designed for rapid, practical, and accessible infectious disease screening using whole blood, serum, or plasma.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -18986,7 +18986,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports tropical disease screening workflows",
             "Practical WB/S/P testing format",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -19061,12 +19061,12 @@ export const en = {
     },
     "gonorrhea-rapid-test": {
       "meta": {
-        "title": "Gonorrhea Rapid Test Device/Strip Swab | Ivexia Pharma",
-        "description": "Ivexia Pharma offers Gonorrhea Rapid Test Device/Strip for swab specimens, designed for qualitative detection of Neisseria gonorrhoeae antigen as an aid in gonorrhea screening."
+        "title": "Gonorrhea Rapid Test Device/Strip Swab | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers Gonorrhea Rapid Test Device/Strip for swab specimens, designed for qualitative detection of Neisseria gonorrhoeae antigen as an aid in gonorrhea screening."
       },
       "hero": {
         "title": "Gonorrhea Rapid Test Device/Strip (Swab)",
-        "description": "Gonorrhea Rapid Test Device/Strip by Ivexia Pharma is an infectious disease rapid test designed for the qualitative detection of Gonorrhea antigen / Neisseria gonorrhoeae antigen in swab specimens. This Gonorrhea Rapid Test Device/Strip supports professional screening in hospitals, diagnostic laboratories, clinics, sexual health programs, and point-of-care testing environments."
+        "description": "Gonorrhea Rapid Test Device/Strip by LARKSOIS Pharma is an infectious disease rapid test designed for the qualitative detection of Gonorrhea antigen / Neisseria gonorrhoeae antigen in swab specimens. This Gonorrhea Rapid Test Device/Strip supports professional screening in hospitals, diagnostic laboratories, clinics, sexual health programs, and point-of-care testing environments."
       },
       "content": {
         "introduction": {
@@ -19087,7 +19087,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -19131,7 +19131,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Gonorrhea Rapid Test Device/Strip",
-          "description": "The Gonorrhea Rapid Test Device/Strip by Ivexia Pharma may be used in professional diagnostic and healthcare screening environments.",
+          "description": "The Gonorrhea Rapid Test Device/Strip by LARKSOIS Pharma may be used in professional diagnostic and healthcare screening environments.",
           "applications": [
             "Gonorrhea antigen screening",
             "Point-of-care testing workflows",
@@ -19180,11 +19180,11 @@ export const en = {
             "Avoid sample cross-contamination",
             "Handle all specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, extraction, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, extraction, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Target: Neisseria gonorrhoeae Antigen",
-          "content": "The Gonorrhea Rapid Test Device/Strip by Ivexia Pharma is designed to detect Neisseria gonorrhoeae antigen in swab specimens. It provides qualitative screening support and helps healthcare professionals identify cases that may require further clinical evaluation or confirmatory testing."
+          "content": "The Gonorrhea Rapid Test Device/Strip by LARKSOIS Pharma is designed to detect Neisseria gonorrhoeae antigen in swab specimens. It provides qualitative screening support and helps healthcare professionals identify cases that may require further clinical evaluation or confirmatory testing."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -19210,7 +19210,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma Gonorrhea Rapid Test Device/Strip",
+          "title": "Key Benefits of LARKSOIS Pharma Gonorrhea Rapid Test Device/Strip",
           "instructions": [
             "Rapid qualitative detection of Neisseria gonorrhoeae antigen",
             "Professional swab-based testing format",
@@ -19221,7 +19221,7 @@ export const en = {
             "Designed for professional in-vitro diagnostic use",
             "Suitable for international infectious disease diagnostic programs"
           ],
-          "note": "The Gonorrhea Rapid Test Device/Strip by Ivexia Pharma is developed for professional users who need fast and practical gonorrhea screening support."
+          "note": "The Gonorrhea Rapid Test Device/Strip by LARKSOIS Pharma is developed for professional users who need fast and practical gonorrhea screening support."
         },
         "procedure": {
           "title": "How to Use Gonorrhea Rapid Test Device/Strip",
@@ -19236,7 +19236,7 @@ export const en = {
             "Do not interpret results too early or after the recommended reading time",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -19271,8 +19271,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality infectious disease rapid tests for hospitals, clinics, diagnostic laboratories, distributors, importers, NGOs, and public health buyers. The Gonorrhea Rapid Test Device/Strip (Swab) is designed for simple operation, quick visual interpretation, and practical swab-based screening.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality infectious disease rapid tests for hospitals, clinics, diagnostic laboratories, distributors, importers, NGOs, and public health buyers. The Gonorrhea Rapid Test Device/Strip (Swab) is designed for simple operation, quick visual interpretation, and practical swab-based screening.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -19280,7 +19280,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports STI screening workflows",
             "Practical swab-based testing format",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -19355,12 +19355,12 @@ export const en = {
     },
     "h-pylori-rapid-test": {
       "meta": {
-        "title": "H. Pylori Ab Rapid Test Device S/P | Ivexia Pharma",
-        "description": "Ivexia Pharma offers H. Pylori Ab Rapid Test Device for qualitative detection of antibodies to Helicobacter pylori in serum or plasma specimens."
+        "title": "H. Pylori Ab Rapid Test Device S/P | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers H. Pylori Ab Rapid Test Device for qualitative detection of antibodies to Helicobacter pylori in serum or plasma specimens."
       },
       "hero": {
         "title": "H. Pylori Ab Rapid Test Device (S/P)",
-        "description": "H. Pylori Ab Rapid Test Device by Ivexia Pharma is an infectious disease rapid test designed for the qualitative detection of antibodies to Helicobacter pylori in serum or plasma specimens. This H. Pylori Ab Rapid Test Device supports quick preliminary screening for immune response related to H. pylori infection and is suitable for professional diagnostic use in hospitals, clinics, laboratories, and point-of-care testing environments."
+        "description": "H. Pylori Ab Rapid Test Device by LARKSOIS Pharma is an infectious disease rapid test designed for the qualitative detection of antibodies to Helicobacter pylori in serum or plasma specimens. This H. Pylori Ab Rapid Test Device supports quick preliminary screening for immune response related to H. pylori infection and is suitable for professional diagnostic use in hospitals, clinics, laboratories, and point-of-care testing environments."
       },
       "content": {
         "introduction": {
@@ -19381,7 +19381,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -19429,7 +19429,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of H. Pylori Ab Rapid Test Device",
-          "description": "The H. Pylori Ab Rapid Test Device by Ivexia Pharma may be used in professional diagnostic and healthcare screening environments.",
+          "description": "The H. Pylori Ab Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic and healthcare screening environments.",
           "applications": [
             "Rapid H. pylori antibody screening",
             "Gastrointestinal infection evaluation support",
@@ -19478,11 +19478,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: H. pylori Antibodies",
-          "content": "The H. Pylori Ab Rapid Test Device by Ivexia Pharma is designed to detect antibodies to Helicobacter pylori in serum or plasma specimens. It does not directly detect the bacteria itself, so results should be interpreted with symptoms, medical history, and other clinical findings."
+          "content": "The H. Pylori Ab Rapid Test Device by LARKSOIS Pharma is designed to detect antibodies to Helicobacter pylori in serum or plasma specimens. It does not directly detect the bacteria itself, so results should be interpreted with symptoms, medical history, and other clinical findings."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -19508,7 +19508,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma H. Pylori Ab Rapid Test Device",
+          "title": "Key Benefits of LARKSOIS Pharma H. Pylori Ab Rapid Test Device",
           "instructions": [
             "Rapid qualitative detection of H. pylori antibodies",
             "Suitable for serum or plasma specimens",
@@ -19519,7 +19519,7 @@ export const en = {
             "Designed for professional in-vitro diagnostic use",
             "Suitable for international diagnostic supply"
           ],
-          "note": "The H. Pylori Ab Rapid Test Device by Ivexia Pharma is developed for professional users who need fast and practical H. pylori antibody screening support."
+          "note": "The H. Pylori Ab Rapid Test Device by LARKSOIS Pharma is developed for professional users who need fast and practical H. pylori antibody screening support."
         },
         "procedure": {
           "title": "How to Use H. Pylori Ab Rapid Test Device",
@@ -19534,7 +19534,7 @@ export const en = {
             "Do not read results too early or after the recommended time",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -19569,8 +19569,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality infectious disease rapid tests for hospitals, clinics, diagnostic laboratories, distributors, importers, NGOs, and public health buyers. The H. Pylori Ab Rapid Test Device (S/P) is designed for simple operation, quick visual interpretation, and practical antibody-based screening.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality infectious disease rapid tests for hospitals, clinics, diagnostic laboratories, distributors, importers, NGOs, and public health buyers. The H. Pylori Ab Rapid Test Device (S/P) is designed for simple operation, quick visual interpretation, and practical antibody-based screening.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -19578,7 +19578,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports gastrointestinal infection screening workflows",
             "Practical S/P testing format",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -19593,7 +19593,7 @@ export const en = {
         },
         {
           "question": "What specimen is used for the H. Pylori Ab Rapid Test Device?",
-          "answer": "The H. Pylori Ab Rapid Test Device by Ivexia Pharma uses serum or plasma specimens. Collection and testing should follow the official product insert."
+          "answer": "The H. Pylori Ab Rapid Test Device by LARKSOIS Pharma uses serum or plasma specimens. Collection and testing should follow the official product insert."
         },
         {
           "question": "Can this test confirm treatment success?",
@@ -19653,12 +19653,12 @@ export const en = {
     },
     "h-pylori-rapid-test-wb": {
       "meta": {
-        "title": "H. Pylori Ab Rapid Test Device Oral Test WB/S/P | Ivexia Pharma",
-        "description": "Ivexia Pharma offers H. Pylori Ab Rapid Test Device Oral Test for qualitative detection of Helicobacter pylori antibodies in whole blood, serum, or plasma."
+        "title": "H. Pylori Ab Rapid Test Device Oral Test WB/S/P | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers H. Pylori Ab Rapid Test Device Oral Test for qualitative detection of Helicobacter pylori antibodies in whole blood, serum, or plasma."
       },
       "hero": {
         "title": "H. Pylori Ab Rapid Test Device Oral Test (Whole Blood/S/P)",
-        "description": "H. Pylori Ab Rapid Test Device Oral Test by Ivexia Pharma is an infectious disease rapid test designed for the qualitative detection of antibodies to Helicobacter pylori in whole blood, serum, or plasma specimens. This H. Pylori Ab Rapid Test Device supports fast preliminary screening for immune response related to H. pylori, a bacterium associated with gastritis, peptic ulcers, stomach discomfort, and other gastric conditions."
+        "description": "H. Pylori Ab Rapid Test Device Oral Test by LARKSOIS Pharma is an infectious disease rapid test designed for the qualitative detection of antibodies to Helicobacter pylori in whole blood, serum, or plasma specimens. This H. Pylori Ab Rapid Test Device supports fast preliminary screening for immune response related to H. pylori, a bacterium associated with gastritis, peptic ulcers, stomach discomfort, and other gastric conditions."
       },
       "content": {
         "introduction": {
@@ -19679,7 +19679,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -19727,7 +19727,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of H. Pylori Ab Rapid Test Device Oral Test",
-          "description": "The H. Pylori Ab Rapid Test Device Oral Test by Ivexia Pharma may be used in professional diagnostic and healthcare screening environments.",
+          "description": "The H. Pylori Ab Rapid Test Device Oral Test by LARKSOIS Pharma may be used in professional diagnostic and healthcare screening environments.",
           "applications": [
             "Quick H. pylori antibody screening",
             "Gastrointestinal infection evaluation",
@@ -19775,11 +19775,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: H. pylori Antibodies",
-          "content": "The H. Pylori Ab Rapid Test Device Oral Test by Ivexia Pharma is designed to detect antibodies to Helicobacter pylori in whole blood, serum, or plasma specimens. It does not directly confirm active bacterial presence, so results should be reviewed with symptoms, medical history, and additional testing where required."
+          "content": "The H. Pylori Ab Rapid Test Device Oral Test by LARKSOIS Pharma is designed to detect antibodies to Helicobacter pylori in whole blood, serum, or plasma specimens. It does not directly confirm active bacterial presence, so results should be reviewed with symptoms, medical history, and additional testing where required."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -19805,7 +19805,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma H. Pylori Ab Rapid Test Device Oral Test",
+          "title": "Key Benefits of LARKSOIS Pharma H. Pylori Ab Rapid Test Device Oral Test",
           "instructions": [
             "Rapid qualitative detection of H. pylori antibodies",
             "Suitable for whole blood, serum, or plasma specimens",
@@ -19816,7 +19816,7 @@ export const en = {
             "Designed for professional in-vitro diagnostic use",
             "Suitable for international diagnostic supply"
           ],
-          "note": "The H. Pylori Ab Rapid Test Device Oral Test by Ivexia Pharma is developed for professional users who need fast and practical H. pylori antibody screening support."
+          "note": "The H. Pylori Ab Rapid Test Device Oral Test by LARKSOIS Pharma is developed for professional users who need fast and practical H. pylori antibody screening support."
         },
         "procedure": {
           "title": "How to Use H. Pylori Ab Rapid Test Device",
@@ -19831,7 +19831,7 @@ export const en = {
             "Do not read results too early or after the recommended time",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -19866,8 +19866,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality infectious disease rapid tests for hospitals, clinics, diagnostic laboratories, distributors, importers, NGOs, and public health buyers. The H. Pylori Ab Rapid Test Device Oral Test is designed for simple operation, quick visual interpretation, and practical antibody-based screening.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality infectious disease rapid tests for hospitals, clinics, diagnostic laboratories, distributors, importers, NGOs, and public health buyers. The H. Pylori Ab Rapid Test Device Oral Test is designed for simple operation, quick visual interpretation, and practical antibody-based screening.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -19875,7 +19875,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports gastrointestinal infection screening workflows",
             "Practical WB/S/P testing format",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -19890,7 +19890,7 @@ export const en = {
         },
         {
           "question": "What specimen is used for the H. Pylori Ab Rapid Test Device Oral Test?",
-          "answer": "The H. Pylori Ab Rapid Test Device Oral Test by Ivexia Pharma uses whole blood, serum, or plasma specimens. Collection and testing should follow the official product insert."
+          "answer": "The H. Pylori Ab Rapid Test Device Oral Test by LARKSOIS Pharma uses whole blood, serum, or plasma specimens. Collection and testing should follow the official product insert."
         },
         {
           "question": "Can this test confirm treatment success?",
@@ -19950,12 +19950,12 @@ export const en = {
     },
     "h-pylori-rapid-test-feces": {
       "meta": {
-        "title": "H. Pylori Ag Rapid Test Device Feces | Ivexia Pharma",
-        "description": "Ivexia Pharma offers H. Pylori Ag Rapid Test Device for rapid qualitative detection of Helicobacter pylori antigen in feces/stool specimens for professional infectious disease screening."
+        "title": "H. Pylori Ag Rapid Test Device Feces | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers H. Pylori Ag Rapid Test Device for rapid qualitative detection of Helicobacter pylori antigen in feces/stool specimens for professional infectious disease screening."
       },
       "hero": {
         "title": "H. Pylori Ag Rapid Test Device (Feces)",
-        "description": "H. Pylori Ag Rapid Test Device by Ivexia Pharma is an infectious disease rapid test designed for the qualitative detection of Helicobacter pylori antigen in human feces/stool specimens. This H. Pylori Ag Rapid Test Device supports rapid, non-invasive screening for possible active H. pylori infection and is suitable for hospitals, clinics, diagnostic laboratories, gastroenterology screening programs, and point-of-care testing environments."
+        "description": "H. Pylori Ag Rapid Test Device by LARKSOIS Pharma is an infectious disease rapid test designed for the qualitative detection of Helicobacter pylori antigen in human feces/stool specimens. This H. Pylori Ag Rapid Test Device supports rapid, non-invasive screening for possible active H. pylori infection and is suitable for hospitals, clinics, diagnostic laboratories, gastroenterology screening programs, and point-of-care testing environments."
       },
       "content": {
         "introduction": {
@@ -19976,7 +19976,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -20020,7 +20020,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of H. Pylori Ag Rapid Test Device",
-          "description": "The H. Pylori Ag Rapid Test Device by Ivexia Pharma may be used in professional diagnostic and healthcare screening environments.",
+          "description": "The H. Pylori Ag Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic and healthcare screening environments.",
           "applications": [
             "Non-invasive H. pylori antigen screening",
             "Fast stool-based testing workflow",
@@ -20069,11 +20069,11 @@ export const en = {
             "Avoid contaminated or improperly stored specimens",
             "Handle all specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, extraction, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, extraction, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Helicobacter pylori Antigen",
-          "content": "The H. Pylori Ag Rapid Test Device by Ivexia Pharma is designed to detect Helicobacter pylori antigen in feces or stool specimens. Unlike antibody testing, stool antigen testing helps support screening for possible active H. pylori infection."
+          "content": "The H. Pylori Ag Rapid Test Device by LARKSOIS Pharma is designed to detect Helicobacter pylori antigen in feces or stool specimens. Unlike antibody testing, stool antigen testing helps support screening for possible active H. pylori infection."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -20099,7 +20099,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma H. Pylori Ag Rapid Test Device",
+          "title": "Key Benefits of LARKSOIS Pharma H. Pylori Ag Rapid Test Device",
           "instructions": [
             "Rapid qualitative detection of H. pylori antigen",
             "Suitable for feces or stool specimens",
@@ -20110,7 +20110,7 @@ export const en = {
             "Useful for gastrointestinal infection screening",
             "Designed for professional in-vitro diagnostic use"
           ],
-          "note": "The H. Pylori Ag Rapid Test Device by Ivexia Pharma is developed for professional users who need fast and practical H. pylori antigen screening support."
+          "note": "The H. Pylori Ag Rapid Test Device by LARKSOIS Pharma is developed for professional users who need fast and practical H. pylori antigen screening support."
         },
         "procedure": {
           "title": "How to Use H. Pylori Ag Rapid Test Device",
@@ -20125,7 +20125,7 @@ export const en = {
             "Read the control and test lines within the valid time window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -20160,8 +20160,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality infectious disease rapid tests for hospitals, clinics, diagnostic laboratories, distributors, importers, NGOs, and public health buyers. The H. Pylori Ag Rapid Test Device (Feces) is designed for simple operation, quick visual interpretation, and practical stool-based antigen screening.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality infectious disease rapid tests for hospitals, clinics, diagnostic laboratories, distributors, importers, NGOs, and public health buyers. The H. Pylori Ag Rapid Test Device (Feces) is designed for simple operation, quick visual interpretation, and practical stool-based antigen screening.",
           "advantages": [
             "International diagnostic product focus",
             "Reliable rapid testing solutions",
@@ -20169,7 +20169,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports gastrointestinal infection screening workflows",
             "Practical feces/stool testing format",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -20184,7 +20184,7 @@ export const en = {
         },
         {
           "question": "What specimen is used for the H. Pylori Ag Rapid Test Device?",
-          "answer": "The H. Pylori Ag Rapid Test Device by Ivexia Pharma uses feces or stool specimens. Collection and testing should follow the official product insert."
+          "answer": "The H. Pylori Ag Rapid Test Device by LARKSOIS Pharma uses feces or stool specimens. Collection and testing should follow the official product insert."
         },
         {
           "question": "Can this test confirm treatment success?",
@@ -20244,12 +20244,12 @@ export const en = {
     },
     "t-ferritin-test": {
       "meta": {
-        "title": "T-Ferritin Rapid Test Device Feces | Transferrin Fecal Rapid Test | Ivexia Pharma",
-        "description": "Ivexia Pharma T-Ferritin Rapid Test Device (Feces) is a rapid fecal tumor marker test for qualitative detection of transferrin in stool, supporting gastrointestinal bleeding screening."
+        "title": "T-Ferritin Rapid Test Device Feces | Transferrin Fecal Rapid Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma T-Ferritin Rapid Test Device (Feces) is a rapid fecal tumor marker test for qualitative detection of transferrin in stool, supporting gastrointestinal bleeding screening."
       },
       "hero": {
         "title": "T-Ferritin Rapid Test Device (Feces)",
-        "description": "Ivexia Pharma T-Ferritin Rapid Test Device (Feces) is a rapid diagnostic test designed for the qualitative detection of transferrin in human fecal samples. The T-Ferritin Rapid Test Device supports screening for hidden gastrointestinal bleeding, colorectal health concerns, and fecal occult blood-related conditions. Developed for professional diagnostic use, this feces-based rapid test is suitable for hospitals, diagnostic laboratories, clinics, screening centers, and global healthcare distribution."
+        "description": "LARKSOIS Pharma T-Ferritin Rapid Test Device (Feces) is a rapid diagnostic test designed for the qualitative detection of transferrin in human fecal samples. The T-Ferritin Rapid Test Device supports screening for hidden gastrointestinal bleeding, colorectal health concerns, and fecal occult blood-related conditions. Developed for professional diagnostic use, this feces-based rapid test is suitable for hospitals, diagnostic laboratories, clinics, screening centers, and global healthcare distribution."
       },
       "content": {
         "introduction": {
@@ -20270,7 +20270,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -20314,7 +20314,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of T-Ferritin Rapid Test Device",
-          "description": "The T-Ferritin Rapid Test Device by Ivexia Pharma may be used in professional healthcare and diagnostic environments.",
+          "description": "The T-Ferritin Rapid Test Device by LARKSOIS Pharma may be used in professional healthcare and diagnostic environments.",
           "applications": [
             "Gastrointestinal bleeding screening",
             "Colorectal health assessment",
@@ -20363,11 +20363,11 @@ export const en = {
             "Read results within the recommended time window",
             "Handle all specimens according to laboratory safety procedures"
           ],
-          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Transferrin in Feces",
-          "content": "The T-Ferritin Rapid Test Device by Ivexia Pharma is designed for qualitative detection of transferrin in fecal samples. Detection of transferrin may help support gastrointestinal bleeding screening and colorectal health evaluation."
+          "content": "The T-Ferritin Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection of transferrin in fecal samples. Detection of transferrin may help support gastrointestinal bleeding screening and colorectal health evaluation."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -20393,7 +20393,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma T-Ferritin Rapid Test Device",
+          "title": "Key Benefits of LARKSOIS Pharma T-Ferritin Rapid Test Device",
           "instructions": [
             "Rapid feces-based testing",
             "Qualitative transferrin detection",
@@ -20404,7 +20404,7 @@ export const en = {
             "Useful for colorectal screening support",
             "Practical point-of-care format"
           ],
-          "note": "The T-Ferritin Rapid Test Device by Ivexia Pharma is developed for professional users who require practical and accessible gastrointestinal screening support."
+          "note": "The T-Ferritin Rapid Test Device by LARKSOIS Pharma is developed for professional users who require practical and accessible gastrointestinal screening support."
         },
         "procedure": {
           "title": "How to Use T-Ferritin Rapid Test Device",
@@ -20419,7 +20419,7 @@ export const en = {
             "Read test and control lines within the valid time window",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -20454,8 +20454,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides international-quality diagnostic products for hospitals, clinics, laboratories, importers, and distributors. The T-Ferritin Rapid Test Device supports practical gastrointestinal screening workflows with simple and reliable rapid testing technology.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides international-quality diagnostic products for hospitals, clinics, laboratories, importers, and distributors. The T-Ferritin Rapid Test Device supports practical gastrointestinal screening workflows with simple and reliable rapid testing technology.",
           "advantages": [
             "International tumor marker rapid test portfolio",
             "Reliable rapid diagnostic solutions",
@@ -20463,7 +20463,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports GI health screening workflows",
             "Practical feces-based testing format",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -20474,7 +20474,7 @@ export const en = {
         },
         {
           "question": "Can I test my ferritin levels at home?",
-          "answer": "Some ferritin self-test kits may be available in certain markets, but many rapid tests are intended for professional use. The Ivexia Pharma T-Ferritin Rapid Test Device (Feces) should be used according to the product label and local diagnostic regulations."
+          "answer": "Some ferritin self-test kits may be available in certain markets, but many rapid tests are intended for professional use. The LARKSOIS Pharma T-Ferritin Rapid Test Device (Feces) should be used according to the product label and local diagnostic regulations."
         },
         {
           "question": "Can Mounjaro increase ferritin levels?",
@@ -20502,7 +20502,7 @@ export const en = {
             "name": "Can I test my ferritin levels at home?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Some ferritin self-test kits may be available in certain markets, but many rapid tests are intended for professional use. The Ivexia Pharma T-Ferritin Rapid Test Device (Feces) should be used according to the product label and local diagnostic regulations."
+              "text": "Some ferritin self-test kits may be available in certain markets, but many rapid tests are intended for professional use. The LARKSOIS Pharma T-Ferritin Rapid Test Device (Feces) should be used according to the product label and local diagnostic regulations."
             }
           },
           {
@@ -20526,19 +20526,19 @@ export const en = {
     },
     "psa-semi-quantitative-test": {
       "meta": {
-        "title": "PSA Semi-Quantitative Rapid Test Device WB/S/P | Ivexia Pharma",
-        "description": "Ivexia Pharma PSA Semi-Quantitative Rapid Test Device (WB/S/P) is a rapid tumor marker test for detecting prostate specific antigen in whole blood, serum, or plasma."
+        "title": "PSA Semi-Quantitative Rapid Test Device WB/S/P | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma PSA Semi-Quantitative Rapid Test Device (WB/S/P) is a rapid tumor marker test for detecting prostate specific antigen in whole blood, serum, or plasma."
       },
       "hero": {
         "title": "PSA Semi-Quantitative Rapid Test Device (WB/S/P)",
-        "description": "Ivexia Pharma PSA Semi-Quantitative Rapid Test Device (WB/S/P) is a rapid diagnostic test designed for the semi-quantitative detection of Prostate Specific Antigen (PSA) in whole blood, serum, or plasma samples. The PSA semi-quantitative rapid test supports prostate health screening, elevated PSA assessment, and professional diagnostic workflows in hospitals, laboratories, clinics, urology centers, and preventive men’s health programs."
+        "description": "LARKSOIS Pharma PSA Semi-Quantitative Rapid Test Device (WB/S/P) is a rapid diagnostic test designed for the semi-quantitative detection of Prostate Specific Antigen (PSA) in whole blood, serum, or plasma samples. The PSA semi-quantitative rapid test supports prostate health screening, elevated PSA assessment, and professional diagnostic workflows in hospitals, laboratories, clinics, urology centers, and preventive menâ€™s health programs."
       },
       "content": {
         "introduction": {
           "title": "Introduction",
           "sections": [
             "The PSA Semi-Quantitative Rapid Test Device is a professional tumor marker rapid test designed for semi-quantitative detection of Prostate Specific Antigen in whole blood, serum, or plasma.",
-            "This rapid test supports prostate health screening, elevated PSA assessment, and men’s preventive health programs.",
+            "This rapid test supports prostate health screening, elevated PSA assessment, and menâ€™s preventive health programs.",
             "The device is suitable for hospitals, laboratories, clinics, urology centers, and point-of-care diagnostic workflows.",
             "Results should be interpreted with age, symptoms, clinical history, physical examination, and confirmatory laboratory findings."
           ]
@@ -20552,7 +20552,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -20583,7 +20583,7 @@ export const en = {
               "value": "Professional in-vitro diagnostic use"
             }
           ],
-          "note": "The PSA Semi-Quantitative Rapid Test Device is suitable for hospitals, diagnostic laboratories, clinics, urology centers, screening programs, men’s preventive health checkups, and international diagnostic distribution."
+          "note": "The PSA Semi-Quantitative Rapid Test Device is suitable for hospitals, diagnostic laboratories, clinics, urology centers, screening programs, menâ€™s preventive health checkups, and international diagnostic distribution."
         },
         "whatIsCovidAgTest": {
           "title": "What is PSA Semi-Quantitative Testing?",
@@ -20600,10 +20600,10 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of PSA Semi-Quantitative Rapid Test Device",
-          "description": "The PSA Semi-Quantitative Rapid Test Device by Ivexia Pharma may be used in professional diagnostic and men’s health screening environments.",
+          "description": "The PSA Semi-Quantitative Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic and menâ€™s health screening environments.",
           "applications": [
             "Prostate health screening",
-            "Men’s preventive health checkups",
+            "Menâ€™s preventive health checkups",
             "Urology clinic evaluation",
             "Elevated PSA risk assessment",
             "Follow-up testing guidance",
@@ -20631,7 +20631,7 @@ export const en = {
             "Suitable for whole blood, serum, or plasma",
             "Simple visual interpretation",
             "Professional diagnostic application",
-            "Supports urology and men’s health programs",
+            "Supports urology and menâ€™s health programs",
             "Practical point-of-care format",
             "No major instrument required"
           ]
@@ -20649,11 +20649,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Prostate Specific Antigen",
-          "content": "The PSA Semi-Quantitative Rapid Test Device by Ivexia Pharma is designed to detect and estimate Prostate Specific Antigen levels in whole blood, serum, or plasma specimens. It helps healthcare professionals screen PSA levels quickly before further laboratory confirmation."
+          "content": "The PSA Semi-Quantitative Rapid Test Device by LARKSOIS Pharma is designed to detect and estimate Prostate Specific Antigen levels in whole blood, serum, or plasma specimens. It helps healthcare professionals screen PSA levels quickly before further laboratory confirmation."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -20661,7 +20661,7 @@ export const en = {
             "PSA testing may support prostate health screening and elevated PSA assessment.",
             "A raised PSA level does not always mean cancer and may occur due to age, enlarged prostate, inflammation, infection, or recent prostate-related procedures.",
             "Healthcare professionals should interpret PSA results with clinical history, physical examination, age, and confirmatory testing.",
-            "The test may support urology clinics, men’s health programs, diagnostic laboratories, and screening camps."
+            "The test may support urology clinics, menâ€™s health programs, diagnostic laboratories, and screening camps."
           ]
         },
         "limitations": {
@@ -20679,7 +20679,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma PSA Semi-Quantitative Rapid Test Device",
+          "title": "Key Benefits of LARKSOIS Pharma PSA Semi-Quantitative Rapid Test Device",
           "instructions": [
             "Rapid PSA detection",
             "Semi-quantitative result support",
@@ -20687,10 +20687,10 @@ export const en = {
             "Simple rapid test procedure",
             "Useful for prostate health screening",
             "Professional diagnostic application",
-            "Supports urology and men’s health programs",
+            "Supports urology and menâ€™s health programs",
             "Practical point-of-care format"
           ],
-          "note": "The PSA Semi-Quantitative Rapid Test Device by Ivexia Pharma is developed for professional users who need practical and accessible prostate screening support."
+          "note": "The PSA Semi-Quantitative Rapid Test Device by LARKSOIS Pharma is developed for professional users who need practical and accessible prostate screening support."
         },
         "procedure": {
           "title": "How to Use PSA Semi-Quantitative Rapid Test Device",
@@ -20706,7 +20706,7 @@ export const en = {
             "Do not read results after the recommended time",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -20741,8 +20741,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides professional rapid diagnostic products for international healthcare markets. The PSA Semi-Quantitative Rapid Test Device reflects the company’s focus on quality, usability, and accessible diagnostic support for prostate health screening.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides professional rapid diagnostic products for international healthcare markets. The PSA Semi-Quantitative Rapid Test Device reflects the companyâ€™s focus on quality, usability, and accessible diagnostic support for prostate health screening.",
           "advantages": [
             "International tumor marker diagnostic range",
             "Export-ready rapid test portfolio",
@@ -20813,12 +20813,12 @@ export const en = {
     },
     "psa-test": {
       "meta": {
-        "title": "PSA Rapid Test Device WB/S/P | Prostate Specific Antigen Test | Ivexia Pharma",
-        "description": "Ivexia Pharma PSA Rapid Test Device (WB/S/P) is a rapid diagnostic test for qualitative or semi-quantitative detection of Prostate Specific Antigen in whole blood, serum, or plasma."
+        "title": "PSA Rapid Test Device WB/S/P | Prostate Specific Antigen Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma PSA Rapid Test Device (WB/S/P) is a rapid diagnostic test for qualitative or semi-quantitative detection of Prostate Specific Antigen in whole blood, serum, or plasma."
       },
       "hero": {
         "title": "Prostate Specific Antigen Rapid Test Device (WB/S/P)",
-        "description": "Ivexia Pharma Prostate Specific Antigen Rapid Test Device (WB/S/P) is a rapid diagnostic test designed for the detection of PSA – Prostate Specific Antigen in whole blood, serum, or plasma samples. The PSA Rapid Test Device supports prostate health screening, early risk assessment, and clinical evaluation of elevated PSA levels. Designed for professional diagnostic use, this Prostate Specific Antigen Rapid Test offers a fast, simple, and practical testing solution for hospitals, diagnostic laboratories, clinics, urology centers, and global healthcare screening programs."
+        "description": "LARKSOIS Pharma Prostate Specific Antigen Rapid Test Device (WB/S/P) is a rapid diagnostic test designed for the detection of PSA â€“ Prostate Specific Antigen in whole blood, serum, or plasma samples. The PSA Rapid Test Device supports prostate health screening, early risk assessment, and clinical evaluation of elevated PSA levels. Designed for professional diagnostic use, this Prostate Specific Antigen Rapid Test offers a fast, simple, and practical testing solution for hospitals, diagnostic laboratories, clinics, urology centers, and global healthcare screening programs."
       },
       "content": {
         "introduction": {
@@ -20839,7 +20839,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -20870,7 +20870,7 @@ export const en = {
               "value": "Professional in-vitro diagnostic use"
             }
           ],
-          "note": "The PSA Rapid Test Device is suitable for hospitals, clinics, laboratories, urology centers, men’s health screening programs, point-of-care testing, and international diagnostic distribution."
+          "note": "The PSA Rapid Test Device is suitable for hospitals, clinics, laboratories, urology centers, menâ€™s health screening programs, point-of-care testing, and international diagnostic distribution."
         },
         "whatIsCovidAgTest": {
           "title": "What is PSA Rapid Testing?",
@@ -20881,19 +20881,19 @@ export const en = {
           "sections": [
             "The Prostate Specific Antigen Rapid Test helps support early prostate health screening.",
             "Many men with early prostate conditions may not have clear symptoms, so PSA testing can help guide further medical evaluation.",
-            "The PSA Rapid Test Device may support elevated PSA screening, urology consultation, preventive health checkups, and men’s health programs.",
+            "The PSA Rapid Test Device may support elevated PSA screening, urology consultation, preventive health checkups, and menâ€™s health programs.",
             "A raised PSA result does not confirm prostate cancer and should be reviewed with clinical history and further diagnostic testing."
           ]
         },
         "intendedUse": {
           "title": "Applications of PSA Rapid Test Device",
-          "description": "The PSA Rapid Test Device by Ivexia Pharma may be used in professional diagnostic and prostate health screening environments.",
+          "description": "The PSA Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic and prostate health screening environments.",
           "applications": [
             "Prostate health assessment",
             "Elevated PSA screening",
             "Urology consultation support",
             "Preventive health checkups",
-            "Men’s health screening programs",
+            "Menâ€™s health screening programs",
             "Monitoring support after medical advice",
             "Laboratory and point-of-care testing",
             "Tumor marker screening programs",
@@ -20936,11 +20936,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Prostate Specific Antigen",
-          "content": "The PSA Rapid Test Device by Ivexia Pharma is designed to detect Prostate Specific Antigen in whole blood, serum, or plasma samples. It supports quick prostate screening workflows and helps identify patients who may need further medical evaluation."
+          "content": "The PSA Rapid Test Device by LARKSOIS Pharma is designed to detect Prostate Specific Antigen in whole blood, serum, or plasma samples. It supports quick prostate screening workflows and helps identify patients who may need further medical evaluation."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -20966,7 +20966,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma PSA Rapid Test Device",
+          "title": "Key Benefits of LARKSOIS Pharma PSA Rapid Test Device",
           "instructions": [
             "Rapid PSA detection",
             "Suitable for whole blood, serum, or plasma",
@@ -20977,7 +20977,7 @@ export const en = {
             "Practical point-of-care format",
             "Suitable for international diagnostic markets"
           ],
-          "note": "The PSA Rapid Test Device by Ivexia Pharma is developed for professional users who need fast and practical prostate screening support."
+          "note": "The PSA Rapid Test Device by LARKSOIS Pharma is developed for professional users who need fast and practical prostate screening support."
         },
         "procedure": {
           "title": "How to Use PSA Rapid Test Device",
@@ -20992,7 +20992,7 @@ export const en = {
             "Do not read results after the recommended time",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -21027,8 +21027,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides professional diagnostic products for international healthcare markets. The PSA Rapid Test Device is designed to support quick prostate screening workflows and dependable clinical use for hospitals, laboratories, clinics, and distributors.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides professional diagnostic products for international healthcare markets. The PSA Rapid Test Device is designed to support quick prostate screening workflows and dependable clinical use for hospitals, laboratories, clinics, and distributors.",
           "advantages": [
             "International diagnostic product portfolio",
             "Tumor marker rapid test range",
@@ -21099,12 +21099,12 @@ export const en = {
     },
     "fob-strip-test": {
       "meta": {
-        "title": "Human Fecal Occult Blood FOB Rapid Test Device | Ivexia Pharma",
-        "description": "Ivexia Pharma Human Fecal Occult Blood (FOB) Rapid Test Device is a rapid feces-based diagnostic test for qualitative detection of hidden blood in stool, supporting GI bleeding and colorectal screening workflows."
+        "title": "Human Fecal Occult Blood FOB Rapid Test Device | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Human Fecal Occult Blood (FOB) Rapid Test Device is a rapid feces-based diagnostic test for qualitative detection of hidden blood in stool, supporting GI bleeding and colorectal screening workflows."
       },
       "hero": {
         "title": "Human Fecal Occult Blood (FOB) Rapid Test Device (Feces)",
-        "description": "Ivexia Pharma Human Fecal Occult Blood (FOB) Rapid Test Device (Feces) is a rapid diagnostic test designed for the qualitative detection of hidden human blood in fecal samples. The FOB Rapid Test Device supports screening for gastrointestinal bleeding that may not be visible to the eye. This test is useful for hospitals, diagnostic laboratories, clinics, colorectal screening programs, and point-of-care testing environments."
+        "description": "LARKSOIS Pharma Human Fecal Occult Blood (FOB) Rapid Test Device (Feces) is a rapid diagnostic test designed for the qualitative detection of hidden human blood in fecal samples. The FOB Rapid Test Device supports screening for gastrointestinal bleeding that may not be visible to the eye. This test is useful for hospitals, diagnostic laboratories, clinics, colorectal screening programs, and point-of-care testing environments."
       },
       "content": {
         "introduction": {
@@ -21141,7 +21141,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Use",
@@ -21152,7 +21152,7 @@ export const en = {
               "value": "Hospitals, clinics, diagnostic laboratories, screening centers"
             }
           ],
-          "note": "The Human Fecal Occult Blood Rapid Test Device by Ivexia Pharma is used to detect occult blood in stool. Occult blood means hidden blood that cannot be seen visually."
+          "note": "The Human Fecal Occult Blood Rapid Test Device by LARKSOIS Pharma is used to detect occult blood in stool. Occult blood means hidden blood that cannot be seen visually."
         },
         "whatIsCovidAgTest": {
           "title": "What is FOB Testing?",
@@ -21169,7 +21169,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of FOB Rapid Test Device",
-          "description": "The Human Fecal Occult Blood Rapid Test Device by Ivexia Pharma may be used in professional diagnostic and healthcare screening environments.",
+          "description": "The Human Fecal Occult Blood Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic and healthcare screening environments.",
           "applications": [
             "Colorectal screening support",
             "Gastrointestinal bleeding detection",
@@ -21218,11 +21218,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all fecal specimens according to laboratory safety procedures"
           ],
-          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Human Fecal Occult Blood",
-          "content": "The Human Fecal Occult Blood Rapid Test Device by Ivexia Pharma is designed for qualitative detection of hidden human blood in fecal samples. Detection of occult blood may support gastrointestinal bleeding screening and colorectal health evaluation."
+          "content": "The Human Fecal Occult Blood Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection of hidden human blood in fecal samples. Detection of occult blood may support gastrointestinal bleeding screening and colorectal health evaluation."
         },
         "clinicalImportance": {
           "title": "Clinical Applications",
@@ -21248,7 +21248,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Features of Ivexia Pharma FOB Rapid Test Device",
+          "title": "Key Features of LARKSOIS Pharma FOB Rapid Test Device",
           "instructions": [
             "Rapid feces-based testing",
             "Qualitative detection of human occult blood",
@@ -21274,12 +21274,12 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "Occult blood is detected in the fecal sample. Further medical evaluation may be needed.",
-          "negative": "Occult blood is not detected at the test’s detection limit.",
+          "negative": "Occult blood is not detected at the testâ€™s detection limit.",
           "invalid": "The test did not run properly and should be repeated with a new device according to the instructions for use."
         },
         "storage": {
@@ -21309,8 +21309,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides diagnostic products developed for professional healthcare markets. The Human Fecal Occult Blood Rapid Test Device (Feces) supports fast testing, practical workflow, and reliable screening support.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides diagnostic products developed for professional healthcare markets. The Human Fecal Occult Blood Rapid Test Device (Feces) supports fast testing, practical workflow, and reliable screening support.",
           "advantages": [
             "International diagnostic product portfolio",
             "Export-ready rapid test solutions",
@@ -21337,7 +21337,7 @@ export const en = {
         },
         {
           "question": "How do I prepare for a FOB test?",
-          "answer": "Preparation depends on the test type. Some older guaiac-based tests may require diet or medicine restrictions, while immunochemical FOB tests usually require fewer restrictions. Always follow the kit instructions or doctor’s advice."
+          "answer": "Preparation depends on the test type. Some older guaiac-based tests may require diet or medicine restrictions, while immunochemical FOB tests usually require fewer restrictions. Always follow the kit instructions or doctorâ€™s advice."
         }
       ],
       "faqSchema": {
@@ -21373,7 +21373,7 @@ export const en = {
             "name": "How do I prepare for a FOB test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Preparation depends on the test type. Some older guaiac-based tests may require diet or medicine restrictions, while immunochemical FOB tests usually require fewer restrictions. Always follow the kit instructions or doctor’s advice."
+              "text": "Preparation depends on the test type. Some older guaiac-based tests may require diet or medicine restrictions, while immunochemical FOB tests usually require fewer restrictions. Always follow the kit instructions or doctorâ€™s advice."
             }
           }
         ]
@@ -21381,12 +21381,12 @@ export const en = {
     },
     "ferritin-test": {
       "meta": {
-        "title": "Ferritin Rapid Test Device WB/S/P | Ferritin Blood Test | Ivexia Pharma",
-        "description": "Ivexia Pharma Ferritin Rapid Test Device (WB/S/P) is a rapid diagnostic test for qualitative detection of ferritin in whole blood, serum, or plasma."
+        "title": "Ferritin Rapid Test Device WB/S/P | Ferritin Blood Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Ferritin Rapid Test Device (WB/S/P) is a rapid diagnostic test for qualitative detection of ferritin in whole blood, serum, or plasma."
       },
       "hero": {
         "title": "Ferritin Rapid Test Device (WB/S/P)",
-        "description": "Ivexia Pharma Ferritin Rapid Test Device (WB/S/P) is a rapid diagnostic test designed for the qualitative detection of ferritin in whole blood, serum, or plasma samples. The Ferritin Rapid Test Device supports iron storage assessment, anemia evaluation support, and professional diagnostic workflows in hospitals, laboratories, clinics, screening centers, and preventive healthcare programs."
+        "description": "LARKSOIS Pharma Ferritin Rapid Test Device (WB/S/P) is a rapid diagnostic test designed for the qualitative detection of ferritin in whole blood, serum, or plasma samples. The Ferritin Rapid Test Device supports iron storage assessment, anemia evaluation support, and professional diagnostic workflows in hospitals, laboratories, clinics, screening centers, and preventive healthcare programs."
       },
       "content": {
         "introduction": {
@@ -21407,7 +21407,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -21455,7 +21455,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Ferritin Rapid Test Device",
-          "description": "The Ferritin Rapid Test Device by Ivexia Pharma may be used in professional diagnostic and healthcare screening environments.",
+          "description": "The Ferritin Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic and healthcare screening environments.",
           "applications": [
             "Iron storage assessment",
             "Anemia evaluation support",
@@ -21504,11 +21504,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Ferritin",
-          "content": "The Ferritin Rapid Test Device by Ivexia Pharma is designed for qualitative detection of ferritin in whole blood, serum, or plasma samples. Ferritin detection may support evaluation of iron storage and anemia-related screening workflows."
+          "content": "The Ferritin Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection of ferritin in whole blood, serum, or plasma samples. Ferritin detection may support evaluation of iron storage and anemia-related screening workflows."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -21534,7 +21534,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma Ferritin Rapid Test Device",
+          "title": "Key Benefits of LARKSOIS Pharma Ferritin Rapid Test Device",
           "instructions": [
             "Rapid ferritin detection",
             "Qualitative blood-based testing",
@@ -21545,7 +21545,7 @@ export const en = {
             "Professional diagnostic application",
             "Practical point-of-care testing support"
           ],
-          "note": "The Ferritin Rapid Test Device by Ivexia Pharma is developed for professional users who need practical and accessible ferritin screening support."
+          "note": "The Ferritin Rapid Test Device by LARKSOIS Pharma is developed for professional users who need practical and accessible ferritin screening support."
         },
         "procedure": {
           "title": "How to Use Ferritin Rapid Test Device",
@@ -21560,7 +21560,7 @@ export const en = {
             "Do not read results after the recommended time",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -21595,8 +21595,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides professional diagnostic products for international healthcare markets. The Ferritin Rapid Test Device supports quick ferritin screening workflows and practical clinical use for hospitals, laboratories, clinics, and distributors.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides professional diagnostic products for international healthcare markets. The Ferritin Rapid Test Device supports quick ferritin screening workflows and practical clinical use for hospitals, laboratories, clinics, and distributors.",
           "advantages": [
             "International diagnostic product portfolio",
             "Reliable rapid test solutions",
@@ -21615,7 +21615,7 @@ export const en = {
         },
         {
           "question": "Can I test my ferritin levels at home?",
-          "answer": "Some ferritin self-test kits may be available in certain markets, but many ferritin rapid tests are intended for professional use. The Ivexia Pharma Ferritin Rapid Test Device should be used according to the product label and local diagnostic regulations."
+          "answer": "Some ferritin self-test kits may be available in certain markets, but many ferritin rapid tests are intended for professional use. The LARKSOIS Pharma Ferritin Rapid Test Device should be used according to the product label and local diagnostic regulations."
         },
         {
           "question": "What does low ferritin mean?",
@@ -21643,7 +21643,7 @@ export const en = {
             "name": "Can I test my ferritin levels at home?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Some ferritin self-test kits may be available in certain markets, but many ferritin rapid tests are intended for professional use. The Ivexia Pharma Ferritin Rapid Test Device should be used according to the product label and local diagnostic regulations."
+              "text": "Some ferritin self-test kits may be available in certain markets, but many ferritin rapid tests are intended for professional use. The LARKSOIS Pharma Ferritin Rapid Test Device should be used according to the product label and local diagnostic regulations."
             }
           },
           {
@@ -21667,12 +21667,12 @@ export const en = {
     },
     "alb-strip-test": {
       "meta": {
-        "title": "Micro-Albumin Rapid Test Strip Urine | ALB Urine Test Strip | Ivexia Pharma",
-        "description": "Ivexia Pharma Micro-Albumin Rapid Test Strip (Urine) is a rapid urine screening strip for semi-quantitative detection of microalbumin, supporting kidney function screening and early albuminuria assessment."
+        "title": "Micro-Albumin Rapid Test Strip Urine | ALB Urine Test Strip | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Micro-Albumin Rapid Test Strip (Urine) is a rapid urine screening strip for semi-quantitative detection of microalbumin, supporting kidney function screening and early albuminuria assessment."
       },
       "hero": {
         "title": "Micro-Albumin Rapid Test Strip (Urine)",
-        "description": "Ivexia Pharma Micro-Albumin Rapid Test Strip (Urine) is a rapid diagnostic strip designed for the detection of microalbumin in human urine samples. This ALB urine test strip supports early screening of abnormal albumin levels, which may be associated with kidney stress, diabetic kidney risk, hypertension-related kidney concerns, and early albuminuria. Designed for professional diagnostic use, the Micro-Albumin Rapid Test Strip offers a simple, fast, and practical urine-based testing solution for hospitals, diagnostic laboratories, clinics, and point-of-care screening programs."
+        "description": "LARKSOIS Pharma Micro-Albumin Rapid Test Strip (Urine) is a rapid diagnostic strip designed for the detection of microalbumin in human urine samples. This ALB urine test strip supports early screening of abnormal albumin levels, which may be associated with kidney stress, diabetic kidney risk, hypertension-related kidney concerns, and early albuminuria. Designed for professional diagnostic use, the Micro-Albumin Rapid Test Strip offers a simple, fast, and practical urine-based testing solution for hospitals, diagnostic laboratories, clinics, and point-of-care screening programs."
       },
       "content": {
         "introduction": {
@@ -21693,7 +21693,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -21741,7 +21741,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Micro-Albumin Rapid Test Strip",
-          "description": "The Micro-Albumin Rapid Test Strip by Ivexia Pharma may be used in professional diagnostic and healthcare screening environments.",
+          "description": "The Micro-Albumin Rapid Test Strip by LARKSOIS Pharma may be used in professional diagnostic and healthcare screening environments.",
           "applications": [
             "Diabetes monitoring",
             "Hypertension-related kidney assessment",
@@ -21790,11 +21790,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Follow laboratory safety and hygiene procedures"
           ],
-          "note": "Specimen collection, strip handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, strip handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Microalbumin in Urine",
-          "content": "The Micro-Albumin Rapid Test Strip by Ivexia Pharma is designed for semi-quantitative detection of microalbumin in human urine samples. Detection of elevated microalbumin may support kidney function screening, early albuminuria assessment, and further medical evaluation."
+          "content": "The Micro-Albumin Rapid Test Strip by LARKSOIS Pharma is designed for semi-quantitative detection of microalbumin in human urine samples. Detection of elevated microalbumin may support kidney function screening, early albuminuria assessment, and further medical evaluation."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -21820,7 +21820,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma ALB Urine Test Strip",
+          "title": "Key Benefits of LARKSOIS Pharma ALB Urine Test Strip",
           "instructions": [
             "Rapid urine-based testing",
             "Easy strip format",
@@ -21831,7 +21831,7 @@ export const en = {
             "No complex procedure required",
             "Suitable for clinics, hospitals, and laboratories"
           ],
-          "note": "The Micro-Albumin Rapid Test Strip by Ivexia Pharma is developed for professional users who need practical and accessible urine-based microalbumin screening support."
+          "note": "The Micro-Albumin Rapid Test Strip by LARKSOIS Pharma is developed for professional users who need practical and accessible urine-based microalbumin screening support."
         },
         "procedure": {
           "title": "How to Use Micro-Albumin Rapid Test Strip",
@@ -21846,7 +21846,7 @@ export const en = {
             "Read results only within the valid time window",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -21881,8 +21881,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides diagnostic products designed for international healthcare requirements. The Micro-Albumin Rapid Test Strip supports fast screening, simple handling, and practical diagnostic use for kidney function screening and early albuminuria assessment.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides diagnostic products designed for international healthcare requirements. The Micro-Albumin Rapid Test Strip supports fast screening, simple handling, and practical diagnostic use for kidney function screening and early albuminuria assessment.",
           "advantages": [
             "International-quality diagnostic portfolio",
             "Reliable rapid test strip solutions",
@@ -21953,12 +21953,12 @@ export const en = {
     },
     "alb-test": {
       "meta": {
-        "title": "Micro-Albumin Rapid Test Device Urine | ALB Rapid Test | Ivexia Pharma",
-        "description": "Ivexia Pharma Micro-Albumin Rapid Test Device (Urine) is a rapid diagnostic test for detecting albumin in urine, supporting early screening of kidney-related risk in clinical and laboratory settings."
+        "title": "Micro-Albumin Rapid Test Device Urine | ALB Rapid Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Micro-Albumin Rapid Test Device (Urine) is a rapid diagnostic test for detecting albumin in urine, supporting early screening of kidney-related risk in clinical and laboratory settings."
       },
       "hero": {
         "title": "Micro-Albumin Rapid Test Device (Urine)",
-        "description": "Ivexia Pharma Micro-Albumin Rapid Test Device (Urine) is a rapid diagnostic test designed for the qualitative or semi-quantitative detection of micro-albumin in urine samples. The ALB rapid test helps support early screening of abnormal urinary albumin levels, which may indicate kidney stress, diabetic kidney risk, hypertension-related kidney changes, or other renal concerns. Designed for professional diagnostic use, the Micro-Albumin Rapid Test Device provides fast, simple, and reliable urine-based testing for clinics, laboratories, hospitals, and healthcare screening programs."
+        "description": "LARKSOIS Pharma Micro-Albumin Rapid Test Device (Urine) is a rapid diagnostic test designed for the qualitative or semi-quantitative detection of micro-albumin in urine samples. The ALB rapid test helps support early screening of abnormal urinary albumin levels, which may indicate kidney stress, diabetic kidney risk, hypertension-related kidney changes, or other renal concerns. Designed for professional diagnostic use, the Micro-Albumin Rapid Test Device provides fast, simple, and reliable urine-based testing for clinics, laboratories, hospitals, and healthcare screening programs."
       },
       "content": {
         "introduction": {
@@ -21995,7 +21995,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Use",
@@ -22023,7 +22023,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Micro-Albumin Rapid Test Device",
-          "description": "The ALB rapid test by Ivexia Pharma may be used in professional diagnostic and healthcare screening environments.",
+          "description": "The ALB rapid test by LARKSOIS Pharma may be used in professional diagnostic and healthcare screening environments.",
           "applications": [
             "Early kidney risk screening",
             "Diabetes-related kidney monitoring",
@@ -22072,11 +22072,11 @@ export const en = {
             "Handle urine specimens according to laboratory safety procedures",
             "Follow all instructions for use carefully"
           ],
-          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Microalbumin in Urine",
-          "content": "The Micro-Albumin Rapid Test Device by Ivexia Pharma is designed for detection of microalbumin in urine samples. Detection of elevated microalbumin may support kidney function screening, diabetic kidney monitoring, and renal health assessment."
+          "content": "The Micro-Albumin Rapid Test Device by LARKSOIS Pharma is designed for detection of microalbumin in urine samples. Detection of elevated microalbumin may support kidney function screening, diabetic kidney monitoring, and renal health assessment."
         },
         "clinicalImportance": {
           "title": "Clinical Use and Applications",
@@ -22102,7 +22102,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Features of Ivexia Pharma ALB Rapid Test",
+          "title": "Key Features of LARKSOIS Pharma ALB Rapid Test",
           "instructions": [
             "Rapid urine-based detection",
             "Simple test procedure",
@@ -22113,7 +22113,7 @@ export const en = {
             "Professional diagnostic quality",
             "Suitable for international healthcare markets"
           ],
-          "note": "The Micro-Albumin Rapid Test Device by Ivexia Pharma is designed for professional and convenient diagnostic use."
+          "note": "The Micro-Albumin Rapid Test Device by LARKSOIS Pharma is designed for professional and convenient diagnostic use."
         },
         "procedure": {
           "title": "How to Use Micro-Albumin Rapid Test Device",
@@ -22128,7 +22128,7 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Interpretation of Results",
@@ -22163,8 +22163,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma focuses on internationally acceptable diagnostic quality, reliable packaging, and consistent product performance. The ALB rapid test is developed for professional diagnostic environments where speed, simplicity, and accessibility are important.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma focuses on internationally acceptable diagnostic quality, reliable packaging, and consistent product performance. The ALB rapid test is developed for professional diagnostic environments where speed, simplicity, and accessibility are important.",
           "advantages": [
             "International diagnostic product range",
             "Reliable urine rapid test solutions",
@@ -22179,7 +22179,7 @@ export const en = {
       "faqs": [
         {
           "question": "What is normal microalbumin in urine?",
-          "answer": "Normal urine microalbumin is usually very low. Many laboratories consider an albumin-creatinine ratio below 30 mg/g as normal, but reference ranges may vary. Always follow the laboratory report and doctor’s advice."
+          "answer": "Normal urine microalbumin is usually very low. Many laboratories consider an albumin-creatinine ratio below 30 mg/g as normal, but reference ranges may vary. Always follow the laboratory report and doctorâ€™s advice."
         },
         {
           "question": "What happens if microalbumin is high in urine?",
@@ -22203,7 +22203,7 @@ export const en = {
             "name": "What is normal microalbumin in urine?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Normal urine microalbumin is usually very low. Many laboratories consider an albumin-creatinine ratio below 30 mg/g as normal, but reference ranges may vary. Always follow the laboratory report and doctor’s advice."
+              "text": "Normal urine microalbumin is usually very low. Many laboratories consider an albumin-creatinine ratio below 30 mg/g as normal, but reference ranges may vary. Always follow the laboratory report and doctorâ€™s advice."
             }
           },
           {
@@ -22235,12 +22235,12 @@ export const en = {
     },
     "hav-rapid-test": {
       "meta": {
-        "title": "HAV Rapid Test Device WB/S/P | Ivexia Pharma",
-        "description": "Ivexia Pharma offers HAV Rapid Test Device for qualitative detection and differentiation of Hepatitis A Virus IgG and IgM antibodies in whole blood, serum, or plasma."
+        "title": "HAV Rapid Test Device WB/S/P | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma offers HAV Rapid Test Device for qualitative detection and differentiation of Hepatitis A Virus IgG and IgM antibodies in whole blood, serum, or plasma."
       },
       "hero": {
         "title": "HAV Rapid Test Device (WB/S/P)",
-        "description": "HAV Rapid Test Device by Ivexia Pharma is an infectious disease rapid test designed for the qualitative detection and differentiation of IgG and IgM antibodies to Hepatitis A Virus (HAV) in whole blood, serum, or plasma specimens. This HAV Rapid Test Device supports fast screening for hepatitis A immune response and helps healthcare professionals evaluate possible recent, past, or immune-stage exposure to HAV."
+        "description": "HAV Rapid Test Device by LARKSOIS Pharma is an infectious disease rapid test designed for the qualitative detection and differentiation of IgG and IgM antibodies to Hepatitis A Virus (HAV) in whole blood, serum, or plasma specimens. This HAV Rapid Test Device supports fast screening for hepatitis A immune response and helps healthcare professionals evaluate possible recent, past, or immune-stage exposure to HAV."
       },
       "content": {
         "introduction": {
@@ -22261,7 +22261,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -22309,7 +22309,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of HAV Rapid Test Device",
-          "description": "The HAV Rapid Test Device by Ivexia Pharma may be used in professional diagnostic, public health, and healthcare screening environments.",
+          "description": "The HAV Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic, public health, and healthcare screening environments.",
           "applications": [
             "Hepatitis A antibody screening",
             "Differentiation of HAV IgG and IgM",
@@ -22358,11 +22358,11 @@ export const en = {
             "Read IgG, IgM, and control lines within the valid time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: HAV IgG and IgM Antibodies",
-          "content": "The HAV Rapid Test Device by Ivexia Pharma is designed to detect and differentiate HAV IgG and IgM antibodies in whole blood, serum, or plasma specimens. HAV IgM may suggest recent or acute infection, while HAV IgG may suggest past exposure or immunity."
+          "content": "The HAV Rapid Test Device by LARKSOIS Pharma is designed to detect and differentiate HAV IgG and IgM antibodies in whole blood, serum, or plasma specimens. HAV IgM may suggest recent or acute infection, while HAV IgG may suggest past exposure or immunity."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -22388,7 +22388,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma HAV Rapid Test Device",
+          "title": "Key Benefits of LARKSOIS Pharma HAV Rapid Test Device",
           "instructions": [
             "Rapid hepatitis A antibody screening",
             "Qualitative detection of HAV IgG antibodies",
@@ -22399,7 +22399,7 @@ export const en = {
             "Supports travel and outbreak screening programs",
             "Useful for hospitals, clinics, and laboratories"
           ],
-          "note": "The HAV Rapid Test Device by Ivexia Pharma is developed for professional users who need practical and accessible hepatitis A screening support."
+          "note": "The HAV Rapid Test Device by LARKSOIS Pharma is developed for professional users who need practical and accessible hepatitis A screening support."
         },
         "procedure": {
           "title": "How to Use HAV Rapid Test Device",
@@ -22414,7 +22414,7 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -22449,8 +22449,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides internationally focused rapid diagnostic products for hospitals, clinics, laboratories, distributors, importers, NGOs, and public health buyers. The HAV Rapid Test Device (WB/S/P) is designed for fast, simple, and practical hepatitis A antibody screening using whole blood, serum, or plasma.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides internationally focused rapid diagnostic products for hospitals, clinics, laboratories, distributors, importers, NGOs, and public health buyers. The HAV Rapid Test Device (WB/S/P) is designed for fast, simple, and practical hepatitis A antibody screening using whole blood, serum, or plasma.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable hepatitis A antibody screening solutions",
@@ -22458,7 +22458,7 @@ export const en = {
             "Distributor-friendly product format",
             "Supports travel and outbreak screening workflows",
             "Practical WB/S/P testing format",
-            "Quality-focused standards under Ivexia Pharma"
+            "Quality-focused standards under LARKSOIS Pharma"
           ]
         }
       },
@@ -22533,12 +22533,12 @@ export const en = {
     },
     "hav-igm-rapid-test": {
       "meta": {
-        "title": "HAV IgM Rapid Test Device WB/S/P | Hepatitis A IgM Test | Ivexia Pharma",
-        "description": "Ivexia Pharma HAV IgM Rapid Test Device (WB/S/P) is a rapid diagnostic test for qualitative detection of Hepatitis A Virus IgM antibodies in whole blood, serum, or plasma."
+        "title": "HAV IgM Rapid Test Device WB/S/P | Hepatitis A IgM Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma HAV IgM Rapid Test Device (WB/S/P) is a rapid diagnostic test for qualitative detection of Hepatitis A Virus IgM antibodies in whole blood, serum, or plasma."
       },
       "hero": {
         "title": "HAV IgM Rapid Test Device (WB/S/P)",
-        "description": "HAV IgM Rapid Test Device by Ivexia Pharma is an infectious disease rapid test designed for the qualitative detection of Hepatitis A Virus (HAV) IgM antibodies in whole blood, serum, or plasma specimens. The HAV IgM Rapid Test Device supports rapid screening for acute or recent HAV infection and helps healthcare professionals evaluate hepatitis A immune response in clinical and laboratory settings."
+        "description": "HAV IgM Rapid Test Device by LARKSOIS Pharma is an infectious disease rapid test designed for the qualitative detection of Hepatitis A Virus (HAV) IgM antibodies in whole blood, serum, or plasma specimens. The HAV IgM Rapid Test Device supports rapid screening for acute or recent HAV infection and helps healthcare professionals evaluate hepatitis A immune response in clinical and laboratory settings."
       },
       "content": {
         "introduction": {
@@ -22559,7 +22559,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -22607,7 +22607,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of HAV IgM Rapid Test Device",
-          "description": "The HAV IgM Rapid Test Device by Ivexia Pharma may be used in professional diagnostic and healthcare screening environments.",
+          "description": "The HAV IgM Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic and healthcare screening environments.",
           "applications": [
             "Acute HAV infection screening",
             "Recent hepatitis A exposure evaluation",
@@ -22656,11 +22656,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: HAV IgM Antibodies",
-          "content": "The HAV IgM Rapid Test Device by Ivexia Pharma is designed for qualitative detection of Hepatitis A Virus IgM antibodies in whole blood, serum, or plasma samples. Detection of HAV IgM antibodies may suggest recent or acute HAV infection."
+          "content": "The HAV IgM Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection of Hepatitis A Virus IgM antibodies in whole blood, serum, or plasma samples. Detection of HAV IgM antibodies may suggest recent or acute HAV infection."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -22686,7 +22686,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma HAV IgM Rapid Test Device",
+          "title": "Key Benefits of LARKSOIS Pharma HAV IgM Rapid Test Device",
           "instructions": [
             "Rapid hepatitis A IgM antibody screening",
             "Qualitative detection of HAV IgM antibodies",
@@ -22697,7 +22697,7 @@ export const en = {
             "Useful for hospitals, clinics, and laboratories",
             "Practical point-of-care testing support"
           ],
-          "note": "The HAV IgM Rapid Test Device by Ivexia Pharma is designed for professional users who require practical and accessible hepatitis A screening support."
+          "note": "The HAV IgM Rapid Test Device by LARKSOIS Pharma is designed for professional users who require practical and accessible hepatitis A screening support."
         },
         "procedure": {
           "title": "How to Use HAV IgM Rapid Test Device",
@@ -22712,7 +22712,7 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -22747,8 +22747,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides internationally focused diagnostic products for healthcare professionals, laboratories, clinics, distributors, and public health programs. The HAV IgM Rapid Test Device supports practical, fast, and reliable hepatitis A screening workflows.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides internationally focused diagnostic products for healthcare professionals, laboratories, clinics, distributors, and public health programs. The HAV IgM Rapid Test Device supports practical, fast, and reliable hepatitis A screening workflows.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable hepatitis A screening solutions",
@@ -22819,12 +22819,12 @@ export const en = {
     },
     "hbsab-rapid-test": {
       "meta": {
-        "title": "HBsAb Rapid Test Device/Strip WB/S/P | Hepatitis B Surface Antibody Test | Ivexia Pharma",
-        "description": "Ivexia Pharma HBsAb Rapid Test Device/Strip detects hepatitis B surface antibodies in whole blood, serum, or plasma for rapid immune status screening and professional diagnostic support."
+        "title": "HBsAb Rapid Test Device/Strip WB/S/P | Hepatitis B Surface Antibody Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma HBsAb Rapid Test Device/Strip detects hepatitis B surface antibodies in whole blood, serum, or plasma for rapid immune status screening and professional diagnostic support."
       },
       "hero": {
         "title": "HBsAb Rapid Test Device/Strip (WB/S/P)",
-        "description": "Ivexia Pharma HBsAb Rapid Test Device/Strip (WB/S/P) is a professional rapid diagnostic test designed for the qualitative detection of hepatitis B surface antibody, also known as HBsAb or anti-HBs, in whole blood, serum, or plasma specimens. This HBsAb Rapid Test Device/Strip supports immune status screening, vaccination follow-up, and professional diagnostic support in hospitals, laboratories, blood banks, vaccination programs, occupational health screening, and public health campaigns."
+        "description": "LARKSOIS Pharma HBsAb Rapid Test Device/Strip (WB/S/P) is a professional rapid diagnostic test designed for the qualitative detection of hepatitis B surface antibody, also known as HBsAb or anti-HBs, in whole blood, serum, or plasma specimens. This HBsAb Rapid Test Device/Strip supports immune status screening, vaccination follow-up, and professional diagnostic support in hospitals, laboratories, blood banks, vaccination programs, occupational health screening, and public health campaigns."
       },
       "content": {
         "introduction": {
@@ -22845,7 +22845,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -22893,7 +22893,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of HBsAb Rapid Test Device/Strip",
-          "description": "The HBsAb Rapid Test Device/Strip by Ivexia Pharma may be used in professional diagnostic, vaccination, and public health screening environments.",
+          "description": "The HBsAb Rapid Test Device/Strip by LARKSOIS Pharma may be used in professional diagnostic, vaccination, and public health screening environments.",
           "applications": [
             "Post-vaccination antibody screening",
             "Healthcare worker immunity assessment",
@@ -22942,17 +22942,17 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Hepatitis B Surface Antibody",
-          "content": "The HBsAb Rapid Test Device/Strip by Ivexia Pharma is designed for qualitative detection of hepatitis B surface antibody in whole blood, serum, or plasma specimens. HBsAb detection helps assess immune response to hepatitis B, commonly after vaccination or previous HBV exposure."
+          "content": "The HBsAb Rapid Test Device/Strip by LARKSOIS Pharma is designed for qualitative detection of hepatitis B surface antibody in whole blood, serum, or plasma specimens. HBsAb detection helps assess immune response to hepatitis B, commonly after vaccination or previous HBV exposure."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
           "sections": [
             "A positive HBsAb result may suggest immunity due to vaccination or previous hepatitis B exposure.",
-            "A negative HBsAb result may indicate that antibodies were not detected at the test’s detectable level.",
+            "A negative HBsAb result may indicate that antibodies were not detected at the testâ€™s detectable level.",
             "HBsAb testing is different from HBsAg testing because HBsAg is mainly used to identify active HBV infection.",
             "Healthcare professionals should interpret HBsAb results with vaccination history, exposure history, patient risk profile, and laboratory recommendations."
           ]
@@ -22972,7 +22972,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Advantages of Ivexia Pharma HBsAb Rapid Test Device/Strip",
+          "title": "Advantages of LARKSOIS Pharma HBsAb Rapid Test Device/Strip",
           "instructions": [
             "Rapid visual result",
             "Suitable for whole blood, serum, or plasma",
@@ -22998,12 +22998,12 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety rules"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "A positive result indicates that hepatitis B surface antibody has been detected. This may suggest immunity due to vaccination or previous exposure.",
-          "negative": "A negative result indicates that HBsAb was not detected at the test’s detectable level. Further laboratory testing may be required if clinical evaluation is needed.",
+          "negative": "A negative result indicates that HBsAb was not detected at the testâ€™s detectable level. Further laboratory testing may be required if clinical evaluation is needed.",
           "invalid": "If the control line does not appear, the test is invalid. A new test should be performed using a fresh device or strip."
         },
         "storage": {
@@ -23033,8 +23033,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma focuses on internationally suitable diagnostic solutions for healthcare buyers, distributors, laboratories, and medical institutions. The HBsAb Rapid Test Device/Strip (WB/S/P) is developed with emphasis on quality, ease of use, rapid screening, and professional diagnostic support.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma focuses on internationally suitable diagnostic solutions for healthcare buyers, distributors, laboratories, and medical institutions. The HBsAb Rapid Test Device/Strip (WB/S/P) is developed with emphasis on quality, ease of use, rapid screening, and professional diagnostic support.",
           "advantages": [
             "International infectious disease diagnostic portfolio",
             "Reliable hepatitis B immunity screening support",
@@ -23057,7 +23057,7 @@ export const en = {
         },
         {
           "question": "What color tube is Hep B drawn in?",
-          "answer": "Hepatitis B blood testing is commonly collected in serum separator tubes or plasma tubes, depending on laboratory requirements. The exact tube color should follow the testing lab’s protocol."
+          "answer": "Hepatitis B blood testing is commonly collected in serum separator tubes or plasma tubes, depending on laboratory requirements. The exact tube color should follow the testing labâ€™s protocol."
         },
         {
           "question": "What is the HBsAb screen?",
@@ -23093,7 +23093,7 @@ export const en = {
             "name": "What color tube is Hep B drawn in?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Hepatitis B blood testing is commonly drawn in serum separator or plasma collection tubes, depending on the laboratory method. The correct tube color should follow the testing laboratory’s protocol."
+              "text": "Hepatitis B blood testing is commonly drawn in serum separator or plasma collection tubes, depending on the laboratory method. The correct tube color should follow the testing laboratoryâ€™s protocol."
             }
           },
           {
@@ -23117,12 +23117,12 @@ export const en = {
     },
     "hbsag-rapid-test": {
       "meta": {
-        "title": "HBsAg Rapid Test Device/Strip WB/S/P | Hepatitis B Surface Antigen Test | Ivexia Pharma",
-        "description": "Ivexia Pharma HBsAg Rapid Test Device/Strip detects Hepatitis B Surface Antigen in whole blood, serum, or plasma for rapid hepatitis B screening and professional diagnostic support."
+        "title": "HBsAg Rapid Test Device/Strip WB/S/P | Hepatitis B Surface Antigen Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma HBsAg Rapid Test Device/Strip detects Hepatitis B Surface Antigen in whole blood, serum, or plasma for rapid hepatitis B screening and professional diagnostic support."
       },
       "hero": {
         "title": "HBsAg Rapid Test Device/Strip (WB/S/P)",
-        "description": "Ivexia Pharma HBsAg Rapid Test Device/Strip (WB/S/P) is a professional rapid diagnostic test designed for the qualitative detection of Hepatitis B Surface Antigen (HBsAg) in whole blood, serum, or plasma specimens. This HBsAg Rapid Test Device/Strip supports rapid hepatitis B screening in hospitals, clinics, diagnostic laboratories, blood banks, healthcare programs, and point-of-care testing environments."
+        "description": "LARKSOIS Pharma HBsAg Rapid Test Device/Strip (WB/S/P) is a professional rapid diagnostic test designed for the qualitative detection of Hepatitis B Surface Antigen (HBsAg) in whole blood, serum, or plasma specimens. This HBsAg Rapid Test Device/Strip supports rapid hepatitis B screening in hospitals, clinics, diagnostic laboratories, blood banks, healthcare programs, and point-of-care testing environments."
       },
       "content": {
         "introduction": {
@@ -23143,7 +23143,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -23191,7 +23191,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of HBsAg Rapid Test Device/Strip",
-          "description": "The HBsAg Rapid Test Device/Strip by Ivexia Pharma may be used in professional diagnostic and healthcare screening environments.",
+          "description": "The HBsAg Rapid Test Device/Strip by LARKSOIS Pharma may be used in professional diagnostic and healthcare screening environments.",
           "applications": [
             "Hepatitis B infection screening",
             "Blood donor screening support",
@@ -23240,11 +23240,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Hepatitis B Surface Antigen",
-          "content": "The HBsAg Rapid Test Device/Strip by Ivexia Pharma is designed for qualitative detection of Hepatitis B Surface Antigen in whole blood, serum, or plasma samples. Detection of HBsAg may suggest active hepatitis B infection and should be interpreted with clinical findings and laboratory evaluation."
+          "content": "The HBsAg Rapid Test Device/Strip by LARKSOIS Pharma is designed for qualitative detection of Hepatitis B Surface Antigen in whole blood, serum, or plasma samples. Detection of HBsAg may suggest active hepatitis B infection and should be interpreted with clinical findings and laboratory evaluation."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -23270,7 +23270,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma HBsAg Rapid Test Device/Strip",
+          "title": "Key Benefits of LARKSOIS Pharma HBsAg Rapid Test Device/Strip",
           "instructions": [
             "Rapid hepatitis B screening",
             "Qualitative HBsAg detection",
@@ -23281,7 +23281,7 @@ export const en = {
             "Professional infectious disease diagnostic application",
             "Practical point-of-care format"
           ],
-          "note": "The HBsAg Rapid Test Device/Strip by Ivexia Pharma is designed for healthcare professionals who require fast and reliable hepatitis B screening support."
+          "note": "The HBsAg Rapid Test Device/Strip by LARKSOIS Pharma is designed for healthcare professionals who require fast and reliable hepatitis B screening support."
         },
         "procedure": {
           "title": "How to Use HBsAg Rapid Test Device/Strip",
@@ -23296,7 +23296,7 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -23331,8 +23331,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides internationally focused rapid diagnostic products for hospitals, clinics, laboratories, distributors, NGOs, and healthcare buyers. The HBsAg Rapid Test Device/Strip (WB/S/P) is developed for fast, simple, and reliable hepatitis B screening support.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides internationally focused rapid diagnostic products for hospitals, clinics, laboratories, distributors, NGOs, and healthcare buyers. The HBsAg Rapid Test Device/Strip (WB/S/P) is developed for fast, simple, and reliable hepatitis B screening support.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable hepatitis B screening solutions",
@@ -23415,12 +23415,12 @@ export const en = {
     },
     "hiv-rapid-test": {
       "meta": {
-        "title": "HIV 1/2 Rapid Test Device WB/S/P | Human Immunodeficiency Virus Test | Ivexia Pharma",
-        "description": "Ivexia Pharma HIV 1/2 Rapid Test Device detects antibodies to Human Immunodeficiency Virus Type 1 and Type 2 in whole blood, serum, or plasma for rapid professional screening."
+        "title": "HIV 1/2 Rapid Test Device WB/S/P | Human Immunodeficiency Virus Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma HIV 1/2 Rapid Test Device detects antibodies to Human Immunodeficiency Virus Type 1 and Type 2 in whole blood, serum, or plasma for rapid professional screening."
       },
       "hero": {
         "title": "Human Immunodeficiency Virus (1/2) Rapid Test Device (WB/S/P)",
-        "description": "Ivexia Pharma HIV 1/2 Rapid Test Device (WB/S/P) is a rapid diagnostic test designed for the qualitative detection of antibodies to HIV Type 1 and HIV Type 2 in whole blood, serum, or plasma specimens. This HIV 1/2 Rapid Test Device supports fast HIV screening in hospitals, laboratories, clinics, public health programs, blood screening support systems, and community healthcare settings."
+        "description": "LARKSOIS Pharma HIV 1/2 Rapid Test Device (WB/S/P) is a rapid diagnostic test designed for the qualitative detection of antibodies to HIV Type 1 and HIV Type 2 in whole blood, serum, or plasma specimens. This HIV 1/2 Rapid Test Device supports fast HIV screening in hospitals, laboratories, clinics, public health programs, blood screening support systems, and community healthcare settings."
       },
       "content": {
         "introduction": {
@@ -23441,7 +23441,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -23489,7 +23489,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of HIV 1/2 Rapid Test Device",
-          "description": "The HIV 1/2 Rapid Test Device by Ivexia Pharma may be used in professional diagnostic and healthcare screening environments.",
+          "description": "The HIV 1/2 Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic and healthcare screening environments.",
           "applications": [
             "Hospital and diagnostic laboratory testing",
             "Public health HIV screening programs",
@@ -23538,11 +23538,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: HIV-1 / HIV-2 Antibodies",
-          "content": "The HIV 1/2 Rapid Test Device by Ivexia Pharma is designed for qualitative detection of antibodies to HIV Type 1 and HIV Type 2 in whole blood, serum, or plasma specimens. Detection of HIV antibodies may indicate exposure to HIV and should be followed by confirmatory testing according to clinical guidelines."
+          "content": "The HIV 1/2 Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection of antibodies to HIV Type 1 and HIV Type 2 in whole blood, serum, or plasma specimens. Detection of HIV antibodies may indicate exposure to HIV and should be followed by confirmatory testing according to clinical guidelines."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -23568,7 +23568,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma HIV 1/2 Rapid Test Device",
+          "title": "Key Benefits of LARKSOIS Pharma HIV 1/2 Rapid Test Device",
           "instructions": [
             "Rapid HIV antibody screening",
             "Qualitative detection of HIV-1 and HIV-2 antibodies",
@@ -23579,7 +23579,7 @@ export const en = {
             "Professional infectious disease application",
             "Practical point-of-care testing support"
           ],
-          "note": "The HIV 1/2 Rapid Test Device by Ivexia Pharma is designed for professional users who require practical and accessible HIV screening support."
+          "note": "The HIV 1/2 Rapid Test Device by LARKSOIS Pharma is designed for professional users who require practical and accessible HIV screening support."
         },
         "procedure": {
           "title": "How to Use HIV 1/2 Rapid Test Device",
@@ -23594,12 +23594,12 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "A positive or reactive result means antibodies to HIV-1 or HIV-2 were detected. Confirmatory testing should be performed according to local HIV testing guidelines.",
-          "negative": "A negative result means HIV antibodies were not detected at the test’s detectable level. If recent exposure is suspected, repeat testing may be recommended after the window period.",
+          "negative": "A negative result means HIV antibodies were not detected at the testâ€™s detectable level. If recent exposure is suspected, repeat testing may be recommended after the window period.",
           "invalid": "If the control line does not appear, the result is invalid and the test should be repeated with a new device according to the instructions for use."
         },
         "storage": {
@@ -23629,8 +23629,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides internationally focused diagnostic products for healthcare professionals, laboratories, clinics, distributors, NGOs, public health programs, and medical procurement teams. The HIV 1/2 Rapid Test Device supports practical, fast, and reliable HIV screening workflows.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides internationally focused diagnostic products for healthcare professionals, laboratories, clinics, distributors, NGOs, public health programs, and medical procurement teams. The HIV 1/2 Rapid Test Device supports practical, fast, and reliable HIV screening workflows.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable HIV screening solutions",
@@ -23713,12 +23713,12 @@ export const en = {
     },
     "hiv-ab-ag-rapid-test": {
       "meta": {
-        "title": "HIV Ab/Ag G4 Rapid Test Device WB/S/P | 4th Generation HIV Test | Ivexia Pharma",
-        "description": "Ivexia Pharma HIV Ab/Ag G4 Rapid Test Device detects HIV antibodies and HIV-1 p24 antigen in whole blood, serum, or plasma for rapid professional screening."
+        "title": "HIV Ab/Ag G4 Rapid Test Device WB/S/P | 4th Generation HIV Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma HIV Ab/Ag G4 Rapid Test Device detects HIV antibodies and HIV-1 p24 antigen in whole blood, serum, or plasma for rapid professional screening."
       },
       "hero": {
         "title": "HIV Ab/Ag G4 Rapid Test Device (WB/S/P)",
-        "description": "Ivexia Pharma HIV Ab/Ag G4 Rapid Test Device (WB/S/P) is a 4th generation HIV rapid test designed for the qualitative detection of HIV antibodies and HIV-1 p24 antigen in whole blood, serum, or plasma specimens. This HIV Ab/Ag G4 Rapid Test Device is intended for professional in vitro diagnostic use and supports rapid HIV screening in hospitals, laboratories, clinics, public health programs, blood screening support systems, and community healthcare settings."
+        "description": "LARKSOIS Pharma HIV Ab/Ag G4 Rapid Test Device (WB/S/P) is a 4th generation HIV rapid test designed for the qualitative detection of HIV antibodies and HIV-1 p24 antigen in whole blood, serum, or plasma specimens. This HIV Ab/Ag G4 Rapid Test Device is intended for professional in vitro diagnostic use and supports rapid HIV screening in hospitals, laboratories, clinics, public health programs, blood screening support systems, and community healthcare settings."
       },
       "content": {
         "introduction": {
@@ -23739,7 +23739,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -23787,7 +23787,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of HIV Ab/Ag G4 Rapid Test Device",
-          "description": "The HIV Ab/Ag G4 Rapid Test Device by Ivexia Pharma may be used in professional diagnostic and healthcare screening environments.",
+          "description": "The HIV Ab/Ag G4 Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic and healthcare screening environments.",
           "applications": [
             "Hospital and clinic HIV screening",
             "Diagnostic laboratory testing",
@@ -23836,11 +23836,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: HIV Antibodies and HIV-1 p24 Antigen",
-          "content": "The HIV Ab/Ag G4 Rapid Test Device by Ivexia Pharma is designed for qualitative detection of HIV-1/2 antibodies and HIV-1 p24 antigen in whole blood, serum, or plasma specimens. Detection of either marker may suggest HIV exposure and should be followed by confirmatory testing according to clinical guidelines."
+          "content": "The HIV Ab/Ag G4 Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection of HIV-1/2 antibodies and HIV-1 p24 antigen in whole blood, serum, or plasma specimens. Detection of either marker may suggest HIV exposure and should be followed by confirmatory testing according to clinical guidelines."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -23866,7 +23866,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Advantages of Ivexia Pharma HIV Ab/Ag G4 Rapid Test Device",
+          "title": "Advantages of LARKSOIS Pharma HIV Ab/Ag G4 Rapid Test Device",
           "instructions": [
             "Detects HIV antibodies and HIV-1 p24 antigen",
             "4th generation rapid HIV test format",
@@ -23877,7 +23877,7 @@ export const en = {
             "Supports earlier detection compared with antibody-only tests",
             "Suitable for international healthcare supply"
           ],
-          "note": "The HIV Ab/Ag G4 Rapid Test Device by Ivexia Pharma provides practical and accessible HIV screening support for professional healthcare environments."
+          "note": "The HIV Ab/Ag G4 Rapid Test Device by LARKSOIS Pharma provides practical and accessible HIV screening support for professional healthcare environments."
         },
         "procedure": {
           "title": "How to Use HIV Ab/Ag G4 Rapid Test Device",
@@ -23892,12 +23892,12 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "A positive or reactive result means HIV antibodies and/or HIV-1 p24 antigen were detected. Reactive results should be confirmed according to national or institutional HIV testing guidelines.",
-          "negative": "A negative result means HIV antibodies or p24 antigen were not detected at the test’s detectable level. If recent exposure is suspected, repeat testing may be recommended after the window period.",
+          "negative": "A negative result means HIV antibodies or p24 antigen were not detected at the testâ€™s detectable level. If recent exposure is suspected, repeat testing may be recommended after the window period.",
           "invalid": "If the control line does not appear, the result is invalid. The test should be repeated using a new test device."
         },
         "storage": {
@@ -23927,8 +23927,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides internationally suitable diagnostic products designed for healthcare providers, laboratories, hospitals, NGOs, distributors, and procurement agencies. The HIV Ab/Ag G4 Rapid Test Device (WB/S/P) combines rapid testing convenience with 4th generation HIV screening capability.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides internationally suitable diagnostic products designed for healthcare providers, laboratories, hospitals, NGOs, distributors, and procurement agencies. The HIV Ab/Ag G4 Rapid Test Device (WB/S/P) combines rapid testing convenience with 4th generation HIV screening capability.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable HIV screening solutions",
@@ -24011,12 +24011,12 @@ export const en = {
     },
     "hiv-1-2-o-rapid-test": {
       "meta": {
-        "title": "HIV 1/2/O Rapid Test Device WB/S/P | HIV Antibody Test | Ivexia Pharma",
-        "description": "Ivexia Pharma HIV 1/2/O Rapid Test Device detects antibodies to HIV-1, HIV-2, and subtype O in whole blood, serum, or plasma for rapid professional screening."
+        "title": "HIV 1/2/O Rapid Test Device WB/S/P | HIV Antibody Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma HIV 1/2/O Rapid Test Device detects antibodies to HIV-1, HIV-2, and subtype O in whole blood, serum, or plasma for rapid professional screening."
       },
       "hero": {
         "title": "Human Immunodeficiency Virus (1/2/O) Rapid Test Device (WB/S/P)",
-        "description": "Ivexia Pharma Human Immunodeficiency Virus (1/2/O) Rapid Test Device (WB/S/P) is a professional rapid diagnostic test designed for the qualitative detection of antibodies to HIV-1, HIV-2, and HIV-1 subtype O in whole blood, serum, or plasma specimens. This HIV 1/2/O Rapid Test Device supports fast screening in hospitals, clinics, laboratories, community health programs, blood screening support systems, and public health campaigns."
+        "description": "LARKSOIS Pharma Human Immunodeficiency Virus (1/2/O) Rapid Test Device (WB/S/P) is a professional rapid diagnostic test designed for the qualitative detection of antibodies to HIV-1, HIV-2, and HIV-1 subtype O in whole blood, serum, or plasma specimens. This HIV 1/2/O Rapid Test Device supports fast screening in hospitals, clinics, laboratories, community health programs, blood screening support systems, and public health campaigns."
       },
       "content": {
         "introduction": {
@@ -24037,7 +24037,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -24085,7 +24085,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of HIV 1/2/O Rapid Test Device",
-          "description": "The HIV 1/2/O Rapid Test Device by Ivexia Pharma may be used in professional diagnostic and healthcare screening environments.",
+          "description": "The HIV 1/2/O Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic and healthcare screening environments.",
           "applications": [
             "Hospitals and diagnostic laboratories",
             "Public health screening programs",
@@ -24134,11 +24134,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, handling, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: HIV-1, HIV-2, and HIV-1 Subtype O Antibodies",
-          "content": "The HIV 1/2/O Rapid Test Device by Ivexia Pharma is designed for qualitative detection of antibodies to HIV-1, HIV-2, and HIV-1 subtype O in whole blood, serum, or plasma specimens. Detection of HIV antibodies may suggest exposure to HIV and should be followed by confirmatory testing according to clinical guidelines."
+          "content": "The HIV 1/2/O Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection of antibodies to HIV-1, HIV-2, and HIV-1 subtype O in whole blood, serum, or plasma specimens. Detection of HIV antibodies may suggest exposure to HIV and should be followed by confirmatory testing according to clinical guidelines."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -24164,7 +24164,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Benefits of Ivexia Pharma HIV 1/2/O Rapid Test Device",
+          "title": "Key Benefits of LARKSOIS Pharma HIV 1/2/O Rapid Test Device",
           "instructions": [
             "Detects antibodies to HIV-1",
             "Detects antibodies to HIV-2",
@@ -24175,7 +24175,7 @@ export const en = {
             "Useful for international diagnostic supply",
             "Practical point-of-care screening format"
           ],
-          "note": "The HIV 1/2/O Rapid Test Device by Ivexia Pharma provides a practical screening solution for hospitals, laboratories, NGOs, public health programs, distributors, and procurement teams."
+          "note": "The HIV 1/2/O Rapid Test Device by LARKSOIS Pharma provides a practical screening solution for hospitals, laboratories, NGOs, public health programs, distributors, and procurement teams."
         },
         "procedure": {
           "title": "How to Use HIV 1/2/O Rapid Test Device",
@@ -24190,12 +24190,12 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "A positive result means antibodies to HIV-1, HIV-2, or subtype O have been detected. A reactive rapid test is not a final diagnosis and should be confirmed with approved follow-up testing.",
-          "negative": "A negative result means HIV antibodies were not detected at the test’s detectable level. If exposure was recent, repeat testing or laboratory-based testing may be needed after the window period.",
+          "negative": "A negative result means HIV antibodies were not detected at the testâ€™s detectable level. If exposure was recent, repeat testing or laboratory-based testing may be needed after the window period.",
           "invalid": "If the control line does not appear, the test is invalid. A fresh test device should be used according to the product insert."
         },
         "storage": {
@@ -24225,8 +24225,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma delivers internationally suitable diagnostic products designed for professional healthcare use. The Human Immunodeficiency Virus (1/2/O) Rapid Test Device (WB/S/P) offers simple operation, rapid visual results, and flexible specimen compatibility.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma delivers internationally suitable diagnostic products designed for professional healthcare use. The Human Immunodeficiency Virus (1/2/O) Rapid Test Device (WB/S/P) offers simple operation, rapid visual results, and flexible specimen compatibility.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable HIV screening solutions",
@@ -24309,12 +24309,12 @@ export const en = {
     },
     "influenza-a-ag-test": {
       "meta": {
-        "title": "Influenza A Ag Rapid Test Device | Nasal & Nasopharyngeal Swab Test | Ivexia Pharma",
-        "description": "Ivexia Pharma Influenza A Ag Rapid Test Device detects Influenza A antigen in nasal or nasopharyngeal swab specimens with rapid visual results for professional diagnostic screening."
+        "title": "Influenza A Ag Rapid Test Device | Nasal & Nasopharyngeal Swab Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Influenza A Ag Rapid Test Device detects Influenza A antigen in nasal or nasopharyngeal swab specimens with rapid visual results for professional diagnostic screening."
       },
       "hero": {
         "title": "Influenza A Ag Rapid Test Device",
-        "description": "Ivexia Pharma Influenza A Ag Rapid Test Device is a rapid diagnostic test designed for the qualitative detection of Influenza A antigen in nasopharyngeal swab or nasal swab specimens. This Influenza A Ag Rapid Test Device supports fast screening of suspected flu cases in hospitals, clinics, laboratories, emergency departments, community health programs, and professional point-of-care settings."
+        "description": "LARKSOIS Pharma Influenza A Ag Rapid Test Device is a rapid diagnostic test designed for the qualitative detection of Influenza A antigen in nasopharyngeal swab or nasal swab specimens. This Influenza A Ag Rapid Test Device supports fast screening of suspected flu cases in hospitals, clinics, laboratories, emergency departments, community health programs, and professional point-of-care settings."
       },
       "content": {
         "introduction": {
@@ -24335,7 +24335,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -24383,7 +24383,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Influenza A Ag Rapid Test Device",
-          "description": "The Influenza A Ag Rapid Test Device by Ivexia Pharma may be used in professional diagnostic and respiratory infection screening environments.",
+          "description": "The Influenza A Ag Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic and respiratory infection screening environments.",
           "applications": [
             "Hospitals and clinics",
             "Emergency departments",
@@ -24432,11 +24432,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all respiratory specimens according to laboratory safety procedures"
           ],
-          "note": "Specimen collection, extraction, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, extraction, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Influenza A Antigen",
-          "content": "The Influenza A Ag Rapid Test Device by Ivexia Pharma is designed for qualitative detection of Influenza A antigen in nasal or nasopharyngeal swab specimens. The listed cut-off is 100 TCID/ml, and results should be interpreted with clinical findings and local influenza activity."
+          "content": "The Influenza A Ag Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection of Influenza A antigen in nasal or nasopharyngeal swab specimens. The listed cut-off is 100 TCID/ml, and results should be interpreted with clinical findings and local influenza activity."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -24462,7 +24462,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Advantages of Ivexia Pharma Influenza A Ag Rapid Test Device",
+          "title": "Advantages of LARKSOIS Pharma Influenza A Ag Rapid Test Device",
           "instructions": [
             "Rapid visual result",
             "Detects Influenza A antigen",
@@ -24471,9 +24471,9 @@ export const en = {
             "Suitable for professional point-of-care testing",
             "Helps support early flu screening",
             "Useful during seasonal respiratory outbreaks",
-            "International-quality diagnostic product from Ivexia Pharma"
+            "International-quality diagnostic product from LARKSOIS Pharma"
           ],
-          "note": "The Influenza A Ag Rapid Test Device by Ivexia Pharma is designed for practical use, rapid screening, and international diagnostic supply requirements."
+          "note": "The Influenza A Ag Rapid Test Device by LARKSOIS Pharma is designed for practical use, rapid screening, and international diagnostic supply requirements."
         },
         "procedure": {
           "title": "How to Use Influenza A Ag Rapid Test Device",
@@ -24488,12 +24488,12 @@ export const en = {
             "Read the test and control lines within the valid time window",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "A positive result means Influenza A antigen has been detected. The result should be interpreted with symptoms, clinical history, and local influenza activity.",
-          "negative": "A negative result means Influenza A antigen was not detected at the test’s detectable level. If symptoms continue or clinical suspicion remains high, molecular testing such as PCR may be recommended.",
+          "negative": "A negative result means Influenza A antigen was not detected at the testâ€™s detectable level. If symptoms continue or clinical suspicion remains high, molecular testing such as PCR may be recommended.",
           "invalid": "If the control line does not appear, the test is invalid. Repeat testing with a fresh device is required."
         },
         "storage": {
@@ -24523,8 +24523,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides diagnostic solutions for hospitals, laboratories, clinics, distributors, healthcare procurement agencies, and public health programs. The Influenza A Ag Rapid Test Device is designed for practical use, rapid screening, and international diagnostic supply requirements.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides diagnostic solutions for hospitals, laboratories, clinics, distributors, healthcare procurement agencies, and public health programs. The Influenza A Ag Rapid Test Device is designed for practical use, rapid screening, and international diagnostic supply requirements.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable respiratory infection screening support",
@@ -24607,12 +24607,12 @@ export const en = {
     },
     "influenza-a-b-ag-strip-test": {
       "meta": {
-        "title": "Influenza A+B Ag Rapid Test Strip | Nasal & Nasopharyngeal Swab Test | Ivexia Pharma",
-        "description": "Ivexia Pharma Influenza A+B Ag Rapid Test Strip detects Influenza A and Influenza B antigens in nasal or nasopharyngeal swab specimens for rapid professional screening."
+        "title": "Influenza A+B Ag Rapid Test Strip | Nasal & Nasopharyngeal Swab Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Influenza A+B Ag Rapid Test Strip detects Influenza A and Influenza B antigens in nasal or nasopharyngeal swab specimens for rapid professional screening."
       },
       "hero": {
         "title": "Influenza A+B Ag Rapid Test Strip",
-        "description": "Ivexia Pharma Influenza A+B Ag Rapid Test Strip is a rapid diagnostic strip test designed for the qualitative detection of Influenza A and Influenza B antigens in nasal swab or nasopharyngeal swab specimens. This Influenza A+B Ag Rapid Test Strip supports fast screening of suspected flu cases in hospitals, clinics, diagnostic laboratories, fever clinics, emergency departments, respiratory infection programs, and professional point-of-care settings."
+        "description": "LARKSOIS Pharma Influenza A+B Ag Rapid Test Strip is a rapid diagnostic strip test designed for the qualitative detection of Influenza A and Influenza B antigens in nasal swab or nasopharyngeal swab specimens. This Influenza A+B Ag Rapid Test Strip supports fast screening of suspected flu cases in hospitals, clinics, diagnostic laboratories, fever clinics, emergency departments, respiratory infection programs, and professional point-of-care settings."
       },
       "content": {
         "introduction": {
@@ -24633,7 +24633,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -24681,7 +24681,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Influenza A+B Ag Rapid Test Strip",
-          "description": "The Influenza A+B Ag Rapid Test Strip by Ivexia Pharma may be used in professional diagnostic and respiratory infection screening environments.",
+          "description": "The Influenza A+B Ag Rapid Test Strip by LARKSOIS Pharma may be used in professional diagnostic and respiratory infection screening environments.",
           "applications": [
             "Hospitals and clinics",
             "Diagnostic laboratories",
@@ -24731,11 +24731,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all respiratory specimens according to laboratory safety procedures"
           ],
-          "note": "Specimen collection, extraction, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, extraction, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Influenza A and Influenza B Antigens",
-          "content": "The Influenza A+B Ag Rapid Test Strip by Ivexia Pharma is designed for qualitative detection of Influenza A and Influenza B antigens in nasal or nasopharyngeal swab specimens. The listed cut-off is 100 TCID/ml, and results should be interpreted with symptoms and clinical findings."
+          "content": "The Influenza A+B Ag Rapid Test Strip by LARKSOIS Pharma is designed for qualitative detection of Influenza A and Influenza B antigens in nasal or nasopharyngeal swab specimens. The listed cut-off is 100 TCID/ml, and results should be interpreted with symptoms and clinical findings."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -24761,7 +24761,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Advantages of Ivexia Pharma Influenza A+B Ag Rapid Test Strip",
+          "title": "Advantages of LARKSOIS Pharma Influenza A+B Ag Rapid Test Strip",
           "instructions": [
             "Detects both Influenza A and Influenza B antigens",
             "Uses nasal or nasopharyngeal swab specimens",
@@ -24770,9 +24770,9 @@ export const en = {
             "No complex instrument required",
             "Useful for seasonal respiratory infection screening",
             "Suitable for hospitals, clinics, and laboratories",
-            "International-quality product from Ivexia Pharma"
+            "International-quality product from LARKSOIS Pharma"
           ],
-          "note": "The Influenza A+B Ag Rapid Test Strip by Ivexia Pharma is designed for practical use, rapid screening, and professional healthcare supply requirements."
+          "note": "The Influenza A+B Ag Rapid Test Strip by LARKSOIS Pharma is designed for practical use, rapid screening, and professional healthcare supply requirements."
         },
         "procedure": {
           "title": "How to Use Influenza A+B Ag Rapid Test Strip",
@@ -24787,12 +24787,12 @@ export const en = {
             "Read the test and control lines within the valid time window",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "A positive result means Influenza A antigen or Influenza B antigen has been detected. Results should be interpreted with symptoms, exposure history, and local influenza activity.",
-          "negative": "A negative result means Influenza A or B antigen was not detected at the test’s detectable level. If symptoms strongly suggest flu, molecular testing such as PCR may still be recommended.",
+          "negative": "A negative result means Influenza A or B antigen was not detected at the testâ€™s detectable level. If symptoms strongly suggest flu, molecular testing such as PCR may still be recommended.",
           "invalid": "If the control line does not appear, the result is invalid. Testing should be repeated using a fresh rapid test strip."
         },
         "storage": {
@@ -24822,8 +24822,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides globally suitable diagnostic products for healthcare institutions, laboratories, clinics, procurement agencies, and medical distributors. The Influenza A+B Ag Rapid Test Strip is developed for fast, practical, and accessible influenza screening support.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides globally suitable diagnostic products for healthcare institutions, laboratories, clinics, procurement agencies, and medical distributors. The Influenza A+B Ag Rapid Test Strip is developed for fast, practical, and accessible influenza screening support.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable respiratory infection screening support",
@@ -24906,12 +24906,12 @@ export const en = {
     },
     "influenza-a-b-sars-cov-2-ag-combo-test": {
       "meta": {
-        "title": "Influenza A/B + SARS-CoV-2 Ag Combo Rapid Test Device | Combo Flu & COVID Test | Ivexia Pharma",
-        "description": "Ivexia Pharma Influenza A/B + SARS-CoV-2 Ag Combo Rapid Test Device detects Influenza A, Influenza B, and SARS-CoV-2 antigens in nasal or nasopharyngeal swab specimens for rapid professional screening."
+        "title": "Influenza A/B + SARS-CoV-2 Ag Combo Rapid Test Device | Combo Flu & COVID Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Influenza A/B + SARS-CoV-2 Ag Combo Rapid Test Device detects Influenza A, Influenza B, and SARS-CoV-2 antigens in nasal or nasopharyngeal swab specimens for rapid professional screening."
       },
       "hero": {
         "title": "Influenza A/B + SARS-CoV-2 Ag Combo Rapid Test Device",
-        "description": "Ivexia Pharma Influenza A/B + SARS-CoV-2 Ag Combo Rapid Test Device is a rapid diagnostic combo test designed for the qualitative detection of Influenza A antigen, Influenza B antigen, and SARS-CoV-2 antigen in nasal swab or nasopharyngeal swab specimens. This combo rapid test supports fast respiratory infection screening in hospitals, clinics, laboratories, emergency departments, fever clinics, public health programs, and professional point-of-care settings."
+        "description": "LARKSOIS Pharma Influenza A/B + SARS-CoV-2 Ag Combo Rapid Test Device is a rapid diagnostic combo test designed for the qualitative detection of Influenza A antigen, Influenza B antigen, and SARS-CoV-2 antigen in nasal swab or nasopharyngeal swab specimens. This combo rapid test supports fast respiratory infection screening in hospitals, clinics, laboratories, emergency departments, fever clinics, public health programs, and professional point-of-care settings."
       },
       "content": {
         "introduction": {
@@ -24932,7 +24932,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -24976,7 +24976,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Influenza A/B + SARS-CoV-2 Ag Combo Rapid Test Device",
-          "description": "The Influenza A/B + SARS-CoV-2 Ag Combo Rapid Test Device by Ivexia Pharma may be used in professional respiratory infection screening environments.",
+          "description": "The Influenza A/B + SARS-CoV-2 Ag Combo Rapid Test Device by LARKSOIS Pharma may be used in professional respiratory infection screening environments.",
           "applications": [
             "Hospitals and clinics",
             "Emergency departments",
@@ -25026,11 +25026,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle respiratory specimens according to laboratory safety procedures"
           ],
-          "note": "Specimen collection, extraction, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, extraction, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Influenza A, Influenza B, and SARS-CoV-2 Antigens",
-          "content": "The Influenza A/B + SARS-CoV-2 Ag Combo Rapid Test Device by Ivexia Pharma is designed for qualitative detection of Influenza A antigen, Influenza B antigen, and SARS-CoV-2 antigen in respiratory swab specimens. Results should be interpreted with symptoms, clinical evaluation, and local respiratory infection activity."
+          "content": "The Influenza A/B + SARS-CoV-2 Ag Combo Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection of Influenza A antigen, Influenza B antigen, and SARS-CoV-2 antigen in respiratory swab specimens. Results should be interpreted with symptoms, clinical evaluation, and local respiratory infection activity."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -25056,7 +25056,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Advantages of Ivexia Pharma Influenza A/B + SARS-CoV-2 Ag Combo Rapid Test Device",
+          "title": "Advantages of LARKSOIS Pharma Influenza A/B + SARS-CoV-2 Ag Combo Rapid Test Device",
           "instructions": [
             "Detects Influenza A antigen",
             "Detects Influenza B antigen",
@@ -25065,9 +25065,9 @@ export const en = {
             "Uses nasal or nasopharyngeal swab specimens",
             "No complex instrument required",
             "Supports respiratory outbreak screening",
-            "International-quality diagnostic product from Ivexia Pharma"
+            "International-quality diagnostic product from LARKSOIS Pharma"
           ],
-          "note": "The Influenza A/B + SARS-CoV-2 Ag Combo Rapid Test Device by Ivexia Pharma is designed for practical use, rapid screening, and professional healthcare supply requirements."
+          "note": "The Influenza A/B + SARS-CoV-2 Ag Combo Rapid Test Device by LARKSOIS Pharma is designed for practical use, rapid screening, and professional healthcare supply requirements."
         },
         "procedure": {
           "title": "How to Use Influenza A/B + SARS-CoV-2 Ag Combo Rapid Test Device",
@@ -25082,12 +25082,12 @@ export const en = {
             "Read the test and control lines within the valid time window",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "A positive result means Influenza A antigen, Influenza B antigen, and/or SARS-CoV-2 antigen has been detected. Results should be interpreted with symptoms, exposure history, and local outbreak activity.",
-          "negative": "A negative result means target antigens were not detected at the test’s detectable level. If symptoms continue or clinical suspicion remains high, molecular testing such as PCR may still be recommended.",
+          "negative": "A negative result means target antigens were not detected at the testâ€™s detectable level. If symptoms continue or clinical suspicion remains high, molecular testing such as PCR may still be recommended.",
           "invalid": "If the control line does not appear, the test result is invalid. Repeat testing with a fresh test device is required."
         },
         "storage": {
@@ -25117,8 +25117,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides globally suitable diagnostic products for hospitals, laboratories, clinics, healthcare procurement agencies, and medical distributors. The Influenza A/B + SARS-CoV-2 Ag Combo Rapid Test Device is designed for fast, accessible, and practical respiratory infection screening.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides globally suitable diagnostic products for hospitals, laboratories, clinics, healthcare procurement agencies, and medical distributors. The Influenza A/B + SARS-CoV-2 Ag Combo Rapid Test Device is designed for fast, accessible, and practical respiratory infection screening.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable respiratory infection screening support",
@@ -25201,12 +25201,12 @@ export const en = {
     },
     "influenza-a-b-sars-cov-2-rsv-ag-combo-test": {
       "meta": {
-        "title": "Influenza A/B + SARS-CoV-2 + RSV Ag Combo Rapid Test Device | Ivexia Pharma",
-        "description": "Ivexia Pharma Influenza A/B + SARS-CoV-2 + RSV Ag Combo Rapid Test Device detects Influenza A, Influenza B, COVID-19, and RSV antigens in nasal or nasopharyngeal swab specimens."
+        "title": "Influenza A/B + SARS-CoV-2 + RSV Ag Combo Rapid Test Device | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Influenza A/B + SARS-CoV-2 + RSV Ag Combo Rapid Test Device detects Influenza A, Influenza B, COVID-19, and RSV antigens in nasal or nasopharyngeal swab specimens."
       },
       "hero": {
         "title": "Influenza A/B + SARS-CoV-2 + RSV Ag Combo Rapid Test Device",
-        "description": "Ivexia Pharma Influenza A/B + SARS-CoV-2 + RSV Ag Combo Rapid Test Device is a rapid diagnostic test designed for qualitative detection of Influenza A antigen, Influenza B antigen, SARS-CoV-2 antigen, and RSV antigen in nasal or nasopharyngeal swab specimens. This combo rapid test supports fast respiratory infection screening in hospitals, clinics, laboratories, fever clinics, emergency departments, public health programs, and professional point-of-care settings."
+        "description": "LARKSOIS Pharma Influenza A/B + SARS-CoV-2 + RSV Ag Combo Rapid Test Device is a rapid diagnostic test designed for qualitative detection of Influenza A antigen, Influenza B antigen, SARS-CoV-2 antigen, and RSV antigen in nasal or nasopharyngeal swab specimens. This combo rapid test supports fast respiratory infection screening in hospitals, clinics, laboratories, fever clinics, emergency departments, public health programs, and professional point-of-care settings."
       },
       "content": {
         "introduction": {
@@ -25227,7 +25227,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -25271,7 +25271,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Influenza A/B + SARS-CoV-2 + RSV Ag Combo Rapid Test Device",
-          "description": "The combo rapid test by Ivexia Pharma may be used in professional diagnostic and respiratory infection screening environments.",
+          "description": "The combo rapid test by LARKSOIS Pharma may be used in professional diagnostic and respiratory infection screening environments.",
           "applications": [
             "Hospitals and clinics",
             "Emergency departments",
@@ -25321,11 +25321,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle respiratory specimens according to laboratory safety procedures"
           ],
-          "note": "Specimen collection, extraction, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, extraction, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Influenza A, Influenza B, SARS-CoV-2, and RSV Antigens",
-          "content": "The Influenza A/B + SARS-CoV-2 + RSV Ag Combo Rapid Test Device by Ivexia Pharma is designed for qualitative detection of Influenza A antigen, Influenza B antigen, SARS-CoV-2 antigen, and RSV antigen in respiratory swab specimens."
+          "content": "The Influenza A/B + SARS-CoV-2 + RSV Ag Combo Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection of Influenza A antigen, Influenza B antigen, SARS-CoV-2 antigen, and RSV antigen in respiratory swab specimens."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -25351,7 +25351,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Advantages of Ivexia Pharma Influenza A/B + SARS-CoV-2 + RSV Ag Combo Rapid Test Device",
+          "title": "Advantages of LARKSOIS Pharma Influenza A/B + SARS-CoV-2 + RSV Ag Combo Rapid Test Device",
           "instructions": [
             "Detects Influenza A antigen",
             "Detects Influenza B antigen",
@@ -25362,7 +25362,7 @@ export const en = {
             "No complex instrument required",
             "Supports respiratory outbreak screening"
           ],
-          "note": "The Influenza A/B + SARS-CoV-2 + RSV Ag Combo Rapid Test Device by Ivexia Pharma is designed for practical use, rapid screening, and professional healthcare supply requirements."
+          "note": "The Influenza A/B + SARS-CoV-2 + RSV Ag Combo Rapid Test Device by LARKSOIS Pharma is designed for practical use, rapid screening, and professional healthcare supply requirements."
         },
         "procedure": {
           "title": "How to Use Influenza A/B + SARS-CoV-2 + RSV Ag Combo Rapid Test Device",
@@ -25377,12 +25377,12 @@ export const en = {
             "Read the test and control lines within the valid time window",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "A positive result means Influenza A antigen, Influenza B antigen, SARS-CoV-2 antigen, and/or RSV antigen has been detected. Results should be interpreted with symptoms, exposure history, and local outbreak activity.",
-          "negative": "A negative result means target antigens were not detected at the test’s detectable level. If symptoms continue or clinical suspicion remains high, molecular testing such as PCR may still be recommended.",
+          "negative": "A negative result means target antigens were not detected at the testâ€™s detectable level. If symptoms continue or clinical suspicion remains high, molecular testing such as PCR may still be recommended.",
           "invalid": "If the control line does not appear, the test result is invalid. Repeat testing with a fresh test device is required."
         },
         "storage": {
@@ -25412,8 +25412,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides globally suitable diagnostic products for hospitals, laboratories, clinics, healthcare procurement agencies, and medical distributors. The Influenza A/B + SARS-CoV-2 + RSV Ag Combo Rapid Test Device is designed for fast, accessible, and practical respiratory infection screening.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides globally suitable diagnostic products for hospitals, laboratories, clinics, healthcare procurement agencies, and medical distributors. The Influenza A/B + SARS-CoV-2 + RSV Ag Combo Rapid Test Device is designed for fast, accessible, and practical respiratory infection screening.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable respiratory infection screening support",
@@ -25496,12 +25496,12 @@ export const en = {
     },
     "influenza-b-ag-test": {
       "meta": {
-        "title": "Influenza B Ag Rapid Test Device | Nasal & Nasopharyngeal Swab | Ivexia Pharma",
-        "description": "Ivexia Pharma Influenza B Ag Rapid Test Device detects Influenza B antigen in nasal or nasopharyngeal swab samples for rapid professional flu screening."
+        "title": "Influenza B Ag Rapid Test Device | Nasal & Nasopharyngeal Swab | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Influenza B Ag Rapid Test Device detects Influenza B antigen in nasal or nasopharyngeal swab samples for rapid professional flu screening."
       },
       "hero": {
         "title": "Influenza B Ag Rapid Test Device",
-        "description": "Ivexia Pharma Influenza B Ag Rapid Test Device is a rapid diagnostic test designed for the qualitative detection of Influenza B antigen in nasopharyngeal swab or nasal swab specimens. This Influenza B Ag Rapid Test Device supports fast screening of suspected influenza infection in hospitals, clinics, fever clinics, diagnostic laboratories, emergency departments, respiratory infection programs, and professional point-of-care settings."
+        "description": "LARKSOIS Pharma Influenza B Ag Rapid Test Device is a rapid diagnostic test designed for the qualitative detection of Influenza B antigen in nasopharyngeal swab or nasal swab specimens. This Influenza B Ag Rapid Test Device supports fast screening of suspected influenza infection in hospitals, clinics, fever clinics, diagnostic laboratories, emergency departments, respiratory infection programs, and professional point-of-care settings."
       },
       "content": {
         "introduction": {
@@ -25522,7 +25522,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -25570,7 +25570,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Influenza B Ag Rapid Test Device",
-          "description": "The Influenza B Ag Rapid Test Device by Ivexia Pharma may be used in professional diagnostic and respiratory infection screening environments.",
+          "description": "The Influenza B Ag Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic and respiratory infection screening environments.",
           "applications": [
             "Hospitals and clinics",
             "Fever clinics",
@@ -25620,11 +25620,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle respiratory specimens according to laboratory safety procedures"
           ],
-          "note": "Specimen collection, extraction, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, extraction, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Influenza B Antigen",
-          "content": "The Influenza B Ag Rapid Test Device by Ivexia Pharma is designed for qualitative detection of Influenza B antigen in nasal or nasopharyngeal swab specimens. The listed cut-off is 100 TCID/ml, and results should be interpreted with symptoms, patient history, exposure risk, and local flu activity."
+          "content": "The Influenza B Ag Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection of Influenza B antigen in nasal or nasopharyngeal swab specimens. The listed cut-off is 100 TCID/ml, and results should be interpreted with symptoms, patient history, exposure risk, and local flu activity."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -25650,7 +25650,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Advantages of Ivexia Pharma Influenza B Ag Rapid Test Device",
+          "title": "Advantages of LARKSOIS Pharma Influenza B Ag Rapid Test Device",
           "instructions": [
             "Detects Influenza B antigen",
             "Uses nasal or nasopharyngeal swab samples",
@@ -25661,7 +25661,7 @@ export const en = {
             "Useful during seasonal flu outbreaks",
             "Supports international diagnostic supply needs"
           ],
-          "note": "The Influenza B Ag Rapid Test Device by Ivexia Pharma is designed for fast, practical, and accessible flu screening."
+          "note": "The Influenza B Ag Rapid Test Device by LARKSOIS Pharma is designed for fast, practical, and accessible flu screening."
         },
         "procedure": {
           "title": "How to Use Influenza B Ag Rapid Test Device",
@@ -25676,12 +25676,12 @@ export const en = {
             "Read the test and control lines within the valid time window",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "A positive result means Influenza B antigen has been detected. The result should be interpreted with symptoms, patient history, exposure risk, and local flu activity.",
-          "negative": "A negative result means Influenza B antigen was not detected at the test’s detectable level. If clinical suspicion remains high, molecular testing such as RT-PCR may be recommended.",
+          "negative": "A negative result means Influenza B antigen was not detected at the testâ€™s detectable level. If clinical suspicion remains high, molecular testing such as RT-PCR may be recommended.",
           "invalid": "If the control line does not appear, the result is invalid. Repeat testing with a new device is required."
         },
         "storage": {
@@ -25711,8 +25711,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides internationally suitable diagnostic solutions for hospitals, laboratories, clinics, medical distributors, public health programs, and procurement agencies. The Influenza B Ag Rapid Test Device is designed for fast, practical, and accessible flu screening.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides internationally suitable diagnostic solutions for hospitals, laboratories, clinics, medical distributors, public health programs, and procurement agencies. The Influenza B Ag Rapid Test Device is designed for fast, practical, and accessible flu screening.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable Influenza B antigen screening support",
@@ -25795,12 +25795,12 @@ export const en = {
     },
     "leishmania-rapid-test": {
       "meta": {
-        "title": "Leishmania IgG/IgM Rapid Test Device WB/S/P | Ivexia Pharma",
-        "description": "Ivexia Pharma Leishmania IgG/IgM Rapid Test Device detects Leishmania IgG and IgM antibodies in whole blood, serum, or plasma for rapid professional screening support."
+        "title": "Leishmania IgG/IgM Rapid Test Device WB/S/P | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Leishmania IgG/IgM Rapid Test Device detects Leishmania IgG and IgM antibodies in whole blood, serum, or plasma for rapid professional screening support."
       },
       "hero": {
         "title": "Leishmania IgG/IgM Rapid Test Device (WB/S/P)",
-        "description": "Ivexia Pharma Leishmania IgG/IgM Rapid Test Device (WB/S/P) is a professional rapid diagnostic test designed for the qualitative detection and differentiation of Leishmania IgG and IgM antibodies in whole blood, serum, or plasma specimens. This Leishmania IgG/IgM Rapid Test Device supports fast screening for suspected leishmaniasis in hospitals, laboratories, infectious disease clinics, endemic-region healthcare settings, and professional point-of-care environments."
+        "description": "LARKSOIS Pharma Leishmania IgG/IgM Rapid Test Device (WB/S/P) is a professional rapid diagnostic test designed for the qualitative detection and differentiation of Leishmania IgG and IgM antibodies in whole blood, serum, or plasma specimens. This Leishmania IgG/IgM Rapid Test Device supports fast screening for suspected leishmaniasis in hospitals, laboratories, infectious disease clinics, endemic-region healthcare settings, and professional point-of-care environments."
       },
       "content": {
         "introduction": {
@@ -25821,7 +25821,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -25869,7 +25869,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Leishmania IgG/IgM Rapid Test Device",
-          "description": "The Leishmania IgG/IgM Rapid Test Device by Ivexia Pharma may be used in professional diagnostic and infectious disease screening environments.",
+          "description": "The Leishmania IgG/IgM Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic and infectious disease screening environments.",
           "applications": [
             "Hospitals and clinics",
             "Diagnostic laboratories",
@@ -25918,11 +25918,11 @@ export const en = {
             "Handle all specimens according to laboratory safety procedures",
             "Follow the official testing protocol carefully"
           ],
-          "note": "Specimen collection, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Leishmania IgG and IgM Antibodies",
-          "content": "The Leishmania IgG/IgM Rapid Test Device by Ivexia Pharma is designed for qualitative detection and differentiation of Leishmania IgG and IgM antibodies in whole blood, serum, or plasma specimens. Many Leishmania rapid tests use recombinant antigens such as rK39 for visceral leishmaniasis antibody screening."
+          "content": "The Leishmania IgG/IgM Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection and differentiation of Leishmania IgG and IgM antibodies in whole blood, serum, or plasma specimens. Many Leishmania rapid tests use recombinant antigens such as rK39 for visceral leishmaniasis antibody screening."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -25948,7 +25948,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Advantages of Ivexia Pharma Leishmania IgG/IgM Rapid Test Device",
+          "title": "Advantages of LARKSOIS Pharma Leishmania IgG/IgM Rapid Test Device",
           "instructions": [
             "Detects Leishmania IgG antibodies",
             "Detects Leishmania IgM antibodies",
@@ -25959,7 +25959,7 @@ export const en = {
             "Supports endemic-region screening programs",
             "Suitable for international diagnostic supply"
           ],
-          "note": "The Leishmania IgG/IgM Rapid Test Device by Ivexia Pharma is designed for practical, rapid, and accessible infectious disease antibody screening support."
+          "note": "The Leishmania IgG/IgM Rapid Test Device by LARKSOIS Pharma is designed for practical, rapid, and accessible infectious disease antibody screening support."
         },
         "procedure": {
           "title": "How to Use Leishmania IgG/IgM Rapid Test Device",
@@ -25974,12 +25974,12 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "An IgM-positive result may suggest recent or active immune response. An IgG-positive result may indicate past exposure, ongoing infection, or later-stage immune response.",
-          "negative": "A negative result means Leishmania IgG/IgM antibodies were not detected at the test’s detectable level. Early infection or low antibody levels may still require further testing.",
+          "negative": "A negative result means Leishmania IgG/IgM antibodies were not detected at the testâ€™s detectable level. Early infection or low antibody levels may still require further testing.",
           "invalid": "If the control line does not appear, the test result is invalid. Testing should be repeated with a fresh device."
         },
         "storage": {
@@ -26009,8 +26009,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides internationally suitable diagnostic products for hospitals, laboratories, clinics, healthcare procurement agencies, distributors, and public health programs. The Leishmania IgG/IgM Rapid Test Device is designed for fast, practical, and accessible antibody screening support.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides internationally suitable diagnostic products for hospitals, laboratories, clinics, healthcare procurement agencies, distributors, and public health programs. The Leishmania IgG/IgM Rapid Test Device is designed for fast, practical, and accessible antibody screening support.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable Leishmania antibody screening support",
@@ -26093,12 +26093,12 @@ export const en = {
     },
     "leptospira-rapid-test": {
       "meta": {
-        "title": "Leptospira IgG/IgM Rapid Test Device WB/S/P | Ivexia Pharma",
-        "description": "Ivexia Pharma Leptospira IgG/IgM Rapid Test Device detects Leptospira IgG and IgM antibodies in whole blood, serum, or plasma for rapid professional leptospirosis screening."
+        "title": "Leptospira IgG/IgM Rapid Test Device WB/S/P | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Leptospira IgG/IgM Rapid Test Device detects Leptospira IgG and IgM antibodies in whole blood, serum, or plasma for rapid professional leptospirosis screening."
       },
       "hero": {
         "title": "Leptospira IgG/IgM Rapid Test Device (WB/S/P)",
-        "description": "Ivexia Pharma Leptospira IgG/IgM Rapid Test Device (WB/S/P) is a professional rapid diagnostic test designed for the qualitative detection and differentiation of Leptospira IgG and IgM antibodies in whole blood, serum, or plasma specimens. This Leptospira IgG/IgM Rapid Test Device supports fast screening of suspected leptospirosis in hospitals, clinics, laboratories, fever clinics, public health programs, and endemic-region healthcare settings."
+        "description": "LARKSOIS Pharma Leptospira IgG/IgM Rapid Test Device (WB/S/P) is a professional rapid diagnostic test designed for the qualitative detection and differentiation of Leptospira IgG and IgM antibodies in whole blood, serum, or plasma specimens. This Leptospira IgG/IgM Rapid Test Device supports fast screening of suspected leptospirosis in hospitals, clinics, laboratories, fever clinics, public health programs, and endemic-region healthcare settings."
       },
       "content": {
         "introduction": {
@@ -26119,7 +26119,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -26167,7 +26167,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Leptospira IgG/IgM Rapid Test Device",
-          "description": "The Leptospira IgG/IgM Rapid Test Device by Ivexia Pharma may be used in professional diagnostic and infectious disease screening environments.",
+          "description": "The Leptospira IgG/IgM Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic and infectious disease screening environments.",
           "applications": [
             "Suspected leptospirosis screening",
             "Fever clinic diagnostic support",
@@ -26216,11 +26216,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all specimens according to laboratory safety procedures"
           ],
-          "note": "Specimen collection, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Leptospira IgG and IgM Antibodies",
-          "content": "The Leptospira IgG/IgM Rapid Test Device by Ivexia Pharma is designed for qualitative detection and differentiation of Leptospira IgG and IgM antibodies in whole blood, serum, or plasma specimens. Detection of Leptospira antibodies may support suspected leptospirosis screening and further clinical evaluation."
+          "content": "The Leptospira IgG/IgM Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection and differentiation of Leptospira IgG and IgM antibodies in whole blood, serum, or plasma specimens. Detection of Leptospira antibodies may support suspected leptospirosis screening and further clinical evaluation."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -26246,7 +26246,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Advantages of Ivexia Pharma Leptospira IgG/IgM Rapid Test Device",
+          "title": "Advantages of LARKSOIS Pharma Leptospira IgG/IgM Rapid Test Device",
           "instructions": [
             "Detects Leptospira IgG antibodies",
             "Detects Leptospira IgM antibodies",
@@ -26257,7 +26257,7 @@ export const en = {
             "Supports professional screening programs",
             "Suitable for international diagnostic supply"
           ],
-          "note": "The Leptospira IgG/IgM Rapid Test Device by Ivexia Pharma is designed for practical, rapid, and accessible leptospirosis antibody screening support."
+          "note": "The Leptospira IgG/IgM Rapid Test Device by LARKSOIS Pharma is designed for practical, rapid, and accessible leptospirosis antibody screening support."
         },
         "procedure": {
           "title": "How to Use Leptospira IgG/IgM Rapid Test Device",
@@ -26272,12 +26272,12 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "An IgM-positive result may suggest recent or active immune response. An IgG-positive result may suggest past exposure, later-stage immune response, or ongoing infection history.",
-          "negative": "A negative result means Leptospira IgG/IgM antibodies were not detected at the test’s detectable level. Early infection or low antibody levels may still require further testing.",
+          "negative": "A negative result means Leptospira IgG/IgM antibodies were not detected at the testâ€™s detectable level. Early infection or low antibody levels may still require further testing.",
           "invalid": "If the control line does not appear, the test result is invalid. Testing should be repeated with a fresh device."
         },
         "storage": {
@@ -26307,8 +26307,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides internationally suitable diagnostic products for hospitals, laboratories, clinics, healthcare procurement agencies, distributors, and public health programs. The Leptospira IgG/IgM Rapid Test Device is designed for fast, practical, and accessible antibody screening support.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides internationally suitable diagnostic products for hospitals, laboratories, clinics, healthcare procurement agencies, distributors, and public health programs. The Leptospira IgG/IgM Rapid Test Device is designed for fast, practical, and accessible antibody screening support.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable Leptospira antibody screening support",
@@ -26391,12 +26391,12 @@ export const en = {
     },
     "malaria-rapid-test": {
       "meta": {
-        "title": "Malaria Pf/Pv Rapid Test Device WB | Pf/Pv Antigen Test | Ivexia Pharma",
-        "description": "Ivexia Pharma Malaria Pf/Pv Rapid Test Device detects Plasmodium falciparum and Plasmodium vivax antigens in whole blood for rapid professional malaria screening."
+        "title": "Malaria Pf/Pv Rapid Test Device WB | Pf/Pv Antigen Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Malaria Pf/Pv Rapid Test Device detects Plasmodium falciparum and Plasmodium vivax antigens in whole blood for rapid professional malaria screening."
       },
       "hero": {
         "title": "Malaria Pf/Pv Rapid Test Device (WB)",
-        "description": "Ivexia Pharma Malaria Pf/Pv Rapid Test Device (WB) is a rapid diagnostic test designed for the qualitative detection and differentiation of Plasmodium falciparum (Pf) and Plasmodium vivax (Pv) malaria antigens in human whole blood specimens. This Malaria Pf/Pv Rapid Test Device supports fast malaria screening in hospitals, clinics, laboratories, fever clinics, rural healthcare centers, mobile medical camps, and malaria-endemic regions."
+        "description": "LARKSOIS Pharma Malaria Pf/Pv Rapid Test Device (WB) is a rapid diagnostic test designed for the qualitative detection and differentiation of Plasmodium falciparum (Pf) and Plasmodium vivax (Pv) malaria antigens in human whole blood specimens. This Malaria Pf/Pv Rapid Test Device supports fast malaria screening in hospitals, clinics, laboratories, fever clinics, rural healthcare centers, mobile medical camps, and malaria-endemic regions."
       },
       "content": {
         "introduction": {
@@ -26417,7 +26417,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -26437,7 +26437,7 @@ export const en = {
             },
             {
               "label": "Cut-off",
-              "value": "50 parasites/µl"
+              "value": "50 parasites/Âµl"
             },
             {
               "label": "Format",
@@ -26465,7 +26465,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Malaria Pf/Pv Rapid Test Device",
-          "description": "The Malaria Pf/Pv Rapid Test Device by Ivexia Pharma may be used in professional diagnostic and malaria screening environments.",
+          "description": "The Malaria Pf/Pv Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic and malaria screening environments.",
           "applications": [
             "Hospitals and fever clinics",
             "Diagnostic laboratories",
@@ -26514,11 +26514,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Pf and Pv Malaria Antigens",
-          "content": "The Malaria Pf/Pv Rapid Test Device by Ivexia Pharma is designed for qualitative detection and differentiation of Plasmodium falciparum and Plasmodium vivax antigens in whole blood. The listed cut-off is 50 parasites/µl."
+          "content": "The Malaria Pf/Pv Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection and differentiation of Plasmodium falciparum and Plasmodium vivax antigens in whole blood. The listed cut-off is 50 parasites/Âµl."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -26544,7 +26544,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Advantages of Ivexia Pharma Malaria Pf/Pv Rapid Test Device",
+          "title": "Advantages of LARKSOIS Pharma Malaria Pf/Pv Rapid Test Device",
           "instructions": [
             "Detects Plasmodium falciparum antigen",
             "Detects Plasmodium vivax antigen",
@@ -26555,7 +26555,7 @@ export const en = {
             "Useful in field and point-of-care settings",
             "Suitable for international healthcare supply"
           ],
-          "note": "The Malaria Pf/Pv Rapid Test Device by Ivexia Pharma is designed for practical malaria screening with simple operation, fast results, and professional diagnostic support."
+          "note": "The Malaria Pf/Pv Rapid Test Device by LARKSOIS Pharma is designed for practical malaria screening with simple operation, fast results, and professional diagnostic support."
         },
         "procedure": {
           "title": "How to Use Malaria Pf/Pv Rapid Test Device",
@@ -26570,12 +26570,12 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "Pf positive suggests Plasmodium falciparum antigen detection. Pv positive suggests Plasmodium vivax antigen detection. Both Pf and Pv positive may suggest mixed infection or require further clinical interpretation.",
-          "negative": "A negative result means Pf/Pv malaria antigen was not detected at the test’s detectable level. If malaria is still suspected, repeat testing, microscopy, or PCR may be required.",
+          "negative": "A negative result means Pf/Pv malaria antigen was not detected at the testâ€™s detectable level. If malaria is still suspected, repeat testing, microscopy, or PCR may be required.",
           "invalid": "If the control line does not appear, the result is invalid and the test should be repeated with a new device."
         },
         "storage": {
@@ -26605,8 +26605,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides globally suitable diagnostic products for hospitals, laboratories, clinics, public health programs, medical distributors, and procurement agencies. The Malaria Pf/Pv Rapid Test Device (WB) is designed for practical malaria screening with simple operation, fast results, and professional diagnostic support.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides globally suitable diagnostic products for hospitals, laboratories, clinics, public health programs, medical distributors, and procurement agencies. The Malaria Pf/Pv Rapid Test Device (WB) is designed for practical malaria screening with simple operation, fast results, and professional diagnostic support.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable Pf/Pv malaria antigen screening support",
@@ -26689,12 +26689,12 @@ export const en = {
     },
     "norovirus-rapid-test": {
       "meta": {
-        "title": "Norovirus GI/GII Rapid Test Device Feces | Ivexia Pharma",
-        "description": "Ivexia Pharma Norovirus GI/GII Rapid Test Device detects Norovirus Genogroup I and II antigens in feces for rapid professional gastroenteritis screening."
+        "title": "Norovirus GI/GII Rapid Test Device Feces | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Norovirus GI/GII Rapid Test Device detects Norovirus Genogroup I and II antigens in feces for rapid professional gastroenteritis screening."
       },
       "hero": {
         "title": "Norovirus GI/GII Rapid Test Device (Feces)",
-        "description": "Ivexia Pharma Norovirus GI/GII Rapid Test Device (Feces) is a rapid diagnostic test designed for the qualitative detection of Norovirus Genogroup I (GI) and Genogroup II (GII) antigens in human fecal specimens. This Norovirus GI/GII Rapid Test Device supports fast screening of suspected norovirus-related gastroenteritis in hospitals, clinics, laboratories, emergency departments, childcare facilities, elderly care settings, food-safety investigations, and public health programs."
+        "description": "LARKSOIS Pharma Norovirus GI/GII Rapid Test Device (Feces) is a rapid diagnostic test designed for the qualitative detection of Norovirus Genogroup I (GI) and Genogroup II (GII) antigens in human fecal specimens. This Norovirus GI/GII Rapid Test Device supports fast screening of suspected norovirus-related gastroenteritis in hospitals, clinics, laboratories, emergency departments, childcare facilities, elderly care settings, food-safety investigations, and public health programs."
       },
       "content": {
         "introduction": {
@@ -26715,7 +26715,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -26763,7 +26763,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Norovirus GI/GII Rapid Test Device",
-          "description": "The Norovirus GI/GII Rapid Test Device by Ivexia Pharma may be used in professional diagnostic, gastroenteritis screening, and public health environments.",
+          "description": "The Norovirus GI/GII Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic, gastroenteritis screening, and public health environments.",
           "applications": [
             "Hospitals and clinics",
             "Diagnostic laboratories",
@@ -26813,11 +26813,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all fecal specimens according to laboratory safety procedures"
           ],
-          "note": "Specimen collection, extraction, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, extraction, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Norovirus GI and GII Antigens",
-          "content": "The Norovirus GI/GII Rapid Test Device by Ivexia Pharma is designed for qualitative detection of Norovirus Genogroup I and Genogroup II antigens in human fecal specimens. Detection of GI or GII antigen may support rapid screening of suspected norovirus-related gastroenteritis."
+          "content": "The Norovirus GI/GII Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection of Norovirus Genogroup I and Genogroup II antigens in human fecal specimens. Detection of GI or GII antigen may support rapid screening of suspected norovirus-related gastroenteritis."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -26843,7 +26843,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Advantages of Ivexia Pharma Norovirus GI/GII Rapid Test Device",
+          "title": "Advantages of LARKSOIS Pharma Norovirus GI/GII Rapid Test Device",
           "instructions": [
             "Detects Norovirus GI and GII antigens",
             "Uses fecal specimens",
@@ -26854,7 +26854,7 @@ export const en = {
             "Supports outbreak-response workflows",
             "Suitable for international diagnostic supply"
           ],
-          "note": "The Norovirus GI/GII Rapid Test Device by Ivexia Pharma is designed for fast, practical, and accessible norovirus screening support."
+          "note": "The Norovirus GI/GII Rapid Test Device by LARKSOIS Pharma is designed for fast, practical, and accessible norovirus screening support."
         },
         "procedure": {
           "title": "How to Use Norovirus GI/GII Rapid Test Device",
@@ -26869,12 +26869,12 @@ export const en = {
             "Read the test and control lines within the valid time window",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "A positive result means Norovirus GI or GII antigen has been detected in the fecal specimen. The result should be interpreted with symptoms, exposure history, and outbreak context.",
-          "negative": "A negative result means norovirus antigen was not detected at the test’s detectable level. If symptoms or outbreak suspicion remain high, molecular testing such as RT-PCR may be recommended.",
+          "negative": "A negative result means norovirus antigen was not detected at the testâ€™s detectable level. If symptoms or outbreak suspicion remain high, molecular testing such as RT-PCR may be recommended.",
           "invalid": "If the control line does not appear, the result is invalid. Testing should be repeated with a new device."
         },
         "storage": {
@@ -26904,8 +26904,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides internationally suitable diagnostic products for hospitals, laboratories, clinics, public health programs, procurement agencies, and medical distributors. The Norovirus GI/GII Rapid Test Device (Feces) is designed for fast, practical, and accessible norovirus screening support.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides internationally suitable diagnostic products for hospitals, laboratories, clinics, public health programs, procurement agencies, and medical distributors. The Norovirus GI/GII Rapid Test Device (Feces) is designed for fast, practical, and accessible norovirus screening support.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable Norovirus GI/GII antigen screening support",
@@ -26988,12 +26988,12 @@ export const en = {
     },
     "raca-rapid-test": {
       "meta": {
-        "title": "Rota/Adeno Combo Rapid Test Device Feces | RAC Test | Ivexia Pharma",
-        "description": "Ivexia Pharma Rota/Adeno Combo Rapid Test Device detects rotavirus and adenovirus antigens in feces for rapid professional gastroenteritis screening."
+        "title": "Rota/Adeno Combo Rapid Test Device Feces | RAC Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Rota/Adeno Combo Rapid Test Device detects rotavirus and adenovirus antigens in feces for rapid professional gastroenteritis screening."
       },
       "hero": {
         "title": "Rota/Adeno Combo Rapid Test Device (Feces)",
-        "description": "Ivexia Pharma Rota/Adeno Combo Rapid Test Device (Feces) is a rapid diagnostic test designed for the qualitative detection of rotavirus and adenovirus antigens in human fecal specimens. This Rota/Adeno Combo Rapid Test Device supports fast screening of suspected viral gastroenteritis in hospitals, clinics, diagnostic laboratories, pediatric care centers, emergency departments, and public health programs."
+        "description": "LARKSOIS Pharma Rota/Adeno Combo Rapid Test Device (Feces) is a rapid diagnostic test designed for the qualitative detection of rotavirus and adenovirus antigens in human fecal specimens. This Rota/Adeno Combo Rapid Test Device supports fast screening of suspected viral gastroenteritis in hospitals, clinics, diagnostic laboratories, pediatric care centers, emergency departments, and public health programs."
       },
       "content": {
         "introduction": {
@@ -27014,7 +27014,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -27062,7 +27062,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Rota/Adeno Combo Rapid Test Device",
-          "description": "The Rota/Adeno Combo Rapid Test Device by Ivexia Pharma may be used in professional diagnostic, pediatric, and gastroenteritis screening environments.",
+          "description": "The Rota/Adeno Combo Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic, pediatric, and gastroenteritis screening environments.",
           "applications": [
             "Pediatric clinics",
             "Hospitals and emergency departments",
@@ -27111,11 +27111,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all fecal specimens according to laboratory safety procedures"
           ],
-          "note": "Specimen collection, extraction, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, extraction, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Rotavirus and Adenovirus Antigens",
-          "content": "The Rota/Adeno Combo Rapid Test Device by Ivexia Pharma is designed for qualitative detection of rotavirus and adenovirus antigens in human fecal specimens. Detection of either antigen may support rapid screening of suspected viral gastroenteritis."
+          "content": "The Rota/Adeno Combo Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection of rotavirus and adenovirus antigens in human fecal specimens. Detection of either antigen may support rapid screening of suspected viral gastroenteritis."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -27141,7 +27141,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Advantages of Ivexia Pharma Rota/Adeno Combo Rapid Test Device",
+          "title": "Advantages of LARKSOIS Pharma Rota/Adeno Combo Rapid Test Device",
           "instructions": [
             "Detects rotavirus antigen",
             "Detects adenovirus antigen",
@@ -27152,7 +27152,7 @@ export const en = {
             "Useful for gastroenteritis screening",
             "Supports pediatric and public health workflows"
           ],
-          "note": "The Rota/Adeno Combo Rapid Test Device by Ivexia Pharma is designed for fast, practical, and accessible viral gastroenteritis screening support."
+          "note": "The Rota/Adeno Combo Rapid Test Device by LARKSOIS Pharma is designed for fast, practical, and accessible viral gastroenteritis screening support."
         },
         "procedure": {
           "title": "How to Use Rota/Adeno Combo Rapid Test Device",
@@ -27167,12 +27167,12 @@ export const en = {
             "Read the test and control lines within the valid time window",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "A positive result means rotavirus antigen, adenovirus antigen, or both have been detected in the fecal sample. The result should be interpreted with symptoms and clinical history.",
-          "negative": "A negative result means rotavirus or adenovirus antigen was not detected at the test’s detectable level. If symptoms continue, further testing may be required.",
+          "negative": "A negative result means rotavirus or adenovirus antigen was not detected at the testâ€™s detectable level. If symptoms continue, further testing may be required.",
           "invalid": "If the control line does not appear, the result is invalid. Repeat the test with a new device."
         },
         "storage": {
@@ -27202,8 +27202,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides internationally suitable diagnostic products for hospitals, laboratories, clinics, healthcare distributors, and public health programs. The Rota/Adeno Combo Rapid Test Device (Feces) offers a practical solution for rapid stool-based screening of viral gastroenteritis.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides internationally suitable diagnostic products for hospitals, laboratories, clinics, healthcare distributors, and public health programs. The Rota/Adeno Combo Rapid Test Device (Feces) offers a practical solution for rapid stool-based screening of viral gastroenteritis.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable Rota/Adeno antigen screening support",
@@ -27286,12 +27286,12 @@ export const en = {
     },
     "rsv-rapid-test": {
       "meta": {
-        "title": "RSV Ag Rapid Test Device | Respiratory Syncytial Virus Test | Ivexia Pharma",
-        "description": "Ivexia Pharma RSV Ag Rapid Test Device detects Respiratory Syncytial Virus antigen in nasal or nasopharyngeal swab specimens for rapid professional respiratory infection screening."
+        "title": "RSV Ag Rapid Test Device | Respiratory Syncytial Virus Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma RSV Ag Rapid Test Device detects Respiratory Syncytial Virus antigen in nasal or nasopharyngeal swab specimens for rapid professional respiratory infection screening."
       },
       "hero": {
         "title": "RSV Ag Rapid Test Device",
-        "description": "Ivexia Pharma RSV Ag Rapid Test Device is a rapid diagnostic test designed for the qualitative detection of Respiratory Syncytial Virus (RSV) antigen in nasal swab or nasopharyngeal swab specimens. This RSV Ag Rapid Test Device supports fast screening of suspected RSV infection in hospitals, clinics, laboratories, pediatric care centers, emergency departments, and professional point-of-care settings."
+        "description": "LARKSOIS Pharma RSV Ag Rapid Test Device is a rapid diagnostic test designed for the qualitative detection of Respiratory Syncytial Virus (RSV) antigen in nasal swab or nasopharyngeal swab specimens. This RSV Ag Rapid Test Device supports fast screening of suspected RSV infection in hospitals, clinics, laboratories, pediatric care centers, emergency departments, and professional point-of-care settings."
       },
       "content": {
         "introduction": {
@@ -27312,7 +27312,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -27360,7 +27360,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of RSV Ag Rapid Test Device",
-          "description": "The RSV Ag Rapid Test Device by Ivexia Pharma may be used in professional respiratory infection screening environments.",
+          "description": "The RSV Ag Rapid Test Device by LARKSOIS Pharma may be used in professional respiratory infection screening environments.",
           "applications": [
             "Hospitals and clinics",
             "Pediatric care centers",
@@ -27410,11 +27410,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle respiratory specimens according to laboratory safety procedures"
           ],
-          "note": "Specimen collection, extraction, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, extraction, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Respiratory Syncytial Virus Antigen",
-          "content": "The RSV Ag Rapid Test Device by Ivexia Pharma is designed for qualitative detection of Respiratory Syncytial Virus antigen in nasal or nasopharyngeal swab specimens. Detection of RSV antigen may support rapid screening of suspected respiratory syncytial virus infection."
+          "content": "The RSV Ag Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection of Respiratory Syncytial Virus antigen in nasal or nasopharyngeal swab specimens. Detection of RSV antigen may support rapid screening of suspected respiratory syncytial virus infection."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -27440,7 +27440,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Advantages of Ivexia Pharma RSV Ag Rapid Test Device",
+          "title": "Advantages of LARKSOIS Pharma RSV Ag Rapid Test Device",
           "instructions": [
             "Detects RSV antigen",
             "Uses nasal or nasopharyngeal swab specimens",
@@ -27451,7 +27451,7 @@ export const en = {
             "Supports pediatric and respiratory care workflows",
             "Suitable for international healthcare supply"
           ],
-          "note": "The RSV Ag Rapid Test Device by Ivexia Pharma is designed for fast, practical, and accessible respiratory infection screening support."
+          "note": "The RSV Ag Rapid Test Device by LARKSOIS Pharma is designed for fast, practical, and accessible respiratory infection screening support."
         },
         "procedure": {
           "title": "How to Use RSV Ag Rapid Test Device",
@@ -27466,12 +27466,12 @@ export const en = {
             "Read the test and control lines within the valid time window",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "A positive result means RSV antigen has been detected in the respiratory specimen. The result should be interpreted with symptoms and clinical evaluation.",
-          "negative": "A negative result means RSV antigen was not detected at the test’s detectable level. If symptoms continue or clinical suspicion remains high, further testing may be required.",
+          "negative": "A negative result means RSV antigen was not detected at the testâ€™s detectable level. If symptoms continue or clinical suspicion remains high, further testing may be required.",
           "invalid": "If the control line does not appear, the result is invalid. Repeat the test with a new device."
         },
         "storage": {
@@ -27501,8 +27501,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides internationally suitable diagnostic products for hospitals, laboratories, clinics, healthcare distributors, and public health programs. The RSV Ag Rapid Test Device offers a practical solution for rapid respiratory syncytial virus screening.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides internationally suitable diagnostic products for hospitals, laboratories, clinics, healthcare distributors, and public health programs. The RSV Ag Rapid Test Device offers a practical solution for rapid respiratory syncytial virus screening.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable RSV antigen screening support",
@@ -27585,12 +27585,12 @@ export const en = {
     },
     "syphilis-rapid-test": {
       "meta": {
-        "title": "Syphilis Rapid Test Device/Strip WB/S/P | Treponema Pallidum Test | Ivexia Pharma",
-        "description": "Ivexia Pharma Syphilis Rapid Test Device/Strip detects antibodies to Treponema pallidum in whole blood, serum, or plasma for rapid professional screening."
+        "title": "Syphilis Rapid Test Device/Strip WB/S/P | Treponema Pallidum Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Syphilis Rapid Test Device/Strip detects antibodies to Treponema pallidum in whole blood, serum, or plasma for rapid professional screening."
       },
       "hero": {
         "title": "Syphilis Rapid Test Device/Strip (WB/S/P)",
-        "description": "Ivexia Pharma Syphilis Rapid Test Device/Strip (WB/S/P) is a professional rapid diagnostic test designed for the qualitative detection of antibodies to Treponema pallidum, the bacterium associated with syphilis infection. This Syphilis Rapid Test Device/Strip supports rapid screening in hospitals, clinics, diagnostic laboratories, public health programs, antenatal screening settings, STI clinics, and professional point-of-care environments."
+        "description": "LARKSOIS Pharma Syphilis Rapid Test Device/Strip (WB/S/P) is a professional rapid diagnostic test designed for the qualitative detection of antibodies to Treponema pallidum, the bacterium associated with syphilis infection. This Syphilis Rapid Test Device/Strip supports rapid screening in hospitals, clinics, diagnostic laboratories, public health programs, antenatal screening settings, STI clinics, and professional point-of-care environments."
       },
       "content": {
         "introduction": {
@@ -27611,7 +27611,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -27659,7 +27659,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Syphilis Rapid Test Device/Strip",
-          "description": "The Syphilis Rapid Test Device/Strip by Ivexia Pharma may be used in professional diagnostic and public health screening environments.",
+          "description": "The Syphilis Rapid Test Device/Strip by LARKSOIS Pharma may be used in professional diagnostic and public health screening environments.",
           "applications": [
             "STI and sexual health clinics",
             "Hospitals and diagnostic laboratories",
@@ -27708,18 +27708,18 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Treponema Pallidum Antibodies",
-          "content": "The Syphilis Rapid Test Device/Strip by Ivexia Pharma is designed for qualitative detection of antibodies to Treponema pallidum in whole blood, serum, or plasma specimens. The listed cut-off is 11e5 org/test."
+          "content": "The Syphilis Rapid Test Device/Strip by LARKSOIS Pharma is designed for qualitative detection of antibodies to Treponema pallidum in whole blood, serum, or plasma specimens. The listed cut-off is 11e5 org/test."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
           "sections": [
             "A positive result means antibodies to Treponema pallidum have been detected.",
             "A reactive screening result should be followed by confirmatory testing according to clinical guidelines.",
-            "A negative result means TP antibodies were not detected at the test’s detectable level.",
+            "A negative result means TP antibodies were not detected at the testâ€™s detectable level.",
             "Early infection may still require repeat testing if exposure is recent or clinical suspicion remains high."
           ]
         },
@@ -27738,7 +27738,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Advantages of Ivexia Pharma Syphilis Rapid Test Device/Strip",
+          "title": "Advantages of LARKSOIS Pharma Syphilis Rapid Test Device/Strip",
           "instructions": [
             "Detects Treponema pallidum antibodies",
             "Suitable for whole blood, serum, and plasma",
@@ -27749,7 +27749,7 @@ export const en = {
             "Useful for STI and antenatal screening programs",
             "Suitable for international diagnostic supply"
           ],
-          "note": "The Syphilis Rapid Test Device/Strip by Ivexia Pharma is designed for fast, practical, and accessible professional syphilis screening support."
+          "note": "The Syphilis Rapid Test Device/Strip by LARKSOIS Pharma is designed for fast, practical, and accessible professional syphilis screening support."
         },
         "procedure": {
           "title": "How to Use Syphilis Rapid Test Device/Strip",
@@ -27764,12 +27764,12 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "A positive result means antibodies to Treponema pallidum have been detected. A reactive screening result should be followed by confirmatory testing according to clinical guidelines.",
-          "negative": "A negative result means TP antibodies were not detected at the test’s detectable level. Early infection may still require repeat testing if exposure is recent.",
+          "negative": "A negative result means TP antibodies were not detected at the testâ€™s detectable level. Early infection may still require repeat testing if exposure is recent.",
           "invalid": "If the control line does not appear, the result is invalid. Testing should be repeated with a new Syphilis Rapid Test Device/Strip."
         },
         "storage": {
@@ -27799,8 +27799,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides globally suitable diagnostic products for hospitals, clinics, laboratories, public health programs, healthcare distributors, and procurement agencies. The Syphilis Rapid Test Device/Strip (WB/S/P) is designed for fast, practical, and accessible syphilis screening.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides globally suitable diagnostic products for hospitals, clinics, laboratories, public health programs, healthcare distributors, and procurement agencies. The Syphilis Rapid Test Device/Strip (WB/S/P) is designed for fast, practical, and accessible syphilis screening.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable syphilis antibody screening support",
@@ -27883,12 +27883,12 @@ export const en = {
     },
     "strep-a-rapid-test": {
       "meta": {
-        "title": "Strep A Rapid Test Device/Strip Swab | Group A Streptococcus Test | Ivexia Pharma",
-        "description": "Ivexia Pharma Strep A Rapid Test Device/Strip detects Group A Streptococcus antigen in throat swab specimens for rapid professional screening of suspected strep throat."
+        "title": "Strep A Rapid Test Device/Strip Swab | Group A Streptococcus Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Strep A Rapid Test Device/Strip detects Group A Streptococcus antigen in throat swab specimens for rapid professional screening of suspected strep throat."
       },
       "hero": {
         "title": "Strep A Rapid Test Device/Strip (Swab)",
-        "description": "Ivexia Pharma Strep A Rapid Test Device/Strip (Swab) is a rapid diagnostic test designed for the qualitative detection of Group A Streptococcus antigen in swab specimens. This Strep A Rapid Test Device/Strip supports fast professional screening of suspected strep throat in hospitals, clinics, diagnostic laboratories, pediatric care centers, school health programs, and point-of-care settings."
+        "description": "LARKSOIS Pharma Strep A Rapid Test Device/Strip (Swab) is a rapid diagnostic test designed for the qualitative detection of Group A Streptococcus antigen in swab specimens. This Strep A Rapid Test Device/Strip supports fast professional screening of suspected strep throat in hospitals, clinics, diagnostic laboratories, pediatric care centers, school health programs, and point-of-care settings."
       },
       "content": {
         "introduction": {
@@ -27909,7 +27909,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -27957,7 +27957,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Strep A Rapid Test Device/Strip",
-          "description": "The Strep A Rapid Test Device/Strip by Ivexia Pharma may be used in professional infectious disease and sore throat screening environments.",
+          "description": "The Strep A Rapid Test Device/Strip by LARKSOIS Pharma may be used in professional infectious disease and sore throat screening environments.",
           "applications": [
             "Hospitals and clinics",
             "Pediatric care centers",
@@ -28011,7 +28011,7 @@ export const en = {
         },
         "cutOff": {
           "title": "Detection: Group A Streptococcus Antigen",
-          "content": "The Strep A Rapid Test Device/Strip by Ivexia Pharma is designed for qualitative detection of Group A Streptococcus antigen in swab specimens. Detection of Strep A antigen may support rapid professional screening of suspected streptococcal throat infection."
+          "content": "The Strep A Rapid Test Device/Strip by LARKSOIS Pharma is designed for qualitative detection of Group A Streptococcus antigen in swab specimens. Detection of Strep A antigen may support rapid professional screening of suspected streptococcal throat infection."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -28019,7 +28019,7 @@ export const en = {
             "The Strep A Rapid Test Device/Strip helps healthcare professionals make faster decisions in suspected bacterial throat infection.",
             "Viral sore throats do not need antibiotics, while confirmed Group A Streptococcus infections may require proper medical treatment.",
             "A positive result means Group A Streptococcus antigen has been detected and should be interpreted with symptoms and clinical findings.",
-            "A negative result means Strep A antigen was not detected at the test’s detectable level, but further testing such as throat culture may be recommended if symptoms strongly suggest strep throat."
+            "A negative result means Strep A antigen was not detected at the testâ€™s detectable level, but further testing such as throat culture may be recommended if symptoms strongly suggest strep throat."
           ]
         },
         "limitations": {
@@ -28037,7 +28037,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Advantages of Ivexia Pharma Strep A Rapid Test Device/Strip",
+          "title": "Advantages of LARKSOIS Pharma Strep A Rapid Test Device/Strip",
           "instructions": [
             "Detects Group A Streptococcus antigen",
             "Uses swab / throat swab specimen",
@@ -28048,7 +28048,7 @@ export const en = {
             "Supports professional point-of-care testing",
             "Suitable for international diagnostic supply"
           ],
-          "note": "The Strep A Rapid Test Device/Strip by Ivexia Pharma is designed for fast, practical, and accessible Strep A antigen screening."
+          "note": "The Strep A Rapid Test Device/Strip by LARKSOIS Pharma is designed for fast, practical, and accessible Strep A antigen screening."
         },
         "procedure": {
           "title": "How to Use Strep A Rapid Test Device/Strip",
@@ -28063,12 +28063,12 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "A positive result means Group A Streptococcus antigen has been detected. The result should be interpreted with symptoms and clinical findings.",
-          "negative": "A negative result means Strep A antigen was not detected at the test’s detectable level. If symptoms strongly suggest strep throat, further testing such as throat culture may be recommended.",
+          "negative": "A negative result means Strep A antigen was not detected at the testâ€™s detectable level. If symptoms strongly suggest strep throat, further testing such as throat culture may be recommended.",
           "invalid": "If the control line does not appear, the test result is invalid. A new Strep A Rapid Test Device/Strip should be used."
         },
         "storage": {
@@ -28098,8 +28098,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides globally suitable diagnostic products for hospitals, clinics, laboratories, healthcare distributors, and procurement agencies. The Strep A Rapid Test Device/Strip (Swab) is designed for fast, practical, and accessible Strep A antigen screening.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides globally suitable diagnostic products for hospitals, clinics, laboratories, healthcare distributors, and procurement agencies. The Strep A Rapid Test Device/Strip (Swab) is designed for fast, practical, and accessible Strep A antigen screening.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable Strep A antigen screening support",
@@ -28130,7 +28130,7 @@ export const en = {
         },
         {
           "question": "How long does it take to read a rapid strep test?",
-          "answer": "Many rapid Strep A tests are read within about 5 to 10 minutes, depending on the manufacturer’s instructions. Results should not be read outside the stated time window."
+          "answer": "Many rapid Strep A tests are read within about 5 to 10 minutes, depending on the manufacturerâ€™s instructions. Results should not be read outside the stated time window."
         }
       ],
       "faqSchema": {
@@ -28174,7 +28174,7 @@ export const en = {
             "name": "How long does it take to read a rapid strep test?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Many rapid Strep A tests are read within about 5 to 10 minutes, depending on the manufacturer’s instructions. Results should not be read outside the stated time window."
+              "text": "Many rapid Strep A tests are read within about 5 to 10 minutes, depending on the manufacturerâ€™s instructions. Results should not be read outside the stated time window."
             }
           }
         ]
@@ -28182,12 +28182,12 @@ export const en = {
     },
     "tb-igg-igm-test": {
       "meta": {
-        "title": "TB IgG/IgM Rapid Test Device/Strip WB/S/P | Tuberculosis Test | Ivexia Pharma",
-        "description": "Ivexia Pharma TB IgG/IgM Rapid Test Device/Strip detects tuberculosis IgG and IgM antibodies in whole blood, serum, or plasma for professional TB screening support."
+        "title": "TB IgG/IgM Rapid Test Device/Strip WB/S/P | Tuberculosis Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma TB IgG/IgM Rapid Test Device/Strip detects tuberculosis IgG and IgM antibodies in whole blood, serum, or plasma for professional TB screening support."
       },
       "hero": {
         "title": "Tuberculosis IgG/IgM Rapid Test Device/Strip (WB/S/P)",
-        "description": "Ivexia Pharma Tuberculosis IgG/IgM Rapid Test Device/Strip (WB/S/P) is a rapid diagnostic screening test designed for the qualitative detection of TB IgG and IgM antibodies in whole blood, serum, or plasma specimens. This TB IgG/IgM Rapid Test Device/Strip supports professional screening workflows in hospitals, clinics, laboratories, public health programs, respiratory care settings, and diagnostic distribution channels."
+        "description": "LARKSOIS Pharma Tuberculosis IgG/IgM Rapid Test Device/Strip (WB/S/P) is a rapid diagnostic screening test designed for the qualitative detection of TB IgG and IgM antibodies in whole blood, serum, or plasma specimens. This TB IgG/IgM Rapid Test Device/Strip supports professional screening workflows in hospitals, clinics, laboratories, public health programs, respiratory care settings, and diagnostic distribution channels."
       },
       "content": {
         "introduction": {
@@ -28208,7 +28208,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -28256,7 +28256,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of TB IgG/IgM Rapid Test Device/Strip",
-          "description": "The TB IgG/IgM Rapid Test Device/Strip by Ivexia Pharma may be used in professional diagnostic and tuberculosis screening environments.",
+          "description": "The TB IgG/IgM Rapid Test Device/Strip by LARKSOIS Pharma may be used in professional diagnostic and tuberculosis screening environments.",
           "applications": [
             "Hospitals and clinics",
             "Diagnostic laboratories",
@@ -28305,11 +28305,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: TB IgG and IgM Antibodies",
-          "content": "The TB IgG/IgM Rapid Test Device/Strip by Ivexia Pharma is designed for qualitative detection of TB IgG and IgM antibodies in whole blood, serum, or plasma specimens. Detection of TB antibodies may support screening but should not replace clinical evaluation or confirmatory testing for active TB disease."
+          "content": "The TB IgG/IgM Rapid Test Device/Strip by LARKSOIS Pharma is designed for qualitative detection of TB IgG and IgM antibodies in whole blood, serum, or plasma specimens. Detection of TB antibodies may support screening but should not replace clinical evaluation or confirmatory testing for active TB disease."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -28335,7 +28335,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Advantages of Ivexia Pharma TB IgG/IgM Rapid Test Device/Strip",
+          "title": "Advantages of LARKSOIS Pharma TB IgG/IgM Rapid Test Device/Strip",
           "instructions": [
             "Detects TB IgG antibodies",
             "Detects TB IgM antibodies",
@@ -28346,7 +28346,7 @@ export const en = {
             "No complex instrument required",
             "Suitable for international diagnostic supply"
           ],
-          "note": "The TB IgG/IgM Rapid Test Device/Strip by Ivexia Pharma is designed for fast, practical, and accessible tuberculosis antibody screening support."
+          "note": "The TB IgG/IgM Rapid Test Device/Strip by LARKSOIS Pharma is designed for fast, practical, and accessible tuberculosis antibody screening support."
         },
         "procedure": {
           "title": "How to Use TB IgG/IgM Rapid Test Device/Strip",
@@ -28361,12 +28361,12 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "An IgM-positive result may suggest recent immune response to TB-related antigens. An IgG-positive result may indicate previous exposure, later immune response, or ongoing immune activity.",
-          "negative": "A negative result means TB IgG/IgM antibodies were not detected at the test’s detectable level. If TB is suspected, further clinical evaluation and laboratory testing may be required.",
+          "negative": "A negative result means TB IgG/IgM antibodies were not detected at the testâ€™s detectable level. If TB is suspected, further clinical evaluation and laboratory testing may be required.",
           "invalid": "If the control line does not appear, the test is invalid and should be repeated with a new device or strip."
         },
         "storage": {
@@ -28396,8 +28396,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides globally suitable diagnostic products for hospitals, clinics, laboratories, public health programs, healthcare distributors, and procurement agencies. The TB IgG/IgM Rapid Test Device/Strip (WB/S/P) is designed for fast, practical, and accessible TB antibody screening support.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides globally suitable diagnostic products for hospitals, clinics, laboratories, public health programs, healthcare distributors, and procurement agencies. The TB IgG/IgM Rapid Test Device/Strip (WB/S/P) is designed for fast, practical, and accessible TB antibody screening support.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable TB IgG/IgM antibody screening support",
@@ -28480,12 +28480,12 @@ export const en = {
     },
     "tb-antibody-test": {
       "meta": {
-        "title": "TB Antibody Rapid Test Device/Strip WB/S/P | Tuberculosis Test | Ivexia Pharma",
-        "description": "Ivexia Pharma TB Antibody Rapid Test Device/Strip detects tuberculosis antibodies in whole blood, serum, or plasma for rapid professional TB screening support."
+        "title": "TB Antibody Rapid Test Device/Strip WB/S/P | Tuberculosis Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma TB Antibody Rapid Test Device/Strip detects tuberculosis antibodies in whole blood, serum, or plasma for rapid professional TB screening support."
       },
       "hero": {
         "title": "TB Antibody Rapid Test Device/Strip (WB/S/P)",
-        "description": "Ivexia Pharma TB Antibody Rapid Test Device/Strip (WB/S/P) is a rapid diagnostic screening test designed for the qualitative detection of tuberculosis antibodies in whole blood, serum, or plasma specimens. This TB Antibody Rapid Test Device/Strip supports professional tuberculosis screening workflows in hospitals, clinics, laboratories, respiratory care settings, public health programs, and point-of-care healthcare environments."
+        "description": "LARKSOIS Pharma TB Antibody Rapid Test Device/Strip (WB/S/P) is a rapid diagnostic screening test designed for the qualitative detection of tuberculosis antibodies in whole blood, serum, or plasma specimens. This TB Antibody Rapid Test Device/Strip supports professional tuberculosis screening workflows in hospitals, clinics, laboratories, respiratory care settings, public health programs, and point-of-care healthcare environments."
       },
       "content": {
         "introduction": {
@@ -28506,7 +28506,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -28554,7 +28554,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of TB Antibody Rapid Test Device/Strip",
-          "description": "The TB Antibody Rapid Test Device/Strip by Ivexia Pharma may be used in professional diagnostic and tuberculosis screening environments.",
+          "description": "The TB Antibody Rapid Test Device/Strip by LARKSOIS Pharma may be used in professional diagnostic and tuberculosis screening environments.",
           "applications": [
             "Hospitals and clinics",
             "Diagnostic laboratories",
@@ -28603,18 +28603,18 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Tuberculosis Antibodies",
-          "content": "The TB Antibody Rapid Test Device/Strip by Ivexia Pharma is designed for qualitative detection of tuberculosis antibodies in whole blood, serum, or plasma specimens. Antibody detection may support professional screening workflows but should not replace confirmatory TB diagnostics."
+          "content": "The TB Antibody Rapid Test Device/Strip by LARKSOIS Pharma is designed for qualitative detection of tuberculosis antibodies in whole blood, serum, or plasma specimens. Antibody detection may support professional screening workflows but should not replace confirmatory TB diagnostics."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
           "sections": [
             "A positive result means tuberculosis antibodies have been detected in the specimen.",
             "The result should be interpreted with symptoms, exposure history, chest imaging, sputum testing, and clinical evaluation.",
-            "A negative result means TB antibodies were not detected at the test’s detectable level.",
+            "A negative result means TB antibodies were not detected at the testâ€™s detectable level.",
             "Further laboratory testing may still be required if active TB disease is suspected."
           ]
         },
@@ -28633,7 +28633,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Advantages of Ivexia Pharma TB Antibody Rapid Test Device/Strip",
+          "title": "Advantages of LARKSOIS Pharma TB Antibody Rapid Test Device/Strip",
           "instructions": [
             "Detects tuberculosis antibodies",
             "Suitable for whole blood, serum, and plasma",
@@ -28644,7 +28644,7 @@ export const en = {
             "Supports TB screening workflows",
             "Suitable for international diagnostic supply"
           ],
-          "note": "The TB Antibody Rapid Test Device/Strip by Ivexia Pharma is designed for fast, practical, and accessible tuberculosis antibody screening support."
+          "note": "The TB Antibody Rapid Test Device/Strip by LARKSOIS Pharma is designed for fast, practical, and accessible tuberculosis antibody screening support."
         },
         "procedure": {
           "title": "How to Use TB Antibody Rapid Test Device/Strip",
@@ -28659,12 +28659,12 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "A positive result means tuberculosis antibodies have been detected. Results should be interpreted with symptoms, exposure history, and further diagnostic evaluation.",
-          "negative": "A negative result means tuberculosis antibodies were not detected at the test’s detectable level. If active TB disease is suspected, further testing may still be required.",
+          "negative": "A negative result means tuberculosis antibodies were not detected at the testâ€™s detectable level. If active TB disease is suspected, further testing may still be required.",
           "invalid": "If the control line does not appear, the result is invalid and testing should be repeated with a new device or strip."
         },
         "storage": {
@@ -28694,8 +28694,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides globally suitable diagnostic products for hospitals, clinics, laboratories, healthcare distributors, and public health programs. The TB Antibody Rapid Test Device/Strip (WB/S/P) is designed for fast, practical, and accessible tuberculosis antibody screening support.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides globally suitable diagnostic products for hospitals, clinics, laboratories, healthcare distributors, and public health programs. The TB Antibody Rapid Test Device/Strip (WB/S/P) is designed for fast, practical, and accessible tuberculosis antibody screening support.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable TB antibody screening support",
@@ -28778,12 +28778,12 @@ export const en = {
     },
     "toxoplasma-rapid-test": {
       "meta": {
-        "title": "Toxoplasma IgG/IgM Rapid Test Device WB/S/P | Toxo Test | Ivexia Pharma",
-        "description": "Ivexia Pharma Toxoplasma IgG/IgM Rapid Test Device detects Toxoplasma gondii IgG and IgM antibodies in whole blood, serum, or plasma for rapid professional screening."
+        "title": "Toxoplasma IgG/IgM Rapid Test Device WB/S/P | Toxo Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Toxoplasma IgG/IgM Rapid Test Device detects Toxoplasma gondii IgG and IgM antibodies in whole blood, serum, or plasma for rapid professional screening."
       },
       "hero": {
         "title": "Toxoplasma IgG/IgM Rapid Test Device (WB/S/P)",
-        "description": "Ivexia Pharma Toxoplasma IgG/IgM Rapid Test Device (WB/S/P) is a rapid diagnostic screening test designed for the qualitative detection of Toxoplasma gondii IgG and IgM antibodies in whole blood, serum, or plasma specimens. This Toxoplasma Rapid Test Device supports professional screening workflows in hospitals, clinics, diagnostic laboratories, prenatal care settings, infectious disease programs, and healthcare screening environments."
+        "description": "LARKSOIS Pharma Toxoplasma IgG/IgM Rapid Test Device (WB/S/P) is a rapid diagnostic screening test designed for the qualitative detection of Toxoplasma gondii IgG and IgM antibodies in whole blood, serum, or plasma specimens. This Toxoplasma Rapid Test Device supports professional screening workflows in hospitals, clinics, diagnostic laboratories, prenatal care settings, infectious disease programs, and healthcare screening environments."
       },
       "content": {
         "introduction": {
@@ -28804,7 +28804,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -28852,7 +28852,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Toxoplasma IgG/IgM Rapid Test Device",
-          "description": "The Toxoplasma IgG/IgM Rapid Test Device by Ivexia Pharma may be used in professional diagnostic and infectious disease screening environments.",
+          "description": "The Toxoplasma IgG/IgM Rapid Test Device by LARKSOIS Pharma may be used in professional diagnostic and infectious disease screening environments.",
           "applications": [
             "Hospitals and clinics",
             "Diagnostic laboratories",
@@ -28901,11 +28901,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Toxoplasma gondii IgG and IgM Antibodies",
-          "content": "The Toxoplasma IgG/IgM Rapid Test Device by Ivexia Pharma is designed for qualitative detection of Toxoplasma gondii IgG and IgM antibodies in whole blood, serum, or plasma specimens."
+          "content": "The Toxoplasma IgG/IgM Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection of Toxoplasma gondii IgG and IgM antibodies in whole blood, serum, or plasma specimens."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -28931,7 +28931,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Advantages of Ivexia Pharma Toxoplasma IgG/IgM Rapid Test Device",
+          "title": "Advantages of LARKSOIS Pharma Toxoplasma IgG/IgM Rapid Test Device",
           "instructions": [
             "Detects Toxoplasma gondii IgG antibodies",
             "Detects Toxoplasma gondii IgM antibodies",
@@ -28942,7 +28942,7 @@ export const en = {
             "Supports prenatal and infectious disease screening",
             "Suitable for international diagnostic supply"
           ],
-          "note": "The Toxoplasma IgG/IgM Rapid Test Device by Ivexia Pharma is designed for fast, practical, and accessible toxoplasmosis antibody screening support."
+          "note": "The Toxoplasma IgG/IgM Rapid Test Device by LARKSOIS Pharma is designed for fast, practical, and accessible toxoplasmosis antibody screening support."
         },
         "procedure": {
           "title": "How to Use Toxoplasma IgG/IgM Rapid Test Device",
@@ -28957,12 +28957,12 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "An IgM-positive result may suggest recent immune response to Toxoplasma gondii, while an IgG-positive result may indicate previous exposure or past infection.",
-          "negative": "A negative result means Toxoplasma gondii IgG/IgM antibodies were not detected at the test’s detectable level.",
+          "negative": "A negative result means Toxoplasma gondii IgG/IgM antibodies were not detected at the testâ€™s detectable level.",
           "invalid": "If the control line does not appear, the test is invalid and should be repeated with a new device."
         },
         "storage": {
@@ -28992,8 +28992,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides globally suitable diagnostic products for hospitals, clinics, laboratories, healthcare distributors, and public health programs. The Toxoplasma IgG/IgM Rapid Test Device (WB/S/P) is designed for fast, practical, and accessible toxoplasmosis antibody screening support.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides globally suitable diagnostic products for hospitals, clinics, laboratories, healthcare distributors, and public health programs. The Toxoplasma IgG/IgM Rapid Test Device (WB/S/P) is designed for fast, practical, and accessible toxoplasmosis antibody screening support.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable toxoplasmosis antibody screening support",
@@ -29076,12 +29076,12 @@ export const en = {
     },
     "rubella-rapid-test": {
       "meta": {
-        "title": "Rubella IgG/IgM Rapid Test WB/S/P | ToRCH Rubella Test | Ivexia Pharma",
-        "description": "Ivexia Pharma Rubella IgG/IgM Rapid Test detects rubella virus IgG and IgM antibodies in whole blood, serum, or plasma for rapid professional ToRCH screening."
+        "title": "Rubella IgG/IgM Rapid Test WB/S/P | ToRCH Rubella Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Rubella IgG/IgM Rapid Test detects rubella virus IgG and IgM antibodies in whole blood, serum, or plasma for rapid professional ToRCH screening."
       },
       "hero": {
         "title": "Rubella IgG/IgM Rapid Test (WB/S/P)",
-        "description": "Ivexia Pharma Rubella IgG/IgM Rapid Test (WB/S/P) is a professional rapid diagnostic test designed for the qualitative detection and differentiation of Rubella IgG and IgM antibodies in whole blood, serum, or plasma specimens. This Rubella IgG/IgM Rapid Test is commonly used as part of ToRCH screening, especially in pregnancy-related evaluation, antenatal care support, diagnostic laboratories, hospitals, and infectious disease screening programs."
+        "description": "LARKSOIS Pharma Rubella IgG/IgM Rapid Test (WB/S/P) is a professional rapid diagnostic test designed for the qualitative detection and differentiation of Rubella IgG and IgM antibodies in whole blood, serum, or plasma specimens. This Rubella IgG/IgM Rapid Test is commonly used as part of ToRCH screening, especially in pregnancy-related evaluation, antenatal care support, diagnostic laboratories, hospitals, and infectious disease screening programs."
       },
       "content": {
         "introduction": {
@@ -29102,7 +29102,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -29150,7 +29150,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Rubella IgG/IgM Rapid Test",
-          "description": "The Rubella IgG/IgM Rapid Test by Ivexia Pharma may be used in professional ToRCH, antenatal, and infectious disease screening environments.",
+          "description": "The Rubella IgG/IgM Rapid Test by LARKSOIS Pharma may be used in professional ToRCH, antenatal, and infectious disease screening environments.",
           "applications": [
             "ToRCH screening support",
             "Antenatal and pregnancy-related evaluation",
@@ -29199,11 +29199,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Rubella IgG and IgM Antibodies",
-          "content": "The Rubella IgG/IgM Rapid Test by Ivexia Pharma is designed for qualitative detection and differentiation of rubella virus IgG and IgM antibodies in whole blood, serum, or plasma specimens."
+          "content": "The Rubella IgG/IgM Rapid Test by LARKSOIS Pharma is designed for qualitative detection and differentiation of rubella virus IgG and IgM antibodies in whole blood, serum, or plasma specimens."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -29229,7 +29229,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Advantages of Ivexia Pharma Rubella IgG/IgM Rapid Test",
+          "title": "Advantages of LARKSOIS Pharma Rubella IgG/IgM Rapid Test",
           "instructions": [
             "Detects Rubella IgG antibodies",
             "Detects Rubella IgM antibodies",
@@ -29238,9 +29238,9 @@ export const en = {
             "Simple professional testing workflow",
             "No complex instrument required",
             "Useful for ToRCH-related screening support",
-            "International-quality diagnostic product from Ivexia Pharma"
+            "International-quality diagnostic product from LARKSOIS Pharma"
           ],
-          "note": "The Rubella IgG/IgM Rapid Test by Ivexia Pharma is designed for fast, practical, and accessible rubella antibody screening support."
+          "note": "The Rubella IgG/IgM Rapid Test by LARKSOIS Pharma is designed for fast, practical, and accessible rubella antibody screening support."
         },
         "procedure": {
           "title": "How to Use Rubella IgG/IgM Rapid Test",
@@ -29255,12 +29255,12 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "Rubella IgG positive may suggest past exposure, vaccination response, or immunity. Rubella IgM positive may suggest recent infection or recent immune response and should be interpreted with clinical history and follow-up testing.",
-          "negative": "A negative result means Rubella IgG/IgM antibodies were not detected at the test’s detectable level.",
+          "negative": "A negative result means Rubella IgG/IgM antibodies were not detected at the testâ€™s detectable level.",
           "invalid": "If the control line does not appear, the test is invalid and should be repeated with a new device."
         },
         "storage": {
@@ -29290,8 +29290,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides internationally suitable diagnostic products for hospitals, laboratories, clinics, healthcare distributors, and procurement agencies. The Rubella IgG/IgM Rapid Test (WB/S/P) is designed for fast, practical, and accessible rubella antibody screening support.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides internationally suitable diagnostic products for hospitals, laboratories, clinics, healthcare distributors, and procurement agencies. The Rubella IgG/IgM Rapid Test (WB/S/P) is designed for fast, practical, and accessible rubella antibody screening support.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable Rubella IgG/IgM antibody screening support",
@@ -29374,12 +29374,12 @@ export const en = {
     },
     "cmv-rapid-test": {
       "meta": {
-        "title": "CMV IgG/IgM Rapid Test WB/S/P | ToRCH Cytomegalovirus Test | Ivexia Pharma",
-        "description": "Ivexia Pharma CMV IgG/IgM Rapid Test detects Cytomegalovirus IgG and IgM antibodies in whole blood, serum, or plasma for rapid professional ToRCH screening."
+        "title": "CMV IgG/IgM Rapid Test WB/S/P | ToRCH Cytomegalovirus Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma CMV IgG/IgM Rapid Test detects Cytomegalovirus IgG and IgM antibodies in whole blood, serum, or plasma for rapid professional ToRCH screening."
       },
       "hero": {
         "title": "CMV IgG/IgM Rapid Test (WB/S/P)",
-        "description": "Ivexia Pharma CMV IgG/IgM Rapid Test (WB/S/P) is a professional rapid diagnostic test designed for the qualitative detection and differentiation of Cytomegalovirus IgG and IgM antibodies in whole blood, serum, or plasma specimens. This CMV IgG/IgM Rapid Test is commonly used under the ToRCH infectious disease screening category, especially for pregnancy-related screening support, transplant evaluation support, immunocompromised patient assessment, and diagnostic laboratory workflows."
+        "description": "LARKSOIS Pharma CMV IgG/IgM Rapid Test (WB/S/P) is a professional rapid diagnostic test designed for the qualitative detection and differentiation of Cytomegalovirus IgG and IgM antibodies in whole blood, serum, or plasma specimens. This CMV IgG/IgM Rapid Test is commonly used under the ToRCH infectious disease screening category, especially for pregnancy-related screening support, transplant evaluation support, immunocompromised patient assessment, and diagnostic laboratory workflows."
       },
       "content": {
         "introduction": {
@@ -29400,7 +29400,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -29448,7 +29448,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of CMV IgG/IgM Rapid Test",
-          "description": "The CMV IgG/IgM Rapid Test by Ivexia Pharma may be used in professional ToRCH, infectious disease, and clinical screening environments.",
+          "description": "The CMV IgG/IgM Rapid Test by LARKSOIS Pharma may be used in professional ToRCH, infectious disease, and clinical screening environments.",
           "applications": [
             "ToRCH screening support",
             "Pregnancy-related screening support",
@@ -29497,11 +29497,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Cytomegalovirus IgG and IgM Antibodies",
-          "content": "The CMV IgG/IgM Rapid Test by Ivexia Pharma is designed for qualitative detection and differentiation of Cytomegalovirus IgG and IgM antibodies in whole blood, serum, or plasma specimens."
+          "content": "The CMV IgG/IgM Rapid Test by LARKSOIS Pharma is designed for qualitative detection and differentiation of Cytomegalovirus IgG and IgM antibodies in whole blood, serum, or plasma specimens."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -29527,7 +29527,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Advantages of Ivexia Pharma CMV IgG/IgM Rapid Test",
+          "title": "Advantages of LARKSOIS Pharma CMV IgG/IgM Rapid Test",
           "instructions": [
             "Detects Cytomegalovirus IgG antibodies",
             "Detects Cytomegalovirus IgM antibodies",
@@ -29536,9 +29536,9 @@ export const en = {
             "Simple professional testing workflow",
             "No complex instrument required",
             "Useful for ToRCH-related screening support",
-            "International-quality diagnostic product from Ivexia Pharma"
+            "International-quality diagnostic product from LARKSOIS Pharma"
           ],
-          "note": "The CMV IgG/IgM Rapid Test by Ivexia Pharma is designed for fast, practical, and accessible cytomegalovirus antibody screening support."
+          "note": "The CMV IgG/IgM Rapid Test by LARKSOIS Pharma is designed for fast, practical, and accessible cytomegalovirus antibody screening support."
         },
         "procedure": {
           "title": "How to Use CMV IgG/IgM Rapid Test",
@@ -29553,12 +29553,12 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "CMV IgG positive usually suggests past CMV exposure or previous infection. CMV IgM positive may suggest recent infection, reactivation, or secondary infection and should be interpreted with clinical history and follow-up testing.",
-          "negative": "A negative result means CMV IgG/IgM antibodies were not detected at the test’s detectable level.",
+          "negative": "A negative result means CMV IgG/IgM antibodies were not detected at the testâ€™s detectable level.",
           "invalid": "If the control line does not appear, the test is invalid and should be repeated with a new device."
         },
         "storage": {
@@ -29588,8 +29588,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides internationally suitable diagnostic products for hospitals, laboratories, clinics, healthcare distributors, and procurement agencies. The CMV IgG/IgM Rapid Test (WB/S/P) is designed for fast, practical, and accessible cytomegalovirus antibody screening support.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides internationally suitable diagnostic products for hospitals, laboratories, clinics, healthcare distributors, and procurement agencies. The CMV IgG/IgM Rapid Test (WB/S/P) is designed for fast, practical, and accessible cytomegalovirus antibody screening support.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable CMV IgG/IgM antibody screening support",
@@ -29672,12 +29672,12 @@ export const en = {
     },
     "hsv-rapid-test": {
       "meta": {
-        "title": "HSV IgG/IgM Rapid Test Device WB/S/P | ToRCH HSV Test | Ivexia Pharma",
-        "description": "Ivexia Pharma HSV IgG/IgM Rapid Test Device (WB/S/P) is a rapid immunoassay for qualitative detection and differentiation of HSV IgG and IgM antibodies in whole blood, serum, or plasma."
+        "title": "HSV IgG/IgM Rapid Test Device WB/S/P | ToRCH HSV Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma HSV IgG/IgM Rapid Test Device (WB/S/P) is a rapid immunoassay for qualitative detection and differentiation of HSV IgG and IgM antibodies in whole blood, serum, or plasma."
       },
       "hero": {
         "title": "HSV IgG/IgM Rapid Test Device (WB/S/P)",
-        "description": "Ivexia Pharma HSV IgG/IgM Rapid Test Device (WB/S/P) is a rapid diagnostic test designed for the qualitative detection and differentiation of IgG and IgM antibodies to Herpes Simplex Virus (HSV) in whole blood, serum, or plasma samples. As part of infectious disease and ToRCH screening, the HSV IgG/IgM Rapid Test Device supports fast antibody-based assessment in hospitals, diagnostic laboratories, clinics, gynecology centers, and professional healthcare screening programs."
+        "description": "LARKSOIS Pharma HSV IgG/IgM Rapid Test Device (WB/S/P) is a rapid diagnostic test designed for the qualitative detection and differentiation of IgG and IgM antibodies to Herpes Simplex Virus (HSV) in whole blood, serum, or plasma samples. As part of infectious disease and ToRCH screening, the HSV IgG/IgM Rapid Test Device supports fast antibody-based assessment in hospitals, diagnostic laboratories, clinics, gynecology centers, and professional healthcare screening programs."
       },
       "content": {
         "introduction": {
@@ -29714,7 +29714,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Use",
@@ -29725,7 +29725,7 @@ export const en = {
               "value": "Hospitals, clinics, diagnostic labs, ToRCH screening, gynecology centers"
             }
           ],
-          "note": "The Ivexia Pharma HSV IgG/IgM Rapid Test Device is intended for professional in-vitro diagnostic use and should be interpreted with clinical findings and confirmatory testing when required."
+          "note": "The LARKSOIS Pharma HSV IgG/IgM Rapid Test Device is intended for professional in-vitro diagnostic use and should be interpreted with clinical findings and confirmatory testing when required."
         },
         "whatIsCovidAgTest": {
           "title": "What is HSV IgG/IgM Rapid Test?",
@@ -29742,7 +29742,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of HSV IgG/IgM Rapid Test Device",
-          "description": "The HSV IgG/IgM Rapid Test Device by Ivexia Pharma may be used in professional infectious disease, ToRCH, and reproductive health screening environments.",
+          "description": "The HSV IgG/IgM Rapid Test Device by LARKSOIS Pharma may be used in professional infectious disease, ToRCH, and reproductive health screening environments.",
           "applications": [
             "HSV antibody screening",
             "ToRCH-related infectious disease evaluation",
@@ -29792,11 +29792,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: HSV IgG and IgM Antibodies",
-          "content": "The HSV IgG/IgM Rapid Test Device by Ivexia Pharma is designed for qualitative detection and differentiation of IgG and IgM antibodies to Herpes Simplex Virus in whole blood, serum, or plasma samples."
+          "content": "The HSV IgG/IgM Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection and differentiation of IgG and IgM antibodies to Herpes Simplex Virus in whole blood, serum, or plasma samples."
         },
         "clinicalImportance": {
           "title": "Clinical and Diagnostic Importance",
@@ -29822,7 +29822,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Features of Ivexia Pharma HSV IgG/IgM Rapid Test Device",
+          "title": "Key Features of LARKSOIS Pharma HSV IgG/IgM Rapid Test Device",
           "instructions": [
             "Rapid HSV antibody detection",
             "Detects and differentiates IgG and IgM antibodies",
@@ -29833,7 +29833,7 @@ export const en = {
             "Simple testing workflow",
             "Designed for global healthcare markets"
           ],
-          "note": "The HSV IgG/IgM Rapid Test Device by Ivexia Pharma is developed for reliable professional diagnostic screening support."
+          "note": "The HSV IgG/IgM Rapid Test Device by LARKSOIS Pharma is developed for reliable professional diagnostic screening support."
         },
         "procedure": {
           "title": "How to Use HSV IgG/IgM Rapid Test Device",
@@ -29848,12 +29848,12 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "HSV IgG positive may suggest previous exposure or longer-term immune response. HSV IgM positive may suggest recent immune response but requires careful clinical interpretation.",
-          "negative": "A negative result means HSV IgG/IgM antibodies were not detected at the test’s detectable level.",
+          "negative": "A negative result means HSV IgG/IgM antibodies were not detected at the testâ€™s detectable level.",
           "invalid": "If the control line does not appear, the test is invalid and should be repeated with a new device."
         },
         "storage": {
@@ -29883,8 +29883,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides internationally suitable diagnostic products for hospitals, laboratories, clinics, gynecology centers, healthcare distributors, and professional screening programs. The HSV IgG/IgM Rapid Test Device supports fast, practical, and accessible HSV antibody screening.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides internationally suitable diagnostic products for hospitals, laboratories, clinics, gynecology centers, healthcare distributors, and professional screening programs. The HSV IgG/IgM Rapid Test Device supports fast, practical, and accessible HSV antibody screening.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Reliable HSV IgG/IgM antibody screening support",
@@ -29967,12 +29967,12 @@ export const en = {
     },
     "typhoid-igg-igm-test": {
       "meta": {
-        "title": "Typhoid IgG/IgM Rapid Test Device | Typhoid Antibody Test | Ivexia Pharma",
-        "description": "Ivexia Pharma Typhoid IgG/IgM Rapid Test Device is a rapid immunochromatographic test for qualitative detection and differentiation of Salmonella Typhi IgG and IgM antibodies."
+        "title": "Typhoid IgG/IgM Rapid Test Device | Typhoid Antibody Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Typhoid IgG/IgM Rapid Test Device is a rapid immunochromatographic test for qualitative detection and differentiation of Salmonella Typhi IgG and IgM antibodies."
       },
       "hero": {
         "title": "Typhoid IgG/IgM Rapid Test Device",
-        "description": "Ivexia Pharma Typhoid IgG/IgM Rapid Test Device is a rapid diagnostic test designed for the qualitative detection and differentiation of IgG and IgM antibodies against Salmonella Typhi and Paratyphi in human whole blood, serum, or plasma samples. This Typhoid IgG/IgM Rapid Test Device supports fast screening of suspected typhoid fever and helps healthcare professionals identify possible recent or past immune response to enteric fever infection."
+        "description": "LARKSOIS Pharma Typhoid IgG/IgM Rapid Test Device is a rapid diagnostic test designed for the qualitative detection and differentiation of IgG and IgM antibodies against Salmonella Typhi and Paratyphi in human whole blood, serum, or plasma samples. This Typhoid IgG/IgM Rapid Test Device supports fast screening of suspected typhoid fever and helps healthcare professionals identify possible recent or past immune response to enteric fever infection."
       },
       "content": {
         "introduction": {
@@ -29997,7 +29997,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -30024,7 +30024,7 @@ export const en = {
               "value": "Hospitals, laboratories, clinics, fever screening programs, diagnostic centers"
             }
           ],
-          "note": "The Ivexia Pharma Typhoid IgG/IgM Rapid Test Device is intended for professional in-vitro diagnostic use. It should be interpreted along with patient symptoms, fever duration, clinical history, exposure risk, and confirmatory testing when required."
+          "note": "The LARKSOIS Pharma Typhoid IgG/IgM Rapid Test Device is intended for professional in-vitro diagnostic use. It should be interpreted along with patient symptoms, fever duration, clinical history, exposure risk, and confirmatory testing when required."
         },
         "whatIsCovidAgTest": {
           "title": "What is Typhoid IgG/IgM Rapid Test?",
@@ -30041,7 +30041,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Typhoid IgG/IgM Rapid Test Device",
-          "description": "The Typhoid IgG/IgM Rapid Test Device by Ivexia Pharma may be used in professional infectious disease and fever screening environments.",
+          "description": "The Typhoid IgG/IgM Rapid Test Device by LARKSOIS Pharma may be used in professional infectious disease and fever screening environments.",
           "applications": [
             "Suspected typhoid fever screening",
             "Fever investigation in endemic regions",
@@ -30091,11 +30091,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Typhoid IgG and IgM Antibodies",
-          "content": "The Typhoid IgG/IgM Rapid Test Device by Ivexia Pharma is designed for qualitative detection and differentiation of IgG and IgM antibodies against Salmonella Typhi and Paratyphi in whole blood, serum, or plasma specimens."
+          "content": "The Typhoid IgG/IgM Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection and differentiation of IgG and IgM antibodies against Salmonella Typhi and Paratyphi in whole blood, serum, or plasma specimens."
         },
         "clinicalImportance": {
           "title": "Clinical Applications",
@@ -30122,7 +30122,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Features of Ivexia Pharma Typhoid IgG/IgM Rapid Test Device",
+          "title": "Key Features of LARKSOIS Pharma Typhoid IgG/IgM Rapid Test Device",
           "instructions": [
             "Rapid antibody-based typhoid screening",
             "Detects both IgG and IgM antibodies",
@@ -30133,7 +30133,7 @@ export const en = {
             "Professional diagnostic application",
             "Designed for international healthcare markets"
           ],
-          "note": "The Typhoid IgG/IgM Rapid Test Device by Ivexia Pharma is a reliable infectious disease rapid test developed for professional healthcare use."
+          "note": "The Typhoid IgG/IgM Rapid Test Device by LARKSOIS Pharma is a reliable infectious disease rapid test developed for professional healthcare use."
         },
         "procedure": {
           "title": "How to Use Typhoid IgG/IgM Rapid Test Device",
@@ -30148,7 +30148,7 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
@@ -30183,8 +30183,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides rapid diagnostic products designed for global healthcare markets. The Typhoid IgG/IgM Rapid Test Device supports professional infectious disease screening with simple handling, rapid results, and practical diagnostic workflow.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides rapid diagnostic products designed for global healthcare markets. The Typhoid IgG/IgM Rapid Test Device supports professional infectious disease screening with simple handling, rapid results, and practical diagnostic workflow.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Export-ready diagnostic product range",
@@ -30203,7 +30203,7 @@ export const en = {
         },
         {
           "question": "Is there a rapid test for typhoid?",
-          "answer": "Yes, typhoid rapid tests are available in antibody and antigen formats. The Ivexia Pharma Typhoid IgG/IgM Rapid Test Device is an antibody-based rapid test that helps detect IgG and IgM immune response to typhoid infection."
+          "answer": "Yes, typhoid rapid tests are available in antibody and antigen formats. The LARKSOIS Pharma Typhoid IgG/IgM Rapid Test Device is an antibody-based rapid test that helps detect IgG and IgM immune response to typhoid infection."
         },
         {
           "question": "What if typhoid IgG and IgM both are positive?",
@@ -30231,7 +30231,7 @@ export const en = {
             "name": "Is there a rapid test for typhoid?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes, typhoid rapid tests are available in antibody and antigen formats. The Ivexia Pharma Typhoid IgG/IgM Rapid Test Device is an antibody-based rapid test that helps detect IgG and IgM immune response to typhoid infection."
+              "text": "Yes, typhoid rapid tests are available in antibody and antigen formats. The LARKSOIS Pharma Typhoid IgG/IgM Rapid Test Device is an antibody-based rapid test that helps detect IgG and IgM immune response to typhoid infection."
             }
           },
           {
@@ -30255,12 +30255,12 @@ export const en = {
     },
     "typhoid-para-typhoid-ag-test": {
       "meta": {
-        "title": "Typhoid/Para Typhoid Ag Rapid Test Device Feces | Ivexia Pharma",
-        "description": "Ivexia Pharma Typhoid/Para Typhoid Ag Rapid Test Device (Feces) is a rapid antigen test for qualitative detection of Salmonella Typhi and Paratyphi antigens in fecal samples."
+        "title": "Typhoid/Para Typhoid Ag Rapid Test Device Feces | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Typhoid/Para Typhoid Ag Rapid Test Device (Feces) is a rapid antigen test for qualitative detection of Salmonella Typhi and Paratyphi antigens in fecal samples."
       },
       "hero": {
         "title": "Typhoid/Para Typhoid Ag Rapid Test Device (Feces)",
-        "description": "Ivexia Pharma Typhoid/Para Typhoid Ag Rapid Test Device (Feces) is a rapid diagnostic test designed for the qualitative detection of Salmonella Typhi and Salmonella Paratyphi antigens in human fecal samples. This Typhoid/Para Typhoid Ag Rapid Test Device supports early infectious disease screening, stool-based antigen detection, and clinical evaluation of suspected enteric fever. Developed for professional diagnostic use, it is suitable for hospitals, clinics, laboratories, diagnostic centers, and public health screening programs."
+        "description": "LARKSOIS Pharma Typhoid/Para Typhoid Ag Rapid Test Device (Feces) is a rapid diagnostic test designed for the qualitative detection of Salmonella Typhi and Salmonella Paratyphi antigens in human fecal samples. This Typhoid/Para Typhoid Ag Rapid Test Device supports early infectious disease screening, stool-based antigen detection, and clinical evaluation of suspected enteric fever. Developed for professional diagnostic use, it is suitable for hospitals, clinics, laboratories, diagnostic centers, and public health screening programs."
       },
       "content": {
         "introduction": {
@@ -30285,7 +30285,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -30329,7 +30329,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Typhoid/Para Typhoid Ag Rapid Test Device",
-          "description": "The Typhoid/Para Typhoid Ag Rapid Test Device by Ivexia Pharma may be used in professional infectious disease and fever screening environments.",
+          "description": "The Typhoid/Para Typhoid Ag Rapid Test Device by LARKSOIS Pharma may be used in professional infectious disease and fever screening environments.",
           "applications": [
             "Suspected typhoid fever screening",
             "Suspected paratyphoid fever screening",
@@ -30379,11 +30379,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all fecal specimens according to laboratory safety procedures"
           ],
-          "note": "Specimen collection, extraction, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, extraction, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Salmonella Typhi and Salmonella Paratyphi Antigens",
-          "content": "The Typhoid/Para Typhoid Ag Rapid Test Device by Ivexia Pharma is designed for qualitative detection of Salmonella Typhi and Salmonella Paratyphi antigens in human fecal samples. Detection of these antigens may support stool-based screening of suspected enteric fever."
+          "content": "The Typhoid/Para Typhoid Ag Rapid Test Device by LARKSOIS Pharma is designed for qualitative detection of Salmonella Typhi and Salmonella Paratyphi antigens in human fecal samples. Detection of these antigens may support stool-based screening of suspected enteric fever."
         },
         "clinicalImportance": {
           "title": "Clinical Applications",
@@ -30410,7 +30410,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Features of Ivexia Pharma Typhoid/Para Typhoid Ag Rapid Test Device",
+          "title": "Key Features of LARKSOIS Pharma Typhoid/Para Typhoid Ag Rapid Test Device",
           "instructions": [
             "Rapid feces-based antigen detection",
             "Detects Salmonella Typhi and Salmonella Paratyphi antigens",
@@ -30421,7 +30421,7 @@ export const en = {
             "Useful for hospitals, clinics, and labs",
             "Suitable for infectious disease programs"
           ],
-          "note": "The Typhoid/Para Typhoid Ag Rapid Test Device by Ivexia Pharma is an export-ready diagnostic product developed for global healthcare markets."
+          "note": "The Typhoid/Para Typhoid Ag Rapid Test Device by LARKSOIS Pharma is an export-ready diagnostic product developed for global healthcare markets."
         },
         "procedure": {
           "title": "How to Use Typhoid/Para Typhoid Ag Rapid Test Device",
@@ -30436,12 +30436,12 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "S. Typhi and/or S. Paratyphi antigen may be present in the fecal sample. The result should be interpreted with symptoms, exposure history, and clinical findings.",
-          "negative": "Antigen was not detected at the test’s detection limit. Infection may still be possible if symptoms are strong.",
+          "negative": "Antigen was not detected at the testâ€™s detection limit. Infection may still be possible if symptoms are strong.",
           "invalid": "Control line does not appear; repeat testing is required using a new test device."
         },
         "storage": {
@@ -30471,8 +30471,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides rapid diagnostic products for international healthcare markets. The Typhoid/Para Typhoid Ag Rapid Test Device (Feces) supports accessible infectious disease screening with a practical rapid test format.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides rapid diagnostic products for international healthcare markets. The Typhoid/Para Typhoid Ag Rapid Test Device (Feces) supports accessible infectious disease screening with a practical rapid test format.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Export-ready diagnostic product range",
@@ -30491,7 +30491,7 @@ export const en = {
         },
         {
           "question": "What is the rapid screening test for typhoid fever?",
-          "answer": "A rapid screening test for typhoid fever is a rapid antigen or antibody-based diagnostic test designed to detect markers associated with Salmonella Typhi infection. The Ivexia Pharma Typhoid/Para Typhoid Ag Rapid Test Device supports fast stool-based screening."
+          "answer": "A rapid screening test for typhoid fever is a rapid antigen or antibody-based diagnostic test designed to detect markers associated with Salmonella Typhi infection. The LARKSOIS Pharma Typhoid/Para Typhoid Ag Rapid Test Device supports fast stool-based screening."
         },
         {
           "question": "Is fasting required for a typhoid test?",
@@ -30519,7 +30519,7 @@ export const en = {
             "name": "What is the rapid screening test for typhoid fever?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "A rapid screening test for typhoid fever is a rapid antigen or antibody-based diagnostic test designed to detect markers associated with Salmonella Typhi infection. The Ivexia Pharma Typhoid/Para Typhoid Ag Rapid Test Device supports fast stool-based screening."
+              "text": "A rapid screening test for typhoid fever is a rapid antigen or antibody-based diagnostic test designed to detect markers associated with Salmonella Typhi infection. The LARKSOIS Pharma Typhoid/Para Typhoid Ag Rapid Test Device supports fast stool-based screening."
             }
           },
           {
@@ -30543,12 +30543,12 @@ export const en = {
     },
     "zika-rapid-test": {
       "meta": {
-        "title": "Zika Rapid Test Device WB/S/P | Zika Virus Rapid Test | Ivexia Pharma",
-        "description": "Ivexia Pharma Zika Rapid Test Device (WB/S/P) is a rapid diagnostic test for detecting Zika virus markers in whole blood, serum, or plasma samples for professional infectious disease screening."
+        "title": "Zika Rapid Test Device WB/S/P | Zika Virus Rapid Test | LARKSOIS Pharma",
+        "description": "LARKSOIS Pharma Zika Rapid Test Device (WB/S/P) is a rapid diagnostic test for detecting Zika virus markers in whole blood, serum, or plasma samples for professional infectious disease screening."
       },
       "hero": {
         "title": "Zika Rapid Test Device (WB/S/P)",
-        "description": "Ivexia Pharma Zika Rapid Test Device (WB/S/P) is a rapid diagnostic test designed for the detection of Zika virus infection markers in whole blood, serum, or plasma samples. The Zika Rapid Test Device supports fast infectious disease screening in hospitals, diagnostic laboratories, clinics, travel health centers, and public health programs. Developed for professional diagnostic use, this Zika virus rapid test helps healthcare providers identify suspected Zika infection quickly and guide further laboratory confirmation when required."
+        "description": "LARKSOIS Pharma Zika Rapid Test Device (WB/S/P) is a rapid diagnostic test designed for the detection of Zika virus infection markers in whole blood, serum, or plasma samples. The Zika Rapid Test Device supports fast infectious disease screening in hospitals, diagnostic laboratories, clinics, travel health centers, and public health programs. Developed for professional diagnostic use, this Zika virus rapid test helps healthcare providers identify suspected Zika infection quickly and guide further laboratory confirmation when required."
       },
       "content": {
         "introduction": {
@@ -30573,7 +30573,7 @@ export const en = {
             },
             {
               "label": "Brand",
-              "value": "Ivexia Pharma"
+              "value": "LARKSOIS Pharma"
             },
             {
               "label": "Category",
@@ -30596,7 +30596,7 @@ export const en = {
               "value": "Hospitals, laboratories, clinics, travel health centers, screening programs"
             }
           ],
-          "note": "The Ivexia Pharma Zika Rapid Test Device is intended for professional in-vitro diagnostic use and should be interpreted with symptoms, travel history, exposure risk, and confirmatory laboratory testing when needed."
+          "note": "The LARKSOIS Pharma Zika Rapid Test Device is intended for professional in-vitro diagnostic use and should be interpreted with symptoms, travel history, exposure risk, and confirmatory laboratory testing when needed."
         },
         "whatIsCovidAgTest": {
           "title": "What is Zika Rapid Test Device?",
@@ -30613,7 +30613,7 @@ export const en = {
         },
         "intendedUse": {
           "title": "Applications of Zika Rapid Test Device",
-          "description": "The Zika Rapid Test Device by Ivexia Pharma may be used in professional infectious disease and mosquito-borne disease screening environments.",
+          "description": "The Zika Rapid Test Device by LARKSOIS Pharma may be used in professional infectious disease and mosquito-borne disease screening environments.",
           "applications": [
             "Infectious disease screening",
             "Travel-related fever evaluation",
@@ -30663,11 +30663,11 @@ export const en = {
             "Read results only within the recommended time window",
             "Handle all blood specimens as potentially infectious material"
           ],
-          "note": "Specimen collection, testing, timing, and storage should always follow the official Ivexia Pharma kit insert."
+          "note": "Specimen collection, testing, timing, and storage should always follow the official LARKSOIS Pharma kit insert."
         },
         "cutOff": {
           "title": "Detection: Zika Virus Markers",
-          "content": "The Zika Rapid Test Device by Ivexia Pharma is designed for detection of Zika virus infection markers in whole blood, serum, or plasma specimens. Detection may support professional screening and further laboratory confirmation when required."
+          "content": "The Zika Rapid Test Device by LARKSOIS Pharma is designed for detection of Zika virus infection markers in whole blood, serum, or plasma specimens. Detection may support professional screening and further laboratory confirmation when required."
         },
         "clinicalImportance": {
           "title": "Clinical Applications",
@@ -30694,7 +30694,7 @@ export const en = {
           ]
         },
         "keyFeatures": {
-          "title": "Key Features of Ivexia Pharma Zika Rapid Test Device",
+          "title": "Key Features of LARKSOIS Pharma Zika Rapid Test Device",
           "instructions": [
             "Rapid Zika screening support",
             "Suitable for whole blood, serum, or plasma",
@@ -30703,9 +30703,9 @@ export const en = {
             "Useful in infectious disease screening programs",
             "Supports point-of-care testing workflows",
             "Practical for hospitals, clinics, and laboratories",
-            "Quality-focused rapid test solution from Ivexia Pharma"
+            "Quality-focused rapid test solution from LARKSOIS Pharma"
           ],
-          "note": "The Zika Rapid Test Device by Ivexia Pharma is designed for professional healthcare markets and international diagnostic supply."
+          "note": "The Zika Rapid Test Device by LARKSOIS Pharma is designed for professional healthcare markets and international diagnostic supply."
         },
         "procedure": {
           "title": "How to Use Zika Rapid Test Device",
@@ -30720,12 +30720,12 @@ export const en = {
             "Do not interpret results after the recommended reading time",
             "Dispose of used materials according to laboratory safety procedures"
           ],
-          "note": "Testing should be performed by trained healthcare professionals according to the official Ivexia Pharma product insert."
+          "note": "Testing should be performed by trained healthcare professionals according to the official LARKSOIS Pharma product insert."
         },
         "resultInterpretation": {
           "title": "Result Interpretation",
           "positive": "A positive result means Zika virus infection marker may be present in the specimen. The result should be interpreted with symptoms, exposure history, and confirmatory laboratory testing.",
-          "negative": "A negative result means the target marker was not detected at the test’s detectable level. If Zika infection is still suspected, further testing may be required.",
+          "negative": "A negative result means the target marker was not detected at the testâ€™s detectable level. If Zika infection is still suspected, further testing may be required.",
           "invalid": "If the control line does not appear, the result is invalid and testing should be repeated with a new device."
         },
         "storage": {
@@ -30755,8 +30755,8 @@ export const en = {
           ]
         },
         "whyChoose": {
-          "title": "Why Choose Ivexia Pharma?",
-          "description": "Ivexia Pharma provides rapid diagnostic products designed for global healthcare markets. The Zika Rapid Test Device supports professional infectious disease screening with simple handling, rapid results, and practical diagnostic workflow.",
+          "title": "Why Choose LARKSOIS Pharma?",
+          "description": "LARKSOIS Pharma provides rapid diagnostic products designed for global healthcare markets. The Zika Rapid Test Device supports professional infectious disease screening with simple handling, rapid results, and practical diagnostic workflow.",
           "advantages": [
             "International infectious disease rapid test portfolio",
             "Export-ready diagnostic product range",
@@ -30840,14 +30840,14 @@ export const en = {
 
      "6-mam-urine-test": {
     meta: {
-      title: "6-Monoacetylmorphine 6-MAM Rapid Test Urine 50 ng/mL | Ivexia Pharma",
+      title: "6-Monoacetylmorphine 6-MAM Rapid Test Urine 50 ng/mL | LARKSOIS Pharma",
       description:
-        "6-Monoacetylmorphine (6-MAM) Rapid Test Device by Ivexia Pharma is a urine-based rapid drug of abuse screening test with 50 ng/mL cut-off for detecting 6-MAM, a specific heroin metabolite.",
+        "6-Monoacetylmorphine (6-MAM) Rapid Test Device by LARKSOIS Pharma is a urine-based rapid drug of abuse screening test with 50 ng/mL cut-off for detecting 6-MAM, a specific heroin metabolite.",
     },
     hero: {
       title: "6-Monoacetylmorphine (6-MAM) Rapid Test Device",
       description:
-        "6-Monoacetylmorphine (6-MAM) Rapid Test Device by Ivexia Pharma is a professional urine-based rapid test designed for qualitative screening of 6-MAM, a specific metabolite associated with heroin exposure. With a 50 ng/mL cut-off, this 6-MAM rapid test device supports clinical laboratories, rehabilitation centers, occupational health programs, forensic screening settings, and drug monitoring facilities where fast and dependable urine drug screening is required.",
+        "6-Monoacetylmorphine (6-MAM) Rapid Test Device by LARKSOIS Pharma is a professional urine-based rapid test designed for qualitative screening of 6-MAM, a specific metabolite associated with heroin exposure. With a 50 ng/mL cut-off, this 6-MAM rapid test device supports clinical laboratories, rehabilitation centers, occupational health programs, forensic screening settings, and drug monitoring facilities where fast and dependable urine drug screening is required.",
     },
     content: {
       introduction: {
@@ -30862,7 +30862,7 @@ export const en = {
         title: "Product Overview",
         details: [
           { label: "Product Name", value: "6-Monoacetylmorphine (6-MAM) Rapid Test Device" },
-          { label: "Brand", value: "Ivexia Pharma" },
+          { label: "Brand", value: "LARKSOIS Pharma" },
           { label: "Category", value: "Drug of Abuse" },
           { label: "Method", value: "Rapid Test" },
           { label: "Specimen", value: "Urine" },
@@ -30964,9 +30964,9 @@ export const en = {
         ],
       },
       whyChoose: {
-        title: "Why Choose Ivexia Pharma 6-MAM Rapid Test Device?",
+        title: "Why Choose LARKSOIS Pharma 6-MAM Rapid Test Device?",
         description:
-          "Ivexia Pharma provides diagnostic products for international healthcare, laboratory, and distribution markets with a focus on professional product presentation and dependable screening support.",
+          "LARKSOIS Pharma provides diagnostic products for international healthcare, laboratory, and distribution markets with a focus on professional product presentation and dependable screening support.",
         advantages: [
           "Urine-based rapid screening format",
           "50 ng/mL cut-off level",
@@ -30974,7 +30974,7 @@ export const en = {
           "Supports heroin metabolite screening",
           "Suitable for drug of abuse testing programs",
           "Useful for professional laboratory workflows",
-          "International product positioning under Ivexia Pharma",
+          "International product positioning under LARKSOIS Pharma",
         ],
       },
     },
@@ -30992,7 +30992,7 @@ export const en = {
       {
         question: "What is the specimen type for this 6-MAM rapid test?",
         answer:
-          "This Ivexia Pharma 6-MAM Rapid Test Device is designed for urine specimens. Other specimen types may require different validated testing methods.",
+          "This LARKSOIS Pharma 6-MAM Rapid Test Device is designed for urine specimens. Other specimen types may require different validated testing methods.",
       },
       {
         question: "What is the cut-off level of the 6-MAM Rapid Test Device?",
@@ -31009,3 +31009,4 @@ export const en = {
 
   }
 };
+

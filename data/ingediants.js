@@ -1,12 +1,12 @@
-
+﻿
 export const en = {
   ingredients: {
 "vitamin-c-ascorbic-acid": {
   meta: {
     title:
-      "Vitamin C (Ascorbic Acid) Tablets & Supplements | Ivexia Pharma",
+      "Vitamin C (Ascorbic Acid) Tablets & Supplements | LARKSOIS Pharma",
     description:
-      "Vitamin C (Ascorbic Acid) by Ivexia Pharma supports immune health, collagen formation, antioxidant protection, wound healing, iron absorption, and prevention of Vitamin C deficiency. Explore uses, dosage guidance, safety, side effects, and international-quality product information.",
+      "Vitamin C (Ascorbic Acid) by LARKSOIS Pharma supports immune health, collagen formation, antioxidant protection, wound healing, iron absorption, and prevention of Vitamin C deficiency. Explore uses, dosage guidance, safety, side effects, and international-quality product information.",
   },
 
   hero: {
@@ -21,8 +21,8 @@ export const en = {
       sections: [
         "Vitamin C (Ascorbic Acid) is an essential water-soluble vitamin widely used in pharmaceutical, nutraceutical, and healthcare formulations. Vitamin C (Ascorbic Acid) plays an important role in immune support, collagen formation, wound healing, antioxidant protection, iron absorption, and the prevention of Vitamin C deficiency.",
         "The NIH Office of Dietary Supplements explains that Vitamin C, also called L-ascorbic acid, is naturally present in some foods, added to others, and available as a dietary supplement; humans cannot produce it naturally, so it must come from diet or supplementation.",
-        "At Ivexia Pharma, Vitamin C (Ascorbic Acid) is positioned as a high-quality nutritional and wellness-support product for international healthcare markets.",
-        "With rising global demand for immunity-support products, antioxidant supplements, and deficiency-prevention formulations, Vitamin C (Ascorbic Acid) by Ivexia Pharma is suitable for hospitals, clinics, pharmacies, healthcare distributors, importers, nutraceutical brands, and global pharmaceutical supply networks.",
+        "At LARKSOIS Pharma, Vitamin C (Ascorbic Acid) is positioned as a high-quality nutritional and wellness-support product for international healthcare markets.",
+        "With rising global demand for immunity-support products, antioxidant supplements, and deficiency-prevention formulations, Vitamin C (Ascorbic Acid) by LARKSOIS Pharma is suitable for hospitals, clinics, pharmacies, healthcare distributors, importers, nutraceutical brands, and global pharmaceutical supply networks.",
       ],
     },
 
@@ -106,7 +106,7 @@ export const en = {
       sections: [
         "MedlinePlus notes that ascorbic acid comes in extended-release capsules and tablets, lozenges, chewable tablets, gummies, and liquid drops, and it is usually taken once daily or as directed by a doctor.",
         "The dosage of Vitamin C (Ascorbic Acid) depends on age, diet, health status, deficiency level, smoking status, pregnancy, lactation, and medical advice.",
-        "Patients should follow the product label or healthcare professional’s instructions and should not exceed recommended intake without guidance.",
+        "Patients should follow the product label or healthcare professionalâ€™s instructions and should not exceed recommended intake without guidance.",
       ],
     },
 
@@ -155,18 +155,18 @@ export const en = {
       ],
     },
 
-    ivexia: {
-      title: "Vitamin C (Ascorbic Acid) by Ivexia Pharma",
+    LARKSOIS: {
+      title: "Vitamin C (Ascorbic Acid) by LARKSOIS Pharma",
       sections: [
-        "Vitamin C (Ascorbic Acid) by Ivexia Pharma is developed for global healthcare and nutritional markets with a focus on quality, consistency, and international product suitability.",
+        "Vitamin C (Ascorbic Acid) by LARKSOIS Pharma is developed for global healthcare and nutritional markets with a focus on quality, consistency, and international product suitability.",
         "As demand grows for immunity-support supplements, antioxidant products, wellness formulations, and deficiency-prevention solutions, Vitamin C (Ascorbic Acid) remains an essential product in pharmaceutical and nutraceutical portfolios.",
       ],
     },
 
     whyChoose: {
-      title: "Why Choose Ivexia Pharma for Vitamin C (Ascorbic Acid)?",
+      title: "Why Choose LARKSOIS Pharma for Vitamin C (Ascorbic Acid)?",
       description:
-        "Choosing Ivexia Pharma for Vitamin C (Ascorbic Acid) means selecting a pharmaceutical partner focused on quality, reliability, and international healthcare needs.",
+        "Choosing LARKSOIS Pharma for Vitamin C (Ascorbic Acid) means selecting a pharmaceutical partner focused on quality, reliability, and international healthcare needs.",
       advantages: [
         "International-quality product standards",
         "Reliable Vitamin C formulation support",
@@ -256,9 +256,9 @@ export const en = {
 "vitamin-b12-cyanocobalamin": {
   meta: {
     title:
-      "Vitamin B12 (Cyanocobalamin) Tablets & Formulations | Ivexia Pharma",
+      "Vitamin B12 (Cyanocobalamin) Tablets & Formulations | LARKSOIS Pharma",
     description:
-      "Vitamin B12 (Cyanocobalamin) by Ivexia Pharma supports red blood cell formation, nervous system function, DNA synthesis, and prevention of Vitamin B12 deficiency. Explore uses, benefits, dosage guidance, safety, storage, and international-quality product information.",
+      "Vitamin B12 (Cyanocobalamin) by LARKSOIS Pharma supports red blood cell formation, nervous system function, DNA synthesis, and prevention of Vitamin B12 deficiency. Explore uses, benefits, dosage guidance, safety, storage, and international-quality product information.",
   },
 
   hero: {
@@ -274,8 +274,8 @@ export const en = {
         "Vitamin B12 (Cyanocobalamin) is an essential water-soluble vitamin used to support healthy red blood cell formation, nervous system function, DNA synthesis, and overall metabolic health.",
         "Vitamin B12 (Cyanocobalamin) is one of the most important nutrients required by the body, especially for people with low Vitamin B12 levels, dietary insufficiency, absorption problems, or increased nutritional needs.",
         "The NIH Office of Dietary Supplements explains that Vitamin B12 is required for central nervous system development and function, healthy red blood cell formation, and DNA synthesis.",
-        "At Ivexia Pharma, Vitamin B12 (Cyanocobalamin) is positioned as a high-quality nutritional and therapeutic product for international healthcare markets.",
-        "With rising awareness of vitamin deficiency, anemia, nerve health, and wellness support, Vitamin B12 (Cyanocobalamin) by Ivexia Pharma is suitable for pharmaceutical distributors, hospitals, clinics, nutraceutical partners, pharmacies, and global healthcare supply networks.",
+        "At LARKSOIS Pharma, Vitamin B12 (Cyanocobalamin) is positioned as a high-quality nutritional and therapeutic product for international healthcare markets.",
+        "With rising awareness of vitamin deficiency, anemia, nerve health, and wellness support, Vitamin B12 (Cyanocobalamin) by LARKSOIS Pharma is suitable for pharmaceutical distributors, hospitals, clinics, nutraceutical partners, pharmacies, and global healthcare supply networks.",
       ],
     },
 
@@ -346,7 +346,7 @@ export const en = {
         },
         {
           label: "Brand",
-          value: "Ivexia Pharma",
+          value: "LARKSOIS Pharma",
         },
       ],
     },
@@ -369,7 +369,7 @@ export const en = {
       sections: [
         "MedlinePlus states that cyanocobalamin tablets are usually taken by mouth with a meal or as directed by a doctor.",
         "Patients should take cyanocobalamin exactly as directed and should not take more or less than prescribed.",
-        "Dosage depends on age, nutritional status, deficiency severity, diet, absorption ability, pregnancy or breastfeeding status, medical condition, and doctor’s advice.",
+        "Dosage depends on age, nutritional status, deficiency severity, diet, absorption ability, pregnancy or breastfeeding status, medical condition, and doctorâ€™s advice.",
         "NIH lists the adult recommended dietary allowance for Vitamin B12 as 2.4 mcg daily, with higher needs during pregnancy and lactation.",
       ],
     },
@@ -453,19 +453,19 @@ export const en = {
       ],
     },
 
-    ivexia: {
-      title: "Vitamin B12 (Cyanocobalamin) by Ivexia Pharma",
+    LARKSOIS: {
+      title: "Vitamin B12 (Cyanocobalamin) by LARKSOIS Pharma",
       sections: [
-        "Vitamin B12 (Cyanocobalamin) by Ivexia Pharma is developed for global healthcare and nutrition markets with a focus on quality, consistency, and international product suitability.",
+        "Vitamin B12 (Cyanocobalamin) by LARKSOIS Pharma is developed for global healthcare and nutrition markets with a focus on quality, consistency, and international product suitability.",
         "As Vitamin B12 deficiency and wellness supplementation are relevant across many countries, Vitamin B12 (Cyanocobalamin) remains an important product for pharmaceutical and nutraceutical portfolios.",
       ],
     },
 
     whyChoose: {
       title:
-        "Why Choose Ivexia Pharma for Vitamin B12 (Cyanocobalamin)?",
+        "Why Choose LARKSOIS Pharma for Vitamin B12 (Cyanocobalamin)?",
       description:
-        "Choosing Ivexia Pharma for Vitamin B12 (Cyanocobalamin) means selecting a pharmaceutical partner focused on quality, reliability, and international healthcare needs.",
+        "Choosing LARKSOIS Pharma for Vitamin B12 (Cyanocobalamin) means selecting a pharmaceutical partner focused on quality, reliability, and international healthcare needs.",
       advantages: [
         "International-quality product standards",
         "Reliable Vitamin B12 formulation support",
@@ -555,9 +555,9 @@ export const en = {
 "tramadol-hydrochloride": {
   meta: {
     title:
-      "Tramadol Hydrochloride Tablets & Capsules | Opioid Analgesic Pain Medicine | Ivexia Pharma",
+      "Tramadol Hydrochloride Tablets & Capsules | Opioid Analgesic Pain Medicine | LARKSOIS Pharma",
     description:
-      "Tramadol Hydrochloride by Ivexia Pharma is an opioid analgesic used for moderate to moderately severe pain when prescribed by a healthcare professional. Learn uses, mechanism, precautions, side effects, storage, and international-quality product information.",
+      "Tramadol Hydrochloride by LARKSOIS Pharma is an opioid analgesic used for moderate to moderately severe pain when prescribed by a healthcare professional. Learn uses, mechanism, precautions, side effects, storage, and international-quality product information.",
   },
 
   hero: {
@@ -573,7 +573,7 @@ export const en = {
         "Tramadol Hydrochloride is a prescription opioid analgesic used for the management of moderate to moderately severe pain in adults when other pain-relief options are not suitable, not effective enough, or not tolerated.",
         "It acts on the central nervous system to help reduce pain perception.",
         "Mayo Clinic describes tramadol as an opioid analgesic used to relieve moderate to moderately severe pain, including pain after surgery, and notes that extended-release forms are used for chronic ongoing pain in selected patients.",
-        "At Ivexia Pharma, Tramadol Hydrochloride is positioned as a carefully regulated pain management product for international pharmaceutical markets.",
+        "At LARKSOIS Pharma, Tramadol Hydrochloride is positioned as a carefully regulated pain management product for international pharmaceutical markets.",
         "Because Tramadol Hydrochloride is an opioid medicine, it must be used only under medical supervision and according to local regulatory requirements.",
       ],
     },
@@ -645,14 +645,14 @@ export const en = {
       title: "Dosage Guidance and Administration",
       sections: [
         "Tramadol Hydrochloride should be taken only as prescribed by a qualified healthcare professional.",
-        "The correct dose depends on the patient’s age, pain condition, previous treatment history, other medicines, liver and kidney function, and risk factors for side effects.",
+        "The correct dose depends on the patientâ€™s age, pain condition, previous treatment history, other medicines, liver and kidney function, and risk factors for side effects.",
       ],
     },
 
     administrationPoints: {
       title: "Important Administration Guidance",
       points: [
-        "Use Tramadol Hydrochloride only with a doctor’s prescription",
+        "Use Tramadol Hydrochloride only with a doctorâ€™s prescription",
         "Do not increase the dose without medical advice",
         "Do not stop long-term use suddenly unless guided by a doctor",
         "Do not crush, chew, break, or dissolve extended-release products",
@@ -672,7 +672,7 @@ export const en = {
       title: "Important Safety Information",
       sections: [
         "Tramadol Hydrochloride may be habit-forming, especially with prolonged use.",
-        "MedlinePlus warns that tramadol may be habit-forming and should be taken exactly as directed, without taking more, taking it more often, or using it differently from the doctor’s instructions.",
+        "MedlinePlus warns that tramadol may be habit-forming and should be taken exactly as directed, without taking more, taking it more often, or using it differently from the doctorâ€™s instructions.",
         "Serious or life-threatening breathing problems may occur, especially when treatment starts, when the dose is changed, or when tramadol is combined with alcohol, sedatives, benzodiazepines, other opioids, or other central nervous system depressants.",
         "Drugs.com warns that tramadol can slow or stop breathing and that misuse can cause addiction, overdose, or death.",
       ],
@@ -758,19 +758,19 @@ export const en = {
       ],
     },
 
-    ivexia: {
-      title: "Tramadol Hydrochloride by Ivexia Pharma",
+    LARKSOIS: {
+      title: "Tramadol Hydrochloride by LARKSOIS Pharma",
       sections: [
-        "Tramadol Hydrochloride by Ivexia Pharma is developed for regulated pain management markets where quality, compliance, and responsible supply are essential.",
-        "Ivexia Pharma focuses on pharmaceutical reliability, consistent product quality, secure packaging, and international distribution standards.",
-        "For hospitals, importers, wholesalers, and healthcare procurement partners, Tramadol Hydrochloride by Ivexia Pharma offers a carefully positioned opioid analgesic product category for medically supervised pain management.",
+        "Tramadol Hydrochloride by LARKSOIS Pharma is developed for regulated pain management markets where quality, compliance, and responsible supply are essential.",
+        "LARKSOIS Pharma focuses on pharmaceutical reliability, consistent product quality, secure packaging, and international distribution standards.",
+        "For hospitals, importers, wholesalers, and healthcare procurement partners, Tramadol Hydrochloride by LARKSOIS Pharma offers a carefully positioned opioid analgesic product category for medically supervised pain management.",
       ],
     },
 
     whyChoose: {
-      title: "Why Choose Ivexia Pharma for Tramadol Hydrochloride?",
+      title: "Why Choose LARKSOIS Pharma for Tramadol Hydrochloride?",
       description:
-        "Choosing Ivexia Pharma for Tramadol Hydrochloride means working with a pharmaceutical brand focused on quality, responsibility, and international healthcare requirements.",
+        "Choosing LARKSOIS Pharma for Tramadol Hydrochloride means working with a pharmaceutical brand focused on quality, responsibility, and international healthcare requirements.",
       advantages: [
         "International-quality manufacturing standards",
         "Reliable pharmaceutical supply support",
@@ -868,9 +868,9 @@ export const en = {
 "sitagliptin-phosphate": {
   meta: {
     title:
-      "Sitagliptin Phosphate Tablets | Type 2 Diabetes Medicine | Ivexia Pharma",
+      "Sitagliptin Phosphate Tablets | Type 2 Diabetes Medicine | LARKSOIS Pharma",
     description:
-      "Sitagliptin Phosphate by Ivexia Pharma is an oral DPP-4 inhibitor used to help control blood sugar in adults with type 2 diabetes. Explore uses, mechanism, dosage guidance, precautions, side effects, storage, and international-quality product information.",
+      "Sitagliptin Phosphate by LARKSOIS Pharma is an oral DPP-4 inhibitor used to help control blood sugar in adults with type 2 diabetes. Explore uses, mechanism, dosage guidance, precautions, side effects, storage, and international-quality product information.",
   },
 
   hero: {
@@ -887,8 +887,8 @@ export const en = {
         "It belongs to the class of medicines known as dipeptidyl peptidase-4 inhibitors, also called DPP-4 inhibitors.",
         "Sitagliptin Phosphate works by increasing natural substances in the body that help lower blood sugar when glucose levels are high.",
         "MedlinePlus explains that sitagliptin is used to lower blood sugar in adults with type 2 diabetes and is not used for type 1 diabetes.",
-        "At Ivexia Pharma, Sitagliptin Phosphate is positioned as a high-value diabetes care product for international pharmaceutical markets.",
-        "With type 2 diabetes increasing globally, Sitagliptin Phosphate by Ivexia Pharma is suitable for hospitals, clinics, distributors, importers, wholesalers, and healthcare procurement partners looking for reliable oral diabetes therapy products.",
+        "At LARKSOIS Pharma, Sitagliptin Phosphate is positioned as a high-value diabetes care product for international pharmaceutical markets.",
+        "With type 2 diabetes increasing globally, Sitagliptin Phosphate by LARKSOIS Pharma is suitable for hospitals, clinics, distributors, importers, wholesalers, and healthcare procurement partners looking for reliable oral diabetes therapy products.",
       ],
     },
 
@@ -933,7 +933,7 @@ export const en = {
         "Incretin hormones support insulin release when blood sugar is high and reduce the amount of sugar released into the blood.",
         "Cleveland Clinic explains that sitagliptin increases insulin levels and reduces the amount of sugar released into the blood.",
         "This glucose-dependent mechanism makes Sitagliptin Phosphate useful in type 2 diabetes care because it helps the body respond more effectively to elevated glucose levels, especially after meals.",
-        "However, Sitagliptin Phosphate should always be used according to a doctor’s prescription and should not replace diet, exercise, or blood sugar monitoring.",
+        "However, Sitagliptin Phosphate should always be used according to a doctorâ€™s prescription and should not replace diet, exercise, or blood sugar monitoring.",
       ],
     },
 
@@ -1028,18 +1028,18 @@ export const en = {
       ],
     },
 
-    ivexia: {
-      title: "Sitagliptin Phosphate by Ivexia Pharma",
+    LARKSOIS: {
+      title: "Sitagliptin Phosphate by LARKSOIS Pharma",
       sections: [
-        "Sitagliptin Phosphate by Ivexia Pharma is developed for the global diabetes care segment, where demand for effective oral antidiabetic medicines continues to grow.",
+        "Sitagliptin Phosphate by LARKSOIS Pharma is developed for the global diabetes care segment, where demand for effective oral antidiabetic medicines continues to grow.",
         "As a DPP-4 inhibitor, Sitagliptin Phosphate offers an important option for adult patients with type 2 diabetes when prescribed as part of a complete care plan.",
       ],
     },
 
     whyChoose: {
-      title: "Why Choose Ivexia Pharma for Sitagliptin Phosphate?",
+      title: "Why Choose LARKSOIS Pharma for Sitagliptin Phosphate?",
       description:
-        "Choosing Ivexia Pharma for Sitagliptin Phosphate means selecting a pharmaceutical partner focused on quality, reliability, and international healthcare needs.",
+        "Choosing LARKSOIS Pharma for Sitagliptin Phosphate means selecting a pharmaceutical partner focused on quality, reliability, and international healthcare needs.",
       advantages: [
         "Reliable diabetes care formulations",
         "International-quality pharmaceutical standards",
@@ -1053,7 +1053,7 @@ export const en = {
     conclusion: {
       title: "Global Diabetes Care Support",
       sections: [
-        "With increasing global need for diabetes medicines, Ivexia Pharma Sitagliptin Phosphate is suitable for regulated and emerging pharmaceutical markets.",
+        "With increasing global need for diabetes medicines, LARKSOIS Pharma Sitagliptin Phosphate is suitable for regulated and emerging pharmaceutical markets.",
         "Its once-daily oral use, diabetes-focused therapeutic value, and compatibility with modern type 2 diabetes care make Sitagliptin Phosphate an important product in international antidiabetic medicine portfolios.",
       ],
     },
@@ -1145,9 +1145,9 @@ export const en = {
 "salbutamol-sulphate": {
   meta: {
     title:
-      "Salbutamol Sulphate Inhaler, Tablets & Respiratory Formulations | Ivexia Pharma",
+      "Salbutamol Sulphate Inhaler, Tablets & Respiratory Formulations | LARKSOIS Pharma",
     description:
-      "Salbutamol Sulphate by Ivexia Pharma is a fast-acting bronchodilator used for asthma, COPD, bronchospasm, wheezing, chest tightness, and breathing difficulty. Explore uses, dosage guidance, side effects, precautions, storage, and global-quality product information.",
+      "Salbutamol Sulphate by LARKSOIS Pharma is a fast-acting bronchodilator used for asthma, COPD, bronchospasm, wheezing, chest tightness, and breathing difficulty. Explore uses, dosage guidance, side effects, precautions, storage, and global-quality product information.",
   },
 
   hero: {
@@ -1163,8 +1163,8 @@ export const en = {
         "Salbutamol Sulphate is a widely used respiratory medicine known for its fast-acting bronchodilator effect.",
         "Salbutamol Sulphate helps relax and open narrowed airways, making it easier for patients to breathe during asthma symptoms, bronchospasm, wheezing, chest tightness, coughing, and breathlessness.",
         "Drugs.com describes salbutamol, also called albuterol in the United States, as a fast-acting bronchodilator and reliever medicine used in asthma and COPD-related breathing symptoms.",
-        "At Ivexia Pharma, Salbutamol Sulphate is positioned as an important product in the respiratory care segment for international pharmaceutical markets.",
-        "With increasing global demand for asthma and COPD medicines, Salbutamol Sulphate by Ivexia Pharma is suitable for hospitals, clinics, healthcare distributors, importers, wholesalers, and respiratory medicine supply chains.",
+        "At LARKSOIS Pharma, Salbutamol Sulphate is positioned as an important product in the respiratory care segment for international pharmaceutical markets.",
+        "With increasing global demand for asthma and COPD medicines, Salbutamol Sulphate by LARKSOIS Pharma is suitable for hospitals, clinics, healthcare distributors, importers, wholesalers, and respiratory medicine supply chains.",
       ],
     },
 
@@ -1230,7 +1230,7 @@ export const en = {
       title: "Dosage Form Research and Development",
       sections: [
         "Drugs.com lists salbutamol dosage forms such as metered-dose inhalation aerosol, dry powder inhaler, inhalation solution, oral syrup, oral tablets, and injectable forms.",
-        "ScienceDirect also discusses formulation development of Salbutamol Sulphate fast-disintegrating sublingual tablets for potential asthma treatment, showing the product’s relevance in advanced dosage-form research.",
+        "ScienceDirect also discusses formulation development of Salbutamol Sulphate fast-disintegrating sublingual tablets for potential asthma treatment, showing the productâ€™s relevance in advanced dosage-form research.",
       ],
     },
 
@@ -1330,18 +1330,18 @@ export const en = {
       ],
     },
 
-    ivexia: {
-      title: "Salbutamol Sulphate by Ivexia Pharma",
+    LARKSOIS: {
+      title: "Salbutamol Sulphate by LARKSOIS Pharma",
       sections: [
-        "Salbutamol Sulphate by Ivexia Pharma is developed for the global respiratory care segment, supporting treatment needs in asthma, COPD, bronchospasm, wheezing, and breathlessness.",
+        "Salbutamol Sulphate by LARKSOIS Pharma is developed for the global respiratory care segment, supporting treatment needs in asthma, COPD, bronchospasm, wheezing, and breathlessness.",
         "As respiratory diseases continue to affect patients across developed and emerging healthcare markets, Salbutamol Sulphate remains a high-demand medicine category for hospitals, pharmacies, distributors, and government healthcare supply systems.",
       ],
     },
 
     whyChoose: {
-      title: "Why Choose Ivexia Pharma for Salbutamol Sulphate?",
+      title: "Why Choose LARKSOIS Pharma for Salbutamol Sulphate?",
       description:
-        "Choosing Ivexia Pharma for Salbutamol Sulphate means selecting a pharmaceutical partner focused on quality, reliability, and international healthcare requirements.",
+        "Choosing LARKSOIS Pharma for Salbutamol Sulphate means selecting a pharmaceutical partner focused on quality, reliability, and international healthcare requirements.",
       advantages: [
         "International-quality pharmaceutical standards",
         "Reliable respiratory medicine formulations",
@@ -1357,7 +1357,7 @@ export const en = {
       sections: [
         "Salbutamol Sulphate is a clinically important bronchodilator used to support faster breathing relief in asthma and COPD-related airway narrowing.",
         "With its strong demand, multiple dosage possibilities, and established role as a fast-acting bronchodilator, Salbutamol Sulphate is an essential product for respiratory medicine portfolios.",
-        "Ivexia Pharma Salbutamol Sulphate is suitable for international distribution, hospital supply, pharmacy networks, and healthcare markets seeking dependable respiratory care solutions.",
+        "LARKSOIS Pharma Salbutamol Sulphate is suitable for international distribution, hospital supply, pharmacy networks, and healthcare markets seeking dependable respiratory care solutions.",
       ],
     },
   },
@@ -1448,9 +1448,9 @@ export const en = {
 "pantoprazole-sodium": {
   meta: {
     title:
-      "Pantoprazole Sodium Tablets & Oral Formulations | GERD & Acid Reflux Medicine | Ivexia Pharma",
+      "Pantoprazole Sodium Tablets & Oral Formulations | GERD & Acid Reflux Medicine | LARKSOIS Pharma",
     description:
-      "Pantoprazole Sodium by Ivexia Pharma is a proton pump inhibitor used for GERD, acid reflux, erosive esophagitis, stomach ulcers, and acid hypersecretion conditions. Explore uses, dosage guidance, precautions, side effects, and international-quality product information.",
+      "Pantoprazole Sodium by LARKSOIS Pharma is a proton pump inhibitor used for GERD, acid reflux, erosive esophagitis, stomach ulcers, and acid hypersecretion conditions. Explore uses, dosage guidance, precautions, side effects, and international-quality product information.",
   },
 
   hero: {
@@ -1466,8 +1466,8 @@ export const en = {
         "Pantoprazole Sodium is a widely used gastrointestinal medicine belonging to the class of drugs known as proton pump inhibitors, commonly called PPIs.",
         "Pantoprazole Sodium is mainly used to reduce excess stomach acid and support the treatment of acid-related digestive conditions such as gastroesophageal reflux disease, acid reflux, heartburn, erosive esophagitis, stomach ulcers, and acid hypersecretion disorders.",
         "Mayo Clinic describes pantoprazole as a PPI used for conditions where the stomach produces too much acid, including erosive esophagitis caused by GERD and Zollinger-Ellison syndrome.",
-        "At Ivexia Pharma, Pantoprazole Sodium is positioned as an important product in the digestive health and gastroenterology segment.",
-        "With increasing global demand for acid reflux and GERD management products, Pantoprazole Sodium by Ivexia Pharma is suitable for international pharmaceutical markets, hospitals, clinics, healthcare distributors, importers, and medical supply partners.",
+        "At LARKSOIS Pharma, Pantoprazole Sodium is positioned as an important product in the digestive health and gastroenterology segment.",
+        "With increasing global demand for acid reflux and GERD management products, Pantoprazole Sodium by LARKSOIS Pharma is suitable for international pharmaceutical markets, hospitals, clinics, healthcare distributors, importers, and medical supply partners.",
       ],
     },
 
@@ -1550,7 +1550,7 @@ export const en = {
       title: "Dosage Information",
       sections: [
         "Pantoprazole Sodium should be taken exactly as directed by a doctor, pharmacist, or approved product label.",
-        "The dosage depends on the patient’s age, diagnosis, severity of symptoms, treatment duration, medical history, and response to therapy.",
+        "The dosage depends on the patientâ€™s age, diagnosis, severity of symptoms, treatment duration, medical history, and response to therapy.",
         "According to the NHS, common adult dosage guidance includes 20 mg daily for heartburn and acid reflux, 20 mg to 40 mg daily for GERD, 40 mg daily for stomach ulcers, and higher starting doses for Zollinger-Ellison syndrome under medical supervision.",
         "The NHS also notes that pantoprazole is usually taken once daily in the morning, and if prescribed twice daily, one dose is taken in the morning and one in the evening.",
         "The NHS advises taking pantoprazole about one hour before a meal and swallowing the tablets whole with water.",
@@ -1627,18 +1627,18 @@ export const en = {
       ],
     },
 
-    ivexia: {
-      title: "Pantoprazole Sodium by Ivexia Pharma",
+    LARKSOIS: {
+      title: "Pantoprazole Sodium by LARKSOIS Pharma",
       sections: [
-        "Pantoprazole Sodium by Ivexia Pharma is developed for the international pharmaceutical market with a focus on digestive health, acid reflux management, and gastroenterology care.",
+        "Pantoprazole Sodium by LARKSOIS Pharma is developed for the international pharmaceutical market with a focus on digestive health, acid reflux management, and gastroenterology care.",
         "As GERD, heartburn, stomach ulcers, and acid-related conditions are common worldwide, Pantoprazole Sodium remains a highly relevant product for global healthcare systems.",
       ],
     },
 
     whyChoose: {
-      title: "Why Choose Ivexia Pharma for Pantoprazole Sodium?",
+      title: "Why Choose LARKSOIS Pharma for Pantoprazole Sodium?",
       description:
-        "Choosing Ivexia Pharma for Pantoprazole Sodium means selecting a pharmaceutical partner focused on quality, consistency, and international healthcare needs.",
+        "Choosing LARKSOIS Pharma for Pantoprazole Sodium means selecting a pharmaceutical partner focused on quality, consistency, and international healthcare needs.",
       advantages: [
         "Reliable product quality",
         "International market suitability",
@@ -1653,7 +1653,7 @@ export const en = {
       title: "Global Digestive Healthcare Support",
       sections: [
         "Pantoprazole Sodium is widely recognized in acid reflux, GERD, erosive esophagitis, and stomach acid management when used under professional medical guidance.",
-        "With demand for gastrointestinal medicines growing across regulated and emerging markets, Ivexia Pharma Pantoprazole Sodium can be positioned as a dependable product for digestive care portfolios.",
+        "With demand for gastrointestinal medicines growing across regulated and emerging markets, LARKSOIS Pharma Pantoprazole Sodium can be positioned as a dependable product for digestive care portfolios.",
         "Its clinical relevance, multiple dosage possibilities, and established role as a proton pump inhibitor make Pantoprazole Sodium an essential product in international pharmaceutical distribution.",
       ],
     },
@@ -1669,7 +1669,7 @@ export const en = {
     {
       question: "What time of day should you take pantoprazole sodium 40 mg?",
       answer:
-        "Pantoprazole Sodium 40 mg is usually taken once daily in the morning, preferably about 1 hour before food. If prescribed twice daily, one dose is usually taken in the morning and one in the evening. Always follow the doctor’s prescription.",
+        "Pantoprazole Sodium 40 mg is usually taken once daily in the morning, preferably about 1 hour before food. If prescribed twice daily, one dose is usually taken in the morning and one in the evening. Always follow the doctorâ€™s prescription.",
     },
 
     {
@@ -1709,7 +1709,7 @@ export const en = {
         name: "What time of day should you take pantoprazole sodium 40 mg?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Pantoprazole Sodium 40 mg is usually taken once daily in the morning, preferably about 1 hour before food. If prescribed twice daily, one dose is usually taken in the morning and one in the evening. Always follow the doctor’s prescription.",
+          text: "Pantoprazole Sodium 40 mg is usually taken once daily in the morning, preferably about 1 hour before food. If prescribed twice daily, one dose is usually taken in the morning and one in the evening. Always follow the doctorâ€™s prescription.",
         },
       },
 
@@ -1745,9 +1745,9 @@ export const en = {
 "omeprazole": {
   meta: {
     title:
-      "Omeprazole Capsules & Tablets | Acid Reflux & GERD Medicine | Ivexia Pharma",
+      "Omeprazole Capsules & Tablets | Acid Reflux & GERD Medicine | LARKSOIS Pharma",
     description:
-      "Omeprazole by Ivexia Pharma is a proton pump inhibitor used for GERD, acid reflux, heartburn, stomach ulcers, erosive esophagitis, and acid-related digestive conditions. Explore uses, dosage guidance, safety, side effects, and international-quality product information.",
+      "Omeprazole by LARKSOIS Pharma is a proton pump inhibitor used for GERD, acid reflux, heartburn, stomach ulcers, erosive esophagitis, and acid-related digestive conditions. Explore uses, dosage guidance, safety, side effects, and international-quality product information.",
   },
 
   hero: {
@@ -1763,8 +1763,8 @@ export const en = {
         "Omeprazole is a widely used gastrointestinal medicine that belongs to a class of drugs known as proton pump inhibitors, also called PPIs.",
         "Omeprazole works by reducing the amount of acid produced in the stomach, helping manage acid-related digestive conditions such as gastroesophageal reflux disease, heartburn, stomach ulcers, duodenal ulcers, and erosive esophagitis.",
         "Mayo Clinic explains that omeprazole is used for conditions where the stomach produces too much acid, including GERD, ulcers, erosive esophagitis, Zollinger-Ellison syndrome, and dyspepsia.",
-        "At Ivexia Pharma, Omeprazole is presented as an important product in the digestive health and gastroenterology segment.",
-        "With strong global demand for acid reflux and ulcer management medicines, Omeprazole by Ivexia Pharma is suitable for international healthcare markets, pharmaceutical distributors, hospitals, clinics, and medicine supply partners looking for reliable gastrointestinal therapy products.",
+        "At LARKSOIS Pharma, Omeprazole is presented as an important product in the digestive health and gastroenterology segment.",
+        "With strong global demand for acid reflux and ulcer management medicines, Omeprazole by LARKSOIS Pharma is suitable for international healthcare markets, pharmaceutical distributors, hospitals, clinics, and medicine supply partners looking for reliable gastrointestinal therapy products.",
       ],
     },
 
@@ -1925,18 +1925,18 @@ export const en = {
       ],
     },
 
-    ivexia: {
-      title: "Omeprazole by Ivexia Pharma",
+    LARKSOIS: {
+      title: "Omeprazole by LARKSOIS Pharma",
       sections: [
-        "Omeprazole by Ivexia Pharma is positioned for global healthcare needs in the gastrointestinal treatment category.",
+        "Omeprazole by LARKSOIS Pharma is positioned for global healthcare needs in the gastrointestinal treatment category.",
         "As acid reflux, GERD, ulcer disease, and heartburn remain common digestive health concerns worldwide, Omeprazole continues to be one of the most recognized and trusted acid-reducing medicines.",
       ],
     },
 
     whyChoose: {
-      title: "Why Choose Ivexia Pharma for Omeprazole?",
+      title: "Why Choose LARKSOIS Pharma for Omeprazole?",
       description:
-        "Choosing Ivexia Pharma for Omeprazole means selecting a pharmaceutical partner focused on quality, reliability, and international healthcare requirements.",
+        "Choosing LARKSOIS Pharma for Omeprazole means selecting a pharmaceutical partner focused on quality, reliability, and international healthcare requirements.",
       advantages: [
         "Consistent product quality",
         "International market suitability",
@@ -1951,7 +1951,7 @@ export const en = {
       title: "Global Digestive Healthcare Support",
       sections: [
         "Omeprazole supports the management of acid reflux, GERD, ulcers, and other stomach acid-related conditions when used under medical supervision.",
-        "With global demand for digestive care medicines, Ivexia Pharma Omeprazole can be positioned as a dependable product for regulated and emerging pharmaceutical markets.",
+        "With global demand for digestive care medicines, LARKSOIS Pharma Omeprazole can be positioned as a dependable product for regulated and emerging pharmaceutical markets.",
         "Its strong therapeutic relevance, multiple dosage possibilities, and recognized role in acid suppression make Omeprazole an essential product in the gastrointestinal medicine portfolio.",
       ],
     },
@@ -2043,9 +2043,9 @@ export const en = {
 "montelukast-sodium": {
   meta: {
     title:
-      "Montelukast Sodium Tablets & Oral Formulations | Ivexia Pharma",
+      "Montelukast Sodium Tablets & Oral Formulations | LARKSOIS Pharma",
     description:
-      "Montelukast Sodium by Ivexia Pharma is a leukotriene receptor antagonist used in asthma prevention, allergic rhinitis, and exercise-induced bronchoconstriction management. Explore uses, dosage guidance, safety, and global-quality manufacturing.",
+      "Montelukast Sodium by LARKSOIS Pharma is a leukotriene receptor antagonist used in asthma prevention, allergic rhinitis, and exercise-induced bronchoconstriction management. Explore uses, dosage guidance, safety, and global-quality manufacturing.",
   },
 
   hero: {
@@ -2061,7 +2061,7 @@ export const en = {
         "Montelukast Sodium is a widely used pharmaceutical ingredient formulated for the management of asthma-related symptoms, allergic rhinitis, and exercise-induced bronchoconstriction.",
         "As a leukotriene receptor antagonist, Montelukast Sodium works by blocking leukotrienes, which are natural substances in the body that may contribute to airway inflammation, breathing difficulty, nasal congestion, sneezing, and allergy-related discomfort.",
         "MedlinePlus describes montelukast as an LTRA that blocks substances responsible for asthma and allergic rhinitis symptoms.",
-        "At Ivexia Pharma, Montelukast Sodium is positioned as a high-quality respiratory and anti-allergic medicine product for international healthcare markets.",
+        "At LARKSOIS Pharma, Montelukast Sodium is positioned as a high-quality respiratory and anti-allergic medicine product for international healthcare markets.",
         "Developed with a focus on quality, patient usability, and global pharmaceutical standards, Montelukast Sodium is suitable for use in multiple dosage forms, including tablets, chewable tablets, and oral granules, depending on market requirements and patient age groups.",
         "Mayo Clinic also lists montelukast availability in tablet, chewable tablet, and packet/granule forms.",
       ],
@@ -2125,7 +2125,7 @@ export const en = {
     dosageInfo: {
       title: "Dosage Guidance",
       sections: [
-        "The dosage of Montelukast Sodium depends on patient age, medical condition, strength, and doctor’s prescription.",
+        "The dosage of Montelukast Sodium depends on patient age, medical condition, strength, and doctorâ€™s prescription.",
         "The NHS states that common dosing includes 10 mg once daily for adults and children aged 15 years and above, 5 mg once daily for children aged 6 to 14 years, and 4 mg once daily for younger children depending on formulation and age.",
         "Most patients take Montelukast Sodium once daily, commonly in the evening for asthma or allergy prevention.",
         "For exercise-induced bronchoconstriction, a doctor may advise taking it before exercise.",
@@ -2206,18 +2206,18 @@ export const en = {
       ],
     },
 
-    ivexia: {
-      title: "Montelukast Sodium by Ivexia Pharma",
+    LARKSOIS: {
+      title: "Montelukast Sodium by LARKSOIS Pharma",
       sections: [
-        "Ivexia Pharma focuses on delivering globally reliable pharmaceutical products manufactured with attention to quality, consistency, and regulatory expectations.",
-        "Montelukast Sodium by Ivexia Pharma is developed for international markets where respiratory care, allergic rhinitis management, and patient-friendly formulations are in strong demand.",
+        "LARKSOIS Pharma focuses on delivering globally reliable pharmaceutical products manufactured with attention to quality, consistency, and regulatory expectations.",
+        "Montelukast Sodium by LARKSOIS Pharma is developed for international markets where respiratory care, allergic rhinitis management, and patient-friendly formulations are in strong demand.",
       ],
     },
 
     whyChoose: {
-      title: "Why Choose Ivexia Pharma for Montelukast Sodium?",
+      title: "Why Choose LARKSOIS Pharma for Montelukast Sodium?",
       description:
-        "Choosing Ivexia Pharma for Montelukast Sodium means working with a pharmaceutical partner focused on quality, international market needs, and long-term healthcare value.",
+        "Choosing LARKSOIS Pharma for Montelukast Sodium means working with a pharmaceutical partner focused on quality, international market needs, and long-term healthcare value.",
       advantages: [
         "International-quality sourcing and production",
         "Consistent formulation standards",
@@ -2233,7 +2233,7 @@ export const en = {
       sections: [
         "The product is suitable for markets requiring trusted asthma and allergy-support formulations with clear product positioning and medical relevance.",
         "Montelukast Sodium continues to be an important medicine in respiratory care because it supports asthma prevention, allergic rhinitis management, and exercise-induced breathing symptom control when used correctly.",
-        "With global demand for respiratory and allergy medicines increasing, Ivexia Pharma provides Montelukast Sodium as part of its commitment to accessible, reliable, and quality-focused pharmaceutical solutions.",
+        "With global demand for respiratory and allergy medicines increasing, LARKSOIS Pharma provides Montelukast Sodium as part of its commitment to accessible, reliable, and quality-focused pharmaceutical solutions.",
       ],
     },
   },
@@ -2324,9 +2324,9 @@ export const en = {
 "metformin-hydrochloride": {
   meta: {
     title:
-      "Metformin Hydrochloride Manufacturer & Supplier | Ivexia Pharma",
+      "Metformin Hydrochloride Manufacturer & Supplier | LARKSOIS Pharma",
     description:
-      "Discover high-quality Metformin Hydrochloride products by Ivexia Pharma. Learn about Metformin Hydrochloride uses, dosage, benefits, side effects, and international standards for diabetes management solutions.",
+      "Discover high-quality Metformin Hydrochloride products by LARKSOIS Pharma. Learn about Metformin Hydrochloride uses, dosage, benefits, side effects, and international standards for diabetes management solutions.",
   },
 
   hero: {
@@ -2341,7 +2341,7 @@ export const en = {
       sections: [
         "Metformin Hydrochloride is one of the most widely prescribed oral antidiabetic medications used globally for the management of type 2 diabetes mellitus.",
         "Because of its effectiveness in controlling blood sugar levels and improving insulin sensitivity, Metformin Hydrochloride remains an essential pharmaceutical product in international healthcare systems.",
-        "At Ivexia Pharma, we are committed to delivering high-quality pharmaceutical products that meet international healthcare standards and support better patient outcomes worldwide.",
+        "At LARKSOIS Pharma, we are committed to delivering high-quality pharmaceutical products that meet international healthcare standards and support better patient outcomes worldwide.",
         "Metformin Hydrochloride belongs to the biguanide class of medications and is commonly prescribed as a first-line treatment for type 2 diabetes.",
         "Healthcare professionals globally trust Metformin Hydrochloride because of its proven safety profile, long-term effectiveness, and important role in diabetes management programs.",
       ],
@@ -2351,7 +2351,7 @@ export const en = {
       title: "What is Metformin Hydrochloride?",
       sections: [
         "Metformin Hydrochloride is a prescription medication primarily used to control high blood sugar levels in patients with type 2 diabetes.",
-        "It helps improve the body’s response to insulin and reduces glucose production in the liver.",
+        "It helps improve the bodyâ€™s response to insulin and reduces glucose production in the liver.",
         "Metformin Hydrochloride may also help reduce sugar absorption in the intestines.",
       ],
     },
@@ -2367,10 +2367,10 @@ export const en = {
       ],
     },
 
-    ivexiaQuality: {
-      title: "Ivexia Pharma Quality Commitment",
+    LARKSOISQuality: {
+      title: "LARKSOIS Pharma Quality Commitment",
       sections: [
-        "At Ivexia Pharma, our Metformin Hydrochloride formulations are manufactured using advanced pharmaceutical technology and strict quality assurance systems to ensure international product quality, safety, and compliance.",
+        "At LARKSOIS Pharma, our Metformin Hydrochloride formulations are manufactured using advanced pharmaceutical technology and strict quality assurance systems to ensure international product quality, safety, and compliance.",
       ],
     },
 
@@ -2400,7 +2400,7 @@ export const en = {
       title: "Detailed Benefits",
       sections: [
         "Metformin Hydrochloride helps lower blood glucose levels and supports long-term diabetes management.",
-        "Metformin Hydrochloride enhances the body’s response to insulin, helping glucose enter cells more effectively.",
+        "Metformin Hydrochloride enhances the bodyâ€™s response to insulin, helping glucose enter cells more effectively.",
         "Healthcare professionals globally prescribe Metformin Hydrochloride because of its established clinical effectiveness and safety profile.",
         "Some patients using Metformin Hydrochloride may experience modest weight stabilization or weight reduction compared to other diabetes medications.",
         "Metformin Hydrochloride is commonly used as a long-term treatment option for managing type 2 diabetes and reducing diabetes-related complications.",
@@ -2499,7 +2499,7 @@ export const en = {
     },
 
     quality: {
-      title: "International Quality Standards at Ivexia Pharma",
+      title: "International Quality Standards at LARKSOIS Pharma",
       points: [
         "International pharmaceutical manufacturing standards",
         "High-quality active pharmaceutical ingredients",
@@ -2511,9 +2511,9 @@ export const en = {
     },
 
     whyChoose: {
-      title: "Why Choose Ivexia Pharma?",
+      title: "Why Choose LARKSOIS Pharma?",
       description:
-        "Ivexia Pharma focuses on delivering internationally trusted pharmaceutical products manufactured according to strict global quality standards and regulatory requirements.",
+        "LARKSOIS Pharma focuses on delivering internationally trusted pharmaceutical products manufactured according to strict global quality standards and regulatory requirements.",
       advantages: [
         "International pharmaceutical manufacturing standards",
         "High-quality active pharmaceutical ingredients",
@@ -2548,7 +2548,7 @@ export const en = {
         "Diabetes remains one of the most significant global healthcare challenges, affecting millions of people worldwide.",
         "Effective blood sugar control and long-term diabetes management are essential for reducing complications such as cardiovascular disease, kidney damage, and nerve disorders.",
         "Metformin Hydrochloride continues to play a major role in international diabetes care because of its effectiveness, accessibility, and long-established clinical use.",
-        "At Ivexia Pharma, we support global healthcare initiatives focused on improving diabetes awareness, patient care, and pharmaceutical innovation.",
+        "At LARKSOIS Pharma, we support global healthcare initiatives focused on improving diabetes awareness, patient care, and pharmaceutical innovation.",
       ],
     },
 
@@ -2557,8 +2557,8 @@ export const en = {
       sections: [
         "Metformin Hydrochloride remains one of the most trusted and widely prescribed medications for type 2 diabetes management worldwide.",
         "Its ability to improve blood sugar control, enhance insulin sensitivity, and support long-term diabetes care makes Metformin Hydrochloride an essential pharmaceutical product in international healthcare systems.",
-        "At Ivexia Pharma, we are dedicated to delivering premium-quality Metformin Hydrochloride formulations that meet international pharmaceutical standards.",
-        "Through innovation, strict quality assurance, and commitment to healthcare excellence, Ivexia Pharma continues to support better patient care across global markets.",
+        "At LARKSOIS Pharma, we are dedicated to delivering premium-quality Metformin Hydrochloride formulations that meet international pharmaceutical standards.",
+        "Through innovation, strict quality assurance, and commitment to healthcare excellence, LARKSOIS Pharma continues to support better patient care across global markets.",
         "Patients should always consult qualified healthcare professionals before using Metformin Hydrochloride and follow prescribed medical guidance for safe and effective treatment.",
       ],
     },
@@ -2568,7 +2568,7 @@ export const en = {
     {
       question: "What is metformin hydrochloride used for?",
       answer:
-        "Metformin hydrochloride is used to help control high blood sugar in people with type 2 diabetes. It works best with proper diet, exercise, and medical monitoring, and helps improve the body’s response to insulin.",
+        "Metformin hydrochloride is used to help control high blood sugar in people with type 2 diabetes. It works best with proper diet, exercise, and medical monitoring, and helps improve the bodyâ€™s response to insulin.",
     },
 
     {
@@ -2605,7 +2605,7 @@ export const en = {
         name: "What is metformin hydrochloride used for?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Metformin hydrochloride is used to help control high blood sugar in people with type 2 diabetes. It works best with proper diet, exercise, and medical monitoring, and helps improve the body’s response to insulin.",
+          text: "Metformin hydrochloride is used to help control high blood sugar in people with type 2 diabetes. It works best with proper diet, exercise, and medical monitoring, and helps improve the bodyâ€™s response to insulin.",
         },
       },
 
@@ -2650,9 +2650,9 @@ export const en = {
 "diclofenac-sodium": {
   meta: {
     title:
-      "Diclofenac Sodium Manufacturer & Supplier | Ivexia Pharma",
+      "Diclofenac Sodium Manufacturer & Supplier | LARKSOIS Pharma",
     description:
-      "Discover high-quality Diclofenac Sodium products by Ivexia Pharma. Learn about Diclofenac Sodium uses, dosage, benefits, side effects, and international pharmaceutical standards for pain and inflammation management.",
+      "Discover high-quality Diclofenac Sodium products by LARKSOIS Pharma. Learn about Diclofenac Sodium uses, dosage, benefits, side effects, and international pharmaceutical standards for pain and inflammation management.",
   },
 
   hero: {
@@ -2667,7 +2667,7 @@ export const en = {
       sections: [
         "Diclofenac Sodium is a widely prescribed nonsteroidal anti-inflammatory drug (NSAID) used globally for the treatment of pain, inflammation, and musculoskeletal conditions.",
         "Because of its proven effectiveness in reducing pain and swelling, Diclofenac Sodium remains an important medication in modern healthcare systems worldwide.",
-        "At Ivexia Pharma, we are committed to delivering high-quality pharmaceutical products that meet international healthcare standards and support better patient outcomes across global markets.",
+        "At LARKSOIS Pharma, we are committed to delivering high-quality pharmaceutical products that meet international healthcare standards and support better patient outcomes across global markets.",
         "Diclofenac Sodium is commonly prescribed for arthritis, joint pain, muscle pain, postoperative pain, and inflammatory conditions.",
         "Healthcare professionals internationally trust Diclofenac Sodium because of its reliable therapeutic performance, broad clinical applications, and established safety profile when used appropriately under medical supervision.",
       ],
@@ -2696,10 +2696,10 @@ export const en = {
       ],
     },
 
-    ivexiaQuality: {
-      title: "Ivexia Pharma Quality Commitment",
+    LARKSOISQuality: {
+      title: "LARKSOIS Pharma Quality Commitment",
       sections: [
-        "At Ivexia Pharma, our Diclofenac Sodium formulations are manufactured using advanced pharmaceutical technologies and strict quality assurance systems to ensure international product quality, safety, and regulatory compliance.",
+        "At LARKSOIS Pharma, our Diclofenac Sodium formulations are manufactured using advanced pharmaceutical technologies and strict quality assurance systems to ensure international product quality, safety, and regulatory compliance.",
       ],
     },
 
@@ -2802,7 +2802,7 @@ export const en = {
     },
 
     quality: {
-      title: "International Quality Standards at Ivexia Pharma",
+      title: "International Quality Standards at LARKSOIS Pharma",
       points: [
         "International pharmaceutical manufacturing standards",
         "High-quality active pharmaceutical ingredients",
@@ -2814,9 +2814,9 @@ export const en = {
     },
 
     whyChoose: {
-      title: "Why Choose Ivexia Pharma?",
+      title: "Why Choose LARKSOIS Pharma?",
       description:
-        "Ivexia Pharma focuses on delivering internationally trusted pharmaceutical products manufactured according to strict global quality standards and regulatory requirements.",
+        "LARKSOIS Pharma focuses on delivering internationally trusted pharmaceutical products manufactured according to strict global quality standards and regulatory requirements.",
       advantages: [
         "International pharmaceutical manufacturing standards",
         "High-quality active pharmaceutical ingredients",
@@ -2850,7 +2850,7 @@ export const en = {
       sections: [
         "Pain management remains an essential part of global healthcare systems, and Diclofenac Sodium continues to play an important role in improving patient quality of life.",
         "Responsible use of NSAIDs helps maximize therapeutic benefits while minimizing potential risks.",
-        "At Ivexia Pharma, we support responsible pharmaceutical practices and healthcare initiatives focused on patient safety, effective treatment, and improved healthcare outcomes worldwide.",
+        "At LARKSOIS Pharma, we support responsible pharmaceutical practices and healthcare initiatives focused on patient safety, effective treatment, and improved healthcare outcomes worldwide.",
       ],
     },
 
@@ -2859,8 +2859,8 @@ export const en = {
       sections: [
         "Diclofenac Sodium remains one of the most widely used NSAIDs in international healthcare because of its effectiveness in managing pain, inflammation, arthritis, and musculoskeletal conditions.",
         "Its broad therapeutic applications and established clinical profile make Diclofenac Sodium an important pharmaceutical product worldwide.",
-        "At Ivexia Pharma, we are dedicated to delivering premium-quality Diclofenac Sodium formulations that meet international pharmaceutical standards.",
-        "Through innovation, strict quality assurance, and commitment to healthcare excellence, Ivexia Pharma continues to support better patient care across global markets.",
+        "At LARKSOIS Pharma, we are dedicated to delivering premium-quality Diclofenac Sodium formulations that meet international pharmaceutical standards.",
+        "Through innovation, strict quality assurance, and commitment to healthcare excellence, LARKSOIS Pharma continues to support better patient care across global markets.",
         "Patients should always consult qualified healthcare professionals before using Diclofenac Sodium and follow prescribed medical guidance for safe and effective treatment.",
       ],
     },
@@ -2876,7 +2876,7 @@ export const en = {
     {
       question: "Is diclofenac 50 mg a strong painkiller?",
       answer:
-        "Diclofenac 50 mg is considered an effective anti-inflammatory pain medicine, but it is not an opioid or narcotic painkiller. Its strength depends on the patient’s condition, pain severity, and doctor’s prescription.",
+        "Diclofenac 50 mg is considered an effective anti-inflammatory pain medicine, but it is not an opioid or narcotic painkiller. Its strength depends on the patientâ€™s condition, pain severity, and doctorâ€™s prescription.",
     },
 
     {
@@ -2916,7 +2916,7 @@ export const en = {
         name: "Is diclofenac 50 mg a strong painkiller?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Diclofenac 50 mg is considered an effective anti-inflammatory pain medicine, but it is not an opioid or narcotic painkiller. Its strength depends on the patient’s condition, pain severity, and doctor’s prescription.",
+          text: "Diclofenac 50 mg is considered an effective anti-inflammatory pain medicine, but it is not an opioid or narcotic painkiller. Its strength depends on the patientâ€™s condition, pain severity, and doctorâ€™s prescription.",
         },
       },
 
@@ -2951,9 +2951,9 @@ export const en = {
 },
 "codeine-sulfate": {
   meta: {
-    title: "Codeine Sulfate Manufacturer & Supplier | Ivexia Pharma",
+    title: "Codeine Sulfate Manufacturer & Supplier | LARKSOIS Pharma",
     description:
-      "Discover high-quality Codeine Sulfate products by Ivexia Pharma. Learn about Codeine Sulfate uses, dosage, benefits, side effects, and international pharmaceutical standards for pain management solutions.",
+      "Discover high-quality Codeine Sulfate products by LARKSOIS Pharma. Learn about Codeine Sulfate uses, dosage, benefits, side effects, and international pharmaceutical standards for pain management solutions.",
   },
 
   hero: {
@@ -2968,7 +2968,7 @@ export const en = {
       sections: [
         "Codeine Sulfate is a prescription opioid analgesic widely used for the management of mild to moderate pain.",
         "As a globally recognized pharmaceutical ingredient, Codeine Sulfate plays an important role in pain management therapies across international healthcare systems.",
-        "At Ivexia Pharma, we are committed to delivering high-quality pharmaceutical products manufactured according to international healthcare and regulatory standards.",
+        "At LARKSOIS Pharma, we are committed to delivering high-quality pharmaceutical products manufactured according to international healthcare and regulatory standards.",
         "Codeine Sulfate belongs to the opioid analgesic class of medications and works by acting on the central nervous system to reduce pain perception.",
         "Healthcare professionals worldwide prescribe Codeine Sulfate for patients who require effective pain relief when alternative non-opioid treatments are not sufficient.",
         "Because of its established clinical use and therapeutic effectiveness, Codeine Sulfate remains an important medication in modern pain management practices.",
@@ -2994,10 +2994,10 @@ export const en = {
       ],
     },
 
-    ivexiaQuality: {
-      title: "Ivexia Pharma Quality Commitment",
+    LARKSOISQuality: {
+      title: "LARKSOIS Pharma Quality Commitment",
       sections: [
-        "At Ivexia Pharma, our Codeine Sulfate formulations are manufactured using advanced pharmaceutical technologies and strict quality assurance systems to ensure product safety, consistency, and international regulatory compliance.",
+        "At LARKSOIS Pharma, our Codeine Sulfate formulations are manufactured using advanced pharmaceutical technologies and strict quality assurance systems to ensure product safety, consistency, and international regulatory compliance.",
       ],
     },
 
@@ -3112,15 +3112,15 @@ export const en = {
       ],
     },
 
-    ivexiaCommitment: {
-      title: "Ivexia Pharma Commitment",
+    LARKSOISCommitment: {
+      title: "LARKSOIS Pharma Commitment",
       sections: [
-        "At Ivexia Pharma, we support responsible pharmaceutical practices and global healthcare initiatives focused on safe opioid use and patient education.",
+        "At LARKSOIS Pharma, we support responsible pharmaceutical practices and global healthcare initiatives focused on safe opioid use and patient education.",
       ],
     },
 
     quality: {
-      title: "International Quality Standards at Ivexia Pharma",
+      title: "International Quality Standards at LARKSOIS Pharma",
       points: [
         "International pharmaceutical manufacturing standards",
         "High-quality pharmaceutical ingredients",
@@ -3132,9 +3132,9 @@ export const en = {
     },
 
     whyChoose: {
-      title: "Why Choose Ivexia Pharma?",
+      title: "Why Choose LARKSOIS Pharma?",
       description:
-        "Ivexia Pharma focuses on delivering internationally trusted pharmaceutical products manufactured according to strict quality standards and healthcare regulations.",
+        "LARKSOIS Pharma focuses on delivering internationally trusted pharmaceutical products manufactured according to strict quality standards and healthcare regulations.",
       advantages: [
         "International pharmaceutical manufacturing standards",
         "High-quality pharmaceutical ingredients",
@@ -3169,8 +3169,8 @@ export const en = {
       sections: [
         "Codeine Sulfate remains an important medication in global pain management because of its effectiveness in relieving mild to moderate pain.",
         "Its established clinical use and therapeutic benefits make Codeine Sulfate a recognized pharmaceutical solution within international healthcare systems.",
-        "At Ivexia Pharma, we are dedicated to delivering premium-quality Codeine Sulfate formulations that meet international pharmaceutical standards.",
-        "Through innovation, strict quality control, and commitment to healthcare excellence, Ivexia Pharma continues to support better patient care across global markets.",
+        "At LARKSOIS Pharma, we are dedicated to delivering premium-quality Codeine Sulfate formulations that meet international pharmaceutical standards.",
+        "Through innovation, strict quality control, and commitment to healthcare excellence, LARKSOIS Pharma continues to support better patient care across global markets.",
         "Patients should always consult qualified healthcare professionals before using Codeine Sulfate and follow prescribed medical guidance for safe and effective treatment.",
       ],
     },
@@ -3186,7 +3186,7 @@ export const en = {
     {
       question: "What is the difference between codeine and codeine sulfate?",
       answer:
-        "Codeine is the active opioid ingredient, while codeine sulfate is a salt form of codeine used to make the medicine stable and suitable for tablet formulation. Both provide codeine’s opioid pain-relieving effect when prescribed correctly.",
+        "Codeine is the active opioid ingredient, while codeine sulfate is a salt form of codeine used to make the medicine stable and suitable for tablet formulation. Both provide codeineâ€™s opioid pain-relieving effect when prescribed correctly.",
     },
 
     {
@@ -3226,7 +3226,7 @@ export const en = {
         name: "What is the difference between codeine and codeine sulfate?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Codeine is the active opioid ingredient, while codeine sulfate is a salt form of codeine used to make the medicine stable and suitable for tablet formulation. Both provide codeine’s opioid pain-relieving effect when prescribed correctly.",
+          text: "Codeine is the active opioid ingredient, while codeine sulfate is a salt form of codeine used to make the medicine stable and suitable for tablet formulation. Both provide codeineâ€™s opioid pain-relieving effect when prescribed correctly.",
         },
       },
 
@@ -3261,9 +3261,9 @@ export const en = {
 },
 "clarithromycin": {
   meta: {
-    title: "Clarithromycin Antibiotic Manufacturer & Supplier | Ivexia Pharma",
+    title: "Clarithromycin Antibiotic Manufacturer & Supplier | LARKSOIS Pharma",
     description:
-      "Discover high-quality Clarithromycin antibiotic products by Ivexia Pharma. Learn about Clarithromycin uses, dosage, benefits, side effects, and international pharmaceutical standards for bacterial infection treatment.",
+      "Discover high-quality Clarithromycin antibiotic products by LARKSOIS Pharma. Learn about Clarithromycin uses, dosage, benefits, side effects, and international pharmaceutical standards for bacterial infection treatment.",
   },
 
   hero: {
@@ -3278,7 +3278,7 @@ export const en = {
       sections: [
         "Clarithromycin is a widely prescribed macrolide antibiotic used globally for the treatment of various bacterial infections.",
         "Known for its broad-spectrum antibacterial activity and reliable therapeutic effectiveness, Clarithromycin plays a significant role in modern healthcare systems worldwide.",
-        "At Ivexia Pharma, we are committed to delivering high-quality pharmaceutical products that meet international healthcare standards and support better patient outcomes across global markets.",
+        "At LARKSOIS Pharma, we are committed to delivering high-quality pharmaceutical products that meet international healthcare standards and support better patient outcomes across global markets.",
         "Clarithromycin is commonly prescribed for respiratory tract infections, skin infections, throat infections, sinus infections, and Helicobacter pylori (H. pylori) infections.",
         "Healthcare professionals worldwide trust Clarithromycin because of its proven effectiveness, convenient dosage forms, and strong safety profile when used under medical supervision.",
       ],
@@ -3308,10 +3308,10 @@ export const en = {
       ],
     },
 
-    ivexiaQuality: {
-      title: "Ivexia Pharma Quality Commitment",
+    LARKSOISQuality: {
+      title: "LARKSOIS Pharma Quality Commitment",
       sections: [
-        "At Ivexia Pharma, our Clarithromycin products are manufactured using advanced pharmaceutical technologies and strict quality assurance systems to ensure international product quality, safety, and compliance.",
+        "At LARKSOIS Pharma, our Clarithromycin products are manufactured using advanced pharmaceutical technologies and strict quality assurance systems to ensure international product quality, safety, and compliance.",
       ],
     },
 
@@ -3408,7 +3408,7 @@ export const en = {
     },
 
     quality: {
-      title: "International Quality Standards at Ivexia Pharma",
+      title: "International Quality Standards at LARKSOIS Pharma",
       points: [
         "International pharmaceutical manufacturing standards",
         "High-quality active pharmaceutical ingredients",
@@ -3420,9 +3420,9 @@ export const en = {
     },
 
     whyChoose: {
-      title: "Why Choose Ivexia Pharma?",
+      title: "Why Choose LARKSOIS Pharma?",
       description:
-        "Ivexia Pharma focuses on delivering internationally trusted pharmaceutical products manufactured according to strict global quality standards and regulatory requirements.",
+        "LARKSOIS Pharma focuses on delivering internationally trusted pharmaceutical products manufactured according to strict global quality standards and regulatory requirements.",
       advantages: [
         "International pharmaceutical manufacturing standards",
         "High-quality active pharmaceutical ingredients",
@@ -3456,7 +3456,7 @@ export const en = {
       sections: [
         "Responsible antibiotic use is essential for reducing antimicrobial resistance and maintaining the effectiveness of Clarithromycin therapies worldwide.",
         "Antibiotics should only be used when prescribed by qualified healthcare professionals for confirmed bacterial infections.",
-        "At Ivexia Pharma, we support responsible pharmaceutical practices and international healthcare initiatives focused on improving patient safety and antibiotic stewardship.",
+        "At LARKSOIS Pharma, we support responsible pharmaceutical practices and international healthcare initiatives focused on improving patient safety and antibiotic stewardship.",
       ],
     },
 
@@ -3465,8 +3465,8 @@ export const en = {
       sections: [
         "Clarithromycin remains one of the most trusted antibiotics in international healthcare because of its broad-spectrum antibacterial activity, reliable effectiveness, and convenient dosage options.",
         "Its important role in treating respiratory infections, skin infections, sinus infections, and H. pylori infections makes Clarithromycin an essential pharmaceutical product worldwide.",
-        "At Ivexia Pharma, we are dedicated to delivering premium-quality Clarithromycin formulations that meet international pharmaceutical standards.",
-        "Through innovation, strict quality assurance, and commitment to healthcare excellence, Ivexia Pharma continues to support better patient care across global markets.",
+        "At LARKSOIS Pharma, we are dedicated to delivering premium-quality Clarithromycin formulations that meet international pharmaceutical standards.",
+        "Through innovation, strict quality assurance, and commitment to healthcare excellence, LARKSOIS Pharma continues to support better patient care across global markets.",
         "Patients should always consult qualified healthcare professionals before using Clarithromycin and follow prescribed medical guidance for safe and effective treatment.",
       ],
     },
@@ -3557,9 +3557,9 @@ export const en = {
 },
 "azithromycin": {
   meta: {
-    title: "Azithromycin Antibiotic Manufacturer & Supplier | Ivexia Pharma",
+    title: "Azithromycin Antibiotic Manufacturer & Supplier | LARKSOIS Pharma",
     description:
-      "Discover high-quality Azithromycin antibiotic products by Ivexia Pharma. Learn about Azithromycin uses, dosage, benefits, side effects, and international pharmaceutical standards for bacterial infection treatment.",
+      "Discover high-quality Azithromycin antibiotic products by LARKSOIS Pharma. Learn about Azithromycin uses, dosage, benefits, side effects, and international pharmaceutical standards for bacterial infection treatment.",
   },
 
   hero: {
@@ -3574,7 +3574,7 @@ export const en = {
       sections: [
         "Azithromycin is a widely prescribed antibiotic used globally for the treatment of various bacterial infections.",
         "Known for its broad-spectrum antibacterial activity and convenient dosing schedule, Azithromycin plays an important role in modern healthcare systems worldwide.",
-        "At Ivexia Pharma, we are committed to delivering high-quality pharmaceutical products that meet international healthcare standards and support better patient outcomes across global markets.",
+        "At LARKSOIS Pharma, we are committed to delivering high-quality pharmaceutical products that meet international healthcare standards and support better patient outcomes across global markets.",
         "Azithromycin belongs to the macrolide class of antibiotics and works by stopping the growth of bacteria.",
         "Healthcare professionals worldwide prescribe Azithromycin for respiratory infections, skin infections, ear infections, sexually transmitted infections, and several other bacterial conditions.",
         "Because of its effectiveness and shorter treatment duration, Azithromycin remains one of the most trusted antibiotics in international healthcare.",
@@ -3605,10 +3605,10 @@ export const en = {
       ],
     },
 
-    ivexiaQuality: {
-      title: "Ivexia Pharma Quality Commitment",
+    LARKSOISQuality: {
+      title: "LARKSOIS Pharma Quality Commitment",
       sections: [
-        "At Ivexia Pharma, our Azithromycin formulations are manufactured using advanced pharmaceutical technology and strict quality assurance procedures to ensure safety, consistency, and international regulatory compliance.",
+        "At LARKSOIS Pharma, our Azithromycin formulations are manufactured using advanced pharmaceutical technology and strict quality assurance procedures to ensure safety, consistency, and international regulatory compliance.",
       ],
     },
 
@@ -3704,7 +3704,7 @@ export const en = {
     },
 
     quality: {
-      title: "International Quality Standards at Ivexia Pharma",
+      title: "International Quality Standards at LARKSOIS Pharma",
       points: [
         "International pharmaceutical manufacturing standards",
         "High-quality active pharmaceutical ingredients",
@@ -3716,9 +3716,9 @@ export const en = {
     },
 
     whyChoose: {
-      title: "Why Choose Ivexia Pharma?",
+      title: "Why Choose LARKSOIS Pharma?",
       description:
-        "At Ivexia Pharma, we focus on delivering internationally trusted pharmaceutical products manufactured according to strict quality standards and regulatory requirements.",
+        "At LARKSOIS Pharma, we focus on delivering internationally trusted pharmaceutical products manufactured according to strict quality standards and regulatory requirements.",
       advantages: [
         "International pharmaceutical manufacturing standards",
         "High-quality active pharmaceutical ingredients",
@@ -3753,7 +3753,7 @@ export const en = {
         "Responsible use of Azithromycin is important for maintaining antibiotic effectiveness worldwide.",
         "Antibiotics should only be used when prescribed by qualified healthcare professionals for confirmed bacterial infections.",
         "Global healthcare organizations continue to promote antibiotic stewardship programs to reduce unnecessary antibiotic use and minimize the development of resistant bacterial strains.",
-        "At Ivexia Pharma, we support responsible pharmaceutical practices and global healthcare initiatives aimed at improving patient safety and antimicrobial stewardship.",
+        "At LARKSOIS Pharma, we support responsible pharmaceutical practices and global healthcare initiatives aimed at improving patient safety and antimicrobial stewardship.",
       ],
     },
 
@@ -3762,8 +3762,8 @@ export const en = {
       sections: [
         "Azithromycin remains one of the most widely used antibiotics in international healthcare because of its broad-spectrum antibacterial activity, convenient dosing schedule, and proven effectiveness.",
         "Its role in treating respiratory infections, skin infections, ear infections, and other bacterial conditions makes Azithromycin an essential pharmaceutical product worldwide.",
-        "At Ivexia Pharma, we are dedicated to delivering premium-quality Azithromycin formulations that meet international pharmaceutical standards.",
-        "Through innovation, quality assurance, and commitment to healthcare excellence, Ivexia Pharma continues to support better patient care across global markets.",
+        "At LARKSOIS Pharma, we are dedicated to delivering premium-quality Azithromycin formulations that meet international pharmaceutical standards.",
+        "Through innovation, quality assurance, and commitment to healthcare excellence, LARKSOIS Pharma continues to support better patient care across global markets.",
         "Patients should always consult qualified healthcare professionals before using Azithromycin and follow prescribed medical guidance for safe and effective treatment.",
       ],
     },
@@ -3855,9 +3855,9 @@ export const en = {
 "atorvastatin-calcium": {
   meta: {
     title:
-      "Atorvastatin Calcium Manufacturer & Supplier | Ivexia Pharma",
+      "Atorvastatin Calcium Manufacturer & Supplier | LARKSOIS Pharma",
     description:
-      "Discover high-quality Atorvastatin Calcium products by Ivexia Pharma. Learn about uses, dosage, benefits, side effects, and cholesterol management solutions for global cardiovascular healthcare.",
+      "Discover high-quality Atorvastatin Calcium products by LARKSOIS Pharma. Learn about uses, dosage, benefits, side effects, and cholesterol management solutions for global cardiovascular healthcare.",
   },
 
   hero: {
@@ -3872,7 +3872,7 @@ export const en = {
       sections: [
         "Atorvastatin Calcium is a globally trusted cholesterol-lowering medication widely prescribed for the prevention and management of cardiovascular diseases.",
         "It belongs to a class of medicines known as statins, which help reduce bad cholesterol levels and improve heart health.",
-        "At Ivexia Pharma, we are committed to delivering high-quality pharmaceutical products that meet international healthcare standards and support better patient outcomes worldwide.",
+        "At LARKSOIS Pharma, we are committed to delivering high-quality pharmaceutical products that meet international healthcare standards and support better patient outcomes worldwide.",
         "Atorvastatin Calcium is commonly used to lower low-density lipoprotein (LDL) cholesterol and triglycerides while increasing high-density lipoprotein (HDL) cholesterol, also known as good cholesterol.",
         "Healthcare professionals across international markets rely on Atorvastatin Calcium because of its proven effectiveness in reducing the risk of heart attack, stroke, and other cardiovascular complications.",
       ],
@@ -3899,10 +3899,10 @@ export const en = {
       ],
     },
 
-    ivexiaQuality: {
-      title: "Ivexia Pharma Quality Commitment",
+    LARKSOISQuality: {
+      title: "LARKSOIS Pharma Quality Commitment",
       sections: [
-        "At Ivexia Pharma, our Atorvastatin Calcium products are manufactured using advanced pharmaceutical technology and strict quality assurance processes to ensure international product reliability and safety.",
+        "At LARKSOIS Pharma, our Atorvastatin Calcium products are manufactured using advanced pharmaceutical technology and strict quality assurance processes to ensure international product reliability and safety.",
       ],
     },
 
@@ -3997,7 +3997,7 @@ export const en = {
     },
 
     quality: {
-      title: "International Quality Standards at Ivexia Pharma",
+      title: "International Quality Standards at LARKSOIS Pharma",
       points: [
         "International pharmaceutical manufacturing standards",
         "High-quality active pharmaceutical ingredients",
@@ -4009,9 +4009,9 @@ export const en = {
     },
 
     whyChoose: {
-      title: "Why Choose Ivexia Pharma?",
+      title: "Why Choose LARKSOIS Pharma?",
       description:
-        "Ivexia Pharma continues to support healthcare professionals, distributors, and pharmaceutical partners worldwide with reliable cardiovascular treatment solutions.",
+        "LARKSOIS Pharma continues to support healthcare professionals, distributors, and pharmaceutical partners worldwide with reliable cardiovascular treatment solutions.",
       advantages: [
         "International pharmaceutical manufacturing standards",
         "High-quality active pharmaceutical ingredients",
@@ -4064,8 +4064,8 @@ export const en = {
       sections: [
         "Atorvastatin Calcium remains one of the most widely prescribed cholesterol-lowering medications in global healthcare.",
         "Its ability to effectively manage cholesterol levels and reduce cardiovascular risk makes Atorvastatin Calcium an essential treatment option worldwide.",
-        "At Ivexia Pharma, we are dedicated to providing premium-quality Atorvastatin Calcium formulations that meet international pharmaceutical standards.",
-        "Through innovation, strict quality control, and commitment to healthcare excellence, Ivexia Pharma continues to support better cardiovascular care across international markets.",
+        "At LARKSOIS Pharma, we are dedicated to providing premium-quality Atorvastatin Calcium formulations that meet international pharmaceutical standards.",
+        "Through innovation, strict quality control, and commitment to healthcare excellence, LARKSOIS Pharma continues to support better cardiovascular care across international markets.",
         "Patients should always consult qualified healthcare professionals before starting Atorvastatin Calcium treatment and follow prescribed medical guidance for safe and effective use.",
       ],
     },
@@ -4157,9 +4157,9 @@ export const en = {
 "amoxicillin": {
   meta: {
     title:
-      "Amoxicillin Antibiotic Manufacturer & Supplier | Ivexia Pharma",
+      "Amoxicillin Antibiotic Manufacturer & Supplier | LARKSOIS Pharma",
     description:
-      "Explore high-quality Amoxicillin antibiotic products by Ivexia Pharma. Learn about Amoxicillin uses, dosage, benefits, side effects, and international pharmaceutical standards for bacterial infection treatment.",
+      "Explore high-quality Amoxicillin antibiotic products by LARKSOIS Pharma. Learn about Amoxicillin uses, dosage, benefits, side effects, and international pharmaceutical standards for bacterial infection treatment.",
   },
 
   hero: {
@@ -4174,7 +4174,7 @@ export const en = {
       sections: [
         "Amoxicillin is one of the most widely used antibiotics in the global healthcare industry.",
         "It is commonly prescribed for the treatment of various bacterial infections affecting the respiratory tract, urinary tract, skin, ears, nose, throat, and other parts of the body.",
-        "At Ivexia Pharma, we are committed to delivering high-quality pharmaceutical products that meet international healthcare standards and support better patient outcomes worldwide.",
+        "At LARKSOIS Pharma, we are committed to delivering high-quality pharmaceutical products that meet international healthcare standards and support better patient outcomes worldwide.",
         "Amoxicillin belongs to the penicillin class of antibiotics and works by stopping the growth of harmful bacteria.",
         "Because of its proven effectiveness, safety profile, and broad-spectrum antibacterial activity, Amoxicillin remains a trusted medication used by healthcare professionals across international markets.",
       ],
@@ -4204,10 +4204,10 @@ export const en = {
       ],
     },
 
-    ivexiaQuality: {
-      title: "Ivexia Pharma Quality Commitment",
+    LARKSOISQuality: {
+      title: "LARKSOIS Pharma Quality Commitment",
       sections: [
-        "At Ivexia Pharma, our Amoxicillin formulations are manufactured with strict quality control processes to ensure international pharmaceutical compliance, product consistency, and patient safety.",
+        "At LARKSOIS Pharma, our Amoxicillin formulations are manufactured with strict quality control processes to ensure international pharmaceutical compliance, product consistency, and patient safety.",
       ],
     },
 
@@ -4317,12 +4317,12 @@ export const en = {
         "Responsible antibiotic use is extremely important in global healthcare.",
         "Amoxicillin should only be used for confirmed bacterial infections and according to medical advice.",
         "Overuse or misuse of antibiotics may contribute to antibiotic resistance, which is a growing international health concern.",
-        "At Ivexia Pharma, we support responsible antibiotic stewardship and promote safe pharmaceutical practices worldwide.",
+        "At LARKSOIS Pharma, we support responsible antibiotic stewardship and promote safe pharmaceutical practices worldwide.",
       ],
     },
 
     quality: {
-      title: "International Quality Standards at Ivexia Pharma",
+      title: "International Quality Standards at LARKSOIS Pharma",
       points: [
         "International manufacturing standards",
         "High-quality pharmaceutical ingredients",
@@ -4334,9 +4334,9 @@ export const en = {
     },
 
     whyChoose: {
-      title: "Why Choose Ivexia Pharma?",
+      title: "Why Choose LARKSOIS Pharma?",
       description:
-        "Ivexia Pharma focuses on delivering internationally trusted pharmaceutical products with consistent quality and regulatory compliance.",
+        "LARKSOIS Pharma focuses on delivering internationally trusted pharmaceutical products with consistent quality and regulatory compliance.",
       advantages: [
         "International manufacturing standards",
         "High-quality pharmaceutical ingredients",
@@ -4377,8 +4377,8 @@ export const en = {
       sections: [
         "Amoxicillin remains one of the most trusted and widely prescribed antibiotics in international healthcare.",
         "Its effectiveness against a broad range of bacterial infections, combined with its well-established safety profile, makes Amoxicillin an essential pharmaceutical product worldwide.",
-        "At Ivexia Pharma, we are dedicated to delivering premium-quality Amoxicillin formulations that meet global pharmaceutical standards.",
-        "Through innovation, quality assurance, and commitment to healthcare excellence, Ivexia Pharma continues to support better patient care across international markets.",
+        "At LARKSOIS Pharma, we are dedicated to delivering premium-quality Amoxicillin formulations that meet global pharmaceutical standards.",
+        "Through innovation, quality assurance, and commitment to healthcare excellence, LARKSOIS Pharma continues to support better patient care across international markets.",
         "For safe and effective use of Amoxicillin, patients should always consult qualified healthcare professionals and follow prescribed treatment guidelines.",
       ],
     },
@@ -4470,15 +4470,15 @@ export const en = {
 "amlodipine-besylate": {
   meta: {
     title:
-      "Amlodipine Besylate Tablets Manufacturer & Supplier | Ivexia Pharma",
+      "Amlodipine Besylate Tablets Manufacturer & Supplier | LARKSOIS Pharma",
     description:
-      "Discover high-quality Amlodipine Besylate tablets by Ivexia Pharma. Learn about uses, dosage, benefits, side effects, and treatment for hypertension and heart-related conditions.",
+      "Discover high-quality Amlodipine Besylate tablets by LARKSOIS Pharma. Learn about uses, dosage, benefits, side effects, and treatment for hypertension and heart-related conditions.",
   },
 
   hero: {
     title: "Amlodipine Besylate",
     description:
-      "Amlodipine Besylate is a widely prescribed medication used for the treatment of high blood pressure and chest pain related to heart disease. At Ivexia Pharma, we focus on delivering high-quality pharmaceutical products that support better cardiovascular health and patient well-being.",
+      "Amlodipine Besylate is a widely prescribed medication used for the treatment of high blood pressure and chest pain related to heart disease. At LARKSOIS Pharma, we focus on delivering high-quality pharmaceutical products that support better cardiovascular health and patient well-being.",
   },
 
   content: {
@@ -4486,7 +4486,7 @@ export const en = {
       title: "Introduction to Amlodipine Besylate",
       sections: [
         "Amlodipine is a widely prescribed medication used for the treatment of high blood pressure and chest pain related to heart disease.",
-        "At Ivexia Pharma, we focus on delivering high-quality pharmaceutical products that support better cardiovascular health and patient well-being.",
+        "At LARKSOIS Pharma, we focus on delivering high-quality pharmaceutical products that support better cardiovascular health and patient well-being.",
         "Amlodipine Besylate belongs to a class of medicines known as calcium channel blockers, which help relax blood vessels and improve blood flow throughout the body.",
         "Amlodipine Besylate is commonly recommended by healthcare professionals for managing hypertension, angina, and certain coronary artery conditions.",
         "When used as prescribed, Amlodipine Besylate can help reduce the risk of heart attacks, strokes, and other cardiovascular complications.",
@@ -4499,7 +4499,7 @@ export const en = {
         "Amlodipine Besylate is an oral prescription medication primarily used to control high blood pressure (hypertension).",
         "It works by relaxing the blood vessels, allowing blood to flow more easily and reducing the workload on the heart.",
         "Because of its long-lasting action, Amlodipine Besylate is often taken once daily.",
-        "Ivexia Pharma offers premium-quality Amlodipine Besylate formulations manufactured under strict pharmaceutical standards to ensure safety, effectiveness, and consistency.",
+        "LARKSOIS Pharma offers premium-quality Amlodipine Besylate formulations manufactured under strict pharmaceutical standards to ensure safety, effectiveness, and consistency.",
       ],
     },
 
@@ -4545,7 +4545,7 @@ export const en = {
     dosage: {
       title: "Recommended Dosage of Amlodipine Besylate",
       sections: [
-        "The dosage of Amlodipine Besylate depends on the patient’s medical condition, age, and response to treatment.",
+        "The dosage of Amlodipine Besylate depends on the patientâ€™s medical condition, age, and response to treatment.",
         "Doctors usually prescribe the most appropriate dosage according to individual patient needs.",
       ],
     },
@@ -4562,7 +4562,7 @@ export const en = {
     dosageGuidance: {
       title: "Dosage Guidance",
       sections: [
-        "Patients should always follow their healthcare provider’s instructions regarding dosage and administration.",
+        "Patients should always follow their healthcare providerâ€™s instructions regarding dosage and administration.",
         "Amlodipine Besylate should be taken regularly at the same time each day for the best results.",
         "Do not stop taking Amlodipine Besylate suddenly without medical advice, as it may worsen blood pressure or heart conditions.",
       ],
@@ -4625,9 +4625,9 @@ export const en = {
     },
 
     whyChoose: {
-      title: "Why Choose Ivexia Pharma for Amlodipine Besylate?",
+      title: "Why Choose LARKSOIS Pharma for Amlodipine Besylate?",
       description:
-        "Ivexia Pharma is committed to delivering reliable and high-quality pharmaceutical products that meet international manufacturing standards.",
+        "LARKSOIS Pharma is committed to delivering reliable and high-quality pharmaceutical products that meet international manufacturing standards.",
       advantages: [
         "Product quality",
         "Patient safety",
@@ -4637,10 +4637,10 @@ export const en = {
       ],
     },
 
-    ivexiaMission: {
-      title: "Ivexia Pharma Commitment",
+    LARKSOISMission: {
+      title: "LARKSOIS Pharma Commitment",
       sections: [
-        "At Ivexia Pharma, we understand the importance of cardiovascular care and strive to provide trusted healthcare solutions that support healthier lives worldwide.",
+        "At LARKSOIS Pharma, we understand the importance of cardiovascular care and strive to provide trusted healthcare solutions that support healthier lives worldwide.",
       ],
     },
 
@@ -4666,8 +4666,8 @@ export const en = {
       sections: [
         "Amlodipine Besylate is a trusted and effective medication for managing hypertension, angina, and cardiovascular health conditions.",
         "Its ability to relax blood vessels and improve blood circulation makes it an essential treatment option for millions of patients worldwide.",
-        "Ivexia Pharma proudly provides high-quality Amlodipine Besylate formulations designed to support patient health, safety, and treatment success.",
-        "With a commitment to pharmaceutical excellence and healthcare innovation, Ivexia Pharma continues to deliver dependable cardiovascular solutions for global healthcare needs.",
+        "LARKSOIS Pharma proudly provides high-quality Amlodipine Besylate formulations designed to support patient health, safety, and treatment success.",
+        "With a commitment to pharmaceutical excellence and healthcare innovation, LARKSOIS Pharma continues to deliver dependable cardiovascular solutions for global healthcare needs.",
         "For safe and effective use of Amlodipine Besylate, always consult a qualified healthcare professional before starting treatment.",
       ],
     },
@@ -4701,9 +4701,9 @@ export const en = {
 
     {
       question:
-        "Why choose Ivexia Pharma for Amlodipine Besylate?",
+        "Why choose LARKSOIS Pharma for Amlodipine Besylate?",
       answer:
-        "Ivexia Pharma provides high-quality Amlodipine Besylate formulations manufactured under strict pharmaceutical standards. The company focuses on product quality, safety, effectiveness, and reliable healthcare solutions.",
+        "LARKSOIS Pharma provides high-quality Amlodipine Besylate formulations manufactured under strict pharmaceutical standards. The company focuses on product quality, safety, effectiveness, and reliable healthcare solutions.",
     },
   ],
 
@@ -4751,10 +4751,10 @@ export const en = {
       {
         "@type": "Question",
         name:
-          "Why choose Ivexia Pharma for Amlodipine Besylate?",
+          "Why choose LARKSOIS Pharma for Amlodipine Besylate?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Ivexia Pharma provides high-quality Amlodipine Besylate formulations manufactured under strict pharmaceutical standards. The company focuses on product quality, safety, effectiveness, and reliable healthcare solutions.",
+          text: "LARKSOIS Pharma provides high-quality Amlodipine Besylate formulations manufactured under strict pharmaceutical standards. The company focuses on product quality, safety, effectiveness, and reliable healthcare solutions.",
         },
       },
     ],
@@ -4763,23 +4763,23 @@ export const en = {
 "amiodarone-hydrochloride": {
   meta: {
     title:
-      "Amiodarone Hydrochloride CAS 19774-82-4 – Antiarrhythmic Cardiac Medicine | Ivexia Pharma",
+      "Amiodarone Hydrochloride CAS 19774-82-4 â€“ Antiarrhythmic Cardiac Medicine | LARKSOIS Pharma",
 
     description:
-      "Amiodarone Hydrochloride by Ivexia Pharma is an antiarrhythmic medicine used for serious heart rhythm disorders. Learn uses, dosage guidance, storage, side effects, precautions, CAS 19774-82-4, and global manufacturing information.",
+      "Amiodarone Hydrochloride by LARKSOIS Pharma is an antiarrhythmic medicine used for serious heart rhythm disorders. Learn uses, dosage guidance, storage, side effects, precautions, CAS 19774-82-4, and global manufacturing information.",
   },
 
   hero: {
     title: "Amiodarone Hydrochloride",
 
     description:
-      "Amiodarone Hydrochloride by Ivexia Pharma is a specialized antiarrhythmic pharmaceutical ingredient used in the management of serious heart rhythm disorders under professional medical supervision. With CAS Number 19774-82-4, Amiodarone Hydrochloride is recognized for its role in controlling life-threatening ventricular arrhythmias where other therapies may not be suitable or effective. Ivexia Pharma focuses on quality-driven manufacturing, reliable sourcing, and international pharmaceutical standards to support healthcare systems, distributors, and regulated pharmaceutical markets.",
+      "Amiodarone Hydrochloride by LARKSOIS Pharma is a specialized antiarrhythmic pharmaceutical ingredient used in the management of serious heart rhythm disorders under professional medical supervision. With CAS Number 19774-82-4, Amiodarone Hydrochloride is recognized for its role in controlling life-threatening ventricular arrhythmias where other therapies may not be suitable or effective. LARKSOIS Pharma focuses on quality-driven manufacturing, reliable sourcing, and international pharmaceutical standards to support healthcare systems, distributors, and regulated pharmaceutical markets.",
   },
 
   content: {
     introduction: {
       title:
-        "Amiodarone Hydrochloride CAS 19774-82-4 – Complete Product Information",
+        "Amiodarone Hydrochloride CAS 19774-82-4 â€“ Complete Product Information",
 
       sections: [
         "Amiodarone Hydrochloride is a cardiac antiarrhythmic medicine mainly used for serious rhythm disturbances of the heart.",
@@ -4794,7 +4794,7 @@ export const en = {
 
         "Official prescribing information notes its use for documented, life-threatening recurrent ventricular fibrillation and hemodynamically unstable ventricular tachycardia in adults when other antiarrhythmics have not worked or cannot be tolerated.",
 
-        "Ivexia Pharma presents Amiodarone Hydrochloride as a globally relevant cardiac-care product, developed with attention to pharmaceutical consistency, patient safety, and regulatory expectations.",
+        "LARKSOIS Pharma presents Amiodarone Hydrochloride as a globally relevant cardiac-care product, developed with attention to pharmaceutical consistency, patient safety, and regulatory expectations.",
       ],
     },
 
@@ -4809,7 +4809,7 @@ export const en = {
 
         {
           label: "Brand",
-          value: "Ivexia Pharma",
+          value: "LARKSOIS Pharma",
         },
 
         {
@@ -4839,7 +4839,7 @@ export const en = {
 
         {
           label: "Chemical Formula",
-          value: "C₂₅H₃₀ClI₂NO₃",
+          value: "Câ‚‚â‚…Hâ‚ƒâ‚€ClIâ‚‚NOâ‚ƒ",
         },
 
         {
@@ -4913,7 +4913,7 @@ export const en = {
       title: "Dosage Guidance",
 
       sections: [
-        "Important: Dosage of Amiodarone Hydrochloride must always be individualized by a doctor based on the patient’s condition, arrhythmia severity, response, age, cardiac status, and safety monitoring.",
+        "Important: Dosage of Amiodarone Hydrochloride must always be individualized by a doctor based on the patientâ€™s condition, arrhythmia severity, response, age, cardiac status, and safety monitoring.",
       ],
     },
 
@@ -4923,9 +4923,9 @@ export const en = {
       sections: [
         "Official prescribing information for oral Amiodarone Hydrochloride describes individualized dosing, using the lowest effective dose.",
 
-        "A common adult oral loading approach may begin with 800–1600 mg per day until response occurs, usually over 1 to 3 weeks.",
+        "A common adult oral loading approach may begin with 800â€“1600 mg per day until response occurs, usually over 1 to 3 weeks.",
 
-        "This is followed by reduction to 600–800 mg per day for one month, and then a usual maintenance dose of around 400 mg per day.",
+        "This is followed by reduction to 600â€“800 mg per day for one month, and then a usual maintenance dose of around 400 mg per day.",
       ],
     },
 
@@ -5011,7 +5011,7 @@ export const en = {
       title: "Shelf Life Stability",
 
       sections: [
-        "Ivexia Pharma focuses on stable packaging, controlled manufacturing, and quality assurance to help maintain product reliability throughout its approved shelf life.",
+        "LARKSOIS Pharma focuses on stable packaging, controlled manufacturing, and quality assurance to help maintain product reliability throughout its approved shelf life.",
       ],
     },
 
@@ -5019,7 +5019,7 @@ export const en = {
       title: "Manufacturing Information",
 
       sections: [
-        "Amiodarone Hydrochloride by Ivexia Pharma is positioned as a quality-focused cardiac medicine manufactured with attention to pharmaceutical safety and international standards.",
+        "Amiodarone Hydrochloride by LARKSOIS Pharma is positioned as a quality-focused cardiac medicine manufactured with attention to pharmaceutical safety and international standards.",
       ],
 
       points: [
@@ -5185,10 +5185,10 @@ export const en = {
     },
 
     whyChoose: {
-      title: "Why Choose Ivexia Pharma?",
+      title: "Why Choose LARKSOIS Pharma?",
 
       description:
-        "Ivexia Pharma aims to deliver reliable pharmaceutical products for domestic and international healthcare markets.",
+        "LARKSOIS Pharma aims to deliver reliable pharmaceutical products for domestic and international healthcare markets.",
 
       advantages: [
         "International-quality product approach",
@@ -5209,7 +5209,7 @@ export const en = {
       title: "Conclusion",
 
       sections: [
-        "Amiodarone Hydrochloride CAS 19774-82-4 by Ivexia Pharma represents a specialized cardiac product intended for responsible medical use, regulated distribution, and professional healthcare settings.",
+        "Amiodarone Hydrochloride CAS 19774-82-4 by LARKSOIS Pharma represents a specialized cardiac product intended for responsible medical use, regulated distribution, and professional healthcare settings.",
       ],
     },
   },
@@ -5233,7 +5233,7 @@ export const en = {
       question: "What should be avoided while taking Amiodarone?",
 
       answer:
-        "Patients taking Amiodarone should avoid grapefruit juice and excessive sun exposure. Grapefruit may increase drug levels, while sunlight can worsen photosensitivity. Always follow the doctor’s advice regarding food, medicines, and activities.",
+        "Patients taking Amiodarone should avoid grapefruit juice and excessive sun exposure. Grapefruit may increase drug levels, while sunlight can worsen photosensitivity. Always follow the doctorâ€™s advice regarding food, medicines, and activities.",
     },
 
     {
@@ -5292,7 +5292,7 @@ export const en = {
           "@type": "Answer",
 
           text:
-            "Patients taking Amiodarone should avoid grapefruit juice and excessive sun exposure. Grapefruit may increase drug levels, while sunlight can worsen photosensitivity. Always follow the doctor’s advice regarding food, medicines, and activities.",
+            "Patients taking Amiodarone should avoid grapefruit juice and excessive sun exposure. Grapefruit may increase drug levels, while sunlight can worsen photosensitivity. Always follow the doctorâ€™s advice regarding food, medicines, and activities.",
         },
       },
 
@@ -5334,3 +5334,4 @@ export const INGREDIENT_PRODUCTS = Object.entries(en.ingredients)
     label: ingredient?.hero?.title || slug,
   }))
   .sort((a, b) => a.label.localeCompare(b.label));
+

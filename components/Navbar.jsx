@@ -58,8 +58,6 @@ export default function Navbar({ navLinks, companyProfile }) {
               key={link.href}
               className="relative"
               ref={productsMenuRef}
-              onMouseEnter={() => setIsProductsOpen(true)}
-              onMouseLeave={() => setIsProductsOpen(false)}
             >
               <button
                 type="button"
