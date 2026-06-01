@@ -65,7 +65,7 @@ export default function ActiveIngredientsTableClient({ ingredients }) {
         </p>
       </div>
 
-      <div className="overflow-hidden rounded-lg border border-[#0b3454] bg-white shadow-sm">
+      <div className="overflow-hidden rounded-lg border border-[#e7d7cc] bg-white shadow-sm">
         <div className="overflow-x-auto">
           <table className="min-w-[760px] w-full border-collapse">
             <thead>
@@ -93,11 +93,11 @@ export default function ActiveIngredientsTableClient({ ingredients }) {
                 filtered.map((ingredient, index) => (
                   <tr
                     key={ingredient.slug}
-                    className={`border-t border-[#0b3454] transition-colors hover:bg-[#fff6ef] ${
-                      index % 2 === 0 ? "bg-white" : "bg-[#f8fafc]"
+                    className={`border-t border-[#e7d7cc] transition-colors hover:bg-[#f7eee8] ${
+                      index % 2 === 0 ? "bg-white" : "bg-[#f8f3ef]"
                     }`}
                   >
-                    <td className="border-r border-[#0b3454] px-5 py-5 text-sm font-bold text-[#002b4f] sm:px-6 sm:text-base">
+                    <td className="border-r border-[#e7d7cc] px-5 py-5 text-sm font-bold text-[#002b4f] sm:px-6 sm:text-base">
                       <Link
                         href={`/active-ingredients/${ingredient.slug}`}
                         className="inline-flex rounded-sm transition hover:text-[#ec671f] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#ec671f] focus-visible:ring-offset-2"

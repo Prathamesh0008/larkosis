@@ -95,8 +95,8 @@ export default function TestKitsTableClient({ testKits }) {
         </div>
       </div>
 
-      <div className="mt-8 overflow-hidden rounded-lg border border-[#0f3558]/90">
-        <table className="min-w-full divide-y divide-[#0f3558]/70 bg-white">
+      <div className="mt-8 overflow-hidden rounded-lg border border-[#e7d7cc]">
+        <table className="min-w-full divide-y divide-[#e7d7cc] bg-white">
           <thead className="bg-[#0f3558] text-white">
             <tr>
               <th className="px-5 py-3 text-left text-sm font-semibold">Product</th>
@@ -108,7 +108,7 @@ export default function TestKitsTableClient({ testKits }) {
               <th className="px-5 py-3 text-left text-sm font-semibold">Certificate</th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-[#d2dee8]">
+          <tbody className="divide-y divide-[#e7d7cc]">
             {filtered.length === 0 ? (
               <tr>
                 <td colSpan={7} className="px-5 py-5 text-sm font-semibold text-[#0f3558]">
@@ -116,8 +116,13 @@ export default function TestKitsTableClient({ testKits }) {
                 </td>
               </tr>
             ) : (
-              filtered.map((item) => (
-                <tr key={item.id} className="bg-[#fbfcfe] text-[#0f3558] hover:bg-[#f1f6fb]">
+              filtered.map((item, index) => (
+                <tr
+                  key={item.id}
+                  className={`text-[#0f3558] transition-colors hover:bg-[#f7eee8] ${
+                    index % 2 === 0 ? "bg-white" : "bg-[#f8f3ef]"
+                  }`}
+                >
                   <td className="px-5 py-4 text-sm font-semibold">
                     <Link href={`/test-kits/${item.slug}`} className="hover:underline">
                       {item.listProduct || item.product}
