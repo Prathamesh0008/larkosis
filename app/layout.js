@@ -86,8 +86,8 @@ export const viewport = {
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/products", label: "Products" },
-  { href: "/contact", label: "Contact" },
   { href: "/about", label: "About" },
+  { href: "/contact", label: "Contact" },
 ];
 
 const year = new Date().getFullYear();
@@ -152,7 +152,7 @@ export default function RootLayout({ children }) {
 
         <div className="flex min-h-screen flex-col">
           <SiteHeader navLinks={navLinks} companyProfile={companyProfile} />
-          <main id="main-content" className="flex-1">
+          <main id="main-content" className="flex-1 pt-[64px] sm:pt-[70px]">
             {children}
           </main>
           <SiteFooter companyProfile={companyProfile} year={year} />
