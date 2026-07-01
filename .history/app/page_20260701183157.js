@@ -87,7 +87,7 @@ export default function Home() {
       <IvexiaAboutSection companyProfile={companyProfile} />
       <IvexiaTherapyGroups />
       {/* <IvexiaGlobalPresence /> */}
-      <IvexiaLeadershipSection />
+      {/* <IvexiaLeadershipSection /> */}
       <IvexiaResearchManufacturing companyProfile={companyProfile} />
       <IvexiaLatestSection
         featuredProducts={featuredProducts}
