@@ -6,7 +6,7 @@ import { useState } from "react";
 
 function MicroscopeIcon() {
   return (
-    <svg className="h-[60px] w-[60px] text-[#19a6b5]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <svg className="h-[60px] w-[60px] text-[#ec671f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d="M7 21h10M9 17h6M10 3l2 5m0 0 2.5-1.5M12 8l-3 1.8m3-1.8L15 15m-6 6a5 5 0 0 1 5-5h4a3 3 0 0 1 0 6H9Z" />
     </svg>
   );
@@ -14,7 +14,7 @@ function MicroscopeIcon() {
 
 function FactoryIcon() {
   return (
-    <svg className="h-[60px] w-[60px] text-[#19a6b5]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <svg className="h-[60px] w-[60px] text-[#ec671f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d="M3 21h18M5 21V9l5 3V9l5 3V5l4 2v14M9 21v-4m4 4v-3m4 3v-5" />
     </svg>
   );
@@ -56,8 +56,8 @@ export default function IvexiaResearchManufacturing({ companyProfile }) {
               onClick={() => setActiveTab(tab.key)}
               className={`flex cursor-pointer items-center gap-2 px-5 py-3 text-sm font-medium transition-all duration-300 md:px-8 md:text-base ${
                 activeTab === tab.key
-                  ? "bg-gradient-to-r from-[#FF7A00] to-[#E2004F] text-white"
-                  : "text-gray-600 hover:text-[#0d2d47]"
+                  ? "bg-gradient-to-r from-[#ec671f] to-[#f4b083] text-white"
+                  : "text-gray-600 hover:text-[#241a14]"
               }`}
             >
               {tab.label}
@@ -70,7 +70,7 @@ export default function IvexiaResearchManufacturing({ companyProfile }) {
         <div>
           <div className="mb-6">{active.icon}</div>
 
-          <h3 className="mb-4 text-3xl font-bold text-[#0d2d47] md:text-4xl">
+          <h3 className="mb-4 text-3xl font-bold text-[#271b14] md:text-4xl">
             {active.title}
           </h3>
 
@@ -80,7 +80,7 @@ export default function IvexiaResearchManufacturing({ companyProfile }) {
 
           <Link
             href="/about"
-            className="inline-block rounded-md bg-gradient-to-r from-[#FF7A00] to-[#E2004F] px-6 py-3 font-medium text-white transition hover:opacity-90"
+            className="inline-block rounded-md bg-gradient-to-r from-[#ec671f] to-[#f4b083] px-6 py-3 font-medium text-white transition hover:opacity-90"
           >
             Explore
           </Link>

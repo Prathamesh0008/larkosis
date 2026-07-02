@@ -31,7 +31,7 @@ export default function IvexiaLeadershipSection() {
     <section className="relative overflow-hidden text-white">
      
 
-      <div className="relative z-10 -mt-8 rounded-t-[24px] bg-[#0d2d47]/95 px-4 py-8 shadow-inner  md:rounded-t-[40px] md:px-16 md:py-16">
+      <div className="relative z-10 -mt-8 rounded-t-[24px] bg-[#241a14]/95 px-4 py-8 shadow-inner  md:rounded-t-[40px] md:px-16 md:py-16">
         <div className="mb-6 text-center md:mb-10">
           <h3 className="mb-2 mt-4 text-xl font-semibold text-white md:text-3xl">
             Leadership & Operating Principles
@@ -49,7 +49,7 @@ export default function IvexiaLeadershipSection() {
               key={member.title}
               className="rounded-xl bg-white/10 p-3 text-center shadow-lg transition-all hover:scale-[1.05] hover:bg-white/20 hover:shadow-2xl md:rounded-2xl md:p-4"
             >
-              <div className="mx-auto mb-2 flex h-14 w-14 items-center justify-center rounded-full border-2 border-[#19a6b5] bg-[#123a56] text-lg font-semibold md:h-16 md:w-16">
+              <div className="mx-auto mb-2 flex h-14 w-14 items-center justify-center rounded-full border-2 border-[#f4b083] bg-[#3f2d24] text-lg font-semibold md:h-16 md:w-16">
                 {index + 1}
               </div>
 
@@ -57,7 +57,7 @@ export default function IvexiaLeadershipSection() {
                 {member.title}
               </h4>
 
-              <p className="mb-1 text-[10px] text-[#19a6b5] md:text-xs">
+              <p className="mb-1 text-[10px] text-[#f4b083] md:text-xs">
                 {member.role}
               </p>
 

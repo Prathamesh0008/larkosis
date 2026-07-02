@@ -26,7 +26,7 @@ function Counter({ target, label, suffix = "" }) {
 
   return (
     <div className="flex flex-col items-center text-center">
-      <h2 className="bg-gradient-to-r from-[#FF7A00] to-[#E2004F] bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
+      <h2 className="bg-gradient-to-r from-[#ec671f] to-[#f4b083] bg-clip-text text-4xl font-bold text-transparent md:text-5xl">
         {count}
         {suffix}
       </h2>
@@ -49,7 +49,7 @@ export default function IvexiaNumbersSection({
   ];
 
   return (
-    <section className="bg-[#FFF8F5] py-16 md:py-20">
+    <section className="bg-[#fff8f4] py-16 md:py-20">
       <h2 className="mb-10 text-center text-3xl font-bold text-[#333] md:text-4xl">
         Larksois in Numbers
       </h2>

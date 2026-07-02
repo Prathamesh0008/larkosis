@@ -26,7 +26,7 @@ export default function IvexiaAboutSection({ companyProfile }) {
 
           <Link
             href="/about"
-            className="rounded-md bg-gradient-to-r from-[#FF7A00] to-[#E2004F] px-6 py-3 font-semibold shadow-lg transition hover:opacity-90"
+            className="rounded-md bg-gradient-to-r from-[#ec671f] to-[#f4b083] px-6 py-3 font-semibold shadow-lg transition hover:opacity-90"
           >
             Explore More
           </Link>

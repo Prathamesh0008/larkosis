@@ -60,12 +60,12 @@ export default function IvexiaGlobalPresence() {
   return (
     <section className="bg-white px-4 py-16 md:px-6 lg:px-8">
       <div className="mx-auto max-w-[980px]">
-        <h2 className="mb-8 text-3xl font-bold text-[#0d2d47] md:text-4xl">
+        <h2 className="mb-8 text-3xl font-bold text-[#271b14] md:text-4xl">
           Global Presence
         </h2>
 
-        <div className="grid items-center gap-6 rounded-[8px] bg-[#FFF8F5] px-[18px] py-6 md:grid-cols-[190px_1fr_300px]">
-          <nav className="border-[#0d2d4726] md:border-r md:py-5" aria-label="Region selector">
+        <div className="grid items-center gap-6 rounded-[8px] bg-[#fff8f4] px-[18px] py-6 md:grid-cols-[190px_1fr_300px]">
+          <nav className="border-[#ec671f26] md:border-r md:py-5" aria-label="Region selector">
             {regions.map((region) => {
               const selected = activeId === region.id;
 
@@ -74,10 +74,10 @@ export default function IvexiaGlobalPresence() {
                   key={region.id}
                   type="button"
                   onClick={() => setActiveId(region.id)}
-                  className={`block w-full border-b border-[#0d2d4726] px-3 py-2.5 text-left text-[#0d2d47] transition ${
+                  className={`block w-full border-b border-[#ec671f26] px-3 py-2.5 text-left text-[#3f2d24] transition ${
                     selected
-                      ? "border-2 border-[#ff7a00] bg-gradient-to-r from-[rgba(255,122,0,0.15)] to-[rgba(226,0,79,0.1)]"
-                      : "hover:bg-[rgba(255,122,0,0.1)]"
+                      ? "border-2 border-[#ec671f] bg-gradient-to-r from-[rgba(236,103,31,0.16)] to-[rgba(244,176,131,0.16)]"
+                      : "hover:bg-[rgba(236,103,31,0.08)]"
                   } ${region === regions[0] ? "border-t" : ""}`}
                 >
                   {region.label}
@@ -90,7 +90,7 @@ export default function IvexiaGlobalPresence() {
             {activeRegion.paragraphs.map((paragraph) => (
               <p
                 key={paragraph}
-                className="mb-[14px] text-lg font-normal leading-[1.55] text-[#0d2d47]"
+                className="mb-[14px] text-lg font-normal leading-[1.55] text-[#3f2d24]"
               >
                 {paragraph}
               </p>
@@ -98,17 +98,17 @@ export default function IvexiaGlobalPresence() {
           </article>
 
           <div className="flex justify-center md:justify-end">
-            <div className="relative h-[280px] w-[280px] overflow-hidden rounded-full bg-[radial-gradient(circle,_#f3f7fb,_#e6eef7)] shadow-[0_20px_30px_rgba(13,45,71,0.15)] md:h-[350px] md:w-[350px]">
-              <div className="absolute inset-[12%] rounded-full border border-[#b3bac4]/45" />
-              <div className="absolute inset-[24%] rounded-full border border-[#b3bac4]/35" />
-              <div className="absolute inset-[36%] rounded-full border border-[#b3bac4]/25" />
+            <div className="relative h-[280px] w-[280px] overflow-hidden rounded-full bg-[radial-gradient(circle,_#fffdfb,_#fbe4d5)] shadow-[0_20px_30px_rgba(36,26,20,0.12)] md:h-[350px] md:w-[350px]">
+              <div className="absolute inset-[12%] rounded-full border border-[#ec671f]/25" />
+              <div className="absolute inset-[24%] rounded-full border border-[#ec671f]/20" />
+              <div className="absolute inset-[36%] rounded-full border border-[#f4b083]/18" />
 
               <div className="absolute inset-0 opacity-70">
-                <div className="absolute left-[20%] top-[28%] h-[22%] w-[26%] rounded-[45%] bg-[#b5bac1]" />
-                <div className="absolute left-[45%] top-[22%] h-[18%] w-[18%] rounded-[45%] bg-[#b5bac1]" />
-                <div className="absolute left-[52%] top-[38%] h-[28%] w-[22%] rounded-[45%] bg-[#b5bac1]" />
-                <div className="absolute left-[28%] top-[54%] h-[18%] w-[18%] rounded-[45%] bg-[#b5bac1]" />
-                <div className="absolute left-[62%] top-[66%] h-[10%] w-[10%] rounded-full bg-[#b5bac1]" />
+                <div className="absolute left-[20%] top-[28%] h-[22%] w-[26%] rounded-[45%] bg-[#f4b083]" />
+                <div className="absolute left-[45%] top-[22%] h-[18%] w-[18%] rounded-[45%] bg-[#f4b083]" />
+                <div className="absolute left-[52%] top-[38%] h-[28%] w-[22%] rounded-[45%] bg-[#f4b083]" />
+                <div className="absolute left-[28%] top-[54%] h-[18%] w-[18%] rounded-[45%] bg-[#f4b083]" />
+                <div className="absolute left-[62%] top-[66%] h-[10%] w-[10%] rounded-full bg-[#f4b083]" />
               </div>
 
               {regions.map((region) => {
@@ -122,8 +122,8 @@ export default function IvexiaGlobalPresence() {
                     onClick={() => setActiveId(region.id)}
                     className={`absolute ${regionDotPositions[region.id]} h-4 w-4 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 transition ${
                       active
-                        ? "border-[#EC5135] bg-[#ff9913] shadow-[0_0_0_6px_rgba(255,122,0,0.18)]"
-                        : "border-white bg-[#0d2d47]"
+                        ? "border-[#e36c0a] bg-[#ec671f] shadow-[0_0_0_6px_rgba(236,103,31,0.18)]"
+                        : "border-white bg-[#f4b083]"
                     }`}
                   />
                 );

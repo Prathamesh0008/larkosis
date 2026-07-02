@@ -56,7 +56,7 @@ export default function IvexiaLatestSection({ featuredProducts, companyProfile }
   return (
     <section className="bg-white px-6 py-20 md:px-16">
       <div className="mb-14 text-center">
-        <h2 className="mb-3 text-3xl font-bold text-[#0d2d47] md:text-4xl">
+        <h2 className="mb-3 text-3xl font-bold text-[#271b14] md:text-4xl">
           Latest From Larksois
         </h2>
 
@@ -78,11 +78,11 @@ export default function IvexiaLatestSection({ featuredProducts, companyProfile }
             />
 
             <div className="p-6">
-              <p className="mb-2 text-xs font-medium uppercase text-[#19a6b5]">
+              <p className="mb-2 text-xs font-medium uppercase text-[#ec671f]">
                 {card.category}
               </p>
 
-              <h3 className="mb-3 text-lg font-semibold text-[#0d2d47]">
+              <h3 className="mb-3 text-lg font-semibold text-[#271b14]">
                 {card.title}
               </h3>
 
@@ -98,7 +98,7 @@ export default function IvexiaLatestSection({ featuredProducts, companyProfile }
                   href={card.href}
                   target={card.href.endsWith(".pdf") ? "_blank" : undefined}
                   rel={card.href.endsWith(".pdf") ? "noreferrer" : undefined}
-                  className="flex items-center gap-1 font-medium text-[#E2004F] transition hover:gap-2"
+                  className="flex items-center gap-1 font-medium text-[#ec671f] transition hover:gap-2"
                 >
                   {card.cta} <ArrowRightIcon />
                 </Link>

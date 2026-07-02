@@ -32,7 +32,7 @@ function TherapyIcon({ index }) {
 
   return (
     <svg
-      className="h-12 w-12 text-[#E2004F] transition-transform duration-500 group-hover:scale-110 lg:h-16 lg:w-16"
+      className="h-12 w-12 text-[#ec671f] transition-transform duration-500 group-hover:scale-110 lg:h-16 lg:w-16"
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"
@@ -49,8 +49,8 @@ function TherapyIcon({ index }) {
 
 export default function IvexiaTherapyGroups() {
   return (
-    <section className="relative bg-[#FFF8F5] py-20 md:py-24">
-      <div className="absolute left-0 top-0 h-1 w-full bg-gradient-to-r from-[#FF7A00] to-[#E2004F]" />
+    <section className="relative bg-[#fff8f4] py-20 md:py-24">
+      <div className="absolute left-0 top-0 h-1 w-full bg-gradient-to-r from-[#ec671f] to-[#f4b083]" />
 
       <div className="mb-14 px-4 text-center">
         <h2 className="mb-3 text-3xl font-bold text-[#222] md:text-4xl">
@@ -58,7 +58,7 @@ export default function IvexiaTherapyGroups() {
         </h2>
 
         <p className="mx-auto max-w-2xl text-sm leading-relaxed text-gray-600 md:text-base">
-          <span className="font-semibold text-[#E2004F]">
+          <span className="font-semibold text-[#ec671f]">
             Focused Innovation.
           </span>{" "}
           Delivering specialized pharmaceutical solutions across key
@@ -72,14 +72,14 @@ export default function IvexiaTherapyGroups() {
             key={item.title}
             className="group relative w-full rounded-2xl border border-gray-100 bg-white p-5 text-center shadow-md transition-all duration-500 hover:-translate-y-2 hover:border-transparent hover:shadow-xl lg:w-[300px] lg:p-8 xl:w-[320px]"
           >
-            <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#FF7A00]/10 to-[#E2004F]/10 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+            <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#ec671f]/10 to-[#f4b083]/16 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
 
             <div className="relative z-10 flex h-full flex-col items-center justify-between">
               <div className="mb-3 lg:mb-4">
                 <TherapyIcon index={index} />
               </div>
 
-              <h3 className="mb-2 text-base font-semibold text-[#222] transition-colors duration-300 group-hover:text-[#E2004F] lg:text-lg">
+              <h3 className="mb-2 text-base font-semibold text-[#222] transition-colors duration-300 group-hover:text-[#ec671f] lg:text-lg">
                 {item.title}
               </h3>
 
