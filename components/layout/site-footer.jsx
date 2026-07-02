@@ -10,83 +10,101 @@ export default function SiteFooter({ companyProfile, year }) {
   ];
 
   return (
-    <footer className="relative mt-10 overflow-hidden border-t border-[#f1d8c8] bg-[#fffaf6]">
-      <div className="relative mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-        <div className="grid items-start gap-8 md:grid-cols-2 lg:grid-cols-[1.3fr_0.9fr_1fr_1fr]">
-          <div>
-            <Link href="/" aria-label="Larkosis Pharma Home" className="inline-flex items-center">
-              <Image
-                src="/larko.png"
-                alt="Larkosis Pharma Logo"
-                width={260}
-                height={95}
-                className="h-20 w-auto object-contain"
-              />
-             
-            </Link>
-            
-            <p className="text-sm leading-relaxed text-[#614c40]">{companyProfile.overview}</p>
+    <footer className="relative mt-10 overflow-hidden bg-[#241a14] text-white">
+      <div className="h-1 w-full bg-gradient-to-r from-[#ec671f] via-[#f4b083] to-[#ec671f]" />
+
+      <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+        <div className="grid grid-cols-1 items-start gap-10 text-left md:grid-cols-2 lg:grid-cols-4 lg:gap-12">
+          <div className="flex flex-col items-start space-y-4">
+            <Image
+              src="/larko.png"
+              alt="Larkosis Pharma Logo"
+              width={320}
+              height={120}
+              className="h-auto w-[170px] object-contain"
+            />
+
+            <p className="max-w-sm text-sm leading-relaxed text-[#eadbd2]">
+              <span className="font-semibold text-white">{companyProfile.brand}</span>
+              <br />
+              {companyProfile.overview}
+            </p>
           </div>
 
           <div>
-            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-[#8a6a56]">Quick Links</h3>
-            <ul className="space-y-2">
+            <h3 className="mb-4 text-lg font-semibold uppercase text-[#ec671f]">
+              Quick Links
+            </h3>
+
+            <ul className="space-y-2 text-sm text-[#eadbd2]">
               {quickLinks.map((item) => (
                 <li key={item.href}>
-                  <Link
-                    href={item.href}
-                    className="text-sm text-[#3f2d24] transition-colors hover:text-[#ec671f]"
-                  >
+                  <Link href={item.href} className="transition hover:text-white">
                     {item.label}
                   </Link>
                 </li>
               ))}
               <li>
-               
+                <Link href="/offerings-overview" className="transition hover:text-white">
+                  Offerings Overview
+                </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-[#8a6a56]">Contact Us</h3>
-            <address className="not-italic text-sm text-[#3f2d24]">
-              <p className="font-semibold">{companyProfile.legalName}</p>
-              <p className="mt-2 text-[#5c473b]">{companyProfile.officeAddress}</p>
-              <a href={`mailto:${companyProfile.email}`} className="mt-3 block transition-colors hover:text-[#ec671f]">
-                {companyProfile.email}
-              </a>
-              {companyProfile.phone ? (
-                <a href={`tel:${companyProfile.phone}`} className="mt-1 block transition-colors hover:text-[#ec671f]">
-                  {companyProfile.phone}
+            <h3 className="mb-4 text-lg font-semibold uppercase text-[#f4b083]">
+              Contact
+            </h3>
+
+            <ul className="space-y-2 text-sm text-[#eadbd2]">
+              <li>{companyProfile.officeAddress}</li>
+              <li>
+                <span className="font-semibold text-white">Email:</span>{" "}
+                <a href={`mailto:${companyProfile.email}`} className="transition hover:text-white">
+                  {companyProfile.email}
                 </a>
+              </li>
+              {companyProfile.phone ? (
+                <li>
+                  <span className="font-semibold text-white">Phone:</span>{" "}
+                  <a href={`tel:${companyProfile.phone}`} className="transition hover:text-white">
+                    {companyProfile.phone}
+                  </a>
+                </li>
               ) : null}
-            </address>
+            </ul>
           </div>
 
           <div>
-            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-[#8a6a56]">Get Started</h3>
-            <div className="flex flex-wrap items-center gap-3">
+            <h3 className="mb-4 text-lg font-semibold uppercase text-[#ec671f]">
+              Resources
+            </h3>
+
+            <div className="flex flex-col gap-3">
               <a
-                href={`mailto:${companyProfile.email}`}
-                className="inline-flex items-center rounded-full bg-[#ec671f] px-6 py-2.5 text-sm font-semibold text-white shadow-sm transition-all hover:-translate-y-0.5 hover:bg-[#d55e1f]"
+                href={companyProfile.documents.companyProfilePdf}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center justify-center rounded-full bg-[#ec671f] px-6 py-2.5 text-sm font-semibold text-white transition hover:bg-[#d55e1f]"
               >
-                Request Quote
+                Company Profile
               </a>
               <a
                 href={companyProfile.documents.productListPdf}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center rounded-full border border-[#dfc7b7] bg-white px-6 py-2.5 text-sm font-medium text-[#3f2d24] transition-all hover:-translate-y-0.5 hover:border-[#ec671f] hover:text-[#ec671f]"
+                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/5 px-6 py-2.5 text-sm font-medium text-white transition hover:bg-white/10"
               >
                 Download Product List
               </a>
             </div>
           </div>
         </div>
+      </div>
 
-        <div className="mt-8 border-t border-[#e8d7cb] pt-6 text-center text-xs text-[#7d6658]">
-          <p>&copy; {year} Larkosis Pharma. All rights reserved.</p>
-        </div>
+      <div className="border-t border-white/10 bg-[#1b140f] px-4 py-4 text-center text-sm text-[#d7c6bc]">
+        &copy; {year} <span className="font-medium text-white">{companyProfile.brand}</span> | All Rights Reserved
       </div>
     </footer>
   );

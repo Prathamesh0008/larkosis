@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { absoluteUrl } from "@/lib/seo";
 
 export const metadata = {
@@ -128,139 +129,157 @@ const faqs = [
 ];
 
 export default function PrivateLabelManufacturingOemPage() {
+  const brandGradient = "bg-gradient-to-r from-[#ec671f] to-[#f4b083]";
+  const brandTextGradient =
+    "bg-gradient-to-r from-[#ec671f] to-[#f4b083] bg-clip-text text-transparent";
+
   return (
-    <div className="bg-[#eef1f6] pb-12">
-      <section className="relative h-[380px] overflow-hidden sm:h-[460px]">
+    <div className="min-h-screen bg-[#fffdfb]">
+      <section className="relative h-[42vh] overflow-hidden md:h-[66vh]">
         <Image src="/manufacturing image.jpg" alt="Private Label Manufacturing OEM" fill className="object-cover" priority />
-        <div className="absolute inset-0 bg-[#0f3558]/55" />
-        <div className="relative z-10 mx-auto flex h-full w-full max-w-7xl items-center px-6 sm:px-10">
-          <div className="max-w-2xl">
-            <p className="text-xs font-bold uppercase tracking-[0.15em] text-white/85">Larksois Offerings</p>
-            <h1 className="mt-3 text-4xl font-bold text-[#ff7a00] sm:text-5xl">Private Label Manufacturing / OEM</h1>
-            <p className="mt-4 text-sm leading-relaxed text-white/90 sm:text-base">
+        <div className="absolute inset-0 bg-[#241a14]/55" />
+        <div className="absolute inset-0 flex items-center">
+          <div className="mx-auto max-w-7xl px-6 text-white md:px-16">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#ffe1cf]">
+              Larksois Offerings
+            </p>
+            <h1 className="mt-3 max-w-3xl text-3xl font-bold leading-tight text-[#ec671f] md:text-5xl">
+              Private Label Manufacturing / OEM
+            </h1>
+            <p className="mt-4 max-w-2xl text-sm text-white md:text-lg">
               Build and scale your pharmaceutical brand with structured OEM execution, quality governance, and dependable supply continuity.
             </p>
+            <div className="mt-7 flex flex-wrap gap-3">
+              <Link
+                href="/contact"
+                className="rounded-full bg-white px-6 py-3 font-semibold text-[#ec671f] transition-colors hover:bg-[#fff3ef]"
+              >
+                Contact Us
+              </Link>
+              <Link
+                href="/offerings-overview"
+                className="rounded-full border border-white/70 px-6 py-3 font-semibold text-white transition-colors hover:bg-white/10"
+              >
+                Explore All Offerings
+              </Link>
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="mx-auto mt-8 w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl px-6 py-14 md:px-16 md:py-20">
         <div className="grid gap-4 sm:grid-cols-3">
           {topHighlights.map((item) => (
-            <div key={item} className="rounded-xl border border-[#f1c1cc] bg-white p-4 text-sm text-[#0f3558]">
+            <div key={item} className="rounded-xl border border-[#ec671f]/15 bg-[#fff8f4] p-5 font-medium text-[#271b14]">
               {item}
             </div>
           ))}
         </div>
 
-        <div className="mt-8 grid gap-4 sm:grid-cols-3">
+        <div className="mt-8 grid gap-5 md:grid-cols-3">
           {models.map((m) => (
-            <article key={m.title} className="rounded-xl border border-[#f1c1cc] bg-white p-4">
-              <h3 className="text-xl font-bold text-[#ff6b00]">{m.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-[#334155]">{m.text1}</p>
-              <p className="mt-2 text-sm leading-relaxed text-[#334155]">{m.text2}</p>
+            <article key={m.title} className="rounded-2xl border border-[#ec671f]/15 bg-white p-6 shadow-sm">
+              <h3 className={`text-xl font-semibold ${brandTextGradient}`}>{m.title}</h3>
+              <p className="mt-3 text-sm leading-relaxed text-[#5c473b]">{m.text1}</p>
+              <p className="mt-4 text-sm font-medium text-[#271b14]">{m.text2}</p>
             </article>
           ))}
         </div>
       </section>
 
-      <section className="mt-10 bg-[#fffdfb] py-10">
-        <div className="mx-auto w-full max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-[#0f3558]">OEM Capability Stack</h2>
-          <p className="mx-auto mt-2 max-w-3xl text-sm text-[#475569]">
+      <section className="bg-[#fff7f2] py-14 md:py-20">
+        <div className="mx-auto max-w-7xl px-6 text-center md:px-16">
+          <h2 className="text-2xl font-bold text-[#271b14] md:text-4xl">OEM Capability Stack</h2>
+          <p className="mx-auto mt-3 max-w-3xl text-sm text-[#5c473b]">
             A full private-label workflow designed for distributors, importers, and healthcare brands operating in varied market conditions.
           </p>
-          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {capabilities.map((item) => (
-              <article key={item.title} className="rounded-xl border border-[#f1c1cc] bg-white p-4 text-left">
-                <h3 className="text-lg font-bold text-[#0f3558]">{item.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-[#334155]">{item.text}</p>
+              <article key={item.title} className="rounded-2xl border border-[#ec671f]/15 bg-white p-6 text-left shadow-sm">
+                <h3 className="text-lg font-semibold text-[#271b14]">{item.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-[#5c473b]">{item.text}</p>
               </article>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="bg-[#eef1f6] py-10">
-        <div className="mx-auto grid w-full max-w-7xl gap-6 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
+      <section className="mx-auto grid max-w-7xl gap-12 px-6 py-14 md:px-16 md:py-20 lg:grid-cols-2">
           <article>
-            <h3 className="text-4xl font-bold text-[#0f3558]">Dosage Forms We Manufacture</h3>
-            <p className="mt-3 text-sm text-[#334155]">
+            <h3 className="text-2xl font-bold text-[#271b14] md:text-4xl">Dosage Forms We Manufacture</h3>
+            <p className="mt-3 text-sm text-[#5c473b]">
               Our setup supports multiple dosage platforms with consistency in process control and batch documentation.
             </p>
-            <div className="mt-4 grid grid-cols-3 gap-2">
+            <div className="mt-7 grid grid-cols-2 gap-3 sm:grid-cols-3">
               {dosageForms.map((item) => (
-                <div key={item} className="rounded border border-[#f1c1cc] bg-white px-3 py-2 text-sm text-[#0f3558]">
+                <div key={item} className="rounded-lg border border-[#ec671f]/15 bg-white px-4 py-3 text-sm font-medium text-[#271b14]">
                   {item}
                 </div>
               ))}
             </div>
           </article>
 
-          <article className="rounded-2xl border border-[#f1c1cc] bg-white p-4">
-            <h3 className="text-xl font-bold text-[#ff6b00]">Documentation and Technical Deliverables</h3>
-            <p className="mt-2 text-sm text-[#334155]">
+          <article className="rounded-2xl border border-[#ec671f]/15 bg-white p-7 shadow-sm">
+            <h3 className={`text-xl font-semibold ${brandTextGradient}`}>Documentation and Technical Deliverables</h3>
+            <p className="mt-2 text-sm text-[#5c473b]">
               As required by product and market scope, projects can include the following documentation package elements.
             </p>
-            <div className="mt-4 grid grid-cols-2 gap-2">
+            <div className="mt-5 grid gap-3 sm:grid-cols-2">
               {docs.map((item) => (
-                <div key={item} className="rounded border border-[#f1c1cc] bg-[#fffdfb] px-3 py-2 text-sm text-[#0f3558]">
+                <div key={item} className="rounded-lg border border-[#ec671f]/15 bg-[#fff8f4] px-4 py-3 text-sm text-[#271b14]">
                   {item}
                 </div>
               ))}
             </div>
           </article>
-        </div>
       </section>
 
-      <section className="bg-gradient-to-r from-[#ff7a00] to-[#eb005b] py-10">
-        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-center text-4xl font-bold text-white">Project Execution Flow</h2>
-          <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+      <section className={`py-14 md:py-20 text-white ${brandGradient}`}>
+        <div className="mx-auto max-w-7xl px-6 md:px-16">
+          <h2 className="text-center text-2xl font-bold md:text-4xl">Project Execution Flow</h2>
+          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {executionSteps.map((item, index) => (
-              <article key={item} className="rounded-xl bg-white/20 p-4 text-white">
-                <p className="text-xs font-bold uppercase">Step {index + 1}</p>
-                <p className="mt-2 text-sm">{item}</p>
+              <article key={item} className="rounded-2xl bg-white/15 p-6 backdrop-blur-sm">
+                <p className="text-sm font-semibold text-white">Step {index + 1}</p>
+                <p className="mt-2 text-sm leading-relaxed">{item}</p>
               </article>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="bg-[#eef1f6] py-10">
-        <div className="mx-auto w-full max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-[#0f3558]">Quality Governance Framework</h2>
-          <p className="mx-auto mt-2 max-w-3xl text-sm text-[#475569]">
+      <section className="mx-auto max-w-7xl px-6 py-14 text-center md:px-16 md:py-20">
+          <h2 className="text-2xl font-bold text-[#271b14] md:text-4xl">Quality Governance Framework</h2>
+          <p className="mx-auto mt-3 max-w-3xl text-sm text-[#5c473b]">
             Quality is embedded at each stage from raw material qualification to release and dispatch control.
           </p>
-          <div className="mt-8 grid gap-4 text-left sm:grid-cols-2">
+          <div className="mt-10 grid gap-5 text-left md:grid-cols-2">
             {qualityItems.map((item) => (
-              <article key={item.title} className="rounded-xl border border-[#f1c1cc] bg-white p-4">
-                <h3 className="text-xl font-bold text-[#ff6b00]">{item.title}</h3>
-                <p className="mt-2 text-sm text-[#334155]">{item.desc}</p>
-                <p className="mt-2 text-sm text-[#334155]">
+              <article key={item.title} className="rounded-2xl border border-[#ec671f]/15 bg-white p-6 shadow-sm">
+                <h3 className={`text-lg font-semibold ${brandTextGradient}`}>{item.title}</h3>
+                <p className="mt-3 text-sm text-[#5c473b]">{item.desc}</p>
+                <p className="mt-3 text-sm text-[#271b14]">
                   <span className="font-semibold">Output: </span>
                   {item.out}
                 </p>
               </article>
             ))}
           </div>
-        </div>
       </section>
 
-      <section className="mx-auto mt-10 w-full max-w-3xl px-4 sm:px-6 lg:px-8">
-        <h2 className="text-center text-4xl font-bold text-[#0f3558]">Frequently Asked Questions</h2>
+      <section className="mx-auto max-w-5xl px-6 py-6 md:px-16 md:py-10">
+        <h2 className="text-center text-2xl font-bold text-[#271b14] md:text-4xl">Frequently Asked Questions</h2>
         <div className="mt-6 space-y-3">
           {faqs.map((faq, idx) => (
-            <details key={faq.q} open={idx === 0} className="group rounded-xl border border-[#f1c1cc] bg-white p-4">
-              <summary className="flex cursor-pointer list-none items-center justify-between text-sm font-semibold text-[#0f3558]">
+            <details key={faq.q} open={idx === 0} className="group rounded-xl border border-[#ec671f]/15 bg-white px-5 py-4">
+              <summary className="flex cursor-pointer list-none items-center justify-between text-sm font-semibold text-[#271b14]">
                 <span>{faq.q}</span>
-                <span className="text-[#eb005b] group-open:hidden">+</span>
-                <span className="hidden text-[#eb005b] group-open:block">-</span>
+                <span className="text-[#ec671f] group-open:hidden">+</span>
+                <span className="hidden text-[#ec671f] group-open:block">-</span>
               </summary>
               <div className="grid grid-rows-[0fr] transition-all duration-300 ease-in-out group-open:grid-rows-[1fr]">
                 <div className="overflow-hidden">
-                  <p className="mt-3 text-sm leading-relaxed text-[#334155]">{faq.a}</p>
+                  <p className="mt-3 text-sm leading-relaxed text-[#5c473b]">{faq.a}</p>
                 </div>
               </div>
             </details>

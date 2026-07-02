@@ -72,14 +72,14 @@ export default function Navbar({ companyProfile }) {
   const [searchTerm, setSearchTerm] = useState("");
   const [suggestions, setSuggestions] = useState([]);
   const [productsOpen, setProductsOpen] = useState(false);
-  const [resourcesOpen, setResourcesOpen] = useState(false);
+  const [magazineOpen, setMagazineOpen] = useState(false);
   const [products] = useState(() => getAllProducts());
 
   const router = useRouter();
   const pathname = usePathname();
 
   const productsRef = useRef(null);
-  const resourcesRef = useRef(null);
+  const magazineRef = useRef(null);
   const searchRef = useRef(null);
 
   const isIngredientsPath =
@@ -89,6 +89,7 @@ export default function Navbar({ companyProfile }) {
     pathname === "/products" || pathname.startsWith("/products/");
 
   const isOfferingsActive =
+    pathname === "/offerings-overview" ||
     pathname === "/products" ||
     pathname === "/pharmaceutical-products" ||
     pathname === "/test-kits" ||
@@ -100,8 +101,12 @@ export default function Navbar({ companyProfile }) {
     pathname.startsWith("/test-kits/") ||
     pathname.startsWith("/active-ingredients/");
 
-  const isResourcesActive =
-    pathname === "/contact" || pathname === "/about";
+  const magazineCategory = pathname.startsWith("/larksois-mag/category/")
+    ? pathname.split("/").filter(Boolean).at(-1)
+    : null;
+
+  const isMagazineActive =
+    pathname === "/larksois-mag" || pathname.startsWith("/larksois-mag/");
 
   const activeTopLinkClass =
     "bg-[#e8f6fb] text-[#FF7A00] font-semibold shadow-sm";
@@ -125,8 +130,8 @@ export default function Navbar({ companyProfile }) {
       if (productsRef.current && !productsRef.current.contains(event.target)) {
         setProductsOpen(false);
       }
-      if (resourcesRef.current && !resourcesRef.current.contains(event.target)) {
-        setResourcesOpen(false);
+      if (magazineRef.current && !magazineRef.current.contains(event.target)) {
+        setMagazineOpen(false);
       }
       if (
         searchRef.current &&
@@ -144,7 +149,7 @@ export default function Navbar({ companyProfile }) {
   const goTo = (path) => {
     setMenuOpen(false);
     setProductsOpen(false);
-    setResourcesOpen(false);
+    setMagazineOpen(false);
     setShowSearch(false);
     setSuggestions([]);
 
@@ -251,6 +256,7 @@ export default function Navbar({ companyProfile }) {
             {productsOpen && (
               <ul className="absolute left-0 top-full z-40 mt-3 w-72 rounded-xl bg-white p-2 shadow-xl ring-1 ring-black/5">
                 {[
+                  ["/offerings-overview", "Overview", pathname === "/offerings-overview"],
                   ["/products", "Finished Products", isProductsPath],
                   ["/pharmaceutical-products", "Pharmaceutical Products", pathname === "/pharmaceutical-products" || pathname.startsWith("/pharmaceutical-products/")],
                   ["/active-ingredients", "API / Ingredients", isIngredientsPath],
@@ -281,37 +287,36 @@ export default function Navbar({ companyProfile }) {
           </li>
 
           <li
-            ref={resourcesRef}
-            onClick={() => setResourcesOpen((prev) => !prev)}
-            className={`relative ${topLinkClass} ${isResourcesActive ? activeTopLinkClass : ""}`}
+            ref={magazineRef}
+            onClick={() => setMagazineOpen((prev) => !prev)}
+            className={`relative ${topLinkClass} ${isMagazineActive ? activeTopLinkClass : ""}`}
           >
             <span className="inline-flex items-center gap-1.5">
-              Resources
+              Larksois Magazine
               <ChevronDownIcon
-                className={`h-4 w-4 transition-transform ${resourcesOpen ? "rotate-180" : ""}`}
+                className={`h-4 w-4 transition-transform ${magazineOpen ? "rotate-180" : ""}`}
               />
             </span>
 
-            {resourcesOpen && (
-              <ul className="absolute left-0 top-full z-40 mt-3 w-64 rounded-xl bg-white p-2 shadow-xl ring-1 ring-black/5">
+            {magazineOpen && (
+              <ul className="absolute left-0 top-full z-40 mt-3 w-56 rounded-xl bg-white p-2 shadow-xl ring-1 ring-black/5">
                 <li
                   onClick={(event) => {
                     event.stopPropagation();
-                    goTo("/contact");
+                    goTo("/larksois-mag/category/news");
                   }}
-                  className={`${dropdownItemClass} ${pathname === "/contact" ? activeDropdownItemClass : "text-gray-700 hover:bg-gray-100"}`}
+                  className={`${dropdownItemClass} ${magazineCategory === "news" ? activeDropdownItemClass : "text-gray-700 hover:bg-gray-100"}`}
                 >
-                  Contact
+                  News
                 </li>
-                <li className="px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-100">
-                  <a href={companyProfile.documents.companyProfilePdf} target="_blank" rel="noreferrer">
-                    Company Profile
-                  </a>
-                </li>
-                <li className="px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-100">
-                  <a href={companyProfile.documents.productListPdf} target="_blank" rel="noreferrer">
-                    Product List
-                  </a>
+                <li
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    goTo("/larksois-mag/category/health");
+                  }}
+                  className={`${dropdownItemClass} ${magazineCategory === "health" ? activeDropdownItemClass : "text-gray-700 hover:bg-gray-100"}`}
+                >
+                  Health
                 </li>
               </ul>
             )}
@@ -420,6 +425,12 @@ export default function Navbar({ companyProfile }) {
 
                 <div className="mt-2 flex flex-col gap-1 pl-2">
                   <span
+                    onClick={() => goTo("/offerings-overview")}
+                    className={mobileSubItemClass(pathname === "/offerings-overview")}
+                  >
+                    Overview
+                  </span>
+                  <span
                     onClick={() => goTo("/products")}
                     className={mobileSubItemClass(isProductsPath)}
                   >
@@ -477,37 +488,27 @@ export default function Navbar({ companyProfile }) {
               <details className="group rounded-xl bg-gray-50 p-2">
                 <summary className="flex cursor-pointer items-center justify-between px-2 py-2 text-[#0d2d47]">
                   <span
-                    className={`rounded-full px-3 py-1 ${isResourcesActive ? activeTopLinkClass : ""
+                    className={`rounded-full px-3 py-1 ${isMagazineActive ? activeTopLinkClass : ""
                       }`}
                   >
-                    Resources
+                    Larksois Magazine
                   </span>
                   <ChevronDownIcon className="h-4 w-4 transition-transform group-open:rotate-180" />
                 </summary>
 
                 <div className="mt-2 flex flex-col gap-1 pl-2">
                   <span
-                    onClick={() => goTo("/contact")}
-                    className={mobileSubItemClass(pathname === "/contact")}
+                    onClick={() => goTo("/larksois-mag/category/news")}
+                    className={mobileSubItemClass(magazineCategory === "news")}
                   >
-                    Contact
+                    News
                   </span>
-                  <a
-                    href={companyProfile.documents.companyProfilePdf}
-                    target="_blank"
-                    rel="noreferrer"
-                    className={mobileSubItemClass(false)}
+                  <span
+                    onClick={() => goTo("/larksois-mag/category/health")}
+                    className={mobileSubItemClass(magazineCategory === "health")}
                   >
-                    Company Profile
-                  </a>
-                  <a
-                    href={companyProfile.documents.productListPdf}
-                    target="_blank"
-                    rel="noreferrer"
-                    className={mobileSubItemClass(false)}
-                  >
-                    Product List
-                  </a>
+                    Health
+                  </span>
                 </div>
               </details>
             </li>

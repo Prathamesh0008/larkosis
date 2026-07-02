@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import AboutLabsCarousel from "@/components/about/about-labs-carousel";
-import AboutPartnersStrip from "@/components/about/about-partners-strip";
 import AboutStats from "@/components/about/about-stats";
 import { companyProfile } from "@/data/companyProfile";
 import { getAllProducts, getCategoryCounts } from "@/lib/catalog";
@@ -322,7 +321,7 @@ export default function AboutPage() {
             <div className="absolute -left-6 -top-6 h-32 w-32 rounded-full bg-[#f4b083]/25 blur-2xl" />
             <div className="absolute -bottom-6 -right-6 h-40 w-40 rounded-full bg-[#ec671f]/15 blur-2xl" />
             <Image
-              src="/about/factory.png"
+              src="/about/factory.jpg"
               width={700}
               height={600}
               alt="Larksois Pharma manufacturing"
@@ -409,14 +408,12 @@ export default function AboutPage() {
                 key={item.title}
                 className="rounded-2xl border border-[#f0dfd3] bg-[#fcfaf8] p-6 transition-all duration-300 hover:shadow-xl"
               >
-                <div className="mb-5 flex items-center gap-4">
-                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[#2b1d16] text-sm font-bold text-white">
-                    {String(index + 1).padStart(2, "0")}
-                  </div>
-                  <h3 className="text-xl font-bold text-[#241913] sm:text-2xl">
-                    {item.title}
-                  </h3>
+                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-[#2b1d16] text-sm font-bold text-white">
+                  {String(index + 1).padStart(2, "0")}
                 </div>
+                <h3 className="text-xl font-bold text-[#241913] sm:text-2xl">
+                  {item.title}
+                </h3>
                 <p className="mt-4 text-sm leading-7 text-[#5f4638] sm:text-base">
                   {item.desc}
                 </p>
@@ -441,27 +438,12 @@ export default function AboutPage() {
 
           <div className="grid gap-8 md:grid-cols-2 md:gap-12">
             <div className="rounded-2xl border border-white/10 bg-white/5 p-8 md:p-10">
-              <div className="mb-6 flex items-center gap-4">
-                <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl bg-white/10 text-[#f4b083]">
-                  <svg
-                    className="h-8 w-8"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.8}
-                      d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
-                    />
-                    <circle cx="12" cy="12" r="3" strokeWidth={1.8} />
-                  </svg>
-                </div>
-                <h3 className="text-2xl font-bold text-[#f4b083] md:text-3xl">
-                  Vision
-                </h3>
+              <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-xl bg-white/10 text-2xl font-bold text-[#f4b083]">
+                V
               </div>
+              <h3 className="mb-4 text-2xl font-bold text-[#f4b083] md:text-3xl">
+                Vision
+              </h3>
               <p className="text-base leading-8 text-white/80 md:text-lg">
                 To become a trusted pharmaceutical partner recognized for
                 quality, affordability, and meaningful global healthcare reach.
@@ -469,26 +451,12 @@ export default function AboutPage() {
             </div>
 
             <div className="rounded-2xl border border-white/10 bg-white/5 p-8 md:p-10">
-              <div className="mb-6 flex items-center gap-4">
-                <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl bg-white/10 text-[#f4b083]">
-                  <svg
-                    className="h-8 w-8"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.8}
-                      d="M12 21s-7-4.35-7-10a4 4 0 017-2.645A4 4 0 0119 11c0 5.65-7 10-7 10z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="text-2xl font-bold text-[#f4b083] md:text-3xl">
-                  Mission
-                </h3>
+              <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-xl bg-white/10 text-2xl font-bold text-[#f4b083]">
+                M
               </div>
+              <h3 className="mb-4 text-2xl font-bold text-[#f4b083] md:text-3xl">
+                Mission
+              </h3>
               <p className="text-base leading-8 text-white/80 md:text-lg">
                 To deliver market-relevant pharmaceutical formulations through
                 compliant operations, research-led development, and responsive
@@ -793,19 +761,17 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="relative mx-auto max-w-5xl overflow-hidden rounded-2xl shadow-2xl">
+          <div className="relative mx-auto  overflow-hidden rounded-2xl shadow-2xl">
             <Image
               src="/about/worldmap.png"
               width={1200}
               height={600}
               alt="Larksois Pharma global presence map"
-              className="h-auto w-full"
+              className="h-[260px] w-full object-contain sm:h-[340px] lg:h-[420px]"
             />
           </div>
         </div>
       </section>
-
-      <AboutPartnersStrip />
 
       <section className="bg-[linear-gradient(90deg,#2b1d16_0%,#6f4124_100%)] py-10 sm:py-14 md:py-16">
         <div className="mx-auto max-w-4xl px-4 text-center">

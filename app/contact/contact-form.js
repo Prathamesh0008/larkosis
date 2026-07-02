@@ -222,19 +222,23 @@ export default function ContactForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="rounded-2xl border border-[#f2d8c7] bg-white p-5 shadow-[0_12px_28px_rgba(175,86,37,0.08)] sm:p-6"
+      className="border border-[#f0dfd3] bg-white p-8 shadow-sm"
     >
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-2xl font-bold text-[#291b12]">Send Inquiry</h2>
-          <p className="mt-1 text-sm text-[#5e4332]">
-            Submit your requirement. We will connect with quotation details.
+          <h2 className="text-xl font-semibold text-[#241913]">Send Us A Message</h2>
+          <p className="mt-1 text-sm text-[#8c6e5c]">
+            We&apos;ll get back to you within 24 hours.
           </p>
         </div>
         
         {/* Live validation indicator */}
         <div className="hidden sm:block">
-          <div className={`h-2 w-2 rounded-full ${Object.keys(errors).length === 0 ? 'bg-green-500' : 'bg-red-500'}`} />
+          <div
+            className={`h-2 w-2 rounded-full ${
+              Object.keys(errors).length === 0 ? "bg-[#ec671f]" : "bg-[#c65b2b]"
+            }`}
+          />
         </div>
       </div>
 
@@ -242,9 +246,9 @@ export default function ContactForm() {
       {submitStatus && (
         <div
           className={`mt-4 rounded-xl p-4 text-sm ${
-            submitStatus.type === 'success' 
-              ? 'bg-green-50 text-green-800 border border-green-200' 
-              : 'bg-red-50 text-red-800 border border-red-200'
+            submitStatus.type === 'success'
+              ? 'border border-[#f2cfba] bg-[#fff4ea] text-[#8a4725]'
+              : 'border border-[#f0c6c6] bg-[#fff3f3] text-[#9c3838]'
           }`}
         >
           <div className="flex items-center gap-2">
@@ -447,7 +451,7 @@ export default function ContactForm() {
         <div className="space-y-1 sm:col-span-2">
           <div className="flex items-center justify-between">
             <label className="text-xs font-semibold text-[#7b4f37]">Requirements *</label>
-            <span className={`text-xs ${charCount > charLimit * 0.8 ? 'text-orange-500' : 'text-[#b18b75]'}`}>
+            <span className={`text-xs ${charCount > charLimit * 0.8 ? 'text-[#ec671f]' : 'text-[#b18b75]'}`}>
               {charCount}/{charLimit}
             </span>
           </div>
@@ -473,7 +477,7 @@ export default function ContactForm() {
             </p>
           ) : (
             charCount > charLimit * 0.8 && charCount < charLimit && (
-              <p className="text-xs text-orange-500 mt-1">
+              <p className="mt-1 text-xs text-[#ec671f]">
                 You are approaching the character limit
               </p>
             )
@@ -499,7 +503,7 @@ export default function ContactForm() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="relative min-w-[160px] overflow-hidden rounded-xl bg-[#ec671f] px-6 py-3 text-sm font-bold text-white transition-all hover:bg-[#d85f1d] disabled:cursor-not-allowed disabled:opacity-70 group"
+            className="relative min-w-[160px] overflow-hidden rounded-full bg-[linear-gradient(90deg,#2b1d16_0%,#ec671f_100%)] px-6 py-3 text-sm font-bold text-white transition-all duration-300 hover:shadow-lg disabled:cursor-not-allowed disabled:opacity-70 group"
           >
             {isSubmitting ? (
               <span className="flex items-center justify-center gap-2">

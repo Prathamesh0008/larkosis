@@ -71,7 +71,7 @@ export default function ContactPage() {
 
           <div className="relative h-[500px] overflow-hidden rounded-xl border border-[#f0dfd3] shadow-sm lg:h-auto">
             <Image
-              src="/about/factory.png"
+              src="/about/factory.jpg"
               alt="Larksois Pharma facility"
               fill
               className="object-cover transition-transform duration-700 hover:scale-105"
