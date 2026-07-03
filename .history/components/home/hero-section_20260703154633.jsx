@@ -37,7 +37,9 @@ export default function HeroSection({
 
       <div className="relative z-10 mx-auto flex min-h-[700px] max-w-7xl items-center px-4 py-20 sm:px-6 lg:px-8">
         <div className="max-w-2xl animate-fade-up text-white">
-          
+          <p className="inline-flex items-center rounded-full border border-white/30 bg-white/10 px-4 py-1 text-xs font-bold uppercase tracking-[0.16em] text-white backdrop-blur-sm">
+            Larkosis Pharma
+          </p>
           <h1 className="mt-5 text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
             {heroContent?.title || "Trusted Global Pharmaceutical Excellence"}
           </h1>

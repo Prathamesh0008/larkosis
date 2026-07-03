@@ -1,12 +1,16 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function SiteFooter({ companyProfile, year }) {
+  const { translations } = useLanguage();
   const quickLinks = [
-    { href: "/", label: "Home" },
-    { href: "/products", label: "Products" },
-    { href: "/about", label: "About" },
-    { href: "/contact", label: "Contact" },
+    { href: "/", label: translations?.footer?.links?.home || "Home" },
+    { href: "/products", label: translations?.footer?.links?.products || "Products" },
+    { href: "/about", label: translations?.footer?.links?.about || "About" },
+    { href: "/contact", label: translations?.footer?.links?.contact || "Contact" },
   ];
 
   return (
@@ -27,13 +31,13 @@ export default function SiteFooter({ companyProfile, year }) {
             <p className="max-w-sm text-sm leading-relaxed text-[#eadbd2]">
               <span className="font-semibold text-white">{companyProfile.brand}</span>
               <br />
-              {companyProfile.overview}
+              {translations?.footer?.description || companyProfile.overview}
             </p>
           </div>
 
           <div>
             <h3 className="mb-4 text-lg font-semibold uppercase text-[#ec671f]">
-              Quick Links
+              {translations?.footer?.quickLinks || "Quick Links"}
             </h3>
 
             <ul className="space-y-2 text-sm text-[#eadbd2]">
@@ -54,13 +58,15 @@ export default function SiteFooter({ companyProfile, year }) {
 
           <div>
             <h3 className="mb-4 text-lg font-semibold uppercase text-[#f4b083]">
-              Contact
+              {translations?.footer?.contact || "Contact"}
             </h3>
 
             <ul className="space-y-2 text-sm text-[#eadbd2]">
               <li>{companyProfile.officeAddress}</li>
               <li>
-                <span className="font-semibold text-white">Email:</span>{" "}
+                <span className="font-semibold text-white">
+                  {translations?.footer?.emailLabel || "Email"}:
+                </span>{" "}
                 <a href={`mailto:${companyProfile.email}`} className="transition hover:text-white">
                   {companyProfile.email}
                 </a>
@@ -104,7 +110,7 @@ export default function SiteFooter({ companyProfile, year }) {
       </div>
 
       <div className="border-t border-white/10 bg-[#1b140f] px-4 py-4 text-center text-sm text-[#d7c6bc]">
-        &copy; {year} <span className="font-medium text-white">{companyProfile.brand}</span> | All Rights Reserved
+        &copy; {year} <span className="font-medium text-white">{companyProfile.brand}</span> | {translations?.footer?.rights || "All Rights Reserved"}
       </div>
     </footer>
   );

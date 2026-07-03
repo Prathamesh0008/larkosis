@@ -6,6 +6,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import * as THREE from "three";
 import { feature } from "topojson-client";
 import { geoCentroid } from "d3-geo";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Globe = dynamic(() => import("react-globe.gl"), { ssr: false });
 
@@ -24,7 +25,6 @@ const regions = [
     ],
     lat: 20,
     lon: 95,
-    altitude: 1.8,
   },
   {
     id: "africa",
@@ -35,7 +35,6 @@ const regions = [
     ],
     lat: 5,
     lon: 20,
-    altitude: 1.9,
   },
   {
     id: "north-america",
@@ -46,7 +45,6 @@ const regions = [
     ],
     lat: 38,
     lon: -100,
-    altitude: 1.85,
   },
   {
     id: "latin-america",
@@ -57,7 +55,6 @@ const regions = [
     ],
     lat: -15,
     lon: -62,
-    altitude: 1.9,
   },
   {
     id: "middle-east",
@@ -68,7 +65,6 @@ const regions = [
     ],
     lat: 28,
     lon: 45,
-    altitude: 2,
   },
   {
     id: "europe",
@@ -79,7 +75,6 @@ const regions = [
     ],
     lat: 50,
     lon: 12,
-    altitude: 1.95,
   },
 ];
 
@@ -93,58 +88,23 @@ function isInRange(lat, lon, bounds) {
 }
 
 function getRegionByCoord(lat, lon) {
-  if (
-    isInRange(lat, lon, {
-      minLat: 12,
-      maxLat: 42,
-      minLon: 30,
-      maxLon: 65,
-    })
-  ) {
+  if (isInRange(lat, lon, { minLat: 12, maxLat: 42, minLon: 30, maxLon: 65 })) {
     return "middle-east";
   }
 
-  if (
-    isInRange(lat, lon, {
-      minLat: 34,
-      maxLat: 72,
-      minLon: -25,
-      maxLon: 45,
-    })
-  ) {
+  if (isInRange(lat, lon, { minLat: 34, maxLat: 72, minLon: -25, maxLon: 45 })) {
     return "europe";
   }
 
-  if (
-    isInRange(lat, lon, {
-      minLat: -35,
-      maxLat: 37,
-      minLon: -20,
-      maxLon: 55,
-    })
-  ) {
+  if (isInRange(lat, lon, { minLat: -35, maxLat: 37, minLon: -20, maxLon: 55 })) {
     return "africa";
   }
 
-  if (
-    isInRange(lat, lon, {
-      minLat: 7,
-      maxLat: 84,
-      minLon: -170,
-      maxLon: -30,
-    })
-  ) {
+  if (isInRange(lat, lon, { minLat: 7, maxLat: 84, minLon: -170, maxLon: -30 })) {
     return "north-america";
   }
 
-  if (
-    isInRange(lat, lon, {
-      minLat: -56,
-      maxLat: 33,
-      minLon: -120,
-      maxLon: -30,
-    })
-  ) {
+  if (isInRange(lat, lon, { minLat: -56, maxLat: 33, minLon: -120, maxLon: -30 })) {
     return "latin-america";
   }
 
@@ -152,15 +112,33 @@ function getRegionByCoord(lat, lon) {
 }
 
 export default function IvexiaGlobalPresence() {
+  const { translations } = useLanguage();
   const [activeId, setActiveId] = useState("asia");
-  const [canvasSize, setCanvasSize] = useState({
-    width: 520,
-    height: 520,
-  });
+  const [canvasSize, setCanvasSize] = useState({ width: 520, height: 520 });
   const [isGlobeReady, setIsGlobeReady] = useState(false);
 
   const containerRef = useRef(null);
   const globeRef = useRef(null);
+
+  const translatedRegions = useMemo(
+    () =>
+      regions.map((region) => ({
+        ...region,
+        label: translations?.accordSection?.regions?.[region.id]?.label || region.label,
+        paragraphs: [
+          translations?.accordSection?.regions?.[region.id]?.paragraphs?.[0] ||
+            region.paragraphs[0],
+          translations?.accordSection?.regions?.[region.id]?.paragraphs?.[1] ||
+            region.paragraphs[1],
+        ],
+      })),
+    [translations],
+  );
+
+  const activeRegion = useMemo(
+    () => translatedRegions.find((item) => item.id === activeId) || translatedRegions[0],
+    [activeId, translatedRegions],
+  );
 
   const globeMaterial = useMemo(
     () =>
@@ -172,11 +150,6 @@ export default function IvexiaGlobalPresence() {
         specular: new THREE.Color("#d3d6dc"),
       }),
     [],
-  );
-
-  const activeRegion = useMemo(
-    () => regions.find((item) => item.id === activeId) || regions[0],
-    [activeId],
   );
 
   const polygonsData = useMemo(() => {
@@ -230,10 +203,7 @@ export default function IvexiaGlobalPresence() {
       setCanvasSize((prev) =>
         prev.width === width && prev.height === width
           ? prev
-          : {
-              width,
-              height: width,
-            },
+          : { width, height: width },
       );
     });
 
@@ -295,15 +265,12 @@ export default function IvexiaGlobalPresence() {
   return (
     <>
       <main className="ivexia-presence min-h-[70vh]">
-        <section
-          className="presence-wrap"
-          aria-label="Global presence by region"
-        >
-          <h2>Global Presence</h2>
+        <section className="presence-wrap" aria-label="Global presence by region">
+          <h2>{translations?.accordSection?.title || "Global Presence"}</h2>
 
           <div className="presence-grid">
             <nav className="region-nav" aria-label="Region selector">
-              {regions.map((region) => {
+              {translatedRegions.map((region) => {
                 const selected = activeId === region.id;
 
                 return (

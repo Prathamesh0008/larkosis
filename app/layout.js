@@ -5,6 +5,7 @@ import { SITE_URL, absoluteUrl } from "@/lib/seo";
 import AnalyticsScripts from "@/components/layout/analytics-scripts";
 import SiteHeader from "@/components/layout/site-header";
 import SiteFooter from "@/components/layout/site-footer";
+import { LanguageProvider } from "@/contexts/LanguageContext";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -134,29 +135,31 @@ export default function RootLayout({ children }) {
         <AnalyticsScripts />
       </head>
       <body className={`${manrope.variable} ${spectral.variable} font-sans antialiased`}>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
-        />
+        <LanguageProvider>
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+          />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+          />
 
-        <a
-          href="#main-content"
-          className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-white focus:p-4 focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#ec671f]"
-        >
-          Skip to main content
-        </a>
+          <a
+            href="#main-content"
+            className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-white focus:p-4 focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#ec671f]"
+          >
+            Skip to main content
+          </a>
 
-        <div className="flex min-h-screen flex-col">
-          <SiteHeader navLinks={navLinks} companyProfile={companyProfile} />
-          <main id="main-content" className="flex-1 pt-[64px] sm:pt-[70px]">
-            {children}
-          </main>
-          <SiteFooter companyProfile={companyProfile} year={year} />
-        </div>
+          <div className="flex min-h-screen flex-col">
+            <SiteHeader navLinks={navLinks} companyProfile={companyProfile} />
+            <main id="main-content" className="flex-1 pt-[64px] sm:pt-[70px]">
+              {children}
+            </main>
+            <SiteFooter companyProfile={companyProfile} year={year} />
+          </div>
+        </LanguageProvider>
       </body>
     </html>
   );

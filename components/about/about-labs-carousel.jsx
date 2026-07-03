@@ -6,10 +6,15 @@ import { useEffect, useRef, useState } from "react";
 export default function AboutLabsCarousel({ labImages }) {
   const scrollRef = useRef(null);
   const [isHovered, setIsHovered] = useState(false);
+  const [isDragging, setIsDragging] = useState(false);
+  const dragStateRef = useRef({
+    startX: 0,
+    scrollLeft: 0,
+  });
 
   useEffect(() => {
     const container = scrollRef.current;
-    if (!container || isHovered) return;
+    if (!container || isHovered || isDragging) return;
 
     const interval = window.setInterval(() => {
       const maxScrollLeft = container.scrollWidth - container.clientWidth;
@@ -23,14 +28,52 @@ export default function AboutLabsCarousel({ labImages }) {
     }, 15);
 
     return () => window.clearInterval(interval);
-  }, [isHovered]);
+  }, [isDragging, isHovered]);
+
+  const handlePointerDown = (event) => {
+    const container = scrollRef.current;
+    if (!container) return;
+
+    setIsDragging(true);
+    dragStateRef.current = {
+      startX: event.clientX,
+      scrollLeft: container.scrollLeft,
+    };
+  };
+
+  const handlePointerMove = (event) => {
+    const container = scrollRef.current;
+    if (!container || !isDragging) return;
+
+    const distance = event.clientX - dragStateRef.current.startX;
+    container.scrollLeft = dragStateRef.current.scrollLeft - distance;
+  };
+
+  const stopDragging = () => {
+    setIsDragging(false);
+  };
+
+  const handleWheel = (event) => {
+    const container = scrollRef.current;
+    if (!container) return;
+
+    if (Math.abs(event.deltaY) > Math.abs(event.deltaX)) {
+      event.preventDefault();
+      container.scrollLeft += event.deltaY;
+    }
+  };
 
   return (
     <div
       ref={scrollRef}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className="hide-scrollbar flex gap-6 overflow-x-auto px-1 pb-4"
+      onPointerDown={handlePointerDown}
+      onPointerMove={handlePointerMove}
+      onPointerUp={stopDragging}
+      onPointerLeave={stopDragging}
+      onWheel={handleWheel}
+      className={`hide-scrollbar flex gap-6 overflow-x-auto px-1 pb-4 ${isDragging ? "cursor-grabbing" : "cursor-grab"}`}
     >
       {labImages.map((img, index) => (
         <div

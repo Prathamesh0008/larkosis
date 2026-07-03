@@ -36,6 +36,7 @@ export const metadata = {
 
 const extraInfoCards = [
   {
+    badge: "Who We Are",
     title: "An emerging pharmaceutical company with a global outlook",
     desc: companyProfile.overview,
     points: [
@@ -44,6 +45,7 @@ const extraInfoCards = [
     ],
   },
   {
+    badge: "Quality Systems",
     title: "Compliance-backed operations for dependable supply",
     desc: companyProfile.quality,
     points: [
@@ -52,6 +54,7 @@ const extraInfoCards = [
     ],
   },
   {
+    badge: "Export Strength",
     title: "Commercial readiness for multi-market requirements",
     desc: companyProfile.marketFocus,
     points: [
@@ -288,6 +291,9 @@ export default function AboutPage() {
 
         <div className="absolute bottom-1/4 left-1/2 w-full max-w-7xl -translate-x-1/2 px-4 sm:px-6 lg:px-8">
           <div className="text-center">
+            <span className="inline-block rounded-full border border-white/20 bg-white/10 px-6 py-2 text-sm font-semibold tracking-[0.2em] text-white backdrop-blur-md">
+              LARKSOIS PHARMA
+            </span>
             <h1 className="mt-6 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
               Building trusted global pharmaceutical partnerships
             </h1>
@@ -302,7 +308,7 @@ export default function AboutPage() {
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent" />
       </section>
 
-      <ScrollReveal as="section" className="relative z-10 bg-white py-10 sm:py-12" delay={40} variant="zoomUp">
+      <ScrollReveal as="section" className="relative z-10 bg-white py-10 sm:py-12" delay={40}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <AboutStats
             productCount={productCount}
@@ -311,7 +317,7 @@ export default function AboutPage() {
         </div>
       </ScrollReveal>
 
-      <ScrollReveal as="section" className="mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-14 md:px-10 md:py-16" delay={70} variant="left">
+      <ScrollReveal as="section" className="mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-14 md:px-10 md:py-16" delay={70}>
         <div className="grid items-center gap-12 md:grid-cols-2 md:gap-16">
           <div className="relative order-2 md:order-1">
             <div className="absolute -left-6 -top-6 h-32 w-32 rounded-full bg-[#f4b083]/25 blur-2xl" />
@@ -354,7 +360,7 @@ export default function AboutPage() {
         </div>
       </ScrollReveal>
 
-      <ScrollReveal as="section" className="bg-[#fbf7f3] py-10 sm:py-12" delay={100} variant="soft">
+      <ScrollReveal as="section" className="bg-[#fbf7f3] py-10 sm:py-12" delay={100}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="grid gap-6 md:grid-cols-3 md:gap-8">
             {extraInfoCards.map((item) => (
@@ -362,7 +368,10 @@ export default function AboutPage() {
                 key={item.title}
                 className="rounded-2xl border border-[#f0dfd3] bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-xl"
               >
-                <h3 className="text-xl font-bold text-[#241913] sm:text-2xl">
+                <span className="block text-xs font-semibold uppercase tracking-[0.2em] text-[#ec671f]">
+                  {item.badge}
+                </span>
+                <h3 className="mt-3 text-xl font-bold text-[#241913] sm:text-2xl">
                   {item.title}
                 </h3>
                 <p className="mt-4 text-sm leading-7 text-[#5f4638] sm:text-base">
@@ -382,10 +391,12 @@ export default function AboutPage() {
         </div>
       </ScrollReveal>
 
-      <ScrollReveal as="section" className="bg-white py-20 sm:py-28" delay={120} variant="up">
+      <ScrollReveal as="section" className="bg-white py-20 sm:py-28" delay={120}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="mb-8 text-center sm:mb-10">
-            
+            <span className="block text-sm font-semibold uppercase tracking-[0.2em] text-[#ec671f]">
+              Detailed Overview
+            </span>
             <h2 className="mt-4 text-3xl font-bold text-[#241913] sm:text-4xl md:text-5xl">
               A broader look at how Larksois Pharma operates
             </h2>
@@ -414,7 +425,7 @@ export default function AboutPage() {
         </div>
       </ScrollReveal>
 
-      <ScrollReveal as="section" className="bg-[#2b1d16] py-10 text-white sm:py-14 md:py-16" delay={140} variant="zoom">
+      <ScrollReveal as="section" className="bg-[#2b1d16] py-10 text-white sm:py-14 md:py-16" delay={140}>
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="mb-8 text-center sm:mb-10">
             <h2 className="text-3xl font-bold sm:text-4xl md:text-5xl">
@@ -487,7 +498,7 @@ export default function AboutPage() {
         </div>
       </ScrollReveal>
 
-      <ScrollReveal as="section" className="bg-[#fbf7f3] py-20 sm:py-28" delay={160} variant="right">
+      <ScrollReveal as="section" className="bg-[#fbf7f3] py-20 sm:py-28" delay={160}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="mb-8 text-center sm:mb-10">
            
@@ -524,9 +535,12 @@ export default function AboutPage() {
         </div>
       </ScrollReveal>
 
-      <ScrollReveal as="section" className="bg-[#fbf7f3] py-10 sm:py-14 md:py-16" delay={180} variant="soft">
+      <ScrollReveal as="section" className="bg-[#fbf7f3] py-10 sm:py-14 md:py-16" delay={180}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="mb-8 text-center sm:mb-10">
+            <span className="block text-sm font-semibold uppercase tracking-[0.2em] text-[#ec671f]">
+              Global Operations
+            </span>
             <h2 className="mt-4 text-3xl font-bold text-[#241913] sm:text-4xl md:text-5xl">
               Commercial focus across multiple international regions
             </h2>
@@ -560,9 +574,12 @@ export default function AboutPage() {
         </div>
       </ScrollReveal>
 
-      <ScrollReveal as="section" className="bg-white py-10 sm:py-14 md:py-16" delay={200} variant="left">
+      <ScrollReveal as="section" className="bg-white py-10 sm:py-14 md:py-16" delay={200}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="mb-8 text-center sm:mb-10">
+            <span className="block text-sm font-semibold uppercase tracking-[0.2em] text-[#ec671f]">
+              Expertise
+            </span>
             <h2 className="mt-4 text-3xl font-bold text-[#241913] sm:text-4xl md:text-5xl">
               Core strengths that support our business
             </h2>
@@ -599,10 +616,12 @@ export default function AboutPage() {
         </div>
       </ScrollReveal>
 
-      <ScrollReveal as="section" className="bg-[#fcfaf8] py-16 sm:py-24 md:py-32" delay={220} variant="zoomUp">
+      <ScrollReveal as="section" className="bg-[#fcfaf8] py-16 sm:py-24 md:py-32" delay={220}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="mb-10 text-center sm:mb-16">
-           
+            <span className="block text-xs font-semibold uppercase tracking-[0.2em] text-[#ec671f] sm:text-sm">
+              Leadership
+            </span>
             <h2 className="mt-3 text-3xl font-bold text-[#241913] sm:text-4xl md:text-5xl">
               Leadership that drives trust and execution
             </h2>
@@ -645,9 +664,12 @@ export default function AboutPage() {
         </div>
       </ScrollReveal>
 
-      <ScrollReveal as="section" className="bg-[#fbf7f3] py-10 sm:py-14 md:py-16" delay={240} variant="right">
+      <ScrollReveal as="section" className="bg-[#fbf7f3] py-10 sm:py-14 md:py-16" delay={240}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="mb-8 text-center sm:mb-10">
+            <span className="block text-sm font-semibold uppercase tracking-[0.2em] text-[#ec671f]">
+              Certifications
+            </span>
             <h2 className="mt-4 text-3xl font-bold text-[#241913] sm:text-4xl md:text-5xl">
               Quality commitment reflected through recognized standards
             </h2>
@@ -681,7 +703,7 @@ export default function AboutPage() {
         </div>
       </ScrollReveal>
 
-      <ScrollReveal as="section" className="relative overflow-hidden" delay={260} variant="zoom">
+      <ScrollReveal as="section" className="relative overflow-hidden" delay={260}>
         <div className="absolute inset-0">
           <Image
             src="/about/abouthero.jpg"
@@ -705,9 +727,12 @@ export default function AboutPage() {
         </div>
       </ScrollReveal>
 
-      <ScrollReveal as="section" className="bg-white py-10 sm:py-14 md:py-16" delay={280} variant="left">
+      <ScrollReveal as="section" className="bg-white py-10 sm:py-14 md:py-16" delay={280}>
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 md:grid-cols-2 md:gap-16">
           <div>
+            <span className="inline-block rounded-full bg-[#fff1e5] px-3 py-1 text-sm font-semibold uppercase tracking-[0.18em] text-[#ec671f]">
+              Sustainability
+            </span>
             <h2 className="mt-4 text-3xl font-bold leading-tight text-[#241913] sm:text-4xl md:text-5xl">
               Building stable operations with long-term responsibility
             </h2>
@@ -744,9 +769,12 @@ export default function AboutPage() {
         </div>
       </ScrollReveal>
 
-      <ScrollReveal as="section" className="bg-[#fbf7f3] py-10 sm:py-14 md:py-16" delay={300} variant="tilt">
+      <ScrollReveal as="section" className="bg-[#fbf7f3] py-10 sm:py-14 md:py-16" delay={300}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="mb-8 text-center sm:mb-10">
+            <span className="block text-sm font-semibold uppercase tracking-[0.2em] text-[#ec671f]">
+              R&D Labs
+            </span>
             <h2 className="mt-4 text-3xl font-bold text-[#241913] sm:text-4xl md:text-5xl">
               Research and analytical environments that support product quality
             </h2>
@@ -759,9 +787,12 @@ export default function AboutPage() {
         </div>
       </ScrollReveal>
 
-      <ScrollReveal as="section" className="py-10 sm:py-14 md:py-16" delay={320} variant="soft">
+      <ScrollReveal as="section" className="py-10 sm:py-14 md:py-16" delay={320}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="mb-8 text-center sm:mb-10">
+            <span className="block text-sm font-semibold uppercase tracking-[0.2em] text-[#ec671f]">
+              Global Presence
+            </span>
             <h2 className="mt-4 text-3xl font-bold text-[#241913] sm:text-4xl md:text-5xl">
               Expanding reach across international healthcare markets
             </h2>
@@ -784,7 +815,7 @@ export default function AboutPage() {
       </ScrollReveal>
 
 
-      <ScrollReveal as="section" className="bg-[linear-gradient(90deg,#2b1d16_0%,#6f4124_100%)] py-10 sm:py-14 md:py-16" delay={360} variant="zoomUp">
+      <ScrollReveal as="section" className="bg-[linear-gradient(90deg,#2b1d16_0%,#6f4124_100%)] py-10 sm:py-14 md:py-16" delay={360}>
         <div className="mx-auto max-w-4xl px-4 text-center">
           <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl md:text-5xl lg:text-6xl">
             Explore partnership opportunities with Larksois Pharma
@@ -815,9 +846,12 @@ export default function AboutPage() {
         </div>
       </ScrollReveal>
 
-      <ScrollReveal as="section" className="bg-[#fbf7f3] py-20 sm:py-28" delay={380} variant="up">
+      <ScrollReveal as="section" className="bg-[#fbf7f3] py-20 sm:py-28" delay={380}>
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           <div className="mb-8 text-center sm:mb-10">
+            <span className="block text-sm font-semibold uppercase tracking-[0.2em] text-[#ec671f]">
+              FAQ
+            </span>
             <h2 className="mt-4 text-3xl font-bold text-[#241913] sm:text-4xl md:text-5xl">
               Frequently asked questions
             </h2>

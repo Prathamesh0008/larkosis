@@ -7,7 +7,6 @@ import { usePathname, useRouter } from "next/navigation";
 
 import { getAllProducts } from "@/lib/catalog";
 import { getAllActiveIngredients } from "@/lib/ingredients";
-import { useLanguage } from "@/contexts/LanguageContext";
 
 function SearchIcon(props) {
   return (
@@ -70,36 +69,18 @@ export default function Navbar({ companyProfile }) {
   const [ingredients] = useState(() => getAllActiveIngredients());
   const [showSearch, setShowSearch] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const [showLanguages, setShowLanguages] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
   const [suggestions, setSuggestions] = useState([]);
   const [productsOpen, setProductsOpen] = useState(false);
   const [magazineOpen, setMagazineOpen] = useState(false);
   const [products] = useState(() => getAllProducts());
-  const { translations, loadLanguage, language } = useLanguage();
 
   const router = useRouter();
   const pathname = usePathname();
 
   const productsRef = useRef(null);
   const magazineRef = useRef(null);
-  const langRef = useRef(null);
   const searchRef = useRef(null);
-
-  const languages = [
-    { code: "en", label: "English", flag: "gb" },
-    { code: "nl", label: "Dutch", flag: "nl" },
-    { code: "es", label: "Spanish", flag: "es" },
-    { code: "de", label: "German", flag: "de" },
-    { code: "pt", label: "Portuguese", flag: "pt" },
-    { code: "fr", label: "French", flag: "fr" },
-    { code: "zh", label: "Chinese", flag: "cn" },
-    { code: "ja", label: "Japanese", flag: "jp" },
-    { code: "ar", label: "Arabic", flag: "sa" },
-  ];
-
-  const currentLang =
-    languages.find((item) => item.code === language) || languages[0];
 
   const isIngredientsPath =
     pathname === "/active-ingredients" || pathname.startsWith("/active-ingredients/");
@@ -152,9 +133,6 @@ export default function Navbar({ companyProfile }) {
       if (magazineRef.current && !magazineRef.current.contains(event.target)) {
         setMagazineOpen(false);
       }
-      if (langRef.current && !langRef.current.contains(event.target)) {
-        setShowLanguages(false);
-      }
       if (
         searchRef.current &&
         !searchRef.current.contains(event.target) &&
@@ -172,7 +150,6 @@ export default function Navbar({ companyProfile }) {
     setMenuOpen(false);
     setProductsOpen(false);
     setMagazineOpen(false);
-    setShowLanguages(false);
     setShowSearch(false);
     setSuggestions([]);
 
@@ -242,12 +219,6 @@ export default function Navbar({ companyProfile }) {
     }
   };
 
-  const selectLanguage = (langCode) => {
-    loadLanguage(langCode);
-    setShowLanguages(false);
-    setMenuOpen(false);
-  };
-
   return (
     <nav className="fixed left-0 right-0 top-0 z-50 bg-white/95 shadow-md backdrop-blur-md">
       <div className="mx-auto flex h-[64px] max-w-7xl items-center justify-between px-4 sm:h-[80px] sm:px-6 xl:px-10 2xl:px-0">
@@ -267,7 +238,7 @@ export default function Navbar({ companyProfile }) {
             onClick={() => goTo("/")}
             className={`${topLinkClass} ${pathname === "/" ? activeTopLinkClass : ""}`}
           >
-            {translations?.nav?.home || "Home"}
+            Home
           </li>
 
           <li
@@ -276,7 +247,7 @@ export default function Navbar({ companyProfile }) {
             className={`relative ${topLinkClass} ${isOfferingsActive ? activeTopLinkClass : ""}`}
           >
             <span className="inline-flex items-center gap-1.5">
-              {translations?.nav?.offerings || "Our Products"}
+              Our Products
               <ChevronDownIcon
                 className={`h-4 w-4 transition-transform ${productsOpen ? "rotate-180" : ""}`}
               />
@@ -285,11 +256,11 @@ export default function Navbar({ companyProfile }) {
             {productsOpen && (
               <ul className="absolute left-0 top-full z-40 mt-3 w-72 rounded-xl bg-white p-2 shadow-xl ring-1 ring-black/5">
                 {[
-                  ["/offerings-overview", translations?.nav?.overview || "Overview", pathname === "/offerings-overview"],
-                  ["/products", translations?.nav?.products || "Finished Products", isProductsPath],
+                  ["/offerings-overview", "Overview", pathname === "/offerings-overview"],
+                  ["/products", "Finished Products", isProductsPath],
                   ["/pharmaceutical-products", "Pharmaceutical Products", pathname === "/pharmaceutical-products" || pathname.startsWith("/pharmaceutical-products/")],
-                  ["/active-ingredients", translations?.nav?.api || "API / Ingredients", isIngredientsPath],
-                  ["/over-the-counter", translations?.nav?.otc || "OTC", pathname === "/over-the-counter"],
+                  ["/active-ingredients", "API / Ingredients", isIngredientsPath],
+                  ["/over-the-counter", "OTC", pathname === "/over-the-counter"],
                   ["/private-label-manufacturing-oem", "Private Label Manufacturing / OEM", pathname === "/private-label-manufacturing-oem"],
                   ["/test-kits", "Test Kits", pathname === "/test-kits" || pathname.startsWith("/test-kits/")],
                 ].map(([href, label, active]) => (
@@ -312,55 +283,49 @@ export default function Navbar({ companyProfile }) {
             onClick={() => goTo("/about")}
             className={`${topLinkClass} ${pathname === "/about" ? activeTopLinkClass : ""}`}
           >
-            {translations?.nav?.about || "About Us"}
+            About Us
           </li>
 
           <li
             ref={magazineRef}
+            onClick={() => setMagazineOpen((prev) => !prev)}
             className={`relative ${topLinkClass} ${isMagazineActive ? activeTopLinkClass : ""}`}
           >
-            <button
-              type="button"
-              onClick={() => setMagazineOpen((prev) => !prev)}
-              className="inline-flex items-center gap-1.5"
-            >
-              {translations?.nav?.mag || "Larksois Magazine"}
+            <span className="inline-flex items-center gap-1.5">
+              Larksois Magazine
               <ChevronDownIcon
                 className={`h-4 w-4 transition-transform ${magazineOpen ? "rotate-180" : ""}`}
               />
-            </button>
+            </span>
 
             {magazineOpen && (
               <ul className="absolute left-0 top-full z-40 mt-3 w-56 rounded-xl bg-white p-2 shadow-xl ring-1 ring-black/5">
-                <li>
-                  <Link
-                    href="/larksois-mag/category/news"
-                    onClick={() => {
-                      setMenuOpen(false);
-                      setProductsOpen(false);
-                      setMagazineOpen(false);
-                      setShowSearch(false);
-                      setSuggestions([]);
-                    }}
-                    className={`block ${dropdownItemClass} ${magazineCategory === "news" ? activeDropdownItemClass : "text-gray-700 hover:bg-gray-100"}`}
-                  >
-                    {translations?.nav?.mag_news || "News"}
-                  </Link>
+                <li
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    goTo("/larksois-mag");
+                  }}
+                  className={`${dropdownItemClass} ${pathname === "/larksois-mag" ? activeDropdownItemClass : "text-gray-700 hover:bg-gray-100"}`}
+                >
+                  All Articles
                 </li>
-                <li>
-                  <Link
-                    href="/larksois-mag/category/health"
-                    onClick={() => {
-                      setMenuOpen(false);
-                      setProductsOpen(false);
-                      setMagazineOpen(false);
-                      setShowSearch(false);
-                      setSuggestions([]);
-                    }}
-                    className={`block ${dropdownItemClass} ${magazineCategory === "health" ? activeDropdownItemClass : "text-gray-700 hover:bg-gray-100"}`}
-                  >
-                    {translations?.nav?.mag_health || "Health"}
-                  </Link>
+                <li
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    goTo("/larksois-mag/category/news");
+                  }}
+                  className={`${dropdownItemClass} ${magazineCategory === "news" ? activeDropdownItemClass : "text-gray-700 hover:bg-gray-100"}`}
+                >
+                  News
+                </li>
+                <li
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    goTo("/larksois-mag/category/health");
+                  }}
+                  className={`${dropdownItemClass} ${magazineCategory === "health" ? activeDropdownItemClass : "text-gray-700 hover:bg-gray-100"}`}
+                >
+                  Health
                 </li>
               </ul>
             )}
@@ -370,54 +335,11 @@ export default function Navbar({ companyProfile }) {
             onClick={() => goTo("/contact")}
             className={`${topLinkClass} ${pathname === "/contact" ? activeTopLinkClass : ""}`}
           >
-            {translations?.nav?.contact || "Contact"}
+            Contact
           </li>
         </ul>
 
         <div className="flex items-center gap-3 sm:gap-4">
-          <div ref={langRef} className="relative hidden lg:block">
-            <button
-              type="button"
-              onClick={() => setShowLanguages((prev) => !prev)}
-              className="flex items-center gap-2 text-sm text-gray-600 transition hover:text-[#0d2d47]"
-            >
-              <Image
-                src={`https://flagcdn.com/w20/${currentLang.flag}.png`}
-                alt={currentLang.label}
-                width={20}
-                height={16}
-                unoptimized
-                className="h-4 w-5 rounded-sm"
-              />
-              <span>{currentLang.label}</span>
-              <ChevronDownIcon
-                className={`h-4 w-4 transition-transform ${showLanguages ? "rotate-180" : ""}`}
-              />
-            </button>
-
-            {showLanguages && (
-              <ul className="absolute right-0 z-50 mt-3 max-h-[320px] w-52 overflow-y-auto rounded-2xl border border-gray-100 bg-white/95 p-2 text-sm font-medium shadow-2xl backdrop-blur-md">
-                {languages.map((item) => (
-                  <li
-                    key={item.code}
-                    onClick={() => selectLanguage(item.code)}
-                    className="flex cursor-pointer items-center gap-2 rounded-lg px-3 py-2 hover:bg-gray-100"
-                  >
-                    <Image
-                      src={`https://flagcdn.com/w20/${item.flag}.png`}
-                      alt={item.label}
-                      width={20}
-                      height={16}
-                      unoptimized
-                      className="h-4 w-5 rounded-sm"
-                    />
-                    <span>{item.label}</span>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </div>
-
           <button
             type="button"
             className="lg:hidden"
@@ -495,7 +417,7 @@ export default function Navbar({ companyProfile }) {
               onClick={() => goTo("/")}
               className={`${topLinkClass} ${pathname === "/" ? activeTopLinkClass : ""}`}
             >
-              {translations?.nav?.home || "Home"}
+              Home
             </li>
 
             <li>
@@ -505,7 +427,7 @@ export default function Navbar({ companyProfile }) {
                     className={`rounded-full px-3 py-1 ${isOfferingsActive ? activeTopLinkClass : ""
                       }`}
                   >
-                    {translations?.nav?.offerings || "Our Products"}
+                    Our Products
                   </span>
                   <ChevronDownIcon className="h-4 w-4 transition-transform group-open:rotate-180" />
                 </summary>
@@ -515,13 +437,13 @@ export default function Navbar({ companyProfile }) {
                     onClick={() => goTo("/offerings-overview")}
                     className={mobileSubItemClass(pathname === "/offerings-overview")}
                   >
-                    {translations?.nav?.overview || "Overview"}
+                    Overview
                   </span>
                   <span
                     onClick={() => goTo("/products")}
                     className={mobileSubItemClass(isProductsPath)}
                   >
-                    {translations?.nav?.products || "Finished Products"}
+                    Finished Products
                   </span>
                   <span
                     onClick={() => goTo("/pharmaceutical-products")}
@@ -536,13 +458,13 @@ export default function Navbar({ companyProfile }) {
                     onClick={() => goTo("/active-ingredients")}
                     className={mobileSubItemClass(isIngredientsPath)}
                   >
-                    {translations?.nav?.api || "API / Ingredients"}
+                    API / Ingredients
                   </span>
                   <span
                     onClick={() => goTo("/over-the-counter")}
                     className={mobileSubItemClass(pathname === "/over-the-counter")}
                   >
-                    {translations?.nav?.otc || "OTC"}
+                    OTC
                   </span>
                   <span
                     onClick={() => goTo("/test-kits")}
@@ -568,7 +490,7 @@ export default function Navbar({ companyProfile }) {
               onClick={() => goTo("/about")}
               className={`${topLinkClass} ${pathname === "/about" ? activeTopLinkClass : ""}`}
             >
-              {translations?.nav?.about || "About Us"}
+              About Us
             </li>
 
             <li>
@@ -578,47 +500,30 @@ export default function Navbar({ companyProfile }) {
                     className={`rounded-full px-3 py-1 ${isMagazineActive ? activeTopLinkClass : ""
                       }`}
                   >
-                    {translations?.nav?.mag || "Larksois Magazine"}
+                    Larksois Magazine
                   </span>
                   <ChevronDownIcon className="h-4 w-4 transition-transform group-open:rotate-180" />
                 </summary>
 
                 <div className="mt-2 flex flex-col gap-1 pl-2">
                   <span
+                    onClick={() => goTo("/larksois-mag")}
+                    className={mobileSubItemClass(pathname === "/larksois-mag")}
+                  >
+                    All Articles
+                  </span>
+                  <span
                     onClick={() => goTo("/larksois-mag/category/news")}
                     className={mobileSubItemClass(magazineCategory === "news")}
                   >
-                    {translations?.nav?.mag_news || "News"}
+                    News
                   </span>
                   <span
                     onClick={() => goTo("/larksois-mag/category/health")}
                     className={mobileSubItemClass(magazineCategory === "health")}
                   >
-                    {translations?.nav?.mag_health || "Health"}
+                    Health
                   </span>
-                </div>
-              </details>
-            </li>
-
-            <li>
-              <details className="group rounded-xl bg-gray-50 p-2">
-                <summary className="flex cursor-pointer items-center justify-between px-2 py-2 text-[#0d2d47]">
-                  <span className="rounded-full px-3 py-1">
-                    {currentLang.label}
-                  </span>
-                  <ChevronDownIcon className="h-4 w-4 transition-transform group-open:rotate-180" />
-                </summary>
-
-                <div className="mt-2 flex flex-col gap-1 pl-2">
-                  {languages.map((item) => (
-                    <span
-                      key={item.code}
-                      onClick={() => selectLanguage(item.code)}
-                      className={mobileSubItemClass(language === item.code)}
-                    >
-                      {item.label}
-                    </span>
-                  ))}
                 </div>
               </details>
             </li>
@@ -627,7 +532,7 @@ export default function Navbar({ companyProfile }) {
               onClick={() => goTo("/contact")}
               className={`${topLinkClass} ${pathname === "/contact" ? activeTopLinkClass : ""}`}
             >
-              {translations?.nav?.contact || "Contact"}
+              Contact
             </li>
           </ul>
         </div>

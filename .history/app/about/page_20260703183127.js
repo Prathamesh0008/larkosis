@@ -36,6 +36,7 @@ export const metadata = {
 
 const extraInfoCards = [
   {
+    badge: "Who We Are",
     title: "An emerging pharmaceutical company with a global outlook",
     desc: companyProfile.overview,
     points: [
@@ -44,6 +45,7 @@ const extraInfoCards = [
     ],
   },
   {
+    badge: "Quality Systems",
     title: "Compliance-backed operations for dependable supply",
     desc: companyProfile.quality,
     points: [
@@ -52,6 +54,7 @@ const extraInfoCards = [
     ],
   },
   {
+    badge: "Export Strength",
     title: "Commercial readiness for multi-market requirements",
     desc: companyProfile.marketFocus,
     points: [
@@ -288,6 +291,9 @@ export default function AboutPage() {
 
         <div className="absolute bottom-1/4 left-1/2 w-full max-w-7xl -translate-x-1/2 px-4 sm:px-6 lg:px-8">
           <div className="text-center">
+            <span className="inline-block rounded-full border border-white/20 bg-white/10 px-6 py-2 text-sm font-semibold tracking-[0.2em] text-white backdrop-blur-md">
+              LARKSOIS PHARMA
+            </span>
             <h1 className="mt-6 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
               Building trusted global pharmaceutical partnerships
             </h1>
@@ -362,7 +368,10 @@ export default function AboutPage() {
                 key={item.title}
                 className="rounded-2xl border border-[#f0dfd3] bg-white p-6 shadow-sm transition-all duration-300 hover:shadow-xl"
               >
-                <h3 className="text-xl font-bold text-[#241913] sm:text-2xl">
+                <span className="block text-xs font-semibold uppercase tracking-[0.2em] text-[#ec671f]">
+                  {item.badge}
+                </span>
+                <h3 className="mt-3 text-xl font-bold text-[#241913] sm:text-2xl">
                   {item.title}
                 </h3>
                 <p className="mt-4 text-sm leading-7 text-[#5f4638] sm:text-base">
@@ -527,6 +536,9 @@ export default function AboutPage() {
       <ScrollReveal as="section" className="bg-[#fbf7f3] py-10 sm:py-14 md:py-16" delay={180} variant="soft">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="mb-8 text-center sm:mb-10">
+            <span className="block text-sm font-semibold uppercase tracking-[0.2em] text-[#ec671f]">
+              Global Operations
+            </span>
             <h2 className="mt-4 text-3xl font-bold text-[#241913] sm:text-4xl md:text-5xl">
               Commercial focus across multiple international regions
             </h2>
@@ -563,6 +575,9 @@ export default function AboutPage() {
       <ScrollReveal as="section" className="bg-white py-10 sm:py-14 md:py-16" delay={200} variant="left">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="mb-8 text-center sm:mb-10">
+            <span className="block text-sm font-semibold uppercase tracking-[0.2em] text-[#ec671f]">
+              Expertise
+            </span>
             <h2 className="mt-4 text-3xl font-bold text-[#241913] sm:text-4xl md:text-5xl">
               Core strengths that support our business
             </h2>
@@ -648,6 +663,7 @@ export default function AboutPage() {
       <ScrollReveal as="section" className="bg-[#fbf7f3] py-10 sm:py-14 md:py-16" delay={240} variant="right">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="mb-8 text-center sm:mb-10">
+            
             <h2 className="mt-4 text-3xl font-bold text-[#241913] sm:text-4xl md:text-5xl">
               Quality commitment reflected through recognized standards
             </h2>
@@ -708,6 +724,9 @@ export default function AboutPage() {
       <ScrollReveal as="section" className="bg-white py-10 sm:py-14 md:py-16" delay={280} variant="left">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 md:grid-cols-2 md:gap-16">
           <div>
+            <span className="inline-block rounded-full bg-[#fff1e5] px-3 py-1 text-sm font-semibold uppercase tracking-[0.18em] text-[#ec671f]">
+              Sustainability
+            </span>
             <h2 className="mt-4 text-3xl font-bold leading-tight text-[#241913] sm:text-4xl md:text-5xl">
               Building stable operations with long-term responsibility
             </h2>
@@ -747,6 +766,9 @@ export default function AboutPage() {
       <ScrollReveal as="section" className="bg-[#fbf7f3] py-10 sm:py-14 md:py-16" delay={300} variant="tilt">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="mb-8 text-center sm:mb-10">
+            <span className="block text-sm font-semibold uppercase tracking-[0.2em] text-[#ec671f]">
+              R&D Labs
+            </span>
             <h2 className="mt-4 text-3xl font-bold text-[#241913] sm:text-4xl md:text-5xl">
               Research and analytical environments that support product quality
             </h2>
@@ -762,6 +784,9 @@ export default function AboutPage() {
       <ScrollReveal as="section" className="py-10 sm:py-14 md:py-16" delay={320} variant="soft">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="mb-8 text-center sm:mb-10">
+            <span className="block text-sm font-semibold uppercase tracking-[0.2em] text-[#ec671f]">
+              Global Presence
+            </span>
             <h2 className="mt-4 text-3xl font-bold text-[#241913] sm:text-4xl md:text-5xl">
               Expanding reach across international healthcare markets
             </h2>
@@ -818,6 +843,9 @@ export default function AboutPage() {
       <ScrollReveal as="section" className="bg-[#fbf7f3] py-20 sm:py-28" delay={380} variant="up">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           <div className="mb-8 text-center sm:mb-10">
+            <span className="block text-sm font-semibold uppercase tracking-[0.2em] text-[#ec671f]">
+              FAQ
+            </span>
             <h2 className="mt-4 text-3xl font-bold text-[#241913] sm:text-4xl md:text-5xl">
               Frequently asked questions
             </h2>

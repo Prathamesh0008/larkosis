@@ -18,7 +18,7 @@ function AnimatedNumber({ value, suffix = "", duration = 1600 }) {
           observer.disconnect();
         }
       },
-      { threshold: 0.45 },
+      { threshold: 0.18, rootMargin: "0px 0px -10% 0px" },
     );
 
     observer.observe(element);
@@ -29,15 +29,14 @@ function AnimatedNumber({ value, suffix = "", duration = 1600 }) {
   useEffect(() => {
     if (!started) return;
 
-    let startTime = null;
     let frameId = null;
+    const startTime = performance.now();
 
     const animate = (timestamp) => {
-      if (!startTime) startTime = timestamp;
-
       const progress = Math.min((timestamp - startTime) / duration, 1);
       const eased = 1 - Math.pow(1 - progress, 3);
-      setCount(Math.floor(eased * value));
+      const nextValue = progress >= 1 ? value : Math.floor(eased * value);
+      setCount(nextValue);
 
       if (progress < 1) {
         frameId = window.requestAnimationFrame(animate);
@@ -50,6 +49,8 @@ function AnimatedNumber({ value, suffix = "", duration = 1600 }) {
       if (frameId) {
         window.cancelAnimationFrame(frameId);
       }
+
+      setCount(value);
     };
   }, [duration, started, value]);
 

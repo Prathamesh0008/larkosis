@@ -3,6 +3,7 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { companyProfile } from "@/data/companyProfile";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const initialState = {
   companyName: "",
@@ -15,14 +16,13 @@ const initialState = {
   preferredContact: "email",
 };
 
-// Country list for dropdown
 const countries = [
-  "United States", "Canada", "United Kingdom", "Germany", "France", 
-  "Italy", "Spain", "Australia", "Japan", "China", "India", 
-  "Brazil", "Mexico", "South Africa", "UAE", "Saudi Arabia", 
+  "United States", "Canada", "United Kingdom", "Germany", "France",
+  "Italy", "Spain", "Australia", "Japan", "China", "India",
+  "Brazil", "Mexico", "South Africa", "UAE", "Saudi Arabia",
   "Singapore", "Malaysia", "Indonesia", "Thailand", "Vietnam",
   "South Korea", "Russia", "Turkey", "Egypt", "Nigeria", "Kenya",
-  "Argentina", "Chile", "Colombia", "Other"
+  "Argentina", "Chile", "Colombia", "Other",
 ];
 
 const EMAILJS_SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "";
@@ -32,43 +32,40 @@ const EMAILJS_AUTOREPLY_TEMPLATE_ID =
   process.env.NEXT_PUBLIC_EMAILJS_AUTOREPLY_TEMPLATE_ID || "";
 
 export default function ContactForm() {
+  const { translations } = useLanguage();
+  const t = translations?.contactPage || {};
   const [form, setForm] = useState(initialState);
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
 
-  // Validation function
   const validateForm = () => {
     const newErrors = {};
 
     if (!form.companyName.trim()) {
-      newErrors.companyName = "Company name is required";
+      newErrors.companyName = t.nameError || "Company name is required";
     }
-
     if (!form.contactPerson.trim()) {
-      newErrors.contactPerson = "Contact person is required";
+      newErrors.contactPerson = t.nameError || "Contact person is required";
     }
-
     if (!form.email.trim()) {
-      newErrors.email = "Email is required";
+      newErrors.email = t.emailError || "Email is required";
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
-      newErrors.email = "Please enter a valid email address";
+      newErrors.email = t.emailInvalidError || "Please enter a valid email address";
     }
-
     if (!form.phone.trim()) {
-      newErrors.phone = "Phone number is required";
-    } else if (!/^[\d\s\+\-\(\)]{8,}$/.test(form.phone)) {
-      newErrors.phone = "Please enter a valid phone number";
+      newErrors.phone = t.phoneError || "Phone number is required";
+    } else if (!/^[\d\s+\-()]{8,}$/.test(form.phone)) {
+      newErrors.phone = t.phoneError || "Please enter a valid phone number";
     }
-
     if (!form.country) {
       newErrors.country = "Please select your country";
     }
-
     if (!form.requirements.trim()) {
-      newErrors.requirements = "Please provide your requirements";
+      newErrors.requirements = t.messageError || "Please provide your requirements";
     } else if (form.requirements.trim().length < 20) {
-      newErrors.requirements = "Please provide more details (minimum 20 characters)";
+      newErrors.requirements =
+        t.messageLengthError || "Please provide more details (minimum 20 characters)";
     }
 
     return newErrors;
@@ -77,8 +74,7 @@ export default function ContactForm() {
   function updateField(event) {
     const { name, value } = event.target;
     setForm((prev) => ({ ...prev, [name]: value }));
-    
-    // Clear error for this field when user starts typing
+
     if (errors[name]) {
       setErrors((prev) => ({ ...prev, [name]: null }));
     }
@@ -86,15 +82,12 @@ export default function ContactForm() {
 
   async function handleSubmit(event) {
     event.preventDefault();
-    
-    // Validate form
+
     const newErrors = validateForm();
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
-      
-      // Scroll to first error
       const firstErrorField = document.querySelector('[data-error="true"]');
-      firstErrorField?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      firstErrorField?.scrollIntoView({ behavior: "smooth", block: "center" });
       return;
     }
 
@@ -146,42 +139,34 @@ export default function ContactForm() {
       requirements: form.requirements,
     };
 
-    const autoReplyParams = {
-      to_email: form.email,
-      to_name: form.contactPerson,
-      company_name: form.companyName,
-      inquiry_type: inquiryTypeLabel,
-      preferred_contact: preferredContactLabel,
-      submitted_subject: subject,
-      support_email: companyProfile.email,
-      support_phone: companyProfile.phone,
-      website: companyProfile.website,
-      message:
-        "Thank you for contacting Larkosis Pharma. We have received your inquiry and our team will review it shortly.",
-    };
-
     try {
       await emailjs.send(
         EMAILJS_SERVICE_ID,
         EMAILJS_TEMPLATE_ID,
         templateParams,
-        {
-          publicKey: EMAILJS_PUBLIC_KEY,
-        },
+        { publicKey: EMAILJS_PUBLIC_KEY },
       );
 
-      let autoReplySent = false;
       if (EMAILJS_AUTOREPLY_TEMPLATE_ID) {
         try {
           await emailjs.send(
             EMAILJS_SERVICE_ID,
             EMAILJS_AUTOREPLY_TEMPLATE_ID,
-            autoReplyParams,
             {
-              publicKey: EMAILJS_PUBLIC_KEY,
+              to_email: form.email,
+              to_name: form.contactPerson,
+              company_name: form.companyName,
+              inquiry_type: inquiryTypeLabel,
+              preferred_contact: preferredContactLabel,
+              submitted_subject: subject,
+              support_email: companyProfile.email,
+              support_phone: companyProfile.phone,
+              website: companyProfile.website,
+              message:
+                "Thank you for contacting Larkosis Pharma. We have received your inquiry and our team will review it shortly.",
             },
+            { publicKey: EMAILJS_PUBLIC_KEY },
           );
-          autoReplySent = true;
         } catch (autoReplyError) {
           console.error("EmailJS auto-reply failed:", autoReplyError);
         }
@@ -190,13 +175,10 @@ export default function ContactForm() {
       setSubmitStatus({
         type: "success",
         message:
-          EMAILJS_AUTOREPLY_TEMPLATE_ID && autoReplySent
-            ? "Inquiry submitted successfully. A confirmation email has been sent to your inbox."
-            : "Inquiry submitted successfully. Our team will contact you shortly.",
+          t.success ||
+          "Inquiry submitted successfully. Our team will contact you shortly.",
       });
-
       setForm(initialState);
-
       setTimeout(() => setSubmitStatus(null), 5000);
     } catch (error) {
       console.error("EmailJS send failed:", error);
@@ -204,6 +186,7 @@ export default function ContactForm() {
         typeof error === "object" && error !== null
           ? error.text || error.message || ""
           : "";
+
       setSubmitStatus({
         type: "error",
         message: errorReason
@@ -215,22 +198,18 @@ export default function ContactForm() {
     }
   }
 
-  // Character counter for requirements
   const charCount = form.requirements.length;
   const charLimit = 1000;
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="border border-[#f0dfd3] bg-white p-8 shadow-sm"
-    >
+    <form onSubmit={handleSubmit} className="border border-[#f0dfd3] bg-white p-8 shadow-sm">
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-xl font-semibold text-[#241913]">Send Us A Message</h2>
-          
+          <h2 className="text-xl font-semibold text-[#241913]">
+            {t.formTitle || "Send Us A Message"}
+          </h2>
         </div>
-        
-        {/* Live validation indicator */}
+
         <div className="hidden sm:block">
           <div
             className={`h-2 w-2 rounded-full ${
@@ -240,38 +219,25 @@ export default function ContactForm() {
         </div>
       </div>
 
-      {/* Status Message */}
       {submitStatus && (
         <div
           className={`mt-4 rounded-xl p-4 text-sm ${
-            submitStatus.type === 'success'
-              ? 'border border-[#f2cfba] bg-[#fff4ea] text-[#8a4725]'
-              : 'border border-[#f0c6c6] bg-[#fff3f3] text-[#9c3838]'
+            submitStatus.type === "success"
+              ? "border border-[#f2cfba] bg-[#fff4ea] text-[#8a4725]"
+              : "border border-[#f0c6c6] bg-[#fff3f3] text-[#9c3838]"
           }`}
         >
-          <div className="flex items-center gap-2">
-            {submitStatus.type === 'success' ? (
-              <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-              </svg>
-            ) : (
-              <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            )}
-            {submitStatus.message}
-          </div>
+          <div className="flex items-center gap-2">{submitStatus.message}</div>
         </div>
       )}
 
-      {/* Inquiry Type Toggle */}
       <div className="mt-5 flex gap-4">
         <label className="flex items-center gap-2">
           <input
             type="radio"
             name="inquiryType"
             value="general"
-            checked={form.inquiryType === 'general'}
+            checked={form.inquiryType === "general"}
             onChange={updateField}
             className="h-4 w-4 text-[#ec671f]"
           />
@@ -282,7 +248,7 @@ export default function ContactForm() {
             type="radio"
             name="inquiryType"
             value="urgent"
-            checked={form.inquiryType === 'urgent'}
+            checked={form.inquiryType === "urgent"}
             onChange={updateField}
             className="h-4 w-4 text-[#ec671f]"
           />
@@ -291,9 +257,10 @@ export default function ContactForm() {
       </div>
 
       <div className="mt-5 grid gap-4 sm:grid-cols-2">
-        {/* Company Name */}
         <div className="space-y-1">
-          <label className="text-xs font-semibold text-[#7b4f37]">Company Name *</label>
+          <label className="text-xs font-semibold text-[#7b4f37]">
+            Company Name *
+          </label>
           <input
             required
             name="companyName"
@@ -302,22 +269,15 @@ export default function ContactForm() {
             placeholder="e.g., Larkosis Pharmaceuticals"
             data-error={!!errors.companyName}
             className={`w-full rounded-xl border ${
-              errors.companyName ? 'border-red-400 bg-red-50' : 'border-[#e7c8b3] bg-[#fff9f5]'
+              errors.companyName ? "border-red-400 bg-red-50" : "border-[#e7c8b3] bg-[#fff9f5]"
             } px-4 py-3 text-sm text-[#3f2d23] outline-none ring-[#ec671f] focus:ring-2 transition-colors`}
           />
-          {errors.companyName && (
-            <p className="text-xs text-red-500 flex items-center gap-1 mt-1">
-              <svg className="h-3 w-3" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
-              </svg>
-              {errors.companyName}
-            </p>
-          )}
         </div>
 
-        {/* Contact Person */}
         <div className="space-y-1">
-          <label className="text-xs font-semibold text-[#7b4f37]">Contact Person *</label>
+          <label className="text-xs font-semibold text-[#7b4f37]">
+            Contact Person *
+          </label>
           <input
             required
             name="contactPerson"
@@ -326,71 +286,50 @@ export default function ContactForm() {
             placeholder="e.g., John Smith"
             data-error={!!errors.contactPerson}
             className={`w-full rounded-xl border ${
-              errors.contactPerson ? 'border-red-400 bg-red-50' : 'border-[#e7c8b3] bg-[#fff9f5]'
+              errors.contactPerson ? "border-red-400 bg-red-50" : "border-[#e7c8b3] bg-[#fff9f5]"
             } px-4 py-3 text-sm text-[#3f2d23] outline-none ring-[#ec671f] focus:ring-2 transition-colors`}
           />
-          {errors.contactPerson && (
-            <p className="text-xs text-red-500 flex items-center gap-1 mt-1">
-              <svg className="h-3 w-3" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
-              </svg>
-              {errors.contactPerson}
-            </p>
-          )}
         </div>
 
-        {/* Email */}
         <div className="space-y-1">
-          <label className="text-xs font-semibold text-[#7b4f37]">Email Address *</label>
+          <label className="text-xs font-semibold text-[#7b4f37]">
+            {t.email || "Email Address"} *
+          </label>
           <input
             required
             type="email"
             name="email"
             value={form.email}
             onChange={updateField}
-            placeholder="e.g., john@company.com"
+            placeholder={t.emailPlaceholder || "e.g., john@company.com"}
             data-error={!!errors.email}
             className={`w-full rounded-xl border ${
-              errors.email ? 'border-red-400 bg-red-50' : 'border-[#e7c8b3] bg-[#fff9f5]'
+              errors.email ? "border-red-400 bg-red-50" : "border-[#e7c8b3] bg-[#fff9f5]"
             } px-4 py-3 text-sm text-[#3f2d23] outline-none ring-[#ec671f] focus:ring-2 transition-colors`}
           />
-          {errors.email && (
-            <p className="text-xs text-red-500 flex items-center gap-1 mt-1">
-              <svg className="h-3 w-3" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
-              </svg>
-              {errors.email}
-            </p>
-          )}
         </div>
 
-        {/* Phone */}
         <div className="space-y-1">
-          <label className="text-xs font-semibold text-[#7b4f37]">Phone / WhatsApp *</label>
+          <label className="text-xs font-semibold text-[#7b4f37]">
+            {t.phone || "Phone / WhatsApp"} *
+          </label>
           <input
             required
             name="phone"
             value={form.phone}
             onChange={updateField}
-            placeholder="e.g., +1 234 567 8900"
+            placeholder={t.phonePlaceholder || "e.g., +1 234 567 8900"}
             data-error={!!errors.phone}
             className={`w-full rounded-xl border ${
-              errors.phone ? 'border-red-400 bg-red-50' : 'border-[#e7c8b3] bg-[#fff9f5]'
+              errors.phone ? "border-red-400 bg-red-50" : "border-[#e7c8b3] bg-[#fff9f5]"
             } px-4 py-3 text-sm text-[#3f2d23] outline-none ring-[#ec671f] focus:ring-2 transition-colors`}
           />
-          {errors.phone && (
-            <p className="text-xs text-red-500 flex items-center gap-1 mt-1">
-              <svg className="h-3 w-3" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
-              </svg>
-              {errors.phone}
-            </p>
-          )}
         </div>
 
-        {/* Country Dropdown */}
         <div className="space-y-1 sm:col-span-2">
-          <label className="text-xs font-semibold text-[#7b4f37]">Destination Country *</label>
+          <label className="text-xs font-semibold text-[#7b4f37]">
+            Destination Country *
+          </label>
           <select
             required
             name="country"
@@ -398,34 +337,29 @@ export default function ContactForm() {
             onChange={updateField}
             data-error={!!errors.country}
             className={`w-full rounded-xl border ${
-              errors.country ? 'border-red-400 bg-red-50' : 'border-[#e7c8b3] bg-[#fff9f5]'
+              errors.country ? "border-red-400 bg-red-50" : "border-[#e7c8b3] bg-[#fff9f5]"
             } px-4 py-3 text-sm text-[#3f2d23] outline-none ring-[#ec671f] focus:ring-2 transition-colors`}
           >
             <option value="">Select your country</option>
             {countries.map((country) => (
-              <option key={country} value={country}>{country}</option>
+              <option key={country} value={country}>
+                {country}
+              </option>
             ))}
           </select>
-          {errors.country && (
-            <p className="text-xs text-red-500 flex items-center gap-1 mt-1">
-              <svg className="h-3 w-3" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
-              </svg>
-              {errors.country}
-            </p>
-          )}
         </div>
 
-        {/* Preferred Contact Method */}
         <div className="sm:col-span-2">
-          <label className="text-xs font-semibold text-[#7b4f37]">Preferred Contact Method</label>
+          <label className="text-xs font-semibold text-[#7b4f37]">
+            Preferred Contact Method
+          </label>
           <div className="mt-2 flex gap-4">
             <label className="flex items-center gap-2">
               <input
                 type="radio"
                 name="preferredContact"
                 value="email"
-                checked={form.preferredContact === 'email'}
+                checked={form.preferredContact === "email"}
                 onChange={updateField}
                 className="h-4 w-4 text-[#ec671f]"
               />
@@ -436,7 +370,7 @@ export default function ContactForm() {
                 type="radio"
                 name="preferredContact"
                 value="phone"
-                checked={form.preferredContact === 'phone'}
+                checked={form.preferredContact === "phone"}
                 onChange={updateField}
                 className="h-4 w-4 text-[#ec671f]"
               />
@@ -445,11 +379,16 @@ export default function ContactForm() {
           </div>
         </div>
 
-        {/* Requirements */}
         <div className="space-y-1 sm:col-span-2">
           <div className="flex items-center justify-between">
-            <label className="text-xs font-semibold text-[#7b4f37]">Requirements *</label>
-            <span className={`text-xs ${charCount > charLimit * 0.8 ? 'text-[#ec671f]' : 'text-[#b18b75]'}`}>
+            <label className="text-xs font-semibold text-[#7b4f37]">
+              {t.message || "Requirements"} *
+            </label>
+            <span
+              className={`text-xs ${
+                charCount > charLimit * 0.8 ? "text-[#ec671f]" : "text-[#b18b75]"
+              }`}
+            >
               {charCount}/{charLimit}
             </span>
           </div>
@@ -460,35 +399,23 @@ export default function ContactForm() {
             value={form.requirements}
             onChange={updateField}
             maxLength={charLimit}
-            placeholder="Please mention product names, strengths, quantities, and any regulatory requirements. Include specific packaging needs if any."
+            placeholder={
+              t.messagePlaceholder ||
+              "Please mention product names, strengths, quantities, and any regulatory requirements. Include specific packaging needs if any."
+            }
             data-error={!!errors.requirements}
             className={`w-full rounded-xl border ${
-              errors.requirements ? 'border-red-400 bg-red-50' : 'border-[#e7c8b3] bg-[#fff9f5]'
+              errors.requirements ? "border-red-400 bg-red-50" : "border-[#e7c8b3] bg-[#fff9f5]"
             } px-4 py-3 text-sm text-[#3f2d23] outline-none ring-[#ec671f] focus:ring-2 transition-colors`}
           />
-          {errors.requirements ? (
-            <p className="text-xs text-red-500 flex items-center gap-1 mt-1">
-              <svg className="h-3 w-3" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
-              </svg>
-              {errors.requirements}
-            </p>
-          ) : (
-            charCount > charLimit * 0.8 && charCount < charLimit && (
-              <p className="mt-1 text-xs text-[#ec671f]">
-                You are approaching the character limit
-              </p>
-            )
-          )}
         </div>
       </div>
 
-      {/* Form Footer */}
       <div className="mt-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div className="text-xs text-[#b18b75]">
           <span className="font-semibold text-red-500">*</span> Required fields
         </div>
-        
+
         <div className="flex gap-3">
           <button
             type="button"
@@ -497,7 +424,7 @@ export default function ContactForm() {
           >
             Clear Form
           </button>
-          
+
           <button
             type="submit"
             disabled={isSubmitting}
@@ -505,25 +432,16 @@ export default function ContactForm() {
           >
             {isSubmitting ? (
               <span className="flex items-center justify-center gap-2">
-                <svg className="h-4 w-4 animate-spin" viewBox="0 0 24 24">
-                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
-                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
-                </svg>
                 Submitting...
               </span>
             ) : (
               <span className="flex items-center justify-center gap-2 group-hover:gap-3 transition-all">
                 Submit Inquiry
-                <svg className="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
               </span>
             )}
           </button>
         </div>
       </div>
-
-      
     </form>
   );
 }

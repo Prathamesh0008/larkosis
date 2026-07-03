@@ -80,29 +80,29 @@ export default function Home() {
         categoryCount={categoryCounts.length}
         productListPdf={companyProfile.documents.productListPdf}
       />
-      <ScrollReveal delay={80}>
+      <ScrollReveal delay={80} variant="zoomUp">
         <IvexiaNumbersSection
           productCount={products.length}
           categoryCount={categoryCounts.length}
           therapeuticCount={companyProfile.therapeuticCoverage.length}
         />
       </ScrollReveal>
-      <ScrollReveal delay={120}>
+      <ScrollReveal delay={120} variant="left">
         <IvexiaAboutSection companyProfile={companyProfile} />
       </ScrollReveal>
-      <ScrollReveal delay={160}>
+      <ScrollReveal delay={160} variant="soft">
         <IvexiaTherapyGroups />
       </ScrollReveal>
-      <ScrollReveal delay={180}>
+      <ScrollReveal delay={180} variant="zoom">
         <IvexiaGlobalPresence />
       </ScrollReveal>
-      <ScrollReveal delay={200}>
+      <ScrollReveal delay={200} variant="right">
         <IvexiaLeadershipSection />
       </ScrollReveal>
-      <ScrollReveal delay={240}>
+      <ScrollReveal delay={240} variant="tilt">
         <IvexiaResearchManufacturing companyProfile={companyProfile} />
       </ScrollReveal>
-      <ScrollReveal delay={280}>
+      <ScrollReveal delay={280} variant="up">
         <IvexiaLatestSection
           featuredProducts={featuredProducts}
           companyProfile={companyProfile}
