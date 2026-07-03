@@ -30,7 +30,7 @@ export default function AboutLabsCarousel({ labImages }) {
       ref={scrollRef}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className="flex gap-6 overflow-x-auto px-1 pb-4"
+      className="hide-scrollbar flex gap-6 overflow-x-auto px-1 pb-4"
     >
       {labImages.map((img, index) => (
         <div

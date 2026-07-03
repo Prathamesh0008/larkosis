@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ScrollReveal from "@/components/scroll-reveal";
 import ContactForm from "./contact-form";
 import { companyProfile } from "@/data/companyProfile";
 import { SITE_URL, absoluteUrl } from "@/lib/seo";
@@ -53,7 +54,7 @@ export default function ContactPage() {
       />
 
       <section className="mx-auto max-w-7xl px-6 pb-20 md:px-16">
-        <div className="mb-12">
+        <ScrollReveal className="mb-12">
           <h1 className="text-3xl font-bold text-[#241913] md:text-4xl">
             Contact Larksois Pharma
           </h1>
@@ -62,16 +63,19 @@ export default function ContactPage() {
             documentation support, and quotation-based pharmaceutical
             requirements.
           </p>
-        </div>
+        </ScrollReveal>
 
         <div className="grid items-stretch gap-10 lg:grid-cols-[1.2fr_1fr]">
-          <div className="min-w-0">
+          <ScrollReveal className="min-w-0" delay={100}>
             <ContactForm />
-          </div>
+          </ScrollReveal>
 
-          <div className="relative h-[500px] overflow-hidden rounded-xl border border-[#f0dfd3] shadow-sm lg:h-auto">
+          <ScrollReveal
+            className="relative h-[500px] overflow-hidden rounded-xl border border-[#f0dfd3] shadow-sm lg:h-auto"
+            delay={180}
+          >
             <Image
-              src="/about/factory.png"
+              src="/about/factory1.png"
               alt="Larksois Pharma facility"
               fill
               className="object-cover transition-transform duration-700 hover:scale-105"
@@ -137,21 +141,12 @@ export default function ContactPage() {
                   </span>
                   <span>Business response window: within 24 hours</span>
                 </div>
+                </div>
               </div>
-            </div>
-          </div>
+          </ScrollReveal>
         </div>
 
-        <div className="mt-8 text-center text-sm text-[#8c6e5c]">
-          <p>
-            For urgent pharmaceutical inquiries, please include product names,
-            quantity expectations, and target market details in your message.
-          </p>
-          <p className="mt-1">
-            We are committed to responding with practical next steps, document
-            support, and business coordination guidance.
-          </p>
-        </div>
+        
       </section>
     </div>
   );

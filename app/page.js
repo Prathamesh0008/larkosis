@@ -7,6 +7,7 @@ import IvexiaLeadershipSection from "@/components/home/ivexia-leadership-section
 import IvexiaNumbersSection from "@/components/home/ivexia-numbers-section";
 import IvexiaResearchManufacturing from "@/components/home/ivexia-research-manufacturing";
 import IvexiaTherapyGroups from "@/components/home/ivexia-therapy-groups";
+import ScrollReveal from "@/components/scroll-reveal";
 import { getAllProducts, getCategoryCounts } from "@/lib/catalog";
 import { SITE_URL, absoluteUrl } from "@/lib/seo";
 
@@ -79,20 +80,34 @@ export default function Home() {
         categoryCount={categoryCounts.length}
         productListPdf={companyProfile.documents.productListPdf}
       />
-      <IvexiaNumbersSection
-        productCount={products.length}
-        categoryCount={categoryCounts.length}
-        therapeuticCount={companyProfile.therapeuticCoverage.length}
-      />
-      <IvexiaAboutSection companyProfile={companyProfile} />
-      <IvexiaTherapyGroups />
-      {/* <IvexiaGlobalPresence /> */}
-      <IvexiaLeadershipSection />
-      <IvexiaResearchManufacturing companyProfile={companyProfile} />
-      <IvexiaLatestSection
-        featuredProducts={featuredProducts}
-        companyProfile={companyProfile}
-      />
+      <ScrollReveal delay={80}>
+        <IvexiaNumbersSection
+          productCount={products.length}
+          categoryCount={categoryCounts.length}
+          therapeuticCount={companyProfile.therapeuticCoverage.length}
+        />
+      </ScrollReveal>
+      <ScrollReveal delay={120}>
+        <IvexiaAboutSection companyProfile={companyProfile} />
+      </ScrollReveal>
+      <ScrollReveal delay={160}>
+        <IvexiaTherapyGroups />
+      </ScrollReveal>
+      <ScrollReveal delay={180}>
+        <IvexiaGlobalPresence />
+      </ScrollReveal>
+      <ScrollReveal delay={200}>
+        <IvexiaLeadershipSection />
+      </ScrollReveal>
+      <ScrollReveal delay={240}>
+        <IvexiaResearchManufacturing companyProfile={companyProfile} />
+      </ScrollReveal>
+      <ScrollReveal delay={280}>
+        <IvexiaLatestSection
+          featuredProducts={featuredProducts}
+          companyProfile={companyProfile}
+        />
+      </ScrollReveal>
     </div>
   );
 }

@@ -227,9 +227,7 @@ export default function ContactForm() {
       <div className="flex items-center justify-between">
         <div>
           <h2 className="text-xl font-semibold text-[#241913]">Send Us A Message</h2>
-          <p className="mt-1 text-sm text-[#8c6e5c]">
-            We&apos;ll get back to you within 24 hours.
-          </p>
+          
         </div>
         
         {/* Live validation indicator */}
@@ -525,11 +523,7 @@ export default function ContactForm() {
         </div>
       </div>
 
-      {/* Privacy Note */}
-      <p className="mt-4 text-xs text-[#b18b75] border-t border-[#f2d8c7] pt-4">
-        By submitting this form, you agree to our privacy policy and consent to being contacted regarding your inquiry.
-        Your information will be used solely for business communication.
-      </p>
+      
     </form>
   );
 }
