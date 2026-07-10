@@ -258,7 +258,7 @@ export default function Navbar({ companyProfile }) {
             width={240}
             height={80}
             priority
-            className="mt-3   h-10 w-auto origin-left scale-[1.55] object-contain sm:h-11 sm:scale-[1.6] lg:h-12 lg:scale-[1.7] xl:h-[52px] xl:scale-[1.75]"
+            className="mt-3 h-10 w-auto object-contain sm:h-11 lg:h-12 xl:h-[52px]"
           />
         </Link>
 
