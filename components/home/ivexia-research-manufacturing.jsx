@@ -6,16 +6,32 @@ import { useState } from "react";
 
 function MicroscopeIcon() {
   return (
-    <svg className="h-[60px] w-[60px] text-[#ec671f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d="M7 21h10M9 17h6M10 3l2 5m0 0 2.5-1.5M12 8l-3 1.8m3-1.8L15 15m-6 6a5 5 0 0 1 5-5h4a3 3 0 0 1 0 6H9Z" />
+    <svg
+      aria-hidden="true"
+      className="h-[60px] w-[60px] text-[#ec671f]"
+      fill="currentColor"
+      viewBox="0 0 64 64"
+    >
+      <path d="M26 6a5 5 0 0 1 10 0v1h1a4 4 0 0 1 4 4v25a4 4 0 0 1-4 4h-1v1a5 5 0 0 1-10 0v-1h-1a4 4 0 0 1-4-4V11a4 4 0 0 1 4-4h1V6Z" />
+      <path d="M39 20h3c12.15 0 22 9.85 22 22 0 6.08-2.47 11.58-6.45 15.56H61a4 4 0 0 1 0 8H8a4 4 0 0 1 0-8h34c7.73 0 14-6.27 14-14s-6.27-14-14-14h-3v-9Z" />
+      <path d="M20 47h22a4 4 0 0 1 0 8H20a4 4 0 0 1 0-8Z" />
     </svg>
   );
 }
 
 function FactoryIcon() {
   return (
-    <svg className="h-[60px] w-[60px] text-[#ec671f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d="M3 21h18M5 21V9l5 3V9l5 3V5l4 2v14M9 21v-4m4 4v-3m4 3v-5" />
+    <svg
+      aria-hidden="true"
+      className="h-[60px] w-[60px] text-[#ec671f]"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d="M3 21h18" />
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d="M5 21V10l5 3v-3l5 3V6h4v15" />
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d="M8 17h2m3 0h2" />
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.8} d="M15 6V3h4v3" />
     </svg>
   );
 }
