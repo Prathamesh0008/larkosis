@@ -76,13 +76,13 @@ function renderValue(value, prefix) {
     });
 
     return (
-      <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-relaxed text-[#4f433c] marker:text-[#ec671f]">
+      <ul className="mt-3 min-w-0 list-disc space-y-2 break-words pl-5 text-sm leading-relaxed text-[#4f433c] marker:text-[#ec671f]">
         {normalizedItems.map((item, idx) => (
           <li key={`${prefix}-${idx}`}>
             {item && typeof item === "object" ? (
-              <div className="rounded-lg border border-[#f0e0d6] bg-[#fffdfb] p-3">
+              <div className="min-w-0 break-words rounded-lg border border-[#f0e0d6] bg-[#fffdfb] p-3">
                 {Object.entries(item).map(([objKey, objValue]) => (
-                  <div key={`${prefix}-${idx}-${objKey}`} className="mb-1 last:mb-0">
+                  <div key={`${prefix}-${idx}-${objKey}`} className="mb-1 min-w-0 break-words last:mb-0">
                     <span className="font-semibold text-[#3b2f28]">{toHeading(objKey)}: </span>
                     <span>{formatInlineValue(objValue)}</span>
                   </div>
@@ -103,9 +103,9 @@ function renderValue(value, prefix) {
     }
 
     return (
-      <div className="mt-3 grid gap-3 sm:grid-cols-2">
+      <div className="mt-3 grid min-w-0 gap-3 sm:grid-cols-2">
         {Object.entries(value).map(([subKey, subValue]) => (
-          <div key={`${prefix}-${subKey}`} className="rounded-xl border border-[#edf0f2] bg-[#fcfefe] p-3">
+          <div key={`${prefix}-${subKey}`} className="min-w-0 break-words rounded-xl border border-[#edf0f2] bg-[#fcfefe] p-3">
             <p className="text-xs font-semibold uppercase tracking-wider text-[#0f3558]">{toHeading(subKey)}</p>
             {renderValue(subValue, `${prefix}-${subKey}`)}
           </div>
@@ -114,7 +114,7 @@ function renderValue(value, prefix) {
     );
   }
 
-  return <p className="mt-2 text-sm leading-relaxed text-[#4f433c]">{formatInlineValue(value)}</p>;
+  return <p className="mt-2 break-words text-sm leading-relaxed text-[#4f433c]">{formatInlineValue(value)}</p>;
 }
 
 export async function generateStaticParams() {
@@ -180,20 +180,20 @@ export default async function PharmaceuticalProductDetailPage({ params }) {
   });
 
   return (
-    <div className="bg-[radial-gradient(circle_at_top_left,#eaf3ff_0%,#f6f9fd_45%,#f8fbff_100%)] pb-14 pt-8">
+    <div className="min-w-0 overflow-hidden bg-[radial-gradient(circle_at_top_left,#eaf3ff_0%,#f6f9fd_45%,#f8fbff_100%)] pb-10 pt-4 sm:pb-14 sm:pt-8">
       <section className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="overflow-hidden rounded-3xl border border-[#d5deea] bg-white shadow-[0_20px_48px_rgba(15,53,88,0.1)]">
-          <div className="border-b border-[#e6ecf4] px-6 py-4 sm:px-8">
-            <nav className="flex items-center gap-2 text-sm text-[#6c7b8d]">
+        <div className="min-w-0 overflow-hidden rounded-2xl border border-[#d5deea] bg-white shadow-[0_20px_48px_rgba(15,53,88,0.1)] sm:rounded-3xl">
+          <div className="border-b border-[#e6ecf4] px-4 py-3 sm:px-8 sm:py-4">
+            <nav className="flex min-w-0 flex-wrap items-center gap-x-2 gap-y-1 text-xs text-[#6c7b8d] sm:flex-nowrap sm:text-sm">
               <Link href="/" className="hover:text-[#ec671f]">Home</Link>
               <span>/</span>
               <Link href="/pharmaceutical-products" className="hover:text-[#ec671f]">Pharmaceutical Products</Link>
               <span>/</span>
-              <span className="truncate font-semibold text-[#1d4f91]">{name}</span>
+              <span className="min-w-0 break-words font-semibold text-[#1d4f91] sm:truncate">{name}</span>
             </nav>
           </div>
-          <div className="grid items-start gap-8 lg:grid-cols-[1.05fr_1fr]">
-            <div className="self-start border-b border-[#e5e9f0] bg-gradient-to-br from-[#f4f8ff] via-[#f8fbff] to-[#edf5ff] p-4 sm:p-5 lg:border-b-0 lg:border-r">
+          <div className="grid min-w-0 items-start gap-0 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,1fr)] lg:gap-8">
+            <div className="min-w-0 self-start border-b border-[#e5e9f0] bg-gradient-to-br from-[#f4f8ff] via-[#f8fbff] to-[#edf5ff] p-3 sm:p-5 lg:border-b-0 lg:border-r">
               <div className="inline-block w-full rounded-xl bg-white/60 p-2.5">
                 <Image src="/product.png" alt={name} width={700} height={520} className="h-auto w-full rounded-xl object-contain" />
               </div>
@@ -205,16 +205,16 @@ export default async function PharmaceuticalProductDetailPage({ params }) {
                       className={`rounded-md border border-[#dce7f5] bg-[#f6faff] px-3 py-2 ${idx === leftInfo.length - 1 ? "sm:col-span-1" : ""}`}
                     >
                       <p className="text-[9px] font-bold uppercase tracking-[0.1em] text-[#567293]">{label}</p>
-                      <p className="mt-0.5 text-sm font-semibold leading-tight text-[#0f172a]">{formatInlineValue(value)}</p>
+                      <p className="mt-0.5 break-words text-sm font-semibold leading-tight text-[#0f172a]">{formatInlineValue(value)}</p>
                     </div>
                   ))}
                 </div>
               ) : null}
             </div>
 
-            <div className="p-6 sm:p-8">
-              <h1 className="text-3xl font-bold leading-tight text-[#102a4c] sm:text-4xl">{heroTitle}</h1>
-              <p className="mt-4 text-sm leading-relaxed text-[#475569] sm:text-base">{heroDescriptionText}</p>
+            <div className="min-w-0 p-4 sm:p-8">
+              <h1 className="break-words text-2xl font-bold leading-tight text-[#102a4c] sm:text-4xl">{heroTitle}</h1>
+              <p className="mt-4 break-words text-sm leading-relaxed text-[#475569] sm:text-base">{heroDescriptionText}</p>
 
               <PharmaHeroTabs
                 casValue=""
@@ -228,13 +228,13 @@ export default async function PharmaceuticalProductDetailPage({ params }) {
       </section>
 
       <section className="mx-auto mt-7 w-full max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="rounded-2xl border border-[#d5deea] bg-white px-5 py-5 shadow-sm sm:px-6">
+        <div className="min-w-0 rounded-2xl border border-[#d5deea] bg-white px-4 py-5 shadow-sm sm:px-6">
           <div className="space-y-4">
             {contentEntries.map(([key, value], index) => (
             <section
               id={sectionIdByIndex[index]}
               key={key}
-              className={`scroll-mt-24 py-3 ${index > 0 ? "border-t border-[#e3ebf5] pt-6" : ""}`}
+              className={`min-w-0 scroll-mt-24 break-words py-3 ${index > 0 ? "border-t border-[#e3ebf5] pt-6" : ""}`}
             >
               <h3 className="text-xl font-bold text-[#0f2f57]">{toHeading(key)}</h3>
               {renderValue(value, key)}

@@ -28,7 +28,9 @@ export default function SiteFooter({ companyProfile, year }) {
               className="h-auto w-[170px] object-contain"
             />
 
-            <p className="max-w-sm text-sm leading-relaxed text-[#eadbd2] -mt-5">
+            <p className="max-w-sm text-sm leading-relaxed text-[#eadbd2]">
+             
+            
               {translations?.footer?.description || companyProfile.overview}
             </p>
           </div>

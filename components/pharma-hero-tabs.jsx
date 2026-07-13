@@ -18,7 +18,7 @@ export default function PharmaHeroTabs({ casValue, introText, indicationsText, m
   const hasCas = String(casValue || "").trim().length > 0;
 
   return (
-    <div className="mt-5">
+    <div className="mt-5 min-w-0">
       {hasCas ? (
         <div className="max-w-[220px] rounded-md border border-[#d7e3ef] bg-[#f9f6f4] px-3 py-2">
           <p className="text-[9px] font-semibold uppercase tracking-[0.16em] text-[#5a6f86]">CAS</p>
@@ -27,13 +27,13 @@ export default function PharmaHeroTabs({ casValue, introText, indicationsText, m
       ) : null}
 
       <div className={`${hasCas ? "mt-4" : "mt-0"} border-b border-[#dfe7f0]`}>
-        <div className="flex flex-wrap gap-4">
+        <div className="flex gap-4 overflow-x-auto overscroll-x-contain">
           {tabs.map((tab) => (
             <button
               key={tab.key}
               type="button"
               onClick={() => setActive(tab.key)}
-              className={`cursor-pointer border-b-2 pb-2 text-lg font-medium transition-colors ${
+              className={`shrink-0 cursor-pointer border-b-2 pb-2 text-sm font-medium transition-colors sm:text-lg ${
                 active === tab.key
                   ? "border-[#14a6bf] text-[#14a6bf]"
                   : "border-transparent text-[#667389] hover:text-[#1d4f91]"
@@ -45,7 +45,7 @@ export default function PharmaHeroTabs({ casValue, introText, indicationsText, m
         </div>
       </div>
 
-      <p className="mt-4 text-base leading-relaxed text-[#334155]">{activeTab?.text || introText}</p>
+      <p className="mt-4 break-words text-sm leading-relaxed text-[#334155] sm:text-base">{activeTab?.text || introText}</p>
 
       <Link
         href="/contact"

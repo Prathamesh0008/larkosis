@@ -333,11 +333,11 @@ export default async function ProductDetailPage({ params }) {
           <article className="rounded-2xl border border-[#f2d6c4] bg-white p-6 shadow-lg sm:p-8">
             <h2 className="text-2xl font-bold text-[#281c14]">Technical Details</h2>
 
-            <div className="mt-6 overflow-x-auto rounded-xl border border-[#efd6c6]">
-              <table className="min-w-[560px] divide-y divide-[#efd6c6] sm:min-w-full">
+            <div className="mt-6 overflow-hidden rounded-xl border border-[#efd6c6]">
+              <table className="w-full table-fixed divide-y divide-[#efd6c6]">
                 <tbody className="divide-y divide-[#efd6c6]">
                   <tr>
-                    <td className="w-40 px-4 py-3 text-sm font-semibold text-[#37261c]">Category</td>
+                    <td className="w-[38%] px-3 py-3 text-sm font-semibold text-[#37261c] sm:w-40 sm:px-4">Category</td>
                     <td className="break-words px-4 py-3 text-sm text-[#5f4536]">{product.category}</td>
                   </tr>
                   <tr className="bg-[#fff9f5]">
