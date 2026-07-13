@@ -16,7 +16,7 @@ function ArrowRightIcon() {
   );
 }
 
-export default function IvexiaLatestSection({ featuredProducts, companyProfile }) {
+export default function LarksoisLatestSection({ featuredProducts, companyProfile }) {
   const cards = [
     {
       slug: featuredProducts[0]?.slug || "",

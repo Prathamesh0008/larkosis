@@ -4,7 +4,7 @@ export default{
   "api": "活性药物成分",
   "products": "药品",
   "about": "关于我们",
-  "mag": "Ivexia 杂志",
+  "mag": "Larksois 杂志",
   "mag_news": "新闻",
   "mag_health": "健康杂志",
   "contact": "联系我们",
@@ -54,8 +54,8 @@ hero: [
     ]
   }
 ],
-ivexia_numbers: {
-  title: "Ivexia 数据",
+larksois_numbers: {
+  title: "Larksois 数据",
   employees: "全球员工",
   products: "成品药品",
   countries: "服务国家",
@@ -111,7 +111,7 @@ accordSection: {
 },
 about: {
   video: {
-    title: "关于 Ivexia 制药",
+    title: "关于 Larksois 制药",
     subtitle: "全球视野 · 科学卓越",
     paragraph: "推动医疗创新，造福全球。",
     cta: "了解更多",
@@ -121,7 +121,7 @@ about: {
 "therapy": {
   "title": "治疗领域",
   "highlight": "质量、创新与健康 —",
-  "subtitle": "在Ivexia，我们推动多领域精准治疗，重塑全球医疗体系。",
+  "subtitle": "在Larksois，我们推动多领域精准治疗，重塑全球医疗体系。",
 
   "cardiology": {
     "title": "心脏病学",
@@ -149,14 +149,14 @@ about: {
     title: "塑造全球医疗的未来",
     subtitle: "以科学为驱动，以创新为动力",
     paragraph:
-      "在 Ivexia 制药，我们致力于通过先进研究、高质量制造和全球分销推动医疗发展，为全球患者提供安全有效的药品。",
-    cta: "探索 Ivexia"
+      "在 Larksois 制药，我们致力于通过先进研究、高质量制造和全球分销推动医疗发展，为全球患者提供安全有效的药品。",
+    cta: "探索 Larksois"
   }
 },
 leadership: {
   heading: "リーダーシップとビジョン",
   subheading:
-    "Ivexiaは医薬品だけでなく信頼を創造します。",
+    "Larksoisは医薬品だけでなく信頼を創造します。",
 
   ceo: {
     name: "Mr. Avinaash Satjin Badal",
@@ -199,7 +199,7 @@ researchManufacturing: {
   button: "探索",
 },
 latest: {
-  heading: "Ivexia 最新动态",
+  heading: "Larksois 最新动态",
   subheading:
     "来自我们的研发、制造及关键治疗领域的最新更新。",
   readMore: "阅读更多",
@@ -212,8 +212,8 @@ news: {
     "rd-expansion": {
       title: "研发扩展",
       excerpt:
-        "Ivexia扩大研发能力。",
-      content: `Ivexia扩展了研发基础设施。
+        "Larksois扩大研发能力。",
+      content: `Larksois扩展了研发基础设施。
 
 新实验室配备先进设备。
 
@@ -251,7 +251,7 @@ partners: {
   tag: "全球网络",
   heading: "我们的合作品牌",
   desc:
-    "Ivexia 为制药公司提供可靠的生产和出口合作支持。",
+    "Larksois 为制药公司提供可靠的生产和出口合作支持。",
 },
 footer: {
   description: "推动全球医疗发展\n提供创新、质量与信任。",
@@ -270,7 +270,7 @@ footer: {
   address: "全球制药总部"
 },
 contactPage: {
-  title: "联系 Ivexia",
+  title: "联系 Larksois",
   subtitle: "联系我们获取支持。",
   formTitle: "发送消息",
   formSubtitle: "24小时内回复",
@@ -299,7 +299,7 @@ contactPage: {
   messageLengthError: "至少10个字符"
 },
 offeringsOverview: {
-  badge: "Ivexia 产品概览",
+  badge: "Larksois 产品概览",
   title: "实用医疗解决方案",
   subtitle: "为分销商和合作伙伴设计，确保质量与稳定供应。",
   browse: "浏览产品",
@@ -310,7 +310,7 @@ offeringsOverview: {
 
   track: "类别",
   step: "步骤",
-  imageAlt: "Ivexia 产品",
+  imageAlt: "Larksois 产品",
 
   partnerTracks: {
     distributors: "分销商",
@@ -383,7 +383,7 @@ offeringsOverview: {
   ctaTitle: "构建最佳组合",
   ctaDesc: "分享市场需求。",
   start: "开始",
-  learn: "了解 Ivexia"
+  learn: "了解 Larksois"
 },
 ingredient: {
   heading: "原料药 (API)"
@@ -391,7 +391,7 @@ ingredient: {
 ingredientHero: {
   subtitle: "API",
   title: { part1: "高纯度API", part2: "全球应用" },
-  description: "Ivexia提供API。",
+  description: "Larksois提供API。",
   badges: { gmp: "GMP", coa: "文件", flexible: "灵活" },
   cta: "咨询 →",
   imageAlt: "API",
@@ -426,7 +426,7 @@ ingredientGrid: {
   page: "页"
 },
 ingredientStats: {
-  heading: "Ivexia 数据",
+  heading: "Larksois 数据",
   products: "产品",
   therapy: "治疗领域",
   countries: "服务国家",
@@ -561,7 +561,7 @@ otcPage: {
 },
 oemPage: {
   hero: {
-    badge: "Ivexia 服务",
+    badge: "Larksois 服务",
     title: "OEM / 贴牌生产",
     desc: "打造您的医药品牌。",
     contact: "联系我们",
@@ -676,7 +676,7 @@ testKitsPage: {
 aboutPage: {
   hero: {
     badge: "制药卓越",
-    title: "关于 Ivexia Pharmaceuticals",
+    title: "关于 Larksois Pharmaceuticals",
     subtitle: "以全球制药卓越和坚定的质量承诺推动医疗健康创新。"
   },
   stats: {
@@ -688,9 +688,9 @@ aboutPage: {
   story: {
     badge: "我们的故事",
     title: "自2018年以来致力于制药卓越",
-    p1: "Ivexia Pharma 是一家不断发展的制药公司，建立在对质量、创新和全球医疗进步的坚定承诺之上。",
-    p2: "自成立以来，Ivexia Pharma 一直专注于提供符合国际标准的可靠医药产品，支持不同市场中的医疗服务提供者、分销商、进口商和患者。",
-    p3: "如今，Ivexia Pharma 已成为制药生产、产品开发、出口供应和市场拓展方面值得信赖的合作伙伴。",
+    p1: "Larksois Pharma 是一家不断发展的制药公司，建立在对质量、创新和全球医疗进步的坚定承诺之上。",
+    p2: "自成立以来，Larksois Pharma 一直专注于提供符合国际标准的可靠医药产品，支持不同市场中的医疗服务提供者、分销商、进口商和患者。",
+    p3: "如今，Larksois Pharma 已成为制药生产、产品开发、出口供应和市场拓展方面值得信赖的合作伙伴。",
     highlights: ["质量第一", "创新驱动"]
   },
   purpose: {
@@ -806,7 +806,7 @@ aboutPage: {
   },
   statement: {
     title: "创新驱动，质量赋能。",
-    subtitle: "Ivexia 站在制药进步的前沿。"
+    subtitle: "Larksois 站在制药进步的前沿。"
   },
   facilities: {
     title: "先进设施",
@@ -861,12 +861,12 @@ aboutPage: {
   whoWeAre: {
     badge: "我们是谁",
     title: "值得信赖的全球制药合作伙伴",
-    desc: "Ivexia Pharma 是一家全球医药制造商和出口商，为全球医疗分销商、进口商、医院和制药合作伙伴提供高质量药品、产品开发支持、法规文件、包装解决方案和可靠的出口供应。"
+    desc: "Larksois Pharma 是一家全球医药制造商和出口商，为全球医疗分销商、进口商、医院和制药合作伙伴提供高质量药品、产品开发支持、法规文件、包装解决方案和可靠的出口供应。"
   },
   qualityInfo: {
     badge: "质量第一",
     title: "质量是一切的核心",
-    desc: "质量是 Ivexia Pharma 的基础。我们的质量方法涵盖原材料评估、生产监控、过程检查、成品检测、包装检查、文件审核和适当的储存控制。",
+    desc: "质量是 Larksois Pharma 的基础。我们的质量方法涵盖原材料评估、生产监控、过程检查、成品检测、包装检查、文件审核和适当的储存控制。",
     points: [
       "符合 GMP 的制造标准",
       "经过验证的原材料采购",
@@ -878,7 +878,7 @@ aboutPage: {
   exportInfo: {
     badge: "全球出口重点",
     title: "可靠的医药出口供应",
-    desc: "Ivexia Pharma 为分销商、进口商、医疗企业和机构买家提供出口就绪的医药产品、适当文件、包装支持、法规协调和面向市场的供应解决方案。"
+    desc: "Larksois Pharma 为分销商、进口商、医疗企业和机构买家提供出口就绪的医药产品、适当文件、包装支持、法规协调和面向市场的供应解决方案。"
   },
   cta: {
     title: "与我们合作",
@@ -886,12 +886,12 @@ aboutPage: {
     button: "联系我们"
   },
   detailedInfo: {
-    badge: "关于 Ivexia Pharma",
+    badge: "关于 Larksois Pharma",
     title: "自2018年以来建设制药卓越",
     sections: [
       {
         title: "我们是谁",
-        desc: "Ivexia Pharma 是一家全球医药制造商和出口商，为受监管市场和新兴市场提供广泛的医药产品。公司专注于高质量药品、现代化流程、强大的文件系统和严格的质量检查。"
+        desc: "Larksois Pharma 是一家全球医药制造商和出口商，为受监管市场和新兴市场提供广泛的医药产品。公司专注于高质量药品、现代化流程、强大的文件系统和严格的质量检查。"
       },
       {
         title: "我们的业务",
@@ -899,7 +899,7 @@ aboutPage: {
       },
       {
         title: "法规与合规实力",
-        desc: "Ivexia Pharma 对法规要求、文件、产品 dossier、COA 支持、GMP 相关文件、稳定性数据、规格、标签和出口文件采取系统化方法。"
+        desc: "Larksois Pharma 对法规要求、文件、产品 dossier、COA 支持、GMP 相关文件、稳定性数据、规格、标签和出口文件采取系统化方法。"
       },
       {
         title: "创新与研究驱动增长",
@@ -907,17 +907,17 @@ aboutPage: {
       },
       {
         title: "我们的医疗承诺",
-        desc: "Ivexia Pharma 致力于以责任、信任和卓越为基础，提供安全、可靠且可负担的医药产品，为全球医疗健康作出贡献。"
+        desc: "Larksois Pharma 致力于以责任、信任和卓越为基础，提供安全、可靠且可负担的医药产品，为全球医疗健康作出贡献。"
       },
       {
         title: "建设未来",
-        desc: "Ivexia Pharma 正通过全球扩张、现代化制造、产品多元化和更强的法规能力不断前进。"
+        desc: "Larksois Pharma 正通过全球扩张、现代化制造、产品多元化和更强的法规能力不断前进。"
       }
     ]
   },
   valuesInfo: {
     badge: "我们的价值观",
-    title: "指引 Ivexia Pharma 的价值观",
+    title: "指引 Larksois Pharma 的价值观",
     points: [
       "质量",
       "诚信",
@@ -933,24 +933,24 @@ aboutPage: {
   },
   faqs: [
     {
-      question: "Ivexia Pharma 是做什么的？",
-      answer: "Ivexia Pharma 是一家医药制造商和出口商，为全球医疗分销商、进口商和制药合作伙伴提供高质量药品、产品开发支持、出口供应、法规文件和包装解决方案。"
+      question: "Larksois Pharma 是做什么的？",
+      answer: "Larksois Pharma 是一家医药制造商和出口商，为全球医疗分销商、进口商和制药合作伙伴提供高质量药品、产品开发支持、出口供应、法规文件和包装解决方案。"
     },
     {
-      question: "Ivexia Pharma 是一家全球制药公司吗？",
-      answer: "是的，Ivexia Pharma 专注于国际医药市场，并通过出口就绪的医药产品、质量文件和可靠供应解决方案支持全球医疗合作伙伴。"
+      question: "Larksois Pharma 是一家全球制药公司吗？",
+      answer: "是的，Larksois Pharma 专注于国际医药市场，并通过出口就绪的医药产品、质量文件和可靠供应解决方案支持全球医疗合作伙伴。"
     },
     {
-      question: "为什么 Ivexia Pharma 是值得信赖的制药合作伙伴？",
-      answer: "Ivexia Pharma 注重高质量制造、符合 GMP 的流程、法规支持、及时交付、诚信商业实践以及长期合作价值。"
+      question: "为什么 Larksois Pharma 是值得信赖的制药合作伙伴？",
+      answer: "Larksois Pharma 注重高质量制造、符合 GMP 的流程、法规支持、及时交付、诚信商业实践以及长期合作价值。"
     },
     {
-      question: "Ivexia Pharma 是否支持医药出口？",
-      answer: "是的，Ivexia Pharma 通过产品供应、文件协助、包装支持、法规协调和面向市场的制药解决方案支持医药出口。"
+      question: "Larksois Pharma 是否支持医药出口？",
+      answer: "是的，Larksois Pharma 通过产品供应、文件协助、包装支持、法规协调和面向市场的制药解决方案支持医药出口。"
     },
     {
-      question: "Ivexia Pharma 服务哪些市场？",
-      answer: "Ivexia Pharma 旨在服务欧洲、中东和北非、非洲、独联体、东南亚以及其他增长型医疗地区。"
+      question: "Larksois Pharma 服务哪些市场？",
+      answer: "Larksois Pharma 旨在服务欧洲、中东和北非、非洲、独联体、东南亚以及其他增长型医疗地区。"
     }
   ],
 },
@@ -969,7 +969,7 @@ testKitDetailPage: {
   cutOff: "临界值",
   certificate: "证书"
 },
-// ivexia\data1\languages\zh.js - Magazine section
+// larksois\data1\languages\zh.js - Magazine section
 
 magazine: {
   title: "艾维西亚杂志",
@@ -1248,7 +1248,7 @@ magazine: {
           heading: "超越一天的承诺",
           paragraphs: [
             "国际妇女节是一个提醒，而不是一个单独的事件。缩小女性健康差距需要持续和长期的承诺。",
-            "对于Ivexia来说，优先考虑女性健康意味着设计药物、沟通和计划时考虑到女性的独特需求。"
+            "对于Larksois来说，优先考虑女性健康意味着设计药物、沟通和计划时考虑到女性的独特需求。"
           ]
         }
       ]

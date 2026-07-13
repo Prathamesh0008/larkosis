@@ -67,7 +67,7 @@ function Counter({ target, label, suffix = "" }) {
   );
 }
 
-export default function IvexiaNumbersSection({
+export default function LarksoisNumbersSection({
   productCount,
   categoryCount,
   therapeuticCount,
@@ -77,33 +77,33 @@ export default function IvexiaNumbersSection({
   const stats = [
     {
       target: 500,
-      label: translations?.ivexia_numbers?.employees || "Global Employees",
+      label: translations?.larksois_numbers?.employees || "Global Employees",
       suffix: "+",
     },
     {
       target: productCount,
-      label: translations?.ivexia_numbers?.products || "Finished Products",
+      label: translations?.larksois_numbers?.products || "Finished Products",
       suffix: "+",
     },
     {
       target: 15,
-      label: translations?.ivexia_numbers?.countries || "Countries Served",
+      label: translations?.larksois_numbers?.countries || "Countries Served",
       suffix: "+",
     },
     {
       target: categoryCount,
-      label: translations?.ivexia_numbers?.facilities || "Product Categories",
+      label: translations?.larksois_numbers?.facilities || "Product Categories",
     },
     {
       target: therapeuticCount,
-      label: translations?.ivexia_numbers?.rnd || "Therapy Segments",
+      label: translations?.larksois_numbers?.rnd || "Therapy Segments",
     },
   ];
 
   return (
     <section className="bg-[#fff8f4] py-16 md:py-20">
       <h2 className="mb-10 text-center text-3xl font-bold text-[#333] md:text-4xl">
-        {translations?.ivexia_numbers?.title || "Larksois in Numbers"}
+        {translations?.larksois_numbers?.title || "Larksois in Numbers"}
       </h2>
 
       <div className="grid grid-cols-2 gap-8 px-8 md:grid-cols-5 md:px-20">

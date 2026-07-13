@@ -36,7 +36,7 @@ function FactoryIcon() {
   );
 }
 
-export default function IvexiaResearchManufacturing({ companyProfile }) {
+export default function LarksoisResearchManufacturing({ companyProfile }) {
   const [activeTab, setActiveTab] = useState("research");
 
   const tabs = [

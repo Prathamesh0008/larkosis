@@ -10,7 +10,7 @@ const therapies = [
   { icon: "🧴", key: "dermatology" },
 ];
 
-export default function IvexiaTherapyGroups() {
+export default function LarksoisTherapyGroups() {
   const { translations } = useLanguage();
   const therapy = translations?.therapy || {};
 
@@ -28,7 +28,7 @@ export default function IvexiaTherapyGroups() {
             {therapy.highlight || "Quality, Innovation & Health -"}
           </span>{" "}
           {therapy.subtitle ||
-            "At Ivexia, we advance precision-based therapies across multiple domains to redefine global healthcare."}
+            "At Larksois, we advance precision-based therapies across multiple domains to redefine global healthcare."}
         </p>
       </div>
 

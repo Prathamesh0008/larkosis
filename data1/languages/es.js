@@ -4,7 +4,7 @@ export default{
   "api": "Ingredientes Farmacéuticos Activos",
   "products": "Productos Farmacéuticos",
   "about": "Sobre Nosotros",
-  "mag": "Revista Ivexia",
+  "mag": "Revista Larksois",
   "mag_news": "Noticias",
   "mag_health": "Revista de Salud",
   "contact": "Contacto",
@@ -54,8 +54,8 @@ hero: [
     ]
   }
 ],
-ivexia_numbers: {
-  title: "Ivexia en Números",
+larksois_numbers: {
+  title: "Larksois en Números",
   employees: "Empleados Globales",
   products: "Productos Terminados",
   countries: "Países Atendidos",
@@ -111,7 +111,7 @@ accordSection: {
 },
 about: {
   video: {
-    title: "Sobre Ivexia Pharmaceuticals",
+    title: "Sobre Larksois Pharmaceuticals",
     subtitle: "Visión Global. Excelencia Científica.",
     paragraph: "Ofreciendo innovación en la atención médica.",
     cta: "Explorar Más",
@@ -121,7 +121,7 @@ about: {
 "therapy": {
   "title": "Grupos Terapéuticos",
   "highlight": "Calidad, Innovación y Salud —",
-  "subtitle": "En Ivexia, avanzamos terapias basadas en precisión en múltiples áreas para redefinir la salud global.",
+  "subtitle": "En Larksois, avanzamos terapias basadas en precisión en múltiples áreas para redefinir la salud global.",
 
   "cardiology": {
     "title": "Cardiología",
@@ -149,14 +149,14 @@ about: {
     title: "Dando forma al futuro de la salud global",
     subtitle: "Impulsado por la ciencia. Potenciado por la innovación.",
     paragraph:
-      "En Ivexia Pharmaceuticals, estamos comprometidos con el avance de la atención médica mediante investigación avanzada, fabricación de alta calidad y distribución global.",
-    cta: "Explorar Ivexia"
+      "En Larksois Pharmaceuticals, estamos comprometidos con el avance de la atención médica mediante investigación avanzada, fabricación de alta calidad y distribución global.",
+    cta: "Explorar Larksois"
   }
 },
 leadership: {
   heading: "Liderazgo y Visión",
   subheading:
-    "En Ivexia no solo fabricamos productos farmacéuticos — creamos confianza. Nuestra gente es nuestra base, nuestra ciencia es nuestra fortaleza.",
+    "En Larksois no solo fabricamos productos farmacéuticos — creamos confianza. Nuestra gente es nuestra base, nuestra ciencia es nuestra fortaleza.",
 
   ceo: {
     name: "Mr. Avinaash Satjin Badal",
@@ -199,7 +199,7 @@ researchManufacturing: {
   button: "Explorar",
 },
 latest: {
-  heading: "Últimas Noticias de Ivexia",
+  heading: "Últimas Noticias de Larksois",
   subheading:
     "Actualizaciones de nuestra investigación, fabricación y áreas terapéuticas clave.",
   readMore: "Leer Más",
@@ -212,8 +212,8 @@ news: {
     "rd-expansion": {
       title: "Expansión Avanzada de I+D",
       excerpt:
-        "Ivexia amplía sus capacidades de investigación para acelerar la innovación farmacéutica.",
-      content: `Ivexia ha ampliado significativamente su infraestructura de investigación y desarrollo.
+        "Larksois amplía sus capacidades de investigación para acelerar la innovación farmacéutica.",
+      content: `Larksois ha ampliado significativamente su infraestructura de investigación y desarrollo.
 
 Los nuevos laboratorios cuentan con sistemas analíticos de alta precisión y capacidades biotecnológicas avanzadas.
 
@@ -239,7 +239,7 @@ Esto garantiza calidad y suministro confiable.`,
       title: "Innovación en Oncología",
       excerpt:
         "Nueva línea oncológica global.",
-      content: `Ivexia fortalece su pipeline oncológico.
+      content: `Larksois fortalece su pipeline oncológico.
 
 Desarrolla tratamientos avanzados.
 
@@ -253,7 +253,7 @@ partners: {
   tag: "Red Global",
   heading: "Marcas con las que colaboramos",
   desc:
-    "Ivexia apoya a empresas farmacéuticas con fabricación confiable y asociaciones de exportación.",
+    "Larksois apoya a empresas farmacéuticas con fabricación confiable y asociaciones de exportación.",
 },
 footer: {
   description: "Impulsando la salud global\nOfreciendo innovación, calidad y confianza.",
@@ -272,7 +272,7 @@ footer: {
   address: "Sede farmacéutica global"
 },
 contactPage: {
-  title: "Contactar Ivexia Pharmaceuticals",
+  title: "Contactar Larksois Pharmaceuticals",
   subtitle: "Contáctenos para consultas farmacéuticas y soporte.",
   formTitle: "Envíanos un mensaje",
   formSubtitle: "Responderemos en 24 horas",
@@ -301,7 +301,7 @@ contactPage: {
   messageLengthError: "Mínimo 10 caracteres"
 },
 offeringsOverview: {
-  badge: "Resumen de Ofertas Ivexia",
+  badge: "Resumen de Ofertas Larksois",
   title: "Soluciones de Salud Prácticas",
   subtitle: "Portafolio estructurado para distribuidores e importadores.",
   browse: "Explorar Portafolio",
@@ -312,7 +312,7 @@ offeringsOverview: {
 
   track: "Track",
   step: "Paso",
-  imageAlt: "Ofertas Ivexia",
+  imageAlt: "Ofertas Larksois",
 
   partnerTracks: {
     distributors: "Para Distribuidores",
@@ -385,7 +385,7 @@ offeringsOverview: {
   ctaTitle: "Construye la mejor oferta",
   ctaDesc: "Comparte tu mercado.",
   start: "Iniciar",
-  learn: "Sobre Ivexia"
+  learn: "Sobre Larksois"
 },
 ingredient: {
   heading: "Ingredientes Farmacéuticos Activos (API)"
@@ -398,7 +398,7 @@ ingredientHero: {
     part2: "para formulaciones globales."
   },
   description:
-    "Ivexia suministra APIs controlados y trazables.",
+    "Larksois suministra APIs controlados y trazables.",
   badges: {
     gmp: "Cumple GMP",
     coa: "Soporte completo",
@@ -444,7 +444,7 @@ ingredientGrid: {
   page: "Página"
 },
 ingredientStats: {
-  heading: "Ivexia en Números",
+  heading: "Larksois en Números",
   products: "Productos",
   therapy: "Áreas terapéuticas",
   countries: "Países atendidos",
@@ -579,7 +579,7 @@ otcPage: {
 },
 oemPage: {
   hero: {
-    badge: "Servicios Ivexia",
+    badge: "Servicios Larksois",
     title: "Fabricación Private Label / OEM",
     desc: "Construya y escale su marca farmacéutica con ejecución OEM estructurada, control de calidad y continuidad de suministro confiable.",
     contact: "Contáctanos",
@@ -736,7 +736,7 @@ testKitsPage: {
 aboutPage: {
   hero: {
     badge: "EXCELENCIA FARMACÉUTICA",
-    title: "Acerca de Ivexia Pharmaceuticals",
+    title: "Acerca de Larksois Pharmaceuticals",
     subtitle: "Innovando en la atención médica con excelencia farmacéutica global y un compromiso firme con la calidad."
   },
   stats: {
@@ -748,9 +748,9 @@ aboutPage: {
   story: {
     badge: "Nuestra Historia",
     title: "Comprometidos con la Excelencia Farmacéutica desde 2018",
-    p1: "Ivexia Pharma es una empresa farmacéutica progresiva construida sobre un firme compromiso con la calidad, la innovación y el avance de la atención médica global.",
-    p2: "Desde sus inicios, Ivexia Pharma se ha centrado en ofrecer productos farmacéuticos confiables que cumplen con estándares internacionales y apoyan a proveedores de salud, distribuidores, importadores y pacientes en diferentes mercados.",
-    p3: "Hoy, Ivexia Pharma es un socio confiable para la fabricación farmacéutica, el desarrollo de productos, el suministro de exportación y la expansión de mercado.",
+    p1: "Larksois Pharma es una empresa farmacéutica progresiva construida sobre un firme compromiso con la calidad, la innovación y el avance de la atención médica global.",
+    p2: "Desde sus inicios, Larksois Pharma se ha centrado en ofrecer productos farmacéuticos confiables que cumplen con estándares internacionales y apoyan a proveedores de salud, distribuidores, importadores y pacientes en diferentes mercados.",
+    p3: "Hoy, Larksois Pharma es un socio confiable para la fabricación farmacéutica, el desarrollo de productos, el suministro de exportación y la expansión de mercado.",
     highlights: ["Calidad Primero", "Impulsados por la Innovación"]
   },
   purpose: {
@@ -866,7 +866,7 @@ aboutPage: {
   },
   statement: {
     title: "Impulsados por la Innovación. Fortalecidos por la Calidad.",
-    subtitle: "Ivexia está a la vanguardia del avance farmacéutico."
+    subtitle: "Larksois está a la vanguardia del avance farmacéutico."
   },
   facilities: {
     title: "Instalaciones de Última Generación",
@@ -921,12 +921,12 @@ aboutPage: {
   whoWeAre: {
     badge: "Quiénes Somos",
     title: "Un Socio Farmacéutico Global de Confianza",
-    desc: "Ivexia Pharma es un fabricante y exportador farmacéutico global que ofrece medicamentos de alta calidad, soporte para el desarrollo de productos, documentación regulatoria, soluciones de embalaje y suministro de exportación confiable para distribuidores de salud, importadores, hospitales y socios farmacéuticos en todo el mundo."
+    desc: "Larksois Pharma es un fabricante y exportador farmacéutico global que ofrece medicamentos de alta calidad, soporte para el desarrollo de productos, documentación regulatoria, soluciones de embalaje y suministro de exportación confiable para distribuidores de salud, importadores, hospitales y socios farmacéuticos en todo el mundo."
   },
   qualityInfo: {
     badge: "Calidad Primero",
     title: "La Calidad en el Centro de Todo",
-    desc: "La calidad es la base de Ivexia Pharma. Nuestro enfoque cubre la evaluación de materias primas, el monitoreo de producción, controles en proceso, pruebas de producto terminado, inspección de embalaje, revisión documental y control adecuado de almacenamiento.",
+    desc: "La calidad es la base de Larksois Pharma. Nuestro enfoque cubre la evaluación de materias primas, el monitoreo de producción, controles en proceso, pruebas de producto terminado, inspección de embalaje, revisión documental y control adecuado de almacenamiento.",
     points: [
       "Estándares de fabricación alineados con GMP",
       "Abastecimiento verificado de materias primas",
@@ -938,7 +938,7 @@ aboutPage: {
   exportInfo: {
     badge: "Enfoque Global de Exportación",
     title: "Suministro Farmacéutico de Exportación Confiable",
-    desc: "Ivexia Pharma apoya a distribuidores, importadores, empresas de salud y compradores institucionales con productos farmacéuticos listos para exportación, documentación adecuada, soporte de embalaje, coordinación regulatoria y soluciones de suministro orientadas al mercado."
+    desc: "Larksois Pharma apoya a distribuidores, importadores, empresas de salud y compradores institucionales con productos farmacéuticos listos para exportación, documentación adecuada, soporte de embalaje, coordinación regulatoria y soluciones de suministro orientadas al mercado."
   },
   cta: {
     title: "Asóciese con Nosotros",
@@ -946,12 +946,12 @@ aboutPage: {
     button: "Contáctenos"
   },
   detailedInfo: {
-    badge: "Acerca de Ivexia Pharma",
+    badge: "Acerca de Larksois Pharma",
     title: "Construyendo Excelencia Farmacéutica desde 2018",
     sections: [
       {
         title: "Quiénes Somos",
-        desc: "Ivexia Pharma es un fabricante y exportador farmacéutico global que ofrece una amplia gama de productos farmacéuticos para mercados regulados y emergentes. Nuestra empresa se centra en medicamentos de calidad, procesos modernos, sistemas documentales sólidos y controles estrictos de calidad."
+        desc: "Larksois Pharma es un fabricante y exportador farmacéutico global que ofrece una amplia gama de productos farmacéuticos para mercados regulados y emergentes. Nuestra empresa se centra en medicamentos de calidad, procesos modernos, sistemas documentales sólidos y controles estrictos de calidad."
       },
       {
         title: "Lo Que Hacemos",
@@ -959,7 +959,7 @@ aboutPage: {
       },
       {
         title: "Fortaleza Regulatoria y Cumplimiento",
-        desc: "Ivexia Pharma sigue un enfoque sistemático para requisitos regulatorios, documentación, dossiers de productos, soporte de COA, documentación relacionada con GMP, datos de estabilidad, especificaciones, etiquetado y documentación de exportación."
+        desc: "Larksois Pharma sigue un enfoque sistemático para requisitos regulatorios, documentación, dossiers de productos, soporte de COA, documentación relacionada con GMP, datos de estabilidad, especificaciones, etiquetado y documentación de exportación."
       },
       {
         title: "Crecimiento Impulsado por la Innovación y la Investigación",
@@ -967,17 +967,17 @@ aboutPage: {
       },
       {
         title: "Nuestro Compromiso con la Salud",
-        desc: "Ivexia Pharma está comprometida a contribuir a la atención médica global proporcionando productos farmacéuticos seguros, confiables y asequibles con responsabilidad, confianza y excelencia."
+        desc: "Larksois Pharma está comprometida a contribuir a la atención médica global proporcionando productos farmacéuticos seguros, confiables y asequibles con responsabilidad, confianza y excelencia."
       },
       {
         title: "Construyendo el Futuro",
-        desc: "Ivexia Pharma avanza con expansión global, fabricación moderna, diversificación de productos y capacidades regulatorias más sólidas."
+        desc: "Larksois Pharma avanza con expansión global, fabricación moderna, diversificación de productos y capacidades regulatorias más sólidas."
       }
     ]
   },
   valuesInfo: {
     badge: "Nuestros Valores",
-    title: "Valores que Guían a Ivexia Pharma",
+    title: "Valores que Guían a Larksois Pharma",
     points: [
       "Calidad",
       "Integridad",
@@ -993,24 +993,24 @@ aboutPage: {
   },
   faqs: [
     {
-      question: "¿Qué hace Ivexia Pharma?",
-      answer: "Ivexia Pharma es un fabricante y exportador farmacéutico que ofrece medicamentos de calidad, soporte para desarrollo de productos, suministro de exportación, documentación regulatoria y soluciones de embalaje para distribuidores de salud, importadores y socios farmacéuticos en todo el mundo."
+      question: "¿Qué hace Larksois Pharma?",
+      answer: "Larksois Pharma es un fabricante y exportador farmacéutico que ofrece medicamentos de calidad, soporte para desarrollo de productos, suministro de exportación, documentación regulatoria y soluciones de embalaje para distribuidores de salud, importadores y socios farmacéuticos en todo el mundo."
     },
     {
-      question: "¿Ivexia Pharma es una empresa farmacéutica global?",
-      answer: "Sí, Ivexia Pharma se enfoca en mercados farmacéuticos internacionales y apoya a socios globales de salud con productos farmacéuticos listos para exportación, documentación de calidad y soluciones de suministro confiables."
+      question: "¿Larksois Pharma es una empresa farmacéutica global?",
+      answer: "Sí, Larksois Pharma se enfoca en mercados farmacéuticos internacionales y apoya a socios globales de salud con productos farmacéuticos listos para exportación, documentación de calidad y soluciones de suministro confiables."
     },
     {
-      question: "¿Qué hace que Ivexia Pharma sea un socio farmacéutico confiable?",
-      answer: "Ivexia Pharma se enfoca en fabricación de calidad, procesos alineados con GMP, soporte regulatorio, entrega puntual, prácticas comerciales éticas y valor de colaboración a largo plazo."
+      question: "¿Qué hace que Larksois Pharma sea un socio farmacéutico confiable?",
+      answer: "Larksois Pharma se enfoca en fabricación de calidad, procesos alineados con GMP, soporte regulatorio, entrega puntual, prácticas comerciales éticas y valor de colaboración a largo plazo."
     },
     {
-      question: "¿Ivexia Pharma apoya las exportaciones farmacéuticas?",
-      answer: "Sí, Ivexia Pharma apoya las exportaciones farmacéuticas con suministro de productos, asistencia documental, soporte de embalaje, coordinación regulatoria y soluciones farmacéuticas orientadas al mercado."
+      question: "¿Larksois Pharma apoya las exportaciones farmacéuticas?",
+      answer: "Sí, Larksois Pharma apoya las exportaciones farmacéuticas con suministro de productos, asistencia documental, soporte de embalaje, coordinación regulatoria y soluciones farmacéuticas orientadas al mercado."
     },
     {
-      question: "¿Qué mercados atiende Ivexia Pharma?",
-      answer: "Ivexia Pharma tiene como objetivo atender Europa, MENA, África, CEI, Sudeste Asiático y otras regiones sanitarias en crecimiento."
+      question: "¿Qué mercados atiende Larksois Pharma?",
+      answer: "Larksois Pharma tiene como objetivo atender Europa, MENA, África, CEI, Sudeste Asiático y otras regiones sanitarias en crecimiento."
     }
   ],
 },
@@ -1029,10 +1029,10 @@ testKitDetailPage: {
   cutOff: "Punto de Corte",
   certificate: "Certificado"
 },
-// ivexia\data1\languages\es.js - Magazine section
+// larksois\data1\languages\es.js - Magazine section
 
 magazine: {
-  title: "Revista Ivexia",
+  title: "Revista Larksois",
   loading: "Cargando...",
   recentArticles: "Artículos Recientes",
   noRecentArticles: "No hay artículos recientes aún.",
@@ -1308,7 +1308,7 @@ magazine: {
           heading: "Un compromiso más allá de un día",
           paragraphs: [
             "El Día Internacional de la Mujer es un recordatorio, no un evento único. Reducir las brechas en la salud de la mujer requiere un compromiso constante y a largo plazo.",
-            "Para Ivexia, priorizar la salud de la mujer significa diseñar medicamentos, comunicación y programas teniendo en cuenta las necesidades únicas de las mujeres."
+            "Para Larksois, priorizar la salud de la mujer significa diseñar medicamentos, comunicación y programas teniendo en cuenta las necesidades únicas de las mujeres."
           ]
         }
       ]

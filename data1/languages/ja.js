@@ -54,8 +54,8 @@ hero: [
     ]
   }
 ],
-ivexia_numbers: {
-  title: "Ivexiaの実績",
+larksois_numbers: {
+  title: "Larksoisの実績",
   employees: "世界の従業員数",
   products: "完成品",
   countries: "展開国数",
@@ -111,7 +111,7 @@ accordSection: {
 },
 about: {
   video: {
-    title: "Ivexia製薬について",
+    title: "Larksois製薬について",
     subtitle: "グローバルビジョン・科学的卓越性",
     paragraph: "医療の革新を世界へ届けます。",
     cta: "詳しく見る",
@@ -121,7 +121,7 @@ about: {
 "therapy": {
   "title": "治療分野",
   "highlight": "品質・革新・健康 —",
-  "subtitle": "Ivexiaでは、多分野にわたる精密医療を推進し、世界の医療を再定義します。",
+  "subtitle": "Larksoisでは、多分野にわたる精密医療を推進し、世界の医療を再定義します。",
 
   "cardiology": {
     "title": "循環器学",
@@ -149,14 +149,14 @@ about: {
     title: "世界の医療の未来を創造する",
     subtitle: "科学に基づき、革新によって推進",
     paragraph:
-      "Ivexia Pharmaceuticals は、最先端の研究、高品質な製造、そしてグローバルな流通を通じて医療の進歩に貢献しています。",
-    cta: "Ivexiaを見る"
+      "Larksois Pharmaceuticals は、最先端の研究、高品質な製造、そしてグローバルな流通を通じて医療の進歩に貢献しています。",
+    cta: "Larksoisを見る"
   }
 },
 leadership: {
   heading: "领导力与愿景",
   subheading:
-    "在Ivexia，我们不仅制造药品，更创造信任。",
+    "在Larksois，我们不仅制造药品，更创造信任。",
 
   ceo: {
     name: "Mr. Avinaash Satjin Badal",
@@ -199,7 +199,7 @@ researchManufacturing: {
   button: "探索",
 },
 latest: {
-  heading: "Ivexia 最新情報",
+  heading: "Larksois 最新情報",
   subheading:
     "研究・製造・主要治療分野からの最新情報。",
   readMore: "続きを読む",
@@ -249,7 +249,7 @@ partners: {
   tag: "グローバルネットワーク",
   heading: "提携ブランド",
   desc:
-    "Ivexiaは製薬企業に信頼できる製造と輸出パートナーを提供します。",
+    "Larksoisは製薬企業に信頼できる製造と輸出パートナーを提供します。",
 },
 footer: {
   description: "世界の医療を前進させる\n革新・品質・信頼を提供。",
@@ -268,7 +268,7 @@ footer: {
   address: "グローバル製薬本社"
 },
 contactPage: {
-  title: "Ivexiaへのお問い合わせ",
+  title: "Larksoisへのお問い合わせ",
   subtitle: "お問い合わせください。",
   formTitle: "メッセージ送信",
   formSubtitle: "24時間以内に返信",
@@ -297,7 +297,7 @@ contactPage: {
   messageLengthError: "10文字以上"
 },
 offeringsOverview: {
-  badge: "Ivexia 提供内容概要",
+  badge: "Larksois 提供内容概要",
   title: "実用的な医療ソリューション",
   subtitle: "安定供給と品質を重視したポートフォリオ。",
   browse: "ポートフォリオを見る",
@@ -308,7 +308,7 @@ offeringsOverview: {
 
   track: "カテゴリ",
   step: "ステップ",
-  imageAlt: "Ivexia 製品",
+  imageAlt: "Larksois 製品",
 
   partnerTracks: {
     distributors: "流通業者",
@@ -381,7 +381,7 @@ offeringsOverview: {
   ctaTitle: "最適な組み合わせ",
   ctaDesc: "市場情報共有。",
   start: "開始",
-  learn: "Ivexiaについて"
+  learn: "Larksoisについて"
 },
 ingredient: {
   heading: "API"
@@ -389,7 +389,7 @@ ingredient: {
 ingredientHero: {
   subtitle: "API",
   title: { part1: "高品質API", part2: "グローバル" },
-  description: "Ivexia提供。",
+  description: "Larksois提供。",
   badges: { gmp: "GMP", coa: "文書", flexible: "柔軟" },
   cta: "相談 →",
   imageAlt: "API",
@@ -424,7 +424,7 @@ ingredientGrid: {
   page: "ページ"
 },
 ingredientStats: {
-  heading: "Ivexia 数値",
+  heading: "Larksois 数値",
   products: "製品",
   therapy: "治療分野",
   countries: "対応国",
@@ -559,7 +559,7 @@ otcPage: {
 },
 oemPage: {
   hero: {
-    badge: "Ivexia 提供",
+    badge: "Larksois 提供",
     title: "OEM / プライベートラベル",
     desc: "医薬ブランド構築。",
     contact: "お問い合わせ",
@@ -651,7 +651,7 @@ testKitsPage: {
 aboutPage: {
   hero: {
     badge: "医薬品の卓越性",
-    title: "Ivexia Pharmaceuticalsについて",
+    title: "Larksois Pharmaceuticalsについて",
     subtitle: "世界水準の医薬品品質と揺るぎない品質への取り組みにより、ヘルスケアに革新をもたらします。"
   },
   stats: {
@@ -663,9 +663,9 @@ aboutPage: {
   story: {
     badge: "私たちの歩み",
     title: "2018年から医薬品の卓越性を追求",
-    p1: "Ivexia Pharmaは、品質、革新、そして世界のヘルスケア発展への強い commitment に基づいて築かれた先進的な製薬会社です。",
-    p2: "創業以来、Ivexia Pharmaは国際基準を満たし、医療提供者、販売業者、輸入業者、患者をさまざまな市場で支える信頼性の高い医薬品の提供に注力してきました。",
-    p3: "現在、Ivexia Pharmaは医薬品製造、製品開発、輸出供給、市場拡大における信頼できるパートナーです。",
+    p1: "Larksois Pharmaは、品質、革新、そして世界のヘルスケア発展への強い commitment に基づいて築かれた先進的な製薬会社です。",
+    p2: "創業以来、Larksois Pharmaは国際基準を満たし、医療提供者、販売業者、輸入業者、患者をさまざまな市場で支える信頼性の高い医薬品の提供に注力してきました。",
+    p3: "現在、Larksois Pharmaは医薬品製造、製品開発、輸出供給、市場拡大における信頼できるパートナーです。",
     highlights: ["品質第一", "革新主導"]
   },
   purpose: {
@@ -781,7 +781,7 @@ aboutPage: {
   },
   statement: {
     title: "革新に動かされ、品質に支えられる。",
-    subtitle: "Ivexiaは医薬品の進歩の最前線に立っています。"
+    subtitle: "Larksoisは医薬品の進歩の最前線に立っています。"
   },
   facilities: {
     title: "最先端施設",
@@ -836,12 +836,12 @@ aboutPage: {
   whoWeAre: {
     badge: "私たちについて",
     title: "信頼されるグローバル製薬パートナー",
-    desc: "Ivexia Pharmaは、高品質な医薬品、製品開発支援、規制文書、包装ソリューション、信頼性の高い輸出供給を、世界中の医療販売業者、輸入業者、病院、製薬パートナーに提供するグローバルな医薬品メーカー兼輸出業者です。"
+    desc: "Larksois Pharmaは、高品質な医薬品、製品開発支援、規制文書、包装ソリューション、信頼性の高い輸出供給を、世界中の医療販売業者、輸入業者、病院、製薬パートナーに提供するグローバルな医薬品メーカー兼輸出業者です。"
   },
   qualityInfo: {
     badge: "品質第一",
     title: "すべての中心にある品質",
-    desc: "品質はIvexia Pharmaの基盤です。私たちのアプローチは、原材料評価、生産監視、工程内検査、最終製品試験、包装検査、文書レビュー、適切な保管管理を含みます。",
+    desc: "品質はLarksois Pharmaの基盤です。私たちのアプローチは、原材料評価、生産監視、工程内検査、最終製品試験、包装検査、文書レビュー、適切な保管管理を含みます。",
     points: [
       "GMPに準拠した製造基準",
       "確認済みの原材料調達",
@@ -853,7 +853,7 @@ aboutPage: {
   exportInfo: {
     badge: "グローバル輸出への注力",
     title: "信頼できる医薬品輸出供給",
-    desc: "Ivexia Pharmaは、輸出対応の医薬品、適切な文書、包装支援、規制調整、市場に適した供給ソリューションを通じて、販売業者、輸入業者、医療企業、機関購入者を支援します。"
+    desc: "Larksois Pharmaは、輸出対応の医薬品、適切な文書、包装支援、規制調整、市場に適した供給ソリューションを通じて、販売業者、輸入業者、医療企業、機関購入者を支援します。"
   },
   cta: {
     title: "私たちと提携する",
@@ -861,12 +861,12 @@ aboutPage: {
     button: "お問い合わせ"
   },
   detailedInfo: {
-    badge: "Ivexia Pharmaについて",
+    badge: "Larksois Pharmaについて",
     title: "2018年から医薬品の卓越性を築く",
     sections: [
       {
         title: "私たちについて",
-        desc: "Ivexia Pharmaは、規制市場および新興市場向けに幅広い医薬品を提供するグローバルな医薬品メーカー兼輸出業者です。当社は高品質な医薬品、近代的なプロセス、強固な文書システム、厳格な品質チェックに注力しています。"
+        desc: "Larksois Pharmaは、規制市場および新興市場向けに幅広い医薬品を提供するグローバルな医薬品メーカー兼輸出業者です。当社は高品質な医薬品、近代的なプロセス、強固な文書システム、厳格な品質チェックに注力しています。"
       },
       {
         title: "私たちの事業",
@@ -874,7 +874,7 @@ aboutPage: {
       },
       {
         title: "規制対応力とコンプライアンス",
-        desc: "Ivexia Pharmaは、規制要件、文書、製品 dossier、COAサポート、GMP関連文書、安定性データ、仕様、表示、輸出文書に対して体系的なアプローチを取っています。"
+        desc: "Larksois Pharmaは、規制要件、文書、製品 dossier、COAサポート、GMP関連文書、安定性データ、仕様、表示、輸出文書に対して体系的なアプローチを取っています。"
       },
       {
         title: "革新と研究に基づく成長",
@@ -882,17 +882,17 @@ aboutPage: {
       },
       {
         title: "医療への取り組み",
-        desc: "Ivexia Pharmaは、安全で信頼性が高く、手頃な価格の医薬品を責任、信頼、卓越性をもって提供することで、世界の医療に貢献することを約束します。"
+        desc: "Larksois Pharmaは、安全で信頼性が高く、手頃な価格の医薬品を責任、信頼、卓越性をもって提供することで、世界の医療に貢献することを約束します。"
       },
       {
         title: "未来を築く",
-        desc: "Ivexia Pharmaは、グローバル展開、近代的な製造、製品多様化、より強い規制対応力により前進しています。"
+        desc: "Larksois Pharmaは、グローバル展開、近代的な製造、製品多様化、より強い規制対応力により前進しています。"
       }
     ]
   },
   valuesInfo: {
     badge: "私たちの価値観",
-    title: "Ivexia Pharmaを導く価値観",
+    title: "Larksois Pharmaを導く価値観",
     points: [
       "品質",
       "誠実さ",
@@ -908,24 +908,24 @@ aboutPage: {
   },
   faqs: [
     {
-      question: "Ivexia Pharmaは何をしていますか？",
-      answer: "Ivexia Pharmaは、高品質な医薬品、製品開発支援、輸出供給、規制文書、包装ソリューションを、世界中の医療販売業者、輸入業者、製薬パートナーに提供する医薬品メーカー兼輸出業者です。"
+      question: "Larksois Pharmaは何をしていますか？",
+      answer: "Larksois Pharmaは、高品質な医薬品、製品開発支援、輸出供給、規制文書、包装ソリューションを、世界中の医療販売業者、輸入業者、製薬パートナーに提供する医薬品メーカー兼輸出業者です。"
     },
     {
-      question: "Ivexia Pharmaはグローバルな製薬会社ですか？",
-      answer: "はい。Ivexia Pharmaは国際的な医薬品市場に注力し、輸出対応の医薬品、品質文書、信頼できる供給ソリューションでグローバルな医療パートナーを支援しています。"
+      question: "Larksois Pharmaはグローバルな製薬会社ですか？",
+      answer: "はい。Larksois Pharmaは国際的な医薬品市場に注力し、輸出対応の医薬品、品質文書、信頼できる供給ソリューションでグローバルな医療パートナーを支援しています。"
     },
     {
-      question: "Ivexia Pharmaが信頼できる製薬パートナーである理由は何ですか？",
-      answer: "Ivexia Pharmaは、品質製造、GMPに準拠したプロセス、規制支援、納期遵守、倫理的なビジネス慣行、長期的なパートナーシップ価値を重視しています。"
+      question: "Larksois Pharmaが信頼できる製薬パートナーである理由は何ですか？",
+      answer: "Larksois Pharmaは、品質製造、GMPに準拠したプロセス、規制支援、納期遵守、倫理的なビジネス慣行、長期的なパートナーシップ価値を重視しています。"
     },
     {
-      question: "Ivexia Pharmaは医薬品輸出を支援していますか？",
-      answer: "はい。Ivexia Pharmaは、製品供給、文書支援、包装支援、規制調整、市場志向の医薬品ソリューションにより医薬品輸出を支援しています。"
+      question: "Larksois Pharmaは医薬品輸出を支援していますか？",
+      answer: "はい。Larksois Pharmaは、製品供給、文書支援、包装支援、規制調整、市場志向の医薬品ソリューションにより医薬品輸出を支援しています。"
     },
     {
-      question: "Ivexia Pharmaはどの市場に対応していますか？",
-      answer: "Ivexia Pharmaは、欧州、MENA、アフリカ、CIS、東南アジア、その他の成長する医療地域への対応を目指しています。"
+      question: "Larksois Pharmaはどの市場に対応していますか？",
+      answer: "Larksois Pharmaは、欧州、MENA、アフリカ、CIS、東南アジア、その他の成長する医療地域への対応を目指しています。"
     }
   ],
 },
@@ -944,7 +944,7 @@ testKitDetailPage: {
   cutOff: "カットオフ値",
   certificate: "証明書"
 },
-// ivexia\data1\languages\ja.js - Magazine section
+// larksois\data1\languages\ja.js - Magazine section
 
 magazine: {
   title: "イベキシアマガジン",
@@ -1223,7 +1223,7 @@ magazine: {
           heading: "一日を超えた取り組み",
           paragraphs: [
             "国際女性デーはリマインダーであり、単一のイベントではありません。女性の健康のギャップを減らすには、一貫した長期的なコミットメントが必要です。",
-            "Ivexiaにとって、女性の健康を優先することは、女性の独自のニーズを念頭に置いて医薬品、コミュニケーション、プログラムを設計することを意味します。"
+            "Larksoisにとって、女性の健康を優先することは、女性の独自のニーズを念頭に置いて医薬品、コミュニケーション、プログラムを設計することを意味します。"
           ]
         }
       ]

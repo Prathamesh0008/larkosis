@@ -38,7 +38,7 @@ export default function HeroSection({
       <div className="relative z-10 mx-auto flex min-h-[700px] max-w-7xl items-center px-4 py-20 sm:px-6 lg:px-8">
         <div className="max-w-2xl animate-fade-up text-white">
           
-          <h1 className="mt-5 text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">
+          <h1 className="mt-5 text-4xl font-bold leading-tight sm:text-4xl lg:text-6xl">
             {heroContent?.title || "Trusted Global Pharmaceutical Excellence"}
           </h1>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-white/90 sm:text-lg">

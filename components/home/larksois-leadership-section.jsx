@@ -54,7 +54,7 @@ const team = [
   },
 ];
 
-export default function IvexiaLeadershipSection() {
+export default function LarksoisLeadershipSection() {
   return (
     <section className="relative overflow-hidden text-white">
      
@@ -66,7 +66,7 @@ export default function IvexiaLeadershipSection() {
           </h3>
 
           <p className="mx-auto max-w-2xl text-xs text-gray-300 md:text-sm">
-            The same Ivexia-style team grid, adapted to the way Larksois
+            The same Larksois-style team grid, adapted to the way Larksois
             manages quality, innovation, manufacturing, and customer delivery.
           </p>
         </div>

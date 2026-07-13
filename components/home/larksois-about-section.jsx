@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useLanguage } from "@/contexts/LanguageContext";
 
-export default function IvexiaAboutSection({ companyProfile }) {
+export default function LarksoisAboutSection({ companyProfile }) {
   const { translations } = useLanguage();
   const about = translations?.about?.video;
 

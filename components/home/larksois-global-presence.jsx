@@ -111,7 +111,7 @@ function getRegionByCoord(lat, lon) {
   return "asia";
 }
 
-export default function IvexiaGlobalPresence() {
+export default function LarksoisGlobalPresence() {
   const { translations } = useLanguage();
   const [activeId, setActiveId] = useState("asia");
   const [canvasSize, setCanvasSize] = useState({ width: 520, height: 520 });
@@ -264,7 +264,7 @@ export default function IvexiaGlobalPresence() {
 
   return (
     <>
-      <main className="ivexia-presence min-h-[70vh]">
+      <main className="larksois-presence min-h-[70vh]">
         <section className="presence-wrap" aria-label="Global presence by region">
           <h2>{translations?.accordSection?.title || "Global Presence"}</h2>
 
@@ -338,27 +338,27 @@ export default function IvexiaGlobalPresence() {
       </main>
 
       <style jsx>{`
-        .ivexia-presence {
+        .larksois-presence {
           --ink: #0d2d47;
           --panel: #fff8f5;
           --line: rgba(13, 45, 71, 0.15);
           padding: 4px 16px 50px;
         }
 
-        .ivexia-presence .presence-wrap {
+        .larksois-presence .presence-wrap {
           max-width: 980px;
           margin: 0 auto;
           margin-bottom: 0;
         }
 
-        .ivexia-presence .presence-wrap h2 {
+        .larksois-presence .presence-wrap h2 {
           font-size: clamp(1.8rem, 3vw, 2.5rem);
           font-weight: 700;
           color: #0d2d47;
           margin-bottom: 32px;
         }
 
-        .ivexia-presence .presence-grid {
+        .larksois-presence .presence-grid {
           display: grid;
           grid-template-columns: 190px 1fr 300px;
           gap: 30px;
@@ -368,12 +368,12 @@ export default function IvexiaGlobalPresence() {
           align-items: center;
         }
 
-        .ivexia-presence .region-nav {
+        .larksois-presence .region-nav {
           border-right: 1px solid var(--line);
           padding: 20px 0;
         }
 
-        .ivexia-presence .region-btn {
+        .larksois-presence .region-btn {
           width: 100%;
           padding: 10px;
           text-align: left;
@@ -384,15 +384,15 @@ export default function IvexiaGlobalPresence() {
           transition: all 0.2s ease;
         }
 
-        .ivexia-presence .region-btn:first-child {
+        .larksois-presence .region-btn:first-child {
           border-top: 1px solid var(--line);
         }
 
-        .ivexia-presence .region-btn:hover {
+        .larksois-presence .region-btn:hover {
           background: rgba(255, 122, 0, 0.1);
         }
 
-        .ivexia-presence .region-btn.is-active {
+        .larksois-presence .region-btn.is-active {
           border: 2px solid #ff7a00;
           background: linear-gradient(
             90deg,
@@ -401,11 +401,11 @@ export default function IvexiaGlobalPresence() {
           );
         }
 
-        .ivexia-presence .region-copy {
+        .larksois-presence .region-copy {
           max-width: 520px;
         }
 
-        .ivexia-presence .region-copy p {
+        .larksois-presence .region-copy p {
           color: var(--ink);
           font-size: 1.15rem;
           line-height: 1.55;
@@ -413,13 +413,13 @@ export default function IvexiaGlobalPresence() {
           margin-bottom: 14px;
         }
 
-        .ivexia-presence .globe-shell {
+        .larksois-presence .globe-shell {
           display: flex;
           justify-content: flex-end;
           margin-right: -120px;
         }
 
-        .ivexia-presence .globe-canvas {
+        .larksois-presence .globe-canvas {
           width: 350px;
           aspect-ratio: 1;
           border-radius: 50%;
@@ -429,30 +429,30 @@ export default function IvexiaGlobalPresence() {
         }
 
         @media (max-width: 1000px) {
-          .ivexia-presence .presence-grid {
+          .larksois-presence .presence-grid {
             grid-template-columns: 170px 1fr;
           }
 
-          .ivexia-presence .globe-shell {
+          .larksois-presence .globe-shell {
             margin-right: 0;
           }
         }
 
         @media (max-width: 920px) {
-          .ivexia-presence .presence-grid {
+          .larksois-presence .presence-grid {
             grid-template-columns: 1fr;
           }
 
-          .ivexia-presence .globe-shell {
+          .larksois-presence .globe-shell {
             justify-content: center;
             margin: 0;
           }
 
-          .ivexia-presence .globe-canvas {
+          .larksois-presence .globe-canvas {
             width: 280px;
           }
 
-          .ivexia-presence .globe-canvas :global(canvas) {
+          .larksois-presence .globe-canvas :global(canvas) {
             transform: scale(1.4);
             transform-origin: center;
           }

@@ -139,6 +139,8 @@ export default function ContactForm() {
       requirements: form.requirements,
     };
 
+    let inquirySent = false;
+
     try {
       await emailjs.send(
         EMAILJS_SERVICE_ID,
@@ -146,30 +148,36 @@ export default function ContactForm() {
         templateParams,
         { publicKey: EMAILJS_PUBLIC_KEY },
       );
+      inquirySent = true;
 
       if (EMAILJS_AUTOREPLY_TEMPLATE_ID) {
-        try {
-          await emailjs.send(
-            EMAILJS_SERVICE_ID,
-            EMAILJS_AUTOREPLY_TEMPLATE_ID,
-            {
-              to_email: form.email,
-              to_name: form.contactPerson,
-              company_name: form.companyName,
-              inquiry_type: inquiryTypeLabel,
-              preferred_contact: preferredContactLabel,
-              submitted_subject: subject,
-              support_email: companyProfile.email,
-              support_phone: companyProfile.phone,
-              website: companyProfile.website,
-              message:
-                "Thank you for contacting Larkosis Pharma. We have received your inquiry and our team will review it shortly.",
-            },
-            { publicKey: EMAILJS_PUBLIC_KEY },
-          );
-        } catch (autoReplyError) {
-          console.error("EmailJS auto-reply failed:", autoReplyError);
-        }
+        await emailjs.send(
+          EMAILJS_SERVICE_ID,
+          EMAILJS_AUTOREPLY_TEMPLATE_ID,
+          {
+            // Common aliases keep the template compatible when its recipient
+            // field uses {{to_email}}, {{email}}, or {{user_email}}.
+            to_email: form.email,
+            email: form.email,
+            user_email: form.email,
+            reply_to: companyProfile.email,
+            to_name: form.contactPerson,
+            name: form.contactPerson,
+            contact_person: form.contactPerson,
+            from_name: "Larkosis Pharma",
+            company_name: form.companyName,
+            inquiry_type: inquiryTypeLabel,
+            preferred_contact: preferredContactLabel,
+            submitted_subject: subject,
+            subject: `We received your inquiry - ${form.companyName}`,
+            support_email: companyProfile.email,
+            support_phone: companyProfile.phone,
+            website: companyProfile.website,
+            message:
+              "Thank you for contacting Larkosis Pharma. We have received your inquiry and our team will review it shortly.",
+          },
+          { publicKey: EMAILJS_PUBLIC_KEY },
+        );
       }
 
       setSubmitStatus({
@@ -189,7 +197,9 @@ export default function ContactForm() {
 
       setSubmitStatus({
         type: "error",
-        message: errorReason
+        message: inquirySent
+          ? `Your inquiry was submitted, but the confirmation email could not be sent${errorReason ? ` (${errorReason})` : ""}. Please check the EmailJS auto-reply template settings.`
+          : errorReason
           ? `Unable to send inquiry right now (${errorReason}). Please email us at ${companyProfile.email}.`
           : `Unable to send inquiry right now. Please email us at ${companyProfile.email}.`,
       });
@@ -197,9 +207,6 @@ export default function ContactForm() {
       setIsSubmitting(false);
     }
   }
-
-  const charCount = form.requirements.length;
-  const charLimit = 1000;
 
   return (
     <form onSubmit={handleSubmit} className="border border-[#f0dfd3] bg-white p-8 shadow-sm">
@@ -230,31 +237,6 @@ export default function ContactForm() {
           <div className="flex items-center gap-2">{submitStatus.message}</div>
         </div>
       )}
-
-      <div className="mt-5 flex gap-4">
-        <label className="flex items-center gap-2">
-          <input
-            type="radio"
-            name="inquiryType"
-            value="general"
-            checked={form.inquiryType === "general"}
-            onChange={updateField}
-            className="h-4 w-4 text-[#ec671f]"
-          />
-          <span className="text-sm text-[#3f2d23]">General Inquiry</span>
-        </label>
-        <label className="flex items-center gap-2">
-          <input
-            type="radio"
-            name="inquiryType"
-            value="urgent"
-            checked={form.inquiryType === "urgent"}
-            onChange={updateField}
-            className="h-4 w-4 text-[#ec671f]"
-          />
-          <span className="text-sm text-[#3f2d23]">Urgent / Express</span>
-        </label>
-      </div>
 
       <div className="mt-5 grid gap-4 sm:grid-cols-2">
         <div className="space-y-1">
@@ -349,56 +331,16 @@ export default function ContactForm() {
           </select>
         </div>
 
-        <div className="sm:col-span-2">
-          <label className="text-xs font-semibold text-[#7b4f37]">
-            Preferred Contact Method
-          </label>
-          <div className="mt-2 flex gap-4">
-            <label className="flex items-center gap-2">
-              <input
-                type="radio"
-                name="preferredContact"
-                value="email"
-                checked={form.preferredContact === "email"}
-                onChange={updateField}
-                className="h-4 w-4 text-[#ec671f]"
-              />
-              <span className="text-sm text-[#3f2d23]">Email</span>
-            </label>
-            <label className="flex items-center gap-2">
-              <input
-                type="radio"
-                name="preferredContact"
-                value="phone"
-                checked={form.preferredContact === "phone"}
-                onChange={updateField}
-                className="h-4 w-4 text-[#ec671f]"
-              />
-              <span className="text-sm text-[#3f2d23]">Phone / WhatsApp</span>
-            </label>
-          </div>
-        </div>
-
         <div className="space-y-1 sm:col-span-2">
-          <div className="flex items-center justify-between">
-            <label className="text-xs font-semibold text-[#7b4f37]">
-              {t.message || "Requirements"} *
-            </label>
-            <span
-              className={`text-xs ${
-                charCount > charLimit * 0.8 ? "text-[#ec671f]" : "text-[#b18b75]"
-              }`}
-            >
-              {charCount}/{charLimit}
-            </span>
-          </div>
+          <label className="text-xs font-semibold text-[#7b4f37]">
+            {t.message || "Requirements"} *
+          </label>
           <textarea
             required
             rows={6}
             name="requirements"
             value={form.requirements}
             onChange={updateField}
-            maxLength={charLimit}
             placeholder={
               t.messagePlaceholder ||
               "Please mention product names, strengths, quantities, and any regulatory requirements. Include specific packaging needs if any."
@@ -428,7 +370,7 @@ export default function ContactForm() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="relative min-w-[160px] overflow-hidden rounded-full bg-[linear-gradient(90deg,#2b1d16_0%,#ec671f_100%)] px-6 py-3 text-sm font-bold text-white transition-all duration-300 hover:shadow-lg disabled:cursor-not-allowed disabled:opacity-70 group"
+            className="group relative min-w-[160px] cursor-pointer overflow-hidden rounded-full bg-[linear-gradient(90deg,#2b1d16_0%,#ec671f_100%)] px-6 py-3 text-sm font-bold text-white transition-all duration-300 hover:shadow-lg disabled:cursor-not-allowed disabled:opacity-70"
           >
             {isSubmitting ? (
               <span className="flex items-center justify-center gap-2">

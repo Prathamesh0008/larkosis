@@ -1,12 +1,12 @@
 import { companyProfile } from "@/data/companyProfile";
 import HeroSection from "@/components/home/hero-section";
-import IvexiaAboutSection from "@/components/home/ivexia-about-section";
-import IvexiaGlobalPresence from "@/components/home/ivexia-global-presence";
-import IvexiaLatestSection from "@/components/home/ivexia-latest-section";
-import IvexiaLeadershipSection from "@/components/home/ivexia-leadership-section";
-import IvexiaNumbersSection from "@/components/home/ivexia-numbers-section";
-import IvexiaResearchManufacturing from "@/components/home/ivexia-research-manufacturing";
-import IvexiaTherapyGroups from "@/components/home/ivexia-therapy-groups";
+import LarksoisAboutSection from "@/components/home/larksois-about-section";
+import LarksoisGlobalPresence from "@/components/home/larksois-global-presence";
+import LarksoisLatestSection from "@/components/home/larksois-latest-section";
+import LarksoisLeadershipSection from "@/components/home/larksois-leadership-section";
+import LarksoisNumbersSection from "@/components/home/larksois-numbers-section";
+import LarksoisResearchManufacturing from "@/components/home/larksois-research-manufacturing";
+import LarksoisTherapyGroups from "@/components/home/larksois-therapy-groups";
 import ScrollReveal from "@/components/scroll-reveal";
 import { getAllProducts, getCategoryCounts } from "@/lib/catalog";
 import { SITE_URL, absoluteUrl } from "@/lib/seo";
@@ -81,29 +81,29 @@ export default function Home() {
         productListPdf={companyProfile.documents.productListPdf}
       />
       <ScrollReveal delay={80} variant="zoomUp">
-        <IvexiaNumbersSection
+        <LarksoisNumbersSection
           productCount={products.length}
           categoryCount={categoryCounts.length}
           therapeuticCount={companyProfile.therapeuticCoverage.length}
         />
       </ScrollReveal>
       <ScrollReveal delay={120} variant="left">
-        <IvexiaAboutSection companyProfile={companyProfile} />
+        <LarksoisAboutSection companyProfile={companyProfile} />
       </ScrollReveal>
       <ScrollReveal delay={160} variant="soft">
-        <IvexiaTherapyGroups />
+        <LarksoisTherapyGroups />
       </ScrollReveal>
       <ScrollReveal delay={180} variant="zoom">
-        <IvexiaGlobalPresence />
+        <LarksoisGlobalPresence />
       </ScrollReveal>
       <ScrollReveal delay={200} variant="right">
-        <IvexiaLeadershipSection />
+        <LarksoisLeadershipSection />
       </ScrollReveal>
       <ScrollReveal delay={240} variant="tilt">
-        <IvexiaResearchManufacturing companyProfile={companyProfile} />
+        <LarksoisResearchManufacturing companyProfile={companyProfile} />
       </ScrollReveal>
       <ScrollReveal delay={280} variant="up">
-        <IvexiaLatestSection
+        <LarksoisLatestSection
           featuredProducts={featuredProducts}
           companyProfile={companyProfile}
         />

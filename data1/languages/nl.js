@@ -1,4 +1,4 @@
-//ivexia\data1\languages\nl.js
+//larksois\data1\languages\nl.js
 export default {
   nav: {
     "home": "Startpagina",
@@ -8,7 +8,7 @@ export default {
     "products": "Farmaceutische Producten",
     "otc": "Zelfzorg Geneesmiddelen",
     "about": "Over Ons",
-    "mag": "Ivexia Magazine",
+    "mag": "Larksois Magazine",
     "mag_news": "Nieuws",
     "mag_health": "Gezondheid",
     "contact": "Contact",
@@ -54,8 +54,8 @@ export default {
     ]
   }
 ],
-  ivexia_numbers: {
-  title: "Ivexia in Cijfers",
+  larksois_numbers: {
+  title: "Larksois in Cijfers",
   employees: "Werknemers Wereldwijd",
   products: "Eindproducten",
   countries: "Landen Bediend",
@@ -111,7 +111,7 @@ accordSection: {
 },
 about: {
   video: {
-    title: "Over Ivexia Pharmaceuticals",
+    title: "Over Larksois Pharmaceuticals",
     subtitle: "Wereldwijde Visie. Wetenschappelijke Excellentie.",
     paragraph: "Innovatie in de gezondheidszorg wereldwijd.",
     cta: "Ontdek Meer",
@@ -121,7 +121,7 @@ about: {
 "therapy": {
   "title": "Therapiegroepen",
   "highlight": "Kwaliteit, Innovatie & Gezondheid —",
-  "subtitle": "Bij Ivexia ontwikkelen we precisiegerichte therapieën in meerdere domeinen om de wereldwijde gezondheidszorg te transformeren.",
+  "subtitle": "Bij Larksois ontwikkelen we precisiegerichte therapieën in meerdere domeinen om de wereldwijde gezondheidszorg te transformeren.",
 
   "cardiology": {
     "title": "Cardiologie",
@@ -149,14 +149,14 @@ about: {
     title: "De toekomst van de wereldwijde gezondheidszorg vormgeven",
     subtitle: "Gedreven door wetenschap. Aangedreven door innovatie.",
     paragraph:
-      "Bij Ivexia Pharmaceuticals zetten wij ons in voor de vooruitgang van de gezondheidszorg door middel van geavanceerd onderzoek, hoogwaardige productie en wereldwijde distributie.",
-    cta: "Ontdek Ivexia"
+      "Bij Larksois Pharmaceuticals zetten wij ons in voor de vooruitgang van de gezondheidszorg door middel van geavanceerd onderzoek, hoogwaardige productie en wereldwijde distributie.",
+    cta: "Ontdek Larksois"
   }
 },
 leadership: {
   heading: "Leiderschap & Visie",
   subheading:
-    "Bij Ivexia maken we niet alleen geneesmiddelen — we bouwen vertrouwen. Onze mensen zijn onze basis, onze wetenschap is onze kracht en onze visie is onze belofte.",
+    "Bij Larksois maken we niet alleen geneesmiddelen — we bouwen vertrouwen. Onze mensen zijn onze basis, onze wetenschap is onze kracht en onze visie is onze belofte.",
 
   ceo: {
     name: "Mr. Avinaash Satjin Badal",
@@ -214,7 +214,7 @@ researchManufacturing: {
   button: "Ontdekken",
 },
 latest: {
-  heading: "Laatste Nieuws van Ivexia",
+  heading: "Laatste Nieuws van Larksois",
   subheading:
     "Updates van ons onderzoek, productie en belangrijke therapeutische gebieden.",
   readMore: "Lees Meer",
@@ -227,8 +227,8 @@ news: {
     "rd-expansion": {
       title: "Geavanceerde R&D-uitbreiding",
       excerpt:
-        "Ivexia breidt onderzoeksactiviteiten uit om farmaceutische innovatie te versnellen.",
-      content: `Ivexia Pharmaceuticals heeft zijn onderzoeks- en ontwikkelingsinfrastructuur aanzienlijk uitgebreid om zijn innovatiepipeline te versterken.
+        "Larksois breidt onderzoeksactiviteiten uit om farmaceutische innovatie te versnellen.",
+      content: `Larksois Pharmaceuticals heeft zijn onderzoeks- en ontwikkelingsinfrastructuur aanzienlijk uitgebreid om zijn innovatiepipeline te versterken.
 
 De nieuwe laboratoria zijn uitgerust met uiterst nauwkeurige analytische systemen, geavanceerde biotechnologische mogelijkheden en moderne formulatie-eenheden die voldoen aan wereldwijde regelgeving.
 
@@ -241,7 +241,7 @@ Deze uitbreiding maakt snellere molecuulontwikkeling, verbeterde klinische geree
       title: "Productie-excellentie",
       excerpt:
         "Modernisering van faciliteiten volgens internationale GMP-normen.",
-      content: `De productieafdeling van Ivexia heeft belangrijke upgrades ondergaan met geavanceerde automatisering en kwaliteitscontrole.
+      content: `De productieafdeling van Larksois heeft belangrijke upgrades ondergaan met geavanceerde automatisering en kwaliteitscontrole.
 
 De faciliteit integreert nu moderne controlesystemen en verbeterde steriele productie-eenheden.
 
@@ -254,7 +254,7 @@ Deze verbeteringen zorgen voor consistente kwaliteit en betrouwbare levering.`,
       title: "Oncologie Innovatie",
       excerpt:
         "Nieuwe oncologiepipeline gericht op wereldwijde markten.",
-      content: `Ivexia versterkt zijn oncologieportfolio met innovatieve therapieën.
+      content: `Larksois versterkt zijn oncologieportfolio met innovatieve therapieën.
 
 De afdeling werkt aan gespecialiseerde injectables en biotech-platforms.
 
@@ -268,7 +268,7 @@ partners: {
   tag: "Wereldwijd Netwerk",
   heading: "Merken Waarmee Wij Samenwerken",
   desc:
-    "Ivexia ondersteunt farmaceutische bedrijven en distributeurs met betrouwbare productie en exportpartnerschappen.",
+    "Larksois ondersteunt farmaceutische bedrijven en distributeurs met betrouwbare productie en exportpartnerschappen.",
 },
 footer: {
   description: "Wereldwijde gezondheidszorg verbeteren\nInnovatie, kwaliteit en vertrouwen leveren.",
@@ -287,7 +287,7 @@ footer: {
   address: "Wereldwijde farmaceutische hoofdzetel"
 },
 contactPage: {
-  title: "Contact Ivexia Pharmaceuticals",
+  title: "Contact Larksois Pharmaceuticals",
   subtitle: "Neem contact met ons op voor farmaceutische vragen, partnerschappen en ondersteuning.",
   formTitle: "Stuur ons een bericht",
   formSubtitle: "We reageren binnen 24 uur",
@@ -316,7 +316,7 @@ contactPage: {
   messageLengthError: "Minimaal 10 tekens vereist"
 },
 offeringsOverview: {
-  badge: "Ivexia Aanbod Overzicht",
+  badge: "Larksois Aanbod Overzicht",
   title: "Praktische Zorgoplossingen voor Echte Marktuitvoering",
   subtitle: "Deze portfolio is gestructureerd voor distributeurs, importeurs en zorgmerken die consistentie nodig hebben in levering, kwaliteitssystemen en langdurige betrouwbaarheid.",
   browse: "Bekijk Portfolio",
@@ -327,7 +327,7 @@ offeringsOverview: {
 
   track: "Track",
   step: "Stap",
-  imageAlt: "Ivexia aanbod",
+  imageAlt: "Larksois aanbod",
 
   partnerTracks: {
     distributors: "Voor Distributeurs & Importeurs",
@@ -413,14 +413,14 @@ ingredientHero: {
     part2: "ontwikkeld voor wereldwijde formuleringen."
   },
   description:
-    "Ivexia levert gecontroleerde en traceerbare API’s voor gereguleerde markten.",
+    "Larksois levert gecontroleerde en traceerbare API’s voor gereguleerde markten.",
   badges: {
     gmp: "WHO-GMP & cGMP conform",
     coa: "CoA, MSDS & CTD ondersteuning",
     flexible: "Flexibele batchgroottes"
   },
   cta: "Bespreek een API →",
-  imageAlt: "Ivexia API portfolio",
+  imageAlt: "Larksois API portfolio",
   partnerText: "Geverifieerde productiepartners.",
   qualityText: "GMP • Stabiliteit • Traceerbaarheid"
 },
@@ -459,7 +459,7 @@ ingredientGrid: {
   page: "Pagina"
 },
 ingredientStats: {
-  heading: "Ivexia in Cijfers",
+  heading: "Larksois in Cijfers",
   products: "Producten",
   therapy: "Therapiegebieden",
   countries: "Landen Bediend",
@@ -615,7 +615,7 @@ otcPage: {
 },
 oemPage: {
   hero: {
-    badge: "Ivexia Aanbod",
+    badge: "Larksois Aanbod",
     title: "Private Label Productie / OEM",
     desc: "Bouw en schaal uw farmaceutisch merk met gestructureerde OEM-uitvoering, kwaliteitsbeheer en betrouwbare leveringscontinuïteit.",
     contact: "Neem Contact Op",
@@ -841,7 +841,7 @@ testKitsPage: {
 aboutPage: {
   hero: {
     badge: "FARMACEUTISCHE EXCELLENTIE",
-    title: "Over Ivexia Pharmaceuticals",
+    title: "Over Larksois Pharmaceuticals",
     subtitle: "Innovatie in de gezondheidszorg met wereldwijde farmaceutische excellentie en een sterke toewijding aan kwaliteit."
   },
   stats: {
@@ -853,9 +853,9 @@ aboutPage: {
   story: {
     badge: "Ons Verhaal",
     title: "Toegewijd aan Farmaceutische Excellentie sinds 2018",
-    p1: "Ivexia Pharma is een vooruitstrevend farmaceutisch bedrijf, gebouwd op een sterke inzet voor kwaliteit, innovatie en de vooruitgang van wereldwijde gezondheidszorg.",
-    p2: "Sinds de oprichting richt Ivexia Pharma zich op het leveren van betrouwbare farmaceutische producten die voldoen aan internationale normen en zorgverleners, distributeurs, importeurs en patiënten in verschillende markten ondersteunen.",
-    p3: "Vandaag is Ivexia Pharma een betrouwbare partner voor farmaceutische productie, productontwikkeling, exportlevering en marktuitbreiding.",
+    p1: "Larksois Pharma is een vooruitstrevend farmaceutisch bedrijf, gebouwd op een sterke inzet voor kwaliteit, innovatie en de vooruitgang van wereldwijde gezondheidszorg.",
+    p2: "Sinds de oprichting richt Larksois Pharma zich op het leveren van betrouwbare farmaceutische producten die voldoen aan internationale normen en zorgverleners, distributeurs, importeurs en patiënten in verschillende markten ondersteunen.",
+    p3: "Vandaag is Larksois Pharma een betrouwbare partner voor farmaceutische productie, productontwikkeling, exportlevering en marktuitbreiding.",
     highlights: ["Kwaliteit Eerst", "Gedreven door Innovatie"]
   },
   purpose: {
@@ -971,7 +971,7 @@ aboutPage: {
   },
   statement: {
     title: "Gedreven door Innovatie. Versterkt door Kwaliteit.",
-    subtitle: "Ivexia staat vooraan in farmaceutische vooruitgang."
+    subtitle: "Larksois staat vooraan in farmaceutische vooruitgang."
   },
   facilities: {
     title: "Geavanceerde Faciliteiten",
@@ -1026,12 +1026,12 @@ aboutPage: {
   whoWeAre: {
     badge: "Wie Wij Zijn",
     title: "Een Vertrouwde Wereldwijde Farmaceutische Partner",
-    desc: "Ivexia Pharma is een wereldwijde farmaceutische fabrikant en exporteur die hoogwaardige geneesmiddelen, ondersteuning bij productontwikkeling, regelgevende documentatie, verpakkingsoplossingen en betrouwbare exportlevering biedt aan zorgdistributeurs, importeurs, ziekenhuizen en farmaceutische partners wereldwijd."
+    desc: "Larksois Pharma is een wereldwijde farmaceutische fabrikant en exporteur die hoogwaardige geneesmiddelen, ondersteuning bij productontwikkeling, regelgevende documentatie, verpakkingsoplossingen en betrouwbare exportlevering biedt aan zorgdistributeurs, importeurs, ziekenhuizen en farmaceutische partners wereldwijd."
   },
   qualityInfo: {
     badge: "Kwaliteit Eerst",
     title: "Kwaliteit in de Kern van Alles",
-    desc: "Kwaliteit vormt de basis van Ivexia Pharma. Onze aanpak omvat beoordeling van grondstoffen, productiecontrole, procescontroles, testen van eindproducten, verpakkingsinspectie, documentatiebeoordeling en correcte opslagcontrole.",
+    desc: "Kwaliteit vormt de basis van Larksois Pharma. Onze aanpak omvat beoordeling van grondstoffen, productiecontrole, procescontroles, testen van eindproducten, verpakkingsinspectie, documentatiebeoordeling en correcte opslagcontrole.",
     points: [
       "GMP-georiënteerde productienormen",
       "Geverifieerde inkoop van grondstoffen",
@@ -1043,7 +1043,7 @@ aboutPage: {
   exportInfo: {
     badge: "Wereldwijde Exportfocus",
     title: "Betrouwbare Farmaceutische Exportlevering",
-    desc: "Ivexia Pharma ondersteunt distributeurs, importeurs, zorgbedrijven en institutionele kopers met exportklare farmaceutische producten, correcte documentatie, verpakkingsondersteuning, regelgevende coördinatie en marktgerichte leveringsoplossingen."
+    desc: "Larksois Pharma ondersteunt distributeurs, importeurs, zorgbedrijven en institutionele kopers met exportklare farmaceutische producten, correcte documentatie, verpakkingsondersteuning, regelgevende coördinatie en marktgerichte leveringsoplossingen."
   },
   cta: {
     title: "Word Onze Partner",
@@ -1051,12 +1051,12 @@ aboutPage: {
     button: "Neem Contact Op"
   },
   detailedInfo: {
-    badge: "Over Ivexia Pharma",
+    badge: "Over Larksois Pharma",
     title: "Farmaceutische Excellentie Opbouwen sinds 2018",
     sections: [
       {
         title: "Wie Wij Zijn",
-        desc: "Ivexia Pharma is een wereldwijde farmaceutische fabrikant en exporteur die een breed scala aan farmaceutische producten aanbiedt voor gereguleerde en opkomende markten. Ons bedrijf richt zich op kwaliteitsgeneesmiddelen, moderne processen, sterke documentatiesystemen en strenge kwaliteitscontroles."
+        desc: "Larksois Pharma is een wereldwijde farmaceutische fabrikant en exporteur die een breed scala aan farmaceutische producten aanbiedt voor gereguleerde en opkomende markten. Ons bedrijf richt zich op kwaliteitsgeneesmiddelen, moderne processen, sterke documentatiesystemen en strenge kwaliteitscontroles."
       },
       {
         title: "Wat Wij Doen",
@@ -1064,7 +1064,7 @@ aboutPage: {
       },
       {
         title: "Regelgevende Sterkte en Compliance",
-        desc: "Ivexia Pharma volgt een systematische aanpak voor regelgevende vereisten, documentatie, productdossiers, COA-ondersteuning, GMP-gerelateerde documentatie, stabiliteitsgegevens, specificaties, etikettering en exportdocumentatie."
+        desc: "Larksois Pharma volgt een systematische aanpak voor regelgevende vereisten, documentatie, productdossiers, COA-ondersteuning, GMP-gerelateerde documentatie, stabiliteitsgegevens, specificaties, etikettering en exportdocumentatie."
       },
       {
         title: "Innovatie- en Onderzoeksgedreven Groei",
@@ -1072,17 +1072,17 @@ aboutPage: {
       },
       {
         title: "Onze Toewijding aan Gezondheidszorg",
-        desc: "Ivexia Pharma zet zich in om bij te dragen aan wereldwijde gezondheidszorg door veilige, betrouwbare en betaalbare farmaceutische producten te leveren met verantwoordelijkheid, vertrouwen en excellentie."
+        desc: "Larksois Pharma zet zich in om bij te dragen aan wereldwijde gezondheidszorg door veilige, betrouwbare en betaalbare farmaceutische producten te leveren met verantwoordelijkheid, vertrouwen en excellentie."
       },
       {
         title: "De Toekomst Opbouwen",
-        desc: "Ivexia Pharma gaat vooruit met wereldwijde expansie, moderne productie, productdiversificatie en sterkere regelgevende capaciteiten."
+        desc: "Larksois Pharma gaat vooruit met wereldwijde expansie, moderne productie, productdiversificatie en sterkere regelgevende capaciteiten."
       }
     ]
   },
   valuesInfo: {
     badge: "Onze Waarden",
-    title: "Waarden die Ivexia Pharma Leiden",
+    title: "Waarden die Larksois Pharma Leiden",
     points: [
       "Kwaliteit",
       "Integriteit",
@@ -1098,24 +1098,24 @@ aboutPage: {
   },
   faqs: [
     {
-      question: "Wat doet Ivexia Pharma?",
-      answer: "Ivexia Pharma is een farmaceutische fabrikant en exporteur die kwaliteitsgeneesmiddelen, ondersteuning bij productontwikkeling, exportlevering, regelgevende documentatie en verpakkingsoplossingen biedt aan zorgdistributeurs, importeurs en farmaceutische partners wereldwijd."
+      question: "Wat doet Larksois Pharma?",
+      answer: "Larksois Pharma is een farmaceutische fabrikant en exporteur die kwaliteitsgeneesmiddelen, ondersteuning bij productontwikkeling, exportlevering, regelgevende documentatie en verpakkingsoplossingen biedt aan zorgdistributeurs, importeurs en farmaceutische partners wereldwijd."
     },
     {
-      question: "Is Ivexia Pharma een wereldwijd farmaceutisch bedrijf?",
-      answer: "Ja, Ivexia Pharma richt zich op internationale farmaceutische markten en ondersteunt wereldwijde zorgpartners met exportklare farmaceutische producten, kwaliteitsdocumentatie en betrouwbare leveringsoplossingen."
+      question: "Is Larksois Pharma een wereldwijd farmaceutisch bedrijf?",
+      answer: "Ja, Larksois Pharma richt zich op internationale farmaceutische markten en ondersteunt wereldwijde zorgpartners met exportklare farmaceutische producten, kwaliteitsdocumentatie en betrouwbare leveringsoplossingen."
     },
     {
-      question: "Wat maakt Ivexia Pharma een betrouwbare farmaceutische partner?",
-      answer: "Ivexia Pharma richt zich op kwaliteitsproductie, GMP-georiënteerde processen, regelgevende ondersteuning, tijdige levering, ethische bedrijfspraktijken en langdurige partnerwaarde."
+      question: "Wat maakt Larksois Pharma een betrouwbare farmaceutische partner?",
+      answer: "Larksois Pharma richt zich op kwaliteitsproductie, GMP-georiënteerde processen, regelgevende ondersteuning, tijdige levering, ethische bedrijfspraktijken en langdurige partnerwaarde."
     },
     {
-      question: "Ondersteunt Ivexia Pharma farmaceutische export?",
-      answer: "Ja, Ivexia Pharma ondersteunt farmaceutische export met productlevering, documentatiehulp, verpakkingsondersteuning, regelgevende coördinatie en marktgerichte farmaceutische oplossingen."
+      question: "Ondersteunt Larksois Pharma farmaceutische export?",
+      answer: "Ja, Larksois Pharma ondersteunt farmaceutische export met productlevering, documentatiehulp, verpakkingsondersteuning, regelgevende coördinatie en marktgerichte farmaceutische oplossingen."
     },
     {
-      question: "Welke markten bedient Ivexia Pharma?",
-      answer: "Ivexia Pharma streeft ernaar Europa, MENA, Afrika, CIS, Zuidoost-Azië en andere groeiende gezondheidsregio’s te bedienen."
+      question: "Welke markten bedient Larksois Pharma?",
+      answer: "Larksois Pharma streeft ernaar Europa, MENA, Afrika, CIS, Zuidoost-Azië en andere groeiende gezondheidsregio’s te bedienen."
     }
   ],
 },
@@ -1134,10 +1134,10 @@ testKitDetailPage: {
   cutOff: "Afkapwaarde",
   certificate: "Certificaat"
 },
-// ivexia\data1\languages\nl.js - COMPLETE magazine section
+// larksois\data1\languages\nl.js - COMPLETE magazine section
 
 magazine: {
-  title: "Ivexia Magazine",
+  title: "Larksois Magazine",
   loading: "Laden...",
   recentArticles: "Recente Artikelen",
   noRecentArticles: "Nog geen recente artikelen.",
@@ -1412,7 +1412,7 @@ magazine: {
           heading: "Een toewijding die verder gaat dan één dag",
           paragraphs: [
             "Internationale Vrouwendag is een herinnering, geen eenmalig evenement. Het verminderen van hiaten in de gezondheid van vrouwen vereist consistente en langdurige toewijding.",
-            "Voor Ivexia betekent prioriteit geven aan de gezondheid van vrouwen het ontwerpen van geneesmiddelen, communicatie en programma's met de unieke behoeften van vrouwen in gedachten."
+            "Voor Larksois betekent prioriteit geven aan de gezondheid van vrouwen het ontwerpen van geneesmiddelen, communicatie en programma's met de unieke behoeften van vrouwen in gedachten."
           ]
         }
       ]

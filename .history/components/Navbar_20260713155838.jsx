@@ -250,16 +250,16 @@ export default function Navbar({ companyProfile }) {
 
   return (
     <nav className="fixed inset-x-0 top-0 z-50 w-full overflow-x-clip bg-white/95 shadow-md backdrop-blur-md">
-      <div className="mx-auto flex h-[72px] w-full max-w-7xl min-w-0 items-center justify-between px-4 sm:h-[88px] sm:px-6 lg:h-[90px] xl:px-10 2xl:px-0">
+      <div className="mx-auto flex h-[80px] w-full max-w-7xl min-w-0 items-center justify-between px-4 sm:h-[95px] sm:px-6 lg:h-[96px] xl:px-10 2xl:px-0">
         <Link href="/" className="flex min-w-0 shrink-0 items-center max-[360px]:max-w-[72%]">
           <Image
             src="/newlogo2.png"
             alt="Larkosis Pharma Logo"
-            width={5133}
-            height={1201}
+            width={7573}
+            height={2720}
             priority
             sizes="(max-width: 360px) 150px, (max-width: 639px) 170px, (max-width: 1023px) 200px, 225px"
-            className="h-auto w-40 max-w-full object-contain max-[360px]:w-36 sm:w-48 lg:w-56"
+            className="h-14 w-auto max-w-full object-contain sm:h-[68px] lg:h-20"
           />
         </Link>
 
@@ -551,7 +551,7 @@ export default function Navbar({ companyProfile }) {
       )}
 
       {menuOpen && (
-        <div className="w-full max-w-full overflow-x-hidden max-h-[calc(100dvh-72px)] overflow-y-auto border-t border-gray-100 bg-white/95 px-4 py-4 shadow-2xl backdrop-blur-md animate-[mobileMenuSlide_0.28s_ease-out] sm:max-h-[calc(100dvh-88px)] lg:hidden">
+        <div className="w-full max-w-full overflow-x-hidden max-h-[calc(100dvh-80px)] overflow-y-auto border-t border-gray-100 bg-white/95 px-4 py-4 shadow-2xl backdrop-blur-md animate-[mobileMenuSlide_0.28s_ease-out] sm:max-h-[calc(100dvh-95px)] lg:hidden">
           <ul className="mx-auto flex w-full min-w-0 max-w-7xl flex-col gap-2 break-words text-sm font-medium text-gray-800">
             <li
               onClick={() => goTo("/")}
