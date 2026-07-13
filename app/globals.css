@@ -21,11 +21,16 @@
   --font-serif: var(--font-spectral);
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-manrope), "Segoe UI", sans-serif;
-  overflow-x: hidden;
   background-image:
     linear-gradient(180deg, #fffdfb 0%, #fff5ee 44%, #fffef9 100%),
     radial-gradient(circle at 92% 0%, rgba(236, 103, 31, 0.12), transparent 45%),

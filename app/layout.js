@@ -154,7 +154,7 @@ export default function RootLayout({ children }) {
 
           <div className="flex min-h-screen flex-col">
             <SiteHeader navLinks={navLinks} companyProfile={companyProfile} />
-            <main id="main-content" className="flex-1 pt-[64px] sm:pt-[70px]">
+            <main id="main-content" className="flex-1 pt-[80px] sm:pt-[95px] lg:pt-[96px]">
               {children}
             </main>
             <SiteFooter companyProfile={companyProfile} year={year} />

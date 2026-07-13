@@ -21,7 +21,7 @@ export default function SiteFooter({ companyProfile, year }) {
         <div className="grid grid-cols-1 items-start gap-10 text-left md:grid-cols-2 lg:grid-cols-4 lg:gap-12">
           <div className="flex flex-col items-start space-y-4">
             <Image
-              src="/logo.png"
+              src="/larko.png"
               alt="Larkosis Pharma Logo"
               width={320}
               height={120}

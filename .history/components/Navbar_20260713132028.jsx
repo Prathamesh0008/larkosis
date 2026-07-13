@@ -250,15 +250,15 @@ export default function Navbar({ companyProfile }) {
 
   return (
     <nav className="fixed inset-x-0 top-0 z-50 w-full overflow-x-clip bg-white/95 shadow-md backdrop-blur-md">
-      <div className="mx-auto flex h-[80px] w-full max-w-7xl min-w-0 items-center justify-between px-4 sm:h-[95px] sm:px-6 lg:h-[96px] xl:px-10 2xl:px-0">
-        <Link href="/" className="flex min-w-0 shrink-0 items-center max-[360px]:max-w-[72%]">
+      <div className="mx-auto flex h-[72px] w-full max-w-7xl min-w-0 items-center justify-between px-4 sm:h-[95px] sm:px-6 lg:h-[100px] xl:px-10 2xl:px-0">
+        <Link href="/" className="flex min-w-0 shrink-0 items-center">
           <Image
             src="/logo.png"
             alt="Larkosis Pharma Logo"
             width={240}
             height={80}
             priority
-            className="h-12 w-auto max-w-full origin-left scale-[1.6] object-contain min-[361px]:scale-[1.65] sm:mt-4 sm:h-[52px] sm:scale-[1.7] lg:mt-5 lg:h-16 lg:scale-[1.75] xl:h-20 xl:scale-[1.8] 2xl:h-24 2xl:scale-[1.9]"
+            className="h-11 w-auto origin-left scale-[1.7] object-contain sm:h-[52px] sm:scale-[1.8] lg:h-14 lg:scale-[1.75] xl:h-14"
           />
         </Link>
 
@@ -374,8 +374,8 @@ export default function Navbar({ companyProfile }) {
           </li>
         </ul>
 
-        <div ref={langRef} className="flex shrink-0 items-center gap-2 sm:gap-4">
-          <div className="relative hidden lg:block">
+        <div className="flex items-center gap-3 sm:gap-4">
+          <div ref={langRef} className="relative hidden lg:block">
             <button
               type="button"
               onClick={() => setShowLanguages((prev) => !prev)}
@@ -420,74 +420,13 @@ export default function Navbar({ companyProfile }) {
 
           <button
             type="button"
-            className="search-icon flex items-center justify-center text-[#334155] lg:hidden"
-            onClick={() => {
-              setShowSearch((prev) => !prev);
-              setShowLanguages(false);
-              setMenuOpen(false);
-            }}
-            aria-label="Search"
-          >
-            <SearchIcon className="h-5 w-5" />
-          </button>
-
-          <div className="relative lg:hidden">
-            <button
-              type="button"
-              onClick={() => {
-                setShowLanguages((prev) => !prev);
-                setMenuOpen(false);
-              }}
-              className="flex items-center justify-center"
-              aria-label="Select language"
-              aria-expanded={showLanguages}
-            >
-              <Image
-                src={`https://flagcdn.com/w20/${currentLang.flag}.png`}
-                alt=""
-                width={20}
-                height={16}
-                unoptimized
-                className="h-[18px] w-[23px] rounded-[2px]"
-              />
-            </button>
-
-            {showLanguages && (
-              <ul className="absolute right-0 z-50 mt-2 max-h-[60dvh] w-44 overflow-y-auto rounded-xl border border-gray-100 bg-white p-2 text-sm font-medium shadow-2xl">
-                {languages.map((item) => (
-                  <li
-                    key={item.code}
-                    onClick={() => selectLanguage(item.code)}
-                    className={`flex cursor-pointer items-center gap-2 rounded-lg px-3 py-2 ${language === item.code ? "bg-[#e8f6fb] text-[#0d2d47]" : "hover:bg-gray-100"}`}
-                  >
-                    <Image
-                      src={`https://flagcdn.com/w20/${item.flag}.png`}
-                      alt=""
-                      width={20}
-                      height={16}
-                      unoptimized
-                      className="h-4 w-5 rounded-sm"
-                    />
-                    <span>{item.label}</span>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </div>
-
-          <button
-            type="button"
             className="lg:hidden"
-            onClick={() => {
-              setMenuOpen((prev) => !prev);
-              setShowLanguages(false);
-              setShowSearch(false);
-            }}
+            onClick={() => setMenuOpen((prev) => !prev)}
           >
             {menuOpen ? (
-              <CloseIcon className="h-6 w-6 text-[#334155]" />
+              <CloseIcon className="h-5 w-5 text-gray-700" />
             ) : (
-              <BarsIcon className="h-6 w-6 text-[#334155]" />
+              <BarsIcon className="h-5 w-5 text-gray-700" />
             )}
           </button>
         </div>
@@ -550,7 +489,7 @@ export default function Navbar({ companyProfile }) {
       )}
 
       {menuOpen && (
-        <div className="w-full max-w-full overflow-x-hidden max-h-[calc(100dvh-80px)] overflow-y-auto border-t border-gray-100 bg-white/95 px-4 py-4 shadow-2xl backdrop-blur-md animate-[mobileMenuSlide_0.28s_ease-out] sm:max-h-[calc(100dvh-95px)] lg:hidden">
+        <div className="w-full max-w-full overflow-x-hidden max-h-[calc(100dvh-72px)] overflow-y-auto border-t border-gray-100 bg-white/95 px-4 py-4 shadow-2xl backdrop-blur-md animate-[mobileMenuSlide_0.28s_ease-out] sm:max-h-[calc(100dvh-92px)] lg:hidden">
           <ul className="mx-auto flex w-full min-w-0 max-w-7xl flex-col gap-2 break-words text-sm font-medium text-gray-800">
             <li
               onClick={() => goTo("/")}
@@ -657,6 +596,29 @@ export default function Navbar({ companyProfile }) {
                   >
                     {translations?.nav?.mag_health || "Health"}
                   </span>
+                </div>
+              </details>
+            </li>
+
+            <li>
+              <details className="group rounded-xl bg-gray-50 p-2">
+                <summary className="flex cursor-pointer items-center justify-between px-2 py-2 text-[#0d2d47]">
+                  <span className="rounded-full px-3 py-1">
+                    {currentLang.label}
+                  </span>
+                  <ChevronDownIcon className="h-4 w-4 transition-transform group-open:rotate-180" />
+                </summary>
+
+                <div className="mt-2 flex flex-col gap-1 pl-2">
+                  {languages.map((item) => (
+                    <span
+                      key={item.code}
+                      onClick={() => selectLanguage(item.code)}
+                      className={mobileSubItemClass(language === item.code)}
+                    >
+                      {item.label}
+                    </span>
+                  ))}
                 </div>
               </details>
             </li>
